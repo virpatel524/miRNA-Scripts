@@ -39,6 +39,23 @@ def sort_mir(txt,txt2):
 		if i[0][:2] == 'ID' : current_fam = lst[1]
 		if i[0][:2] == 'MI' : famdict.setdefault(current_fam,[]).append(lst[2])
 
+
+
+	family_file_for_mirbase = open('/Users/virpatel/Desktop/pub_stuff/relevant_data/family_file_ph.txt','w')
+
+	for i in famdict:
+		for mir in famdict[i]:
+			print mir
+			if mir != famdict[i][-1]:
+				family_file_for_mirbase.write('%s|mirBase:%s' %(mir[:3], mir)) 
+			else: family_file_for_mirbase.write('%s|mirBase:%s\n' %(mir[:3], mir)) 
+
+	family_file_for_mirbase.close()
+
+
+
+
+
 	return mega_mir_lst, mirlst_by_species, mirlst_by_family
 
 
@@ -58,7 +75,13 @@ def main():
 
 	mega_mir_lst, mirlst_by_species, mirlst_by_fam = sort_mir(open(mirdb,'r'),open(famdb,'r'))
 
-	
+
+
+
+
+
+
+
 
 
 
