@@ -1,0 +1,33 @@
+# /Users/virpatel/Desktop/pub_stuff/ProteinHistorian/age_proteins.py -t /Users/virpatel/Desktop/pub_stuff/relevant_data/time_tree_dates.txt -o /Users/virpatel/Desktop/pub_stuff/relevant_data/all_ages/ /Users/virpatel/Desktop/pub_stuff/relevant_data/family_file_ph.txt /Users/virpatel/Desktop/pub_stuff/relevant_data/phylo_tree.txt 2016-04-29 23:49:35.406925
+#
+# FAMILY_FILE = /Users/virpatel/Desktop/pub_stuff/relevant_data/family_file_ph.txt
+# TREE_FILE = /Users/virpatel/Desktop/pub_stuff/relevant_data/phylo_tree.txt
+# RECONSTRUCTION_ALGO = dollo
+# GAIN_PENALTY = 1
+# OUTPUT_NAME = family_file_ph_dollo
+# OUTPUT_DIR = /Users/virpatel/Desktop/pub_stuff/relevant_data/all_ages/
+# OUTPUT_FORMATS = ['depth', 'label', 'time', 'profile']
+# TIME_FILE = /Users/virpatel/Desktop/pub_stuff/relevant_data/time_tree_dates.txt
+# ADDITIONAL_ID_FILE = None
+#
+sma-let-7	Bilateria
+sma-mir-10	Bilateria
+sma-mir-125a	Trematoda
+sma-mir-125b	Bilateria
+sma-mir-190	Trematoda
+sma-mir-1a	Bilateria
+sma-mir-2162	Trematoda
+sma-mir-219	Bilateria
+sma-mir-2a	Trematoda
+sma-mir-2b	Bilateria
+sma-mir-2c	Bilateria
+sma-mir-2d	Bilateria
+sma-mir-2e	Bilateria
+sma-mir-31	Trematoda
+sma-mir-3479	Trematoda
+sma-mir-3492	Trematoda
+sma-mir-36a	Bilateria
+sma-mir-61	Trematoda
+sma-mir-71a	Bilateria
+sma-mir-71b	Bilateria
+sma-mir-8	Bilateria

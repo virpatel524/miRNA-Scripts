@@ -1,0 +1,75 @@
+# /Users/virpatel/Desktop/pub_stuff/ProteinHistorian/age_proteins.py -t /Users/virpatel/Desktop/pub_stuff/relevant_data/time_tree_dates.txt -o /Users/virpatel/Desktop/pub_stuff/relevant_data/all_ages/ /Users/virpatel/Desktop/pub_stuff/relevant_data/family_file_ph.txt /Users/virpatel/Desktop/pub_stuff/relevant_data/phylo_tree.txt 2016-04-29 23:49:35.406925
+#
+# FAMILY_FILE = /Users/virpatel/Desktop/pub_stuff/relevant_data/family_file_ph.txt
+# TREE_FILE = /Users/virpatel/Desktop/pub_stuff/relevant_data/phylo_tree.txt
+# RECONSTRUCTION_ALGO = dollo
+# GAIN_PENALTY = 1
+# OUTPUT_NAME = family_file_ph_dollo
+# OUTPUT_DIR = /Users/virpatel/Desktop/pub_stuff/relevant_data/all_ages/
+# OUTPUT_FORMATS = ['depth', 'label', 'time', 'profile']
+# TIME_FILE = /Users/virpatel/Desktop/pub_stuff/relevant_data/time_tree_dates.txt
+# ADDITIONAL_ID_FILE = None
+#
+aga-bantam	23
+aga-let-7	23
+aga-mir-1	23
+aga-mir-10	23
+aga-mir-100	23
+aga-mir-1000	12
+aga-mir-11	11
+aga-mir-1175	22
+aga-mir-12	22
+aga-mir-124	23
+aga-mir-125	23
+aga-mir-133	23
+aga-mir-137	23
+aga-mir-13b	23
+aga-mir-14	12
+aga-mir-184	23
+aga-mir-1890	9
+aga-mir-1891	9
+aga-mir-190	23
+aga-mir-2-1	23
+aga-mir-2-2	23
+aga-mir-210	23
+aga-mir-219	23
+aga-mir-263a	22
+aga-mir-263b	22
+aga-mir-275	19
+aga-mir-276	19
+aga-mir-277	12
+aga-mir-278	23
+aga-mir-279	22
+aga-mir-281	23
+aga-mir-282	11
+aga-mir-283	23
+aga-mir-286	10
+aga-mir-305	19
+aga-mir-307	23
+aga-mir-308	11
+aga-mir-309	10
+aga-mir-315	23
+aga-mir-317	19
+aga-mir-34	23
+aga-mir-375	23
+aga-mir-7	23
+aga-mir-79	23
+aga-mir-8	23
+aga-mir-87	23
+aga-mir-927	12
+aga-mir-929	12
+aga-mir-92a	23
+aga-mir-92b	23
+aga-mir-957	10
+aga-mir-965-1	18
+aga-mir-965-2	18
+aga-mir-970	11
+aga-mir-981	23
+aga-mir-988	10
+aga-mir-989	11
+aga-mir-993	23
+aga-mir-996	12
+aga-mir-9a	23
+aga-mir-9b	23
+aga-mir-9c	23
+aga-mir-iab-4	19

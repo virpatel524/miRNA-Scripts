@@ -1,0 +1,43 @@
+# /Users/virpatel/Desktop/pub_stuff/ProteinHistorian/age_proteins.py -t /Users/virpatel/Desktop/pub_stuff/relevant_data/time_tree_dates.txt -o /Users/virpatel/Desktop/pub_stuff/relevant_data/all_ages/ /Users/virpatel/Desktop/pub_stuff/relevant_data/family_file_ph.txt /Users/virpatel/Desktop/pub_stuff/relevant_data/phylo_tree.txt 2016-04-29 23:49:35.406925
+#
+# FAMILY_FILE = /Users/virpatel/Desktop/pub_stuff/relevant_data/family_file_ph.txt
+# TREE_FILE = /Users/virpatel/Desktop/pub_stuff/relevant_data/phylo_tree.txt
+# RECONSTRUCTION_ALGO = dollo
+# GAIN_PENALTY = 1
+# OUTPUT_NAME = family_file_ph_dollo
+# OUTPUT_DIR = /Users/virpatel/Desktop/pub_stuff/relevant_data/all_ages/
+# OUTPUT_FORMATS = ['depth', 'label', 'time', 'profile']
+# TIME_FILE = /Users/virpatel/Desktop/pub_stuff/relevant_data/time_tree_dates.txt
+# ADDITIONAL_ID_FILE = None
+#
+osa-MIR167a	147.8
+osa-MIR167b	147.8
+osa-MIR167c	147.8
+osa-MIR167d	147.8
+osa-MIR167e	147.8
+osa-MIR167f	147.8
+osa-MIR167g	147.8
+osa-MIR167h	147.8
+osa-MIR167i	147.8
+osa-MIR167j	147.8
+osa-MIR168a	147.8
+osa-MIR169d	147.8
+osa-MIR169e	147.8
+osa-MIR169f	147.8
+osa-MIR169g	147.8
+osa-MIR169h	147.8
+osa-MIR169i	147.8
+osa-MIR169j	147.8
+osa-MIR169k	147.8
+osa-MIR169l	147.8
+osa-MIR169m	147.8
+osa-MIR169n	147.8
+osa-MIR169o	147.8
+osa-MIR169r	147.8
+osa-MIR172a	147.8
+osa-MIR172b	147.8
+osa-MIR172c	147.8
+osa-MIR172d	147.8
+osa-MIR393a	147.8
+osa-MIR393b	147.8
+osa-MIR394	147.8

@@ -1,0 +1,23 @@
+# /Users/virpatel/Desktop/pub_stuff/ProteinHistorian/age_proteins.py -t /Users/virpatel/Desktop/pub_stuff/relevant_data/time_tree_dates.txt -o /Users/virpatel/Desktop/pub_stuff/relevant_data/all_ages/ /Users/virpatel/Desktop/pub_stuff/relevant_data/family_file_ph.txt /Users/virpatel/Desktop/pub_stuff/relevant_data/phylo_tree.txt 2016-04-29 23:49:35.406925
+#
+# FAMILY_FILE = /Users/virpatel/Desktop/pub_stuff/relevant_data/family_file_ph.txt
+# TREE_FILE = /Users/virpatel/Desktop/pub_stuff/relevant_data/phylo_tree.txt
+# RECONSTRUCTION_ALGO = dollo
+# GAIN_PENALTY = 1
+# OUTPUT_NAME = family_file_ph_dollo
+# OUTPUT_DIR = /Users/virpatel/Desktop/pub_stuff/relevant_data/all_ages/
+# OUTPUT_FORMATS = ['depth', 'label', 'time', 'profile']
+# TIME_FILE = /Users/virpatel/Desktop/pub_stuff/relevant_data/time_tree_dates.txt
+# ADDITIONAL_ID_FILE = None
+#
+ssy-mir-506	Boreoeutheria
+ssy-mir-507	Boreoeutheria
+ssy-mir-508	Boreoeutheria
+ssy-mir-509a	Boreoeutheria
+ssy-mir-509b	Boreoeutheria
+ssy-mir-510	Boreoeutheria
+ssy-mir-513a	Boreoeutheria
+ssy-mir-513b-1	Boreoeutheria
+ssy-mir-513b-2	Boreoeutheria
+ssy-mir-513c	Boreoeutheria
+ssy-mir-514	Boreoeutheria

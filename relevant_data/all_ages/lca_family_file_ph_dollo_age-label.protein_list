@@ -1,0 +1,28 @@
+# /Users/virpatel/Desktop/pub_stuff/ProteinHistorian/age_proteins.py -t /Users/virpatel/Desktop/pub_stuff/relevant_data/time_tree_dates.txt -o /Users/virpatel/Desktop/pub_stuff/relevant_data/all_ages/ /Users/virpatel/Desktop/pub_stuff/relevant_data/family_file_ph.txt /Users/virpatel/Desktop/pub_stuff/relevant_data/phylo_tree.txt 2016-04-29 23:49:35.406925
+#
+# FAMILY_FILE = /Users/virpatel/Desktop/pub_stuff/relevant_data/family_file_ph.txt
+# TREE_FILE = /Users/virpatel/Desktop/pub_stuff/relevant_data/phylo_tree.txt
+# RECONSTRUCTION_ALGO = dollo
+# GAIN_PENALTY = 1
+# OUTPUT_NAME = family_file_ph_dollo
+# OUTPUT_DIR = /Users/virpatel/Desktop/pub_stuff/relevant_data/all_ages/
+# OUTPUT_FORMATS = ['depth', 'label', 'time', 'profile']
+# TIME_FILE = /Users/virpatel/Desktop/pub_stuff/relevant_data/time_tree_dates.txt
+# ADDITIONAL_ID_FILE = None
+#
+lca-mir-125b	Bilateria
+lca-mir-15a	Vertebrata
+lca-mir-16	Vertebrata
+lca-mir-17	Vertebrata
+lca-mir-18	Vertebrata
+lca-mir-19a	Vertebrata
+lca-mir-19b-1	Vertebrata
+lca-mir-19b-2	Vertebrata
+lca-mir-20	Vertebrata
+lca-mir-216	Bilateria
+lca-mir-218	Vertebrata
+lca-mir-22	Deuterostomia
+lca-mir-23a	Vertebrata
+lca-mir-27a	Vertebrata
+lca-mir-92-1	Bilateria
+lca-mir-92-2	Bilateria

@@ -1,0 +1,73 @@
+# /Users/virpatel/Desktop/pub_stuff/ProteinHistorian/age_proteins.py -t /Users/virpatel/Desktop/pub_stuff/relevant_data/time_tree_dates.txt -o /Users/virpatel/Desktop/pub_stuff/relevant_data/all_ages/ /Users/virpatel/Desktop/pub_stuff/relevant_data/family_file_ph.txt /Users/virpatel/Desktop/pub_stuff/relevant_data/phylo_tree.txt 2016-04-29 23:49:35.406925
+#
+# FAMILY_FILE = /Users/virpatel/Desktop/pub_stuff/relevant_data/family_file_ph.txt
+# TREE_FILE = /Users/virpatel/Desktop/pub_stuff/relevant_data/phylo_tree.txt
+# RECONSTRUCTION_ALGO = dollo
+# GAIN_PENALTY = 1
+# OUTPUT_NAME = family_file_ph_dollo
+# OUTPUT_DIR = /Users/virpatel/Desktop/pub_stuff/relevant_data/all_ages/
+# OUTPUT_FORMATS = ['depth', 'label', 'time', 'profile']
+# TIME_FILE = /Users/virpatel/Desktop/pub_stuff/relevant_data/time_tree_dates.txt
+# ADDITIONAL_ID_FILE = None
+#
+sha-let-7a	18
+sha-let-7g	18
+sha-let-7i	18
+sha-mir-100	18
+sha-mir-101	11
+sha-mir-10a	18
+sha-mir-10b	18
+sha-mir-125a	18
+sha-mir-125b	18
+sha-mir-126	16
+sha-mir-128	14
+sha-mir-129	16
+sha-mir-130a	14
+sha-mir-130b	14
+sha-mir-1329	7
+sha-mir-133a	18
+sha-mir-135a	16
+sha-mir-138-1	14
+sha-mir-138-2	14
+sha-mir-139	11
+sha-mir-140	11
+sha-mir-141	18
+sha-mir-142	11
+sha-mir-150	11
+sha-mir-1540	4
+sha-mir-1549	4
+sha-mir-181a-1	14
+sha-mir-181a-2	14
+sha-mir-190	18
+sha-mir-193	18
+sha-mir-199a	14
+sha-mir-19b	14
+sha-mir-200a	18
+sha-mir-200b	18
+sha-mir-200c	18
+sha-mir-202	11
+sha-mir-204	14
+sha-mir-205	14
+sha-mir-21	11
+sha-mir-216a	18
+sha-mir-216b	18
+sha-mir-221	14
+sha-mir-222	14
+sha-mir-23a	14
+sha-mir-23b	14
+sha-mir-24-1	14
+sha-mir-24-2	14
+sha-mir-25	18
+sha-mir-26a	14
+sha-mir-27b	14
+sha-mir-30c	14
+sha-mir-30e	14
+sha-mir-338	11
+sha-mir-363	11
+sha-mir-383	8
+sha-mir-454	11
+sha-mir-497	5
+sha-mir-7	18
+sha-mir-9	18
+sha-mir-92a	11
+sha-mir-93	14

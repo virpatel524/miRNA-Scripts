@@ -1,0 +1,76 @@
+# /Users/virpatel/Desktop/pub_stuff/ProteinHistorian/age_proteins.py -t /Users/virpatel/Desktop/pub_stuff/relevant_data/time_tree_dates.txt -o /Users/virpatel/Desktop/pub_stuff/relevant_data/all_ages/ /Users/virpatel/Desktop/pub_stuff/relevant_data/family_file_ph.txt /Users/virpatel/Desktop/pub_stuff/relevant_data/phylo_tree.txt 2016-04-29 23:49:35.406925
+#
+# FAMILY_FILE = /Users/virpatel/Desktop/pub_stuff/relevant_data/family_file_ph.txt
+# TREE_FILE = /Users/virpatel/Desktop/pub_stuff/relevant_data/phylo_tree.txt
+# RECONSTRUCTION_ALGO = dollo
+# GAIN_PENALTY = 1
+# OUTPUT_NAME = family_file_ph_dollo
+# OUTPUT_DIR = /Users/virpatel/Desktop/pub_stuff/relevant_data/all_ages/
+# OUTPUT_FORMATS = ['depth', 'label', 'time', 'profile']
+# TIME_FILE = /Users/virpatel/Desktop/pub_stuff/relevant_data/time_tree_dates.txt
+# ADDITIONAL_ID_FILE = None
+#
+bra-MIR1140	Brassica
+bra-MIR156a	Embryophyta
+bra-MIR156b	Embryophyta
+bra-MIR156c	Embryophyta
+bra-MIR156d	Embryophyta
+bra-MIR156e	Embryophyta
+bra-MIR156f	Embryophyta
+bra-MIR156g	Embryophyta
+bra-MIR157a	Embryophyta
+bra-MIR158	Brassicaceae
+bra-MIR159a	Embryophyta
+bra-MIR160a	Embryophyta
+bra-MIR161	Brassicaceae
+bra-MIR162	Spermatophyta
+bra-MIR164a	Spermatophyta
+bra-MIR164b	Spermatophyta
+bra-MIR164c	Spermatophyta
+bra-MIR164d	Spermatophyta
+bra-MIR164e	Spermatophyta
+bra-MIR167a	Magnoliophyta
+bra-MIR167b	Magnoliophyta
+bra-MIR167c	Magnoliophyta
+bra-MIR167d	Magnoliophyta
+bra-MIR168a	Magnoliophyta
+bra-MIR168b	Magnoliophyta
+bra-MIR168c	Magnoliophyta
+bra-MIR171a	Embryophyta
+bra-MIR171b	Embryophyta
+bra-MIR171c	Embryophyta
+bra-MIR171d	Embryophyta
+bra-MIR171e	Embryophyta
+bra-MIR172a	Magnoliophyta
+bra-MIR172b	Magnoliophyta
+bra-MIR172c	Magnoliophyta
+bra-MIR172d	Magnoliophyta
+bra-MIR1885a	bra
+bra-MIR1885b	bra
+bra-MIR2111	rosids
+bra-MIR2111a	rosids
+bra-MIR2111b	rosids
+bra-MIR319	Embryophyta
+bra-MIR390	Embryophyta
+bra-MIR395a	Spermatophyta
+bra-MIR395b	Spermatophyta
+bra-MIR395c	Spermatophyta
+bra-MIR395d	Spermatophyta
+bra-MIR396	Tracheophyta
+bra-MIR398	Spermatophyta
+bra-MIR403	Pentapetalae
+bra-MIR408	Embryophyta
+bra-MIR5654a	bra
+bra-MIR5654b	bra
+bra-MIR6032	Brassica
+bra-MIR824	Brassicaceae
+bra-MIR860	Brassicaceae
+bra-MIR9408	Brassica
+bra-MIR9552a	bra
+bra-MIR9552b	bra
+bra-MIR9555a	bra
+bra-MIR9555b	bra
+bra-MIR9560a	bra
+bra-MIR9560b	bra
+bra-MIR9563a	bra
+bra-MIR9563b	bra

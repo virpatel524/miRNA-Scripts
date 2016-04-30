@@ -1,0 +1,68 @@
+# /Users/virpatel/Desktop/pub_stuff/ProteinHistorian/age_proteins.py -t /Users/virpatel/Desktop/pub_stuff/relevant_data/time_tree_dates.txt -o /Users/virpatel/Desktop/pub_stuff/relevant_data/all_ages/ /Users/virpatel/Desktop/pub_stuff/relevant_data/family_file_ph.txt /Users/virpatel/Desktop/pub_stuff/relevant_data/phylo_tree.txt 2016-04-29 23:49:35.406925
+#
+# FAMILY_FILE = /Users/virpatel/Desktop/pub_stuff/relevant_data/family_file_ph.txt
+# TREE_FILE = /Users/virpatel/Desktop/pub_stuff/relevant_data/phylo_tree.txt
+# RECONSTRUCTION_ALGO = dollo
+# GAIN_PENALTY = 1
+# OUTPUT_NAME = family_file_ph_dollo
+# OUTPUT_DIR = /Users/virpatel/Desktop/pub_stuff/relevant_data/all_ages/
+# OUTPUT_FORMATS = ['depth', 'label', 'time', 'profile']
+# TIME_FILE = /Users/virpatel/Desktop/pub_stuff/relevant_data/time_tree_dates.txt
+# ADDITIONAL_ID_FILE = None
+#
+cin-let-7a-1	910.0
+cin-let-7a-2	910.0
+cin-let-7b	910.0
+cin-let-7c	910.0
+cin-let-7d	910.0
+cin-let-7e	910.0
+cin-mir-1	910.0
+cin-mir-124-1	910.0
+cin-mir-124-2	910.0
+cin-mir-126	797.0
+cin-mir-133	910.0
+cin-mir-141	910.0
+cin-mir-1502a	0.0
+cin-mir-153	910.0
+cin-mir-183	842.0
+cin-mir-184	910.0
+cin-mir-216	910.0
+cin-mir-219	910.0
+cin-mir-31	910.0
+cin-mir-33	910.0
+cin-mir-34	910.0
+cin-mir-4000a-1	0.0
+cin-mir-4000a-2	0.0
+cin-mir-4000b-1	0.0
+cin-mir-4000b-2	0.0
+cin-mir-4000d	0.0
+cin-mir-4003a-1	0.0
+cin-mir-4003a-2	0.0
+cin-mir-4003a-3	0.0
+cin-mir-4003a-4	0.0
+cin-mir-4003b	0.0
+cin-mir-4005a	0.0
+cin-mir-4005b	0.0
+cin-mir-4007	0.0
+cin-mir-4012-1	0.0
+cin-mir-4012-2	0.0
+cin-mir-4015-1	0.0
+cin-mir-4015-2	0.0
+cin-mir-4017-1	0.0
+cin-mir-4017-2	0.0
+cin-mir-4018a	0.0
+cin-mir-4019	0.0
+cin-mir-4041	0.0
+cin-mir-4042	0.0
+cin-mir-4077a	0.0
+cin-mir-4077b	0.0
+cin-mir-4077c	0.0
+cin-mir-4079	0.0
+cin-mir-4080	0.0
+cin-mir-4081	0.0
+cin-mir-4082	0.0
+cin-mir-4178a	0.0
+cin-mir-4178b	0.0
+cin-mir-7	910.0
+cin-mir-92a	910.0
+cin-mir-92b	910.0

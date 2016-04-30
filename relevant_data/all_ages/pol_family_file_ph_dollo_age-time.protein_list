@@ -1,0 +1,32 @@
+# /Users/virpatel/Desktop/pub_stuff/ProteinHistorian/age_proteins.py -t /Users/virpatel/Desktop/pub_stuff/relevant_data/time_tree_dates.txt -o /Users/virpatel/Desktop/pub_stuff/relevant_data/all_ages/ /Users/virpatel/Desktop/pub_stuff/relevant_data/family_file_ph.txt /Users/virpatel/Desktop/pub_stuff/relevant_data/phylo_tree.txt 2016-04-29 23:49:35.406925
+#
+# FAMILY_FILE = /Users/virpatel/Desktop/pub_stuff/relevant_data/family_file_ph.txt
+# TREE_FILE = /Users/virpatel/Desktop/pub_stuff/relevant_data/phylo_tree.txt
+# RECONSTRUCTION_ALGO = dollo
+# GAIN_PENALTY = 1
+# OUTPUT_NAME = family_file_ph_dollo
+# OUTPUT_DIR = /Users/virpatel/Desktop/pub_stuff/relevant_data/all_ages/
+# OUTPUT_FORMATS = ['depth', 'label', 'time', 'profile']
+# TIME_FILE = /Users/virpatel/Desktop/pub_stuff/relevant_data/time_tree_dates.txt
+# ADDITIONAL_ID_FILE = None
+#
+pol-let-7a	910.0
+pol-let-7b	910.0
+pol-let-7d	910.0
+pol-mir-1	910.0
+pol-mir-10b	910.0
+pol-mir-122	454.6
+pol-mir-124	910.0
+pol-mir-133	910.0
+pol-mir-140	454.6
+pol-mir-144	535.7
+pol-mir-182	910.0
+pol-mir-199a-1	535.7
+pol-mir-199a-2	535.7
+pol-mir-203	535.7
+pol-mir-206	910.0
+pol-mir-21	454.6
+pol-mir-219	910.0
+pol-mir-22	842.0
+pol-mir-221	535.7
+pol-mir-9b	910.0

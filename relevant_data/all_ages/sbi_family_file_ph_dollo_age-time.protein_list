@@ -1,0 +1,40 @@
+# /Users/virpatel/Desktop/pub_stuff/ProteinHistorian/age_proteins.py -t /Users/virpatel/Desktop/pub_stuff/relevant_data/time_tree_dates.txt -o /Users/virpatel/Desktop/pub_stuff/relevant_data/all_ages/ /Users/virpatel/Desktop/pub_stuff/relevant_data/family_file_ph.txt /Users/virpatel/Desktop/pub_stuff/relevant_data/phylo_tree.txt 2016-04-29 23:49:35.406925
+#
+# FAMILY_FILE = /Users/virpatel/Desktop/pub_stuff/relevant_data/family_file_ph.txt
+# TREE_FILE = /Users/virpatel/Desktop/pub_stuff/relevant_data/phylo_tree.txt
+# RECONSTRUCTION_ALGO = dollo
+# GAIN_PENALTY = 1
+# OUTPUT_NAME = family_file_ph_dollo
+# OUTPUT_DIR = /Users/virpatel/Desktop/pub_stuff/relevant_data/all_ages/
+# OUTPUT_FORMATS = ['depth', 'label', 'time', 'profile']
+# TIME_FILE = /Users/virpatel/Desktop/pub_stuff/relevant_data/time_tree_dates.txt
+# ADDITIONAL_ID_FILE = None
+#
+sbi-MIR167a	147.8
+sbi-MIR167b	147.8
+sbi-MIR167c	147.8
+sbi-MIR167d	147.8
+sbi-MIR167g	147.8
+sbi-MIR167h	147.8
+sbi-MIR167i	147.8
+sbi-MIR168	147.8
+sbi-MIR169c	147.8
+sbi-MIR169d	147.8
+sbi-MIR169f	147.8
+sbi-MIR169g	147.8
+sbi-MIR169h	147.8
+sbi-MIR169i	147.8
+sbi-MIR169l	147.8
+sbi-MIR169m	147.8
+sbi-MIR169n	147.8
+sbi-MIR169o	147.8
+sbi-MIR172a	147.8
+sbi-MIR172b	147.8
+sbi-MIR172c	147.8
+sbi-MIR172d	147.8
+sbi-MIR172e	147.8
+sbi-MIR172f	147.8
+sbi-MIR393a	147.8
+sbi-MIR393b	147.8
+sbi-MIR394a	147.8
+sbi-MIR394b	147.8

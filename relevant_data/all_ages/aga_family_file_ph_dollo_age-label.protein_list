@@ -1,0 +1,75 @@
+# /Users/virpatel/Desktop/pub_stuff/ProteinHistorian/age_proteins.py -t /Users/virpatel/Desktop/pub_stuff/relevant_data/time_tree_dates.txt -o /Users/virpatel/Desktop/pub_stuff/relevant_data/all_ages/ /Users/virpatel/Desktop/pub_stuff/relevant_data/family_file_ph.txt /Users/virpatel/Desktop/pub_stuff/relevant_data/phylo_tree.txt 2016-04-29 23:49:35.406925
+#
+# FAMILY_FILE = /Users/virpatel/Desktop/pub_stuff/relevant_data/family_file_ph.txt
+# TREE_FILE = /Users/virpatel/Desktop/pub_stuff/relevant_data/phylo_tree.txt
+# RECONSTRUCTION_ALGO = dollo
+# GAIN_PENALTY = 1
+# OUTPUT_NAME = family_file_ph_dollo
+# OUTPUT_DIR = /Users/virpatel/Desktop/pub_stuff/relevant_data/all_ages/
+# OUTPUT_FORMATS = ['depth', 'label', 'time', 'profile']
+# TIME_FILE = /Users/virpatel/Desktop/pub_stuff/relevant_data/time_tree_dates.txt
+# ADDITIONAL_ID_FILE = None
+#
+aga-bantam	Bilateria
+aga-let-7	Bilateria
+aga-mir-1	Bilateria
+aga-mir-10	Bilateria
+aga-mir-100	Bilateria
+aga-mir-1000	Neoptera
+aga-mir-11	Endopterygota
+aga-mir-1175	Protostomia
+aga-mir-12	Protostomia
+aga-mir-124	Bilateria
+aga-mir-125	Bilateria
+aga-mir-133	Bilateria
+aga-mir-137	Bilateria
+aga-mir-13b	Bilateria
+aga-mir-14	Neoptera
+aga-mir-184	Bilateria
+aga-mir-1890	Nematocera
+aga-mir-1891	Nematocera
+aga-mir-190	Bilateria
+aga-mir-2-1	Bilateria
+aga-mir-2-2	Bilateria
+aga-mir-210	Bilateria
+aga-mir-219	Bilateria
+aga-mir-263a	Protostomia
+aga-mir-263b	Protostomia
+aga-mir-275	Arthropoda
+aga-mir-276	Arthropoda
+aga-mir-277	Neoptera
+aga-mir-278	Bilateria
+aga-mir-279	Protostomia
+aga-mir-281	Bilateria
+aga-mir-282	Endopterygota
+aga-mir-283	Bilateria
+aga-mir-286	Diptera
+aga-mir-305	Arthropoda
+aga-mir-307	Bilateria
+aga-mir-308	Endopterygota
+aga-mir-309	Diptera
+aga-mir-315	Bilateria
+aga-mir-317	Arthropoda
+aga-mir-34	Bilateria
+aga-mir-375	Bilateria
+aga-mir-7	Bilateria
+aga-mir-79	Bilateria
+aga-mir-8	Bilateria
+aga-mir-87	Bilateria
+aga-mir-927	Neoptera
+aga-mir-929	Neoptera
+aga-mir-92a	Bilateria
+aga-mir-92b	Bilateria
+aga-mir-957	Diptera
+aga-mir-965-1	Mandibulata
+aga-mir-965-2	Mandibulata
+aga-mir-970	Endopterygota
+aga-mir-981	Bilateria
+aga-mir-988	Diptera
+aga-mir-989	Endopterygota
+aga-mir-993	Bilateria
+aga-mir-996	Neoptera
+aga-mir-9a	Bilateria
+aga-mir-9b	Bilateria
+aga-mir-9c	Bilateria
+aga-mir-iab-4	Arthropoda

@@ -1,0 +1,61 @@
+# /Users/virpatel/Desktop/pub_stuff/ProteinHistorian/age_proteins.py -t /Users/virpatel/Desktop/pub_stuff/relevant_data/time_tree_dates.txt -o /Users/virpatel/Desktop/pub_stuff/relevant_data/all_ages/ /Users/virpatel/Desktop/pub_stuff/relevant_data/family_file_ph.txt /Users/virpatel/Desktop/pub_stuff/relevant_data/phylo_tree.txt 2016-04-29 23:49:35.406925
+#
+# FAMILY_FILE = /Users/virpatel/Desktop/pub_stuff/relevant_data/family_file_ph.txt
+# TREE_FILE = /Users/virpatel/Desktop/pub_stuff/relevant_data/phylo_tree.txt
+# RECONSTRUCTION_ALGO = dollo
+# GAIN_PENALTY = 1
+# OUTPUT_NAME = family_file_ph_dollo
+# OUTPUT_DIR = /Users/virpatel/Desktop/pub_stuff/relevant_data/all_ages/
+# OUTPUT_FORMATS = ['depth', 'label', 'time', 'profile']
+# TIME_FILE = /Users/virpatel/Desktop/pub_stuff/relevant_data/time_tree_dates.txt
+# ADDITIONAL_ID_FILE = None
+#
+csi-MIR156	14
+csi-MIR159	14
+csi-MIR160	14
+csi-MIR162	11
+csi-MIR164	11
+csi-MIR166a	14
+csi-MIR166b	14
+csi-MIR166c	14
+csi-MIR166d	14
+csi-MIR166e	14
+csi-MIR167a	10
+csi-MIR167b	10
+csi-MIR167c	10
+csi-MIR169	11
+csi-MIR171a	14
+csi-MIR171b	9
+csi-MIR172a	10
+csi-MIR172b	10
+csi-MIR172c	10
+csi-MIR319	10
+csi-MIR390	14
+csi-MIR393	10
+csi-MIR394	10
+csi-MIR395	11
+csi-MIR396a	13
+csi-MIR396b	13
+csi-MIR396c	13
+csi-MIR397	11
+csi-MIR398	11
+csi-MIR399a	9
+csi-MIR399b	9
+csi-MIR399c	9
+csi-MIR399d	9
+csi-MIR399e	9
+csi-MIR403	6
+csi-MIR408	14
+csi-MIR472	11
+csi-MIR473	14
+csi-MIR477a	14
+csi-MIR477b	14
+csi-MIR477c	14
+csi-MIR479	9
+csi-MIR482a	11
+csi-MIR482b	11
+csi-MIR482c	11
+csi-MIR530a	9
+csi-MIR530b	9
+csi-MIR535	14
+csi-MIR827	4

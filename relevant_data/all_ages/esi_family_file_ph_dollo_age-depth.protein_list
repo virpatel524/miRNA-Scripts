@@ -1,0 +1,29 @@
+# /Users/virpatel/Desktop/pub_stuff/ProteinHistorian/age_proteins.py -t /Users/virpatel/Desktop/pub_stuff/relevant_data/time_tree_dates.txt -o /Users/virpatel/Desktop/pub_stuff/relevant_data/all_ages/ /Users/virpatel/Desktop/pub_stuff/relevant_data/family_file_ph.txt /Users/virpatel/Desktop/pub_stuff/relevant_data/phylo_tree.txt 2016-04-29 23:49:35.406925
+#
+# FAMILY_FILE = /Users/virpatel/Desktop/pub_stuff/relevant_data/family_file_ph.txt
+# TREE_FILE = /Users/virpatel/Desktop/pub_stuff/relevant_data/phylo_tree.txt
+# RECONSTRUCTION_ALGO = dollo
+# GAIN_PENALTY = 1
+# OUTPUT_NAME = family_file_ph_dollo
+# OUTPUT_DIR = /Users/virpatel/Desktop/pub_stuff/relevant_data/all_ages/
+# OUTPUT_FORMATS = ['depth', 'label', 'time', 'profile']
+# TIME_FILE = /Users/virpatel/Desktop/pub_stuff/relevant_data/time_tree_dates.txt
+# ADDITIONAL_ID_FILE = None
+#
+esi-MIR3454a	5
+esi-MIR3454b	5
+esi-MIR3454c	5
+esi-MIR3454d	5
+esi-MIR3454e	5
+esi-MIR3454f	5
+esi-MIR3454g	5
+esi-MIR8618a	5
+esi-MIR8618b	5
+esi-MIR8622a	5
+esi-MIR8622b	5
+esi-MIR8622c	5
+esi-MIR8623a	5
+esi-MIR8623c	5
+esi-MIR8623d	5
+esi-MIR8624a	5
+esi-MIR8624b	5

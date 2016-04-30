@@ -1,0 +1,69 @@
+# /Users/virpatel/Desktop/pub_stuff/ProteinHistorian/age_proteins.py -t /Users/virpatel/Desktop/pub_stuff/relevant_data/time_tree_dates.txt -o /Users/virpatel/Desktop/pub_stuff/relevant_data/all_ages/ /Users/virpatel/Desktop/pub_stuff/relevant_data/family_file_ph.txt /Users/virpatel/Desktop/pub_stuff/relevant_data/phylo_tree.txt 2016-04-29 23:49:35.406925
+#
+# FAMILY_FILE = /Users/virpatel/Desktop/pub_stuff/relevant_data/family_file_ph.txt
+# TREE_FILE = /Users/virpatel/Desktop/pub_stuff/relevant_data/phylo_tree.txt
+# RECONSTRUCTION_ALGO = dollo
+# GAIN_PENALTY = 1
+# OUTPUT_NAME = family_file_ph_dollo
+# OUTPUT_DIR = /Users/virpatel/Desktop/pub_stuff/relevant_data/all_ages/
+# OUTPUT_FORMATS = ['depth', 'label', 'time', 'profile']
+# TIME_FILE = /Users/virpatel/Desktop/pub_stuff/relevant_data/time_tree_dates.txt
+# ADDITIONAL_ID_FILE = None
+#
+ghr-MIR156a	15
+ghr-MIR156b	15
+ghr-MIR156c	15
+ghr-MIR156d	15
+ghr-MIR160	15
+ghr-MIR162a	12
+ghr-MIR164	12
+ghr-MIR166b	15
+ghr-MIR167a	11
+ghr-MIR167b	11
+ghr-MIR169a	11
+ghr-MIR169b	12
+ghr-MIR172	11
+ghr-MIR2948	12
+ghr-MIR2949a	0
+ghr-MIR2949b	0
+ghr-MIR2949c	0
+ghr-MIR2950	0
+ghr-MIR390a	15
+ghr-MIR390b	15
+ghr-MIR390c	15
+ghr-MIR393	11
+ghr-MIR394a	11
+ghr-MIR394b	11
+ghr-MIR396a	14
+ghr-MIR396b	14
+ghr-MIR398	12
+ghr-MIR399a	10
+ghr-MIR399b	10
+ghr-MIR399c	10
+ghr-MIR399d	10
+ghr-MIR399e	10
+ghr-MIR479	10
+ghr-MIR482a	12
+ghr-MIR482b	12
+ghr-MIR7484a	2
+ghr-MIR7484b	2
+ghr-MIR7486a	2
+ghr-MIR7486b	2
+ghr-MIR7492a	2
+ghr-MIR7492b	2
+ghr-MIR7492c	2
+ghr-MIR7493	2
+ghr-MIR7494	2
+ghr-MIR7495a	0
+ghr-MIR7495b	0
+ghr-MIR7496a	0
+ghr-MIR7496b	0
+ghr-MIR7502	2
+ghr-MIR7504a	2
+ghr-MIR7504b	2
+ghr-MIR7506	2
+ghr-MIR7510a	0
+ghr-MIR7510b	0
+ghr-MIR827a	4
+ghr-MIR827b	4
+ghr-MIR827c	4

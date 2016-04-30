@@ -1,0 +1,74 @@
+# /Users/virpatel/Desktop/pub_stuff/ProteinHistorian/age_proteins.py -t /Users/virpatel/Desktop/pub_stuff/relevant_data/time_tree_dates.txt -o /Users/virpatel/Desktop/pub_stuff/relevant_data/all_ages/ /Users/virpatel/Desktop/pub_stuff/relevant_data/family_file_ph.txt /Users/virpatel/Desktop/pub_stuff/relevant_data/phylo_tree.txt 2016-04-29 23:49:35.406925
+#
+# FAMILY_FILE = /Users/virpatel/Desktop/pub_stuff/relevant_data/family_file_ph.txt
+# TREE_FILE = /Users/virpatel/Desktop/pub_stuff/relevant_data/phylo_tree.txt
+# RECONSTRUCTION_ALGO = dollo
+# GAIN_PENALTY = 1
+# OUTPUT_NAME = family_file_ph_dollo
+# OUTPUT_DIR = /Users/virpatel/Desktop/pub_stuff/relevant_data/all_ages/
+# OUTPUT_FORMATS = ['depth', 'label', 'time', 'profile']
+# TIME_FILE = /Users/virpatel/Desktop/pub_stuff/relevant_data/time_tree_dates.txt
+# ADDITIONAL_ID_FILE = None
+#
+cin-let-7a-1	Bilateria
+cin-let-7a-2	Bilateria
+cin-let-7b	Bilateria
+cin-let-7c	Bilateria
+cin-let-7d	Bilateria
+cin-let-7e	Bilateria
+cin-mir-1	Bilateria
+cin-mir-124-1	Bilateria
+cin-mir-124-2	Bilateria
+cin-mir-126	Chordata
+cin-mir-133	Bilateria
+cin-mir-141	Bilateria
+cin-mir-1473	Ascidiacea
+cin-mir-1497	Tunicata
+cin-mir-1502a	cin
+cin-mir-153	Bilateria
+cin-mir-183	Deuterostomia
+cin-mir-184	Bilateria
+cin-mir-200	Ascidiacea
+cin-mir-216	Bilateria
+cin-mir-219	Bilateria
+cin-mir-281	Ascidiacea
+cin-mir-31	Bilateria
+cin-mir-33	Bilateria
+cin-mir-34	Bilateria
+cin-mir-4000a-1	cin
+cin-mir-4000a-2	cin
+cin-mir-4000b-1	cin
+cin-mir-4000b-2	cin
+cin-mir-4000d	cin
+cin-mir-4003a-1	cin
+cin-mir-4003a-2	cin
+cin-mir-4003a-3	cin
+cin-mir-4003a-4	cin
+cin-mir-4003b	cin
+cin-mir-4005a	cin
+cin-mir-4005b	cin
+cin-mir-4007	cin
+cin-mir-4012-1	cin
+cin-mir-4012-2	cin
+cin-mir-4015-1	cin
+cin-mir-4015-2	cin
+cin-mir-4017-1	cin
+cin-mir-4017-2	cin
+cin-mir-4018a	cin
+cin-mir-4019	cin
+cin-mir-4041	cin
+cin-mir-4042	cin
+cin-mir-4077a	cin
+cin-mir-4077b	cin
+cin-mir-4077c	cin
+cin-mir-4079	cin
+cin-mir-4080	cin
+cin-mir-4081	cin
+cin-mir-4082	cin
+cin-mir-4178a	cin
+cin-mir-4178b	cin
+cin-mir-7	Bilateria
+cin-mir-92a	Bilateria
+cin-mir-92b	Bilateria
+cin-mir-92c	Ascidiacea
+cin-mir-92d	Ascidiacea

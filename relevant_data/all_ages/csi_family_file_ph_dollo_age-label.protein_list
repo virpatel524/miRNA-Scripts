@@ -1,0 +1,61 @@
+# /Users/virpatel/Desktop/pub_stuff/ProteinHistorian/age_proteins.py -t /Users/virpatel/Desktop/pub_stuff/relevant_data/time_tree_dates.txt -o /Users/virpatel/Desktop/pub_stuff/relevant_data/all_ages/ /Users/virpatel/Desktop/pub_stuff/relevant_data/family_file_ph.txt /Users/virpatel/Desktop/pub_stuff/relevant_data/phylo_tree.txt 2016-04-29 23:49:35.406925
+#
+# FAMILY_FILE = /Users/virpatel/Desktop/pub_stuff/relevant_data/family_file_ph.txt
+# TREE_FILE = /Users/virpatel/Desktop/pub_stuff/relevant_data/phylo_tree.txt
+# RECONSTRUCTION_ALGO = dollo
+# GAIN_PENALTY = 1
+# OUTPUT_NAME = family_file_ph_dollo
+# OUTPUT_DIR = /Users/virpatel/Desktop/pub_stuff/relevant_data/all_ages/
+# OUTPUT_FORMATS = ['depth', 'label', 'time', 'profile']
+# TIME_FILE = /Users/virpatel/Desktop/pub_stuff/relevant_data/time_tree_dates.txt
+# ADDITIONAL_ID_FILE = None
+#
+csi-MIR156	Embryophyta
+csi-MIR159	Embryophyta
+csi-MIR160	Embryophyta
+csi-MIR162	Spermatophyta
+csi-MIR164	Spermatophyta
+csi-MIR166a	Embryophyta
+csi-MIR166b	Embryophyta
+csi-MIR166c	Embryophyta
+csi-MIR166d	Embryophyta
+csi-MIR166e	Embryophyta
+csi-MIR167a	Magnoliophyta
+csi-MIR167b	Magnoliophyta
+csi-MIR167c	Magnoliophyta
+csi-MIR169	Spermatophyta
+csi-MIR171a	Embryophyta
+csi-MIR171b	Mesangiospermae
+csi-MIR172a	Magnoliophyta
+csi-MIR172b	Magnoliophyta
+csi-MIR172c	Magnoliophyta
+csi-MIR319	Magnoliophyta
+csi-MIR390	Embryophyta
+csi-MIR393	Magnoliophyta
+csi-MIR394	Magnoliophyta
+csi-MIR395	Spermatophyta
+csi-MIR396a	Tracheophyta
+csi-MIR396b	Tracheophyta
+csi-MIR396c	Tracheophyta
+csi-MIR397	Spermatophyta
+csi-MIR398	Spermatophyta
+csi-MIR399a	Mesangiospermae
+csi-MIR399b	Mesangiospermae
+csi-MIR399c	Mesangiospermae
+csi-MIR399d	Mesangiospermae
+csi-MIR399e	Mesangiospermae
+csi-MIR403	Pentapetalae
+csi-MIR408	Embryophyta
+csi-MIR472	Spermatophyta
+csi-MIR473	Embryophyta
+csi-MIR477a	Embryophyta
+csi-MIR477b	Embryophyta
+csi-MIR477c	Embryophyta
+csi-MIR479	Mesangiospermae
+csi-MIR482a	Spermatophyta
+csi-MIR482b	Spermatophyta
+csi-MIR482c	Spermatophyta
+csi-MIR530a	Mesangiospermae
+csi-MIR530b	Mesangiospermae
+csi-MIR535	Embryophyta
+csi-MIR827	malvids

@@ -1,0 +1,46 @@
+# /Users/virpatel/Desktop/pub_stuff/ProteinHistorian/age_proteins.py -t /Users/virpatel/Desktop/pub_stuff/relevant_data/time_tree_dates.txt -o /Users/virpatel/Desktop/pub_stuff/relevant_data/all_ages/ /Users/virpatel/Desktop/pub_stuff/relevant_data/family_file_ph.txt /Users/virpatel/Desktop/pub_stuff/relevant_data/phylo_tree.txt 2016-04-29 23:49:35.406925
+#
+# FAMILY_FILE = /Users/virpatel/Desktop/pub_stuff/relevant_data/family_file_ph.txt
+# TREE_FILE = /Users/virpatel/Desktop/pub_stuff/relevant_data/phylo_tree.txt
+# RECONSTRUCTION_ALGO = dollo
+# GAIN_PENALTY = 1
+# OUTPUT_NAME = family_file_ph_dollo
+# OUTPUT_DIR = /Users/virpatel/Desktop/pub_stuff/relevant_data/all_ages/
+# OUTPUT_FORMATS = ['depth', 'label', 'time', 'profile']
+# TIME_FILE = /Users/virpatel/Desktop/pub_stuff/relevant_data/time_tree_dates.txt
+# ADDITIONAL_ID_FILE = None
+#
+lus-MIR167a	147.8
+lus-MIR167b	147.8
+lus-MIR167c	147.8
+lus-MIR167d	147.8
+lus-MIR167e	147.8
+lus-MIR167f	147.8
+lus-MIR167g	147.8
+lus-MIR167h	147.8
+lus-MIR167i	147.8
+lus-MIR168a	147.8
+lus-MIR168b	147.8
+lus-MIR169a	147.8
+lus-MIR169b	147.8
+lus-MIR169c	147.8
+lus-MIR169d	147.8
+lus-MIR169k	147.8
+lus-MIR172a	147.8
+lus-MIR172b	147.8
+lus-MIR172c	147.8
+lus-MIR172d	147.8
+lus-MIR172e	147.8
+lus-MIR172f	147.8
+lus-MIR172g	147.8
+lus-MIR172h	147.8
+lus-MIR172i	147.8
+lus-MIR172j	147.8
+lus-MIR319b	147.8
+lus-MIR393a	147.8
+lus-MIR393b	147.8
+lus-MIR393c	147.8
+lus-MIR393d	147.8
+lus-MIR394a	147.8
+lus-MIR394b	147.8
+lus-MIR828a	147.8

@@ -1,0 +1,36 @@
+# /Users/virpatel/Desktop/pub_stuff/ProteinHistorian/age_proteins.py -t /Users/virpatel/Desktop/pub_stuff/relevant_data/time_tree_dates.txt -o /Users/virpatel/Desktop/pub_stuff/relevant_data/all_ages/ /Users/virpatel/Desktop/pub_stuff/relevant_data/family_file_ph.txt /Users/virpatel/Desktop/pub_stuff/relevant_data/phylo_tree.txt 2016-04-29 23:49:35.406925
+#
+# FAMILY_FILE = /Users/virpatel/Desktop/pub_stuff/relevant_data/family_file_ph.txt
+# TREE_FILE = /Users/virpatel/Desktop/pub_stuff/relevant_data/phylo_tree.txt
+# RECONSTRUCTION_ALGO = dollo
+# GAIN_PENALTY = 1
+# OUTPUT_NAME = family_file_ph_dollo
+# OUTPUT_DIR = /Users/virpatel/Desktop/pub_stuff/relevant_data/all_ages/
+# OUTPUT_FORMATS = ['depth', 'label', 'time', 'profile']
+# TIME_FILE = /Users/virpatel/Desktop/pub_stuff/relevant_data/time_tree_dates.txt
+# ADDITIONAL_ID_FILE = None
+#
+csa-let-7a	Bilateria
+csa-let-7b	Bilateria
+csa-let-7c-1	Bilateria
+csa-let-7c-2	Bilateria
+csa-let-7d	Bilateria
+csa-mir-124-1	Bilateria
+csa-mir-124-2	Bilateria
+csa-mir-126	Chordata
+csa-mir-133	Bilateria
+csa-mir-141	Bilateria
+csa-mir-1473	Ascidiacea
+csa-mir-1497	Tunicata
+csa-mir-153	Bilateria
+csa-mir-183	Deuterostomia
+csa-mir-200	Ascidiacea
+csa-mir-216a	Bilateria
+csa-mir-219	Bilateria
+csa-mir-281	Ascidiacea
+csa-mir-31	Bilateria
+csa-mir-34	Bilateria
+csa-mir-7	Bilateria
+csa-mir-92a	Ascidiacea
+csa-mir-92b	Bilateria
+csa-mir-92c	Ascidiacea

@@ -1,0 +1,76 @@
+# /Users/virpatel/Desktop/pub_stuff/ProteinHistorian/age_proteins.py -t /Users/virpatel/Desktop/pub_stuff/relevant_data/time_tree_dates.txt -o /Users/virpatel/Desktop/pub_stuff/relevant_data/all_ages/ /Users/virpatel/Desktop/pub_stuff/relevant_data/family_file_ph.txt /Users/virpatel/Desktop/pub_stuff/relevant_data/phylo_tree.txt 2016-04-29 23:49:35.406925
+#
+# FAMILY_FILE = /Users/virpatel/Desktop/pub_stuff/relevant_data/family_file_ph.txt
+# TREE_FILE = /Users/virpatel/Desktop/pub_stuff/relevant_data/phylo_tree.txt
+# RECONSTRUCTION_ALGO = dollo
+# GAIN_PENALTY = 1
+# OUTPUT_NAME = family_file_ph_dollo
+# OUTPUT_DIR = /Users/virpatel/Desktop/pub_stuff/relevant_data/all_ages/
+# OUTPUT_FORMATS = ['depth', 'label', 'time', 'profile']
+# TIME_FILE = /Users/virpatel/Desktop/pub_stuff/relevant_data/time_tree_dates.txt
+# ADDITIONAL_ID_FILE = None
+#
+bra-MIR1140	1
+bra-MIR156a	15
+bra-MIR156b	15
+bra-MIR156c	15
+bra-MIR156d	15
+bra-MIR156e	15
+bra-MIR156f	15
+bra-MIR156g	15
+bra-MIR157a	15
+bra-MIR158	3
+bra-MIR159a	15
+bra-MIR160a	15
+bra-MIR161	3
+bra-MIR162	12
+bra-MIR164a	12
+bra-MIR164b	12
+bra-MIR164c	12
+bra-MIR164d	12
+bra-MIR164e	12
+bra-MIR167a	11
+bra-MIR167b	11
+bra-MIR167c	11
+bra-MIR167d	11
+bra-MIR168a	11
+bra-MIR168b	11
+bra-MIR168c	11
+bra-MIR171a	15
+bra-MIR171b	15
+bra-MIR171c	15
+bra-MIR171d	15
+bra-MIR171e	15
+bra-MIR172a	11
+bra-MIR172b	11
+bra-MIR172c	11
+bra-MIR172d	11
+bra-MIR1885a	0
+bra-MIR1885b	0
+bra-MIR2111	6
+bra-MIR2111a	6
+bra-MIR2111b	6
+bra-MIR319	15
+bra-MIR390	15
+bra-MIR395a	12
+bra-MIR395b	12
+bra-MIR395c	12
+bra-MIR395d	12
+bra-MIR396	14
+bra-MIR398	12
+bra-MIR403	7
+bra-MIR408	15
+bra-MIR5654a	0
+bra-MIR5654b	0
+bra-MIR6032	1
+bra-MIR824	3
+bra-MIR860	3
+bra-MIR9408	1
+bra-MIR9552a	0
+bra-MIR9552b	0
+bra-MIR9555a	0
+bra-MIR9555b	0
+bra-MIR9560a	0
+bra-MIR9560b	0
+bra-MIR9563a	0
+bra-MIR9563b	0

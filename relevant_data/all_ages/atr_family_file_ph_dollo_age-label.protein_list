@@ -1,0 +1,70 @@
+# /Users/virpatel/Desktop/pub_stuff/ProteinHistorian/age_proteins.py -t /Users/virpatel/Desktop/pub_stuff/relevant_data/time_tree_dates.txt -o /Users/virpatel/Desktop/pub_stuff/relevant_data/all_ages/ /Users/virpatel/Desktop/pub_stuff/relevant_data/family_file_ph.txt /Users/virpatel/Desktop/pub_stuff/relevant_data/phylo_tree.txt 2016-04-29 23:49:35.406925
+#
+# FAMILY_FILE = /Users/virpatel/Desktop/pub_stuff/relevant_data/family_file_ph.txt
+# TREE_FILE = /Users/virpatel/Desktop/pub_stuff/relevant_data/phylo_tree.txt
+# RECONSTRUCTION_ALGO = dollo
+# GAIN_PENALTY = 1
+# OUTPUT_NAME = family_file_ph_dollo
+# OUTPUT_DIR = /Users/virpatel/Desktop/pub_stuff/relevant_data/all_ages/
+# OUTPUT_FORMATS = ['depth', 'label', 'time', 'profile']
+# TIME_FILE = /Users/virpatel/Desktop/pub_stuff/relevant_data/time_tree_dates.txt
+# ADDITIONAL_ID_FILE = None
+#
+atr-MIR156a	Embryophyta
+atr-MIR156b	Embryophyta
+atr-MIR156c	Embryophyta
+atr-MIR156d	Embryophyta
+atr-MIR159	Embryophyta
+atr-MIR160	Embryophyta
+atr-MIR164a	Spermatophyta
+atr-MIR164b	Spermatophyta
+atr-MIR166a	Embryophyta
+atr-MIR166b	Embryophyta
+atr-MIR166c	Embryophyta
+atr-MIR166d	Embryophyta
+atr-MIR167	Magnoliophyta
+atr-MIR168	Magnoliophyta
+atr-MIR169a	Magnoliophyta
+atr-MIR169b	Magnoliophyta
+atr-MIR169c	Magnoliophyta
+atr-MIR171a	Embryophyta
+atr-MIR171b	Embryophyta
+atr-MIR171c	Embryophyta
+atr-MIR172	Magnoliophyta
+atr-MIR319a	Embryophyta
+atr-MIR319b	Magnoliophyta
+atr-MIR319c	Embryophyta
+atr-MIR319d	Magnoliophyta
+atr-MIR319e	Magnoliophyta
+atr-MIR390	Embryophyta
+atr-MIR393	Magnoliophyta
+atr-MIR394	Magnoliophyta
+atr-MIR395	Spermatophyta
+atr-MIR396a	Tracheophyta
+atr-MIR396b	Tracheophyta
+atr-MIR396c	Tracheophyta
+atr-MIR396d	Tracheophyta
+atr-MIR396e	Tracheophyta
+atr-MIR397a	Spermatophyta
+atr-MIR397b	Spermatophyta
+atr-MIR398	Spermatophyta
+atr-MIR477	Embryophyta
+atr-MIR535	Embryophyta
+atr-MIR828	Magnoliophyta
+atr-MIR8552a	basal_Magnoliophyta
+atr-MIR8552b	basal_Magnoliophyta
+atr-MIR8552c	basal_Magnoliophyta
+atr-MIR8552d	basal_Magnoliophyta
+atr-MIR8553a	basal_Magnoliophyta
+atr-MIR8553b	basal_Magnoliophyta
+atr-MIR8562a	basal_Magnoliophyta
+atr-MIR8562b	basal_Magnoliophyta
+atr-MIR8562c	basal_Magnoliophyta
+atr-MIR8565a	basal_Magnoliophyta
+atr-MIR8565b	basal_Magnoliophyta
+atr-MIR8565c	basal_Magnoliophyta
+atr-MIR8565d	basal_Magnoliophyta
+atr-MIR8565e	basal_Magnoliophyta
+atr-MIR8565f	basal_Magnoliophyta
+atr-MIR8565g	basal_Magnoliophyta
+atr-MIR8565h	basal_Magnoliophyta

@@ -1,0 +1,94 @@
+# /Users/virpatel/Desktop/pub_stuff/ProteinHistorian/age_proteins.py -t /Users/virpatel/Desktop/pub_stuff/relevant_data/time_tree_dates.txt -o /Users/virpatel/Desktop/pub_stuff/relevant_data/all_ages/ /Users/virpatel/Desktop/pub_stuff/relevant_data/family_file_ph.txt /Users/virpatel/Desktop/pub_stuff/relevant_data/phylo_tree.txt 2016-04-29 23:49:35.406925
+#
+# FAMILY_FILE = /Users/virpatel/Desktop/pub_stuff/relevant_data/family_file_ph.txt
+# TREE_FILE = /Users/virpatel/Desktop/pub_stuff/relevant_data/phylo_tree.txt
+# RECONSTRUCTION_ALGO = dollo
+# GAIN_PENALTY = 1
+# OUTPUT_NAME = family_file_ph_dollo
+# OUTPUT_DIR = /Users/virpatel/Desktop/pub_stuff/relevant_data/all_ages/
+# OUTPUT_FORMATS = ['depth', 'label', 'time', 'profile']
+# TIME_FILE = /Users/virpatel/Desktop/pub_stuff/relevant_data/time_tree_dates.txt
+# ADDITIONAL_ID_FILE = None
+#
+dgr-bantam	32
+dgr-let-7-1	32
+dgr-let-7-2	32
+dgr-mir-1	32
+dgr-mir-10	32
+dgr-mir-100	32
+dgr-mir-11	20
+dgr-mir-12	31
+dgr-mir-124	32
+dgr-mir-125-1	32
+dgr-mir-125-2	32
+dgr-mir-133	32
+dgr-mir-13a	32
+dgr-mir-13b-1	32
+dgr-mir-13b-2	32
+dgr-mir-14	21
+dgr-mir-184	32
+dgr-mir-210	32
+dgr-mir-219	32
+dgr-mir-263a	31
+dgr-mir-263b	31
+dgr-mir-274	20
+dgr-mir-275	28
+dgr-mir-276a	28
+dgr-mir-276b	28
+dgr-mir-277	21
+dgr-mir-278	32
+dgr-mir-279	31
+dgr-mir-280	6
+dgr-mir-281-1	32
+dgr-mir-281-2	32
+dgr-mir-282	20
+dgr-mir-283	32
+dgr-mir-284	6
+dgr-mir-285	32
+dgr-mir-286-1	19
+dgr-mir-286-2	19
+dgr-mir-287-1	6
+dgr-mir-287-2	6
+dgr-mir-288	6
+dgr-mir-2a-1	32
+dgr-mir-2a-2	32
+dgr-mir-2b	32
+dgr-mir-2c	32
+dgr-mir-3-1	19
+dgr-mir-3-2	19
+dgr-mir-304	6
+dgr-mir-305	28
+dgr-mir-306	20
+dgr-mir-307	32
+dgr-mir-308	20
+dgr-mir-309-1	19
+dgr-mir-309-2	19
+dgr-mir-314	6
+dgr-mir-315	32
+dgr-mir-316	21
+dgr-mir-317	28
+dgr-mir-318	6
+dgr-mir-31a	32
+dgr-mir-31b	32
+dgr-mir-33	32
+dgr-mir-34	32
+dgr-mir-4-1	6
+dgr-mir-4-2	6
+dgr-mir-5-1	6
+dgr-mir-5-2	6
+dgr-mir-6-1	6
+dgr-mir-6-2	6
+dgr-mir-6-3	6
+dgr-mir-6-4	6
+dgr-mir-6-5	6
+dgr-mir-6-6	6
+dgr-mir-7	32
+dgr-mir-79	32
+dgr-mir-8	32
+dgr-mir-87	32
+dgr-mir-92a	32
+dgr-mir-92b	32
+dgr-mir-9a	32
+dgr-mir-9b	32
+dgr-mir-9c	32
+dgr-mir-iab-4	28

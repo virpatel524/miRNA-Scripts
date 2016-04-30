@@ -1,0 +1,25 @@
+# /Users/virpatel/Desktop/pub_stuff/ProteinHistorian/age_proteins.py -t /Users/virpatel/Desktop/pub_stuff/relevant_data/time_tree_dates.txt -o /Users/virpatel/Desktop/pub_stuff/relevant_data/all_ages/ /Users/virpatel/Desktop/pub_stuff/relevant_data/family_file_ph.txt /Users/virpatel/Desktop/pub_stuff/relevant_data/phylo_tree.txt 2016-04-29 23:49:35.406925
+#
+# FAMILY_FILE = /Users/virpatel/Desktop/pub_stuff/relevant_data/family_file_ph.txt
+# TREE_FILE = /Users/virpatel/Desktop/pub_stuff/relevant_data/phylo_tree.txt
+# RECONSTRUCTION_ALGO = dollo
+# GAIN_PENALTY = 1
+# OUTPUT_NAME = family_file_ph_dollo
+# OUTPUT_DIR = /Users/virpatel/Desktop/pub_stuff/relevant_data/all_ages/
+# OUTPUT_FORMATS = ['depth', 'label', 'time', 'profile']
+# TIME_FILE = /Users/virpatel/Desktop/pub_stuff/relevant_data/time_tree_dates.txt
+# ADDITIONAL_ID_FILE = None
+#
+ssl-MIR156	Embryophyta
+ssl-MIR164a	Spermatophyta
+ssl-MIR164b	Spermatophyta
+ssl-MIR166b	Embryophyta
+ssl-MIR171a	Embryophyta
+ssl-MIR171b	Embryophyta
+ssl-MIR172	Magnoliophyta
+ssl-MIR394	Magnoliophyta
+ssl-MIR396	Tracheophyta
+ssl-MIR397	Spermatophyta
+ssl-MIR398	Spermatophyta
+ssl-MIR399	Mesangiospermae
+ssl-MIR828	Magnoliophyta

@@ -1,0 +1,63 @@
+# /Users/virpatel/Desktop/pub_stuff/ProteinHistorian/age_proteins.py -t /Users/virpatel/Desktop/pub_stuff/relevant_data/time_tree_dates.txt -o /Users/virpatel/Desktop/pub_stuff/relevant_data/all_ages/ /Users/virpatel/Desktop/pub_stuff/relevant_data/family_file_ph.txt /Users/virpatel/Desktop/pub_stuff/relevant_data/phylo_tree.txt 2016-04-29 23:49:35.406925
+#
+# FAMILY_FILE = /Users/virpatel/Desktop/pub_stuff/relevant_data/family_file_ph.txt
+# TREE_FILE = /Users/virpatel/Desktop/pub_stuff/relevant_data/phylo_tree.txt
+# RECONSTRUCTION_ALGO = dollo
+# GAIN_PENALTY = 1
+# OUTPUT_NAME = family_file_ph_dollo
+# OUTPUT_DIR = /Users/virpatel/Desktop/pub_stuff/relevant_data/all_ages/
+# OUTPUT_FORMATS = ['depth', 'label', 'time', 'profile']
+# TIME_FILE = /Users/virpatel/Desktop/pub_stuff/relevant_data/time_tree_dates.txt
+# ADDITIONAL_ID_FILE = None
+#
+aae-bantam	910.0
+aae-let-7	910.0
+aae-mir-1	910.0
+aae-mir-10	910.0
+aae-mir-100	910.0
+aae-mir-124	910.0
+aae-mir-125	910.0
+aae-mir-13	910.0
+aae-mir-133	910.0
+aae-mir-137-1	910.0
+aae-mir-137-2	910.0
+aae-mir-184	910.0
+aae-mir-190	910.0
+aae-mir-210	910.0
+aae-mir-219	910.0
+aae-mir-252	910.0
+aae-mir-278	910.0
+aae-mir-281	910.0
+aae-mir-283	910.0
+aae-mir-285	910.0
+aae-mir-286a	471.4
+aae-mir-286b-1	471.4
+aae-mir-286b-2	471.4
+aae-mir-2a	910.0
+aae-mir-2b	910.0
+aae-mir-2c	910.0
+aae-mir-307	910.0
+aae-mir-309a-1	471.4
+aae-mir-309a-2	471.4
+aae-mir-309b	471.4
+aae-mir-31	910.0
+aae-mir-315	910.0
+aae-mir-33	910.0
+aae-mir-34	910.0
+aae-mir-375	910.0
+aae-mir-7	910.0
+aae-mir-71	910.0
+aae-mir-79	910.0
+aae-mir-8	910.0
+aae-mir-87	910.0
+aae-mir-92a	910.0
+aae-mir-92b	910.0
+aae-mir-957	471.4
+aae-mir-981	910.0
+aae-mir-988	471.4
+aae-mir-993	910.0
+aae-mir-999	471.4
+aae-mir-9a-1	910.0
+aae-mir-9a-2	910.0
+aae-mir-9b	910.0
+aae-mir-9c	910.0

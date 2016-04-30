@@ -1,0 +1,75 @@
+# /Users/virpatel/Desktop/pub_stuff/ProteinHistorian/age_proteins.py -t /Users/virpatel/Desktop/pub_stuff/relevant_data/time_tree_dates.txt -o /Users/virpatel/Desktop/pub_stuff/relevant_data/all_ages/ /Users/virpatel/Desktop/pub_stuff/relevant_data/family_file_ph.txt /Users/virpatel/Desktop/pub_stuff/relevant_data/phylo_tree.txt 2016-04-29 23:49:35.406925
+#
+# FAMILY_FILE = /Users/virpatel/Desktop/pub_stuff/relevant_data/family_file_ph.txt
+# TREE_FILE = /Users/virpatel/Desktop/pub_stuff/relevant_data/phylo_tree.txt
+# RECONSTRUCTION_ALGO = dollo
+# GAIN_PENALTY = 1
+# OUTPUT_NAME = family_file_ph_dollo
+# OUTPUT_DIR = /Users/virpatel/Desktop/pub_stuff/relevant_data/all_ages/
+# OUTPUT_FORMATS = ['depth', 'label', 'time', 'profile']
+# TIME_FILE = /Users/virpatel/Desktop/pub_stuff/relevant_data/time_tree_dates.txt
+# ADDITIONAL_ID_FILE = None
+#
+rco-MIR156a	16
+rco-MIR156b	16
+rco-MIR156c	16
+rco-MIR156d	16
+rco-MIR156e	16
+rco-MIR156f	16
+rco-MIR156g	16
+rco-MIR156h	16
+rco-MIR159	16
+rco-MIR160a	16
+rco-MIR160b	16
+rco-MIR160c	16
+rco-MIR162	13
+rco-MIR164a	13
+rco-MIR164b	13
+rco-MIR164c	13
+rco-MIR164d	13
+rco-MIR166a	16
+rco-MIR166b	16
+rco-MIR166c	16
+rco-MIR166d	16
+rco-MIR166e	16
+rco-MIR167a	12
+rco-MIR167b	12
+rco-MIR167c	12
+rco-MIR168	12
+rco-MIR169a	13
+rco-MIR169b	13
+rco-MIR169c	13
+rco-MIR171a	16
+rco-MIR171b	16
+rco-MIR171c	16
+rco-MIR171d	16
+rco-MIR171e	16
+rco-MIR171f	16
+rco-MIR171g	16
+rco-MIR172	12
+rco-MIR319a	16
+rco-MIR319b	16
+rco-MIR319c	16
+rco-MIR319d	16
+rco-MIR390a	16
+rco-MIR390b	16
+rco-MIR393	12
+rco-MIR395a	13
+rco-MIR395b	13
+rco-MIR395c	13
+rco-MIR395d	13
+rco-MIR395e	13
+rco-MIR396	15
+rco-MIR397	13
+rco-MIR398a	13
+rco-MIR398b	13
+rco-MIR399a	11
+rco-MIR399b	11
+rco-MIR399c	11
+rco-MIR399d	11
+rco-MIR399e	11
+rco-MIR399f	11
+rco-MIR403a	8
+rco-MIR403b	8
+rco-MIR408	16
+rco-MIR535	16

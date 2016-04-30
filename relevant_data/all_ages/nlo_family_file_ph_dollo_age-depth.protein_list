@@ -1,0 +1,40 @@
+# /Users/virpatel/Desktop/pub_stuff/ProteinHistorian/age_proteins.py -t /Users/virpatel/Desktop/pub_stuff/relevant_data/time_tree_dates.txt -o /Users/virpatel/Desktop/pub_stuff/relevant_data/all_ages/ /Users/virpatel/Desktop/pub_stuff/relevant_data/family_file_ph.txt /Users/virpatel/Desktop/pub_stuff/relevant_data/phylo_tree.txt 2016-04-29 23:49:35.406925
+#
+# FAMILY_FILE = /Users/virpatel/Desktop/pub_stuff/relevant_data/family_file_ph.txt
+# TREE_FILE = /Users/virpatel/Desktop/pub_stuff/relevant_data/phylo_tree.txt
+# RECONSTRUCTION_ALGO = dollo
+# GAIN_PENALTY = 1
+# OUTPUT_NAME = family_file_ph_dollo
+# OUTPUT_DIR = /Users/virpatel/Desktop/pub_stuff/relevant_data/all_ages/
+# OUTPUT_FORMATS = ['depth', 'label', 'time', 'profile']
+# TIME_FILE = /Users/virpatel/Desktop/pub_stuff/relevant_data/time_tree_dates.txt
+# ADDITIONAL_ID_FILE = None
+#
+nlo-mir-10	20
+nlo-mir-12	19
+nlo-mir-125	20
+nlo-mir-133	20
+nlo-mir-137	20
+nlo-mir-13a	20
+nlo-mir-184	20
+nlo-mir-2	20
+nlo-mir-219	20
+nlo-mir-252	20
+nlo-mir-263b	19
+nlo-mir-275	16
+nlo-mir-276	16
+nlo-mir-277	9
+nlo-mir-281	20
+nlo-mir-282	8
+nlo-mir-305	16
+nlo-mir-315	20
+nlo-mir-31a	20
+nlo-mir-34	20
+nlo-mir-7	20
+nlo-mir-8	20
+nlo-mir-927	9
+nlo-mir-929	9
+nlo-mir-92a	20
+nlo-mir-932	8
+nlo-mir-993	20
+nlo-mir-9a	20

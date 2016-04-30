@@ -1,0 +1,54 @@
+# /Users/virpatel/Desktop/pub_stuff/ProteinHistorian/age_proteins.py -t /Users/virpatel/Desktop/pub_stuff/relevant_data/time_tree_dates.txt -o /Users/virpatel/Desktop/pub_stuff/relevant_data/all_ages/ /Users/virpatel/Desktop/pub_stuff/relevant_data/family_file_ph.txt /Users/virpatel/Desktop/pub_stuff/relevant_data/phylo_tree.txt 2016-04-29 23:49:35.406925
+#
+# FAMILY_FILE = /Users/virpatel/Desktop/pub_stuff/relevant_data/family_file_ph.txt
+# TREE_FILE = /Users/virpatel/Desktop/pub_stuff/relevant_data/phylo_tree.txt
+# RECONSTRUCTION_ALGO = dollo
+# GAIN_PENALTY = 1
+# OUTPUT_NAME = family_file_ph_dollo
+# OUTPUT_DIR = /Users/virpatel/Desktop/pub_stuff/relevant_data/all_ages/
+# OUTPUT_FORMATS = ['depth', 'label', 'time', 'profile']
+# TIME_FILE = /Users/virpatel/Desktop/pub_stuff/relevant_data/time_tree_dates.txt
+# ADDITIONAL_ID_FILE = None
+#
+sla-mir-100	910.0
+sla-mir-101	454.6
+sla-mir-105	97.4
+sla-mir-106a	535.7
+sla-mir-106b	535.7
+sla-mir-10a	910.0
+sla-mir-125b	910.0
+sla-mir-127	97.4
+sla-mir-128	535.7
+sla-mir-133a	910.0
+sla-mir-147	454.6
+sla-mir-15a	535.7
+sla-mir-16	535.7
+sla-mir-17	535.7
+sla-mir-18	535.7
+sla-mir-181a-2	535.7
+sla-mir-183	842.0
+sla-mir-198	44.2
+sla-mir-199a	535.7
+sla-mir-19a	535.7
+sla-mir-19b-1	535.7
+sla-mir-19b-2	535.7
+sla-mir-20	535.7
+sla-mir-204	535.7
+sla-mir-214	454.6
+sla-mir-218-1	535.7
+sla-mir-218-2	535.7
+sla-mir-22	842.0
+sla-mir-223	454.6
+sla-mir-23a	535.7
+sla-mir-27a	535.7
+sla-mir-28	176.1
+sla-mir-29a	910.0
+sla-mir-29b	910.0
+sla-mir-32	324.5
+sla-mir-34a	910.0
+sla-mir-7	910.0
+sla-mir-92-1	910.0
+sla-mir-92-2	910.0
+sla-mir-93	535.7
+sla-mir-95	97.4
+sla-mir-96	910.0

@@ -1,0 +1,44 @@
+# /Users/virpatel/Desktop/pub_stuff/ProteinHistorian/age_proteins.py -t /Users/virpatel/Desktop/pub_stuff/relevant_data/time_tree_dates.txt -o /Users/virpatel/Desktop/pub_stuff/relevant_data/all_ages/ /Users/virpatel/Desktop/pub_stuff/relevant_data/family_file_ph.txt /Users/virpatel/Desktop/pub_stuff/relevant_data/phylo_tree.txt 2016-04-29 23:49:35.406925
+#
+# FAMILY_FILE = /Users/virpatel/Desktop/pub_stuff/relevant_data/family_file_ph.txt
+# TREE_FILE = /Users/virpatel/Desktop/pub_stuff/relevant_data/phylo_tree.txt
+# RECONSTRUCTION_ALGO = dollo
+# GAIN_PENALTY = 1
+# OUTPUT_NAME = family_file_ph_dollo
+# OUTPUT_DIR = /Users/virpatel/Desktop/pub_stuff/relevant_data/all_ages/
+# OUTPUT_FORMATS = ['depth', 'label', 'time', 'profile']
+# TIME_FILE = /Users/virpatel/Desktop/pub_stuff/relevant_data/time_tree_dates.txt
+# ADDITIONAL_ID_FILE = None
+#
+ngi-let-7	20
+ngi-mir-1	20
+ngi-mir-100	20
+ngi-mir-133	20
+ngi-mir-137	20
+ngi-mir-13a	20
+ngi-mir-14	9
+ngi-mir-184	20
+ngi-mir-2	20
+ngi-mir-210	20
+ngi-mir-219	20
+ngi-mir-252	20
+ngi-mir-263b	19
+ngi-mir-275	16
+ngi-mir-276	16
+ngi-mir-277	9
+ngi-mir-281	20
+ngi-mir-283	20
+ngi-mir-29b	20
+ngi-mir-305	16
+ngi-mir-317	16
+ngi-mir-31a	20
+ngi-mir-34	20
+ngi-mir-375	20
+ngi-mir-927	9
+ngi-mir-929	9
+ngi-mir-92a	20
+ngi-mir-932	8
+ngi-mir-993	20
+ngi-mir-9a	20
+ngi-mir-iab-4	16
+ngi-mir-iab-8	8

@@ -1,0 +1,94 @@
+# /Users/virpatel/Desktop/pub_stuff/ProteinHistorian/age_proteins.py -t /Users/virpatel/Desktop/pub_stuff/relevant_data/time_tree_dates.txt -o /Users/virpatel/Desktop/pub_stuff/relevant_data/all_ages/ /Users/virpatel/Desktop/pub_stuff/relevant_data/family_file_ph.txt /Users/virpatel/Desktop/pub_stuff/relevant_data/phylo_tree.txt 2016-04-29 23:49:35.406925
+#
+# FAMILY_FILE = /Users/virpatel/Desktop/pub_stuff/relevant_data/family_file_ph.txt
+# TREE_FILE = /Users/virpatel/Desktop/pub_stuff/relevant_data/phylo_tree.txt
+# RECONSTRUCTION_ALGO = dollo
+# GAIN_PENALTY = 1
+# OUTPUT_NAME = family_file_ph_dollo
+# OUTPUT_DIR = /Users/virpatel/Desktop/pub_stuff/relevant_data/all_ages/
+# OUTPUT_FORMATS = ['depth', 'label', 'time', 'profile']
+# TIME_FILE = /Users/virpatel/Desktop/pub_stuff/relevant_data/time_tree_dates.txt
+# ADDITIONAL_ID_FILE = None
+#
+tcc-MIR156a	Embryophyta
+tcc-MIR156b	Embryophyta
+tcc-MIR156c	Embryophyta
+tcc-MIR156d	Embryophyta
+tcc-MIR156e	Embryophyta
+tcc-MIR156f	Embryophyta
+tcc-MIR156g	Embryophyta
+tcc-MIR160a	Embryophyta
+tcc-MIR160b	Embryophyta
+tcc-MIR160c	Embryophyta
+tcc-MIR162	Spermatophyta
+tcc-MIR164a	Spermatophyta
+tcc-MIR164b	Spermatophyta
+tcc-MIR164c	Spermatophyta
+tcc-MIR166a	Embryophyta
+tcc-MIR166b	Embryophyta
+tcc-MIR166c	Embryophyta
+tcc-MIR166d	Embryophyta
+tcc-MIR167a	Magnoliophyta
+tcc-MIR167b	Magnoliophyta
+tcc-MIR167c	Magnoliophyta
+tcc-MIR168	Magnoliophyta
+tcc-MIR169a	Spermatophyta
+tcc-MIR169b	Spermatophyta
+tcc-MIR169c	Spermatophyta
+tcc-MIR169d	Magnoliophyta
+tcc-MIR169e	Spermatophyta
+tcc-MIR169f	Magnoliophyta
+tcc-MIR169g	Magnoliophyta
+tcc-MIR169h	Magnoliophyta
+tcc-MIR169i	Magnoliophyta
+tcc-MIR169j	Magnoliophyta
+tcc-MIR169k	Spermatophyta
+tcc-MIR169l	Spermatophyta
+tcc-MIR169m	Spermatophyta
+tcc-MIR169n	Spermatophyta
+tcc-MIR171a	Embryophyta
+tcc-MIR171b	Embryophyta
+tcc-MIR171c	Embryophyta
+tcc-MIR171d	Embryophyta
+tcc-MIR171e	Embryophyta
+tcc-MIR171f	Embryophyta
+tcc-MIR171g	Embryophyta
+tcc-MIR171h	Embryophyta
+tcc-MIR172a	Magnoliophyta
+tcc-MIR172b	Magnoliophyta
+tcc-MIR172c	Magnoliophyta
+tcc-MIR172d	Magnoliophyta
+tcc-MIR172e	Magnoliophyta
+tcc-MIR2111	rosids
+tcc-MIR319	Magnoliophyta
+tcc-MIR390a	Embryophyta
+tcc-MIR390b	Embryophyta
+tcc-MIR393a	Magnoliophyta
+tcc-MIR393b	Magnoliophyta
+tcc-MIR394a	Magnoliophyta
+tcc-MIR394b	Magnoliophyta
+tcc-MIR395a	Spermatophyta
+tcc-MIR395b	Spermatophyta
+tcc-MIR396a	Tracheophyta
+tcc-MIR396b	Tracheophyta
+tcc-MIR396c	Tracheophyta
+tcc-MIR396d	Tracheophyta
+tcc-MIR396e	Tracheophyta
+tcc-MIR397	Spermatophyta
+tcc-MIR398a	Spermatophyta
+tcc-MIR398b	Spermatophyta
+tcc-MIR399a	Mesangiospermae
+tcc-MIR399b	Mesangiospermae
+tcc-MIR399c	Mesangiospermae
+tcc-MIR399d	Mesangiospermae
+tcc-MIR399e	Mesangiospermae
+tcc-MIR399f	Mesangiospermae
+tcc-MIR399g	Mesangiospermae
+tcc-MIR399h	Mesangiospermae
+tcc-MIR399i	Mesangiospermae
+tcc-MIR403a	Pentapetalae
+tcc-MIR403b	Pentapetalae
+tcc-MIR530a	Mesangiospermae
+tcc-MIR530b	Mesangiospermae
+tcc-MIR535	Embryophyta
+tcc-MIR827	Malvales

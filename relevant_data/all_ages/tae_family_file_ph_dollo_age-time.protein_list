@@ -1,0 +1,34 @@
+# /Users/virpatel/Desktop/pub_stuff/ProteinHistorian/age_proteins.py -t /Users/virpatel/Desktop/pub_stuff/relevant_data/time_tree_dates.txt -o /Users/virpatel/Desktop/pub_stuff/relevant_data/all_ages/ /Users/virpatel/Desktop/pub_stuff/relevant_data/family_file_ph.txt /Users/virpatel/Desktop/pub_stuff/relevant_data/phylo_tree.txt 2016-04-29 23:49:35.406925
+#
+# FAMILY_FILE = /Users/virpatel/Desktop/pub_stuff/relevant_data/family_file_ph.txt
+# TREE_FILE = /Users/virpatel/Desktop/pub_stuff/relevant_data/phylo_tree.txt
+# RECONSTRUCTION_ALGO = dollo
+# GAIN_PENALTY = 1
+# OUTPUT_NAME = family_file_ph_dollo
+# OUTPUT_DIR = /Users/virpatel/Desktop/pub_stuff/relevant_data/all_ages/
+# OUTPUT_FORMATS = ['depth', 'label', 'time', 'profile']
+# TIME_FILE = /Users/virpatel/Desktop/pub_stuff/relevant_data/time_tree_dates.txt
+# ADDITIONAL_ID_FILE = None
+#
+tae-MIR1120a	0.0
+tae-MIR1120b	0.0
+tae-MIR1120c	0.0
+tae-MIR1121	0.0
+tae-MIR1122c	0.0
+tae-MIR1137a	0.0
+tae-MIR1137b	0.0
+tae-MIR167a	147.8
+tae-MIR167b	147.8
+tae-MIR167c	147.8
+tae-MIR169	147.8
+tae-MIR5050	0.0
+tae-MIR9654a	0.0
+tae-MIR9654b	0.0
+tae-MIR9657a	0.0
+tae-MIR9657b	0.0
+tae-MIR9657c	0.0
+tae-MIR9662a	0.0
+tae-MIR9662b	0.0
+tae-MIR9666a	0.0
+tae-MIR9666b	0.0
+tae-MIR9666c	0.0

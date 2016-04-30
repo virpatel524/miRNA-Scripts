@@ -1,0 +1,54 @@
+# /Users/virpatel/Desktop/pub_stuff/ProteinHistorian/age_proteins.py -t /Users/virpatel/Desktop/pub_stuff/relevant_data/time_tree_dates.txt -o /Users/virpatel/Desktop/pub_stuff/relevant_data/all_ages/ /Users/virpatel/Desktop/pub_stuff/relevant_data/family_file_ph.txt /Users/virpatel/Desktop/pub_stuff/relevant_data/phylo_tree.txt 2016-04-29 23:49:35.406925
+#
+# FAMILY_FILE = /Users/virpatel/Desktop/pub_stuff/relevant_data/family_file_ph.txt
+# TREE_FILE = /Users/virpatel/Desktop/pub_stuff/relevant_data/phylo_tree.txt
+# RECONSTRUCTION_ALGO = dollo
+# GAIN_PENALTY = 1
+# OUTPUT_NAME = family_file_ph_dollo
+# OUTPUT_DIR = /Users/virpatel/Desktop/pub_stuff/relevant_data/all_ages/
+# OUTPUT_FORMATS = ['depth', 'label', 'time', 'profile']
+# TIME_FILE = /Users/virpatel/Desktop/pub_stuff/relevant_data/time_tree_dates.txt
+# ADDITIONAL_ID_FILE = None
+#
+dya-bantam	910.0
+dya-let-7	910.0
+dya-mir-1	910.0
+dya-mir-10	910.0
+dya-mir-100	910.0
+dya-mir-124	910.0
+dya-mir-125	910.0
+dya-mir-133	910.0
+dya-mir-13a	910.0
+dya-mir-13b-1	910.0
+dya-mir-13b-2	910.0
+dya-mir-184	910.0
+dya-mir-210	910.0
+dya-mir-219	910.0
+dya-mir-278	910.0
+dya-mir-281-1	910.0
+dya-mir-281-2	910.0
+dya-mir-283	910.0
+dya-mir-285	910.0
+dya-mir-286	471.4
+dya-mir-2a-1	910.0
+dya-mir-2a-2	910.0
+dya-mir-2b-1	910.0
+dya-mir-2b-2	910.0
+dya-mir-2c	910.0
+dya-mir-3	471.4
+dya-mir-307	910.0
+dya-mir-309	471.4
+dya-mir-315	910.0
+dya-mir-31a	910.0
+dya-mir-31b	910.0
+dya-mir-33	910.0
+dya-mir-34	910.0
+dya-mir-7	910.0
+dya-mir-79	910.0
+dya-mir-8	910.0
+dya-mir-87	910.0
+dya-mir-92a	910.0
+dya-mir-92b	910.0
+dya-mir-9a	910.0
+dya-mir-9b	910.0
+dya-mir-9c	910.0

@@ -1,0 +1,88 @@
+# /Users/virpatel/Desktop/pub_stuff/ProteinHistorian/age_proteins.py -t /Users/virpatel/Desktop/pub_stuff/relevant_data/time_tree_dates.txt -o /Users/virpatel/Desktop/pub_stuff/relevant_data/all_ages/ /Users/virpatel/Desktop/pub_stuff/relevant_data/family_file_ph.txt /Users/virpatel/Desktop/pub_stuff/relevant_data/phylo_tree.txt 2016-04-29 23:49:35.406925
+#
+# FAMILY_FILE = /Users/virpatel/Desktop/pub_stuff/relevant_data/family_file_ph.txt
+# TREE_FILE = /Users/virpatel/Desktop/pub_stuff/relevant_data/phylo_tree.txt
+# RECONSTRUCTION_ALGO = dollo
+# GAIN_PENALTY = 1
+# OUTPUT_NAME = family_file_ph_dollo
+# OUTPUT_DIR = /Users/virpatel/Desktop/pub_stuff/relevant_data/all_ages/
+# OUTPUT_FORMATS = ['depth', 'label', 'time', 'profile']
+# TIME_FILE = /Users/virpatel/Desktop/pub_stuff/relevant_data/time_tree_dates.txt
+# ADDITIONAL_ID_FILE = None
+#
+ath-MIR167a	147.8
+ath-MIR167b	147.8
+ath-MIR167d	147.8
+ath-MIR168a	147.8
+ath-MIR168b	147.8
+ath-MIR169h	147.8
+ath-MIR169i	147.8
+ath-MIR169j	147.8
+ath-MIR169k	147.8
+ath-MIR169l	147.8
+ath-MIR169m	147.8
+ath-MIR169n	147.8
+ath-MIR172a	147.8
+ath-MIR172b	147.8
+ath-MIR172c	147.8
+ath-MIR172d	147.8
+ath-MIR172e	147.8
+ath-MIR1888a	0.0
+ath-MIR1888b	0.0
+ath-MIR2933a	0.0
+ath-MIR2933b	0.0
+ath-MIR2934	0.0
+ath-MIR3932a	0.0
+ath-MIR3932b	0.0
+ath-MIR393a	147.8
+ath-MIR393b	147.8
+ath-MIR394a	147.8
+ath-MIR394b	147.8
+ath-MIR405a	0.0
+ath-MIR405b	0.0
+ath-MIR405d	0.0
+ath-MIR447a	0.0
+ath-MIR447b	0.0
+ath-MIR447c	0.0
+ath-MIR5014a	0.0
+ath-MIR5014b	0.0
+ath-MIR5020a	0.0
+ath-MIR5020b	0.0
+ath-MIR5020c	0.0
+ath-MIR5595a	0.0
+ath-MIR5630a	0.0
+ath-MIR5630b	0.0
+ath-MIR5635a	0.0
+ath-MIR5635b	0.0
+ath-MIR5635c	0.0
+ath-MIR5635d	0.0
+ath-MIR5638a	0.0
+ath-MIR5638b	0.0
+ath-MIR5642a	0.0
+ath-MIR5642b	0.0
+ath-MIR5643a	0.0
+ath-MIR5643b	0.0
+ath-MIR5645a	0.0
+ath-MIR5645b	0.0
+ath-MIR5645c	0.0
+ath-MIR5645d	0.0
+ath-MIR5645e	0.0
+ath-MIR5645f	0.0
+ath-MIR5649a	0.0
+ath-MIR5649b	0.0
+ath-MIR5995b	0.0
+ath-MIR5998a	0.0
+ath-MIR5998b	0.0
+ath-MIR782	0.0
+ath-MIR8167a	0.0
+ath-MIR8167b	0.0
+ath-MIR8167c	0.0
+ath-MIR8167d	0.0
+ath-MIR8167e	0.0
+ath-MIR8167f	0.0
+ath-MIR828	147.8
+ath-MIR854a	0.0
+ath-MIR854b	0.0
+ath-MIR854c	0.0
+ath-MIR854d	0.0
+ath-MIR854e	0.0

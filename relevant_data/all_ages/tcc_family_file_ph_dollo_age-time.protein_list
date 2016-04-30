@@ -1,0 +1,32 @@
+# /Users/virpatel/Desktop/pub_stuff/ProteinHistorian/age_proteins.py -t /Users/virpatel/Desktop/pub_stuff/relevant_data/time_tree_dates.txt -o /Users/virpatel/Desktop/pub_stuff/relevant_data/all_ages/ /Users/virpatel/Desktop/pub_stuff/relevant_data/family_file_ph.txt /Users/virpatel/Desktop/pub_stuff/relevant_data/phylo_tree.txt 2016-04-29 23:49:35.406925
+#
+# FAMILY_FILE = /Users/virpatel/Desktop/pub_stuff/relevant_data/family_file_ph.txt
+# TREE_FILE = /Users/virpatel/Desktop/pub_stuff/relevant_data/phylo_tree.txt
+# RECONSTRUCTION_ALGO = dollo
+# GAIN_PENALTY = 1
+# OUTPUT_NAME = family_file_ph_dollo
+# OUTPUT_DIR = /Users/virpatel/Desktop/pub_stuff/relevant_data/all_ages/
+# OUTPUT_FORMATS = ['depth', 'label', 'time', 'profile']
+# TIME_FILE = /Users/virpatel/Desktop/pub_stuff/relevant_data/time_tree_dates.txt
+# ADDITIONAL_ID_FILE = None
+#
+tcc-MIR167a	147.8
+tcc-MIR167b	147.8
+tcc-MIR167c	147.8
+tcc-MIR168	147.8
+tcc-MIR169d	147.8
+tcc-MIR169f	147.8
+tcc-MIR169g	147.8
+tcc-MIR169h	147.8
+tcc-MIR169i	147.8
+tcc-MIR169j	147.8
+tcc-MIR172a	147.8
+tcc-MIR172b	147.8
+tcc-MIR172c	147.8
+tcc-MIR172d	147.8
+tcc-MIR172e	147.8
+tcc-MIR319	147.8
+tcc-MIR393a	147.8
+tcc-MIR393b	147.8
+tcc-MIR394a	147.8
+tcc-MIR394b	147.8

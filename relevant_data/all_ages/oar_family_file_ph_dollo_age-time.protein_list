@@ -1,0 +1,115 @@
+# /Users/virpatel/Desktop/pub_stuff/ProteinHistorian/age_proteins.py -t /Users/virpatel/Desktop/pub_stuff/relevant_data/time_tree_dates.txt -o /Users/virpatel/Desktop/pub_stuff/relevant_data/all_ages/ /Users/virpatel/Desktop/pub_stuff/relevant_data/family_file_ph.txt /Users/virpatel/Desktop/pub_stuff/relevant_data/phylo_tree.txt 2016-04-29 23:49:35.406925
+#
+# FAMILY_FILE = /Users/virpatel/Desktop/pub_stuff/relevant_data/family_file_ph.txt
+# TREE_FILE = /Users/virpatel/Desktop/pub_stuff/relevant_data/phylo_tree.txt
+# RECONSTRUCTION_ALGO = dollo
+# GAIN_PENALTY = 1
+# OUTPUT_NAME = family_file_ph_dollo
+# OUTPUT_DIR = /Users/virpatel/Desktop/pub_stuff/relevant_data/all_ages/
+# OUTPUT_FORMATS = ['depth', 'label', 'time', 'profile']
+# TIME_FILE = /Users/virpatel/Desktop/pub_stuff/relevant_data/time_tree_dates.txt
+# ADDITIONAL_ID_FILE = None
+#
+oar-let-7a	910.0
+oar-let-7b	910.0
+oar-let-7c	910.0
+oar-let-7d	910.0
+oar-let-7f	910.0
+oar-let-7g	910.0
+oar-let-7i	910.0
+oar-mir-103	535.7
+oar-mir-106a	535.7
+oar-mir-106b	535.7
+oar-mir-107	535.7
+oar-mir-10a	910.0
+oar-mir-10b	910.0
+oar-mir-1185	97.4
+oar-mir-1193	97.4
+oar-mir-1197	97.4
+oar-mir-125b	910.0
+oar-mir-127	97.4
+oar-mir-133	910.0
+oar-mir-134	97.4
+oar-mir-136	97.4
+oar-mir-143	535.7
+oar-mir-148a	535.7
+oar-mir-150	454.6
+oar-mir-152	535.7
+oar-mir-154a	97.4
+oar-mir-154b	97.4
+oar-mir-16b	535.7
+oar-mir-17	535.7
+oar-mir-181a-1	535.7
+oar-mir-181a-2	535.7
+oar-mir-191	361.2
+oar-mir-194	535.7
+oar-mir-199a	535.7
+oar-mir-19b	535.7
+oar-mir-200a	910.0
+oar-mir-200b	910.0
+oar-mir-200c	910.0
+oar-mir-21	454.6
+oar-mir-218a	535.7
+oar-mir-22	842.0
+oar-mir-221	535.7
+oar-mir-23a	535.7
+oar-mir-23b	535.7
+oar-mir-25	910.0
+oar-mir-26a	535.7
+oar-mir-26b	535.7
+oar-mir-27a	535.7
+oar-mir-299	97.4
+oar-mir-29a	910.0
+oar-mir-29b-1	910.0
+oar-mir-29b-2	910.0
+oar-mir-30a	535.7
+oar-mir-30b	535.7
+oar-mir-30c	535.7
+oar-mir-30d	535.7
+oar-mir-323a	97.4
+oar-mir-323b	97.4
+oar-mir-323c	97.4
+oar-mir-329a	97.4
+oar-mir-329b	97.4
+oar-mir-362	97.4
+oar-mir-369	97.4
+oar-mir-370	97.4
+oar-mir-374a	97.4
+oar-mir-374b	97.4
+oar-mir-376a	97.4
+oar-mir-376b	97.4
+oar-mir-376c	97.4
+oar-mir-376d	97.4
+oar-mir-376e	97.4
+oar-mir-377	97.4
+oar-mir-379	97.4
+oar-mir-380	97.4
+oar-mir-381	97.4
+oar-mir-382	97.4
+oar-mir-3958	97.4
+oar-mir-3959	97.4
+oar-mir-409	97.4
+oar-mir-410	97.4
+oar-mir-411a	97.4
+oar-mir-411b	97.4
+oar-mir-412	97.4
+oar-mir-431	97.4
+oar-mir-432	97.4
+oar-mir-433	97.4
+oar-mir-485	97.4
+oar-mir-487a	97.4
+oar-mir-487b	97.4
+oar-mir-493	97.4
+oar-mir-494	97.4
+oar-mir-495	97.4
+oar-mir-496	97.4
+oar-mir-539	97.4
+oar-mir-541	97.4
+oar-mir-543	97.4
+oar-mir-544	97.4
+oar-mir-654	97.4
+oar-mir-655	97.4
+oar-mir-665	97.4
+oar-mir-668	97.4
+oar-mir-758	97.4
+oar-mir-99a	910.0

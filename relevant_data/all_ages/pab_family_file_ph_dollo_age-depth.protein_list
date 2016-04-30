@@ -1,0 +1,35 @@
+# /Users/virpatel/Desktop/pub_stuff/ProteinHistorian/age_proteins.py -t /Users/virpatel/Desktop/pub_stuff/relevant_data/time_tree_dates.txt -o /Users/virpatel/Desktop/pub_stuff/relevant_data/all_ages/ /Users/virpatel/Desktop/pub_stuff/relevant_data/family_file_ph.txt /Users/virpatel/Desktop/pub_stuff/relevant_data/phylo_tree.txt 2016-04-29 23:49:35.406925
+#
+# FAMILY_FILE = /Users/virpatel/Desktop/pub_stuff/relevant_data/family_file_ph.txt
+# TREE_FILE = /Users/virpatel/Desktop/pub_stuff/relevant_data/phylo_tree.txt
+# RECONSTRUCTION_ALGO = dollo
+# GAIN_PENALTY = 1
+# OUTPUT_NAME = family_file_ph_dollo
+# OUTPUT_DIR = /Users/virpatel/Desktop/pub_stuff/relevant_data/all_ages/
+# OUTPUT_FORMATS = ['depth', 'label', 'time', 'profile']
+# TIME_FILE = /Users/virpatel/Desktop/pub_stuff/relevant_data/time_tree_dates.txt
+# ADDITIONAL_ID_FILE = None
+#
+pab-MIR1311	2
+pab-MIR160a	9
+pab-MIR160b	9
+pab-MIR166a	9
+pab-MIR166b	9
+pab-MIR3701	2
+pab-MIR3704	2
+pab-MIR3709a	1
+pab-MIR3709b	1
+pab-MIR3712	2
+pab-MIR395	6
+pab-MIR396a	8
+pab-MIR396b	8
+pab-MIR396c	8
+pab-MIR397	6
+pab-MIR482a	6
+pab-MIR482b	6
+pab-MIR482c	6
+pab-MIR482d	6
+pab-MIR535	9
+pab-MIR947	2
+pab-MIR950	3
+pab-MIR951	2

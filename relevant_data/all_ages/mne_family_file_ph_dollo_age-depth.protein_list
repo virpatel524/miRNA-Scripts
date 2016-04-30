@@ -1,0 +1,86 @@
+# /Users/virpatel/Desktop/pub_stuff/ProteinHistorian/age_proteins.py -t /Users/virpatel/Desktop/pub_stuff/relevant_data/time_tree_dates.txt -o /Users/virpatel/Desktop/pub_stuff/relevant_data/all_ages/ /Users/virpatel/Desktop/pub_stuff/relevant_data/family_file_ph.txt /Users/virpatel/Desktop/pub_stuff/relevant_data/phylo_tree.txt 2016-04-29 23:49:35.406925
+#
+# FAMILY_FILE = /Users/virpatel/Desktop/pub_stuff/relevant_data/family_file_ph.txt
+# TREE_FILE = /Users/virpatel/Desktop/pub_stuff/relevant_data/phylo_tree.txt
+# RECONSTRUCTION_ALGO = dollo
+# GAIN_PENALTY = 1
+# OUTPUT_NAME = family_file_ph_dollo
+# OUTPUT_DIR = /Users/virpatel/Desktop/pub_stuff/relevant_data/all_ages/
+# OUTPUT_FORMATS = ['depth', 'label', 'time', 'profile']
+# TIME_FILE = /Users/virpatel/Desktop/pub_stuff/relevant_data/time_tree_dates.txt
+# ADDITIONAL_ID_FILE = None
+#
+mne-mir-101	18
+mne-mir-103	21
+mne-mir-105	10
+mne-mir-106a	21
+mne-mir-106b	21
+mne-mir-107	21
+mne-mir-10b	25
+mne-mir-125b-1	25
+mne-mir-125b-2	25
+mne-mir-127	10
+mne-mir-130a	21
+mne-mir-133a	25
+mne-mir-134	10
+mne-mir-140	18
+mne-mir-144	21
+mne-mir-145	21
+mne-mir-147	18
+mne-mir-153-1	25
+mne-mir-153-2	25
+mne-mir-154	10
+mne-mir-15a	21
+mne-mir-15b	21
+mne-mir-16	21
+mne-mir-17	21
+mne-mir-18	21
+mne-mir-181a-1	21
+mne-mir-181a-2	21
+mne-mir-181b	21
+mne-mir-183	24
+mne-mir-184	25
+mne-mir-187	18
+mne-mir-188	10
+mne-mir-194	21
+mne-mir-197	10
+mne-mir-198	6
+mne-mir-199a	21
+mne-mir-19a	21
+mne-mir-19b-1	21
+mne-mir-19b-2	21
+mne-mir-20	21
+mne-mir-204	21
+mne-mir-205	21
+mne-mir-206	25
+mne-mir-21	18
+mne-mir-211	21
+mne-mir-214	18
+mne-mir-215	21
+mne-mir-218-1	21
+mne-mir-218-2	21
+mne-mir-22	24
+mne-mir-224	10
+mne-mir-23a	21
+mne-mir-24-1	21
+mne-mir-24-2	21
+mne-mir-25	25
+mne-mir-26a	21
+mne-mir-27a	21
+mne-mir-28	12
+mne-mir-29a	25
+mne-mir-29b	25
+mne-mir-30b	21
+mne-mir-30c	21
+mne-mir-30d	21
+mne-mir-31	25
+mne-mir-32	14
+mne-mir-33	25
+mne-mir-34a	25
+mne-mir-7-1	25
+mne-mir-7-2	25
+mne-mir-9	25
+mne-mir-92	25
+mne-mir-93	21
+mne-mir-96	25
+mne-mir-99a	25

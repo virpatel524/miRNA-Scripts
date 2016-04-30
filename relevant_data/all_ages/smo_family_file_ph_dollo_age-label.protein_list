@@ -1,0 +1,36 @@
+# /Users/virpatel/Desktop/pub_stuff/ProteinHistorian/age_proteins.py -t /Users/virpatel/Desktop/pub_stuff/relevant_data/time_tree_dates.txt -o /Users/virpatel/Desktop/pub_stuff/relevant_data/all_ages/ /Users/virpatel/Desktop/pub_stuff/relevant_data/family_file_ph.txt /Users/virpatel/Desktop/pub_stuff/relevant_data/phylo_tree.txt 2016-04-29 23:49:35.406925
+#
+# FAMILY_FILE = /Users/virpatel/Desktop/pub_stuff/relevant_data/family_file_ph.txt
+# TREE_FILE = /Users/virpatel/Desktop/pub_stuff/relevant_data/phylo_tree.txt
+# RECONSTRUCTION_ALGO = dollo
+# GAIN_PENALTY = 1
+# OUTPUT_NAME = family_file_ph_dollo
+# OUTPUT_DIR = /Users/virpatel/Desktop/pub_stuff/relevant_data/all_ages/
+# OUTPUT_FORMATS = ['depth', 'label', 'time', 'profile']
+# TIME_FILE = /Users/virpatel/Desktop/pub_stuff/relevant_data/time_tree_dates.txt
+# ADDITIONAL_ID_FILE = None
+#
+smo-MIR1082a	Lycopodiophyta
+smo-MIR1082b	Lycopodiophyta
+smo-MIR1088	Embryophyta
+smo-MIR1094a	Lycopodiophyta
+smo-MIR1094b	Lycopodiophyta
+smo-MIR1094c	Lycopodiophyta
+smo-MIR1095a	Lycopodiophyta
+smo-MIR1095b	Lycopodiophyta
+smo-MIR156a	Embryophyta
+smo-MIR156b	Embryophyta
+smo-MIR156c	Embryophyta
+smo-MIR156d	Embryophyta
+smo-MIR159	Embryophyta
+smo-MIR160a	Embryophyta
+smo-MIR160b	Embryophyta
+smo-MIR166a	Embryophyta
+smo-MIR166b	Embryophyta
+smo-MIR166c	Embryophyta
+smo-MIR171a	Embryophyta
+smo-MIR171b	Embryophyta
+smo-MIR171c	Embryophyta
+smo-MIR171d	Embryophyta
+smo-MIR319	Embryophyta
+smo-MIR396	Tracheophyta

@@ -1,0 +1,89 @@
+# /Users/virpatel/Desktop/pub_stuff/ProteinHistorian/age_proteins.py -t /Users/virpatel/Desktop/pub_stuff/relevant_data/time_tree_dates.txt -o /Users/virpatel/Desktop/pub_stuff/relevant_data/all_ages/ /Users/virpatel/Desktop/pub_stuff/relevant_data/family_file_ph.txt /Users/virpatel/Desktop/pub_stuff/relevant_data/phylo_tree.txt 2016-04-29 23:49:35.406925
+#
+# FAMILY_FILE = /Users/virpatel/Desktop/pub_stuff/relevant_data/family_file_ph.txt
+# TREE_FILE = /Users/virpatel/Desktop/pub_stuff/relevant_data/phylo_tree.txt
+# RECONSTRUCTION_ALGO = dollo
+# GAIN_PENALTY = 1
+# OUTPUT_NAME = family_file_ph_dollo
+# OUTPUT_DIR = /Users/virpatel/Desktop/pub_stuff/relevant_data/all_ages/
+# OUTPUT_FORMATS = ['depth', 'label', 'time', 'profile']
+# TIME_FILE = /Users/virpatel/Desktop/pub_stuff/relevant_data/time_tree_dates.txt
+# ADDITIONAL_ID_FILE = None
+#
+hme-bantam	Bilateria
+hme-let-7	Bilateria
+hme-mir-10	Bilateria
+hme-mir-1000	Neoptera
+hme-mir-11	Endopterygota
+hme-mir-1175	Protostomia
+hme-mir-12	Protostomia
+hme-mir-124	Bilateria
+hme-mir-133	Bilateria
+hme-mir-137	Bilateria
+hme-mir-13a	Bilateria
+hme-mir-13b	Bilateria
+hme-mir-14	Neoptera
+hme-mir-184	Bilateria
+hme-mir-190	Bilateria
+hme-mir-193	Bilateria
+hme-mir-1a	Bilateria
+hme-mir-1b	Bilateria
+hme-mir-210	Bilateria
+hme-mir-252	Bilateria
+hme-mir-263a	Protostomia
+hme-mir-263b	Protostomia
+hme-mir-2755	Obtectomera
+hme-mir-2756	Obtectomera
+hme-mir-276	Arthropoda
+hme-mir-2763	Obtectomera
+hme-mir-2765	Endopterygota
+hme-mir-2767	Amphiesmenoptera
+hme-mir-277	Neoptera
+hme-mir-278	Bilateria
+hme-mir-2788	Endopterygota
+hme-mir-2796	Endopterygota
+hme-mir-279a	Protostomia
+hme-mir-279b	Protostomia
+hme-mir-279c	Protostomia
+hme-mir-279d	Protostomia
+hme-mir-281	Bilateria
+hme-mir-282	Endopterygota
+hme-mir-283	Bilateria
+hme-mir-2a	Bilateria
+hme-mir-2b	Bilateria
+hme-mir-2c	Bilateria
+hme-mir-305	Arthropoda
+hme-mir-306	Endopterygota
+hme-mir-307	Bilateria
+hme-mir-308	Endopterygota
+hme-mir-316	Neoptera
+hme-mir-3286	Bilateria
+hme-mir-33-1	Bilateria
+hme-mir-33-2	Bilateria
+hme-mir-3327	Obtectomera
+hme-mir-3338	Obtectomera
+hme-mir-34-1	Bilateria
+hme-mir-34-2	Bilateria
+hme-mir-6301-1	Papilionoidea
+hme-mir-6301-2	Papilionoidea
+hme-mir-6302-1	Papilionoidea
+hme-mir-6302-2	Papilionoidea
+hme-mir-7	Bilateria
+hme-mir-71	Bilateria
+hme-mir-745	Bilateria
+hme-mir-79	Bilateria
+hme-mir-8	Bilateria
+hme-mir-87	Bilateria
+hme-mir-927	Neoptera
+hme-mir-929	Neoptera
+hme-mir-92a	Bilateria
+hme-mir-92b	Bilateria
+hme-mir-932	Endopterygota
+hme-mir-965	Mandibulata
+hme-mir-970	Endopterygota
+hme-mir-971	Neoptera
+hme-mir-981	Bilateria
+hme-mir-993	Bilateria
+hme-mir-998	Endopterygota
+hme-mir-9a	Bilateria
+hme-mir-9b	Bilateria

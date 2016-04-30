@@ -1,0 +1,41 @@
+# /Users/virpatel/Desktop/pub_stuff/ProteinHistorian/age_proteins.py -t /Users/virpatel/Desktop/pub_stuff/relevant_data/time_tree_dates.txt -o /Users/virpatel/Desktop/pub_stuff/relevant_data/all_ages/ /Users/virpatel/Desktop/pub_stuff/relevant_data/family_file_ph.txt /Users/virpatel/Desktop/pub_stuff/relevant_data/phylo_tree.txt 2016-04-29 23:49:35.406925
+#
+# FAMILY_FILE = /Users/virpatel/Desktop/pub_stuff/relevant_data/family_file_ph.txt
+# TREE_FILE = /Users/virpatel/Desktop/pub_stuff/relevant_data/phylo_tree.txt
+# RECONSTRUCTION_ALGO = dollo
+# GAIN_PENALTY = 1
+# OUTPUT_NAME = family_file_ph_dollo
+# OUTPUT_DIR = /Users/virpatel/Desktop/pub_stuff/relevant_data/all_ages/
+# OUTPUT_FORMATS = ['depth', 'label', 'time', 'profile']
+# TIME_FILE = /Users/virpatel/Desktop/pub_stuff/relevant_data/time_tree_dates.txt
+# ADDITIONAL_ID_FILE = None
+#
+dpu-bantam	910.0
+dpu-mir-1	910.0
+dpu-mir-10	910.0
+dpu-mir-100	910.0
+dpu-mir-124	910.0
+dpu-mir-133	910.0
+dpu-mir-137	910.0
+dpu-mir-153	910.0
+dpu-mir-2-1	910.0
+dpu-mir-2-2	910.0
+dpu-mir-219	910.0
+dpu-mir-252a	910.0
+dpu-mir-252b	910.0
+dpu-mir-278	910.0
+dpu-mir-281	910.0
+dpu-mir-283	910.0
+dpu-mir-285	910.0
+dpu-mir-307	910.0
+dpu-mir-31	910.0
+dpu-mir-315	910.0
+dpu-mir-33	910.0
+dpu-mir-34	910.0
+dpu-mir-7	910.0
+dpu-mir-71	910.0
+dpu-mir-8	910.0
+dpu-mir-9	910.0
+dpu-mir-92	910.0
+dpu-mir-981	910.0
+dpu-mir-993	910.0

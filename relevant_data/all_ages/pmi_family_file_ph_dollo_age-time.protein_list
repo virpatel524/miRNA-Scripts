@@ -1,0 +1,47 @@
+# /Users/virpatel/Desktop/pub_stuff/ProteinHistorian/age_proteins.py -t /Users/virpatel/Desktop/pub_stuff/relevant_data/time_tree_dates.txt -o /Users/virpatel/Desktop/pub_stuff/relevant_data/all_ages/ /Users/virpatel/Desktop/pub_stuff/relevant_data/family_file_ph.txt /Users/virpatel/Desktop/pub_stuff/relevant_data/phylo_tree.txt 2016-04-29 23:49:35.406925
+#
+# FAMILY_FILE = /Users/virpatel/Desktop/pub_stuff/relevant_data/family_file_ph.txt
+# TREE_FILE = /Users/virpatel/Desktop/pub_stuff/relevant_data/phylo_tree.txt
+# RECONSTRUCTION_ALGO = dollo
+# GAIN_PENALTY = 1
+# OUTPUT_NAME = family_file_ph_dollo
+# OUTPUT_DIR = /Users/virpatel/Desktop/pub_stuff/relevant_data/all_ages/
+# OUTPUT_FORMATS = ['depth', 'label', 'time', 'profile']
+# TIME_FILE = /Users/virpatel/Desktop/pub_stuff/relevant_data/time_tree_dates.txt
+# ADDITIONAL_ID_FILE = None
+#
+pmi-let-7	910.0
+pmi-mir-1	910.0
+pmi-mir-10	910.0
+pmi-mir-100	910.0
+pmi-mir-124	910.0
+pmi-mir-125	910.0
+pmi-mir-133	910.0
+pmi-mir-137	910.0
+pmi-mir-153	910.0
+pmi-mir-182	910.0
+pmi-mir-184	910.0
+pmi-mir-200	910.0
+pmi-mir-2008	842.0
+pmi-mir-2011	842.0
+pmi-mir-210	910.0
+pmi-mir-219	910.0
+pmi-mir-242	910.0
+pmi-mir-252a	910.0
+pmi-mir-252b	910.0
+pmi-mir-278	910.0
+pmi-mir-29b	910.0
+pmi-mir-31-1	910.0
+pmi-mir-31-2	910.0
+pmi-mir-31-3	910.0
+pmi-mir-33	910.0
+pmi-mir-34	910.0
+pmi-mir-375	910.0
+pmi-mir-7	910.0
+pmi-mir-71	910.0
+pmi-mir-9	910.0
+pmi-mir-92a	910.0
+pmi-mir-92b	910.0
+pmi-mir-92c	910.0
+pmi-mir-92d	910.0
+pmi-mir-981	910.0

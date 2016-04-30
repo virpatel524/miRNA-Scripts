@@ -1,0 +1,89 @@
+# /Users/virpatel/Desktop/pub_stuff/ProteinHistorian/age_proteins.py -t /Users/virpatel/Desktop/pub_stuff/relevant_data/time_tree_dates.txt -o /Users/virpatel/Desktop/pub_stuff/relevant_data/all_ages/ /Users/virpatel/Desktop/pub_stuff/relevant_data/family_file_ph.txt /Users/virpatel/Desktop/pub_stuff/relevant_data/phylo_tree.txt 2016-04-29 23:49:35.406925
+#
+# FAMILY_FILE = /Users/virpatel/Desktop/pub_stuff/relevant_data/family_file_ph.txt
+# TREE_FILE = /Users/virpatel/Desktop/pub_stuff/relevant_data/phylo_tree.txt
+# RECONSTRUCTION_ALGO = dollo
+# GAIN_PENALTY = 1
+# OUTPUT_NAME = family_file_ph_dollo
+# OUTPUT_DIR = /Users/virpatel/Desktop/pub_stuff/relevant_data/all_ages/
+# OUTPUT_FORMATS = ['depth', 'label', 'time', 'profile']
+# TIME_FILE = /Users/virpatel/Desktop/pub_stuff/relevant_data/time_tree_dates.txt
+# ADDITIONAL_ID_FILE = None
+#
+hme-bantam	25
+hme-let-7	25
+hme-mir-10	25
+hme-mir-1000	14
+hme-mir-11	13
+hme-mir-1175	24
+hme-mir-12	24
+hme-mir-124	25
+hme-mir-133	25
+hme-mir-137	25
+hme-mir-13a	25
+hme-mir-13b	25
+hme-mir-14	14
+hme-mir-184	25
+hme-mir-190	25
+hme-mir-193	25
+hme-mir-1a	25
+hme-mir-1b	25
+hme-mir-210	25
+hme-mir-252	25
+hme-mir-263a	24
+hme-mir-263b	24
+hme-mir-2755	6
+hme-mir-2756	6
+hme-mir-276	21
+hme-mir-2763	6
+hme-mir-2765	13
+hme-mir-2767	12
+hme-mir-277	14
+hme-mir-278	25
+hme-mir-2788	13
+hme-mir-2796	13
+hme-mir-279a	24
+hme-mir-279b	24
+hme-mir-279c	24
+hme-mir-279d	24
+hme-mir-281	25
+hme-mir-282	13
+hme-mir-283	25
+hme-mir-2a	25
+hme-mir-2b	25
+hme-mir-2c	25
+hme-mir-305	21
+hme-mir-306	13
+hme-mir-307	25
+hme-mir-308	13
+hme-mir-316	14
+hme-mir-3286	25
+hme-mir-33-1	25
+hme-mir-33-2	25
+hme-mir-3327	6
+hme-mir-3338	6
+hme-mir-34-1	25
+hme-mir-34-2	25
+hme-mir-6301-1	5
+hme-mir-6301-2	5
+hme-mir-6302-1	5
+hme-mir-6302-2	5
+hme-mir-7	25
+hme-mir-71	25
+hme-mir-745	25
+hme-mir-79	25
+hme-mir-8	25
+hme-mir-87	25
+hme-mir-927	14
+hme-mir-929	14
+hme-mir-92a	25
+hme-mir-92b	25
+hme-mir-932	13
+hme-mir-965	20
+hme-mir-970	13
+hme-mir-971	14
+hme-mir-981	25
+hme-mir-993	25
+hme-mir-998	13
+hme-mir-9a	25
+hme-mir-9b	25

@@ -1,0 +1,33 @@
+# /Users/virpatel/Desktop/pub_stuff/ProteinHistorian/age_proteins.py -t /Users/virpatel/Desktop/pub_stuff/relevant_data/time_tree_dates.txt -o /Users/virpatel/Desktop/pub_stuff/relevant_data/all_ages/ /Users/virpatel/Desktop/pub_stuff/relevant_data/family_file_ph.txt /Users/virpatel/Desktop/pub_stuff/relevant_data/phylo_tree.txt 2016-04-29 23:49:35.406925
+#
+# FAMILY_FILE = /Users/virpatel/Desktop/pub_stuff/relevant_data/family_file_ph.txt
+# TREE_FILE = /Users/virpatel/Desktop/pub_stuff/relevant_data/phylo_tree.txt
+# RECONSTRUCTION_ALGO = dollo
+# GAIN_PENALTY = 1
+# OUTPUT_NAME = family_file_ph_dollo
+# OUTPUT_DIR = /Users/virpatel/Desktop/pub_stuff/relevant_data/all_ages/
+# OUTPUT_FORMATS = ['depth', 'label', 'time', 'profile']
+# TIME_FILE = /Users/virpatel/Desktop/pub_stuff/relevant_data/time_tree_dates.txt
+# ADDITIONAL_ID_FILE = None
+#
+sma-let-7	8
+sma-mir-10	8
+sma-mir-125a	6
+sma-mir-125b	8
+sma-mir-190	6
+sma-mir-1a	8
+sma-mir-2162	6
+sma-mir-219	8
+sma-mir-2a	6
+sma-mir-2b	8
+sma-mir-2c	8
+sma-mir-2d	8
+sma-mir-2e	8
+sma-mir-31	6
+sma-mir-3479	6
+sma-mir-3492	6
+sma-mir-36a	8
+sma-mir-61	6
+sma-mir-71a	8
+sma-mir-71b	8
+sma-mir-8	8

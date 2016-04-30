@@ -1,0 +1,32 @@
+# /Users/virpatel/Desktop/pub_stuff/ProteinHistorian/age_proteins.py -t /Users/virpatel/Desktop/pub_stuff/relevant_data/time_tree_dates.txt -o /Users/virpatel/Desktop/pub_stuff/relevant_data/all_ages/ /Users/virpatel/Desktop/pub_stuff/relevant_data/family_file_ph.txt /Users/virpatel/Desktop/pub_stuff/relevant_data/phylo_tree.txt 2016-04-29 23:49:35.406925
+#
+# FAMILY_FILE = /Users/virpatel/Desktop/pub_stuff/relevant_data/family_file_ph.txt
+# TREE_FILE = /Users/virpatel/Desktop/pub_stuff/relevant_data/phylo_tree.txt
+# RECONSTRUCTION_ALGO = dollo
+# GAIN_PENALTY = 1
+# OUTPUT_NAME = family_file_ph_dollo
+# OUTPUT_DIR = /Users/virpatel/Desktop/pub_stuff/relevant_data/all_ages/
+# OUTPUT_FORMATS = ['depth', 'label', 'time', 'profile']
+# TIME_FILE = /Users/virpatel/Desktop/pub_stuff/relevant_data/time_tree_dates.txt
+# ADDITIONAL_ID_FILE = None
+#
+pol-let-7a	Bilateria
+pol-let-7b	Bilateria
+pol-let-7d	Bilateria
+pol-mir-1	Bilateria
+pol-mir-10b	Bilateria
+pol-mir-122	Euteleostomi
+pol-mir-124	Bilateria
+pol-mir-133	Bilateria
+pol-mir-140	Euteleostomi
+pol-mir-144	Vertebrata
+pol-mir-182	Bilateria
+pol-mir-199a-1	Vertebrata
+pol-mir-199a-2	Vertebrata
+pol-mir-203	Vertebrata
+pol-mir-206	Bilateria
+pol-mir-21	Euteleostomi
+pol-mir-219	Bilateria
+pol-mir-22	Deuterostomia
+pol-mir-221	Vertebrata
+pol-mir-9b	Bilateria

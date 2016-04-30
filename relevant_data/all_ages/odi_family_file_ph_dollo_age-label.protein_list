@@ -1,0 +1,31 @@
+# /Users/virpatel/Desktop/pub_stuff/ProteinHistorian/age_proteins.py -t /Users/virpatel/Desktop/pub_stuff/relevant_data/time_tree_dates.txt -o /Users/virpatel/Desktop/pub_stuff/relevant_data/all_ages/ /Users/virpatel/Desktop/pub_stuff/relevant_data/family_file_ph.txt /Users/virpatel/Desktop/pub_stuff/relevant_data/phylo_tree.txt 2016-04-29 23:49:35.406925
+#
+# FAMILY_FILE = /Users/virpatel/Desktop/pub_stuff/relevant_data/family_file_ph.txt
+# TREE_FILE = /Users/virpatel/Desktop/pub_stuff/relevant_data/phylo_tree.txt
+# RECONSTRUCTION_ALGO = dollo
+# GAIN_PENALTY = 1
+# OUTPUT_NAME = family_file_ph_dollo
+# OUTPUT_DIR = /Users/virpatel/Desktop/pub_stuff/relevant_data/all_ages/
+# OUTPUT_FORMATS = ['depth', 'label', 'time', 'profile']
+# TIME_FILE = /Users/virpatel/Desktop/pub_stuff/relevant_data/time_tree_dates.txt
+# ADDITIONAL_ID_FILE = None
+#
+odi-mir-124a	Bilateria
+odi-mir-124b	Bilateria
+odi-mir-1490a-1	Appendicularia
+odi-mir-1490a-2	Appendicularia
+odi-mir-1490b	Appendicularia
+odi-mir-1497a	Tunicata
+odi-mir-1497b	Tunicata
+odi-mir-1497c	Tunicata
+odi-mir-1497d-1	Tunicata
+odi-mir-1497d-2	Tunicata
+odi-mir-1497e	Tunicata
+odi-mir-1497f-1	Tunicata
+odi-mir-1497f-2	Tunicata
+odi-mir-1497g	Tunicata
+odi-mir-1497h	Tunicata
+odi-mir-1c	Bilateria
+odi-mir-281	Bilateria
+odi-mir-7-1	Bilateria
+odi-mir-7-2	Bilateria

@@ -1,0 +1,72 @@
+# /Users/virpatel/Desktop/pub_stuff/ProteinHistorian/age_proteins.py -t /Users/virpatel/Desktop/pub_stuff/relevant_data/time_tree_dates.txt -o /Users/virpatel/Desktop/pub_stuff/relevant_data/all_ages/ /Users/virpatel/Desktop/pub_stuff/relevant_data/family_file_ph.txt /Users/virpatel/Desktop/pub_stuff/relevant_data/phylo_tree.txt 2016-04-29 23:49:35.406925
+#
+# FAMILY_FILE = /Users/virpatel/Desktop/pub_stuff/relevant_data/family_file_ph.txt
+# TREE_FILE = /Users/virpatel/Desktop/pub_stuff/relevant_data/phylo_tree.txt
+# RECONSTRUCTION_ALGO = dollo
+# GAIN_PENALTY = 1
+# OUTPUT_NAME = family_file_ph_dollo
+# OUTPUT_DIR = /Users/virpatel/Desktop/pub_stuff/relevant_data/all_ages/
+# OUTPUT_FORMATS = ['depth', 'label', 'time', 'profile']
+# TIME_FILE = /Users/virpatel/Desktop/pub_stuff/relevant_data/time_tree_dates.txt
+# ADDITIONAL_ID_FILE = None
+#
+age-mir-100	24
+age-mir-101	17
+age-mir-103	20
+age-mir-106a	20
+age-mir-106b	20
+age-mir-10a	24
+age-mir-124a	24
+age-mir-125b-1	24
+age-mir-125b-2	24
+age-mir-127	9
+age-mir-128	20
+age-mir-133a	24
+age-mir-135-1	22
+age-mir-135-2	22
+age-mir-15a	20
+age-mir-15b	20
+age-mir-16	20
+age-mir-17	20
+age-mir-18	20
+age-mir-194	20
+age-mir-196	20
+age-mir-197	9
+age-mir-198	5
+age-mir-19a	20
+age-mir-19b-1	20
+age-mir-19b-2	20
+age-mir-20	20
+age-mir-205	20
+age-mir-21	17
+age-mir-214	17
+age-mir-218	20
+age-mir-22	23
+age-mir-222	20
+age-mir-23a	20
+age-mir-27a	20
+age-mir-28	11
+age-mir-29a	24
+age-mir-29b	24
+age-mir-30b	20
+age-mir-34a	24
+age-mir-506	9
+age-mir-507	9
+age-mir-508	9
+age-mir-509a	9
+age-mir-509b	9
+age-mir-510	9
+age-mir-513a-1	9
+age-mir-513a-2	9
+age-mir-513b	9
+age-mir-513c-1	9
+age-mir-513c-2	9
+age-mir-513d	9
+age-mir-513e-1	9
+age-mir-513e-2	9
+age-mir-514	9
+age-mir-9	24
+age-mir-92-1	24
+age-mir-92-2	24
+age-mir-93	20
+age-mir-98	24

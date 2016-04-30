@@ -1,0 +1,82 @@
+# /Users/virpatel/Desktop/pub_stuff/ProteinHistorian/age_proteins.py -t /Users/virpatel/Desktop/pub_stuff/relevant_data/time_tree_dates.txt -o /Users/virpatel/Desktop/pub_stuff/relevant_data/all_ages/ /Users/virpatel/Desktop/pub_stuff/relevant_data/family_file_ph.txt /Users/virpatel/Desktop/pub_stuff/relevant_data/phylo_tree.txt 2016-04-29 23:49:35.406925
+#
+# FAMILY_FILE = /Users/virpatel/Desktop/pub_stuff/relevant_data/family_file_ph.txt
+# TREE_FILE = /Users/virpatel/Desktop/pub_stuff/relevant_data/phylo_tree.txt
+# RECONSTRUCTION_ALGO = dollo
+# GAIN_PENALTY = 1
+# OUTPUT_NAME = family_file_ph_dollo
+# OUTPUT_DIR = /Users/virpatel/Desktop/pub_stuff/relevant_data/all_ages/
+# OUTPUT_FORMATS = ['depth', 'label', 'time', 'profile']
+# TIME_FILE = /Users/virpatel/Desktop/pub_stuff/relevant_data/time_tree_dates.txt
+# ADDITIONAL_ID_FILE = None
+#
+cqu-bantam	Bilateria
+cqu-let-7	Bilateria
+cqu-mir-1	Bilateria
+cqu-mir-10	Bilateria
+cqu-mir-100	Bilateria
+cqu-mir-1000	Neoptera
+cqu-mir-11	Endopterygota
+cqu-mir-1175	Protostomia
+cqu-mir-12	Protostomia
+cqu-mir-124	Bilateria
+cqu-mir-125	Bilateria
+cqu-mir-13	Bilateria
+cqu-mir-133	Bilateria
+cqu-mir-137	Bilateria
+cqu-mir-14	Neoptera
+cqu-mir-184	Bilateria
+cqu-mir-1889	Culicinae
+cqu-mir-1890	Nematocera
+cqu-mir-1891	Nematocera
+cqu-mir-190-1	Bilateria
+cqu-mir-190-2	Bilateria
+cqu-mir-2	Bilateria
+cqu-mir-210	Bilateria
+cqu-mir-252-1	Bilateria
+cqu-mir-252-2	Bilateria
+cqu-mir-263	Protostomia
+cqu-mir-275	Arthropoda
+cqu-mir-276-1	Arthropoda
+cqu-mir-276-2	Arthropoda
+cqu-mir-276-3	Arthropoda
+cqu-mir-277	Neoptera
+cqu-mir-278	Bilateria
+cqu-mir-279	Protostomia
+cqu-mir-281-1	Bilateria
+cqu-mir-281-2	Bilateria
+cqu-mir-283	Bilateria
+cqu-mir-285	Bilateria
+cqu-mir-2941-1	Culicinae
+cqu-mir-2941-2	Culicinae
+cqu-mir-305	Arthropoda
+cqu-mir-308	Endopterygota
+cqu-mir-309	Diptera
+cqu-mir-31	Bilateria
+cqu-mir-315	Bilateria
+cqu-mir-316	Neoptera
+cqu-mir-317-1	Arthropoda
+cqu-mir-317-2	Arthropoda
+cqu-mir-33	Bilateria
+cqu-mir-375-1	Bilateria
+cqu-mir-375-2	Bilateria
+cqu-mir-7	Bilateria
+cqu-mir-71	Bilateria
+cqu-mir-79	Bilateria
+cqu-mir-8	Bilateria
+cqu-mir-87	Bilateria
+cqu-mir-9	Bilateria
+cqu-mir-92	Bilateria
+cqu-mir-932	Endopterygota
+cqu-mir-957	Diptera
+cqu-mir-965	Mandibulata
+cqu-mir-970	Endopterygota
+cqu-mir-980	Endopterygota
+cqu-mir-981	Bilateria
+cqu-mir-988	Diptera
+cqu-mir-989	Endopterygota
+cqu-mir-993	Bilateria
+cqu-mir-996	Neoptera
+cqu-mir-998	Endopterygota
+cqu-mir-999	Diptera
+cqu-mir-iab-4	Arthropoda

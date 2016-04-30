@@ -1,0 +1,32 @@
+# /Users/virpatel/Desktop/pub_stuff/ProteinHistorian/age_proteins.py -t /Users/virpatel/Desktop/pub_stuff/relevant_data/time_tree_dates.txt -o /Users/virpatel/Desktop/pub_stuff/relevant_data/all_ages/ /Users/virpatel/Desktop/pub_stuff/relevant_data/family_file_ph.txt /Users/virpatel/Desktop/pub_stuff/relevant_data/phylo_tree.txt 2016-04-29 23:49:35.406925
+#
+# FAMILY_FILE = /Users/virpatel/Desktop/pub_stuff/relevant_data/family_file_ph.txt
+# TREE_FILE = /Users/virpatel/Desktop/pub_stuff/relevant_data/phylo_tree.txt
+# RECONSTRUCTION_ALGO = dollo
+# GAIN_PENALTY = 1
+# OUTPUT_NAME = family_file_ph_dollo
+# OUTPUT_DIR = /Users/virpatel/Desktop/pub_stuff/relevant_data/all_ages/
+# OUTPUT_FORMATS = ['depth', 'label', 'time', 'profile']
+# TIME_FILE = /Users/virpatel/Desktop/pub_stuff/relevant_data/time_tree_dates.txt
+# ADDITIONAL_ID_FILE = None
+#
+xla-mir-1306	454.6
+xla-mir-133a	910.0
+xla-mir-133b	910.0
+xla-mir-133d	910.0
+xla-mir-142	454.6
+xla-mir-15c	535.7
+xla-mir-18	535.7
+xla-mir-194	535.7
+xla-mir-19b	535.7
+xla-mir-1b	910.0
+xla-mir-20	535.7
+xla-mir-205	535.7
+xla-mir-223	454.6
+xla-mir-23a	535.7
+xla-mir-24b	535.7
+xla-mir-363	454.6
+xla-mir-429	910.0
+xla-mir-703	361.2
+xla-mir-92a-1	910.0
+xla-mir-92a-2	910.0

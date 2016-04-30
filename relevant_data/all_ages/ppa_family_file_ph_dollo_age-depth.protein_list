@@ -1,0 +1,100 @@
+# /Users/virpatel/Desktop/pub_stuff/ProteinHistorian/age_proteins.py -t /Users/virpatel/Desktop/pub_stuff/relevant_data/time_tree_dates.txt -o /Users/virpatel/Desktop/pub_stuff/relevant_data/all_ages/ /Users/virpatel/Desktop/pub_stuff/relevant_data/family_file_ph.txt /Users/virpatel/Desktop/pub_stuff/relevant_data/phylo_tree.txt 2016-04-29 23:49:35.406925
+#
+# FAMILY_FILE = /Users/virpatel/Desktop/pub_stuff/relevant_data/family_file_ph.txt
+# TREE_FILE = /Users/virpatel/Desktop/pub_stuff/relevant_data/phylo_tree.txt
+# RECONSTRUCTION_ALGO = dollo
+# GAIN_PENALTY = 1
+# OUTPUT_NAME = family_file_ph_dollo
+# OUTPUT_DIR = /Users/virpatel/Desktop/pub_stuff/relevant_data/all_ages/
+# OUTPUT_FORMATS = ['depth', 'label', 'time', 'profile']
+# TIME_FILE = /Users/virpatel/Desktop/pub_stuff/relevant_data/time_tree_dates.txt
+# ADDITIONAL_ID_FILE = None
+#
+ppa-mir-1	25
+ppa-mir-100	25
+ppa-mir-101	18
+ppa-mir-103	21
+ppa-mir-105	10
+ppa-mir-106a	21
+ppa-mir-106b	21
+ppa-mir-107	21
+ppa-mir-10a	25
+ppa-mir-10b	25
+ppa-mir-124a	25
+ppa-mir-125b	25
+ppa-mir-128	21
+ppa-mir-130a	21
+ppa-mir-133a	25
+ppa-mir-134	10
+ppa-mir-135-1	23
+ppa-mir-135-2	23
+ppa-mir-136	10
+ppa-mir-139	18
+ppa-mir-141	25
+ppa-mir-143	21
+ppa-mir-144	21
+ppa-mir-147	18
+ppa-mir-154	10
+ppa-mir-15a	21
+ppa-mir-15b	21
+ppa-mir-16	21
+ppa-mir-17	21
+ppa-mir-18	21
+ppa-mir-181a-1	21
+ppa-mir-181a-2	21
+ppa-mir-181b	21
+ppa-mir-181c	21
+ppa-mir-183	24
+ppa-mir-186	13
+ppa-mir-187	18
+ppa-mir-188	10
+ppa-mir-190	25
+ppa-mir-195	21
+ppa-mir-196	21
+ppa-mir-197	10
+ppa-mir-198	6
+ppa-mir-199a	21
+ppa-mir-19a	21
+ppa-mir-19b-1	21
+ppa-mir-19b-2	21
+ppa-mir-20	21
+ppa-mir-204	21
+ppa-mir-205	21
+ppa-mir-21	18
+ppa-mir-214	18
+ppa-mir-216	25
+ppa-mir-217	23
+ppa-mir-218-1	21
+ppa-mir-218-2	21
+ppa-mir-22	24
+ppa-mir-221	21
+ppa-mir-223	18
+ppa-mir-224	10
+ppa-mir-23a	21
+ppa-mir-23b	21
+ppa-mir-24-1	21
+ppa-mir-24-2	21
+ppa-mir-25	25
+ppa-mir-26a	21
+ppa-mir-27a	21
+ppa-mir-28	12
+ppa-mir-29a	25
+ppa-mir-29b-1	25
+ppa-mir-29b-2	25
+ppa-mir-30a	21
+ppa-mir-30b	21
+ppa-mir-30d	21
+ppa-mir-31	25
+ppa-mir-32	14
+ppa-mir-33	25
+ppa-mir-34a	25
+ppa-mir-7-1	25
+ppa-mir-7-2	25
+ppa-mir-7-3	25
+ppa-mir-92-1	25
+ppa-mir-92-2	25
+ppa-mir-93	21
+ppa-mir-95	10
+ppa-mir-96	25
+ppa-mir-98	25
+ppa-mir-99a	25

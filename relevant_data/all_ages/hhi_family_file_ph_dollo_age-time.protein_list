@@ -1,0 +1,42 @@
+# /Users/virpatel/Desktop/pub_stuff/ProteinHistorian/age_proteins.py -t /Users/virpatel/Desktop/pub_stuff/relevant_data/time_tree_dates.txt -o /Users/virpatel/Desktop/pub_stuff/relevant_data/all_ages/ /Users/virpatel/Desktop/pub_stuff/relevant_data/family_file_ph.txt /Users/virpatel/Desktop/pub_stuff/relevant_data/phylo_tree.txt 2016-04-29 23:49:35.406925
+#
+# FAMILY_FILE = /Users/virpatel/Desktop/pub_stuff/relevant_data/family_file_ph.txt
+# TREE_FILE = /Users/virpatel/Desktop/pub_stuff/relevant_data/phylo_tree.txt
+# RECONSTRUCTION_ALGO = dollo
+# GAIN_PENALTY = 1
+# OUTPUT_NAME = family_file_ph_dollo
+# OUTPUT_DIR = /Users/virpatel/Desktop/pub_stuff/relevant_data/all_ages/
+# OUTPUT_FORMATS = ['depth', 'label', 'time', 'profile']
+# TIME_FILE = /Users/virpatel/Desktop/pub_stuff/relevant_data/time_tree_dates.txt
+# ADDITIONAL_ID_FILE = None
+#
+hhi-let-7c	910.0
+hhi-let-7j	910.0
+hhi-mir-1	910.0
+hhi-mir-10d	910.0
+hhi-mir-129a	797.0
+hhi-mir-129b	797.0
+hhi-mir-147b	454.6
+hhi-mir-15a	535.7
+hhi-mir-1788	535.7
+hhi-mir-181b	535.7
+hhi-mir-182	910.0
+hhi-mir-183	842.0
+hhi-mir-187	454.6
+hhi-mir-196	535.7
+hhi-mir-199a	535.7
+hhi-mir-21	454.6
+hhi-mir-23a	535.7
+hhi-mir-26-1	535.7
+hhi-mir-26-2	535.7
+hhi-mir-301	535.7
+hhi-mir-430a-1	535.7
+hhi-mir-430a-2	535.7
+hhi-mir-430a-3	535.7
+hhi-mir-430b-1	535.7
+hhi-mir-430b-2	535.7
+hhi-mir-449	842.0
+hhi-mir-723	307.0
+hhi-mir-728	307.0
+hhi-mir-737	454.6
+hhi-mir-96	910.0
