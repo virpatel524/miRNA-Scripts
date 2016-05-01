@@ -1,13 +1,13 @@
-# /Users/virpatel/Desktop/pub_stuff/ProteinHistorian/age_proteins.py -t /Users/virpatel/Desktop/pub_stuff/relevant_data/time_tree_dates.txt -o /Users/virpatel/Desktop/pub_stuff/relevant_data/all_ages/ /Users/virpatel/Desktop/pub_stuff/relevant_data/family_file_ph.txt /Users/virpatel/Desktop/pub_stuff/relevant_data/phylo_tree.txt 2016-04-29 23:49:35.406925
+# ProteinHistorian/age_proteins.py -o relevant_data/all_ages/ -t relevant_data/time_tree_dates.txt relevant_data/family_file_ph.txt relevant_data/phylo_tree.txt 2016-04-30 13:29:52.123182
 #
-# FAMILY_FILE = /Users/virpatel/Desktop/pub_stuff/relevant_data/family_file_ph.txt
-# TREE_FILE = /Users/virpatel/Desktop/pub_stuff/relevant_data/phylo_tree.txt
+# FAMILY_FILE = relevant_data/family_file_ph.txt
+# TREE_FILE = relevant_data/phylo_tree.txt
 # RECONSTRUCTION_ALGO = dollo
 # GAIN_PENALTY = 1
 # OUTPUT_NAME = family_file_ph_dollo
-# OUTPUT_DIR = /Users/virpatel/Desktop/pub_stuff/relevant_data/all_ages/
+# OUTPUT_DIR = relevant_data/all_ages/
 # OUTPUT_FORMATS = ['depth', 'label', 'time', 'profile']
-# TIME_FILE = /Users/virpatel/Desktop/pub_stuff/relevant_data/time_tree_dates.txt
+# TIME_FILE = relevant_data/time_tree_dates.txt
 # ADDITIONAL_ID_FILE = None
 #
 cfa-let-7a-1	910.0
@@ -99,6 +99,10 @@ cfa-mir-181c	535.7
 cfa-mir-181d	535.7
 cfa-mir-182	910.0
 cfa-mir-183	842.0
+cfa-mir-1837-1	55.0
+cfa-mir-1837-2	55.0
+cfa-mir-1837-3	55.0
+cfa-mir-1837-4	55.0
 cfa-mir-1839	97.4
 cfa-mir-184	910.0
 cfa-mir-1842	84.6
@@ -330,8 +334,42 @@ cfa-mir-872	97.4
 cfa-mir-874	97.4
 cfa-mir-875	324.5
 cfa-mir-876	97.4
+cfa-mir-8791a	55.0
+cfa-mir-8791b	55.0
+cfa-mir-8793-1	55.0
+cfa-mir-8793-2	55.0
+cfa-mir-8793-3	55.0
+cfa-mir-8794-1	55.0
+cfa-mir-8794-2	55.0
+cfa-mir-8799a	55.0
+cfa-mir-8799b	55.0
+cfa-mir-8799c	55.0
+cfa-mir-8799d	55.0
+cfa-mir-8799e-1	55.0
+cfa-mir-8799e-2	55.0
+cfa-mir-8799f	55.0
+cfa-mir-8799g	55.0
+cfa-mir-8813-1	55.0
+cfa-mir-8813-2	55.0
+cfa-mir-8815-1	55.0
+cfa-mir-8815-2	55.0
+cfa-mir-8830-1	55.0
+cfa-mir-8830-2	55.0
+cfa-mir-8830-3	55.0
+cfa-mir-8834a-1	55.0
+cfa-mir-8834a-2	55.0
+cfa-mir-8841-1	55.0
+cfa-mir-8841-2	55.0
 cfa-mir-885	176.1
+cfa-mir-8864-1	55.0
+cfa-mir-8864-2	55.0
+cfa-mir-8864-3	55.0
+cfa-mir-8864-4	55.0
+cfa-mir-8873a	55.0
+cfa-mir-8873b	55.0
 cfa-mir-889	97.4
+cfa-mir-8904a	55.0
+cfa-mir-8904b	55.0
 cfa-mir-8908a-1	84.6
 cfa-mir-8908a-2	84.6
 cfa-mir-8908a-3	84.6

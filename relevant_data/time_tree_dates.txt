@@ -51,3 +51,8 @@ Eutheria		104.7
 Homo		0.0
 Vertebrata		535.7
 Eumetazoa		937.0
+Mus		7.8
+Rodentia		77.2
+Carnivora		55.0
+Drosophila		47.6
+

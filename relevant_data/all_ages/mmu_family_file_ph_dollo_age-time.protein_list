@@ -1,13 +1,13 @@
-# /Users/virpatel/Desktop/pub_stuff/ProteinHistorian/age_proteins.py -t /Users/virpatel/Desktop/pub_stuff/relevant_data/time_tree_dates.txt -o /Users/virpatel/Desktop/pub_stuff/relevant_data/all_ages/ /Users/virpatel/Desktop/pub_stuff/relevant_data/family_file_ph.txt /Users/virpatel/Desktop/pub_stuff/relevant_data/phylo_tree.txt 2016-04-29 23:49:35.406925
+# ProteinHistorian/age_proteins.py -o relevant_data/all_ages/ -t relevant_data/time_tree_dates.txt relevant_data/family_file_ph.txt relevant_data/phylo_tree.txt 2016-04-30 13:29:52.123182
 #
-# FAMILY_FILE = /Users/virpatel/Desktop/pub_stuff/relevant_data/family_file_ph.txt
-# TREE_FILE = /Users/virpatel/Desktop/pub_stuff/relevant_data/phylo_tree.txt
+# FAMILY_FILE = relevant_data/family_file_ph.txt
+# TREE_FILE = relevant_data/phylo_tree.txt
 # RECONSTRUCTION_ALGO = dollo
 # GAIN_PENALTY = 1
 # OUTPUT_NAME = family_file_ph_dollo
-# OUTPUT_DIR = /Users/virpatel/Desktop/pub_stuff/relevant_data/all_ages/
+# OUTPUT_DIR = relevant_data/all_ages/
 # OUTPUT_FORMATS = ['depth', 'label', 'time', 'profile']
-# TIME_FILE = /Users/virpatel/Desktop/pub_stuff/relevant_data/time_tree_dates.txt
+# TIME_FILE = relevant_data/time_tree_dates.txt
 # ADDITIONAL_ID_FILE = None
 #
 mmu-let-7a-1	910.0
@@ -121,6 +121,8 @@ mmu-mir-18a	535.7
 mmu-mir-18b	535.7
 mmu-mir-1902	97.4
 mmu-mir-1905	324.5
+mmu-mir-1906-1	7.8
+mmu-mir-1906-2	7.8
 mmu-mir-190a	910.0
 mmu-mir-190b	910.0
 mmu-mir-191	361.2
@@ -130,6 +132,9 @@ mmu-mir-193a	910.0
 mmu-mir-193b	910.0
 mmu-mir-194-1	535.7
 mmu-mir-194-2	535.7
+mmu-mir-1954	7.8
+mmu-mir-1957a	7.8
+mmu-mir-1957b	7.8
 mmu-mir-195a	535.7
 mmu-mir-196a-1	535.7
 mmu-mir-196a-2	535.7
@@ -219,6 +224,9 @@ mmu-mir-302d	361.2
 mmu-mir-3059	89.1
 mmu-mir-3064	324.5
 mmu-mir-3065	97.4
+mmu-mir-3070-1	7.8
+mmu-mir-3070-2	7.8
+mmu-mir-3072	77.2
 mmu-mir-3074-1	97.4
 mmu-mir-3074-2	97.4
 mmu-mir-30a	535.7
@@ -247,8 +255,30 @@ mmu-mir-338	454.6
 mmu-mir-339	97.4
 mmu-mir-340	97.4
 mmu-mir-342	97.4
+mmu-mir-344-1	77.2
+mmu-mir-344-2	77.2
+mmu-mir-344b	77.2
+mmu-mir-344c	77.2
+mmu-mir-344d-1	77.2
+mmu-mir-344d-2	77.2
+mmu-mir-344d-3	77.2
+mmu-mir-344e	77.2
+mmu-mir-344f	77.2
+mmu-mir-344g	77.2
+mmu-mir-344h-1	77.2
+mmu-mir-344h-2	77.2
+mmu-mir-344i	77.2
 mmu-mir-345	97.4
 mmu-mir-346	97.4
+mmu-mir-3470a	7.8
+mmu-mir-3470b	7.8
+mmu-mir-3471-1	7.8
+mmu-mir-3471-2	7.8
+mmu-mir-3473a	7.8
+mmu-mir-3473b	7.8
+mmu-mir-3473c	7.8
+mmu-mir-3473d	7.8
+mmu-mir-3473f	7.8
 mmu-mir-34a	910.0
 mmu-mir-34b	910.0
 mmu-mir-34c	910.0
@@ -371,6 +401,7 @@ mmu-mir-503	97.4
 mmu-mir-504	97.4
 mmu-mir-505	97.4
 mmu-mir-509	97.4
+mmu-mir-5098	7.8
 mmu-mir-511	97.4
 mmu-mir-532	97.4
 mmu-mir-539	97.4
@@ -379,6 +410,8 @@ mmu-mir-542	97.4
 mmu-mir-543	97.4
 mmu-mir-544	97.4
 mmu-mir-551b	535.7
+mmu-mir-5615-1	7.8
+mmu-mir-5615-2	7.8
 mmu-mir-568	97.4
 mmu-mir-574	97.4
 mmu-mir-582	97.4
@@ -430,10 +463,21 @@ mmu-mir-672	97.4
 mmu-mir-675	97.4
 mmu-mir-676	97.4
 mmu-mir-677	97.4
+mmu-mir-680-1	7.8
+mmu-mir-680-2	7.8
+mmu-mir-680-3	7.8
+mmu-mir-683-1	7.8
+mmu-mir-683-2	7.8
 mmu-mir-684-1	97.4
 mmu-mir-684-2	97.4
+mmu-mir-692-1	7.8
+mmu-mir-692-2	7.8
+mmu-mir-6967-1	7.8
+mmu-mir-6967-2	7.8
 mmu-mir-703	361.2
 mmu-mir-708	97.4
+mmu-mir-7094-1	7.8
+mmu-mir-7094-2	7.8
 mmu-mir-711	97.4
 mmu-mir-718	97.4
 mmu-mir-743a	89.1
@@ -447,11 +491,15 @@ mmu-mir-762	324.5
 mmu-mir-763	97.4
 mmu-mir-764	97.4
 mmu-mir-767	97.4
+mmu-mir-7676-1	7.8
+mmu-mir-7676-2	7.8
 mmu-mir-770	97.4
 mmu-mir-7a-1	910.0
 mmu-mir-7a-2	910.0
 mmu-mir-7b	910.0
 mmu-mir-802	220.2
+mmu-mir-8099-1	7.8
+mmu-mir-8099-2	7.8
 mmu-mir-871	89.1
 mmu-mir-872	97.4
 mmu-mir-873a	220.2

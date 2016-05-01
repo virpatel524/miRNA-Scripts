@@ -1,13 +1,13 @@
-# /Users/virpatel/Desktop/pub_stuff/ProteinHistorian/age_proteins.py -t /Users/virpatel/Desktop/pub_stuff/relevant_data/time_tree_dates.txt -o /Users/virpatel/Desktop/pub_stuff/relevant_data/all_ages/ /Users/virpatel/Desktop/pub_stuff/relevant_data/family_file_ph.txt /Users/virpatel/Desktop/pub_stuff/relevant_data/phylo_tree.txt 2016-04-29 23:49:35.406925
+# ProteinHistorian/age_proteins.py -o relevant_data/all_ages/ -t relevant_data/time_tree_dates.txt relevant_data/family_file_ph.txt relevant_data/phylo_tree.txt 2016-04-30 13:29:52.123182
 #
-# FAMILY_FILE = /Users/virpatel/Desktop/pub_stuff/relevant_data/family_file_ph.txt
-# TREE_FILE = /Users/virpatel/Desktop/pub_stuff/relevant_data/phylo_tree.txt
+# FAMILY_FILE = relevant_data/family_file_ph.txt
+# TREE_FILE = relevant_data/phylo_tree.txt
 # RECONSTRUCTION_ALGO = dollo
 # GAIN_PENALTY = 1
 # OUTPUT_NAME = family_file_ph_dollo
-# OUTPUT_DIR = /Users/virpatel/Desktop/pub_stuff/relevant_data/all_ages/
+# OUTPUT_DIR = relevant_data/all_ages/
 # OUTPUT_FORMATS = ['depth', 'label', 'time', 'profile']
-# TIME_FILE = /Users/virpatel/Desktop/pub_stuff/relevant_data/time_tree_dates.txt
+# TIME_FILE = relevant_data/time_tree_dates.txt
 # ADDITIONAL_ID_FILE = None
 #
 cgr-let-7a	910.0
@@ -119,6 +119,7 @@ cgr-mir-29b	910.0
 cgr-mir-29c	910.0
 cgr-mir-300	97.4
 cgr-mir-301a	535.7
+cgr-mir-3072	77.2
 cgr-mir-30a	535.7
 cgr-mir-30b	535.7
 cgr-mir-30c	535.7
@@ -138,6 +139,7 @@ cgr-mir-338	454.6
 cgr-mir-339	97.4
 cgr-mir-340	97.4
 cgr-mir-342	97.4
+cgr-mir-344	77.2
 cgr-mir-345	97.4
 cgr-mir-34a	910.0
 cgr-mir-34b	910.0
