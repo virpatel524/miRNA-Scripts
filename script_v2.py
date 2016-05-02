@@ -12,7 +12,7 @@ from scipy import stats
 import matplotlib.pyplot as plt
 import seaborn as sns
 import sys, os, string, numpy, matplotlib.pyplot as plt
-from scipy.stats import spearmanr
+from scipy.stats import spearmanrf
 from distance import hamming
 from numpy import mean
 import pylab
@@ -74,7 +74,7 @@ def sort_mir(txt,txt2):
 	return mega_mir_lst, mirlst_by_species, mirlst_by_family
 
 
-
+d
 
 
 
