@@ -12,7 +12,7 @@ from scipy import stats
 import matplotlib.pyplot as plt
 import seaborn as sns
 import sys, os, string, numpy, matplotlib.pyplot as plt
-from scipy.stats import spearmanrf
+from scipy.stats import spearmanr
 from distance import hamming
 from numpy import mean
 import pylab
@@ -74,7 +74,53 @@ def sort_mir(txt,txt2):
 	return mega_mir_lst, mirlst_by_species, mirlst_by_family
 
 
-d
+def diseaese_parser(disease_txt):
+	disease2mirna = {}
+	mirna2disease = {}
+
+	disease_lst = list(csv.reader(disease_txt,delimiter='\t'))
+	for i in disease_lst:
+		disease2mirna.setdefault(i[1],[]).append(i[0])
+		mirna2disease.setdefault(i[0],[]).append(i[1])
+
+	return mirna2disease, disease2mirna	
+
+	
+	disease_txt.close()
+
+def age_parser(age_txt):
+	mirna2age = {}
+	age2mirna = {}
+
+	age_lst = [alpha for alpha in list(csv.reader(age_txt,delimiter='\t')) if alpha[0][0] != '#' ]
+
+	for i in age_lst:
+		mirna2age[i[0]] = float(i[1])
+		age2mirna.setdefault(float(i[1]),[]).append(i[0])
+
+	with open('/Users/virpatel/Desktop/pub_stuff/relevant_data/hsa_mirlst.txt','w') as mirlst:
+		for mirna in mirna2age:
+			mirlst.write(mirna + '\n')
+			
+
+
+	return mirna2age, age2mirna
+
+def get_mirna_disease_age_relationship(mirna2age, mirna2disease):
+	mirnas_in_q = list(set(mirna2age.keys()).intersection(mirna2disease.keys()))
+	
+	print len(mirnas_in_q)
+
+	age_dict = []
+	num_dis_dict = []
+
+
+	for i in mirnas_in_q:
+		age_dict.append(mirna2age[i])
+		num_dis_dict.append(len(mirna2disease[i]))
+		print i, mirna2age[i], num_dis_dict[-1]
+
+
 
 
 
@@ -89,8 +135,15 @@ def main():
 
 	mirdb = '/Users/virpatel/Desktop/pub_stuff/relevant_data/all_mir_lst.txt'
 	famdb = '/Users/virpatel/Desktop/pub_stuff/relevant_data/miFam.dat'
+	diseasedb = '/Users/virpatel/projects/vanderbilt-summer-2014/data/microRNA_disease.txt'
+	agedb = '/Users/virpatel/Desktop/pub_stuff/relevant_data/all_ages/hsa_family_file_ph_dollo_age-time.protein_list'
+
 
 	mega_mir_lst, mirlst_by_species, mirlst_by_fam = sort_mir(open(mirdb,'r'),open(famdb,'r'))
+	mirna2disease, disease2mirna = diseaese_parser(open(diseasedb,'r'))
+	mirna2age, age2mirna = age_parser(open(agedb, 'r'))
+
+	get_mirna_disease_age_relationship(mirna2age, mirna2disease)
 
 
 
