@@ -50,7 +50,18 @@ def bincount(float_lst):
 
 
 	labels = [float(alpha) for alpha in sorted(list(set(float_lst)))]
-	str_labels = [str(alpha) for alpha in sorted(list(set(float_lst)))]
+
+	age2clade = {}
+
+	with open('/Users/virpatel/Desktop/pub_stuff/relevant_data/time_tree_dates.txt') as time_tree_data:
+		time_tree_lst = [a for a in list(csv.reader(time_tree_data,delimiter='\t')) if len(a) > 1]
+		for alpha in time_tree_lst:
+				age2clade[alpha[-1]] = alpha[0]
+
+
+
+
+	str_labels = [age2clade[str(alpha)] for alpha in sorted(list(set(float_lst)))]
 
 
 
@@ -63,25 +74,45 @@ def bincount(float_lst):
 	binlst = [0] * len(labels)
 	for el in float_lst: binlst[labels.index(float(el))] = binlst[labels.index(float(el))] + 1
 
-	ind = ind = np.arange(0,len(labels) * 2,2)
 
-	width = .75
+
+	nd = np.arange(0,len(labels)*10,10)
+
+
 
 	# plt.bar(ind, binlst, width)
 
 	flatui = ["#9b59b6", "#3498db", "#95a5a6", "#e74c3c", "#34495e", "#2ecc71"]
-	sns.barplot(ind, binlst,palette=flatui)
+
+
+	plt.figure(figsize=(20,10)) 
+
+	plot = plt.figure(1).add_subplot(111)
+	plot.tick_params(axis='x', which='major', labelsize=10)
+	plot.tick_params(axis='y', which='major', labelsize=15)
+	ax = plt.gca()
+	ax.yaxis.labelpad = 15
+
+
+
+	sns.barplot(nd, binlst,palette=flatui)
+
+	ax.set_xticklabels(str_labels, rotation=65, ha='right') 
+
+	plt.gcf().subplots_adjust(bottom=0.20)
+
+
 
 	
 
 	# sns.set_style("whitegrid", {'axes.grid' : False})
 
-	plt.xlabel('miRNA Clade of Origination',fontsize=10,fontweight='bold', fontstyle='italic')
-	plt.ylabel('miRNA Count', fontsize=10,fontweight='bold', fontstyle='italic')
-	plt.title('title', fontsize=15,fontweight='bold')
+	plt.xlabel('miRNA Clade of Origination',fontsize=15)
+	plt.ylabel('miRNA Count', fontsize=15 )
 
 
-	locs, labels = plt.xticks(ind, str_labels, rotation=55)
+
+
 
 
 

@@ -6,15 +6,16 @@ import math, csv
 import random
 import sys, os, string, numpy, matplotlib.pyplot as plt
 import requests
-
+import random
 
 with open(sys.argv[-1],'r') as fle:
 	data = [alpha[0] for alpha in list(csv.reader(fle,delimiter='\t'))]
 
 
+datalst = []
+
 with open('/Users/virpatel/Desktop/pub_stuff/relevant_data/scholar_hits.txt','w') as scholar_txt:
 	for i in data:
-		print i
 
 
 		site = 'https://scholar.google.com/scholar?hl=en&q="' + i + '"%22'
@@ -30,19 +31,32 @@ with open('/Users/virpatel/Desktop/pub_stuff/relevant_data/scholar_hits.txt','w'
 		page = requests.get(site)
 		page = page.text
 
-		print page
 
 
 		import re
 
-		m = re.search('About (.+?) results', page)
+		# m = re.search(' (.+?) results', page)
 	
-		found = m.group(1)
+		# found = m.group(1)
 
-		scholar_txt.write('big head')
-		scholar_txt.write(found + '\n')
 
-		time.sleep(randint(10,100))
+		reg_return = re.findall(r'\d+ results',page)
+		if len(reg_return) == 0:
+			scholar_txt.write(i + '\t' + str(0) + '\n')
+			continue
+
+		found = str(reg_return[0]).split(' ')[0]
+		datalst.append([i,found])
+
+		scholar_txt.write(i + '\t' + found + '\n')
+
+		time.sleep(random.randint(10,15))
+
+
+
+with open('/Users/virpatel/Desktop/pub_stuff/relevant_data/scholar_hits.txt','w') as scholar_txt:
+	for i in datalst:
+		scholar_txt.write('%s\t%s\n' %(i[0],i[1]))
 
 
 
