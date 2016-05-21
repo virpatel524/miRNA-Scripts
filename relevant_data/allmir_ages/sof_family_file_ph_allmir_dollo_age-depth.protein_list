@@ -1,0 +1,28 @@
+# age_proteins.py -o ../relevant_data/allmir_ages/ -t ../relevant_data/time_tree_dates.txt ../relevant_data/family_file_ph_allmir.txt ../relevant_data/phylo_tree.txt 2016-05-19 19:01:05.137938
+#
+# FAMILY_FILE = ../relevant_data/family_file_ph_allmir.txt
+# TREE_FILE = ../relevant_data/phylo_tree.txt
+# RECONSTRUCTION_ALGO = dollo
+# GAIN_PENALTY = 1
+# OUTPUT_NAME = family_file_ph_allmir_dollo
+# OUTPUT_DIR = ../relevant_data/allmir_ages/
+# OUTPUT_FORMATS = ['depth', 'label', 'time', 'profile']
+# TIME_FILE = ../relevant_data/time_tree_dates.txt
+# ADDITIONAL_ID_FILE = None
+#
+sof-MIR156	16
+sof-MIR159a	16
+sof-MIR159b	16
+sof-MIR159c	16
+sof-MIR159d	16
+sof-MIR159e	16
+sof-MIR167a	11
+sof-MIR167b	11
+sof-MIR168a	12
+sof-MIR168b	12
+sof-MIR396	15
+sof-MIR408a	16
+sof-MIR408b	16
+sof-MIR408c	16
+sof-MIR408d	16
+sof-MIR408e	16

@@ -1,0 +1,51 @@
+# age_proteins.py -o ../relevant_data/allmir_ages/ -t ../relevant_data/time_tree_dates.txt ../relevant_data/family_file_ph_allmir.txt ../relevant_data/phylo_tree.txt 2016-05-19 19:01:05.137938
+#
+# FAMILY_FILE = ../relevant_data/family_file_ph_allmir.txt
+# TREE_FILE = ../relevant_data/phylo_tree.txt
+# RECONSTRUCTION_ALGO = dollo
+# GAIN_PENALTY = 1
+# OUTPUT_NAME = family_file_ph_allmir_dollo
+# OUTPUT_DIR = ../relevant_data/allmir_ages/
+# OUTPUT_FORMATS = ['depth', 'label', 'time', 'profile']
+# TIME_FILE = ../relevant_data/time_tree_dates.txt
+# ADDITIONAL_ID_FILE = None
+#
+mes-MIR167a	147.8
+mes-MIR167b	147.8
+mes-MIR167c	147.8
+mes-MIR167d	147.8
+mes-MIR167e	147.8
+mes-MIR167f	147.8
+mes-MIR167g	147.8
+mes-MIR167h	147.8
+mes-MIR168a	147.8
+mes-MIR169aa	147.8
+mes-MIR169ab	147.8
+mes-MIR169ac	147.8
+mes-MIR169o	147.8
+mes-MIR169p	147.8
+mes-MIR169q	147.8
+mes-MIR169r	147.8
+mes-MIR169s	147.8
+mes-MIR169t	147.8
+mes-MIR169u	147.8
+mes-MIR169v	147.8
+mes-MIR169w	147.8
+mes-MIR169x	147.8
+mes-MIR169y	147.8
+mes-MIR169z	147.8
+mes-MIR172a	147.8
+mes-MIR172b	147.8
+mes-MIR172c	147.8
+mes-MIR172d	147.8
+mes-MIR172e	147.8
+mes-MIR172f	147.8
+mes-MIR393a	147.8
+mes-MIR393b	147.8
+mes-MIR393c	147.8
+mes-MIR393d	147.8
+mes-MIR394a	147.8
+mes-MIR394b	147.8
+mes-MIR394c	147.8
+mes-MIR828a	147.8
+mes-MIR828b	147.8

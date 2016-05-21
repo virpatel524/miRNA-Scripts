@@ -1,0 +1,48 @@
+# age_proteins.py -o ../relevant_data/selectmir_ages/ -t ../relevant_data/time_tree_dates.txt ../relevant_data/family_file_ph_selectmir.txt ../relevant_data/phylo_tree.txt 2016-05-19 19:02:08.011342
+#
+# FAMILY_FILE = ../relevant_data/family_file_ph_selectmir.txt
+# TREE_FILE = ../relevant_data/phylo_tree.txt
+# RECONSTRUCTION_ALGO = dollo
+# GAIN_PENALTY = 1
+# OUTPUT_NAME = family_file_ph_selectmir_dollo
+# OUTPUT_DIR = ../relevant_data/selectmir_ages/
+# OUTPUT_FORMATS = ['depth', 'label', 'time', 'profile']
+# TIME_FILE = ../relevant_data/time_tree_dates.txt
+# ADDITIONAL_ID_FILE = None
+#
+aae-bantam	Bilateria
+aae-mir-11	Endopterygota
+aae-mir-1175	Protostomia
+aae-mir-12	Arthropoda
+aae-mir-13	Bilateria
+aae-mir-1889	Culicinae
+aae-mir-252	Bilateria
+aae-mir-263a	Ecdysozoa
+aae-mir-263b	Ecdysozoa
+aae-mir-275	Endopterygota
+aae-mir-276-1	Arthropoda
+aae-mir-277	Endopterygota
+aae-mir-278	Endopterygota
+aae-mir-281	Bilateria
+aae-mir-282-1	Endopterygota
+aae-mir-282-2	Endopterygota
+aae-mir-2944a	Endopterygota
+aae-mir-2944b	Endopterygota
+aae-mir-2945	Ecdysozoa
+aae-mir-2a	Bilateria
+aae-mir-305	Endopterygota
+aae-mir-308	Endopterygota
+aae-mir-309b	Diptera
+aae-mir-315	Bilateria
+aae-mir-34	Bilateria
+aae-mir-71	Bilateria
+aae-mir-79	Bilateria
+aae-mir-8	Bilateria
+aae-mir-92a	Bilateria
+aae-mir-92b	Bilateria
+aae-mir-932	Endopterygota
+aae-mir-980	Endopterygota
+aae-mir-988	Diptera
+aae-mir-9c	Bilateria
+aae-mir-iab-4-1	Pancrustacea
+aae-mir-iab-4-2	Pancrustacea

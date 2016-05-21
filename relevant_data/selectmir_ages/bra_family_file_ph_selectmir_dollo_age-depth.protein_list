@@ -1,0 +1,57 @@
+# age_proteins.py -o ../relevant_data/selectmir_ages/ -t ../relevant_data/time_tree_dates.txt ../relevant_data/family_file_ph_selectmir.txt ../relevant_data/phylo_tree.txt 2016-05-19 19:02:08.011342
+#
+# FAMILY_FILE = ../relevant_data/family_file_ph_selectmir.txt
+# TREE_FILE = ../relevant_data/phylo_tree.txt
+# RECONSTRUCTION_ALGO = dollo
+# GAIN_PENALTY = 1
+# OUTPUT_NAME = family_file_ph_selectmir_dollo
+# OUTPUT_DIR = ../relevant_data/selectmir_ages/
+# OUTPUT_FORMATS = ['depth', 'label', 'time', 'profile']
+# TIME_FILE = ../relevant_data/time_tree_dates.txt
+# ADDITIONAL_ID_FILE = None
+#
+bra-MIR156a	14
+bra-MIR156b	14
+bra-MIR156c	14
+bra-MIR156d	14
+bra-MIR156e	14
+bra-MIR156f	14
+bra-MIR156g	14
+bra-MIR158	3
+bra-MIR160a	10
+bra-MIR161	3
+bra-MIR162	7
+bra-MIR164b	10
+bra-MIR164c	10
+bra-MIR164d	10
+bra-MIR164e	10
+bra-MIR168a	10
+bra-MIR168b	10
+bra-MIR168c	10
+bra-MIR172b	10
+bra-MIR172c	10
+bra-MIR172d	10
+bra-MIR2111	6
+bra-MIR2111a	6
+bra-MIR2111b	6
+bra-MIR319	15
+bra-MIR390	15
+bra-MIR395a	10
+bra-MIR395b	10
+bra-MIR395c	10
+bra-MIR395d	10
+bra-MIR396	10
+bra-MIR398	10
+bra-MIR403	7
+bra-MIR408	10
+bra-MIR6032	0
+bra-MIR860	3
+bra-MIR9408	0
+bra-MIR9552a	0
+bra-MIR9552b	0
+bra-MIR9555a	0
+bra-MIR9555b	0
+bra-MIR9560a	0
+bra-MIR9560b	0
+bra-MIR9563a	0
+bra-MIR9563b	0

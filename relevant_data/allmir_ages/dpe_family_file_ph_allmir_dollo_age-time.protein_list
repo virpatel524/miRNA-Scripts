@@ -1,0 +1,67 @@
+# age_proteins.py -o ../relevant_data/allmir_ages/ -t ../relevant_data/time_tree_dates.txt ../relevant_data/family_file_ph_allmir.txt ../relevant_data/phylo_tree.txt 2016-05-19 19:01:05.137938
+#
+# FAMILY_FILE = ../relevant_data/family_file_ph_allmir.txt
+# TREE_FILE = ../relevant_data/phylo_tree.txt
+# RECONSTRUCTION_ALGO = dollo
+# GAIN_PENALTY = 1
+# OUTPUT_NAME = family_file_ph_allmir_dollo
+# OUTPUT_DIR = ../relevant_data/allmir_ages/
+# OUTPUT_FORMATS = ['depth', 'label', 'time', 'profile']
+# TIME_FILE = ../relevant_data/time_tree_dates.txt
+# ADDITIONAL_ID_FILE = None
+#
+dpe-bantam	910.0
+dpe-let-7-1	910.0
+dpe-let-7-2	910.0
+dpe-mir-1	910.0
+dpe-mir-10	910.0
+dpe-mir-100-1	910.0
+dpe-mir-100-2	910.0
+dpe-mir-124	910.0
+dpe-mir-125-1	910.0
+dpe-mir-125-2	910.0
+dpe-mir-125-3	910.0
+dpe-mir-133	910.0
+dpe-mir-13a	910.0
+dpe-mir-13b-1	910.0
+dpe-mir-13b-2	910.0
+dpe-mir-184	910.0
+dpe-mir-210	910.0
+dpe-mir-219	910.0
+dpe-mir-278	910.0
+dpe-mir-280	47.6
+dpe-mir-281-1	910.0
+dpe-mir-281-2	910.0
+dpe-mir-283	910.0
+dpe-mir-284	47.6
+dpe-mir-286	471.4
+dpe-mir-287	47.6
+dpe-mir-288	47.6
+dpe-mir-2a-1	910.0
+dpe-mir-2a-2	910.0
+dpe-mir-2b	910.0
+dpe-mir-2c	910.0
+dpe-mir-3	471.4
+dpe-mir-307	910.0
+dpe-mir-309	471.4
+dpe-mir-314	47.6
+dpe-mir-315	910.0
+dpe-mir-318	47.6
+dpe-mir-31a	910.0
+dpe-mir-31b	910.0
+dpe-mir-33	910.0
+dpe-mir-34	910.0
+dpe-mir-4	47.6
+dpe-mir-5	47.6
+dpe-mir-6-1	47.6
+dpe-mir-6-2	47.6
+dpe-mir-6-3	47.6
+dpe-mir-7	910.0
+dpe-mir-79	910.0
+dpe-mir-8	910.0
+dpe-mir-87	910.0
+dpe-mir-92a	910.0
+dpe-mir-92b	910.0
+dpe-mir-9a	910.0
+dpe-mir-9b	910.0
+dpe-mir-9c	910.0

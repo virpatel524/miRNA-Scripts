@@ -1,0 +1,42 @@
+# age_proteins.py -o ../relevant_data/allmir_ages/ -t ../relevant_data/time_tree_dates.txt ../relevant_data/family_file_ph_allmir.txt ../relevant_data/phylo_tree.txt 2016-05-19 19:01:05.137938
+#
+# FAMILY_FILE = ../relevant_data/family_file_ph_allmir.txt
+# TREE_FILE = ../relevant_data/phylo_tree.txt
+# RECONSTRUCTION_ALGO = dollo
+# GAIN_PENALTY = 1
+# OUTPUT_NAME = family_file_ph_allmir_dollo
+# OUTPUT_DIR = ../relevant_data/allmir_ages/
+# OUTPUT_FORMATS = ['depth', 'label', 'time', 'profile']
+# TIME_FILE = ../relevant_data/time_tree_dates.txt
+# ADDITIONAL_ID_FILE = None
+#
+hhi-let-7c	Bilateria
+hhi-let-7j	Bilateria
+hhi-mir-1	Bilateria
+hhi-mir-10d	Bilateria
+hhi-mir-129a	Chordata
+hhi-mir-129b	Chordata
+hhi-mir-147b	Euteleostomi
+hhi-mir-15a	Vertebrata
+hhi-mir-1788	Vertebrata
+hhi-mir-181b	Vertebrata
+hhi-mir-182	Bilateria
+hhi-mir-183	Deuterostomia
+hhi-mir-187	Euteleostomi
+hhi-mir-196	Vertebrata
+hhi-mir-199a	Vertebrata
+hhi-mir-21	Euteleostomi
+hhi-mir-23a	Vertebrata
+hhi-mir-26-1	Vertebrata
+hhi-mir-26-2	Vertebrata
+hhi-mir-301	Vertebrata
+hhi-mir-430a-1	Vertebrata
+hhi-mir-430a-2	Vertebrata
+hhi-mir-430a-3	Vertebrata
+hhi-mir-430b-1	Vertebrata
+hhi-mir-430b-2	Vertebrata
+hhi-mir-449	Deuterostomia
+hhi-mir-723	Clupeocephala
+hhi-mir-728	Clupeocephala
+hhi-mir-737	Euteleostomi
+hhi-mir-96	Bilateria

@@ -1,0 +1,94 @@
+# age_proteins.py -o ../relevant_data/selectmir_ages/ -t ../relevant_data/time_tree_dates.txt ../relevant_data/family_file_ph_selectmir.txt ../relevant_data/phylo_tree.txt 2016-05-19 19:02:08.011342
+#
+# FAMILY_FILE = ../relevant_data/family_file_ph_selectmir.txt
+# TREE_FILE = ../relevant_data/phylo_tree.txt
+# RECONSTRUCTION_ALGO = dollo
+# GAIN_PENALTY = 1
+# OUTPUT_NAME = family_file_ph_selectmir_dollo
+# OUTPUT_DIR = ../relevant_data/selectmir_ages/
+# OUTPUT_FORMATS = ['depth', 'label', 'time', 'profile']
+# TIME_FILE = ../relevant_data/time_tree_dates.txt
+# ADDITIONAL_ID_FILE = None
+#
+ath-MIR156a	14
+ath-MIR156b	14
+ath-MIR156c	14
+ath-MIR156d	14
+ath-MIR156f	14
+ath-MIR157a	14
+ath-MIR157b	14
+ath-MIR157c	14
+ath-MIR158a	3
+ath-MIR159b	15
+ath-MIR160a	10
+ath-MIR160c	10
+ath-MIR161	3
+ath-MIR162a	7
+ath-MIR162b	7
+ath-MIR164b	10
+ath-MIR164c	10
+ath-MIR165a	10
+ath-MIR166a	10
+ath-MIR166b	10
+ath-MIR166e	10
+ath-MIR167a	10
+ath-MIR167c	10
+ath-MIR168a	10
+ath-MIR168b	10
+ath-MIR169a	10
+ath-MIR169b	10
+ath-MIR169f	10
+ath-MIR169g	10
+ath-MIR170	10
+ath-MIR171a	10
+ath-MIR171b	10
+ath-MIR171c	10
+ath-MIR172b	10
+ath-MIR172d	10
+ath-MIR172e	10
+ath-MIR173	2
+ath-MIR2111a	6
+ath-MIR2111b	6
+ath-MIR2112	2
+ath-MIR2934	0
+ath-MIR3434	2
+ath-MIR3440b	2
+ath-MIR390a	15
+ath-MIR390b	15
+ath-MIR391	2
+ath-MIR3932b	0
+ath-MIR393a	10
+ath-MIR393b	10
+ath-MIR394b	10
+ath-MIR396a	10
+ath-MIR396b	10
+ath-MIR398a	10
+ath-MIR398b	10
+ath-MIR398c	10
+ath-MIR399c	10
+ath-MIR403	7
+ath-MIR408	10
+ath-MIR4228	0
+ath-MIR447a	0
+ath-MIR447c	0
+ath-MIR472	7
+ath-MIR5014a	0
+ath-MIR773b	2
+ath-MIR774b	2
+ath-MIR822	2
+ath-MIR824	2
+ath-MIR829	2
+ath-MIR831	2
+ath-MIR833a	2
+ath-MIR835	2
+ath-MIR837	2
+ath-MIR840	2
+ath-MIR841a	0
+ath-MIR841b	0
+ath-MIR844	2
+ath-MIR846	2
+ath-MIR851	2
+ath-MIR861	2
+ath-MIR862	2
+ath-MIR868	2
+ath-MIR869	2

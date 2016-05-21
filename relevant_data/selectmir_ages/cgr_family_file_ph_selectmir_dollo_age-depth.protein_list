@@ -1,0 +1,119 @@
+# age_proteins.py -o ../relevant_data/selectmir_ages/ -t ../relevant_data/time_tree_dates.txt ../relevant_data/family_file_ph_selectmir.txt ../relevant_data/phylo_tree.txt 2016-05-19 19:02:08.011342
+#
+# FAMILY_FILE = ../relevant_data/family_file_ph_selectmir.txt
+# TREE_FILE = ../relevant_data/phylo_tree.txt
+# RECONSTRUCTION_ALGO = dollo
+# GAIN_PENALTY = 1
+# OUTPUT_NAME = family_file_ph_selectmir_dollo
+# OUTPUT_DIR = ../relevant_data/selectmir_ages/
+# OUTPUT_FORMATS = ['depth', 'label', 'time', 'profile']
+# TIME_FILE = ../relevant_data/time_tree_dates.txt
+# ADDITIONAL_ID_FILE = None
+#
+cgr-let-7d	24
+cgr-let-7g	24
+cgr-mir-100	24
+cgr-mir-101b	17
+cgr-mir-103	20
+cgr-mir-106b	20
+cgr-mir-10a	24
+cgr-mir-10b	24
+cgr-mir-125a	24
+cgr-mir-125b	24
+cgr-mir-128	17
+cgr-mir-1306	13
+cgr-mir-130a	20
+cgr-mir-130b	20
+cgr-mir-132	20
+cgr-mir-137	24
+cgr-mir-139	17
+cgr-mir-140	17
+cgr-mir-142	17
+cgr-mir-146b	20
+cgr-mir-148b	17
+cgr-mir-149	9
+cgr-mir-151	9
+cgr-mir-152	17
+cgr-mir-154	9
+cgr-mir-15a	20
+cgr-mir-15b	20
+cgr-mir-16	20
+cgr-mir-17	20
+cgr-mir-181a	20
+cgr-mir-181b	20
+cgr-mir-181c	20
+cgr-mir-181d	20
+cgr-mir-1839	9
+cgr-mir-185	8
+cgr-mir-186	12
+cgr-mir-18a	20
+cgr-mir-191	13
+cgr-mir-193b	24
+cgr-mir-196a	20
+cgr-mir-199a	20
+cgr-mir-19b	20
+cgr-mir-21	17
+cgr-mir-210	24
+cgr-mir-214	17
+cgr-mir-215	20
+cgr-mir-22	22
+cgr-mir-221	20
+cgr-mir-222	20
+cgr-mir-23a	20
+cgr-mir-23b	20
+cgr-mir-24	17
+cgr-mir-25	24
+cgr-mir-26b	20
+cgr-mir-27a	20
+cgr-mir-27b	20
+cgr-mir-28	9
+cgr-mir-298	6
+cgr-mir-29a	24
+cgr-mir-29b	24
+cgr-mir-29c	24
+cgr-mir-301a	20
+cgr-mir-3072	4
+cgr-mir-30a	20
+cgr-mir-30b	20
+cgr-mir-30e	20
+cgr-mir-31	24
+cgr-mir-32	13
+cgr-mir-322	9
+cgr-mir-324	9
+cgr-mir-325	6
+cgr-mir-331	9
+cgr-mir-340	9
+cgr-mir-342	9
+cgr-mir-34b	24
+cgr-mir-34c	24
+cgr-mir-350	4
+cgr-mir-365	17
+cgr-mir-369	9
+cgr-mir-374	9
+cgr-mir-377	9
+cgr-mir-378	9
+cgr-mir-384	6
+cgr-mir-409	9
+cgr-mir-410	9
+cgr-mir-412	9
+cgr-mir-423	9
+cgr-mir-425	13
+cgr-mir-450b	9
+cgr-mir-455	17
+cgr-mir-486	9
+cgr-mir-497	11
+cgr-mir-499	17
+cgr-mir-501	9
+cgr-mir-505	8
+cgr-mir-532	9
+cgr-mir-542	9
+cgr-mir-615	9
+cgr-mir-652	8
+cgr-mir-664	9
+cgr-mir-671	9
+cgr-mir-744	8
+cgr-mir-872	6
+cgr-mir-92a	24
+cgr-mir-92b	24
+cgr-mir-93	20
+cgr-mir-99a	24

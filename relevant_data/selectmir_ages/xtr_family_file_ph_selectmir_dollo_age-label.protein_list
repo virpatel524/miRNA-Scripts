@@ -1,0 +1,36 @@
+# age_proteins.py -o ../relevant_data/selectmir_ages/ -t ../relevant_data/time_tree_dates.txt ../relevant_data/family_file_ph_selectmir.txt ../relevant_data/phylo_tree.txt 2016-05-19 19:02:08.011342
+#
+# FAMILY_FILE = ../relevant_data/family_file_ph_selectmir.txt
+# TREE_FILE = ../relevant_data/phylo_tree.txt
+# RECONSTRUCTION_ALGO = dollo
+# GAIN_PENALTY = 1
+# OUTPUT_NAME = family_file_ph_selectmir_dollo
+# OUTPUT_DIR = ../relevant_data/selectmir_ages/
+# OUTPUT_FORMATS = ['depth', 'label', 'time', 'profile']
+# TIME_FILE = ../relevant_data/time_tree_dates.txt
+# ADDITIONAL_ID_FILE = None
+#
+xtr-mir-126	Chordata
+xtr-mir-142-1	Euteleostomi
+xtr-mir-142-2	Euteleostomi
+xtr-mir-17	Vertebrata
+xtr-mir-181a-1	Vertebrata
+xtr-mir-181a-2	Vertebrata
+xtr-mir-182	Chordata
+xtr-mir-18a	Vertebrata
+xtr-mir-199a	Vertebrata
+xtr-mir-202-1	Euteleostomi
+xtr-mir-202-2	Euteleostomi
+xtr-mir-20a	Vertebrata
+xtr-mir-22	Chordata
+xtr-mir-24a	Euteleostomi
+xtr-mir-29c	Bilateria
+xtr-mir-30a	Vertebrata
+xtr-mir-363	Euteleostomi
+xtr-mir-449a	Deuterostomia
+xtr-mir-449b	Deuterostomia
+xtr-mir-449c	Deuterostomia
+xtr-mir-9-3	Bilateria
+xtr-mir-9a-1	Bilateria
+xtr-mir-9a-2	Bilateria
+xtr-mir-9b	Bilateria

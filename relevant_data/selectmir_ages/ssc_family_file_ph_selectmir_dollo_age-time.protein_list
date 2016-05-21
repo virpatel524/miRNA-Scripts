@@ -1,0 +1,84 @@
+# age_proteins.py -o ../relevant_data/selectmir_ages/ -t ../relevant_data/time_tree_dates.txt ../relevant_data/family_file_ph_selectmir.txt ../relevant_data/phylo_tree.txt 2016-05-19 19:02:08.011342
+#
+# FAMILY_FILE = ../relevant_data/family_file_ph_selectmir.txt
+# TREE_FILE = ../relevant_data/phylo_tree.txt
+# RECONSTRUCTION_ALGO = dollo
+# GAIN_PENALTY = 1
+# OUTPUT_NAME = family_file_ph_selectmir_dollo
+# OUTPUT_DIR = ../relevant_data/selectmir_ages/
+# OUTPUT_FORMATS = ['depth', 'label', 'time', 'profile']
+# TIME_FILE = ../relevant_data/time_tree_dates.txt
+# ADDITIONAL_ID_FILE = None
+#
+ssc-let-7d	910.0
+ssc-mir-10a	910.0
+ssc-mir-126	797.0
+ssc-mir-1296	97.4
+ssc-mir-129a	797.0
+ssc-mir-1306	324.5
+ssc-mir-133a-1	910.0
+ssc-mir-133a-2	910.0
+ssc-mir-139	454.6
+ssc-mir-140	454.6
+ssc-mir-142	454.6
+ssc-mir-143	535.7
+ssc-mir-145	535.7
+ssc-mir-146a	535.7
+ssc-mir-148a	454.6
+ssc-mir-148b	454.6
+ssc-mir-151	97.4
+ssc-mir-155	454.6
+ssc-mir-17	535.7
+ssc-mir-181d	535.7
+ssc-mir-1839	97.4
+ssc-mir-193a	910.0
+ssc-mir-194b	535.7
+ssc-mir-196b-1	535.7
+ssc-mir-196b-2	535.7
+ssc-mir-199a-1	535.7
+ssc-mir-199a-2	535.7
+ssc-mir-199b	535.7
+ssc-mir-202	454.6
+ssc-mir-218-1	535.7
+ssc-mir-22	797.0
+ssc-mir-221	535.7
+ssc-mir-24-1	454.6
+ssc-mir-24-2	454.6
+ssc-mir-27b	535.7
+ssc-mir-28	97.4
+ssc-mir-296	97.4
+ssc-mir-30a	535.7
+ssc-mir-30b	535.7
+ssc-mir-30c-1	535.7
+ssc-mir-30c-2	535.7
+ssc-mir-30e	535.7
+ssc-mir-331	97.4
+ssc-mir-339-1	97.4
+ssc-mir-345-1	97.4
+ssc-mir-345-2	97.4
+ssc-mir-361	97.4
+ssc-mir-365-2	454.6
+ssc-mir-374a	97.4
+ssc-mir-374b	97.4
+ssc-mir-376a	97.4
+ssc-mir-421	97.4
+ssc-mir-423	97.4
+ssc-mir-424	97.4
+ssc-mir-425	324.5
+ssc-mir-432	97.4
+ssc-mir-450b	97.4
+ssc-mir-450c	97.4
+ssc-mir-455	454.6
+ssc-mir-490-1	324.5
+ssc-mir-493	97.4
+ssc-mir-499	454.6
+ssc-mir-532	97.4
+ssc-mir-542	97.4
+ssc-mir-545	97.4
+ssc-mir-664	97.4
+ssc-mir-671	97.4
+ssc-mir-676-1	97.4
+ssc-mir-708	97.4
+ssc-mir-769	97.4
+ssc-mir-885	97.4
+ssc-mir-92b	910.0

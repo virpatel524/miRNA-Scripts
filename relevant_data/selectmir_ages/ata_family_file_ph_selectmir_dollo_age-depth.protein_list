@@ -1,0 +1,96 @@
+# age_proteins.py -o ../relevant_data/selectmir_ages/ -t ../relevant_data/time_tree_dates.txt ../relevant_data/family_file_ph_selectmir.txt ../relevant_data/phylo_tree.txt 2016-05-19 19:02:08.011342
+#
+# FAMILY_FILE = ../relevant_data/family_file_ph_selectmir.txt
+# TREE_FILE = ../relevant_data/phylo_tree.txt
+# RECONSTRUCTION_ALGO = dollo
+# GAIN_PENALTY = 1
+# OUTPUT_NAME = family_file_ph_selectmir_dollo
+# OUTPUT_DIR = ../relevant_data/selectmir_ages/
+# OUTPUT_FORMATS = ['depth', 'label', 'time', 'profile']
+# TIME_FILE = ../relevant_data/time_tree_dates.txt
+# ADDITIONAL_ID_FILE = None
+#
+ata-MIR1432	5
+ata-MIR156a	14
+ata-MIR156b	14
+ata-MIR156c	14
+ata-MIR156d	14
+ata-MIR156e	14
+ata-MIR160a	10
+ata-MIR160b	10
+ata-MIR160c	10
+ata-MIR164a	10
+ata-MIR164b	10
+ata-MIR164c	10
+ata-MIR166a	10
+ata-MIR166b	10
+ata-MIR166c	10
+ata-MIR166d	10
+ata-MIR166e	10
+ata-MIR167a	10
+ata-MIR167b	10
+ata-MIR167c	10
+ata-MIR167d	10
+ata-MIR167e	10
+ata-MIR167f	10
+ata-MIR168	10
+ata-MIR169a	10
+ata-MIR169b	10
+ata-MIR169c	10
+ata-MIR169d	10
+ata-MIR169f	10
+ata-MIR169g	10
+ata-MIR169h	10
+ata-MIR169i	10
+ata-MIR169j	10
+ata-MIR171a	10
+ata-MIR171b	10
+ata-MIR171c	10
+ata-MIR171d	10
+ata-MIR172a	10
+ata-MIR172b	10
+ata-MIR172c	10
+ata-MIR2118a	10
+ata-MIR2118b	10
+ata-MIR2275a	5
+ata-MIR2275b	5
+ata-MIR2275c	5
+ata-MIR319	15
+ata-MIR390	15
+ata-MIR393	10
+ata-MIR394	10
+ata-MIR395a	10
+ata-MIR395b	10
+ata-MIR395c	10
+ata-MIR395d	10
+ata-MIR395e	10
+ata-MIR395f	10
+ata-MIR396a	10
+ata-MIR396b	10
+ata-MIR396c	10
+ata-MIR396d	10
+ata-MIR396e	10
+ata-MIR398f	10
+ata-MIR398g	10
+ata-MIR399a	10
+ata-MIR399b	10
+ata-MIR408	10
+ata-MIR5062a	1
+ata-MIR5062b	1
+ata-MIR5070	1
+ata-MIR5084	1
+ata-MIR5168	10
+ata-MIR5181	3
+ata-MIR5200	3
+ata-MIR528	5
+ata-MIR6201	1
+ata-MIR9672	1
+ata-MIR9674a	1
+ata-MIR9674b	1
+ata-MIR9677	1
+ata-MIR9772a	1
+ata-MIR9772b	1
+ata-MIR9776	1
+ata-MIR9783	1
+ata-MIR9863a	1
+ata-MIR9863b	1

@@ -1,0 +1,84 @@
+# age_proteins.py -o ../relevant_data/selectmir_ages/ -t ../relevant_data/time_tree_dates.txt ../relevant_data/family_file_ph_selectmir.txt ../relevant_data/phylo_tree.txt 2016-05-19 19:02:08.011342
+#
+# FAMILY_FILE = ../relevant_data/family_file_ph_selectmir.txt
+# TREE_FILE = ../relevant_data/phylo_tree.txt
+# RECONSTRUCTION_ALGO = dollo
+# GAIN_PENALTY = 1
+# OUTPUT_NAME = family_file_ph_selectmir_dollo
+# OUTPUT_DIR = ../relevant_data/selectmir_ages/
+# OUTPUT_FORMATS = ['depth', 'label', 'time', 'profile']
+# TIME_FILE = ../relevant_data/time_tree_dates.txt
+# ADDITIONAL_ID_FILE = None
+#
+dme-bantam	910.0
+dme-let-7	910.0
+dme-mir-1	910.0
+dme-mir-10	910.0
+dme-mir-100	910.0
+dme-mir-124	910.0
+dme-mir-125	910.0
+dme-mir-133	910.0
+dme-mir-137	910.0
+dme-mir-13a	910.0
+dme-mir-13b-1	910.0
+dme-mir-13b-2	910.0
+dme-mir-184	910.0
+dme-mir-190	910.0
+dme-mir-193	910.0
+dme-mir-210	910.0
+dme-mir-219	910.0
+dme-mir-2489	0.0
+dme-mir-252	910.0
+dme-mir-263a	728.0
+dme-mir-263b	728.0
+dme-mir-279	728.0
+dme-mir-281-1	910.0
+dme-mir-281-2	910.0
+dme-mir-283	910.0
+dme-mir-284	0.0
+dme-mir-285	910.0
+dme-mir-286	0.0
+dme-mir-2a-1	910.0
+dme-mir-2a-2	910.0
+dme-mir-2b-1	910.0
+dme-mir-2b-2	910.0
+dme-mir-2c	910.0
+dme-mir-3	471.4
+dme-mir-303	0.0
+dme-mir-304	0.0
+dme-mir-307a	910.0
+dme-mir-307b	0.0
+dme-mir-309	471.4
+dme-mir-314	0.0
+dme-mir-315	910.0
+dme-mir-318	0.0
+dme-mir-31a	910.0
+dme-mir-31b	910.0
+dme-mir-33	910.0
+dme-mir-34	910.0
+dme-mir-375	910.0
+dme-mir-4	0.0
+dme-mir-5	0.0
+dme-mir-7	910.0
+dme-mir-79	910.0
+dme-mir-8	910.0
+dme-mir-87	910.0
+dme-mir-92a	910.0
+dme-mir-92b	910.0
+dme-mir-956	0.0
+dme-mir-960	0.0
+dme-mir-962	0.0
+dme-mir-973	0.0
+dme-mir-975	0.0
+dme-mir-976	0.0
+dme-mir-977	0.0
+dme-mir-978	0.0
+dme-mir-982	0.0
+dme-mir-988	471.4
+dme-mir-989	0.0
+dme-mir-993	910.0
+dme-mir-996	0.0
+dme-mir-998	0.0
+dme-mir-9a	910.0
+dme-mir-9b	910.0
+dme-mir-9c	910.0

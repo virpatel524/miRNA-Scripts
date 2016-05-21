@@ -1,0 +1,21 @@
+# age_proteins.py -o ../relevant_data/selectmir_ages/ -t ../relevant_data/time_tree_dates.txt ../relevant_data/family_file_ph_selectmir.txt ../relevant_data/phylo_tree.txt 2016-05-19 19:02:08.011342
+#
+# FAMILY_FILE = ../relevant_data/family_file_ph_selectmir.txt
+# TREE_FILE = ../relevant_data/phylo_tree.txt
+# RECONSTRUCTION_ALGO = dollo
+# GAIN_PENALTY = 1
+# OUTPUT_NAME = family_file_ph_selectmir_dollo
+# OUTPUT_DIR = ../relevant_data/selectmir_ages/
+# OUTPUT_FORMATS = ['depth', 'label', 'time', 'profile']
+# TIME_FILE = ../relevant_data/time_tree_dates.txt
+# ADDITIONAL_ID_FILE = None
+#
+ptr-mir-1199	Boreoeutheria
+ptr-mir-1224	Euarchontoglires
+ptr-mir-17	Vertebrata
+ptr-mir-181a-1	Vertebrata
+ptr-mir-219-1	Bilateria
+ptr-mir-219-2	Bilateria
+ptr-mir-30a	Vertebrata
+ptr-mir-518g	Catarrhini
+ptr-mir-519f	Catarrhini

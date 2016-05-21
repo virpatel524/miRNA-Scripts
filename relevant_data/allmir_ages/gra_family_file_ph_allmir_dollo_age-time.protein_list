@@ -1,0 +1,90 @@
+# age_proteins.py -o ../relevant_data/allmir_ages/ -t ../relevant_data/time_tree_dates.txt ../relevant_data/family_file_ph_allmir.txt ../relevant_data/phylo_tree.txt 2016-05-19 19:01:05.137938
+#
+# FAMILY_FILE = ../relevant_data/family_file_ph_allmir.txt
+# TREE_FILE = ../relevant_data/phylo_tree.txt
+# RECONSTRUCTION_ALGO = dollo
+# GAIN_PENALTY = 1
+# OUTPUT_NAME = family_file_ph_allmir_dollo
+# OUTPUT_DIR = ../relevant_data/allmir_ages/
+# OUTPUT_FORMATS = ['depth', 'label', 'time', 'profile']
+# TIME_FILE = ../relevant_data/time_tree_dates.txt
+# ADDITIONAL_ID_FILE = None
+#
+gra-MIR167a	147.8
+gra-MIR167b	147.8
+gra-MIR167c	147.8
+gra-MIR172a	147.8
+gra-MIR172b	147.8
+gra-MIR8639a	0.0
+gra-MIR8639b	0.0
+gra-MIR8639c	0.0
+gra-MIR8639d	0.0
+gra-MIR8639e	0.0
+gra-MIR8639f	0.0
+gra-MIR8639g	0.0
+gra-MIR8639h	0.0
+gra-MIR8639i	0.0
+gra-MIR8643a	0.0
+gra-MIR8643b	0.0
+gra-MIR8653a	0.0
+gra-MIR8653b	0.0
+gra-MIR8654a	0.0
+gra-MIR8654b	0.0
+gra-MIR8654c	0.0
+gra-MIR8657a	0.0
+gra-MIR8657b	0.0
+gra-MIR8657c	0.0
+gra-MIR8657d	0.0
+gra-MIR8657e	0.0
+gra-MIR8663a	0.0
+gra-MIR8663b	0.0
+gra-MIR8670a	0.0
+gra-MIR8670b	0.0
+gra-MIR8674a	0.0
+gra-MIR8674b	0.0
+gra-MIR8674c	0.0
+gra-MIR8675a	0.0
+gra-MIR8675b	0.0
+gra-MIR8703a	0.0
+gra-MIR8703b	0.0
+gra-MIR8703c	0.0
+gra-MIR8706a	0.0
+gra-MIR8706b	0.0
+gra-MIR8709a	0.0
+gra-MIR8709b	0.0
+gra-MIR8709c	0.0
+gra-MIR8710a	0.0
+gra-MIR8710b	0.0
+gra-MIR8721a	0.0
+gra-MIR8721b	0.0
+gra-MIR8723a	0.0
+gra-MIR8723b	0.0
+gra-MIR8742a	0.0
+gra-MIR8742b	0.0
+gra-MIR8743a	0.0
+gra-MIR8743b	0.0
+gra-MIR8743c	0.0
+gra-MIR8743d	0.0
+gra-MIR8743e	0.0
+gra-MIR8757a	0.0
+gra-MIR8757b	0.0
+gra-MIR8762a	0.0
+gra-MIR8762b	0.0
+gra-MIR8762c	0.0
+gra-MIR8762d	0.0
+gra-MIR8767a	0.0
+gra-MIR8767b	0.0
+gra-MIR8767c	0.0
+gra-MIR8771a	0.0
+gra-MIR8771b	0.0
+gra-MIR8771c	0.0
+gra-MIR8771d	0.0
+gra-MIR8771e	0.0
+gra-MIR8771f	0.0
+gra-MIR8775	0.0
+gra-MIR8776a	0.0
+gra-MIR8776b	0.0
+gra-MIR8776c	0.0
+gra-MIR8776d	0.0
+gra-MIR8781a	0.0
+gra-MIR8781b	0.0

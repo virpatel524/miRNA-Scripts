@@ -1,0 +1,36 @@
+# age_proteins.py -o ../relevant_data/selectmir_ages/ -t ../relevant_data/time_tree_dates.txt ../relevant_data/family_file_ph_selectmir.txt ../relevant_data/phylo_tree.txt 2016-05-19 19:02:08.011342
+#
+# FAMILY_FILE = ../relevant_data/family_file_ph_selectmir.txt
+# TREE_FILE = ../relevant_data/phylo_tree.txt
+# RECONSTRUCTION_ALGO = dollo
+# GAIN_PENALTY = 1
+# OUTPUT_NAME = family_file_ph_selectmir_dollo
+# OUTPUT_DIR = ../relevant_data/selectmir_ages/
+# OUTPUT_FORMATS = ['depth', 'label', 'time', 'profile']
+# TIME_FILE = ../relevant_data/time_tree_dates.txt
+# ADDITIONAL_ID_FILE = None
+#
+xtr-mir-126	797.0
+xtr-mir-142-1	454.6
+xtr-mir-142-2	454.6
+xtr-mir-17	535.7
+xtr-mir-181a-1	535.7
+xtr-mir-181a-2	535.7
+xtr-mir-182	797.0
+xtr-mir-18a	535.7
+xtr-mir-199a	535.7
+xtr-mir-202-1	454.6
+xtr-mir-202-2	454.6
+xtr-mir-20a	535.7
+xtr-mir-22	797.0
+xtr-mir-24a	454.6
+xtr-mir-29c	910.0
+xtr-mir-30a	535.7
+xtr-mir-363	454.6
+xtr-mir-449a	842.0
+xtr-mir-449b	842.0
+xtr-mir-449c	842.0
+xtr-mir-9-3	910.0
+xtr-mir-9a-1	910.0
+xtr-mir-9a-2	910.0
+xtr-mir-9b	910.0

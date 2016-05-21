@@ -1,0 +1,46 @@
+# age_proteins.py -o ../relevant_data/allmir_ages/ -t ../relevant_data/time_tree_dates.txt ../relevant_data/family_file_ph_allmir.txt ../relevant_data/phylo_tree.txt 2016-05-19 19:01:05.137938
+#
+# FAMILY_FILE = ../relevant_data/family_file_ph_allmir.txt
+# TREE_FILE = ../relevant_data/phylo_tree.txt
+# RECONSTRUCTION_ALGO = dollo
+# GAIN_PENALTY = 1
+# OUTPUT_NAME = family_file_ph_allmir_dollo
+# OUTPUT_DIR = ../relevant_data/allmir_ages/
+# OUTPUT_FORMATS = ['depth', 'label', 'time', 'profile']
+# TIME_FILE = ../relevant_data/time_tree_dates.txt
+# ADDITIONAL_ID_FILE = None
+#
+sko-let-7	910.0
+sko-mir-1	910.0
+sko-mir-10	910.0
+sko-mir-100	910.0
+sko-mir-124	910.0
+sko-mir-125a	910.0
+sko-mir-133	910.0
+sko-mir-137	910.0
+sko-mir-153	910.0
+sko-mir-184	910.0
+sko-mir-190	910.0
+sko-mir-200	910.0
+sko-mir-2008	842.0
+sko-mir-2011	842.0
+sko-mir-2012	842.0
+sko-mir-219	910.0
+sko-mir-242	910.0
+sko-mir-252a	910.0
+sko-mir-252b	910.0
+sko-mir-278	842.0
+sko-mir-281	910.0
+sko-mir-29a	910.0
+sko-mir-29b	910.0
+sko-mir-31	910.0
+sko-mir-315	910.0
+sko-mir-33	910.0
+sko-mir-34	842.0
+sko-mir-375	910.0
+sko-mir-7	910.0
+sko-mir-71	910.0
+sko-mir-9	910.0
+sko-mir-92a	910.0
+sko-mir-92b	910.0
+sko-mir-92c	910.0

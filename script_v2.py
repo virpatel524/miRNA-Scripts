@@ -11,12 +11,14 @@ import pandas as pd
 from scipy import stats
 import matplotlib.pyplot as plt
 import seaborn as sns
-import sys, os, string, numpy, matplotlib.pyplot as plt
 from scipy.stats import spearmanr
 from distance import hamming
 from numpy import mean
-import pylab
+import pandas as pd
 
+sns.axes_style('whitegrid')
+sns.set_style("whitegrid")
+sns.set_context("paper")
 
 # global variables
 
@@ -52,12 +54,13 @@ def sort_mir(txt,txt2):
 		if i[0][:2] == 'MI' :
 			if lst[2][:3] in bad_lst: continue
 			if 'v' in lst[2].split('-')[0]: continue
+			if lst[2] not in mega_mir_lst: continue
 			else:
 				famdict.setdefault(current_fam,[]).append(lst[2])
 
 
 
-	family_file_for_mirbase = open('/Users/virpatel/Desktop/pub_stuff/relevant_data/family_file_ph.txt','w')
+	family_file_for_mirbase = open('/Users/virpatel/Desktop/pub_stuff/relevant_data/family_file_ph_selectmir.txt','w')
 
 	for i in famdict:
 		for mir in famdict[i]:
@@ -98,7 +101,7 @@ def age_parser(age_txt):
 		mirna2age[i[0]] = float(i[1])
 		age2mirna.setdefault(float(i[1]),[]).append(i[0])
 
-	with open('/Users/virpatel/Desktop/pub_stuff/relevant_data/hsa_mirlst.txt','w') as mirlst:
+	with open('/Users/virpatel/Desktop/pub_stuff/relevant_data/hsa_all_mir_lst.txt','w') as mirlst:
 		for mirna in mirna2age:
 			mirlst.write(mirna + '\n')
 			
@@ -106,10 +109,22 @@ def age_parser(age_txt):
 
 	return mirna2age, age2mirna
 
+def time_tree_parse(time_tree_db):
+	age2clade = {}
+	clade2age = {}
+	with open(time_tree_db) as time_tree_fle:
+		lst = [a for a in list(csv.reader(time_tree_fle,delimiter='\t')) if len(a) > 1]
+		for alpha in lst:
+			age2clade[float(alpha[-1])] = alpha[0]
+			clade2age[alpha[0]] = float(alpha[-1])
+
+	return age2clade, clade2age
+
+
+
 def get_mirna_disease_age_relationship(mirna2age, mirna2disease):
 	mirnas_in_q = list(set(mirna2age.keys()).intersection(mirna2disease.keys()))
 	
-	print len(mirnas_in_q)
 
 	age_dict = []
 	num_dis_dict = []
@@ -118,7 +133,113 @@ def get_mirna_disease_age_relationship(mirna2age, mirna2disease):
 	for i in mirnas_in_q:
 		age_dict.append(mirna2age[i])
 		num_dis_dict.append(len(mirna2disease[i]))
-		print i, mirna2age[i], num_dis_dict[-1]
+
+
+def parse_target_data(tardb,taragedb,timetreedb):
+
+	mirna2target = {}
+	tar2age = {}
+	clade2age = {}
+
+	parsed_tar = []
+	parsed_ages = []
+
+	master_tarlst = []
+
+
+	with open(timetreedb) as time_tree_data:
+		time_tree_lst = [a for a in list(csv.reader(time_tree_data,delimiter='\t')) if len(a) > 1]
+		for alpha in time_tree_lst:
+			clade2age[alpha[0]] = alpha[-1]
+
+
+
+	with open(tardb) as tardb_fle:
+		parsed_tar = [a for a in list(csv.reader(tardb_fle,delimiter='\t') ) if len(a) > 1]
+		for alpha in parsed_tar:
+			mirna2target.setdefault(alpha[0],[]).append(alpha[1])
+		
+
+	master_tarlst = list(set([item for sublist in mirna2target.values() for item in sublist]))
+
+
+	with open(taragedb) as taragedb_fle:
+		parsed_ages = [a for a in list(csv.reader(taragedb_fle,delimiter='\t'))  if len(a) > 1]
+		for item in parsed_ages:
+			if len(item) == 3:
+				continue
+			tar2age[item[2]] = clade2age[item[-1]]
+
+
+
+	with open('/Users/virpatel/Desktop/pub_stuff/relevant_data/tar2age_all.txt','w') as tar2age_fle:
+		tarage_preproc = {}
+		for tar in master_tarlst:
+				if tar in tar2age:
+					tar2age_fle.write('%s\t%s\n' %(tar, tar2age[tar]))
+
+			
+
+def mir_num_dis_bin(mirna2disease, mirna2age, age2clade):
+
+	agelst = []
+	dislst = []
+
+	for mir in list(set(mirna2age.keys()).intersection(mirna2disease.keys())):	
+		agelst.append(float(mirna2age[mir])) 
+		dislst.append(float(len(mirna2disease[mir])))
+
+	mast = sorted(list(set(agelst)))
+
+	oldage = agelst[:]
+
+	for ind,i in enumerate(agelst):
+		agelst[ind] = float(mast.index(i))
+
+
+
+
+	labels = sorted(list(set(agelst)))
+	str_labels = ['%s (%.1f)' %(age2clade[a], a) for a in labels]
+
+	binlst = [[] for _ in xrange(len(labels))]
+
+	for ind, alpha in enumerate(agelst):
+		binlst[labels.index(alpha)].append(dislst[ind])
+
+
+	disease_age_pd = pd.DataFrame({'mir_ages':agelst, 'mir_disease_nums': dislst})
+	disease_age_pd = disease_age_pd.sort('mir_ages',ascending=1)
+
+	f = plt.gcf()
+	f.set_size_inches(20, 10)
+
+
+	sns.boxplot(x='mir_ages',y='mir_disease_nums',data=disease_age_pd)
+
+	plt.xticks(range(0,len(labels)), str_labels, rotation = 65)
+	plt.gca().set_ylim([0,70])
+	plt.ylabel('Number of Diseases', fontsize=15)
+	plt.xlabel('miRNA Clade of Origination',fontsize=15)
+	plt.subplots_adjust(bottom=0.20)
+
+
+
+	num_of_dismir_perage = [len(disease_age_pd.loc[disease_age_pd['mir_ages'] == alpha]) for alpha in labels]
+
+	plt.savefig('/Users/virpatel/Desktop/pub_stuff/figures/mirage_vs_numdis.pdf', bbox_inches='tight')
+
+	plt.close()
+
+
+
+
+
+
+
+	
+
+
 
 
 
@@ -133,22 +254,27 @@ def main():
 	# mirdb = str(raw_input('Enter mirFile:'))
 	# famdb = str(raw_input('\nEnter Family File:'))
 
-	mirdb = '/Users/virpatel/Desktop/pub_stuff/relevant_data/all_mir_lst.txt'
+	mirdb = '/Users/virpatel/Desktop/pub_stuff/relevant_data/star_mir_lst.txt'
 	famdb = '/Users/virpatel/Desktop/pub_stuff/relevant_data/miFam.dat'
 	diseasedb = '/Users/virpatel/projects/vanderbilt-summer-2014/data/microRNA_disease.txt'
-	agedb = '/Users/virpatel/Desktop/pub_stuff/relevant_data/all_ages/hsa_family_file_ph_dollo_age-time.protein_list'
+	agedb = '/Users/virpatel/Desktop/pub_stuff/relevant_data/allmir_ages/hsa_family_file_ph_allmir_dollo_age-time.protein_list'
+	tardb = '/Users/virpatel/Desktop/pub_stuff/relevant_data/all_targets.txt'
+	expdb = '/Users/virpatel/Desktop/pub_stuff/relevant_data/exp_data_alldmir.txt'
+	taragedb = '/Users/virpatel/Desktop/pub_stuff/ProteinHistorian/example/ages/human_age-label_wagner1.txt'
+	timetreedb = '/Users/virpatel/Desktop/pub_stuff/relevant_data/time_tree_dates.txt'
 
-
-	mega_mir_lst, mirlst_by_species, mirlst_by_fam = sort_mir(open(mirdb,'r'),open(famdb,'r'))
+	# mega_mir_lst, mirlst_by_species, mirlst_by_fam = sort_mir(open(mirdb,'r'),open(famdb,'r'))
 	mirna2disease, disease2mirna = diseaese_parser(open(diseasedb,'r'))
 	mirna2age, age2mirna = age_parser(open(agedb, 'r'))
-
-	get_mirna_disease_age_relationship(mirna2age, mirna2disease)
-
-
+	age2clade, clade2age = time_tree_parse(timetreedb)
+	# get_mirna_disease_age_relationship(mirna2age, mirna2disease)
 
 
+	# parse_target_data(tardb,taragedb,timetreedb)
 
+
+
+	mir_num_dis_bin(mirna2disease, mirna2age,age2clade)
 
 
 

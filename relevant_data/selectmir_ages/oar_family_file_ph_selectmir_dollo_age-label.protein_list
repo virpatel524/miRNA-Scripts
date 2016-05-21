@@ -1,0 +1,61 @@
+# age_proteins.py -o ../relevant_data/selectmir_ages/ -t ../relevant_data/time_tree_dates.txt ../relevant_data/family_file_ph_selectmir.txt ../relevant_data/phylo_tree.txt 2016-05-19 19:02:08.011342
+#
+# FAMILY_FILE = ../relevant_data/family_file_ph_selectmir.txt
+# TREE_FILE = ../relevant_data/phylo_tree.txt
+# RECONSTRUCTION_ALGO = dollo
+# GAIN_PENALTY = 1
+# OUTPUT_NAME = family_file_ph_selectmir_dollo
+# OUTPUT_DIR = ../relevant_data/selectmir_ages/
+# OUTPUT_FORMATS = ['depth', 'label', 'time', 'profile']
+# TIME_FILE = ../relevant_data/time_tree_dates.txt
+# ADDITIONAL_ID_FILE = None
+#
+oar-mir-1185	Boreoeutheria
+oar-mir-1193	Boreoeutheria
+oar-mir-1197	Boreoeutheria
+oar-mir-134	Boreoeutheria
+oar-mir-154a	Boreoeutheria
+oar-mir-154b	Boreoeutheria
+oar-mir-299	Boreoeutheria
+oar-mir-30a	Vertebrata
+oar-mir-323a	Boreoeutheria
+oar-mir-329a	Boreoeutheria
+oar-mir-329b	Boreoeutheria
+oar-mir-369	Boreoeutheria
+oar-mir-370	Boreoeutheria
+oar-mir-376a	Boreoeutheria
+oar-mir-376b	Boreoeutheria
+oar-mir-376c	Boreoeutheria
+oar-mir-376e	Boreoeutheria
+oar-mir-377	Boreoeutheria
+oar-mir-379	Boreoeutheria
+oar-mir-380	Boreoeutheria
+oar-mir-381	Boreoeutheria
+oar-mir-382	Boreoeutheria
+oar-mir-3955	Caprinae
+oar-mir-3956	Ovis
+oar-mir-3957	Ovis
+oar-mir-3958	Boreoeutheria
+oar-mir-3959	Boreoeutheria
+oar-mir-409	Boreoeutheria
+oar-mir-410	Boreoeutheria
+oar-mir-411a	Boreoeutheria
+oar-mir-411b	Boreoeutheria
+oar-mir-412	Boreoeutheria
+oar-mir-433	Boreoeutheria
+oar-mir-485	Boreoeutheria
+oar-mir-487a	Boreoeutheria
+oar-mir-487b	Boreoeutheria
+oar-mir-493	Boreoeutheria
+oar-mir-494	Boreoeutheria
+oar-mir-495	Boreoeutheria
+oar-mir-496	Boreoeutheria
+oar-mir-539	Boreoeutheria
+oar-mir-541	Boreoeutheria
+oar-mir-543	Boreoeutheria
+oar-mir-544	Boreoeutheria
+oar-mir-654	Boreoeutheria
+oar-mir-655	Boreoeutheria
+oar-mir-665	Boreoeutheria
+oar-mir-668	Boreoeutheria
+oar-mir-758	Boreoeutheria

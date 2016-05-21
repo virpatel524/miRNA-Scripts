@@ -1,0 +1,136 @@
+# age_proteins.py -o ../relevant_data/allmir_ages/ -t ../relevant_data/time_tree_dates.txt ../relevant_data/family_file_ph_allmir.txt ../relevant_data/phylo_tree.txt 2016-05-19 19:01:05.137938
+#
+# FAMILY_FILE = ../relevant_data/family_file_ph_allmir.txt
+# TREE_FILE = ../relevant_data/phylo_tree.txt
+# RECONSTRUCTION_ALGO = dollo
+# GAIN_PENALTY = 1
+# OUTPUT_NAME = family_file_ph_allmir_dollo
+# OUTPUT_DIR = ../relevant_data/allmir_ages/
+# OUTPUT_FORMATS = ['depth', 'label', 'time', 'profile']
+# TIME_FILE = ../relevant_data/time_tree_dates.txt
+# ADDITIONAL_ID_FILE = None
+#
+bfl-let-7a-1	Bilateria
+bfl-let-7a-2	Bilateria
+bfl-mir-1	Bilateria
+bfl-mir-100	Bilateria
+bfl-mir-10a	Bilateria
+bfl-mir-10b	Bilateria
+bfl-mir-10c	Bilateria
+bfl-mir-124	Bilateria
+bfl-mir-125a	Bilateria
+bfl-mir-125b	Bilateria
+bfl-mir-129a	Chordata
+bfl-mir-129b	Chordata
+bfl-mir-133	Bilateria
+bfl-mir-135a-1	Chordata
+bfl-mir-135a-2	Chordata
+bfl-mir-135b-1	Chordata
+bfl-mir-135b-2	Chordata
+bfl-mir-137	Bilateria
+bfl-mir-153	Bilateria
+bfl-mir-182a	Bilateria
+bfl-mir-182b	Bilateria
+bfl-mir-182c	Bilateria
+bfl-mir-182d	Bilateria
+bfl-mir-183	Deuterostomia
+bfl-mir-184	Bilateria
+bfl-mir-190	Bilateria
+bfl-mir-193b	Bilateria
+bfl-mir-200a	Bilateria
+bfl-mir-200b	Bilateria
+bfl-mir-200c	Bilateria
+bfl-mir-2013	Deuterostomia
+bfl-mir-2056	Cephalochordata
+bfl-mir-2057	Cephalochordata
+bfl-mir-2058	Cephalochordata
+bfl-mir-2059	Cephalochordata
+bfl-mir-2060	Cephalochordata
+bfl-mir-2061	Cephalochordata
+bfl-mir-2062	Cephalochordata
+bfl-mir-2063	Cephalochordata
+bfl-mir-2064	Cephalochordata
+bfl-mir-2066	Cephalochordata
+bfl-mir-2067	Cephalochordata
+bfl-mir-2068	Cephalochordata
+bfl-mir-2069	Cephalochordata
+bfl-mir-2070	Cephalochordata
+bfl-mir-2071	Cephalochordata
+bfl-mir-2072	Cephalochordata
+bfl-mir-2076	Cephalochordata
+bfl-mir-210	Bilateria
+bfl-mir-216	Bilateria
+bfl-mir-217	Chordata
+bfl-mir-219	Bilateria
+bfl-mir-22	Deuterostomia
+bfl-mir-242	Bilateria
+bfl-mir-252a	Bilateria
+bfl-mir-252b	Bilateria
+bfl-mir-278	Bilateria
+bfl-mir-281	Bilateria
+bfl-mir-29a	Bilateria
+bfl-mir-29b	Bilateria
+bfl-mir-31	Bilateria
+bfl-mir-33-1	Bilateria
+bfl-mir-33-2	Bilateria
+bfl-mir-34a	Bilateria
+bfl-mir-34b	Bilateria
+bfl-mir-34c-1	Bilateria
+bfl-mir-34c-2	Bilateria
+bfl-mir-34d	Bilateria
+bfl-mir-34e	Bilateria
+bfl-mir-375	Bilateria
+bfl-mir-4057-1	bfl
+bfl-mir-4057-2	bfl
+bfl-mir-4856a	Cephalochordata
+bfl-mir-4857	Cephalochordata
+bfl-mir-4859	Cephalochordata
+bfl-mir-4860	Cephalochordata
+bfl-mir-4861	Cephalochordata
+bfl-mir-4863	Cephalochordata
+bfl-mir-4864	Cephalochordata
+bfl-mir-4865	Cephalochordata
+bfl-mir-4866	Cephalochordata
+bfl-mir-4867	Cephalochordata
+bfl-mir-4868a	Cephalochordata
+bfl-mir-4868b	Cephalochordata
+bfl-mir-4868c	Cephalochordata
+bfl-mir-4869	Cephalochordata
+bfl-mir-4872a	bfl
+bfl-mir-4872b	bfl
+bfl-mir-4872c-1	bfl
+bfl-mir-4872c-2	bfl
+bfl-mir-4873	Cephalochordata
+bfl-mir-4874	Cephalochordata
+bfl-mir-4875a	bfl
+bfl-mir-4875b	bfl
+bfl-mir-4876	Cephalochordata
+bfl-mir-4877	Cephalochordata
+bfl-mir-4878	Cephalochordata
+bfl-mir-4879	Cephalochordata
+bfl-mir-4880	Cephalochordata
+bfl-mir-4887	Cephalochordata
+bfl-mir-4888	Cephalochordata
+bfl-mir-4889a	Cephalochordata
+bfl-mir-4889b	Cephalochordata
+bfl-mir-4890	Cephalochordata
+bfl-mir-4891	Cephalochordata
+bfl-mir-4899	Cephalochordata
+bfl-mir-4900a-1	bfl
+bfl-mir-4900a-2	bfl
+bfl-mir-4900b-1	bfl
+bfl-mir-4900b-2	bfl
+bfl-mir-4904	Cephalochordata
+bfl-mir-4928	Cephalochordata
+bfl-mir-7	Bilateria
+bfl-mir-705	Cephalochordata
+bfl-mir-71	Bilateria
+bfl-mir-9-1	Bilateria
+bfl-mir-9-2	Bilateria
+bfl-mir-92a-1	Bilateria
+bfl-mir-92a-2	Bilateria
+bfl-mir-92a-3	Bilateria
+bfl-mir-92b	Bilateria
+bfl-mir-92c	Bilateria
+bfl-mir-92d	Bilateria
+bfl-mir-96	Bilateria

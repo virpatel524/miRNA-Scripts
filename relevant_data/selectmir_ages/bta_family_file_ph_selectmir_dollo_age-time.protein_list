@@ -1,0 +1,51 @@
+# age_proteins.py -o ../relevant_data/selectmir_ages/ -t ../relevant_data/time_tree_dates.txt ../relevant_data/family_file_ph_selectmir.txt ../relevant_data/phylo_tree.txt 2016-05-19 19:02:08.011342
+#
+# FAMILY_FILE = ../relevant_data/family_file_ph_selectmir.txt
+# TREE_FILE = ../relevant_data/phylo_tree.txt
+# RECONSTRUCTION_ALGO = dollo
+# GAIN_PENALTY = 1
+# OUTPUT_NAME = family_file_ph_selectmir_dollo
+# OUTPUT_DIR = ../relevant_data/selectmir_ages/
+# OUTPUT_FORMATS = ['depth', 'label', 'time', 'profile']
+# TIME_FILE = ../relevant_data/time_tree_dates.txt
+# ADDITIONAL_ID_FILE = None
+#
+bta-let-7a-3	910.0
+bta-mir-1247	97.4
+bta-mir-126	797.0
+bta-mir-129-2	797.0
+bta-mir-1343	97.4
+bta-mir-1388	454.6
+bta-mir-142	454.6
+bta-mir-149	97.4
+bta-mir-151	97.4
+bta-mir-17	535.7
+bta-mir-193a	910.0
+bta-mir-199a-1	535.7
+bta-mir-199a-2	535.7
+bta-mir-21	454.6
+bta-mir-219-1	910.0
+bta-mir-22	797.0
+bta-mir-2355	97.4
+bta-mir-23b	535.7
+bta-mir-27a	535.7
+bta-mir-296	97.4
+bta-mir-29d	910.0
+bta-mir-30b	535.7
+bta-mir-331	97.4
+bta-mir-345	97.4
+bta-mir-362	97.4
+bta-mir-365-1	454.6
+bta-mir-369	97.4
+bta-mir-380	97.4
+bta-mir-411c	97.4
+bta-mir-423	97.4
+bta-mir-424	97.4
+bta-mir-425	324.5
+bta-mir-455	454.6
+bta-mir-503	97.4
+bta-mir-545	97.4
+bta-mir-760	97.4
+bta-mir-9-1	910.0
+bta-mir-9-2	910.0
+bta-mir-99a	910.0

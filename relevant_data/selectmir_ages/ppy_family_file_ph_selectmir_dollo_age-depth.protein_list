@@ -1,0 +1,92 @@
+# age_proteins.py -o ../relevant_data/selectmir_ages/ -t ../relevant_data/time_tree_dates.txt ../relevant_data/family_file_ph_selectmir.txt ../relevant_data/phylo_tree.txt 2016-05-19 19:02:08.011342
+#
+# FAMILY_FILE = ../relevant_data/family_file_ph_selectmir.txt
+# TREE_FILE = ../relevant_data/phylo_tree.txt
+# RECONSTRUCTION_ALGO = dollo
+# GAIN_PENALTY = 1
+# OUTPUT_NAME = family_file_ph_selectmir_dollo
+# OUTPUT_DIR = ../relevant_data/selectmir_ages/
+# OUTPUT_FORMATS = ['depth', 'label', 'time', 'profile']
+# TIME_FILE = ../relevant_data/time_tree_dates.txt
+# ADDITIONAL_ID_FILE = None
+#
+ppy-mir-1199	10
+ppy-mir-1207	3
+ppy-mir-1224	9
+ppy-mir-1225	5
+ppy-mir-125a	25
+ppy-mir-129-1	23
+ppy-mir-129-2	23
+ppy-mir-139	18
+ppy-mir-140	18
+ppy-mir-142	18
+ppy-mir-146b	21
+ppy-mir-151a	10
+ppy-mir-17	21
+ppy-mir-181a-1	21
+ppy-mir-193a	25
+ppy-mir-199a-2	21
+ppy-mir-199b	21
+ppy-mir-24-1	18
+ppy-mir-296	10
+ppy-mir-299	10
+ppy-mir-30a	21
+ppy-mir-323	10
+ppy-mir-324	10
+ppy-mir-330	10
+ppy-mir-331	10
+ppy-mir-337	10
+ppy-mir-338	18
+ppy-mir-342	10
+ppy-mir-34c	25
+ppy-mir-361	10
+ppy-mir-362	10
+ppy-mir-369	10
+ppy-mir-371	10
+ppy-mir-409	10
+ppy-mir-423	10
+ppy-mir-450b	10
+ppy-mir-455	18
+ppy-mir-485	10
+ppy-mir-490	14
+ppy-mir-491	10
+ppy-mir-499	18
+ppy-mir-502	10
+ppy-mir-508	10
+ppy-mir-509-1	10
+ppy-mir-509-2	10
+ppy-mir-509-3	10
+ppy-mir-513a-1	10
+ppy-mir-513a-2	10
+ppy-mir-515-1	5
+ppy-mir-515-2	5
+ppy-mir-515-3	5
+ppy-mir-516a-1	5
+ppy-mir-516a-2	5
+ppy-mir-517c-2	5
+ppy-mir-517c-3	5
+ppy-mir-518a-1	5
+ppy-mir-518a-2	5
+ppy-mir-518a-3	5
+ppy-mir-518d	5
+ppy-mir-518g	5
+ppy-mir-519b	5
+ppy-mir-520a	5
+ppy-mir-520c	5
+ppy-mir-520d	5
+ppy-mir-524	5
+ppy-mir-525	5
+ppy-mir-532	10
+ppy-mir-542	10
+ppy-mir-556	5
+ppy-mir-576	5
+ppy-mir-582	10
+ppy-mir-590	13
+ppy-mir-615	10
+ppy-mir-628	5
+ppy-mir-654	10
+ppy-mir-671	10
+ppy-mir-767	10
+ppy-mir-875	14
+ppy-mir-876	10
+ppy-mir-885	10

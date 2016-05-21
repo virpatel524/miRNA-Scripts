@@ -1,0 +1,117 @@
+# age_proteins.py -o ../relevant_data/selectmir_ages/ -t ../relevant_data/time_tree_dates.txt ../relevant_data/family_file_ph_selectmir.txt ../relevant_data/phylo_tree.txt 2016-05-19 19:02:08.011342
+#
+# FAMILY_FILE = ../relevant_data/family_file_ph_selectmir.txt
+# TREE_FILE = ../relevant_data/phylo_tree.txt
+# RECONSTRUCTION_ALGO = dollo
+# GAIN_PENALTY = 1
+# OUTPUT_NAME = family_file_ph_selectmir_dollo
+# OUTPUT_DIR = ../relevant_data/selectmir_ages/
+# OUTPUT_FORMATS = ['depth', 'label', 'time', 'profile']
+# TIME_FILE = ../relevant_data/time_tree_dates.txt
+# ADDITIONAL_ID_FILE = None
+#
+cgr-let-7d	910.0
+cgr-let-7g	910.0
+cgr-mir-100	910.0
+cgr-mir-101b	454.6
+cgr-mir-103	535.7
+cgr-mir-106b	535.7
+cgr-mir-10a	910.0
+cgr-mir-10b	910.0
+cgr-mir-125a	910.0
+cgr-mir-125b	910.0
+cgr-mir-128	454.6
+cgr-mir-1306	324.5
+cgr-mir-130a	535.7
+cgr-mir-130b	535.7
+cgr-mir-132	535.7
+cgr-mir-137	910.0
+cgr-mir-139	454.6
+cgr-mir-140	454.6
+cgr-mir-142	454.6
+cgr-mir-146b	535.7
+cgr-mir-148b	454.6
+cgr-mir-149	97.4
+cgr-mir-151	97.4
+cgr-mir-152	454.6
+cgr-mir-154	97.4
+cgr-mir-15a	535.7
+cgr-mir-15b	535.7
+cgr-mir-16	535.7
+cgr-mir-17	535.7
+cgr-mir-181a	535.7
+cgr-mir-181b	535.7
+cgr-mir-181c	535.7
+cgr-mir-181d	535.7
+cgr-mir-1839	97.4
+cgr-mir-185	89.1
+cgr-mir-186	220.2
+cgr-mir-18a	535.7
+cgr-mir-191	324.5
+cgr-mir-193b	910.0
+cgr-mir-196a	535.7
+cgr-mir-199a	535.7
+cgr-mir-19b	535.7
+cgr-mir-21	454.6
+cgr-mir-210	910.0
+cgr-mir-214	454.6
+cgr-mir-215	535.7
+cgr-mir-22	797.0
+cgr-mir-221	535.7
+cgr-mir-222	535.7
+cgr-mir-23a	535.7
+cgr-mir-23b	535.7
+cgr-mir-24	454.6
+cgr-mir-25	910.0
+cgr-mir-26b	535.7
+cgr-mir-27a	535.7
+cgr-mir-27b	535.7
+cgr-mir-28	97.4
+cgr-mir-298	77.2
+cgr-mir-29a	910.0
+cgr-mir-29b	910.0
+cgr-mir-29c	910.0
+cgr-mir-301a	535.7
+cgr-mir-30a	535.7
+cgr-mir-30b	535.7
+cgr-mir-30e	535.7
+cgr-mir-31	910.0
+cgr-mir-32	324.5
+cgr-mir-322	97.4
+cgr-mir-324	97.4
+cgr-mir-325	77.2
+cgr-mir-331	97.4
+cgr-mir-340	97.4
+cgr-mir-342	97.4
+cgr-mir-34b	910.0
+cgr-mir-34c	910.0
+cgr-mir-365	454.6
+cgr-mir-369	97.4
+cgr-mir-374	97.4
+cgr-mir-377	97.4
+cgr-mir-378	97.4
+cgr-mir-384	77.2
+cgr-mir-409	97.4
+cgr-mir-410	97.4
+cgr-mir-412	97.4
+cgr-mir-423	97.4
+cgr-mir-425	324.5
+cgr-mir-450b	97.4
+cgr-mir-455	454.6
+cgr-mir-486	97.4
+cgr-mir-497	176.1
+cgr-mir-499	454.6
+cgr-mir-501	97.4
+cgr-mir-505	89.1
+cgr-mir-532	97.4
+cgr-mir-542	97.4
+cgr-mir-615	97.4
+cgr-mir-652	89.1
+cgr-mir-664	97.4
+cgr-mir-671	97.4
+cgr-mir-744	89.1
+cgr-mir-872	77.2
+cgr-mir-92a	910.0
+cgr-mir-92b	910.0
+cgr-mir-93	535.7
+cgr-mir-99a	910.0

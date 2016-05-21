@@ -1,0 +1,48 @@
+# age_proteins.py -o ../relevant_data/selectmir_ages/ -t ../relevant_data/time_tree_dates.txt ../relevant_data/family_file_ph_selectmir.txt ../relevant_data/phylo_tree.txt 2016-05-19 19:02:08.011342
+#
+# FAMILY_FILE = ../relevant_data/family_file_ph_selectmir.txt
+# TREE_FILE = ../relevant_data/phylo_tree.txt
+# RECONSTRUCTION_ALGO = dollo
+# GAIN_PENALTY = 1
+# OUTPUT_NAME = family_file_ph_selectmir_dollo
+# OUTPUT_DIR = ../relevant_data/selectmir_ages/
+# OUTPUT_FORMATS = ['depth', 'label', 'time', 'profile']
+# TIME_FILE = ../relevant_data/time_tree_dates.txt
+# ADDITIONAL_ID_FILE = None
+#
+crm-lin-4	6
+crm-mir-1	10
+crm-mir-2	10
+crm-mir-230	1
+crm-mir-235	1
+crm-mir-237	1
+crm-mir-239a	6
+crm-mir-244	1
+crm-mir-246-1	1
+crm-mir-246-2	1
+crm-mir-250	1
+crm-mir-35c-3	10
+crm-mir-44	6
+crm-mir-45	6
+crm-mir-46	10
+crm-mir-48	1
+crm-mir-50	6
+crm-mir-52-1	1
+crm-mir-52-2	1
+crm-mir-55	1
+crm-mir-58b	1
+crm-mir-60	1
+crm-mir-63	6
+crm-mir-64b	0
+crm-mir-64c	0
+crm-mir-64d	1
+crm-mir-67	10
+crm-mir-71	10
+crm-mir-72	6
+crm-mir-784	0
+crm-mir-79	10
+crm-mir-80	1
+crm-mir-81	1
+crm-mir-84	6
+crm-mir-86	6
+crm-mir-87	10

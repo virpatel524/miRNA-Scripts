@@ -1,0 +1,25 @@
+# age_proteins.py -o ../relevant_data/allmir_ages/ -t ../relevant_data/time_tree_dates.txt ../relevant_data/family_file_ph_allmir.txt ../relevant_data/phylo_tree.txt 2016-05-19 19:01:05.137938
+#
+# FAMILY_FILE = ../relevant_data/family_file_ph_allmir.txt
+# TREE_FILE = ../relevant_data/phylo_tree.txt
+# RECONSTRUCTION_ALGO = dollo
+# GAIN_PENALTY = 1
+# OUTPUT_NAME = family_file_ph_allmir_dollo
+# OUTPUT_DIR = ../relevant_data/allmir_ages/
+# OUTPUT_FORMATS = ['depth', 'label', 'time', 'profile']
+# TIME_FILE = ../relevant_data/time_tree_dates.txt
+# ADDITIONAL_ID_FILE = None
+#
+gso-MIR1507a	Papilionoideae
+gso-MIR1507b	Papilionoideae
+gso-MIR1508a	Glycine
+gso-MIR1509a	fabids
+gso-MIR1510a	Papilionoideae
+gso-MIR1510b	Papilionoideae
+gso-MIR167a	Magnoliophyta
+gso-MIR2109	Glycine
+gso-MIR2218	Spermatophyta
+gso-MIR3522a	Glycine
+gso-MIR3522b	Glycine
+gso-MIR482a	Spermatophyta
+gso-MIR482b	Spermatophyta

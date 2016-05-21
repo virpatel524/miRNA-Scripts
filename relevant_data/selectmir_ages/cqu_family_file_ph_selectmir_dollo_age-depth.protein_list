@@ -1,0 +1,43 @@
+# age_proteins.py -o ../relevant_data/selectmir_ages/ -t ../relevant_data/time_tree_dates.txt ../relevant_data/family_file_ph_selectmir.txt ../relevant_data/phylo_tree.txt 2016-05-19 19:02:08.011342
+#
+# FAMILY_FILE = ../relevant_data/family_file_ph_selectmir.txt
+# TREE_FILE = ../relevant_data/phylo_tree.txt
+# RECONSTRUCTION_ALGO = dollo
+# GAIN_PENALTY = 1
+# OUTPUT_NAME = family_file_ph_selectmir_dollo
+# OUTPUT_DIR = ../relevant_data/selectmir_ages/
+# OUTPUT_FORMATS = ['depth', 'label', 'time', 'profile']
+# TIME_FILE = ../relevant_data/time_tree_dates.txt
+# ADDITIONAL_ID_FILE = None
+#
+cqu-bantam	23
+cqu-let-7	23
+cqu-mir-10	23
+cqu-mir-100	23
+cqu-mir-11	11
+cqu-mir-1175	22
+cqu-mir-12	19
+cqu-mir-125	23
+cqu-mir-1889	5
+cqu-mir-210	23
+cqu-mir-252-1	23
+cqu-mir-252-2	23
+cqu-mir-276-1	19
+cqu-mir-276-2	19
+cqu-mir-276-3	19
+cqu-mir-279	21
+cqu-mir-281-1	23
+cqu-mir-281-2	23
+cqu-mir-285	23
+cqu-mir-2941-1	4
+cqu-mir-2941-2	4
+cqu-mir-305	11
+cqu-mir-31	23
+cqu-mir-317-1	19
+cqu-mir-317-2	19
+cqu-mir-71	23
+cqu-mir-8	23
+cqu-mir-9	23
+cqu-mir-932	11
+cqu-mir-988	10
+cqu-mir-993	23

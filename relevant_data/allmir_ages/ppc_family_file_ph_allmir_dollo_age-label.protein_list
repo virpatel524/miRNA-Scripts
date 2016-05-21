@@ -1,0 +1,125 @@
+# age_proteins.py -o ../relevant_data/allmir_ages/ -t ../relevant_data/time_tree_dates.txt ../relevant_data/family_file_ph_allmir.txt ../relevant_data/phylo_tree.txt 2016-05-19 19:01:05.137938
+#
+# FAMILY_FILE = ../relevant_data/family_file_ph_allmir.txt
+# TREE_FILE = ../relevant_data/phylo_tree.txt
+# RECONSTRUCTION_ALGO = dollo
+# GAIN_PENALTY = 1
+# OUTPUT_NAME = family_file_ph_allmir_dollo
+# OUTPUT_DIR = ../relevant_data/allmir_ages/
+# OUTPUT_FORMATS = ['depth', 'label', 'time', 'profile']
+# TIME_FILE = ../relevant_data/time_tree_dates.txt
+# ADDITIONAL_ID_FILE = None
+#
+ppc-let-7	Bilateria
+ppc-mir-1	Bilateria
+ppc-mir-124	Bilateria
+ppc-mir-2232-1	Diplogasterida
+ppc-mir-2232-2	Diplogasterida
+ppc-mir-2235a-1	Diplogasterida
+ppc-mir-2235a-10	Diplogasterida
+ppc-mir-2235a-11	Diplogasterida
+ppc-mir-2235a-2	Diplogasterida
+ppc-mir-2235a-3	Diplogasterida
+ppc-mir-2235a-4	Diplogasterida
+ppc-mir-2235a-5	Diplogasterida
+ppc-mir-2235a-6	Diplogasterida
+ppc-mir-2235a-7	Diplogasterida
+ppc-mir-2235a-8	Diplogasterida
+ppc-mir-2235a-9	Diplogasterida
+ppc-mir-2237a	Diplogasterida
+ppc-mir-2237b	Diplogasterida
+ppc-mir-2237c	Diplogasterida
+ppc-mir-2238a-1	Diplogasterida
+ppc-mir-2238a-2	Diplogasterida
+ppc-mir-2238a-3	Diplogasterida
+ppc-mir-2238a-4	Diplogasterida
+ppc-mir-2238b-1	Diplogasterida
+ppc-mir-2238b-2	Diplogasterida
+ppc-mir-2238c	Diplogasterida
+ppc-mir-2238d	Diplogasterida
+ppc-mir-2238e	Diplogasterida
+ppc-mir-2238g	Diplogasterida
+ppc-mir-2238h	Diplogasterida
+ppc-mir-2238i	Diplogasterida
+ppc-mir-2238k	Diplogasterida
+ppc-mir-2239-1	Diplogasterida
+ppc-mir-2239-2	Diplogasterida
+ppc-mir-2240a-1	Diplogasterida
+ppc-mir-2240a-2	Diplogasterida
+ppc-mir-2240b	Diplogasterida
+ppc-mir-2240c	Diplogasterida
+ppc-mir-2241a-1	Diplogasterida
+ppc-mir-2241a-2	Diplogasterida
+ppc-mir-2241a-3	Diplogasterida
+ppc-mir-2241a-4	Diplogasterida
+ppc-mir-2241a-5	Diplogasterida
+ppc-mir-2241b-1	Diplogasterida
+ppc-mir-2241b-2	Diplogasterida
+ppc-mir-2241b-3	Diplogasterida
+ppc-mir-2241c	Diplogasterida
+ppc-mir-2242-1	Diplogasterida
+ppc-mir-2242-2	Diplogasterida
+ppc-mir-2251a	Diplogasterida
+ppc-mir-2253a	Diplogasterida
+ppc-mir-2253b	Diplogasterida
+ppc-mir-2253c	Diplogasterida
+ppc-mir-2253d	Diplogasterida
+ppc-mir-234	Chromadorea
+ppc-mir-235	Bilateria
+ppc-mir-239-1	Chromadorea
+ppc-mir-239-2	Chromadorea
+ppc-mir-252	Bilateria
+ppc-mir-279	Protostomia
+ppc-mir-45	Chromadorea
+ppc-mir-46	Bilateria
+ppc-mir-63a	Chromadorea
+ppc-mir-63b	Chromadorea
+ppc-mir-63c-1	Chromadorea
+ppc-mir-63c-2	Chromadorea
+ppc-mir-63c-3	Chromadorea
+ppc-mir-63c-4	Chromadorea
+ppc-mir-63d	Chromadorea
+ppc-mir-63e	Chromadorea
+ppc-mir-63f	Chromadorea
+ppc-mir-63g	Chromadorea
+ppc-mir-63h	Chromadorea
+ppc-mir-63i	Chromadorea
+ppc-mir-71a	Bilateria
+ppc-mir-71b	Bilateria
+ppc-mir-72	Nematoda
+ppc-mir-79	Bilateria
+ppc-mir-81	Chromadorea
+ppc-mir-8229a	Diplogasterida
+ppc-mir-8229b	Diplogasterida
+ppc-mir-8250a-1	Diplogasterida
+ppc-mir-8250a-2	Diplogasterida
+ppc-mir-8250c	Diplogasterida
+ppc-mir-8250d	Diplogasterida
+ppc-mir-8286a	Diplogasterida
+ppc-mir-8286b	Diplogasterida
+ppc-mir-8303-1	Diplogasterida
+ppc-mir-8303-2	Diplogasterida
+ppc-mir-8315-1	Diplogasterida
+ppc-mir-8315-2	Diplogasterida
+ppc-mir-8338-1	Diplogasterida
+ppc-mir-8338-2	Diplogasterida
+ppc-mir-8356a	Diplogasterida
+ppc-mir-8356b	Diplogasterida
+ppc-mir-8364b-1	Diplogasterida
+ppc-mir-8364b-2	Diplogasterida
+ppc-mir-8364f	Diplogasterida
+ppc-mir-8364g	Diplogasterida
+ppc-mir-8364h	Diplogasterida
+ppc-mir-8364i	Diplogasterida
+ppc-mir-8364j	Diplogasterida
+ppc-mir-8364k	Diplogasterida
+ppc-mir-8364m	Diplogasterida
+ppc-mir-8364o	Diplogasterida
+ppc-mir-8364r	Diplogasterida
+ppc-mir-8364s	Diplogasterida
+ppc-mir-8364v	Diplogasterida
+ppc-mir-84a	Chromadorea
+ppc-mir-84b	Chromadorea
+ppc-mir-86	Chromadorea
+ppc-mir-87	Bilateria
+ppc-mir-9	Bilateria

@@ -1,0 +1,28 @@
+# age_proteins.py -o ../relevant_data/allmir_ages/ -t ../relevant_data/time_tree_dates.txt ../relevant_data/family_file_ph_allmir.txt ../relevant_data/phylo_tree.txt 2016-05-19 19:01:05.137938
+#
+# FAMILY_FILE = ../relevant_data/family_file_ph_allmir.txt
+# TREE_FILE = ../relevant_data/phylo_tree.txt
+# RECONSTRUCTION_ALGO = dollo
+# GAIN_PENALTY = 1
+# OUTPUT_NAME = family_file_ph_allmir_dollo
+# OUTPUT_DIR = ../relevant_data/allmir_ages/
+# OUTPUT_FORMATS = ['depth', 'label', 'time', 'profile']
+# TIME_FILE = ../relevant_data/time_tree_dates.txt
+# ADDITIONAL_ID_FILE = None
+#
+lca-mir-125b	Bilateria
+lca-mir-15a	Vertebrata
+lca-mir-16	Vertebrata
+lca-mir-17	Vertebrata
+lca-mir-18	Vertebrata
+lca-mir-19a	Vertebrata
+lca-mir-19b-1	Vertebrata
+lca-mir-19b-2	Vertebrata
+lca-mir-20	Vertebrata
+lca-mir-216	Bilateria
+lca-mir-218	Vertebrata
+lca-mir-22	Deuterostomia
+lca-mir-23a	Vertebrata
+lca-mir-27a	Vertebrata
+lca-mir-92-1	Bilateria
+lca-mir-92-2	Bilateria

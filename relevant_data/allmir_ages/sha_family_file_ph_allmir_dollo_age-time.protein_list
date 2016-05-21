@@ -1,0 +1,71 @@
+# age_proteins.py -o ../relevant_data/allmir_ages/ -t ../relevant_data/time_tree_dates.txt ../relevant_data/family_file_ph_allmir.txt ../relevant_data/phylo_tree.txt 2016-05-19 19:01:05.137938
+#
+# FAMILY_FILE = ../relevant_data/family_file_ph_allmir.txt
+# TREE_FILE = ../relevant_data/phylo_tree.txt
+# RECONSTRUCTION_ALGO = dollo
+# GAIN_PENALTY = 1
+# OUTPUT_NAME = family_file_ph_allmir_dollo
+# OUTPUT_DIR = ../relevant_data/allmir_ages/
+# OUTPUT_FORMATS = ['depth', 'label', 'time', 'profile']
+# TIME_FILE = ../relevant_data/time_tree_dates.txt
+# ADDITIONAL_ID_FILE = None
+#
+sha-let-7a	910.0
+sha-let-7g	910.0
+sha-let-7i	910.0
+sha-mir-100	910.0
+sha-mir-101	454.6
+sha-mir-10a	910.0
+sha-mir-10b	910.0
+sha-mir-125a	910.0
+sha-mir-125b	910.0
+sha-mir-126	797.0
+sha-mir-128	535.7
+sha-mir-129	797.0
+sha-mir-130a	535.7
+sha-mir-130b	535.7
+sha-mir-1329	324.5
+sha-mir-133a	910.0
+sha-mir-135a	797.0
+sha-mir-138-1	535.7
+sha-mir-138-2	535.7
+sha-mir-139	454.6
+sha-mir-140	454.6
+sha-mir-141	910.0
+sha-mir-142	454.6
+sha-mir-150	454.6
+sha-mir-181a-1	535.7
+sha-mir-181a-2	535.7
+sha-mir-190	910.0
+sha-mir-193	910.0
+sha-mir-199a	535.7
+sha-mir-19b	535.7
+sha-mir-200a	910.0
+sha-mir-200b	910.0
+sha-mir-200c	910.0
+sha-mir-202	454.6
+sha-mir-204	535.7
+sha-mir-205	535.7
+sha-mir-21	454.6
+sha-mir-216a	910.0
+sha-mir-216b	910.0
+sha-mir-221	535.7
+sha-mir-222	535.7
+sha-mir-23a	535.7
+sha-mir-23b	535.7
+sha-mir-24-1	535.7
+sha-mir-24-2	535.7
+sha-mir-25	910.0
+sha-mir-26a	535.7
+sha-mir-27b	535.7
+sha-mir-30c	535.7
+sha-mir-30e	535.7
+sha-mir-338	454.6
+sha-mir-363	454.6
+sha-mir-383	361.2
+sha-mir-454	454.6
+sha-mir-497	176.1
+sha-mir-7	910.0
+sha-mir-9	910.0
+sha-mir-92a	454.6
+sha-mir-93	535.7

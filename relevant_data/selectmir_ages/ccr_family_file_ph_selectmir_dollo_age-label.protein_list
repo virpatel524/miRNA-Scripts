@@ -1,0 +1,26 @@
+# age_proteins.py -o ../relevant_data/selectmir_ages/ -t ../relevant_data/time_tree_dates.txt ../relevant_data/family_file_ph_selectmir.txt ../relevant_data/phylo_tree.txt 2016-05-19 19:02:08.011342
+#
+# FAMILY_FILE = ../relevant_data/family_file_ph_selectmir.txt
+# TREE_FILE = ../relevant_data/phylo_tree.txt
+# RECONSTRUCTION_ALGO = dollo
+# GAIN_PENALTY = 1
+# OUTPUT_NAME = family_file_ph_selectmir_dollo
+# OUTPUT_DIR = ../relevant_data/selectmir_ages/
+# OUTPUT_FORMATS = ['depth', 'label', 'time', 'profile']
+# TIME_FILE = ../relevant_data/time_tree_dates.txt
+# ADDITIONAL_ID_FILE = None
+#
+ccr-mir-126	Chordata
+ccr-mir-133a	Bilateria
+ccr-mir-140	Euteleostomi
+ccr-mir-142-1	Euteleostomi
+ccr-mir-17	Vertebrata
+ccr-mir-182	Chordata
+ccr-mir-199	Vertebrata
+ccr-mir-203b	Vertebrata
+ccr-mir-20a	Vertebrata
+ccr-mir-27c	Vertebrata
+ccr-mir-459	Clupeocephala
+ccr-mir-460	Euteleostomi
+ccr-mir-727	Euteleostomi
+ccr-mir-9	Bilateria

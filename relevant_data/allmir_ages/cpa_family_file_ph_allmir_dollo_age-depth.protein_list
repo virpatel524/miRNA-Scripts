@@ -1,0 +1,68 @@
+# age_proteins.py -o ../relevant_data/allmir_ages/ -t ../relevant_data/time_tree_dates.txt ../relevant_data/family_file_ph_allmir.txt ../relevant_data/phylo_tree.txt 2016-05-19 19:01:05.137938
+#
+# FAMILY_FILE = ../relevant_data/family_file_ph_allmir.txt
+# TREE_FILE = ../relevant_data/phylo_tree.txt
+# RECONSTRUCTION_ALGO = dollo
+# GAIN_PENALTY = 1
+# OUTPUT_NAME = family_file_ph_allmir_dollo
+# OUTPUT_DIR = ../relevant_data/allmir_ages/
+# OUTPUT_FORMATS = ['depth', 'label', 'time', 'profile']
+# TIME_FILE = ../relevant_data/time_tree_dates.txt
+# ADDITIONAL_ID_FILE = None
+#
+cpa-MIR156a	14
+cpa-MIR156b	14
+cpa-MIR156c	14
+cpa-MIR156d	14
+cpa-MIR156e	14
+cpa-MIR156f	14
+cpa-MIR159a	14
+cpa-MIR159b	14
+cpa-MIR160a	14
+cpa-MIR160b	14
+cpa-MIR160c	14
+cpa-MIR160d	14
+cpa-MIR160e	14
+cpa-MIR160f	14
+cpa-MIR162a	11
+cpa-MIR164a	11
+cpa-MIR164b	11
+cpa-MIR164c	11
+cpa-MIR164d	2
+cpa-MIR164e	2
+cpa-MIR166a	14
+cpa-MIR166b	14
+cpa-MIR166c	14
+cpa-MIR166d	14
+cpa-MIR166e	14
+cpa-MIR167a	10
+cpa-MIR167b	10
+cpa-MIR167c	10
+cpa-MIR167d	10
+cpa-MIR169	11
+cpa-MIR171a	14
+cpa-MIR171b	14
+cpa-MIR171c	14
+cpa-MIR171d	14
+cpa-MIR172a	10
+cpa-MIR172b	10
+cpa-MIR319	14
+cpa-MIR390a	14
+cpa-MIR390b	14
+cpa-MIR393	10
+cpa-MIR394a	10
+cpa-MIR394b	10
+cpa-MIR395a	11
+cpa-MIR395b	11
+cpa-MIR395c	11
+cpa-MIR395d	11
+cpa-MIR395e	11
+cpa-MIR396	13
+cpa-MIR398	11
+cpa-MIR408	14
+cpa-MIR535	14
+cpa-MIR8139a	2
+cpa-MIR8139b	2
+cpa-MIR8139c	2
+cpa-MIR8139d	2
+cpa-MIR8139e	2

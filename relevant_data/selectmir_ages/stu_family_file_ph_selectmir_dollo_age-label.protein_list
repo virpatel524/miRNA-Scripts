@@ -1,0 +1,102 @@
+# age_proteins.py -o ../relevant_data/selectmir_ages/ -t ../relevant_data/time_tree_dates.txt ../relevant_data/family_file_ph_selectmir.txt ../relevant_data/phylo_tree.txt 2016-05-19 19:02:08.011342
+#
+# FAMILY_FILE = ../relevant_data/family_file_ph_selectmir.txt
+# TREE_FILE = ../relevant_data/phylo_tree.txt
+# RECONSTRUCTION_ALGO = dollo
+# GAIN_PENALTY = 1
+# OUTPUT_NAME = family_file_ph_selectmir_dollo
+# OUTPUT_DIR = ../relevant_data/selectmir_ages/
+# OUTPUT_FORMATS = ['depth', 'label', 'time', 'profile']
+# TIME_FILE = ../relevant_data/time_tree_dates.txt
+# ADDITIONAL_ID_FILE = None
+#
+stu-MIR156d	Tracheophyta
+stu-MIR156f	Tracheophyta
+stu-MIR156g	Tracheophyta
+stu-MIR156h	Tracheophyta
+stu-MIR156i	Tracheophyta
+stu-MIR156j	Tracheophyta
+stu-MIR156k	Tracheophyta
+stu-MIR160a	Mesangiospermae
+stu-MIR162a	Pentapetalae
+stu-MIR162b	Pentapetalae
+stu-MIR164	Mesangiospermae
+stu-MIR166a	Mesangiospermae
+stu-MIR166c	Mesangiospermae
+stu-MIR166d	Mesangiospermae
+stu-MIR167a	Mesangiospermae
+stu-MIR167b	Mesangiospermae
+stu-MIR167c	Mesangiospermae
+stu-MIR167d	Mesangiospermae
+stu-MIR169a	Mesangiospermae
+stu-MIR169b	Mesangiospermae
+stu-MIR169c	Mesangiospermae
+stu-MIR169d	Mesangiospermae
+stu-MIR169e	Mesangiospermae
+stu-MIR171a	Mesangiospermae
+stu-MIR171b	Mesangiospermae
+stu-MIR171c	Mesangiospermae
+stu-MIR171d	Mesangiospermae
+stu-MIR172a	Mesangiospermae
+stu-MIR172b	Mesangiospermae
+stu-MIR172c	Mesangiospermae
+stu-MIR172d	Mesangiospermae
+stu-MIR172e	Mesangiospermae
+stu-MIR1886g	stu
+stu-MIR1886i	stu
+stu-MIR1919	Solanoideae
+stu-MIR319	Embryophyta
+stu-MIR319a	Embryophyta
+stu-MIR384	Mesangiospermae
+stu-MIR390	Embryophyta
+stu-MIR393	Mesangiospermae
+stu-MIR396	Mesangiospermae
+stu-MIR397	Mesangiospermae
+stu-MIR398a	Mesangiospermae
+stu-MIR398b	Mesangiospermae
+stu-MIR399a	Mesangiospermae
+stu-MIR399b	Mesangiospermae
+stu-MIR399c	Mesangiospermae
+stu-MIR399d	Mesangiospermae
+stu-MIR399e	Mesangiospermae
+stu-MIR399f	Mesangiospermae
+stu-MIR399g	Mesangiospermae
+stu-MIR399i	Mesangiospermae
+stu-MIR399j	Mesangiospermae
+stu-MIR399k	Mesangiospermae
+stu-MIR399l	Mesangiospermae
+stu-MIR399m	Mesangiospermae
+stu-MIR399n	Mesangiospermae
+stu-MIR399o	Mesangiospermae
+stu-MIR408a	Mesangiospermae
+stu-MIR408b	Mesangiospermae
+stu-MIR4376	stu
+stu-MIR477b	Embryophyta
+stu-MIR482a	Pentapetalae
+stu-MIR482b	Pentapetalae
+stu-MIR482d	Pentapetalae
+stu-MIR482e	Pentapetalae
+stu-MIR5304	stu
+stu-MIR6024	stu
+stu-MIR6026	stu
+stu-MIR7984b	stu
+stu-MIR7984c	stu
+stu-MIR7984d	stu
+stu-MIR7993b	stu
+stu-MIR7994b	stu
+stu-MIR8001b	stu
+stu-MIR8005b	stu
+stu-MIR8007a	stu
+stu-MIR8007b	stu
+stu-MIR8024a	stu
+stu-MIR8032a	stu
+stu-MIR8032b	stu
+stu-MIR8032d	stu
+stu-MIR8032e	stu
+stu-MIR8032f	stu
+stu-MIR8032g	stu
+stu-MIR8038a	stu
+stu-MIR8038b	stu
+stu-MIR8041a	stu
+stu-MIR8041b	stu
+stu-MIR827	stu

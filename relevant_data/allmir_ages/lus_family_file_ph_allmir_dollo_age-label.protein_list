@@ -1,0 +1,136 @@
+# age_proteins.py -o ../relevant_data/allmir_ages/ -t ../relevant_data/time_tree_dates.txt ../relevant_data/family_file_ph_allmir.txt ../relevant_data/phylo_tree.txt 2016-05-19 19:01:05.137938
+#
+# FAMILY_FILE = ../relevant_data/family_file_ph_allmir.txt
+# TREE_FILE = ../relevant_data/phylo_tree.txt
+# RECONSTRUCTION_ALGO = dollo
+# GAIN_PENALTY = 1
+# OUTPUT_NAME = family_file_ph_allmir_dollo
+# OUTPUT_DIR = ../relevant_data/allmir_ages/
+# OUTPUT_FORMATS = ['depth', 'label', 'time', 'profile']
+# TIME_FILE = ../relevant_data/time_tree_dates.txt
+# ADDITIONAL_ID_FILE = None
+#
+lus-MIR156a	Embryophyta
+lus-MIR156b	Embryophyta
+lus-MIR156c	Embryophyta
+lus-MIR156d	Embryophyta
+lus-MIR156e	Embryophyta
+lus-MIR156f	Embryophyta
+lus-MIR156g	Embryophyta
+lus-MIR156h	Embryophyta
+lus-MIR156i	Embryophyta
+lus-MIR159a	Embryophyta
+lus-MIR159b	Embryophyta
+lus-MIR159c	Embryophyta
+lus-MIR160a	Embryophyta
+lus-MIR160b	Embryophyta
+lus-MIR160c	Embryophyta
+lus-MIR160d	Embryophyta
+lus-MIR160e	Embryophyta
+lus-MIR160f	Embryophyta
+lus-MIR160g	Embryophyta
+lus-MIR160h	Embryophyta
+lus-MIR160i	Embryophyta
+lus-MIR160j	Embryophyta
+lus-MIR162a	Spermatophyta
+lus-MIR162b	Spermatophyta
+lus-MIR164a	Spermatophyta
+lus-MIR164b	Spermatophyta
+lus-MIR164c	Spermatophyta
+lus-MIR164d	Spermatophyta
+lus-MIR164e	Spermatophyta
+lus-MIR166a	Embryophyta
+lus-MIR166b	Embryophyta
+lus-MIR166c	Embryophyta
+lus-MIR166d	Embryophyta
+lus-MIR166e	Embryophyta
+lus-MIR166f	Embryophyta
+lus-MIR166g	Embryophyta
+lus-MIR166h	Embryophyta
+lus-MIR166i	Embryophyta
+lus-MIR166j	Embryophyta
+lus-MIR166k	Embryophyta
+lus-MIR167a	Magnoliophyta
+lus-MIR167b	Magnoliophyta
+lus-MIR167c	Magnoliophyta
+lus-MIR167d	Magnoliophyta
+lus-MIR167e	Magnoliophyta
+lus-MIR167f	Magnoliophyta
+lus-MIR167g	Magnoliophyta
+lus-MIR167h	Magnoliophyta
+lus-MIR167i	Magnoliophyta
+lus-MIR168a	Magnoliophyta
+lus-MIR168b	Magnoliophyta
+lus-MIR169a	Magnoliophyta
+lus-MIR169b	Magnoliophyta
+lus-MIR169c	Magnoliophyta
+lus-MIR169d	Magnoliophyta
+lus-MIR169e	Spermatophyta
+lus-MIR169f	Spermatophyta
+lus-MIR169g	Spermatophyta
+lus-MIR169h	Spermatophyta
+lus-MIR169i	Spermatophyta
+lus-MIR169j	Spermatophyta
+lus-MIR169k	Magnoliophyta
+lus-MIR169l	Spermatophyta
+lus-MIR171a	Embryophyta
+lus-MIR171b	Embryophyta
+lus-MIR171c	Embryophyta
+lus-MIR171d	Embryophyta
+lus-MIR171e	Embryophyta
+lus-MIR171f	Embryophyta
+lus-MIR171g	Embryophyta
+lus-MIR171h	Mesangiospermae
+lus-MIR171i	Embryophyta
+lus-MIR171j	Embryophyta
+lus-MIR172a	Magnoliophyta
+lus-MIR172b	Magnoliophyta
+lus-MIR172c	Magnoliophyta
+lus-MIR172d	Magnoliophyta
+lus-MIR172e	Magnoliophyta
+lus-MIR172f	Magnoliophyta
+lus-MIR172g	Magnoliophyta
+lus-MIR172h	Magnoliophyta
+lus-MIR172i	Magnoliophyta
+lus-MIR172j	Magnoliophyta
+lus-MIR319a	Embryophyta
+lus-MIR319b	Magnoliophyta
+lus-MIR390a	Embryophyta
+lus-MIR390b	Embryophyta
+lus-MIR390c	Embryophyta
+lus-MIR390d	Embryophyta
+lus-MIR393a	Magnoliophyta
+lus-MIR393b	Magnoliophyta
+lus-MIR393c	Magnoliophyta
+lus-MIR393d	Magnoliophyta
+lus-MIR394a	Magnoliophyta
+lus-MIR394b	Magnoliophyta
+lus-MIR395a	Spermatophyta
+lus-MIR395b	Spermatophyta
+lus-MIR395c	Spermatophyta
+lus-MIR395d	Spermatophyta
+lus-MIR395e	Spermatophyta
+lus-MIR396a	Tracheophyta
+lus-MIR396b	Tracheophyta
+lus-MIR396c	Tracheophyta
+lus-MIR396d	Tracheophyta
+lus-MIR396e	Tracheophyta
+lus-MIR397a	Spermatophyta
+lus-MIR397b	Spermatophyta
+lus-MIR398a	Spermatophyta
+lus-MIR398b	Spermatophyta
+lus-MIR398c	Spermatophyta
+lus-MIR398d	Spermatophyta
+lus-MIR398e	Spermatophyta
+lus-MIR398f	Spermatophyta
+lus-MIR399a	Mesangiospermae
+lus-MIR399b	Mesangiospermae
+lus-MIR399c	Mesangiospermae
+lus-MIR399d	Mesangiospermae
+lus-MIR399e	Mesangiospermae
+lus-MIR399f	Mesangiospermae
+lus-MIR399g	Mesangiospermae
+lus-MIR408a	Embryophyta
+lus-MIR530a	Mesangiospermae
+lus-MIR530b	Mesangiospermae
+lus-MIR828a	Magnoliophyta

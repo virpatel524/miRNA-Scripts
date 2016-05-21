@@ -1,0 +1,78 @@
+# age_proteins.py -o ../relevant_data/selectmir_ages/ -t ../relevant_data/time_tree_dates.txt ../relevant_data/family_file_ph_selectmir.txt ../relevant_data/phylo_tree.txt 2016-05-19 19:02:08.011342
+#
+# FAMILY_FILE = ../relevant_data/family_file_ph_selectmir.txt
+# TREE_FILE = ../relevant_data/phylo_tree.txt
+# RECONSTRUCTION_ALGO = dollo
+# GAIN_PENALTY = 1
+# OUTPUT_NAME = family_file_ph_selectmir_dollo
+# OUTPUT_DIR = ../relevant_data/selectmir_ages/
+# OUTPUT_FORMATS = ['depth', 'label', 'time', 'profile']
+# TIME_FILE = ../relevant_data/time_tree_dates.txt
+# ADDITIONAL_ID_FILE = None
+#
+mtr-MIR1507	2
+mtr-MIR1509a	6
+mtr-MIR1510a	3
+mtr-MIR1510b	3
+mtr-MIR156b	15
+mtr-MIR156c	15
+mtr-MIR156d	15
+mtr-MIR156g	15
+mtr-MIR156h	15
+mtr-MIR156i	15
+mtr-MIR166e	11
+mtr-MIR166g	11
+mtr-MIR167b	11
+mtr-MIR168c	11
+mtr-MIR169d	11
+mtr-MIR169e	11
+mtr-MIR169l	11
+mtr-MIR171e	11
+mtr-MIR172c	11
+mtr-MIR172d	11
+mtr-MIR2086	2
+mtr-MIR2087	2
+mtr-MIR2089	3
+mtr-MIR2111a	7
+mtr-MIR2111d	7
+mtr-MIR2111e	7
+mtr-MIR2111g	7
+mtr-MIR2111m	7
+mtr-MIR2592a	2
+mtr-MIR2592b	2
+mtr-MIR2592bl	2
+mtr-MIR2592bm	2
+mtr-MIR2592bn	2
+mtr-MIR2592bo	2
+mtr-MIR2592bp	2
+mtr-MIR2592bq	2
+mtr-MIR2592br	2
+mtr-MIR2592d	2
+mtr-MIR2592e	2
+mtr-MIR2592o	2
+mtr-MIR2592q	2
+mtr-MIR2592s	2
+mtr-MIR2619b	2
+mtr-MIR319a	16
+mtr-MIR319b	16
+mtr-MIR319c	2
+mtr-MIR319d	16
+mtr-MIR393b	11
+mtr-MIR396a	11
+mtr-MIR396b	11
+mtr-MIR397	11
+mtr-MIR398a	11
+mtr-MIR399s	11
+mtr-MIR399t	11
+mtr-MIR408	11
+mtr-MIR4414a	3
+mtr-MIR482	8
+mtr-MIR5274b	2
+mtr-MIR5554a	2
+mtr-MIR5554b	2
+mtr-MIR5554c	2
+mtr-MIR5559	2
+mtr-MIR7696a	2
+mtr-MIR7696b	2
+mtr-MIR7696c	2
+mtr-MIR7696d	2

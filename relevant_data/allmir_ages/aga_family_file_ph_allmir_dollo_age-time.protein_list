@@ -1,0 +1,50 @@
+# age_proteins.py -o ../relevant_data/allmir_ages/ -t ../relevant_data/time_tree_dates.txt ../relevant_data/family_file_ph_allmir.txt ../relevant_data/phylo_tree.txt 2016-05-19 19:01:05.137938
+#
+# FAMILY_FILE = ../relevant_data/family_file_ph_allmir.txt
+# TREE_FILE = ../relevant_data/phylo_tree.txt
+# RECONSTRUCTION_ALGO = dollo
+# GAIN_PENALTY = 1
+# OUTPUT_NAME = family_file_ph_allmir_dollo
+# OUTPUT_DIR = ../relevant_data/allmir_ages/
+# OUTPUT_FORMATS = ['depth', 'label', 'time', 'profile']
+# TIME_FILE = ../relevant_data/time_tree_dates.txt
+# ADDITIONAL_ID_FILE = None
+#
+aga-bantam	910.0
+aga-let-7	910.0
+aga-mir-1	910.0
+aga-mir-10	910.0
+aga-mir-100	910.0
+aga-mir-124	910.0
+aga-mir-125	910.0
+aga-mir-133	910.0
+aga-mir-137	910.0
+aga-mir-13b	910.0
+aga-mir-184	910.0
+aga-mir-190	910.0
+aga-mir-2-1	910.0
+aga-mir-2-2	910.0
+aga-mir-210	910.0
+aga-mir-219	910.0
+aga-mir-278	910.0
+aga-mir-281	910.0
+aga-mir-283	910.0
+aga-mir-286	471.4
+aga-mir-307	910.0
+aga-mir-309	471.4
+aga-mir-315	910.0
+aga-mir-34	910.0
+aga-mir-375	910.0
+aga-mir-7	910.0
+aga-mir-79	910.0
+aga-mir-8	910.0
+aga-mir-87	910.0
+aga-mir-92a	910.0
+aga-mir-92b	910.0
+aga-mir-957	471.4
+aga-mir-981	910.0
+aga-mir-988	471.4
+aga-mir-993	910.0
+aga-mir-9a	910.0
+aga-mir-9b	910.0
+aga-mir-9c	910.0

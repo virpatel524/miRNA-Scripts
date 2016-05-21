@@ -1,0 +1,1029 @@
+stu|mirBase:stu-MIR8007a stu|mirBase:stu-MIR8007b
+cel|mirBase:cel-mir-46 cel|mirBase:cel-mir-47 dme|mirBase:dme-mir-281-1 dme|mirBase:dme-mir-281-2 bmo|mirBase:bmo-mir-281 tca|mirBase:tca-mir-281 dan|mirBase:dan-mir-281-2 dan|mirBase:dan-mir-281-1 der|mirBase:der-mir-281-2 der|mirBase:der-mir-281-1 dgr|mirBase:dgr-mir-281-1 dgr|mirBase:dgr-mir-281-2 dmo|mirBase:dmo-mir-281-1 dmo|mirBase:dmo-mir-281-2 dpe|mirBase:dpe-mir-281-1 dpe|mirBase:dpe-mir-281-2 dse|mirBase:dse-mir-281-2 dse|mirBase:dse-mir-281-1 dsi|mirBase:dsi-mir-281 dwi|mirBase:dwi-mir-281-2 dwi|mirBase:dwi-mir-281-1 dya|mirBase:dya-mir-281-2 dya|mirBase:dya-mir-281-1 lgi|mirBase:lgi-mir-281 lmi|mirBase:lmi-mir-281 crm|mirBase:crm-mir-46 aae|mirBase:aae-mir-281 cqu|mirBase:cqu-mir-281-1 asu|mirBase:asu-mir-46 tur|mirBase:tur-mir-281 cqu|mirBase:cqu-mir-281-2 prd|mirBase:prd-mir-46 bbe|mirBase:bbe-mir-281
+stu|mirBase:stu-MIR8005b
+cel|mirBase:cel-mir-44 cel|mirBase:cel-mir-45 crm|mirBase:crm-mir-45 crm|mirBase:crm-mir-44 asu|mirBase:asu-mir-44a
+cel|mirBase:cel-mir-43
+cel|mirBase:cel-mir-42
+stu|mirBase:stu-MIR8001b
+mdo|mirBase:mdo-mir-7373a-1 mdo|mirBase:mdo-mir-7373a-2
+aca|mirBase:aca-mir-5408a
+mdo|mirBase:mdo-mir-7371a mdo|mirBase:mdo-mir-7371b-1 mdo|mirBase:mdo-mir-7371c mdo|mirBase:mdo-mir-7371d mdo|mirBase:mdo-mir-7371e mdo|mirBase:mdo-mir-7371f mdo|mirBase:mdo-mir-7371g mdo|mirBase:mdo-mir-7371h mdo|mirBase:mdo-mir-7371b-2 mdo|mirBase:mdo-mir-7371j
+cel|mirBase:cel-mir-49
+cel|mirBase:cel-mir-48 crm|mirBase:crm-mir-48
+bfl|mirBase:bfl-mir-2058 bbe|mirBase:bbe-mir-2058
+bfl|mirBase:bfl-mir-2059 bbe|mirBase:bbe-mir-2059
+hsa|mirBase:hsa-mir-2114
+stu|mirBase:stu-MIR5304
+hsa|mirBase:hsa-mir-3192
+hsa|mirBase:hsa-mir-3190 hsa|mirBase:hsa-mir-3191
+mml|mirBase:mml-mir-1243
+hsa|mirBase:hsa-mir-6794 mml|mirBase:mml-mir-6794
+bbe|mirBase:bbe-mir-2057
+mml|mirBase:mml-mir-7180
+ath|mirBase:ath-MIR398a ath|mirBase:ath-MIR398b ath|mirBase:ath-MIR398c ptc|mirBase:ptc-MIR398c mtr|mirBase:mtr-MIR398a bol|mirBase:bol-MIR398a aly|mirBase:aly-MIR398a aly|mirBase:aly-MIR398b aly|mirBase:aly-MIR398c ppe|mirBase:ppe-MIR398a stu|mirBase:stu-MIR398a stu|mirBase:stu-MIR398b bra|mirBase:bra-MIR398 ata|mirBase:ata-MIR398f ata|mirBase:ata-MIR398g
+ath|mirBase:ath-MIR399c zma|mirBase:zma-MIR399a zma|mirBase:zma-MIR399c zma|mirBase:zma-MIR399b zma|mirBase:zma-MIR399d zma|mirBase:zma-MIR399e zma|mirBase:zma-MIR399f zma|mirBase:zma-MIR399g zma|mirBase:zma-MIR399h zma|mirBase:zma-MIR399i zma|mirBase:zma-MIR399j aly|mirBase:aly-MIR399a aly|mirBase:aly-MIR399b aly|mirBase:aly-MIR399c aly|mirBase:aly-MIR399d aly|mirBase:aly-MIR399e aly|mirBase:aly-MIR399f aly|mirBase:aly-MIR399g aly|mirBase:aly-MIR399h aly|mirBase:aly-MIR399i mtr|mirBase:mtr-MIR399s mtr|mirBase:mtr-MIR399t stu|mirBase:stu-MIR399a stu|mirBase:stu-MIR399b stu|mirBase:stu-MIR399c stu|mirBase:stu-MIR399d stu|mirBase:stu-MIR399e stu|mirBase:stu-MIR399f stu|mirBase:stu-MIR399g stu|mirBase:stu-MIR399i stu|mirBase:stu-MIR399j stu|mirBase:stu-MIR399k stu|mirBase:stu-MIR399l stu|mirBase:stu-MIR399m stu|mirBase:stu-MIR399n stu|mirBase:stu-MIR399o ata|mirBase:ata-MIR399b ata|mirBase:ata-MIR399a
+ath|mirBase:ath-MIR396a ath|mirBase:ath-MIR396b osa|mirBase:osa-MIR396a osa|mirBase:osa-MIR396b osa|mirBase:osa-MIR396c osa|mirBase:osa-MIR396e gma|mirBase:gma-MIR396a gma|mirBase:gma-MIR396b zma|mirBase:zma-MIR396b zma|mirBase:zma-MIR396a ptc|mirBase:ptc-MIR396e ptc|mirBase:ptc-MIR396g mtr|mirBase:mtr-MIR396a mtr|mirBase:mtr-MIR396b osa|mirBase:osa-MIR396f zma|mirBase:zma-MIR396e zma|mirBase:zma-MIR396f zma|mirBase:zma-MIR396g aly|mirBase:aly-MIR396a aly|mirBase:aly-MIR396b bdi|mirBase:bdi-MIR396d bdi|mirBase:bdi-MIR396c bdi|mirBase:bdi-MIR396e bdi|mirBase:bdi-MIR396a bdi|mirBase:bdi-MIR396b gma|mirBase:gma-MIR396i gma|mirBase:gma-MIR396k cca|mirBase:cca-MIR396a ama|mirBase:ama-MIR396 stu|mirBase:stu-MIR396 sly|mirBase:sly-MIR396a bra|mirBase:bra-MIR396 ata|mirBase:ata-MIR396a ata|mirBase:ata-MIR396d ata|mirBase:ata-MIR396e ata|mirBase:ata-MIR396c ata|mirBase:ata-MIR396b
+sbi|mirBase:sbi-MIR397 zma|mirBase:zma-MIR397b aly|mirBase:aly-MIR397a aly|mirBase:aly-MIR397b gma|mirBase:gma-MIR397b mtr|mirBase:mtr-MIR397 bdi|mirBase:bdi-MIR397b stu|mirBase:stu-MIR397
+ath|mirBase:ath-MIR394b zma|mirBase:zma-MIR394a zma|mirBase:zma-MIR394b ptc|mirBase:ptc-MIR394a ptc|mirBase:ptc-MIR394b aly|mirBase:aly-MIR394a aly|mirBase:aly-MIR394b gma|mirBase:gma-MIR394b gma|mirBase:gma-MIR394a stu|mirBase:stu-MIR384 sly|mirBase:sly-MIR394 ata|mirBase:ata-MIR394
+zma|mirBase:zma-MIR395b zma|mirBase:zma-MIR395c zma|mirBase:zma-MIR395a zma|mirBase:zma-MIR395d zma|mirBase:zma-MIR395e zma|mirBase:zma-MIR395f zma|mirBase:zma-MIR395g zma|mirBase:zma-MIR395h zma|mirBase:zma-MIR395i zma|mirBase:zma-MIR395j zma|mirBase:zma-MIR395k zma|mirBase:zma-MIR395l zma|mirBase:zma-MIR395m zma|mirBase:zma-MIR395n zma|mirBase:zma-MIR395o zma|mirBase:zma-MIR395p aly|mirBase:aly-MIR395b aly|mirBase:aly-MIR395c aly|mirBase:aly-MIR395d aly|mirBase:aly-MIR395e aly|mirBase:aly-MIR395f aly|mirBase:aly-MIR395g aly|mirBase:aly-MIR395h bdi|mirBase:bdi-MIR395c bdi|mirBase:bdi-MIR395d bdi|mirBase:bdi-MIR395e bdi|mirBase:bdi-MIR395f bdi|mirBase:bdi-MIR395g bdi|mirBase:bdi-MIR395h bdi|mirBase:bdi-MIR395j bdi|mirBase:bdi-MIR395k bdi|mirBase:bdi-MIR395l bdi|mirBase:bdi-MIR395n bdi|mirBase:bdi-MIR395o bdi|mirBase:bdi-MIR395p ppe|mirBase:ppe-MIR395a ppe|mirBase:ppe-MIR395b bra|mirBase:bra-MIR395d bra|mirBase:bra-MIR395b bra|mirBase:bra-MIR395c bra|mirBase:bra-MIR395a ata|mirBase:ata-MIR395e ata|mirBase:ata-MIR395b ata|mirBase:ata-MIR395a ata|mirBase:ata-MIR395d ata|mirBase:ata-MIR395f ata|mirBase:ata-MIR395c
+ath|mirBase:ath-MIR393a ath|mirBase:ath-MIR393b osa|mirBase:osa-MIR393b zma|mirBase:zma-MIR393a ptc|mirBase:ptc-MIR393a ptc|mirBase:ptc-MIR393b mtr|mirBase:mtr-MIR393b zma|mirBase:zma-MIR393b zma|mirBase:zma-MIR393c aly|mirBase:aly-MIR393a aly|mirBase:aly-MIR393b bdi|mirBase:bdi-MIR393b gma|mirBase:gma-MIR393c stu|mirBase:stu-MIR393 ata|mirBase:ata-MIR393
+ath|mirBase:ath-MIR390a ath|mirBase:ath-MIR390b osa|mirBase:osa-MIR390 ptc|mirBase:ptc-MIR390d ppt|mirBase:ppt-MIR390c gma|mirBase:gma-MIR390a gma|mirBase:gma-MIR390b zma|mirBase:zma-MIR390a zma|mirBase:zma-MIR390b aly|mirBase:aly-MIR390a aly|mirBase:aly-MIR390b bdi|mirBase:bdi-MIR390a lja|mirBase:lja-MIR390a lja|mirBase:lja-MIR390b stu|mirBase:stu-MIR390 atr|mirBase:atr-MIR390 sly|mirBase:sly-MIR390a sly|mirBase:sly-MIR390b bra|mirBase:bra-MIR390 ata|mirBase:ata-MIR390
+ath|mirBase:ath-MIR391 aly|mirBase:aly-MIR391
+stu|mirBase:stu-MIR8038a stu|mirBase:stu-MIR8038b
+bra|mirBase:bra-MIR6032
+mmu|mirBase:mmu-mir-412 hsa|mirBase:hsa-mir-412 rno|mirBase:rno-mir-412 mml|mirBase:mml-mir-412 oar|mirBase:oar-mir-412 cgr|mirBase:cgr-mir-412 chi|mirBase:chi-mir-412
+hsa|mirBase:hsa-mir-942 mml|mirBase:mml-mir-942
+aly|mirBase:aly-MIR827
+bdi|mirBase:bdi-MIR7708a bdi|mirBase:bdi-MIR7708b
+bmo|mirBase:bmo-mir-750
+ath|mirBase:ath-MIR167a osa|mirBase:osa-MIR167a osa|mirBase:osa-MIR167c osa|mirBase:osa-MIR167d osa|mirBase:osa-MIR167e osa|mirBase:osa-MIR167h osa|mirBase:osa-MIR167i zma|mirBase:zma-MIR167a zma|mirBase:zma-MIR167b zma|mirBase:zma-MIR167d zma|mirBase:zma-MIR167c zma|mirBase:zma-MIR167e zma|mirBase:zma-MIR167f zma|mirBase:zma-MIR167h zma|mirBase:zma-MIR167i ptc|mirBase:ptc-MIR167f ptc|mirBase:ptc-MIR167g ptc|mirBase:ptc-MIR167h zma|mirBase:zma-MIR167j aly|mirBase:aly-MIR167a aly|mirBase:aly-MIR167b aly|mirBase:aly-MIR167d ahy|mirBase:ahy-MIR167 bdi|mirBase:bdi-MIR167c bdi|mirBase:bdi-MIR167d mtr|mirBase:mtr-MIR167b bdi|mirBase:bdi-MIR167e stu|mirBase:stu-MIR167c stu|mirBase:stu-MIR167b stu|mirBase:stu-MIR167a stu|mirBase:stu-MIR167d sly|mirBase:sly-MIR167b ata|mirBase:ata-MIR167c ata|mirBase:ata-MIR167a ata|mirBase:ata-MIR167e ata|mirBase:ata-MIR167b ata|mirBase:ata-MIR167f ata|mirBase:ata-MIR167d
+ppt|mirBase:ppt-MIR898a
+ath|mirBase:ath-MIR167c zma|mirBase:zma-MIR167g aly|mirBase:aly-MIR167c
+ata|mirBase:ata-MIR9783
+bfl|mirBase:bfl-mir-4868c bbe|mirBase:bbe-mir-4868c
+rno|mirBase:rno-mir-3584-1 rno|mirBase:rno-mir-3584-2
+osa|mirBase:osa-MIR3980a osa|mirBase:osa-MIR3980b
+bfl|mirBase:bfl-mir-4865 bbe|mirBase:bbe-mir-4865
+oan|mirBase:oan-mir-1419a oan|mirBase:oan-mir-1419b-1 oan|mirBase:oan-mir-1419c-1 oan|mirBase:oan-mir-1419d oan|mirBase:oan-mir-1419e oan|mirBase:oan-mir-1419c-2 oan|mirBase:oan-mir-1419c-3 oan|mirBase:oan-mir-1419b-2 oan|mirBase:oan-mir-1419f oan|mirBase:oan-mir-1419g
+bmo|mirBase:bmo-mir-2756
+bmo|mirBase:bmo-mir-2755
+gga|mirBase:gga-mir-1791
+ata|mirBase:ata-MIR9772a ata|mirBase:ata-MIR9772b
+hsa|mirBase:hsa-mir-4776-1 hsa|mirBase:hsa-mir-4776-2
+dre|mirBase:dre-mir-725-1 dre|mirBase:dre-mir-725-2 ssa|mirBase:ssa-mir-725-1 ssa|mirBase:ssa-mir-725-2
+ssa|mirBase:ssa-mir-724-1 ssa|mirBase:ssa-mir-724-2 ssa|mirBase:ssa-mir-724-3 ssa|mirBase:ssa-mir-724-4
+dme|mirBase:dme-mir-1002 dps|mirBase:dps-mir-1002 dsi|mirBase:dsi-mir-1002
+dme|mirBase:dme-mir-1003 dsi|mirBase:dsi-mir-1003
+dme|mirBase:dme-mir-1000 tca|mirBase:tca-mir-1000 dps|mirBase:dps-mir-1000 dsi|mirBase:dsi-mir-1000
+dme|mirBase:dme-mir-1001 dsi|mirBase:dsi-mir-1001
+dme|mirBase:dme-mir-1006 dps|mirBase:dps-mir-1006 dsi|mirBase:dsi-mir-1006
+dre|mirBase:dre-mir-727 aca|mirBase:aca-mir-727 ccr|mirBase:ccr-mir-727 ssa|mirBase:ssa-mir-727-1 ssa|mirBase:ssa-mir-727-2
+dsi|mirBase:dsi-mir-1005
+bfl|mirBase:bfl-mir-4874 bbe|mirBase:bbe-mir-4874
+gga|mirBase:gga-mir-1559
+prd|mirBase:prd-mir-7911c-1 prd|mirBase:prd-mir-7911a prd|mirBase:prd-mir-7911b prd|mirBase:prd-mir-7911c-2
+prd|mirBase:prd-mir-7927a prd|mirBase:prd-mir-7927c prd|mirBase:prd-mir-7927d prd|mirBase:prd-mir-7927b prd|mirBase:prd-mir-7927e
+ata|mirBase:ata-MIR9672
+asu|mirBase:asu-mir-43e asu|mirBase:asu-mir-43b asu|mirBase:asu-mir-43c-1 asu|mirBase:asu-mir-43c-2
+gga|mirBase:gga-mir-1677 tgu|mirBase:tgu-mir-1677 aca|mirBase:aca-mir-1677b oha|mirBase:oha-mir-1677b
+cel|mirBase:cel-mir-2209a cel|mirBase:cel-mir-2209b
+cel|mirBase:cel-mir-2208a cel|mirBase:cel-mir-2208b
+ath|mirBase:ath-MIR851 aly|mirBase:aly-MIR851
+gga|mirBase:gga-mir-7479-1 gga|mirBase:gga-mir-7479-2 gga|mirBase:gga-mir-7479-3
+ath|mirBase:ath-MIR822 aly|mirBase:aly-MIR822
+aly|mirBase:aly-MIR823
+ath|mirBase:ath-MIR824 aly|mirBase:aly-MIR824
+aly|mirBase:aly-MIR825
+zma|mirBase:zma-MIR827 bdi|mirBase:bdi-MIR827
+cel|mirBase:cel-lsy-6
+oan|mirBase:oan-mir-1388 dre|mirBase:dre-mir-1388 bta|mirBase:bta-mir-1388 tgu|mirBase:tgu-mir-1388 aca|mirBase:aca-mir-1388 ola|mirBase:ola-mir-1388 ssa|mirBase:ssa-mir-1338 chi|mirBase:chi-mir-1388 oha|mirBase:oha-mir-1388
+ppc|mirBase:ppc-mir-8356a ppc|mirBase:ppc-mir-8356b
+mmu|mirBase:mmu-mir-3059 mml|mirBase:mml-mir-3059
+hsa|mirBase:hsa-mir-6827 mml|mirBase:mml-mir-6827
+mdo|mirBase:mdo-mir-7386a-1 mdo|mirBase:mdo-mir-7386a-2 mdo|mirBase:mdo-mir-7386a-3 mdo|mirBase:mdo-mir-7386b mdo|mirBase:mdo-mir-7386c mdo|mirBase:mdo-mir-7386i mdo|mirBase:mdo-mir-7386j mdo|mirBase:mdo-mir-7386k mdo|mirBase:mdo-mir-7386d mdo|mirBase:mdo-mir-7386e mdo|mirBase:mdo-mir-7386l mdo|mirBase:mdo-mir-7386f mdo|mirBase:mdo-mir-7386m mdo|mirBase:mdo-mir-7386n
+bra|mirBase:bra-MIR9552a bra|mirBase:bra-MIR9552b
+hsa|mirBase:hsa-mir-619
+mmu|mirBase:mmu-mir-138-2 hsa|mirBase:hsa-mir-138-2 hsa|mirBase:hsa-mir-138-1 mmu|mirBase:mmu-mir-138-1 rno|mirBase:rno-mir-138-2 rno|mirBase:rno-mir-138-1 gga|mirBase:gga-mir-138-1 gga|mirBase:gga-mir-138-2 dre|mirBase:dre-mir-138 oan|mirBase:oan-mir-138-2 mml|mirBase:mml-mir-138 tgu|mirBase:tgu-mir-138-1 tgu|mirBase:tgu-mir-138-2 aca|mirBase:aca-mir-138-1 aca|mirBase:aca-mir-138-2 ssa|mirBase:ssa-mir-138-1 ssa|mirBase:ssa-mir-138-2 ssa|mirBase:ssa-mir-138-3 ssa|mirBase:ssa-mir-138-4 oha|mirBase:oha-mir-138-1 oha|mirBase:oha-mir-138-2
+hsa|mirBase:hsa-mir-139 mmu|mirBase:mmu-mir-139 rno|mirBase:rno-mir-139 ssc|mirBase:ssc-mir-139 dre|mirBase:dre-mir-139 oan|mirBase:oan-mir-139 mml|mirBase:mml-mir-139 mdo|mirBase:mdo-mir-139 eca|mirBase:eca-mir-139 tgu|mirBase:tgu-mir-139 ppy|mirBase:ppy-mir-139 aca|mirBase:aca-mir-139 cgr|mirBase:cgr-mir-139 ssa|mirBase:ssa-mir-139-1 ssa|mirBase:ssa-mir-139-2 oha|mirBase:oha-mir-139
+tgu|mirBase:tgu-mir-2979-1 tgu|mirBase:tgu-mir-2979-2
+mmu|mirBase:mmu-mir-6516 gga|mirBase:gga-mir-6516 hsa|mirBase:hsa-mir-6516
+mmu|mirBase:mmu-mir-134 hsa|mirBase:hsa-mir-134 rno|mirBase:rno-mir-134 mml|mirBase:mml-mir-134 oar|mirBase:oar-mir-134
+mmu|mirBase:mmu-mir-135a-1 hsa|mirBase:hsa-mir-135a-1 rno|mirBase:rno-mir-135b mmu|mirBase:mmu-mir-135b mmu|mirBase:mmu-mir-135a-2 hsa|mirBase:hsa-mir-135b rno|mirBase:rno-mir-135a gga|mirBase:gga-mir-135a-2 gga|mirBase:gga-mir-135a-1 gga|mirBase:gga-mir-135a-3 mml|mirBase:mml-mir-135a-2 dre|mirBase:dre-mir-135b mdo|mirBase:mdo-mir-135a mdo|mirBase:mdo-mir-135b oan|mirBase:oan-mir-135b-1 mml|mirBase:mml-mir-135a-1 mml|mirBase:mml-mir-135b cfa|mirBase:cfa-mir-135a-2 tgu|mirBase:tgu-mir-135a-1 tgu|mirBase:tgu-mir-135a-2 pma|mirBase:pma-mir-135a aca|mirBase:aca-mir-135-1 aca|mirBase:aca-mir-135-2 aca|mirBase:aca-mir-135-3 oan|mirBase:oan-mir-135b-2 bbe|mirBase:bbe-mir-135a ssa|mirBase:ssa-mir-135a ssa|mirBase:ssa-mir-135b-1 ssa|mirBase:ssa-mir-135b-2 ssa|mirBase:ssa-mir-135b-3 ssa|mirBase:ssa-mir-135c-1 ssa|mirBase:ssa-mir-135c-2 chi|mirBase:chi-mir-135b oha|mirBase:oha-mir-135-1 oha|mirBase:oha-mir-135-2 oha|mirBase:oha-mir-135-3
+mmu|mirBase:mmu-mir-136 hsa|mirBase:hsa-mir-136 rno|mirBase:rno-mir-136 chi|mirBase:chi-mir-136
+mmu|mirBase:mmu-mir-137 rno|mirBase:rno-mir-137 gga|mirBase:gga-mir-137 dre|mirBase:dre-mir-137-1 dre|mirBase:dre-mir-137-2 dme|mirBase:dme-mir-137 oan|mirBase:oan-mir-137a oan|mirBase:oan-mir-137b mml|mirBase:mml-mir-137 tca|mirBase:tca-mir-137 dps|mirBase:dps-mir-137 dsi|mirBase:dsi-mir-137 tgu|mirBase:tgu-mir-137 pma|mirBase:pma-mir-137-1 pma|mirBase:pma-mir-137-2 aca|mirBase:aca-mir-137b tur|mirBase:tur-mir-137 dre|mirBase:dre-mir-137-3 cgr|mirBase:cgr-mir-137 mdo|mirBase:mdo-mir-137b ssa|mirBase:ssa-mir-137-1 ssa|mirBase:ssa-mir-137-2 oha|mirBase:oha-mir-137
+mmu|mirBase:mmu-mir-130a mmu|mirBase:mmu-mir-301a mmu|mirBase:mmu-mir-130b hsa|mirBase:hsa-mir-130a rno|mirBase:rno-mir-301a hsa|mirBase:hsa-mir-301a hsa|mirBase:hsa-mir-130b rno|mirBase:rno-mir-130a rno|mirBase:rno-mir-130b gga|mirBase:gga-mir-130b gga|mirBase:gga-mir-301a gga|mirBase:gga-mir-130a dre|mirBase:dre-mir-130c-1 dre|mirBase:dre-mir-130c-2 dre|mirBase:dre-mir-301b dre|mirBase:dre-mir-301c mml|mirBase:mml-mir-130a mmu|mirBase:mmu-mir-301b mdo|mirBase:mdo-mir-130a hsa|mirBase:hsa-mir-301b rno|mirBase:rno-mir-301b oan|mirBase:oan-mir-130c oan|mirBase:oan-mir-301 oan|mirBase:oan-mir-130b gga|mirBase:gga-mir-130c gga|mirBase:gga-mir-301b mml|mirBase:mml-mir-130b mml|mirBase:mml-mir-301a mdo|mirBase:mdo-mir-301 eca|mirBase:eca-mir-301b tgu|mirBase:tgu-mir-130a tgu|mirBase:tgu-mir-130b tgu|mirBase:tgu-mir-130c tgu|mirBase:tgu-mir-301 pma|mirBase:pma-mir-130a aca|mirBase:aca-mir-130a-1 aca|mirBase:aca-mir-130a-2 aca|mirBase:aca-mir-130b aca|mirBase:aca-mir-301a aca|mirBase:aca-mir-301b ola|mirBase:ola-mir-301b ola|mirBase:ola-mir-301a cgr|mirBase:cgr-mir-130a cgr|mirBase:cgr-mir-130b cgr|mirBase:cgr-mir-301a mdo|mirBase:mdo-mir-130c-1 mdo|mirBase:mdo-mir-130b mdo|mirBase:mdo-mir-130c-2 ssa|mirBase:ssa-mir-130a-1 ssa|mirBase:ssa-mir-130a-2 ssa|mirBase:ssa-mir-130b-1 ssa|mirBase:ssa-mir-130b-2 ssa|mirBase:ssa-mir-130d-1 ssa|mirBase:ssa-mir-130d-2 ssa|mirBase:ssa-mir-130d-3 ssa|mirBase:ssa-mir-301a-1 ssa|mirBase:ssa-mir-301b ssa|mirBase:ssa-mir-301c ssa|mirBase:ssa-mir-301d chi|mirBase:chi-mir-130a chi|mirBase:chi-mir-130b chi|mirBase:chi-mir-301a oha|mirBase:oha-mir-130a oha|mirBase:oha-mir-130b oha|mirBase:oha-mir-130c oha|mirBase:oha-mir-301b oha|mirBase:oha-mir-301a
+ghr|mirBase:ghr-MIR2949a
+mmu|mirBase:mmu-mir-132 hsa|mirBase:hsa-mir-212 hsa|mirBase:hsa-mir-132 mmu|mirBase:mmu-mir-212 rno|mirBase:rno-mir-132 rno|mirBase:rno-mir-212 dre|mirBase:dre-mir-132-1 mdo|mirBase:mdo-mir-212 mdo|mirBase:mdo-mir-132 mml|mirBase:mml-mir-132 mml|mirBase:mml-mir-212 pma|mirBase:pma-mir-132 aca|mirBase:aca-mir-132 aca|mirBase:aca-mir-212 cgr|mirBase:cgr-mir-132 ssa|mirBase:ssa-mir-132-1 ssa|mirBase:ssa-mir-132-2 ssa|mirBase:ssa-mir-132-3 ssa|mirBase:ssa-mir-132-4 ssa|mirBase:ssa-mir-212a-1 ssa|mirBase:ssa-mir-212a-2 ssa|mirBase:ssa-mir-212b-1 ssa|mirBase:ssa-mir-212b-2 oha|mirBase:oha-mir-132 oha|mirBase:oha-mir-212
+mmu|mirBase:mmu-mir-133a-1 dme|mirBase:dme-mir-133 hsa|mirBase:hsa-mir-133a-1 hsa|mirBase:hsa-mir-133a-2 mmu|mirBase:mmu-mir-133a-2 mmu|mirBase:mmu-mir-133b rno|mirBase:rno-mir-133a gga|mirBase:gga-mir-133a-1 gga|mirBase:gga-mir-133a-2 gga|mirBase:gga-mir-133c dre|mirBase:dre-mir-133a-2 dre|mirBase:dre-mir-133a-1 dre|mirBase:dre-mir-133b dre|mirBase:dre-mir-133c rno|mirBase:rno-mir-133b mdo|mirBase:mdo-mir-133a-1 oan|mirBase:oan-mir-133a-1 oan|mirBase:oan-mir-133b cin|mirBase:cin-mir-133 mml|mirBase:mml-mir-133c mml|mirBase:mml-mir-133b tca|mirBase:tca-mir-133 lgi|mirBase:lgi-mir-133 ssc|mirBase:ssc-mir-133a-1 tgu|mirBase:tgu-mir-133-1 tgu|mirBase:tgu-mir-133-3 ssc|mirBase:ssc-mir-133a-2 pma|mirBase:pma-mir-133b asu|mirBase:asu-mir-133 tur|mirBase:tur-mir-133 ola|mirBase:ola-mir-133-2 ola|mirBase:ola-mir-133-1 pol|mirBase:pol-mir-133 ccr|mirBase:ccr-mir-133a mml|mirBase:mml-mir-133d mdo|mirBase:mdo-mir-133a-2 oan|mirBase:oan-mir-133a-2 bbe|mirBase:bbe-mir-133 ssa|mirBase:ssa-mir-133a-1 ssa|mirBase:ssa-mir-133b-1 ssa|mirBase:ssa-mir-133b-2 ssa|mirBase:ssa-mir-133a-3 ssa|mirBase:ssa-mir-133a-2 efu|mirBase:efu-mir-133-1 efu|mirBase:efu-mir-133-2 chi|mirBase:chi-mir-133a oha|mirBase:oha-mir-133a-1 oha|mirBase:oha-mir-133a-2 oha|mirBase:oha-mir-133b oha|mirBase:oha-mir-133a-3
+hsa|mirBase:hsa-mir-4743
+sma|mirBase:sma-mir-125a
+gga|mirBase:gga-mir-6579-1 gga|mirBase:gga-mir-6579-2
+gga|mirBase:gga-mir-7445-1 gga|mirBase:gga-mir-7445-2
+hsa|mirBase:hsa-mir-1255b-2 mml|mirBase:mml-mir-1255a
+tca|mirBase:tca-mir-3817 tca|mirBase:tca-mir-3826
+hsa|mirBase:hsa-mir-1252
+hsa|mirBase:hsa-mir-1251 mmu|mirBase:mmu-mir-1251 mml|mirBase:mml-mir-1251 mdo|mirBase:mdo-mir-1251
+hsa|mirBase:hsa-mir-1250
+prd|mirBase:prd-mir-7961-1 prd|mirBase:prd-mir-7961-2
+bdi|mirBase:bdi-MIR7768a bdi|mirBase:bdi-MIR7768b
+stu|mirBase:stu-MIR8032a stu|mirBase:stu-MIR8032b stu|mirBase:stu-MIR8032d stu|mirBase:stu-MIR8032e stu|mirBase:stu-MIR8032f stu|mirBase:stu-MIR8032g
+sme|mirBase:sme-mir-2147d
+hme|mirBase:hme-mir-6301-1 hme|mirBase:hme-mir-6301-2
+hme|mirBase:hme-mir-6302-1 hme|mirBase:hme-mir-6302-2
+bdi|mirBase:bdi-MIR5181a bdi|mirBase:bdi-MIR5174e bdi|mirBase:bdi-MIR5174b bdi|mirBase:bdi-MIR5174c bdi|mirBase:bdi-MIR5174d bdi|mirBase:bdi-MIR5181c ata|mirBase:ata-MIR5181
+ata|mirBase:ata-MIR5062a ata|mirBase:ata-MIR5062b
+dre|mirBase:dre-mir-737 ssa|mirBase:ssa-mir-737 oha|mirBase:oha-mir-737
+pxy|mirBase:pxy-mir-8510a-1 pxy|mirBase:pxy-mir-8510a-2 pxy|mirBase:pxy-mir-8510a-3 pxy|mirBase:pxy-mir-8510a-4 pxy|mirBase:pxy-mir-8510a-5 pxy|mirBase:pxy-mir-8510a-6 pxy|mirBase:pxy-mir-8510a-7 pxy|mirBase:pxy-mir-8510a-8 pxy|mirBase:pxy-mir-8510b
+mmu|mirBase:mmu-mir-181a-2 hsa|mirBase:hsa-mir-181a-2 hsa|mirBase:hsa-mir-181b-1 hsa|mirBase:hsa-mir-181c hsa|mirBase:hsa-mir-181a-1 hsa|mirBase:hsa-mir-181b-2 mmu|mirBase:mmu-mir-181a-1 mmu|mirBase:mmu-mir-181b-1 mmu|mirBase:mmu-mir-181c mmu|mirBase:mmu-mir-181b-2 rno|mirBase:rno-mir-181c rno|mirBase:rno-mir-181a-2 rno|mirBase:rno-mir-181b-1 rno|mirBase:rno-mir-181b-2 rno|mirBase:rno-mir-181a-1 gga|mirBase:gga-mir-181a-1 gga|mirBase:gga-mir-181b-1 gga|mirBase:gga-mir-181b-2 dre|mirBase:dre-mir-181b-2 dre|mirBase:dre-mir-181a-1 dre|mirBase:dre-mir-181c mml|mirBase:mml-mir-181c mml|mirBase:mml-mir-181a-1 mml|mirBase:mml-mir-181b-1 ptr|mirBase:ptr-mir-181a-1 ppy|mirBase:ppy-mir-181a-1 ggo|mirBase:ggo-mir-181a-1 lla|mirBase:lla-mir-181a-1 mne|mirBase:mne-mir-181a-1 ppa|mirBase:ppa-mir-181a-1 hsa|mirBase:hsa-mir-181d tni|mirBase:tni-mir-181a-1 dre|mirBase:dre-mir-181a-2 xtr|mirBase:xtr-mir-181a-1 xtr|mirBase:xtr-mir-181a-2 mdo|mirBase:mdo-mir-181a-3 mdo|mirBase:mdo-mir-181a-1 mdo|mirBase:mdo-mir-181b-1 mmu|mirBase:mmu-mir-181d rno|mirBase:rno-mir-181d oan|mirBase:oan-mir-181a-1 oan|mirBase:oan-mir-181b-1 oan|mirBase:oan-mir-181c mml|mirBase:mml-mir-181b-2 ssc|mirBase:ssc-mir-181d tgu|mirBase:tgu-mir-181a-1 tgu|mirBase:tgu-mir-181a-2 tgu|mirBase:tgu-mir-181b-1 tgu|mirBase:tgu-mir-181b-2 pma|mirBase:pma-mir-181a ola|mirBase:ola-mir-181b-1 ola|mirBase:ola-mir-181a-1 sha|mirBase:sha-mir-181a-1 cgr|mirBase:cgr-mir-181a cgr|mirBase:cgr-mir-181b cgr|mirBase:cgr-mir-181c cgr|mirBase:cgr-mir-181d mdo|mirBase:mdo-mir-181a-2 mdo|mirBase:mdo-mir-181b-2 mdo|mirBase:mdo-mir-181b-3 oan|mirBase:oan-mir-181b-2 oan|mirBase:oan-mir-181a-2 oan|mirBase:oan-mir-181a-3 ssa|mirBase:ssa-mir-181a-1 ssa|mirBase:ssa-mir-181a-2 ssa|mirBase:ssa-mir-181a-3 ssa|mirBase:ssa-mir-181a-4 ssa|mirBase:ssa-mir-181a-5 ssa|mirBase:ssa-mir-181b ssa|mirBase:ssa-mir-181c chi|mirBase:chi-mir-181b chi|mirBase:chi-mir-181c oha|mirBase:oha-mir-181a-1 oha|mirBase:oha-mir-181a-2 oha|mirBase:oha-mir-181c oha|mirBase:oha-mir-181b
+mmu|mirBase:mmu-mir-183 hsa|mirBase:hsa-mir-183 rno|mirBase:rno-mir-183 dre|mirBase:dre-mir-183 mml|mirBase:mml-mir-183 mdo|mirBase:mdo-mir-183 cin|mirBase:cin-mir-183 pma|mirBase:pma-mir-183 ola|mirBase:ola-mir-183-1 ola|mirBase:ola-mir-183-2 ssa|mirBase:ssa-mir-183-1 ssa|mirBase:ssa-mir-183-2 ssa|mirBase:ssa-mir-183-3 oha|mirBase:oha-mir-183
+mmu|mirBase:mmu-mir-182 hsa|mirBase:hsa-mir-182 dre|mirBase:dre-mir-182 xtr|mirBase:xtr-mir-182 mdo|mirBase:mdo-mir-182 oan|mirBase:oan-mir-182 aca|mirBase:aca-mir-182 pol|mirBase:pol-mir-182 ccr|mirBase:ccr-mir-182 bbe|mirBase:bbe-mir-182a bbe|mirBase:bbe-mir-182b ssa|mirBase:ssa-mir-182 oha|mirBase:oha-mir-182
+mmu|mirBase:mmu-mir-185 hsa|mirBase:hsa-mir-185 rno|mirBase:rno-mir-185 mml|mirBase:mml-mir-185 cgr|mirBase:cgr-mir-185
+mmu|mirBase:mmu-mir-184 dme|mirBase:dme-mir-184 gga|mirBase:gga-mir-184 mdo|mirBase:mdo-mir-184 bmo|mirBase:bmo-mir-184 tca|mirBase:tca-mir-184 dan|mirBase:dan-mir-184 der|mirBase:der-mir-184 dgr|mirBase:dgr-mir-184 dmo|mirBase:dmo-mir-184 dpe|mirBase:dpe-mir-184 dse|mirBase:dse-mir-184 dsi|mirBase:dsi-mir-184 dwi|mirBase:dwi-mir-184 dya|mirBase:dya-mir-184 bfl|mirBase:bfl-mir-184 sko|mirBase:sko-mir-184 aca|mirBase:aca-mir-184 tur|mirBase:tur-mir-184 ola|mirBase:ola-mir-184-1 ola|mirBase:ola-mir-184-2 bbe|mirBase:bbe-mir-184
+mmu|mirBase:mmu-mir-187 hsa|mirBase:hsa-mir-187 rno|mirBase:rno-mir-187 gga|mirBase:gga-mir-187 mdo|mirBase:mdo-mir-187 oan|mirBase:oan-mir-187 mml|mirBase:mml-mir-187 tgu|mirBase:tgu-mir-187 aca|mirBase:aca-mir-187
+mmu|mirBase:mmu-mir-186 hsa|mirBase:hsa-mir-186 rno|mirBase:rno-mir-186 mdo|mirBase:mdo-mir-186 oan|mirBase:oan-mir-186 mml|mirBase:mml-mir-186 cgr|mirBase:cgr-mir-186 chi|mirBase:chi-mir-186
+hsa|mirBase:hsa-mir-221 hsa|mirBase:hsa-mir-222 mmu|mirBase:mmu-mir-221 mmu|mirBase:mmu-mir-222 rno|mirBase:rno-mir-221 rno|mirBase:rno-mir-222 gga|mirBase:gga-mir-221 dre|mirBase:dre-mir-221 dre|mirBase:dre-mir-222a mml|mirBase:mml-mir-221 mdo|mirBase:mdo-mir-221 oan|mirBase:oan-mir-222b-1 oan|mirBase:oan-mir-222a oan|mirBase:oan-mir-221 mml|mirBase:mml-mir-222 ssc|mirBase:ssc-mir-221 tgu|mirBase:tgu-mir-221 tgu|mirBase:tgu-mir-222-1 tgu|mirBase:tgu-mir-222-2 pma|mirBase:pma-mir-222 aca|mirBase:aca-mir-221 aca|mirBase:aca-mir-222a cgr|mirBase:cgr-mir-221 cgr|mirBase:cgr-mir-222 pol|mirBase:pol-mir-221 gga|mirBase:gga-mir-222b oan|mirBase:oan-mir-222b-2 ssa|mirBase:ssa-mir-221 ssa|mirBase:ssa-mir-222a-1 ssa|mirBase:ssa-mir-222a-2 ssa|mirBase:ssa-mir-222b chi|mirBase:chi-mir-221 oha|mirBase:oha-mir-221 oha|mirBase:oha-mir-222a oha|mirBase:oha-mir-222b
+hsa|mirBase:hsa-mir-223 mmu|mirBase:mmu-mir-223 rno|mirBase:rno-mir-223 mdo|mirBase:mdo-mir-223 oan|mirBase:oan-mir-223 aca|mirBase:aca-mir-223 chi|mirBase:chi-mir-223 oha|mirBase:oha-mir-223
+hsa|mirBase:hsa-mir-224 mmu|mirBase:mmu-mir-224 mml|mirBase:mml-mir-224 rno|mirBase:rno-mir-224 chi|mirBase:chi-mir-224
+bdi|mirBase:bdi-MIR7717a bdi|mirBase:bdi-MIR7717b bdi|mirBase:bdi-MIR7717c
+cte|mirBase:cte-mir-1175 lgi|mirBase:lgi-mir-1175 bmo|mirBase:bmo-mir-1175 aae|mirBase:aae-mir-1175 cqu|mirBase:cqu-mir-1175 tca|mirBase:tca-mir-1175 asu|mirBase:asu-mir-1175
+hsa|mirBase:hsa-mir-3934
+aly|mirBase:aly-MIR3444a
+tur|mirBase:tur-mir-3931
+aly|mirBase:aly-MIR3440 ath|mirBase:ath-MIR3440b
+sme|mirBase:sme-mir-2154-1 sme|mirBase:sme-mir-2154-2
+stu|mirBase:stu-MIR8041a stu|mirBase:stu-MIR8041b
+bbe|mirBase:bbe-mir-2066
+bta|mirBase:bta-mir-2331
+hsa|mirBase:hsa-mir-3156-1 hsa|mirBase:hsa-mir-3156-2
+hsa|mirBase:hsa-mir-6505 mml|mirBase:mml-mir-6505
+pmi|mirBase:pmi-mir-2011
+sko|mirBase:sko-mir-2012
+ppt|mirBase:ppt-MIR2083
+pgi|mirBase:pgi-MIR6135e
+hsa|mirBase:hsa-mir-3158-1 hsa|mirBase:hsa-mir-3158-2
+pxy|mirBase:pxy-mir-8544-1 pxy|mirBase:pxy-mir-8544-2
+mtr|mirBase:mtr-MIR5274b
+hsa|mirBase:hsa-mir-1238
+cel|mirBase:cel-mir-354
+cel|mirBase:cel-mir-355
+dre|mirBase:dre-mir-459 ola|mirBase:ola-mir-459 ccr|mirBase:ccr-mir-459 ssa|mirBase:ssa-mir-459
+dre|mirBase:dre-mir-458 oan|mirBase:oan-mir-458 gga|mirBase:gga-mir-458a tgu|mirBase:tgu-mir-458 gga|mirBase:gga-mir-458b ssa|mirBase:ssa-mir-458 oha|mirBase:oha-mir-458
+mmu|mirBase:mmu-mir-350 cgr|mirBase:cgr-mir-350
+rno|mirBase:rno-mir-351-1 mmu|mirBase:mmu-mir-351
+dme|mirBase:dme-mir-971 dps|mirBase:dps-mir-971
+dme|mirBase:dme-mir-981 dps|mirBase:dps-mir-981 dsi|mirBase:dsi-mir-981
+hsa|mirBase:hsa-mir-452 mmu|mirBase:mmu-mir-452 mml|mirBase:mml-mir-452 rno|mirBase:rno-mir-452
+rno|mirBase:rno-mir-451 aca|mirBase:aca-mir-451 chi|mirBase:chi-mir-451 oha|mirBase:oha-mir-451
+hsa|mirBase:hsa-mir-450a-1 mmu|mirBase:mmu-mir-450a-1 rno|mirBase:rno-mir-450a hsa|mirBase:hsa-mir-450a-2 mmu|mirBase:mmu-mir-450a-2 mmu|mirBase:mmu-mir-450b hsa|mirBase:hsa-mir-450b mml|mirBase:mml-mir-450a-1 mml|mirBase:mml-mir-450a-2 mml|mirBase:mml-mir-450b eca|mirBase:eca-mir-450b ssc|mirBase:ssc-mir-450b ssc|mirBase:ssc-mir-450c ppy|mirBase:ppy-mir-450b cgr|mirBase:cgr-mir-450b rno|mirBase:rno-mir-450b-1 chi|mirBase:chi-mir-450 rno|mirBase:rno-mir-450b-2
+cel|mirBase:cel-mir-358
+gga|mirBase:gga-mir-456 tgu|mirBase:tgu-mir-456 ssa|mirBase:ssa-mir-456-1 ssa|mirBase:ssa-mir-456-2
+dre|mirBase:dre-mir-455-1 hsa|mirBase:hsa-mir-455 gga|mirBase:gga-mir-455 mmu|mirBase:mmu-mir-455 bta|mirBase:bta-mir-455 rno|mirBase:rno-mir-455 mml|mirBase:mml-mir-455 dre|mirBase:dre-mir-455-2 mdo|mirBase:mdo-mir-455 ssc|mirBase:ssc-mir-455 tgu|mirBase:tgu-mir-455 ppy|mirBase:ppy-mir-455 aca|mirBase:aca-mir-455 ola|mirBase:ola-mir-455 cgr|mirBase:cgr-mir-455 ssa|mirBase:ssa-mir-455 chi|mirBase:chi-mir-455 oha|mirBase:oha-mir-455
+hsa|mirBase:hsa-mir-454 oan|mirBase:oan-mir-454 gga|mirBase:gga-mir-454 mml|mirBase:mml-mir-454 tgu|mirBase:tgu-mir-454 aca|mirBase:aca-mir-454 ssa|mirBase:ssa-mir-454 chi|mirBase:chi-mir-454
+bmo|mirBase:bmo-mir-3338
+hsa|mirBase:hsa-mir-4536-1 hsa|mirBase:hsa-mir-4536-2
+bmo|mirBase:bmo-mir-2856-1 bmo|mirBase:bmo-mir-2856-2
+ata|mirBase:ata-MIR9776
+hsa|mirBase:hsa-mir-4436b-1 hsa|mirBase:hsa-mir-4436b-2
+sbi|mirBase:sbi-MIR6217a sbi|mirBase:sbi-MIR6217b
+hsa|mirBase:hsa-mir-4433a hsa|mirBase:hsa-mir-4433b
+mmu|mirBase:mmu-mir-1231
+bmo|mirBase:bmo-mir-2796 tca|mirBase:tca-mir-2796
+cel|mirBase:cel-mir-76
+cel|mirBase:cel-mir-77
+cel|mirBase:cel-mir-74 cbr|mirBase:cbr-mir-74b
+cel|mirBase:cel-mir-75
+cel|mirBase:cel-mir-72 crm|mirBase:crm-mir-72 asu|mirBase:asu-mir-72 prd|mirBase:prd-mir-72 str|mirBase:str-mir-72
+cel|mirBase:cel-mir-73
+cel|mirBase:cel-mir-70
+cel|mirBase:cel-mir-71 sme|mirBase:sme-mir-71a-1 sme|mirBase:sme-mir-71a-2 sme|mirBase:sme-mir-71b sme|mirBase:sme-mir-71c bmo|mirBase:bmo-mir-71 tca|mirBase:tca-mir-71 bfl|mirBase:bfl-mir-71 sma|mirBase:sma-mir-71a crm|mirBase:crm-mir-71 aae|mirBase:aae-mir-71 cqu|mirBase:cqu-mir-71 sja|mirBase:sja-mir-71b asu|mirBase:asu-mir-71 tur|mirBase:tur-mir-71-1 tur|mirBase:tur-mir-71-2 sma|mirBase:sma-mir-71b prd|mirBase:prd-mir-71 bbe|mirBase:bbe-mir-71 ppc|mirBase:ppc-mir-71b str|mirBase:str-mir-71
+str|mirBase:str-mir-7880b-1 str|mirBase:str-mir-7880b-2 str|mirBase:str-mir-7880g str|mirBase:str-mir-7880y
+prd|mirBase:prd-mir-7883a prd|mirBase:prd-mir-7883b
+gga|mirBase:gga-mir-1451 tgu|mirBase:tgu-mir-1451
+dps|mirBase:dps-mir-2558-1 dps|mirBase:dps-mir-2558-2
+dme|mirBase:dme-mir-2494 dsi|mirBase:dsi-mir-2494
+cel|mirBase:cel-mir-8196a cel|mirBase:cel-mir-8196b
+prd|mirBase:prd-mir-7964a prd|mirBase:prd-mir-7964b
+ath|mirBase:ath-MIR3932b
+mmu|mirBase:mmu-mir-547 rno|mirBase:rno-mir-547
+bmo|mirBase:bmo-mir-3389
+tca|mirBase:tca-mir-3836a tca|mirBase:tca-mir-3836b
+hsa|mirBase:hsa-mir-1226
+hsa|mirBase:hsa-mir-1227
+hsa|mirBase:hsa-mir-1224 mmu|mirBase:mmu-mir-1224 ptr|mirBase:ptr-mir-1224 mml|mirBase:mml-mir-1224 ppy|mirBase:ppy-mir-1224
+hsa|mirBase:hsa-mir-1225 mml|mirBase:mml-mir-1225 ppy|mirBase:ppy-mir-1225
+aly|mirBase:aly-MIR860 bra|mirBase:bra-MIR860
+ath|mirBase:ath-MIR861 aly|mirBase:aly-MIR861
+ath|mirBase:ath-MIR862 aly|mirBase:aly-MIR862
+pgi|mirBase:pgi-MIR6136a
+hsa|mirBase:hsa-mir-3912
+ath|mirBase:ath-MIR868 aly|mirBase:aly-MIR868
+ath|mirBase:ath-MIR869 aly|mirBase:aly-MIR869
+hsa|mirBase:hsa-mir-1228
+hsa|mirBase:hsa-mir-6862-1 hsa|mirBase:hsa-mir-6862-2
+pab|mirBase:pab-MIR950
+bmo|mirBase:bmo-mir-3204a
+ppt|mirBase:ppt-MIR902a ppt|mirBase:ppt-MIR902b ppt|mirBase:ppt-MIR902c ppt|mirBase:ppt-MIR902d ppt|mirBase:ppt-MIR902e ppt|mirBase:ppt-MIR902f ppt|mirBase:ppt-MIR902g ppt|mirBase:ppt-MIR902h ppt|mirBase:ppt-MIR902i ppt|mirBase:ppt-MIR902j ppt|mirBase:ppt-MIR902k ppt|mirBase:ppt-MIR902l
+hsa|mirBase:hsa-mir-3200 mml|mirBase:mml-mir-3200
+ath|mirBase:ath-MIR2112 aly|mirBase:aly-MIR2112
+bra|mirBase:bra-MIR9408
+mmu|mirBase:mmu-mir-1839 ssc|mirBase:ssc-mir-1839 cgr|mirBase:cgr-mir-1839 rno|mirBase:rno-mir-1839
+pxy|mirBase:pxy-mir-8539-1 pxy|mirBase:pxy-mir-8539-2
+osa|mirBase:osa-MIR528 zma|mirBase:zma-MIR528a zma|mirBase:zma-MIR528b bdi|mirBase:bdi-MIR528 ata|mirBase:ata-MIR528
+pmi|mirBase:pmi-mir-2006
+oan|mirBase:oan-mir-1420a oan|mirBase:oan-mir-1420b oan|mirBase:oan-mir-1420c oan|mirBase:oan-mir-1420d oan|mirBase:oan-mir-1420e oan|mirBase:oan-mir-1420g
+oan|mirBase:oan-mir-1421a oan|mirBase:oan-mir-1421b oan|mirBase:oan-mir-1421c oan|mirBase:oan-mir-1421d oan|mirBase:oan-mir-1421e oan|mirBase:oan-mir-1421f oan|mirBase:oan-mir-1421g-1 oan|mirBase:oan-mir-1421h oan|mirBase:oan-mir-1421i-1 oan|mirBase:oan-mir-1421j oan|mirBase:oan-mir-1421k-1 oan|mirBase:oan-mir-1421l-1 oan|mirBase:oan-mir-1421m oan|mirBase:oan-mir-1421n-1 oan|mirBase:oan-mir-1421o oan|mirBase:oan-mir-1421p-1 oan|mirBase:oan-mir-1421q oan|mirBase:oan-mir-1421r oan|mirBase:oan-mir-1421s oan|mirBase:oan-mir-1421t oan|mirBase:oan-mir-1421n-2 oan|mirBase:oan-mir-1421v oan|mirBase:oan-mir-1421w oan|mirBase:oan-mir-1421x oan|mirBase:oan-mir-1421z oan|mirBase:oan-mir-1421aa oan|mirBase:oan-mir-1421ab-1 oan|mirBase:oan-mir-1421ac-1 oan|mirBase:oan-mir-1421ad oan|mirBase:oan-mir-1421af oan|mirBase:oan-mir-1421y-2 oan|mirBase:oan-mir-1421y-3 oan|mirBase:oan-mir-1421ag-1 oan|mirBase:oan-mir-1421ab-2 oan|mirBase:oan-mir-1421ac-2 oan|mirBase:oan-mir-1421ah oan|mirBase:oan-mir-1421ai oan|mirBase:oan-mir-1421aj oan|mirBase:oan-mir-1421g-2 oan|mirBase:oan-mir-1421i-2 oan|mirBase:oan-mir-1421i-3 oan|mirBase:oan-mir-1421k-2 oan|mirBase:oan-mir-1421k-3 oan|mirBase:oan-mir-1421l-2 oan|mirBase:oan-mir-1421p-2 oan|mirBase:oan-mir-1421ak oan|mirBase:oan-mir-1421al oan|mirBase:oan-mir-1421an
+oan|mirBase:oan-mir-1422a oan|mirBase:oan-mir-1422e oan|mirBase:oan-mir-1422h oan|mirBase:oan-mir-1422b-1 oan|mirBase:oan-mir-1422f oan|mirBase:oan-mir-1422g oan|mirBase:oan-mir-1422c oan|mirBase:oan-mir-1422i oan|mirBase:oan-mir-1422k oan|mirBase:oan-mir-1422j oan|mirBase:oan-mir-1422m oan|mirBase:oan-mir-1422n oan|mirBase:oan-mir-1422o oan|mirBase:oan-mir-1422b-2 oan|mirBase:oan-mir-1422p oan|mirBase:oan-mir-1422q
+rno|mirBase:rno-mir-344a-1 mmu|mirBase:mmu-mir-344-1 mmu|mirBase:mmu-mir-344d-3 mmu|mirBase:mmu-mir-344d-1 mmu|mirBase:mmu-mir-344d-2 mmu|mirBase:mmu-mir-344-2 mmu|mirBase:mmu-mir-344e mmu|mirBase:mmu-mir-344b mmu|mirBase:mmu-mir-344c mmu|mirBase:mmu-mir-344g mmu|mirBase:mmu-mir-344f rno|mirBase:rno-mir-344b-2 rno|mirBase:rno-mir-344b-1 mmu|mirBase:mmu-mir-344h-1 mmu|mirBase:mmu-mir-344h-2 rno|mirBase:rno-mir-344b-3
+gga|mirBase:gga-mir-1416
+bfl|mirBase:bfl-mir-4891 bbe|mirBase:bbe-mir-4891
+bfl|mirBase:bfl-mir-4864 bbe|mirBase:bbe-mir-4864
+pgi|mirBase:pgi-MIR6143b
+ppc|mirBase:ppc-mir-2238g ppc|mirBase:ppc-mir-2238h ppc|mirBase:ppc-mir-2238i ppc|mirBase:ppc-mir-2238k
+ppc|mirBase:ppc-mir-2235a-1 ppc|mirBase:ppc-mir-2235a-2 ppc|mirBase:ppc-mir-2235a-3 ppc|mirBase:ppc-mir-2235a-4 ppc|mirBase:ppc-mir-2235a-5 ppc|mirBase:ppc-mir-2235a-6 ppc|mirBase:ppc-mir-2235a-7 ppc|mirBase:ppc-mir-2235a-8 ppc|mirBase:ppc-mir-2235a-10 ppc|mirBase:ppc-mir-2235a-11 ppc|mirBase:ppc-mir-2235a-9
+bdi|mirBase:bdi-MIR5185a bdi|mirBase:bdi-MIR5185b bdi|mirBase:bdi-MIR5185c bdi|mirBase:bdi-MIR5185d bdi|mirBase:bdi-MIR5185e bdi|mirBase:bdi-MIR5185f bdi|mirBase:bdi-MIR5185g bdi|mirBase:bdi-MIR5185h bdi|mirBase:bdi-MIR5185i bdi|mirBase:bdi-MIR5185j bdi|mirBase:bdi-MIR5185k bdi|mirBase:bdi-MIR5185l bdi|mirBase:bdi-MIR5185m
+hsa|mirBase:hsa-mir-383 mmu|mirBase:mmu-mir-383 rno|mirBase:rno-mir-383 gga|mirBase:gga-mir-383 mdo|mirBase:mdo-mir-383 oan|mirBase:oan-mir-383 tgu|mirBase:tgu-mir-383 aca|mirBase:aca-mir-383 oha|mirBase:oha-mir-383
+hsa|mirBase:hsa-mir-4766 mml|mirBase:mml-mir-4766
+sbi|mirBase:sbi-MIR6234a sbi|mirBase:sbi-MIR6234b
+mmu|mirBase:mmu-mir-384 rno|mirBase:rno-mir-384 cgr|mirBase:cgr-mir-384
+hsa|mirBase:hsa-mir-1909
+hsa|mirBase:hsa-mir-1908
+mmu|mirBase:mmu-mir-673 rno|mirBase:rno-mir-673
+mmu|mirBase:mmu-mir-672 rno|mirBase:rno-mir-672
+hsa|mirBase:hsa-mir-671 mmu|mirBase:mmu-mir-671 mml|mirBase:mml-mir-671 eca|mirBase:eca-mir-671 ppy|mirBase:ppy-mir-671 cgr|mirBase:cgr-mir-671 ssc|mirBase:ssc-mir-671 chi|mirBase:chi-mir-671
+hsa|mirBase:hsa-mir-670 mmu|mirBase:mmu-mir-670 mml|mirBase:mml-mir-670
+mmu|mirBase:mmu-mir-677
+mmu|mirBase:mmu-mir-676 ssc|mirBase:ssc-mir-676-1 hsa|mirBase:hsa-mir-676 mml|mirBase:mml-mir-676-1 mml|mirBase:mml-mir-676-2
+mmu|mirBase:mmu-mir-675 hsa|mirBase:hsa-mir-675 mml|mirBase:mml-mir-675 rno|mirBase:rno-mir-675
+mmu|mirBase:mmu-mir-674 rno|mirBase:rno-mir-674
+ath|mirBase:ath-MIR162a ath|mirBase:ath-MIR162b csi|mirBase:csi-MIR162 aly|mirBase:aly-MIR162a aly|mirBase:aly-MIR162b stu|mirBase:stu-MIR162a stu|mirBase:stu-MIR162b bra|mirBase:bra-MIR162
+mmu|mirBase:mmu-mir-770 rno|mirBase:rno-mir-770
+hsa|mirBase:hsa-mir-4798
+pxy|mirBase:pxy-mir-8535-1 pxy|mirBase:pxy-mir-8535-2
+pxy|mirBase:pxy-mir-8536b
+hsa|mirBase:hsa-mir-574 mmu|mirBase:mmu-mir-574
+hsa|mirBase:hsa-mir-576 mml|mirBase:mml-mir-576 ppy|mirBase:ppy-mir-576
+mml|mirBase:mml-mir-577
+hsa|mirBase:hsa-mir-4796 mml|mirBase:mml-mir-4796
+dsi|mirBase:dsi-mir-2582a dsi|mirBase:dsi-mir-2582b
+gma|mirBase:gma-MIR169i
+zma|mirBase:zma-MIR169m zma|mirBase:zma-MIR169n zma|mirBase:zma-MIR169q bdi|mirBase:bdi-MIR169j
+cel|mirBase:cel-mir-790
+ath|mirBase:ath-MIR169a ath|mirBase:ath-MIR169b ath|mirBase:ath-MIR169f ath|mirBase:ath-MIR169g zma|mirBase:zma-MIR169a zma|mirBase:zma-MIR169b zma|mirBase:zma-MIR169c ptc|mirBase:ptc-MIR169b ptc|mirBase:ptc-MIR169n mtr|mirBase:mtr-MIR169d mtr|mirBase:mtr-MIR169e zma|mirBase:zma-MIR169r aly|mirBase:aly-MIR169a aly|mirBase:aly-MIR169b aly|mirBase:aly-MIR169c aly|mirBase:aly-MIR169d aly|mirBase:aly-MIR169e aly|mirBase:aly-MIR169f aly|mirBase:aly-MIR169g bdi|mirBase:bdi-MIR169a bdi|mirBase:bdi-MIR169c gma|mirBase:gma-MIR169j gma|mirBase:gma-MIR169l gma|mirBase:gma-MIR169n mtr|mirBase:mtr-MIR169l ata|mirBase:ata-MIR169g ata|mirBase:ata-MIR169f ata|mirBase:ata-MIR169d ata|mirBase:ata-MIR169h
+osa|mirBase:osa-MIR169f osa|mirBase:osa-MIR169i sbi|mirBase:sbi-MIR169d zma|mirBase:zma-MIR169f zma|mirBase:zma-MIR169i zma|mirBase:zma-MIR169k zma|mirBase:zma-MIR169j ptc|mirBase:ptc-MIR169u osa|mirBase:osa-MIR169r zma|mirBase:zma-MIR169o zma|mirBase:zma-MIR169p aly|mirBase:aly-MIR169h aly|mirBase:aly-MIR169i aly|mirBase:aly-MIR169j aly|mirBase:aly-MIR169k aly|mirBase:aly-MIR169l aly|mirBase:aly-MIR169m aly|mirBase:aly-MIR169n bdi|mirBase:bdi-MIR169k bdi|mirBase:bdi-MIR169e bdi|mirBase:bdi-MIR169h stu|mirBase:stu-MIR169a stu|mirBase:stu-MIR169b stu|mirBase:stu-MIR169c stu|mirBase:stu-MIR169d stu|mirBase:stu-MIR169e sly|mirBase:sly-MIR169e ata|mirBase:ata-MIR169c ata|mirBase:ata-MIR169j ata|mirBase:ata-MIR169b ata|mirBase:ata-MIR169i ata|mirBase:ata-MIR169a
+dre|mirBase:dre-mir-723 ssa|mirBase:ssa-mir-723-1 ssa|mirBase:ssa-mir-723-2
+dme|mirBase:dme-mir-307b
+spu|mirBase:spu-mir-278
+ath|mirBase:ath-MIR161 aly|mirBase:aly-MIR161 bra|mirBase:bra-MIR161
+ath|mirBase:ath-MIR160a ath|mirBase:ath-MIR160c osa|mirBase:osa-MIR160a osa|mirBase:osa-MIR160b osa|mirBase:osa-MIR160c osa|mirBase:osa-MIR160d osa|mirBase:osa-MIR160e osa|mirBase:osa-MIR160f zma|mirBase:zma-MIR160a zma|mirBase:zma-MIR160c zma|mirBase:zma-MIR160d zma|mirBase:zma-MIR160b gma|mirBase:gma-MIR160a zma|mirBase:zma-MIR160f ptc|mirBase:ptc-MIR160b ptc|mirBase:ptc-MIR160c ptc|mirBase:ptc-MIR160e bra|mirBase:bra-MIR160a zma|mirBase:zma-MIR160g aly|mirBase:aly-MIR160a aly|mirBase:aly-MIR160b aly|mirBase:aly-MIR160c ahy|mirBase:ahy-MIR160 bdi|mirBase:bdi-MIR160a bdi|mirBase:bdi-MIR160b bdi|mirBase:bdi-MIR160c bdi|mirBase:bdi-MIR160d bdi|mirBase:bdi-MIR160e stu|mirBase:stu-MIR160a cpa|mirBase:cpa-MIR160c cpa|mirBase:cpa-MIR160f ata|mirBase:ata-MIR160b ata|mirBase:ata-MIR160a ata|mirBase:ata-MIR160c
+cin|mirBase:cin-mir-4003a-1 cin|mirBase:cin-mir-4003a-2 cin|mirBase:cin-mir-4003a-3 cin|mirBase:cin-mir-4003b
+cin|mirBase:cin-mir-4005a cin|mirBase:cin-mir-4005b
+ath|mirBase:ath-MIR164b ath|mirBase:ath-MIR164c zma|mirBase:zma-MIR164a zma|mirBase:zma-MIR164d zma|mirBase:zma-MIR164b zma|mirBase:zma-MIR164c zma|mirBase:zma-MIR164e zma|mirBase:zma-MIR164f zma|mirBase:zma-MIR164g zma|mirBase:zma-MIR164h aly|mirBase:aly-MIR164a aly|mirBase:aly-MIR164b aly|mirBase:aly-MIR164c bdi|mirBase:bdi-MIR164a bdi|mirBase:bdi-MIR164c stu|mirBase:stu-MIR164 sly|mirBase:sly-MIR164a sly|mirBase:sly-MIR164b bra|mirBase:bra-MIR164b bra|mirBase:bra-MIR164d bra|mirBase:bra-MIR164c bra|mirBase:bra-MIR164e ata|mirBase:ata-MIR164a ata|mirBase:ata-MIR164b ata|mirBase:ata-MIR164c
+hsa|mirBase:hsa-mir-499a gga|mirBase:gga-mir-499 rno|mirBase:rno-mir-499 mmu|mirBase:mmu-mir-499 dre|mirBase:dre-mir-499 oan|mirBase:oan-mir-499 mml|mirBase:mml-mir-499 mdo|mirBase:mdo-mir-499 eca|mirBase:eca-mir-499 ssc|mirBase:ssc-mir-499 ppy|mirBase:ppy-mir-499 aca|mirBase:aca-mir-499 cgr|mirBase:cgr-mir-499 tgu|mirBase:tgu-mir-499 ssa|mirBase:ssa-mir-499a ssa|mirBase:ssa-mir-499b-1 ssa|mirBase:ssa-mir-499b-2 ssa|mirBase:ssa-mir-499b-3 chi|mirBase:chi-mir-499 oha|mirBase:oha-mir-499
+ath|mirBase:ath-MIR165a ath|mirBase:ath-MIR166a ath|mirBase:ath-MIR166b ath|mirBase:ath-MIR166e osa|mirBase:osa-MIR166a osa|mirBase:osa-MIR166b osa|mirBase:osa-MIR166c osa|mirBase:osa-MIR166d osa|mirBase:osa-MIR166e osa|mirBase:osa-MIR166k osa|mirBase:osa-MIR166l osa|mirBase:osa-MIR166g osa|mirBase:osa-MIR166h osa|mirBase:osa-MIR166i osa|mirBase:osa-MIR166j zma|mirBase:zma-MIR166a zma|mirBase:zma-MIR166h zma|mirBase:zma-MIR166i zma|mirBase:zma-MIR166g zma|mirBase:zma-MIR166b zma|mirBase:zma-MIR166c zma|mirBase:zma-MIR166d gma|mirBase:gma-MIR166a zma|mirBase:zma-MIR166k zma|mirBase:zma-MIR166j zma|mirBase:zma-MIR166l zma|mirBase:zma-MIR166m mtr|mirBase:mtr-MIR166e mtr|mirBase:mtr-MIR166g bdi|mirBase:bdi-MIR166a zma|mirBase:zma-MIR166n csi|mirBase:csi-MIR166e aly|mirBase:aly-MIR165a aly|mirBase:aly-MIR165b aly|mirBase:aly-MIR166a aly|mirBase:aly-MIR166b aly|mirBase:aly-MIR166c aly|mirBase:aly-MIR166d aly|mirBase:aly-MIR166e aly|mirBase:aly-MIR166f aly|mirBase:aly-MIR166g gma|mirBase:gma-MIR166c gma|mirBase:gma-MIR166h bdi|mirBase:bdi-MIR166d bdi|mirBase:bdi-MIR166b bdi|mirBase:bdi-MIR166e bdi|mirBase:bdi-MIR166c bdi|mirBase:bdi-MIR166g gma|mirBase:gma-MIR166i gma|mirBase:gma-MIR166j bdi|mirBase:bdi-MIR166h bdi|mirBase:bdi-MIR166i stu|mirBase:stu-MIR166a stu|mirBase:stu-MIR166c stu|mirBase:stu-MIR166d aly|mirBase:aly-MIR166h sly|mirBase:sly-MIR166c ata|mirBase:ata-MIR166a ata|mirBase:ata-MIR166e ata|mirBase:ata-MIR166b ata|mirBase:ata-MIR5168 ata|mirBase:ata-MIR166d ata|mirBase:ata-MIR166c
+hsa|mirBase:hsa-mir-497 rno|mirBase:rno-mir-497 mmu|mirBase:mmu-mir-497a mml|mirBase:mml-mir-497 mdo|mirBase:mdo-mir-497 cgr|mirBase:cgr-mir-497 chi|mirBase:chi-mir-497
+ath|mirBase:ath-MIR168a ath|mirBase:ath-MIR168b osa|mirBase:osa-MIR168a zma|mirBase:zma-MIR168a zma|mirBase:zma-MIR168b ptc|mirBase:ptc-MIR168a ptc|mirBase:ptc-MIR168b aly|mirBase:aly-MIR168a aly|mirBase:aly-MIR168b bdi|mirBase:bdi-MIR168 mtr|mirBase:mtr-MIR168c sly|mirBase:sly-MIR168a sly|mirBase:sly-MIR168b bra|mirBase:bra-MIR168b bra|mirBase:bra-MIR168c bra|mirBase:bra-MIR168a ata|mirBase:ata-MIR168
+hsa|mirBase:hsa-mir-493 rno|mirBase:rno-mir-493 mmu|mirBase:mmu-mir-493 mml|mirBase:mml-mir-493 oar|mirBase:oar-mir-493 ssc|mirBase:ssc-mir-493 chi|mirBase:chi-mir-493
+hsa|mirBase:hsa-mir-491 mmu|mirBase:mmu-mir-491 mml|mirBase:mml-mir-491 eca|mirBase:eca-mir-491 ppy|mirBase:ppy-mir-491 chi|mirBase:chi-mir-491
+hsa|mirBase:hsa-mir-490 gga|mirBase:gga-mir-490 mmu|mirBase:mmu-mir-490 oan|mirBase:oan-mir-490 mml|mirBase:mml-mir-490 rno|mirBase:rno-mir-490 eca|mirBase:eca-mir-490 tgu|mirBase:tgu-mir-490-1 tgu|mirBase:tgu-mir-490-2 ppy|mirBase:ppy-mir-490 ssc|mirBase:ssc-mir-490-1 aca|mirBase:aca-mir-490 oha|mirBase:oha-mir-490
+dme|mirBase:dme-mir-318
+cel|mirBase:cel-mir-250 crm|mirBase:crm-mir-250
+cel|mirBase:cel-mir-253
+cel|mirBase:cel-mir-252 dme|mirBase:dme-mir-252 bfl|mirBase:bfl-mir-252b bmo|mirBase:bmo-mir-252 dps|mirBase:dps-mir-252 dsi|mirBase:dsi-mir-252 aae|mirBase:aae-mir-252 cqu|mirBase:cqu-mir-252-1 tca|mirBase:tca-mir-252a asu|mirBase:asu-mir-252 tur|mirBase:tur-mir-252 cqu|mirBase:cqu-mir-252-2 prd|mirBase:prd-mir-252 bbe|mirBase:bbe-mir-252a bbe|mirBase:bbe-mir-252b str|mirBase:str-mir-252b
+cel|mirBase:cel-mir-255
+cel|mirBase:cel-mir-254
+cbr|mirBase:cbr-mir-7583a cbr|mirBase:cbr-mir-7583c
+mmu|mirBase:mmu-mir-708 hsa|mirBase:hsa-mir-708 rno|mirBase:rno-mir-708 mml|mirBase:mml-mir-708 ssc|mirBase:ssc-mir-708 chi|mirBase:chi-mir-708
+cel|mirBase:cel-mir-259
+stu|mirBase:stu-MIR827
+dme|mirBase:dme-mir-312 dsi|mirBase:dsi-mir-312
+dme|mirBase:dme-mir-314
+dme|mirBase:dme-mir-315 sme|mirBase:sme-mir-315 aae|mirBase:aae-mir-315
+dme|mirBase:dme-mir-316 bmo|mirBase:bmo-mir-316 tca|mirBase:tca-mir-316
+dme|mirBase:dme-mir-317 bmo|mirBase:bmo-mir-317 tca|mirBase:tca-mir-317 cqu|mirBase:cqu-mir-317-1 tur|mirBase:tur-mir-317 cqu|mirBase:cqu-mir-317-2
+hsa|mirBase:hsa-mir-32 mmu|mirBase:mmu-mir-32 rno|mirBase:rno-mir-32 gga|mirBase:gga-mir-32 mml|mirBase:mml-mir-32 mdo|mirBase:mdo-mir-32 oan|mirBase:oan-mir-32 aca|mirBase:aca-mir-32 cgr|mirBase:cgr-mir-32 oha|mirBase:oha-mir-32-1
+hsa|mirBase:hsa-mir-33a dme|mirBase:dme-mir-33 mmu|mirBase:mmu-mir-33 rno|mirBase:rno-mir-33 gga|mirBase:gga-mir-33-1 hsa|mirBase:hsa-mir-33b oan|mirBase:oan-mir-33a oan|mirBase:oan-mir-33b mml|mirBase:mml-mir-33b tca|mirBase:tca-mir-33 lgi|mirBase:lgi-mir-33 bmo|mirBase:bmo-mir-33 mdo|mirBase:mdo-mir-33 tgu|mirBase:tgu-mir-33 aca|mirBase:aca-mir-33-1 aca|mirBase:aca-mir-33-2 bbe|mirBase:bbe-mir-33-1 bbe|mirBase:bbe-mir-33-2 ssa|mirBase:ssa-mir-33a-1 ssa|mirBase:ssa-mir-33a-2 ssa|mirBase:ssa-mir-33b chi|mirBase:chi-mir-33a chi|mirBase:chi-mir-33b oha|mirBase:oha-mir-33-2 oha|mirBase:oha-mir-33a
+hsa|mirBase:hsa-mir-30a mmu|mirBase:mmu-mir-30a mmu|mirBase:mmu-mir-30b hsa|mirBase:hsa-mir-30c-2 hsa|mirBase:hsa-mir-30d mmu|mirBase:mmu-mir-30e hsa|mirBase:hsa-mir-30b mmu|mirBase:mmu-mir-30c-1 mmu|mirBase:mmu-mir-30c-2 mmu|mirBase:mmu-mir-30d hsa|mirBase:hsa-mir-30c-1 hsa|mirBase:hsa-mir-30e rno|mirBase:rno-mir-30c-1 rno|mirBase:rno-mir-30e rno|mirBase:rno-mir-30b rno|mirBase:rno-mir-30d rno|mirBase:rno-mir-30a rno|mirBase:rno-mir-30c-2 gga|mirBase:gga-mir-30b gga|mirBase:gga-mir-30a gga|mirBase:gga-mir-30c-2 gga|mirBase:gga-mir-30e gga|mirBase:gga-mir-30c-1 dre|mirBase:dre-mir-30a dre|mirBase:dre-mir-30c dre|mirBase:dre-mir-30e-2 ssc|mirBase:ssc-mir-30c-2 mml|mirBase:mml-mir-30b mml|mirBase:mml-mir-30a ptr|mirBase:ptr-mir-30a ggo|mirBase:ggo-mir-30a ppy|mirBase:ppy-mir-30a ppa|mirBase:ppa-mir-30a bta|mirBase:bta-mir-30b xtr|mirBase:xtr-mir-30a mdo|mirBase:mdo-mir-30a oan|mirBase:oan-mir-30c-2 oan|mirBase:oan-mir-30a oan|mirBase:oan-mir-30d oan|mirBase:oan-mir-30b oan|mirBase:oan-mir-30e mml|mirBase:mml-mir-30c-1 mml|mirBase:mml-mir-30c-2 mml|mirBase:mml-mir-30d mml|mirBase:mml-mir-30e ssc|mirBase:ssc-mir-30b ssc|mirBase:ssc-mir-30a ssc|mirBase:ssc-mir-30e tgu|mirBase:tgu-mir-30b tgu|mirBase:tgu-mir-30c tgu|mirBase:tgu-mir-30a tgu|mirBase:tgu-mir-30d ssc|mirBase:ssc-mir-30c-1 pma|mirBase:pma-mir-30a pma|mirBase:pma-mir-30c pma|mirBase:pma-mir-30e aca|mirBase:aca-mir-30a aca|mirBase:aca-mir-30b aca|mirBase:aca-mir-30c aca|mirBase:aca-mir-30d aca|mirBase:aca-mir-30e ola|mirBase:ola-mir-30d ola|mirBase:ola-mir-30a cgr|mirBase:cgr-mir-30a cgr|mirBase:cgr-mir-30b cgr|mirBase:cgr-mir-30e mdo|mirBase:mdo-mir-30c-1 mdo|mirBase:mdo-mir-30b mdo|mirBase:mdo-mir-30d mdo|mirBase:mdo-mir-30c-2 oan|mirBase:oan-mir-30c-1 oar|mirBase:oar-mir-30a ssa|mirBase:ssa-mir-30a-3 ssa|mirBase:ssa-mir-30a-4 ssa|mirBase:ssa-mir-30a-1 ssa|mirBase:ssa-mir-30a-2 ssa|mirBase:ssa-mir-30b ssa|mirBase:ssa-mir-30c-1 ssa|mirBase:ssa-mir-30c-2 ssa|mirBase:ssa-mir-30d-1 ssa|mirBase:ssa-mir-30d-2 ssa|mirBase:ssa-mir-30e-1 ssa|mirBase:ssa-mir-30e-2 ssa|mirBase:ssa-mir-30e-3 chi|mirBase:chi-mir-30a chi|mirBase:chi-mir-30b chi|mirBase:chi-mir-30c chi|mirBase:chi-mir-30e chi|mirBase:chi-mir-30f oha|mirBase:oha-mir-30e oha|mirBase:oha-mir-30a oha|mirBase:oha-mir-30b oha|mirBase:oha-mir-30c-2 oha|mirBase:oha-mir-30c-1 oha|mirBase:oha-mir-30d
+hsa|mirBase:hsa-mir-31 dme|mirBase:dme-mir-31b dme|mirBase:dme-mir-31a mmu|mirBase:mmu-mir-31 rno|mirBase:rno-mir-31a gga|mirBase:gga-mir-31 mml|mirBase:mml-mir-31 sme|mirBase:sme-mir-31b-1 mdo|mirBase:mdo-mir-31 bmo|mirBase:bmo-mir-31 oan|mirBase:oan-mir-31 tca|mirBase:tca-mir-31 bfl|mirBase:bfl-mir-31 sme|mirBase:sme-mir-31b-2 sme|mirBase:sme-mir-31b-3 cqu|mirBase:cqu-mir-31 aca|mirBase:aca-mir-31 cgr|mirBase:cgr-mir-31 bbe|mirBase:bbe-mir-31 oha|mirBase:oha-mir-31
+cel|mirBase:cel-mir-36 cel|mirBase:cel-mir-37 cel|mirBase:cel-mir-38 cel|mirBase:cel-mir-40 cel|mirBase:cel-mir-41 crm|mirBase:crm-mir-35c-3 sja|mirBase:sja-mir-36 asu|mirBase:asu-mir-36c asu|mirBase:asu-mir-36d asu|mirBase:asu-mir-36e sma|mirBase:sma-mir-36a
+cel|mirBase:cel-mir-34 hsa|mirBase:hsa-mir-34a dme|mirBase:dme-mir-34 mmu|mirBase:mmu-mir-34c mmu|mirBase:mmu-mir-34b mmu|mirBase:mmu-mir-34a hsa|mirBase:hsa-mir-34b hsa|mirBase:hsa-mir-34c rno|mirBase:rno-mir-34b rno|mirBase:rno-mir-34c rno|mirBase:rno-mir-34a gga|mirBase:gga-mir-34a gga|mirBase:gga-mir-34b gga|mirBase:gga-mir-34c mml|mirBase:mml-mir-34a dre|mirBase:dre-mir-34c bmo|mirBase:bmo-mir-34 mdo|mirBase:mdo-mir-34a oan|mirBase:oan-mir-34a cin|mirBase:cin-mir-34 mml|mirBase:mml-mir-34c tca|mirBase:tca-mir-34 bfl|mirBase:bfl-mir-34b eca|mirBase:eca-mir-34b aae|mirBase:aae-mir-34 ppy|mirBase:ppy-mir-34c tgu|mirBase:tgu-mir-34c-1 tgu|mirBase:tgu-mir-34c-2 asu|mirBase:asu-mir-34 aca|mirBase:aca-mir-34a aca|mirBase:aca-mir-34b aca|mirBase:aca-mir-34c tur|mirBase:tur-mir-34 cgr|mirBase:cgr-mir-34b cgr|mirBase:cgr-mir-34c mdo|mirBase:mdo-mir-34c mdo|mirBase:mdo-mir-34b oan|mirBase:oan-mir-34b prd|mirBase:prd-mir-34 chi|mirBase:chi-mir-34b chi|mirBase:chi-mir-34c oha|mirBase:oha-mir-34a oha|mirBase:oha-mir-34c
+cel|mirBase:cel-mir-35 cbr|mirBase:cbr-mir-35d
+cel|mirBase:cel-mir-39
+mdo|mirBase:mdo-mir-7360-1 mdo|mirBase:mdo-mir-7360-2 mdo|mirBase:mdo-mir-7360-3 mdo|mirBase:mdo-mir-7360-4 mdo|mirBase:mdo-mir-7360-5 mdo|mirBase:mdo-mir-7360-6 mdo|mirBase:mdo-mir-7360-7 mdo|mirBase:mdo-mir-7360-8 mdo|mirBase:mdo-mir-7360-9
+dme|mirBase:dme-mir-929 tca|mirBase:tca-mir-929 bmo|mirBase:bmo-mir-929 dps|mirBase:dps-mir-929 dsi|mirBase:dsi-mir-929
+rgl|mirBase:rgl-MIR7807a rgl|mirBase:rgl-MIR7807b
+oan|mirBase:oan-mir-7404-1 oan|mirBase:oan-mir-7404-2
+mmu|mirBase:mmu-mir-3064 hsa|mirBase:hsa-mir-3064 gga|mirBase:gga-mir-3064 rno|mirBase:rno-mir-3064
+mmu|mirBase:mmu-mir-3065 hsa|mirBase:hsa-mir-3065 rno|mirBase:rno-mir-3065
+sme|mirBase:sme-mir-2160-1 sme|mirBase:sme-mir-2160-2
+sja|mirBase:sja-mir-2162 sma|mirBase:sma-mir-2162
+stu|mirBase:stu-MIR4376
+ath|mirBase:ath-MIR158a aly|mirBase:aly-MIR158a aly|mirBase:aly-MIR158b bra|mirBase:bra-MIR158
+dps|mirBase:dps-mir-2517a-1 dps|mirBase:dps-mir-2517a-2 dps|mirBase:dps-mir-2517a-3
+hsa|mirBase:hsa-mir-4446 mml|mirBase:mml-mir-4446
+hsa|mirBase:hsa-mir-3180-1 hsa|mirBase:hsa-mir-3180-2 hsa|mirBase:hsa-mir-3180-3
+mmu|mirBase:mmu-mir-3068 rno|mirBase:rno-mir-3068
+ath|mirBase:ath-MIR159b osa|mirBase:osa-MIR159a osa|mirBase:osa-MIR319a mtr|mirBase:mtr-MIR319a gma|mirBase:gma-MIR159a zma|mirBase:zma-MIR159a zma|mirBase:zma-MIR159b zma|mirBase:zma-MIR159c zma|mirBase:zma-MIR159d zma|mirBase:zma-MIR319a zma|mirBase:zma-MIR319c zma|mirBase:zma-MIR319b zma|mirBase:zma-MIR319d ppt|mirBase:ppt-MIR319d mtr|mirBase:mtr-MIR319b gma|mirBase:gma-MIR159b zma|mirBase:zma-MIR159f zma|mirBase:zma-MIR159g zma|mirBase:zma-MIR159h zma|mirBase:zma-MIR159i zma|mirBase:zma-MIR159j zma|mirBase:zma-MIR159k aly|mirBase:aly-MIR159a aly|mirBase:aly-MIR159b aly|mirBase:aly-MIR159c aly|mirBase:aly-MIR319a aly|mirBase:aly-MIR319b aly|mirBase:aly-MIR319c aly|mirBase:aly-MIR319d bdi|mirBase:bdi-MIR159a bdi|mirBase:bdi-MIR319b gma|mirBase:gma-MIR159e gma|mirBase:gma-MIR159f mtr|mirBase:mtr-MIR319d bdi|mirBase:bdi-MIR159b stu|mirBase:stu-MIR319 stu|mirBase:stu-MIR319a sly|mirBase:sly-MIR319c bra|mirBase:bra-MIR319 ata|mirBase:ata-MIR319
+bmo|mirBase:bmo-mir-2780a-1
+tae|mirBase:tae-MIR9666b
+hsa|mirBase:hsa-mir-4738
+dme|mirBase:dme-mir-956
+hsa|mirBase:hsa-mir-370 mmu|mirBase:mmu-mir-370 rno|mirBase:rno-mir-370 mml|mirBase:mml-mir-370 oar|mirBase:oar-mir-370
+dme|mirBase:dme-mir-955 dsi|mirBase:dsi-mir-955
+dme|mirBase:dme-mir-958 dps|mirBase:dps-mir-958 dsi|mirBase:dsi-mir-958
+dme|mirBase:dme-mir-959 dps|mirBase:dps-mir-959
+hsa|mirBase:hsa-mir-486-1 mmu|mirBase:mmu-mir-486a mml|mirBase:mml-mir-486 cfa|mirBase:cfa-mir-486 eca|mirBase:eca-mir-486 mmu|mirBase:mmu-mir-486b cgr|mirBase:cgr-mir-486 hsa|mirBase:hsa-mir-486-2
+stu|mirBase:stu-MIR8024a
+pta|mirBase:pta-MIR946a
+ata|mirBase:ata-MIR5200 bdi|mirBase:bdi-MIR5200a bdi|mirBase:bdi-MIR5200b
+cin|mirBase:cin-mir-4079 cin|mirBase:cin-mir-4080
+pxy|mirBase:pxy-mir-8489a
+sko|mirBase:sko-mir-4818e
+bmo|mirBase:bmo-mir-2763
+zma|mirBase:zma-MIR2275a zma|mirBase:zma-MIR2275b zma|mirBase:zma-MIR2275d ata|mirBase:ata-MIR2275a ata|mirBase:ata-MIR2275b ata|mirBase:ata-MIR2275c
+bmo|mirBase:bmo-mir-2766
+tca|mirBase:tca-mir-2765 ame|mirBase:ame-mir-2765
+dps|mirBase:dps-mir-2568a dps|mirBase:dps-mir-2568b
+tgu|mirBase:tgu-mir-1784
+hsa|mirBase:hsa-mir-1468 chi|mirBase:chi-mir-1468
+gga|mirBase:gga-mir-1467-1 tgu|mirBase:tgu-mir-1467-1 gga|mirBase:gga-mir-1467-2 tgu|mirBase:tgu-mir-1467-2
+gga|mirBase:gga-mir-1788 dre|mirBase:dre-mir-1788 pma|mirBase:pma-mir-1788a aca|mirBase:aca-mir-1788 ssa|mirBase:ssa-mir-1788 oha|mirBase:oha-mir-1788
+dps|mirBase:dps-mir-2566a-1 dps|mirBase:dps-mir-2566a-2 dps|mirBase:dps-mir-2566b
+dps|mirBase:dps-mir-2567a dps|mirBase:dps-mir-2567c dps|mirBase:dps-mir-2567b
+mdo|mirBase:mdo-mir-1542-1 mdo|mirBase:mdo-mir-1542-2
+mdo|mirBase:mdo-mir-1540b
+hsa|mirBase:hsa-mir-629
+dme|mirBase:dme-mir-1010 dps|mirBase:dps-mir-1010 dsi|mirBase:dsi-mir-1010
+prd|mirBase:prd-mir-7918a prd|mirBase:prd-mir-7918b prd|mirBase:prd-mir-7918e prd|mirBase:prd-mir-7918f prd|mirBase:prd-mir-7918d prd|mirBase:prd-mir-7918c
+dme|mirBase:dme-mir-1012 dsi|mirBase:dsi-mir-1012
+bfl|mirBase:bfl-mir-4866 bbe|mirBase:bbe-mir-4866
+mdo|mirBase:mdo-mir-1549
+ath|mirBase:ath-MIR5014a
+bfl|mirBase:bfl-mir-4863 bbe|mirBase:bbe-mir-4863
+prd|mirBase:prd-mir-7910a prd|mirBase:prd-mir-7910b
+bfl|mirBase:bfl-mir-4860 bbe|mirBase:bbe-mir-4860
+gga|mirBase:gga-mir-1684a
+hsa|mirBase:hsa-mir-214 mmu|mirBase:mmu-mir-214 rno|mirBase:rno-mir-214 mml|mirBase:mml-mir-214 mdo|mirBase:mdo-mir-214 oan|mirBase:oan-mir-214 tgu|mirBase:tgu-mir-214 hsa|mirBase:hsa-mir-3120 aca|mirBase:aca-mir-214 cgr|mirBase:cgr-mir-214 ssa|mirBase:ssa-mir-214-1 ssa|mirBase:ssa-mir-214-2 ssa|mirBase:ssa-mir-214-3 chi|mirBase:chi-mir-214
+sja|mirBase:sja-mir-31 sma|mirBase:sma-mir-31
+aly|mirBase:aly-MIR781
+bmo|mirBase:bmo-mir-6497
+hsa|mirBase:hsa-mir-6859-1 hsa|mirBase:hsa-mir-6859-2 hsa|mirBase:hsa-mir-6859-3 hsa|mirBase:hsa-mir-6859-4
+aly|mirBase:aly-MIR839
+aly|mirBase:aly-MIR838
+ath|mirBase:ath-MIR837 aly|mirBase:aly-MIR837
+ath|mirBase:ath-MIR835 aly|mirBase:aly-MIR835
+aly|mirBase:aly-MIR834
+ath|mirBase:ath-MIR833a aly|mirBase:aly-MIR833
+asu|mirBase:asu-mir-5366
+ath|mirBase:ath-MIR831 aly|mirBase:aly-MIR831
+cqu|mirBase:cqu-mir-2941-1 cqu|mirBase:cqu-mir-2941-2
+aae|mirBase:aae-mir-2944a aae|mirBase:aae-mir-2944b tca|mirBase:tca-mir-2944a tca|mirBase:tca-mir-2944b tca|mirBase:tca-mir-2944c
+hsa|mirBase:hsa-mir-101-1 mmu|mirBase:mmu-mir-101a rno|mirBase:rno-mir-101b mmu|mirBase:mmu-mir-101b rno|mirBase:rno-mir-101a gga|mirBase:gga-mir-101-1 mml|mirBase:mml-mir-101-1 mdo|mirBase:mdo-mir-101-2 mdo|mirBase:mdo-mir-101-1 gga|mirBase:gga-mir-101-2 mml|mirBase:mml-mir-101-2 tgu|mirBase:tgu-mir-101-1 tgu|mirBase:tgu-mir-101-2 aca|mirBase:aca-mir-101-1 aca|mirBase:aca-mir-101-2 ola|mirBase:ola-mir-101a ola|mirBase:ola-mir-101b cgr|mirBase:cgr-mir-101b ssa|mirBase:ssa-mir-101a-1 ssa|mirBase:ssa-mir-101a-2 ssa|mirBase:ssa-mir-101b-1 ssa|mirBase:ssa-mir-101b-2 chi|mirBase:chi-mir-101 oha|mirBase:oha-mir-101a oha|mirBase:oha-mir-101b
+osa|mirBase:osa-MIR2871a
+hsa|mirBase:hsa-mir-103a-2 mmu|mirBase:mmu-mir-103-1 mmu|mirBase:mmu-mir-103-2 mmu|mirBase:mmu-mir-107 rno|mirBase:rno-mir-103-2 rno|mirBase:rno-mir-103-1 rno|mirBase:rno-mir-107 gga|mirBase:gga-mir-103-2 gga|mirBase:gga-mir-107 gga|mirBase:gga-mir-103-1 dre|mirBase:dre-mir-107a mml|mirBase:mml-mir-103-1 mml|mirBase:mml-mir-107 mdo|mirBase:mdo-mir-103-1 mdo|mirBase:mdo-mir-103-2 oan|mirBase:oan-mir-103-2 oan|mirBase:oan-mir-107 oan|mirBase:oan-mir-103-1 tgu|mirBase:tgu-mir-103-2 pma|mirBase:pma-mir-103b aca|mirBase:aca-mir-107 aca|mirBase:aca-mir-103 cgr|mirBase:cgr-mir-103 ssa|mirBase:ssa-mir-103 ssa|mirBase:ssa-mir-107 chi|mirBase:chi-mir-103 oha|mirBase:oha-mir-107 oha|mirBase:oha-mir-103a oha|mirBase:oha-mir-103b
+sly|mirBase:sly-MIR1919c stu|mirBase:stu-MIR1919
+hsa|mirBase:hsa-mir-105-1 hsa|mirBase:hsa-mir-105-2 mml|mirBase:mml-mir-105-1 mml|mirBase:mml-mir-105-2 chi|mirBase:chi-mir-105b
+mmu|mirBase:mmu-mir-3569
+mml|mirBase:mml-mir-1262
+chi|mirBase:chi-mir-3955 oar|mirBase:oar-mir-3955
+hsa|mirBase:hsa-mir-1266
+bfl|mirBase:bfl-mir-2062 bbe|mirBase:bbe-mir-2062
+hsa|mirBase:hsa-mir-1301
+hsa|mirBase:hsa-mir-1304
+hsa|mirBase:hsa-mir-1307 chi|mirBase:chi-mir-1307
+hsa|mirBase:hsa-mir-1306 gga|mirBase:gga-mir-1306 mmu|mirBase:mmu-mir-1306 ssc|mirBase:ssc-mir-1306 cgr|mirBase:cgr-mir-1306 rno|mirBase:rno-mir-1306 mml|mirBase:mml-mir-1306 chi|mirBase:chi-mir-1306 tch|mirBase:tch-mir-1306 oha|mirBase:oha-mir-1306
+mml|mirBase:mml-mir-934
+sja|mirBase:sja-mir-3479
+osa|mirBase:osa-MIR5157a osa|mirBase:osa-MIR5157b
+ssc|mirBase:ssc-mir-7143
+mtr|mirBase:mtr-MIR2086
+mdo|mirBase:mdo-mir-7392-1 mdo|mirBase:mdo-mir-7392-2
+hsa|mirBase:hsa-mir-1288
+hsa|mirBase:hsa-mir-937
+hsa|mirBase:hsa-mir-4703 mml|mirBase:mml-mir-4703
+gga|mirBase:gga-mir-6648-1 gga|mirBase:gga-mir-6648-2
+cin|mirBase:cin-mir-4041 cin|mirBase:cin-mir-4042
+hsa|mirBase:hsa-mir-1285-1
+hsa|mirBase:hsa-mir-1287
+mmu|mirBase:mmu-mir-201 mmu|mirBase:mmu-mir-470 mmu|mirBase:mmu-mir-743a mmu|mirBase:mmu-mir-743b mmu|mirBase:mmu-mir-871 hsa|mirBase:hsa-mir-888 rno|mirBase:rno-mir-743b rno|mirBase:rno-mir-871 rno|mirBase:rno-mir-743a mml|mirBase:mml-mir-890 rno|mirBase:rno-mir-201 rno|mirBase:rno-mir-3551 rno|mirBase:rno-mir-741 hsa|mirBase:hsa-mir-892c mml|mirBase:mml-mir-892c
+mmu|mirBase:mmu-mir-742 rno|mirBase:rno-mir-742
+mmu|mirBase:mmu-mir-217 rno|mirBase:rno-mir-217 gga|mirBase:gga-mir-217 oan|mirBase:oan-mir-217 tgu|mirBase:tgu-mir-217 aca|mirBase:aca-mir-217 bbe|mirBase:bbe-mir-217 chi|mirBase:chi-mir-217
+hsa|mirBase:hsa-mir-216a dme|mirBase:dme-mir-283 mmu|mirBase:mmu-mir-216a rno|mirBase:rno-mir-216a mmu|mirBase:mmu-mir-216b bmo|mirBase:bmo-mir-283 hsa|mirBase:hsa-mir-216b oan|mirBase:oan-mir-216a mml|mirBase:mml-mir-216a tca|mirBase:tca-mir-283 bfl|mirBase:bfl-mir-216 tgu|mirBase:tgu-mir-216a tgu|mirBase:tgu-mir-216b rno|mirBase:rno-mir-216b tca|mirBase:tca-mir-3477 pma|mirBase:pma-mir-216a asu|mirBase:asu-mir-283 aca|mirBase:aca-mir-216b oan|mirBase:oan-mir-216b bbe|mirBase:bbe-mir-216 ssa|mirBase:ssa-mir-216b oha|mirBase:oha-mir-216
+hsa|mirBase:hsa-mir-210 dme|mirBase:dme-mir-210 mmu|mirBase:mmu-mir-210 rno|mirBase:rno-mir-210 dre|mirBase:dre-mir-210 mml|mirBase:mml-mir-210 tca|mirBase:tca-mir-210 bfl|mirBase:bfl-mir-210 lmi|mirBase:lmi-mir-210 mdo|mirBase:mdo-mir-210 cqu|mirBase:cqu-mir-210 bmo|mirBase:bmo-mir-3286 aca|mirBase:aca-mir-210 tur|mirBase:tur-mir-210-1 tur|mirBase:tur-mir-210-2 ola|mirBase:ola-mir-210 cgr|mirBase:cgr-mir-210 bbe|mirBase:bbe-mir-210 ssa|mirBase:ssa-mir-210-1 ssa|mirBase:ssa-mir-210-2 oha|mirBase:oha-mir-210
+bmo|mirBase:bmo-mir-745
+mmu|mirBase:mmu-mir-744 hsa|mirBase:hsa-mir-744 cgr|mirBase:cgr-mir-744
+hsa|mirBase:hsa-mir-3121
+asu|mirBase:asu-mir-5360
+hsa|mirBase:hsa-mir-219a-1 dme|mirBase:dme-mir-219 mmu|mirBase:mmu-mir-219a-1 hsa|mirBase:hsa-mir-219a-2 mmu|mirBase:mmu-mir-219a-2 rno|mirBase:rno-mir-219a-1 rno|mirBase:rno-mir-219a-2 dre|mirBase:dre-mir-219-3 mdo|mirBase:mdo-mir-219-1 oan|mirBase:oan-mir-219 cin|mirBase:cin-mir-219 mml|mirBase:mml-mir-219-2 cfa|mirBase:cfa-mir-219-2 ptr|mirBase:ptr-mir-219-1 ptr|mirBase:ptr-mir-219-2 tca|mirBase:tca-mir-219 bta|mirBase:bta-mir-219-1 spu|mirBase:spu-mir-219 sja|mirBase:sja-mir-219 hsa|mirBase:hsa-mir-219b aca|mirBase:aca-mir-219-1 aca|mirBase:aca-mir-219-2 pol|mirBase:pol-mir-219 mdo|mirBase:mdo-mir-219-2 mmu|mirBase:mmu-mir-219b bbe|mirBase:bbe-mir-219-1 bbe|mirBase:bbe-mir-219-2 ssa|mirBase:ssa-mir-219a-1 ssa|mirBase:ssa-mir-219a-2 ssa|mirBase:ssa-mir-219b-1 ssa|mirBase:ssa-mir-219b-2 ssa|mirBase:ssa-mir-219c-1 ssa|mirBase:ssa-mir-219c-2 sma|mirBase:sma-mir-219 oha|mirBase:oha-mir-219-1 oha|mirBase:oha-mir-219-2
+hsa|mirBase:hsa-mir-218-1 hsa|mirBase:hsa-mir-218-2 mmu|mirBase:mmu-mir-218-1 mmu|mirBase:mmu-mir-218-2 rno|mirBase:rno-mir-218a-2 rno|mirBase:rno-mir-218a-1 gga|mirBase:gga-mir-218-1 gga|mirBase:gga-mir-218-2 mml|mirBase:mml-mir-218-2 mdo|mirBase:mdo-mir-218-1 oan|mirBase:oan-mir-218-1 mml|mirBase:mml-mir-218-1 tgu|mirBase:tgu-mir-218-1 ssc|mirBase:ssc-mir-218-1 pma|mirBase:pma-mir-218a-1 aca|mirBase:aca-mir-218-1 mdo|mirBase:mdo-mir-218-2 ssa|mirBase:ssa-mir-218-1 ssa|mirBase:ssa-mir-218-2 oha|mirBase:oha-mir-218-1 oha|mirBase:oha-mir-218-2
+hsa|mirBase:hsa-mir-584 mml|mirBase:mml-mir-584
+bbe|mirBase:bbe-mir-2064
+hsa|mirBase:hsa-mir-628 mml|mirBase:mml-mir-628 ppy|mirBase:ppy-mir-628
+hsa|mirBase:hsa-mir-580
+mmu|mirBase:mmu-mir-199a-1 hsa|mirBase:hsa-mir-199a-1 hsa|mirBase:hsa-mir-199a-2 hsa|mirBase:hsa-mir-199b mmu|mirBase:mmu-mir-199a-2 mmu|mirBase:mmu-mir-199b rno|mirBase:rno-mir-199a gga|mirBase:gga-mir-199-2 gga|mirBase:gga-mir-199-1 dre|mirBase:dre-mir-199-1 dre|mirBase:dre-mir-199-2 dre|mirBase:dre-mir-199-3 bta|mirBase:bta-mir-199a-1 xtr|mirBase:xtr-mir-199a mdo|mirBase:mdo-mir-199b-1 oan|mirBase:oan-mir-199 mml|mirBase:mml-mir-199a-2 ssc|mirBase:ssc-mir-199b bta|mirBase:bta-mir-199a-2 eca|mirBase:eca-mir-199a eca|mirBase:eca-mir-199b ssc|mirBase:ssc-mir-199a-2 tgu|mirBase:tgu-mir-199-1 tgu|mirBase:tgu-mir-199-2 ppy|mirBase:ppy-mir-199a-2 ppy|mirBase:ppy-mir-199b ssc|mirBase:ssc-mir-199a-1 pma|mirBase:pma-mir-199a pma|mirBase:pma-mir-199b ola|mirBase:ola-mir-199a-1 ola|mirBase:ola-mir-199a-2 ola|mirBase:ola-mir-199a-3 ola|mirBase:ola-mir-199a-4 cgr|mirBase:cgr-mir-199a pol|mirBase:pol-mir-199a-1 pol|mirBase:pol-mir-199a-2 ccr|mirBase:ccr-mir-199 mdo|mirBase:mdo-mir-199b-2 mdo|mirBase:mdo-mir-199b-3 ipu|mirBase:ipu-mir-199a-1 ipu|mirBase:ipu-mir-199a-2 ipu|mirBase:ipu-mir-199a-4 ssa|mirBase:ssa-mir-199a-1 ssa|mirBase:ssa-mir-199a-2 ssa|mirBase:ssa-mir-199a-3 ssa|mirBase:ssa-mir-199a-4 chi|mirBase:chi-mir-199a chi|mirBase:chi-mir-199b chi|mirBase:chi-mir-199c oha|mirBase:oha-mir-199a oha|mirBase:oha-mir-199b oha|mirBase:oha-mir-199c
+hsa|mirBase:hsa-mir-196a-2 mmu|mirBase:mmu-mir-196a-1 mmu|mirBase:mmu-mir-196a-2 rno|mirBase:rno-mir-196a hsa|mirBase:hsa-mir-196b mmu|mirBase:mmu-mir-196b rno|mirBase:rno-mir-196b-1 gga|mirBase:gga-mir-196-2 gga|mirBase:gga-mir-196-1 dre|mirBase:dre-mir-196a-2 rno|mirBase:rno-mir-196c oan|mirBase:oan-mir-196a oan|mirBase:oan-mir-196b mml|mirBase:mml-mir-196a-2 mml|mirBase:mml-mir-196b ssc|mirBase:ssc-mir-196b-1 pma|mirBase:pma-mir-196a aca|mirBase:aca-mir-196c cgr|mirBase:cgr-mir-196a ssc|mirBase:ssc-mir-196b-2 mdo|mirBase:mdo-mir-196a ssa|mirBase:ssa-mir-196a-1 ssa|mirBase:ssa-mir-196a-2 ssa|mirBase:ssa-mir-196a-3 ssa|mirBase:ssa-mir-196a-4 ssa|mirBase:ssa-mir-196b-1 ssa|mirBase:ssa-mir-196b-2 oha|mirBase:oha-mir-196a oha|mirBase:oha-mir-196b oha|mirBase:oha-mir-196c rno|mirBase:rno-mir-196b-2
+hsa|mirBase:hsa-mir-197 mml|mirBase:mml-mir-197 chi|mirBase:chi-mir-197
+mmu|mirBase:mmu-mir-194-1 hsa|mirBase:hsa-mir-194-2 mmu|mirBase:mmu-mir-194-2 rno|mirBase:rno-mir-194-2 oan|mirBase:oan-mir-194-2 mml|mirBase:mml-mir-194-2 tgu|mirBase:tgu-mir-194-1 tgu|mirBase:tgu-mir-194-2 ssc|mirBase:ssc-mir-194b pma|mirBase:pma-mir-194 aca|mirBase:aca-mir-194-1 aca|mirBase:aca-mir-194-2 ola|mirBase:ola-mir-194 ssa|mirBase:ssa-mir-194a-1 ssa|mirBase:ssa-mir-194a-2 ssa|mirBase:ssa-mir-194b ssa|mirBase:ssa-mir-194c oha|mirBase:oha-mir-194-1
+hsa|mirBase:hsa-mir-627 mml|mirBase:mml-mir-627
+hsa|mirBase:hsa-mir-192 hsa|mirBase:hsa-mir-215 mmu|mirBase:mmu-mir-192 rno|mirBase:rno-mir-192 mmu|mirBase:mmu-mir-215 gga|mirBase:gga-mir-215 mml|mirBase:mml-mir-215 oan|mirBase:oan-mir-215 oan|mirBase:oan-mir-192 mml|mirBase:mml-mir-192 tgu|mirBase:tgu-mir-215 pma|mirBase:pma-mir-192 aca|mirBase:aca-mir-215 ola|mirBase:ola-mir-192 cgr|mirBase:cgr-mir-215 ssa|mirBase:ssa-mir-192a-1 ssa|mirBase:ssa-mir-192a-2 chi|mirBase:chi-mir-192 oha|mirBase:oha-mir-215
+mmu|mirBase:mmu-mir-193a hsa|mirBase:hsa-mir-193a rno|mirBase:rno-mir-193a dre|mirBase:dre-mir-193a-1 dre|mirBase:dre-mir-193a-2 dre|mirBase:dre-mir-193b hsa|mirBase:hsa-mir-193b gga|mirBase:gga-mir-193b bta|mirBase:bta-mir-193a mdo|mirBase:mdo-mir-193a mmu|mirBase:mmu-mir-193b dme|mirBase:dme-mir-193 oan|mirBase:oan-mir-193 gga|mirBase:gga-mir-193a mml|mirBase:mml-mir-193a mml|mirBase:mml-mir-193b dps|mirBase:dps-mir-193 dsi|mirBase:dsi-mir-193 eca|mirBase:eca-mir-193a ssc|mirBase:ssc-mir-193a tgu|mirBase:tgu-mir-193a tgu|mirBase:tgu-mir-193b ppy|mirBase:ppy-mir-193a hme|mirBase:hme-mir-193 aca|mirBase:aca-mir-193 cgr|mirBase:cgr-mir-193b mdo|mirBase:mdo-mir-193b ssa|mirBase:ssa-mir-193 rno|mirBase:rno-mir-193b chi|mirBase:chi-mir-193b oha|mirBase:oha-mir-193
+mmu|mirBase:mmu-mir-190a hsa|mirBase:hsa-mir-190a rno|mirBase:rno-mir-190a-1 gga|mirBase:gga-mir-190a mml|mirBase:mml-mir-190a mmu|mirBase:mmu-mir-190b dme|mirBase:dme-mir-190 rno|mirBase:rno-mir-190b oan|mirBase:oan-mir-190a tca|mirBase:tca-mir-190 bmo|mirBase:bmo-mir-190 dps|mirBase:dps-mir-190 dsi|mirBase:dsi-mir-190 mdo|mirBase:mdo-mir-190a tgu|mirBase:tgu-mir-190 pma|mirBase:pma-mir-190b aca|mirBase:aca-mir-190a tur|mirBase:tur-mir-190 bbe|mirBase:bbe-mir-190 ssa|mirBase:ssa-mir-190a ssa|mirBase:ssa-mir-190b chi|mirBase:chi-mir-190a oha|mirBase:oha-mir-190a oha|mirBase:oha-mir-190b rno|mirBase:rno-mir-190a-2
+mmu|mirBase:mmu-mir-191 hsa|mirBase:hsa-mir-191 rno|mirBase:rno-mir-191a mdo|mirBase:mdo-mir-191 oan|mirBase:oan-mir-191 mml|mirBase:mml-mir-191 aca|mirBase:aca-mir-191 cgr|mirBase:cgr-mir-191 chi|mirBase:chi-mir-191 ocu|mirBase:ocu-mir-191 oha|mirBase:oha-mir-191
+hsa|mirBase:hsa-mir-3927
+ppc|mirBase:ppc-mir-8364b-1 ppc|mirBase:ppc-mir-8364b-2 ppc|mirBase:ppc-mir-8364f ppc|mirBase:ppc-mir-8364g ppc|mirBase:ppc-mir-8364h ppc|mirBase:ppc-mir-8364i ppc|mirBase:ppc-mir-8364j ppc|mirBase:ppc-mir-8364k ppc|mirBase:ppc-mir-8364m ppc|mirBase:ppc-mir-8364o ppc|mirBase:ppc-mir-8364r ppc|mirBase:ppc-mir-8364s ppc|mirBase:ppc-mir-8364v
+dme|mirBase:dme-mir-969 dps|mirBase:dps-mir-969 dsi|mirBase:dsi-mir-969
+dme|mirBase:dme-mir-968 dps|mirBase:dps-mir-968 dsi|mirBase:dsi-mir-968
+aly|mirBase:aly-MIR3434 ath|mirBase:ath-MIR3434
+dme|mirBase:dme-mir-963 dsi|mirBase:dsi-mir-963
+dme|mirBase:dme-mir-962
+dme|mirBase:dme-mir-961 dsi|mirBase:dsi-mir-961
+hsa|mirBase:hsa-mir-582 mmu|mirBase:mmu-mir-582 mml|mirBase:mml-mir-582 rno|mirBase:rno-mir-582 eca|mirBase:eca-mir-582 ppy|mirBase:ppy-mir-582
+dme|mirBase:dme-mir-967 dsi|mirBase:dsi-mir-967
+hsa|mirBase:hsa-mir-3529
+dme|mirBase:dme-mir-965 tca|mirBase:tca-mir-965 bmo|mirBase:bmo-mir-965 dps|mirBase:dps-mir-965 dsi|mirBase:dsi-mir-965 ame|mirBase:ame-mir-965
+dme|mirBase:dme-mir-964 dsi|mirBase:dsi-mir-964
+hsa|mirBase:hsa-mir-624
+oan|mirBase:oan-mir-7407-1 oan|mirBase:oan-mir-7407-2
+spu|mirBase:spu-mir-2003
+spu|mirBase:spu-mir-2002
+hsa|mirBase:hsa-mir-625
+ath|mirBase:ath-MIR841a ath|mirBase:ath-MIR841b
+prd|mirBase:prd-mir-7948c prd|mirBase:prd-mir-7948b prd|mirBase:prd-mir-7948a
+dme|mirBase:dme-mir-996
+dme|mirBase:dme-mir-994 dps|mirBase:dps-mir-994
+dme|mirBase:dme-mir-995 dps|mirBase:dps-mir-995 dsi|mirBase:dsi-mir-995
+dme|mirBase:dme-mir-992 dsi|mirBase:dsi-mir-992
+dme|mirBase:dme-mir-991 dsi|mirBase:dsi-mir-991
+hsa|mirBase:hsa-mir-589
+mmu|mirBase:mmu-mir-1843a mmu|mirBase:mmu-mir-1843b rno|mirBase:rno-mir-1843a rno|mirBase:rno-mir-1843b
+dme|mirBase:dme-mir-998
+dme|mirBase:dme-mir-999 dsi|mirBase:dsi-mir-999
+hsa|mirBase:hsa-mir-361 mmu|mirBase:mmu-mir-361 rno|mirBase:rno-mir-361 mml|mirBase:mml-mir-361 eca|mirBase:eca-mir-361 ssc|mirBase:ssc-mir-361 ppy|mirBase:ppy-mir-361 chi|mirBase:chi-mir-361
+cel|mirBase:cel-mir-360
+hsa|mirBase:hsa-mir-363 mmu|mirBase:mmu-mir-363 dre|mirBase:dre-mir-363 rno|mirBase:rno-mir-363 xtr|mirBase:xtr-mir-363 oan|mirBase:oan-mir-363 mml|mirBase:mml-mir-363 tgu|mirBase:tgu-mir-363 aca|mirBase:aca-mir-363 chi|mirBase:chi-mir-363 oha|mirBase:oha-mir-363
+hsa|mirBase:hsa-mir-362 mmu|mirBase:mmu-mir-362 mml|mirBase:mml-mir-362 bta|mirBase:bta-mir-362 rno|mirBase:rno-mir-362 eca|mirBase:eca-mir-362 ppy|mirBase:ppy-mir-362 chi|mirBase:chi-mir-362
+hsa|mirBase:hsa-mir-365a mmu|mirBase:mmu-mir-365-1 hsa|mirBase:hsa-mir-365b mmu|mirBase:mmu-mir-365-2 rno|mirBase:rno-mir-365 gga|mirBase:gga-mir-365-1 gga|mirBase:gga-mir-365-2 mdo|mirBase:mdo-mir-365 bta|mirBase:bta-mir-365-1 oan|mirBase:oan-mir-365-1 mml|mirBase:mml-mir-365-1 mml|mirBase:mml-mir-365-2 ssc|mirBase:ssc-mir-365-2 tgu|mirBase:tgu-mir-365-1 tgu|mirBase:tgu-mir-365-2 aca|mirBase:aca-mir-365 cgr|mirBase:cgr-mir-365 oan|mirBase:oan-mir-365-2 ssa|mirBase:ssa-mir-365-1 ssa|mirBase:ssa-mir-365-2 oha|mirBase:oha-mir-365a-1 oha|mirBase:oha-mir-365a-2
+hsa|mirBase:hsa-mir-367 mmu|mirBase:mmu-mir-367 ocu|mirBase:ocu-mir-367
+hsa|mirBase:hsa-mir-376c hsa|mirBase:hsa-mir-376a-1 mmu|mirBase:mmu-mir-376a mmu|mirBase:mmu-mir-376b hsa|mirBase:hsa-mir-376b hsa|mirBase:hsa-mir-376a-2 mmu|mirBase:mmu-mir-376c rno|mirBase:rno-mir-376c rno|mirBase:rno-mir-376b rno|mirBase:rno-mir-376a mml|mirBase:mml-mir-376a-1 mml|mirBase:mml-mir-376a-2 mml|mirBase:mml-mir-376b mml|mirBase:mml-mir-376c ssc|mirBase:ssc-mir-376a oar|mirBase:oar-mir-376e oar|mirBase:oar-mir-376c oar|mirBase:oar-mir-376b oar|mirBase:oar-mir-376a chi|mirBase:chi-mir-376b chi|mirBase:chi-mir-376c chi|mirBase:chi-mir-376e
+gma|mirBase:gma-MIR2118a sbi|mirBase:sbi-MIR2118 ata|mirBase:ata-MIR2118a ata|mirBase:ata-MIR2118b
+zma|mirBase:zma-MIR162
+mtr|mirBase:mtr-MIR1509a ppe|mirBase:ppe-MIR7122a ppe|mirBase:ppe-MIR7122b
+tca|mirBase:tca-mir-3851b tca|mirBase:tca-mir-3851a-1 tca|mirBase:tca-mir-3851a-2 tca|mirBase:tca-mir-3851c tca|mirBase:tca-mir-3851d tca|mirBase:tca-mir-3851e tca|mirBase:tca-mir-3851f
+hsa|mirBase:hsa-mir-4423
+sbi|mirBase:sbi-MIR6224a sbi|mirBase:sbi-MIR6224b sbi|mirBase:sbi-MIR6224c
+mtr|mirBase:mtr-MIR1507
+mtr|mirBase:mtr-MIR2087
+aly|mirBase:aly-MIR828 ppe|mirBase:ppe-MIR828 ptc|mirBase:ptc-MIR828b
+gga|mirBase:gga-mir-7458-1 gga|mirBase:gga-mir-7458-2
+ath|mirBase:ath-MIR829 aly|mirBase:aly-MIR829
+cel|mirBase:cel-mir-64 cel|mirBase:cel-mir-65 crm|mirBase:crm-mir-64d
+cel|mirBase:cel-mir-67 dme|mirBase:dme-mir-307a bmo|mirBase:bmo-mir-307 sme|mirBase:sme-mir-67 tca|mirBase:tca-mir-307 lmi|mirBase:lmi-mir-307 crm|mirBase:crm-mir-67 asu|mirBase:asu-mir-67 tur|mirBase:tur-mir-307
+cel|mirBase:cel-mir-61
+cel|mirBase:cel-mir-60 crm|mirBase:crm-mir-60
+cel|mirBase:cel-mir-63 crm|mirBase:crm-mir-63 ppc|mirBase:ppc-mir-63i
+pxy|mirBase:pxy-mir-2525-1 pxy|mirBase:pxy-mir-2525-2
+dme|mirBase:dme-mir-2489
+bta|mirBase:bta-mir-2483 chi|mirBase:chi-mir-2483
+ssa|mirBase:ssa-mir-7552a-1 ssa|mirBase:ssa-mir-7552a-2 ssa|mirBase:ssa-mir-7552b
+prd|mirBase:prd-mir-7950a-1 prd|mirBase:prd-mir-7950a-2 prd|mirBase:prd-mir-7950b
+bdi|mirBase:bdi-MIR1878
+osa|mirBase:osa-MIR1428a osa|mirBase:osa-MIR1428e
+stu|mirBase:stu-MIR7984b stu|mirBase:stu-MIR7984c stu|mirBase:stu-MIR7984d
+hsa|mirBase:hsa-mir-3140
+ptc|mirBase:ptc-MIR473a ptc|mirBase:ptc-MIR477a ppt|mirBase:ppt-MIR477a ppt|mirBase:ppt-MIR477g ppe|mirBase:ppe-MIR477a ppe|mirBase:ppe-MIR477b ptc|mirBase:ptc-MIR477d stu|mirBase:stu-MIR477b ppe|mirBase:ppe-MIR477
+mtr|mirBase:mtr-MIR7696a mtr|mirBase:mtr-MIR7696b mtr|mirBase:mtr-MIR7696c mtr|mirBase:mtr-MIR7696d
+ptc|mirBase:ptc-MIR475a ptc|mirBase:ptc-MIR475b ptc|mirBase:ptc-MIR475d
+zma|mirBase:zma-MIR1432 ata|mirBase:ata-MIR1432
+hsa|mirBase:hsa-mir-6511a-1 hsa|mirBase:hsa-mir-6511b-1 hsa|mirBase:hsa-mir-6511b-2 hsa|mirBase:hsa-mir-6511a-2 hsa|mirBase:hsa-mir-6511a-3 hsa|mirBase:hsa-mir-6511a-4
+dme|mirBase:dme-mir-960
+ptc|mirBase:ptc-MIR6462c
+hsa|mirBase:hsa-mir-3145 mml|mirBase:mml-mir-3145
+stu|mirBase:stu-MIR6024
+gga|mirBase:gga-mir-1729 tgu|mirBase:tgu-mir-1729
+sja|mirBase:sja-mir-2a sma|mirBase:sma-mir-2a
+ath|mirBase:ath-MIR2934
+hsa|mirBase:hsa-mir-616
+mmu|mirBase:mmu-mir-149 hsa|mirBase:hsa-mir-149 mml|mirBase:mml-mir-149 cgr|mirBase:cgr-mir-149 bta|mirBase:bta-mir-149 rno|mirBase:rno-mir-149
+mmu|mirBase:mmu-mir-152 hsa|mirBase:hsa-mir-148a hsa|mirBase:hsa-mir-152 mmu|mirBase:mmu-mir-148a rno|mirBase:rno-mir-148b mmu|mirBase:mmu-mir-148b hsa|mirBase:hsa-mir-148b rno|mirBase:rno-mir-152 gga|mirBase:gga-mir-148a ssc|mirBase:ssc-mir-148a mdo|mirBase:mdo-mir-152 oan|mirBase:oan-mir-148 mml|mirBase:mml-mir-148a mml|mirBase:mml-mir-148b mml|mirBase:mml-mir-152 mdo|mirBase:mdo-mir-148 eca|mirBase:eca-mir-148b ssc|mirBase:ssc-mir-148b tgu|mirBase:tgu-mir-148 aca|mirBase:aca-mir-148a aca|mirBase:aca-mir-148b cgr|mirBase:cgr-mir-148b cgr|mirBase:cgr-mir-152 ssa|mirBase:ssa-mir-148a ssa|mirBase:ssa-mir-148b ssa|mirBase:ssa-mir-152 rno|mirBase:rno-mir-148a chi|mirBase:chi-mir-148a chi|mirBase:chi-mir-148b oha|mirBase:oha-mir-148a
+tur|mirBase:tur-mir-5736b tur|mirBase:tur-mir-5736a
+hsa|mirBase:hsa-mir-3913-1 hsa|mirBase:hsa-mir-3913-2
+mmu|mirBase:mmu-mir-145a hsa|mirBase:hsa-mir-145 rno|mirBase:rno-mir-145 dre|mirBase:dre-mir-145 ssc|mirBase:ssc-mir-145 mml|mirBase:mml-mir-145 mdo|mirBase:mdo-mir-145 oan|mirBase:oan-mir-145 pma|mirBase:pma-mir-145 aca|mirBase:aca-mir-145 ssa|mirBase:ssa-mir-145-1 ssa|mirBase:ssa-mir-145-2 chi|mirBase:chi-mir-145 oha|mirBase:oha-mir-145
+mmu|mirBase:mmu-mir-144 hsa|mirBase:hsa-mir-144 rno|mirBase:rno-mir-144 dre|mirBase:dre-mir-144 gga|mirBase:gga-mir-144 mdo|mirBase:mdo-mir-144 oan|mirBase:oan-mir-144 tgu|mirBase:tgu-mir-144 pma|mirBase:pma-mir-144 aca|mirBase:aca-mir-144 pol|mirBase:pol-mir-144 ssa|mirBase:ssa-mir-144 chi|mirBase:chi-mir-144 oha|mirBase:oha-mir-144
+mmu|mirBase:mmu-mir-147 chi|mirBase:chi-mir-147 oha|mirBase:oha-mir-147-1
+mmu|mirBase:mmu-mir-146a hsa|mirBase:hsa-mir-146a rno|mirBase:rno-mir-146a gga|mirBase:gga-mir-146a hsa|mirBase:hsa-mir-146b gga|mirBase:gga-mir-146b mmu|mirBase:mmu-mir-146b rno|mirBase:rno-mir-146b oan|mirBase:oan-mir-146b oan|mirBase:oan-mir-146a gga|mirBase:gga-mir-146c mml|mirBase:mml-mir-146a mml|mirBase:mml-mir-146b mdo|mirBase:mdo-mir-146a mdo|mirBase:mdo-mir-146b eca|mirBase:eca-mir-146b tgu|mirBase:tgu-mir-146a tgu|mirBase:tgu-mir-146b ppy|mirBase:ppy-mir-146b ssc|mirBase:ssc-mir-146a pma|mirBase:pma-mir-146 aca|mirBase:aca-mir-146a aca|mirBase:aca-mir-146b cgr|mirBase:cgr-mir-146b ssa|mirBase:ssa-mir-146a-1 ssa|mirBase:ssa-mir-146a-2 ssa|mirBase:ssa-mir-146a-3 ssa|mirBase:ssa-mir-146b ssa|mirBase:ssa-mir-146d-1 ssa|mirBase:ssa-mir-146d-2 chi|mirBase:chi-mir-146b oha|mirBase:oha-mir-146b
+mmu|mirBase:mmu-mir-140 hsa|mirBase:hsa-mir-140 rno|mirBase:rno-mir-140 gga|mirBase:gga-mir-140 dre|mirBase:dre-mir-140 ssc|mirBase:ssc-mir-140 oan|mirBase:oan-mir-140 mml|mirBase:mml-mir-140 mdo|mirBase:mdo-mir-140 eca|mirBase:eca-mir-140 tgu|mirBase:tgu-mir-140 ppy|mirBase:ppy-mir-140 aca|mirBase:aca-mir-140 ola|mirBase:ola-mir-140 cgr|mirBase:cgr-mir-140 pol|mirBase:pol-mir-140 ccr|mirBase:ccr-mir-140 ssa|mirBase:ssa-mir-140 chi|mirBase:chi-mir-140 oha|mirBase:oha-mir-140
+mmu|mirBase:mmu-mir-143 hsa|mirBase:hsa-mir-143 rno|mirBase:rno-mir-143 mdo|mirBase:mdo-mir-143 oan|mirBase:oan-mir-143 mml|mirBase:mml-mir-143 ssc|mirBase:ssc-mir-143 pma|mirBase:pma-mir-143 aca|mirBase:aca-mir-143 ssa|mirBase:ssa-mir-143 chi|mirBase:chi-mir-143 oha|mirBase:oha-mir-143
+mmu|mirBase:mmu-mir-142a hsa|mirBase:hsa-mir-142 rno|mirBase:rno-mir-142 gga|mirBase:gga-mir-142 dre|mirBase:dre-mir-142a xtr|mirBase:xtr-mir-142-1 xtr|mirBase:xtr-mir-142-2 bta|mirBase:bta-mir-142 oan|mirBase:oan-mir-142 mml|mirBase:mml-mir-142 eca|mirBase:eca-mir-142 ssc|mirBase:ssc-mir-142 tgu|mirBase:tgu-mir-142 ppy|mirBase:ppy-mir-142 aca|mirBase:aca-mir-142 cgr|mirBase:cgr-mir-142 ccr|mirBase:ccr-mir-142-1 ssa|mirBase:ssa-mir-142a-1 ssa|mirBase:ssa-mir-142a-2 ssa|mirBase:ssa-mir-142b oha|mirBase:oha-mir-142
+bmo|mirBase:bmo-mir-2733i bmo|mirBase:bmo-mir-2733a-3 pxy|mirBase:pxy-mir-2733b
+bra|mirBase:bra-MIR9560a bra|mirBase:bra-MIR9560b
+mmu|mirBase:mmu-mir-3572
+bta|mirBase:bta-mir-2411
+bra|mirBase:bra-MIR9555a bra|mirBase:bra-MIR9555b
+mdo|mirBase:mdo-mir-15c
+ssa|mirBase:ssa-mir-7132a
+hsa|mirBase:hsa-mir-642a hsa|mirBase:hsa-mir-642b
+bta|mirBase:bta-mir-1343 hsa|mirBase:hsa-mir-1343
+bta|mirBase:bta-mir-1434
+ppc|mirBase:ppc-mir-8229a ppc|mirBase:ppc-mir-8229b
+ppc|mirBase:ppc-mir-8315-1 ppc|mirBase:ppc-mir-8315-2
+bfl|mirBase:bfl-mir-4904 bbe|mirBase:bbe-mir-4904
+gga|mirBase:gga-mir-6608-1 gga|mirBase:gga-mir-6608-2
+sly|mirBase:sly-MIR9471a sly|mirBase:sly-MIR9471b
+cin|mirBase:cin-mir-4081 cin|mirBase:cin-mir-4082
+hsa|mirBase:hsa-mir-3617
+cre|mirBase:cre-MIR919
+cel|mirBase:cel-mir-392
+hsa|mirBase:hsa-mir-4774
+ppc|mirBase:ppc-mir-8338-1 ppc|mirBase:ppc-mir-8338-2
+hco|mirBase:hco-mir-5924a
+tgu|mirBase:tgu-mir-2970 aca|mirBase:aca-mir-2970 mdo|mirBase:mdo-mir-2970 oha|mirBase:oha-mir-2970
+mmu|mirBase:mmu-mir-3547
+cel|mirBase:cel-mir-791
+aly|mirBase:aly-MIR852
+rno|mirBase:rno-mir-664-1 rno|mirBase:rno-mir-664-2 hsa|mirBase:hsa-mir-664a mmu|mirBase:mmu-mir-664 ssc|mirBase:ssc-mir-664 hsa|mirBase:hsa-mir-664b cgr|mirBase:cgr-mir-664
+mmu|mirBase:mmu-mir-665 oar|mirBase:oar-mir-665
+mmu|mirBase:mmu-mir-666 rno|mirBase:rno-mir-666
+mmu|mirBase:mmu-mir-667 rno|mirBase:rno-mir-667
+hsa|mirBase:hsa-mir-668 mmu|mirBase:mmu-mir-668 oar|mirBase:oar-mir-668
+ath|mirBase:ath-MIR170 ath|mirBase:ath-MIR171a ath|mirBase:ath-MIR171b ath|mirBase:ath-MIR171c osa|mirBase:osa-MIR171c osa|mirBase:osa-MIR171d osa|mirBase:osa-MIR171e osa|mirBase:osa-MIR171f osa|mirBase:osa-MIR171i zma|mirBase:zma-MIR171a zma|mirBase:zma-MIR171b zma|mirBase:zma-MIR171d zma|mirBase:zma-MIR171f zma|mirBase:zma-MIR171c zma|mirBase:zma-MIR171j zma|mirBase:zma-MIR171e zma|mirBase:zma-MIR171i ptc|mirBase:ptc-MIR171a ptc|mirBase:ptc-MIR171g ptc|mirBase:ptc-MIR171h mtr|mirBase:mtr-MIR171e bdi|mirBase:bdi-MIR171c zma|mirBase:zma-MIR171l zma|mirBase:zma-MIR171m zma|mirBase:zma-MIR171n aly|mirBase:aly-MIR170 aly|mirBase:aly-MIR171a aly|mirBase:aly-MIR171b aly|mirBase:aly-MIR171c gma|mirBase:gma-MIR171c gma|mirBase:gma-MIR171i bdi|mirBase:bdi-MIR171d gma|mirBase:gma-MIR171j gma|mirBase:gma-MIR171k gma|mirBase:gma-MIR171o lja|mirBase:lja-MIR171d stu|mirBase:stu-MIR171b stu|mirBase:stu-MIR171a stu|mirBase:stu-MIR171c stu|mirBase:stu-MIR171d ata|mirBase:ata-MIR171c ata|mirBase:ata-MIR171d ata|mirBase:ata-MIR171b
+zma|mirBase:zma-MIR171g zma|mirBase:zma-MIR171k zma|mirBase:zma-MIR171h ptc|mirBase:ptc-MIR171l gma|mirBase:gma-MIR171b ppe|mirBase:ppe-MIR171d ata|mirBase:ata-MIR171a
+mml|mirBase:mml-mir-549b
+hsa|mirBase:hsa-mir-570 hsa|mirBase:hsa-mir-579 hsa|mirBase:hsa-mir-548b hsa|mirBase:hsa-mir-548a-3 hsa|mirBase:hsa-mir-548c hsa|mirBase:hsa-mir-548d-1 hsa|mirBase:hsa-mir-548d-2 hsa|mirBase:hsa-mir-548e hsa|mirBase:hsa-mir-548j hsa|mirBase:hsa-mir-548f-1 hsa|mirBase:hsa-mir-548g hsa|mirBase:hsa-mir-548h-4 mml|mirBase:mml-mir-548d hsa|mirBase:hsa-mir-548t hsa|mirBase:hsa-mir-548x hsa|mirBase:hsa-mir-548o-2 hsa|mirBase:hsa-mir-548ad hsa|mirBase:hsa-mir-548ae-2 hsa|mirBase:hsa-mir-548ah hsa|mirBase:hsa-mir-548aj-2 hsa|mirBase:hsa-mir-548am hsa|mirBase:hsa-mir-548ao hsa|mirBase:hsa-mir-548ap hsa|mirBase:hsa-mir-548aq hsa|mirBase:hsa-mir-548ar hsa|mirBase:hsa-mir-548as hsa|mirBase:hsa-mir-548at hsa|mirBase:hsa-mir-548au hsa|mirBase:hsa-mir-548av hsa|mirBase:hsa-mir-548ay hsa|mirBase:hsa-mir-548az mml|mirBase:mml-mir-548g mml|mirBase:mml-mir-548h mml|mirBase:mml-mir-548i mml|mirBase:mml-mir-548j hsa|mirBase:hsa-mir-548bb
+stu|mirBase:stu-MIR1886g stu|mirBase:stu-MIR1886i
+aly|mirBase:aly-MIR857
+osa|mirBase:osa-MIR1882e
+mmu|mirBase:mmu-mir-541 rno|mirBase:rno-mir-541 hsa|mirBase:hsa-mir-541 mml|mirBase:mml-mir-541 oar|mirBase:oar-mir-541
+mmu|mirBase:mmu-mir-540 rno|mirBase:rno-mir-540
+hsa|mirBase:hsa-mir-1233-1 hsa|mirBase:hsa-mir-1233-2
+mmu|mirBase:mmu-mir-542 rno|mirBase:rno-mir-542-1 hsa|mirBase:hsa-mir-542 mml|mirBase:mml-mir-542 eca|mirBase:eca-mir-542 ssc|mirBase:ssc-mir-542 ppy|mirBase:ppy-mir-542 cgr|mirBase:cgr-mir-542 chi|mirBase:chi-mir-542 rno|mirBase:rno-mir-542-2 rno|mirBase:rno-mir-542-3
+mmu|mirBase:mmu-mir-544 rno|mirBase:rno-mir-544 oar|mirBase:oar-mir-544
+hsa|mirBase:hsa-mir-1237
+hsa|mirBase:hsa-mir-1236
+bdi|mirBase:bdi-MIR7784a bdi|mirBase:bdi-MIR7784b
+aly|mirBase:aly-MIR845a aly|mirBase:aly-MIR845b
+mmu|mirBase:mmu-mir-3102
+mmu|mirBase:mmu-mir-802 oan|mirBase:oan-mir-802 rno|mirBase:rno-mir-802
+mml|mirBase:mml-mir-7177
+hsa|mirBase:hsa-mir-6770-1 hsa|mirBase:hsa-mir-6770-2 hsa|mirBase:hsa-mir-6770-3
+ptc|mirBase:ptc-MIR6459a
+bta|mirBase:bta-mir-2355 hsa|mirBase:hsa-mir-2355
+bdi|mirBase:bdi-MIR5163a bdi|mirBase:bdi-MIR5163b
+tgu|mirBase:tgu-mir-1803
+bdi|mirBase:bdi-MIR5167a bdi|mirBase:bdi-MIR5167b
+gga|mirBase:gga-mir-1805 tgu|mirBase:tgu-mir-1805 aca|mirBase:aca-mir-1805 mdo|mirBase:mdo-mir-1805 oha|mirBase:oha-mir-1805
+rno|mirBase:rno-mir-325 mmu|mirBase:mmu-mir-325 cgr|mirBase:cgr-mir-325
+rno|mirBase:rno-mir-324 mmu|mirBase:mmu-mir-324 hsa|mirBase:hsa-mir-324 mml|mirBase:mml-mir-324 eca|mirBase:eca-mir-324 ppy|mirBase:ppy-mir-324 cgr|mirBase:cgr-mir-324 chi|mirBase:chi-mir-324
+hsa|mirBase:hsa-mir-891a mml|mirBase:mml-mir-891b
+mmu|mirBase:mmu-mir-326 rno|mirBase:rno-mir-326 chi|mirBase:chi-mir-326
+hsa|mirBase:hsa-mir-488 mmu|mirBase:mmu-mir-488 rno|mirBase:rno-mir-488 mml|mirBase:mml-mir-488
+hsa|mirBase:hsa-mir-489 mmu|mirBase:mmu-mir-489 rno|mirBase:rno-mir-489 gga|mirBase:gga-mir-489 mml|mirBase:mml-mir-489 tgu|mirBase:tgu-mir-489 aca|mirBase:aca-mir-489 ssa|mirBase:ssa-mir-489-1 ssa|mirBase:ssa-mir-489-2
+rno|mirBase:rno-mir-322-1 mmu|mirBase:mmu-mir-322 hsa|mirBase:hsa-mir-424 mml|mirBase:mml-mir-424 bta|mirBase:bta-mir-424 ssc|mirBase:ssc-mir-424 cgr|mirBase:cgr-mir-322 chi|mirBase:chi-mir-424 rno|mirBase:rno-mir-322-2
+hsa|mirBase:hsa-mir-485 mmu|mirBase:mmu-mir-485 rno|mirBase:rno-mir-485 mml|mirBase:mml-mir-485 eca|mirBase:eca-mir-485 ppy|mirBase:ppy-mir-485 oar|mirBase:oar-mir-485 chi|mirBase:chi-mir-485
+ath|mirBase:ath-MIR156a ath|mirBase:ath-MIR156b ath|mirBase:ath-MIR156c ath|mirBase:ath-MIR156d ath|mirBase:ath-MIR156f ath|mirBase:ath-MIR157a ath|mirBase:ath-MIR157b ath|mirBase:ath-MIR157c osa|mirBase:osa-MIR156b osa|mirBase:osa-MIR156c osa|mirBase:osa-MIR156f osa|mirBase:osa-MIR156g osa|mirBase:osa-MIR156h osa|mirBase:osa-MIR156j osa|mirBase:osa-MIR156l zma|mirBase:zma-MIR156d zma|mirBase:zma-MIR156f zma|mirBase:zma-MIR156g zma|mirBase:zma-MIR156b zma|mirBase:zma-MIR156e zma|mirBase:zma-MIR156a zma|mirBase:zma-MIR156h zma|mirBase:zma-MIR156i zma|mirBase:zma-MIR156j zma|mirBase:zma-MIR156k mtr|mirBase:mtr-MIR156b mtr|mirBase:mtr-MIR156c mtr|mirBase:mtr-MIR156d mtr|mirBase:mtr-MIR156g mtr|mirBase:mtr-MIR156h mtr|mirBase:mtr-MIR156i smo|mirBase:smo-MIR1088 zma|mirBase:zma-MIR156l aly|mirBase:aly-MIR156a aly|mirBase:aly-MIR156b aly|mirBase:aly-MIR156c aly|mirBase:aly-MIR156d aly|mirBase:aly-MIR156e aly|mirBase:aly-MIR156f aly|mirBase:aly-MIR156g aly|mirBase:aly-MIR156h aly|mirBase:aly-MIR157a aly|mirBase:aly-MIR157b aly|mirBase:aly-MIR157c aly|mirBase:aly-MIR157d ahy|mirBase:ahy-MIR156b bdi|mirBase:bdi-MIR156b bdi|mirBase:bdi-MIR156d bdi|mirBase:bdi-MIR156e bdi|mirBase:bdi-MIR156f bdi|mirBase:bdi-MIR156g bdi|mirBase:bdi-MIR156h bdi|mirBase:bdi-MIR156i stu|mirBase:stu-MIR156d stu|mirBase:stu-MIR156f stu|mirBase:stu-MIR156g stu|mirBase:stu-MIR156h stu|mirBase:stu-MIR156i stu|mirBase:stu-MIR156j stu|mirBase:stu-MIR156k sly|mirBase:sly-MIR156d sly|mirBase:sly-MIR156e bra|mirBase:bra-MIR156a bra|mirBase:bra-MIR156b bra|mirBase:bra-MIR156c bra|mirBase:bra-MIR156d bra|mirBase:bra-MIR156e bra|mirBase:bra-MIR156f bra|mirBase:bra-MIR156g ata|mirBase:ata-MIR156d ata|mirBase:ata-MIR156c ata|mirBase:ata-MIR156a ata|mirBase:ata-MIR156b ata|mirBase:ata-MIR156e
+mtr|mirBase:mtr-MIR5559
+rno|mirBase:rno-mir-329 mmu|mirBase:mmu-mir-329 hsa|mirBase:hsa-mir-329-1 hsa|mirBase:hsa-mir-329-2 hsa|mirBase:hsa-mir-495 mmu|mirBase:mmu-mir-543 rno|mirBase:rno-mir-543 mmu|mirBase:mmu-mir-495 mml|mirBase:mml-mir-329-1 mml|mirBase:mml-mir-329-2 mml|mirBase:mml-mir-495 mml|mirBase:mml-mir-543 oar|mirBase:oar-mir-329b oar|mirBase:oar-mir-329a oar|mirBase:oar-mir-543 oar|mirBase:oar-mir-495 chi|mirBase:chi-mir-329a chi|mirBase:chi-mir-543
+rno|mirBase:rno-mir-328a mmu|mirBase:mmu-mir-328 hsa|mirBase:hsa-mir-328
+hsa|mirBase:hsa-mir-483 mmu|mirBase:mmu-mir-483 rno|mirBase:rno-mir-483
+cel|mirBase:cel-mir-249
+cel|mirBase:cel-mir-246 crm|mirBase:crm-mir-246-1 crm|mirBase:crm-mir-246-2
+cel|mirBase:cel-mir-247
+cel|mirBase:cel-mir-244 crm|mirBase:crm-mir-244
+cel|mirBase:cel-mir-245
+cel|mirBase:cel-mir-240
+cel|mirBase:cel-mir-241
+hsa|mirBase:hsa-mir-21 mmu|mirBase:mmu-mir-21a rno|mirBase:rno-mir-21 mml|mirBase:mml-mir-21 bta|mirBase:bta-mir-21 gga|mirBase:gga-mir-21 mdo|mirBase:mdo-mir-21 cgr|mirBase:cgr-mir-21 oan|mirBase:oan-mir-21 tgu|mirBase:tgu-mir-21 aca|mirBase:aca-mir-21 pol|mirBase:pol-mir-21 ssa|mirBase:ssa-mir-21a-1 ssa|mirBase:ssa-mir-21a-2 ssa|mirBase:ssa-mir-21b chi|mirBase:chi-mir-21 oha|mirBase:oha-mir-21
+mmu|mirBase:mmu-mir-679
+hsa|mirBase:hsa-mir-23a mmu|mirBase:mmu-mir-23b hsa|mirBase:hsa-mir-23b mmu|mirBase:mmu-mir-23a rno|mirBase:rno-mir-23a rno|mirBase:rno-mir-23b gga|mirBase:gga-mir-23b dre|mirBase:dre-mir-23a-2 dre|mirBase:dre-mir-23a-3 mml|mirBase:mml-mir-23a bta|mirBase:bta-mir-23b mdo|mirBase:mdo-mir-23a mdo|mirBase:mdo-mir-23b oan|mirBase:oan-mir-23b oan|mirBase:oan-mir-23a mml|mirBase:mml-mir-23b tgu|mirBase:tgu-mir-23 pma|mirBase:pma-mir-23a aca|mirBase:aca-mir-23a aca|mirBase:aca-mir-23b dre|mirBase:dre-mir-23a-4 cgr|mirBase:cgr-mir-23a cgr|mirBase:cgr-mir-23b ssa|mirBase:ssa-mir-23a-3 ssa|mirBase:ssa-mir-23a-4 ssa|mirBase:ssa-mir-23a-1 ssa|mirBase:ssa-mir-23a-2 ssa|mirBase:ssa-mir-23b chi|mirBase:chi-mir-23b oha|mirBase:oha-mir-23a oha|mirBase:oha-mir-23b
+hsa|mirBase:hsa-mir-22 mmu|mirBase:mmu-mir-22 rno|mirBase:rno-mir-22 dre|mirBase:dre-mir-22a dre|mirBase:dre-mir-22b xtr|mirBase:xtr-mir-22 bta|mirBase:bta-mir-22 mdo|mirBase:mdo-mir-22 oan|mirBase:oan-mir-22 gga|mirBase:gga-mir-22 bfl|mirBase:bfl-mir-22 ssc|mirBase:ssc-mir-22 pma|mirBase:pma-mir-22a aca|mirBase:aca-mir-22 cgr|mirBase:cgr-mir-22 pol|mirBase:pol-mir-22 bbe|mirBase:bbe-mir-22 ssa|mirBase:ssa-mir-22a ssa|mirBase:ssa-mir-22b-1 ssa|mirBase:ssa-mir-22b-2 chi|mirBase:chi-mir-22
+hsa|mirBase:hsa-mir-25 hsa|mirBase:hsa-mir-92a-1 hsa|mirBase:hsa-mir-92a-2 dme|mirBase:dme-mir-92a dme|mirBase:dme-mir-92b mmu|mirBase:mmu-mir-92a-2 mmu|mirBase:mmu-mir-25 mmu|mirBase:mmu-mir-92a-1 rno|mirBase:rno-mir-25 rno|mirBase:rno-mir-92a-1 rno|mirBase:rno-mir-92a-2 gga|mirBase:gga-mir-92-1 dre|mirBase:dre-mir-25 dre|mirBase:dre-mir-92a-1 dre|mirBase:dre-mir-92a-2 dre|mirBase:dre-mir-92b hsa|mirBase:hsa-mir-92b mdo|mirBase:mdo-mir-92a-1 mmu|mirBase:mmu-mir-92b rno|mirBase:rno-mir-92b oan|mirBase:oan-mir-92a-1 oan|mirBase:oan-mir-92a-2 cin|mirBase:cin-mir-92a cin|mirBase:cin-mir-92b mml|mirBase:mml-mir-92a-2 mml|mirBase:mml-mir-92b tca|mirBase:tca-mir-92a tca|mirBase:tca-mir-92b bfl|mirBase:bfl-mir-92b spu|mirBase:spu-mir-92b ssc|mirBase:ssc-mir-92b aae|mirBase:aae-mir-92a aae|mirBase:aae-mir-92b tgu|mirBase:tgu-mir-92-1 tgu|mirBase:tgu-mir-92-2 tca|mirBase:tca-mir-92c pma|mirBase:pma-mir-25b asu|mirBase:asu-mir-92 tur|mirBase:tur-mir-92 cgr|mirBase:cgr-mir-25 cgr|mirBase:cgr-mir-92a cgr|mirBase:cgr-mir-92b mdo|mirBase:mdo-mir-92b mdo|mirBase:mdo-mir-92a-2 prd|mirBase:prd-mir-235 bbe|mirBase:bbe-mir-92a-1 bbe|mirBase:bbe-mir-92b bbe|mirBase:bbe-mir-92d ssa|mirBase:ssa-mir-25-1 ssa|mirBase:ssa-mir-25-2 ssa|mirBase:ssa-mir-25-3 ssa|mirBase:ssa-mir-92a-1 ssa|mirBase:ssa-mir-92a-2 ssa|mirBase:ssa-mir-92a-3 ssa|mirBase:ssa-mir-92a-4 ssa|mirBase:ssa-mir-92b ppc|mirBase:ppc-mir-235 chi|mirBase:chi-mir-25 chi|mirBase:chi-mir-92a oha|mirBase:oha-mir-92a-1
+hsa|mirBase:hsa-mir-24-1 hsa|mirBase:hsa-mir-24-2 mmu|mirBase:mmu-mir-24-1 mmu|mirBase:mmu-mir-24-2 rno|mirBase:rno-mir-24-1 rno|mirBase:rno-mir-24-2 gga|mirBase:gga-mir-24 ssc|mirBase:ssc-mir-24-1 mml|mirBase:mml-mir-24-1 ppy|mirBase:ppy-mir-24-1 mne|mirBase:mne-mir-24-1 ppa|mirBase:ppa-mir-24-1 xtr|mirBase:xtr-mir-24a mdo|mirBase:mdo-mir-24-2 oan|mirBase:oan-mir-24-1 ssc|mirBase:ssc-mir-24-2 tgu|mirBase:tgu-mir-24 aca|mirBase:aca-mir-24-1 aca|mirBase:aca-mir-24-2 ola|mirBase:ola-mir-24b cgr|mirBase:cgr-mir-24 oan|mirBase:oan-mir-24-2 ssa|mirBase:ssa-mir-24a-4 ssa|mirBase:ssa-mir-24a-2 ssa|mirBase:ssa-mir-24a-3 ssa|mirBase:ssa-mir-24a-1 ssa|mirBase:ssa-mir-24b chi|mirBase:chi-mir-24 oha|mirBase:oha-mir-24-1 oha|mirBase:oha-mir-24-2
+hsa|mirBase:hsa-mir-27a mmu|mirBase:mmu-mir-27b hsa|mirBase:hsa-mir-27b mmu|mirBase:mmu-mir-27a rno|mirBase:rno-mir-27b rno|mirBase:rno-mir-27a gga|mirBase:gga-mir-27b dre|mirBase:dre-mir-27a dre|mirBase:dre-mir-27b dre|mirBase:dre-mir-27c-1 mml|mirBase:mml-mir-27a bta|mirBase:bta-mir-27a mdo|mirBase:mdo-mir-27a mdo|mirBase:mdo-mir-27b oan|mirBase:oan-mir-27b oan|mirBase:oan-mir-27a mml|mirBase:mml-mir-27b ssc|mirBase:ssc-mir-27b tgu|mirBase:tgu-mir-27 pma|mirBase:pma-mir-27b aca|mirBase:aca-mir-27a aca|mirBase:aca-mir-27b ola|mirBase:ola-mir-27c dre|mirBase:dre-mir-27c-2 cgr|mirBase:cgr-mir-27a cgr|mirBase:cgr-mir-27b ccr|mirBase:ccr-mir-27c ssa|mirBase:ssa-mir-27a-1 ssa|mirBase:ssa-mir-27a-2 ssa|mirBase:ssa-mir-27b-1 ssa|mirBase:ssa-mir-27b-2 ssa|mirBase:ssa-mir-27c-1 ssa|mirBase:ssa-mir-27c-2 ssa|mirBase:ssa-mir-27d chi|mirBase:chi-mir-27a chi|mirBase:chi-mir-27b oha|mirBase:oha-mir-27a oha|mirBase:oha-mir-27b
+hsa|mirBase:hsa-mir-26a-1 hsa|mirBase:hsa-mir-26b mmu|mirBase:mmu-mir-26a-1 mmu|mirBase:mmu-mir-26b mmu|mirBase:mmu-mir-26a-2 hsa|mirBase:hsa-mir-26a-2 rno|mirBase:rno-mir-26a rno|mirBase:rno-mir-26b gga|mirBase:gga-mir-26a dre|mirBase:dre-mir-26a-1 dre|mirBase:dre-mir-26a-2 mml|mirBase:mml-mir-26a-1 oan|mirBase:oan-mir-26-1 mml|mirBase:mml-mir-26a-2 mml|mirBase:mml-mir-26b mdo|mirBase:mdo-mir-26-2 mdo|mirBase:mdo-mir-26-3 mdo|mirBase:mdo-mir-26-1 tgu|mirBase:tgu-mir-26-1 tgu|mirBase:tgu-mir-26-2 pma|mirBase:pma-mir-26a-1 pma|mirBase:pma-mir-26a-2 pma|mirBase:pma-mir-26b aca|mirBase:aca-mir-26-1 aca|mirBase:aca-mir-26-2 cgr|mirBase:cgr-mir-26b oan|mirBase:oan-mir-26-2 ssa|mirBase:ssa-mir-26a-1 ssa|mirBase:ssa-mir-26a-2 ssa|mirBase:ssa-mir-26a-3 ssa|mirBase:ssa-mir-26a-4 ssa|mirBase:ssa-mir-26a-5 ssa|mirBase:ssa-mir-26a-6 ssa|mirBase:ssa-mir-26b ssa|mirBase:ssa-mir-26d chi|mirBase:chi-mir-26a chi|mirBase:chi-mir-26b oha|mirBase:oha-mir-26-1 oha|mirBase:oha-mir-26-2 oha|mirBase:oha-mir-26-3
+hsa|mirBase:hsa-mir-29a hsa|mirBase:hsa-mir-29b-1 hsa|mirBase:hsa-mir-29b-2 mmu|mirBase:mmu-mir-29b-1 dme|mirBase:dme-mir-285 mmu|mirBase:mmu-mir-29a mmu|mirBase:mmu-mir-29c mmu|mirBase:mmu-mir-29b-2 hsa|mirBase:hsa-mir-29c rno|mirBase:rno-mir-29b-2 rno|mirBase:rno-mir-29a rno|mirBase:rno-mir-29b-1 rno|mirBase:rno-mir-29c-1 gga|mirBase:gga-mir-29a gga|mirBase:gga-mir-29b-1 gga|mirBase:gga-mir-29c gga|mirBase:gga-mir-29b-2 mml|mirBase:mml-mir-29a xtr|mirBase:xtr-mir-29c mdo|mirBase:mdo-mir-29b-1 mdo|mirBase:mdo-mir-29a-1 oan|mirBase:oan-mir-29a-1 oan|mirBase:oan-mir-29b-1 oan|mirBase:oan-mir-29a-2 mml|mirBase:mml-mir-29b-1 mml|mirBase:mml-mir-29b-2 mml|mirBase:mml-mir-29c bta|mirBase:bta-mir-29d bfl|mirBase:bfl-mir-29a bfl|mirBase:bfl-mir-29b sko|mirBase:sko-mir-29b cqu|mirBase:cqu-mir-285 tgu|mirBase:tgu-mir-29a-1 tgu|mirBase:tgu-mir-29a-2 tgu|mirBase:tgu-mir-29b-1 tgu|mirBase:tgu-mir-29b-2 tca|mirBase:tca-mir-29 pma|mirBase:pma-mir-29a pma|mirBase:pma-mir-29d aca|mirBase:aca-mir-29a-1 aca|mirBase:aca-mir-29a-2 cgr|mirBase:cgr-mir-29a cgr|mirBase:cgr-mir-29b cgr|mirBase:cgr-mir-29c mdo|mirBase:mdo-mir-29a-2 mdo|mirBase:mdo-mir-29b-2 bbe|mirBase:bbe-mir-29a bbe|mirBase:bbe-mir-29b ssa|mirBase:ssa-mir-29a ssa|mirBase:ssa-mir-29b-1 ssa|mirBase:ssa-mir-29b-2 ssa|mirBase:ssa-mir-29b-3 ssa|mirBase:ssa-mir-29b-4 ssa|mirBase:ssa-mir-29c chi|mirBase:chi-mir-29a chi|mirBase:chi-mir-29b chi|mirBase:chi-mir-29c oha|mirBase:oha-mir-29a-1 oha|mirBase:oha-mir-29b-1 oha|mirBase:oha-mir-29b-2 oha|mirBase:oha-mir-29a-2 rno|mirBase:rno-mir-29c-2 rno|mirBase:rno-mir-29b-3
+hsa|mirBase:hsa-mir-28 mmu|mirBase:mmu-mir-151 rno|mirBase:rno-mir-151 mmu|mirBase:mmu-mir-28a hsa|mirBase:hsa-mir-151a rno|mirBase:rno-mir-28 ssc|mirBase:ssc-mir-28 mml|mirBase:mml-mir-28 bta|mirBase:bta-mir-151 mml|mirBase:mml-mir-151 eca|mirBase:eca-mir-28 ssc|mirBase:ssc-mir-151 ppy|mirBase:ppy-mir-151a rno|mirBase:rno-mir-3586 cgr|mirBase:cgr-mir-151 cgr|mirBase:cgr-mir-28 chi|mirBase:chi-mir-151 chi|mirBase:chi-mir-28
+mmu|mirBase:mmu-mir-3072 cgr|mirBase:cgr-mir-3072
+mmu|mirBase:mmu-mir-3075
+hsa|mirBase:hsa-mir-939
+cte|mirBase:cte-mir-2686a
+osa|mirBase:osa-MIR1437b
+hsa|mirBase:hsa-mir-3173
+osa|mirBase:osa-MIR1846d osa|mirBase:osa-MIR1846a osa|mirBase:osa-MIR1846b osa|mirBase:osa-MIR1846c
+bfl|mirBase:bfl-mir-2076 bbe|mirBase:bbe-mir-2076
+ata|mirBase:ata-MIR9677
+bfl|mirBase:bfl-mir-2072 bbe|mirBase:bbe-mir-2072
+tur|mirBase:tur-mir-5729b tur|mirBase:tur-mir-5729a
+bfl|mirBase:bfl-mir-2070 bbe|mirBase:bbe-mir-2070
+bfl|mirBase:bfl-mir-2071 bbe|mirBase:bbe-mir-2071-1 bbe|mirBase:bbe-mir-2071-2
+mmu|mirBase:mmu-mir-448 rno|mirBase:rno-mir-448
+sbi|mirBase:sbi-MIR5565g
+sbi|mirBase:sbi-MIR437x
+mmu|mirBase:mmu-mir-449a rno|mirBase:rno-mir-449a hsa|mirBase:hsa-mir-449b hsa|mirBase:hsa-mir-449c mmu|mirBase:mmu-mir-449c xtr|mirBase:xtr-mir-449a mdo|mirBase:mdo-mir-449a oan|mirBase:oan-mir-449b gga|mirBase:gga-mir-449b mml|mirBase:mml-mir-449a mml|mirBase:mml-mir-449b sko|mirBase:sko-mir-34 rno|mirBase:rno-mir-449c xtr|mirBase:xtr-mir-449b xtr|mirBase:xtr-mir-449c aca|mirBase:aca-mir-449c mdo|mirBase:mdo-mir-449c chi|mirBase:chi-mir-449a chi|mirBase:chi-mir-449b oha|mirBase:oha-mir-449a oha|mirBase:oha-mir-449c
+ath|mirBase:ath-MIR2111a ath|mirBase:ath-MIR2111b bna|mirBase:bna-MIR2111b bna|mirBase:bna-MIR2111a mtr|mirBase:mtr-MIR2111d mtr|mirBase:mtr-MIR2111e mtr|mirBase:mtr-MIR2111g mtr|mirBase:mtr-MIR2111m aly|mirBase:aly-MIR2111a aly|mirBase:aly-MIR2111b lja|mirBase:lja-MIR2111 bra|mirBase:bra-MIR2111a bra|mirBase:bra-MIR2111b mtr|mirBase:mtr-MIR2111a aly|mirBase:aly-MIR2111c bra|mirBase:bra-MIR2111
+sbi|mirBase:sbi-MIR5568b sbi|mirBase:sbi-MIR5568c sbi|mirBase:sbi-MIR5568d sbi|mirBase:sbi-MIR5568e sbi|mirBase:sbi-MIR5568f
+mmu|mirBase:mmu-mir-431 hsa|mirBase:hsa-mir-431
+dre|mirBase:dre-mir-430b-1 dre|mirBase:dre-mir-430c-1 dre|mirBase:dre-mir-430c-2 dre|mirBase:dre-mir-430c-3 dre|mirBase:dre-mir-430c-4 dre|mirBase:dre-mir-430c-5 dre|mirBase:dre-mir-430c-6 dre|mirBase:dre-mir-430c-7 dre|mirBase:dre-mir-430c-8 dre|mirBase:dre-mir-430c-9 dre|mirBase:dre-mir-430c-10 dre|mirBase:dre-mir-430c-11 dre|mirBase:dre-mir-430c-12 dre|mirBase:dre-mir-430c-13 dre|mirBase:dre-mir-430c-14 dre|mirBase:dre-mir-430c-15 dre|mirBase:dre-mir-430c-16 dre|mirBase:dre-mir-430c-17 dre|mirBase:dre-mir-430c-18 dre|mirBase:dre-mir-430a-2 dre|mirBase:dre-mir-430a-3 dre|mirBase:dre-mir-430a-4 dre|mirBase:dre-mir-430a-5 dre|mirBase:dre-mir-430a-6 dre|mirBase:dre-mir-430a-7 dre|mirBase:dre-mir-430a-8 dre|mirBase:dre-mir-430a-9 dre|mirBase:dre-mir-430a-10 dre|mirBase:dre-mir-430a-11 dre|mirBase:dre-mir-430a-12 dre|mirBase:dre-mir-430a-13 dre|mirBase:dre-mir-430a-14 dre|mirBase:dre-mir-430a-15 dre|mirBase:dre-mir-430a-16 dre|mirBase:dre-mir-430a-17 dre|mirBase:dre-mir-430i-1 dre|mirBase:dre-mir-430i-2 dre|mirBase:dre-mir-430i-3 dre|mirBase:dre-mir-430b-2 dre|mirBase:dre-mir-430b-3 dre|mirBase:dre-mir-430b-4 dre|mirBase:dre-mir-430b-6 dre|mirBase:dre-mir-430b-7 dre|mirBase:dre-mir-430b-8 dre|mirBase:dre-mir-430b-9 dre|mirBase:dre-mir-430b-10 dre|mirBase:dre-mir-430b-11 dre|mirBase:dre-mir-430b-12 dre|mirBase:dre-mir-430b-13 dre|mirBase:dre-mir-430b-14 dre|mirBase:dre-mir-430b-15 dre|mirBase:dre-mir-430b-16 dre|mirBase:dre-mir-430b-17 dre|mirBase:dre-mir-430b-18 dre|mirBase:dre-mir-430b-5 dre|mirBase:dre-mir-430b-19 dre|mirBase:dre-mir-430b-20 ssa|mirBase:ssa-mir-430a ssa|mirBase:ssa-mir-430c
+mmu|mirBase:mmu-mir-433 hsa|mirBase:hsa-mir-433 rno|mirBase:rno-mir-433 mml|mirBase:mml-mir-433 oar|mirBase:oar-mir-433
+hsa|mirBase:hsa-mir-432 mml|mirBase:mml-mir-432 ssc|mirBase:ssc-mir-432 chi|mirBase:chi-mir-432
+mmu|mirBase:mmu-mir-434 rno|mirBase:rno-mir-434-1
+ppt|mirBase:ppt-MIR533a ppt|mirBase:ppt-MIR533b
+osa|mirBase:osa-MIR530
+gga|mirBase:gga-mir-7480-1 gga|mirBase:gga-mir-7480-2
+gga|mirBase:gga-mir-7482-1 gga|mirBase:gga-mir-7482-2 gga|mirBase:gga-mir-7482-3 gga|mirBase:gga-mir-7482-4 gga|mirBase:gga-mir-7482-5 gga|mirBase:gga-mir-7482-6
+osa|mirBase:osa-MIR535
+ptc|mirBase:ptc-MIR6425a ptc|mirBase:ptc-MIR6425b ptc|mirBase:ptc-MIR6425c ptc|mirBase:ptc-MIR6425d
+cin|mirBase:cin-mir-4000d cin|mirBase:cin-mir-4000a-1 cin|mirBase:cin-mir-4000b-1 cin|mirBase:cin-mir-4000a-2 cin|mirBase:cin-mir-4000b-2
+ppc|mirBase:ppc-mir-8286a ppc|mirBase:ppc-mir-8286b
+aly|mirBase:aly-MIR163
+hsa|mirBase:hsa-mir-95 rno|mirBase:rno-mir-421 hsa|mirBase:hsa-mir-545 mmu|mirBase:mmu-mir-1264 bta|mirBase:bta-mir-545 mmu|mirBase:mmu-mir-421 mml|mirBase:mml-mir-95 ssc|mirBase:ssc-mir-421 ssc|mirBase:ssc-mir-545 chi|mirBase:chi-mir-545
+hsa|mirBase:hsa-mir-96 mmu|mirBase:mmu-mir-96 rno|mirBase:rno-mir-96 dre|mirBase:dre-mir-96 oan|mirBase:oan-mir-96 bfl|mirBase:bfl-mir-96 bbe|mirBase:bbe-mir-96 ssa|mirBase:ssa-mir-96-1 ssa|mirBase:ssa-mir-96-2
+cel|mirBase:cel-mir-90 cbr|mirBase:cbr-mir-90b
+bmo|mirBase:bmo-mir-2778a-1 bmo|mirBase:bmo-mir-2778c bmo|mirBase:bmo-mir-2778a-3 bmo|mirBase:bmo-mir-2778d bmo|mirBase:bmo-mir-2778b bmo|mirBase:bmo-mir-2778a-2 bmo|mirBase:bmo-mir-2778a-4
+cin|mirBase:cin-mir-92c cin|mirBase:cin-mir-92d
+cre|mirBase:cre-MIR1144a
+tca|mirBase:tca-mir-3806 tca|mirBase:tca-mir-3808 tca|mirBase:tca-mir-3811c-1 tca|mirBase:tca-mir-3811d tca|mirBase:tca-mir-3811c-2 tca|mirBase:tca-mir-3811e tca|mirBase:tca-mir-3811b tca|mirBase:tca-mir-3811a
+mmu|mirBase:mmu-mir-3084-1 mmu|mirBase:mmu-mir-3084-2 rno|mirBase:rno-mir-3084a rno|mirBase:rno-mir-3084b-1 rno|mirBase:rno-mir-3084b-2 rno|mirBase:rno-mir-3084c
+mmu|mirBase:mmu-mir-3085
+sja|mirBase:sja-mir-190 sma|mirBase:sma-mir-190
+cin|mirBase:cin-mir-1473
+mmu|mirBase:mmu-mir-6715
+dps|mirBase:dps-mir-2574a
+ath|mirBase:ath-MIR447a ath|mirBase:ath-MIR447c
+osa|mirBase:osa-MIR444a osa|mirBase:osa-MIR444b osa|mirBase:osa-MIR444c osa|mirBase:osa-MIR444d
+ata|mirBase:ata-MIR9674a ata|mirBase:ata-MIR9674b
+bbe|mirBase:bbe-mir-4856a
+bbe|mirBase:bbe-mir-4857
+ppe|mirBase:ppe-MIR6291c
+bfl|mirBase:bfl-mir-4859 bbe|mirBase:bbe-mir-4859
+tae|mirBase:tae-MIR9657b
+sly|mirBase:sly-MIR5302b
+cel|mirBase:cel-mir-5592-1 cel|mirBase:cel-mir-5592-2
+cel|mirBase:cel-mir-5593-1 cel|mirBase:cel-mir-5593-2
+hsa|mirBase:hsa-mir-1207 ppy|mirBase:ppy-mir-1207
+mml|mirBase:mml-mir-6529
+cel|mirBase:cel-let-7 hsa|mirBase:hsa-let-7a-1 hsa|mirBase:hsa-let-7a-2 hsa|mirBase:hsa-let-7a-3 hsa|mirBase:hsa-let-7b hsa|mirBase:hsa-let-7c hsa|mirBase:hsa-let-7d hsa|mirBase:hsa-let-7e hsa|mirBase:hsa-let-7f-1 hsa|mirBase:hsa-let-7f-2 hsa|mirBase:hsa-mir-98 mmu|mirBase:mmu-let-7g mmu|mirBase:mmu-let-7i mmu|mirBase:mmu-let-7d dme|mirBase:dme-let-7 hsa|mirBase:hsa-let-7g hsa|mirBase:hsa-let-7i mmu|mirBase:mmu-let-7a-1 mmu|mirBase:mmu-let-7a-2 mmu|mirBase:mmu-let-7b mmu|mirBase:mmu-let-7c-1 mmu|mirBase:mmu-let-7c-2 mmu|mirBase:mmu-let-7e mmu|mirBase:mmu-let-7f-1 mmu|mirBase:mmu-let-7f-2 mmu|mirBase:mmu-mir-98 rno|mirBase:rno-let-7d rno|mirBase:rno-let-7a-1 rno|mirBase:rno-let-7a-2 rno|mirBase:rno-let-7b rno|mirBase:rno-let-7c-1 rno|mirBase:rno-let-7c-2 rno|mirBase:rno-let-7e rno|mirBase:rno-let-7f-1 rno|mirBase:rno-let-7f-2 rno|mirBase:rno-let-7i rno|mirBase:rno-mir-98 gga|mirBase:gga-let-7a-3 gga|mirBase:gga-let-7c gga|mirBase:gga-let-7g gga|mirBase:gga-let-7f gga|mirBase:gga-let-7a-2 gga|mirBase:gga-let-7j gga|mirBase:gga-let-7k dre|mirBase:dre-let-7c-1 dre|mirBase:dre-let-7c-2 dre|mirBase:dre-let-7d-1 dre|mirBase:dre-let-7d-2 bmo|mirBase:bmo-let-7 mdo|mirBase:mdo-let-7a-2 mdo|mirBase:mdo-let-7g mdo|mirBase:mdo-let-7i mdo|mirBase:mdo-let-7f-2 mdo|mirBase:mdo-let-7f-1 bta|mirBase:bta-let-7a-3 oan|mirBase:oan-let-7b oan|mirBase:oan-let-7e oan|mirBase:oan-let-7g oan|mirBase:oan-let-7f-2 oan|mirBase:oan-let-7d oan|mirBase:oan-let-7f-1 cin|mirBase:cin-let-7a-1 cin|mirBase:cin-let-7a-2 cin|mirBase:cin-let-7b cin|mirBase:cin-let-7d mml|mirBase:mml-let-7a-2 mml|mirBase:mml-let-7a-3 mml|mirBase:mml-let-7b mml|mirBase:mml-let-7c mml|mirBase:mml-let-7e mml|mirBase:mml-let-7f-1 mml|mirBase:mml-let-7g mml|mirBase:mml-let-7i tca|mirBase:tca-let-7 bfl|mirBase:bfl-let-7a-1 sma|mirBase:sma-let-7 cqu|mirBase:cqu-let-7 tgu|mirBase:tgu-let-7i tgu|mirBase:tgu-let-7b tgu|mirBase:tgu-let-7e tgu|mirBase:tgu-let-7a-1 tgu|mirBase:tgu-let-7a-2 tgu|mirBase:tgu-let-7a-4 tgu|mirBase:tgu-let-7c-1 tgu|mirBase:tgu-let-7c-2 tgu|mirBase:tgu-let-7g-1 tgu|mirBase:tgu-let-7g-2 tgu|mirBase:tgu-let-7f tgu|mirBase:tgu-let-7d pma|mirBase:pma-let-7b asu|mirBase:asu-let-7 aca|mirBase:aca-let-7a aca|mirBase:aca-let-7b aca|mirBase:aca-let-7c-1 aca|mirBase:aca-let-7c-2 aca|mirBase:aca-let-7d aca|mirBase:aca-let-7e aca|mirBase:aca-let-7f-1 aca|mirBase:aca-let-7f-2 aca|mirBase:aca-let-7i aca|mirBase:aca-mir-98 ola|mirBase:ola-let-7a-1 cgr|mirBase:cgr-let-7d cgr|mirBase:cgr-let-7g ssc|mirBase:ssc-let-7d pol|mirBase:pol-let-7b pol|mirBase:pol-let-7a pol|mirBase:pol-let-7d oan|mirBase:oan-let-7c-1 oan|mirBase:oan-let-7c-2 bbe|mirBase:bbe-let-7a-1 bbe|mirBase:bbe-let-7a-2 ssa|mirBase:ssa-let-7j ssa|mirBase:ssa-let-7c-1 ssa|mirBase:ssa-let-7c-2 ssa|mirBase:ssa-let-7f ssa|mirBase:ssa-let-7g-1 ssa|mirBase:ssa-let-7g-2 ssa|mirBase:ssa-let-7h ssa|mirBase:ssa-let-7i-1 ssa|mirBase:ssa-let-7i-2 ssa|mirBase:ssa-let-7a-1 ssa|mirBase:ssa-let-7a-3 ssa|mirBase:ssa-let-7a-2 ssa|mirBase:ssa-let-7a-4 ssa|mirBase:ssa-let-7a-5 ssa|mirBase:ssa-let-7b-1 ssa|mirBase:ssa-let-7b-2 ssa|mirBase:ssa-let-7d-1 ssa|mirBase:ssa-let-7d-2 ssa|mirBase:ssa-let-7e-1 ssa|mirBase:ssa-let-7e-2 rno|mirBase:rno-let-7g chi|mirBase:chi-let-7a chi|mirBase:chi-let-7b chi|mirBase:chi-let-7c chi|mirBase:chi-let-7d chi|mirBase:chi-let-7e chi|mirBase:chi-let-7f chi|mirBase:chi-let-7g chi|mirBase:chi-let-7i chi|mirBase:chi-mir-98 tch|mirBase:tch-let-7a oha|mirBase:oha-let-7a-2 oha|mirBase:oha-let-7f-1 oha|mirBase:oha-let-7c-1 oha|mirBase:oha-let-7c-2 oha|mirBase:oha-let-7c-3 oha|mirBase:oha-let-7b oha|mirBase:oha-let-7d oha|mirBase:oha-let-7f-2 oha|mirBase:oha-let-7a-3 oha|mirBase:oha-let-7g oha|mirBase:oha-let-7i oha|mirBase:oha-let-7e oha|mirBase:oha-mir-98
+mmu|mirBase:mmu-mir-7676-1 mmu|mirBase:mmu-mir-7676-2
+hsa|mirBase:hsa-mir-4680
+aly|mirBase:aly-MIR848
+mmu|mirBase:mmu-mir-299a hsa|mirBase:hsa-mir-299 rno|mirBase:rno-mir-299a mml|mirBase:mml-mir-299 ppy|mirBase:ppy-mir-299 rno|mirBase:rno-mir-299b oar|mirBase:oar-mir-299 mmu|mirBase:mmu-mir-299b
+mmu|mirBase:mmu-mir-298 rno|mirBase:rno-mir-298 cgr|mirBase:cgr-mir-298
+aly|mirBase:aly-MIR842
+mmu|mirBase:mmu-mir-297b mmu|mirBase:mmu-mir-297a-3 mmu|mirBase:mmu-mir-297a-4 mmu|mirBase:mmu-mir-297c
+mmu|mirBase:mmu-mir-296 hsa|mirBase:hsa-mir-296 rno|mirBase:rno-mir-296 mml|mirBase:mml-mir-296 bta|mirBase:bta-mir-296 ppy|mirBase:ppy-mir-296 ssc|mirBase:ssc-mir-296
+ath|mirBase:ath-MIR846 aly|mirBase:aly-MIR846
+mmu|mirBase:mmu-mir-290a mmu|mirBase:mmu-mir-291a mmu|mirBase:mmu-mir-292a mmu|mirBase:mmu-mir-293 mmu|mirBase:mmu-mir-294 mmu|mirBase:mmu-mir-295 hsa|mirBase:hsa-mir-371a hsa|mirBase:hsa-mir-372 rno|mirBase:rno-mir-291a rno|mirBase:rno-mir-292 mmu|mirBase:mmu-mir-291b mml|mirBase:mml-mir-371-1 mml|mirBase:mml-mir-372 rno|mirBase:rno-mir-293 rno|mirBase:rno-mir-295-1 eca|mirBase:eca-mir-371 ppy|mirBase:ppy-mir-371 rno|mirBase:rno-mir-295-2 hsa|mirBase:hsa-mir-371b mml|mirBase:mml-mir-371-2 ocu|mirBase:ocu-mir-290
+ath|mirBase:ath-MIR844 aly|mirBase:aly-MIR844
+ppe|mirBase:ppe-MIR6288b ppe|mirBase:ppe-MIR6288c
+gma|mirBase:gma-MIR4414 mtr|mirBase:mtr-MIR4414a
+tgu|mirBase:tgu-mir-2954
+hsa|mirBase:hsa-mir-505 rno|mirBase:rno-mir-505 mmu|mirBase:mmu-mir-505 mml|mirBase:mml-mir-505 cgr|mirBase:cgr-mir-505
+hsa|mirBase:hsa-mir-504 mmu|mirBase:mmu-mir-504 mml|mirBase:mml-mir-504
+hsa|mirBase:hsa-mir-511 hsa|mirBase:hsa-mir-512-1 hsa|mirBase:hsa-mir-512-2 hsa|mirBase:hsa-mir-513a-1 hsa|mirBase:hsa-mir-513a-2 hsa|mirBase:hsa-mir-506 hsa|mirBase:hsa-mir-508 hsa|mirBase:hsa-mir-509-1 hsa|mirBase:hsa-mir-510 hsa|mirBase:hsa-mir-514a-1 hsa|mirBase:hsa-mir-514a-2 hsa|mirBase:hsa-mir-514a-3 mmu|mirBase:mmu-mir-509 hsa|mirBase:hsa-mir-509-2 mmu|mirBase:mmu-mir-511 hsa|mirBase:hsa-mir-509-3 mml|mirBase:mml-mir-506 mml|mirBase:mml-mir-508 mml|mirBase:mml-mir-510 mml|mirBase:mml-mir-514a hsa|mirBase:hsa-mir-513b hsa|mirBase:hsa-mir-513c mml|mirBase:mml-mir-511 eca|mirBase:eca-mir-508 hsa|mirBase:hsa-mir-514b ppy|mirBase:ppy-mir-508 ppy|mirBase:ppy-mir-509-1 ppy|mirBase:ppy-mir-509-2 ppy|mirBase:ppy-mir-509-3 ppy|mirBase:ppy-mir-513a-1 ppy|mirBase:ppy-mir-513a-2 rno|mirBase:rno-mir-3585 mml|mirBase:mml-mir-514b rno|mirBase:rno-mir-509
+hsa|mirBase:hsa-mir-500a hsa|mirBase:hsa-mir-501 hsa|mirBase:hsa-mir-502 rno|mirBase:rno-mir-501 mmu|mirBase:mmu-mir-500 mmu|mirBase:mmu-mir-501 rno|mirBase:rno-mir-500 mml|mirBase:mml-mir-500a mml|mirBase:mml-mir-501 mml|mirBase:mml-mir-502 eca|mirBase:eca-mir-502 ppy|mirBase:ppy-mir-502 hsa|mirBase:hsa-mir-500b cgr|mirBase:cgr-mir-501 mml|mirBase:mml-mir-500b chi|mirBase:chi-mir-500 chi|mirBase:chi-mir-502b
+hsa|mirBase:hsa-mir-503 mmu|mirBase:mmu-mir-503 rno|mirBase:rno-mir-503-1 mml|mirBase:mml-mir-503 bta|mirBase:bta-mir-503 rno|mirBase:rno-mir-503-2
+hsa|mirBase:hsa-mir-1277
+hsa|mirBase:hsa-mir-1271 mml|mirBase:mml-mir-1271 chi|mirBase:chi-mir-1271
+hsa|mirBase:hsa-mir-1273g
+cte|mirBase:cte-mir-2703-1 cte|mirBase:cte-mir-2703-2
+bmo|mirBase:bmo-mir-3327
+bdi|mirBase:bdi-MIR7726a bdi|mirBase:bdi-MIR7726b
+bdi|mirBase:bdi-MIR7725a bdi|mirBase:bdi-MIR7725b
+sma|mirBase:sma-mir-61
+bdi|mirBase:bdi-MIR7724a bdi|mirBase:bdi-MIR7724b
+dme|mirBase:dme-mir-310 dme|mirBase:dme-mir-311 dme|mirBase:dme-mir-313 dps|mirBase:dps-mir-311 dps|mirBase:dps-mir-2507b
+hsa|mirBase:hsa-mir-1298 mmu|mirBase:mmu-mir-1298 mml|mirBase:mml-mir-1298
+ppc|mirBase:ppc-mir-2253c ppc|mirBase:ppc-mir-2253d
+hsa|mirBase:hsa-mir-1292
+hsa|mirBase:hsa-mir-1296 ssc|mirBase:ssc-mir-1296 mml|mirBase:mml-mir-1296
+mmu|mirBase:mmu-mir-202 dre|mirBase:dre-mir-202 hsa|mirBase:hsa-mir-202 gga|mirBase:gga-mir-202 xtr|mirBase:xtr-mir-202-1 xtr|mirBase:xtr-mir-202-2 rno|mirBase:rno-mir-202 ssc|mirBase:ssc-mir-202 aca|mirBase:aca-mir-202 ssa|mirBase:ssa-mir-202 chi|mirBase:chi-mir-202 oha|mirBase:oha-mir-202
+mmu|mirBase:mmu-mir-203 hsa|mirBase:hsa-mir-203a rno|mirBase:rno-mir-203a dre|mirBase:dre-mir-203a dre|mirBase:dre-mir-203b tgu|mirBase:tgu-mir-203 rno|mirBase:rno-mir-203b pma|mirBase:pma-mir-203a pma|mirBase:pma-mir-203b hsa|mirBase:hsa-mir-203b aca|mirBase:aca-mir-203 pol|mirBase:pol-mir-203 ccr|mirBase:ccr-mir-203b ssa|mirBase:ssa-mir-203a-1 ssa|mirBase:ssa-mir-203a-2 ssa|mirBase:ssa-mir-203b oha|mirBase:oha-mir-203
+cin|mirBase:cin-mir-200
+sme|mirBase:sme-mir-753b sme|mirBase:sme-mir-753e sme|mirBase:sme-mir-753d
+sme|mirBase:sme-mir-754b-1 sme|mirBase:sme-mir-754c-1 sme|mirBase:sme-mir-754c-2 sme|mirBase:sme-mir-754b-2
+mmu|mirBase:mmu-mir-204 hsa|mirBase:hsa-mir-204 hsa|mirBase:hsa-mir-211 mmu|mirBase:mmu-mir-211 rno|mirBase:rno-mir-204 rno|mirBase:rno-mir-211 dre|mirBase:dre-mir-204-1 dre|mirBase:dre-mir-204-2 oan|mirBase:oan-mir-204 mml|mirBase:mml-mir-204 pma|mirBase:pma-mir-204 aca|mirBase:aca-mir-204a-2 ssa|mirBase:ssa-mir-204-1 ssa|mirBase:ssa-mir-204-2 ssa|mirBase:ssa-mir-204-3 ssa|mirBase:ssa-mir-204-4 chi|mirBase:chi-mir-204 oha|mirBase:oha-mir-204-1 oha|mirBase:oha-mir-204-2
+mmu|mirBase:mmu-mir-205 hsa|mirBase:hsa-mir-205 dre|mirBase:dre-mir-205 oan|mirBase:oan-mir-205 pma|mirBase:pma-mir-205a ssa|mirBase:ssa-mir-205b-1 ssa|mirBase:ssa-mir-205b-2 ssa|mirBase:ssa-mir-205b-3 ssa|mirBase:ssa-mir-205b-4 oha|mirBase:oha-mir-205a oha|mirBase:oha-mir-205b ssa|mirBase:ssa-mir-205a-1 ssa|mirBase:ssa-mir-205a-2
+hsa|mirBase:hsa-mir-208a mmu|mirBase:mmu-mir-208a rno|mirBase:rno-mir-208a mmu|mirBase:mmu-mir-208b hsa|mirBase:hsa-mir-208b oan|mirBase:oan-mir-208 mml|mirBase:mml-mir-208a mml|mirBase:mml-mir-208b rno|mirBase:rno-mir-208b aca|mirBase:aca-mir-208 mdo|mirBase:mdo-mir-208b ssa|mirBase:ssa-mir-736 oha|mirBase:oha-mir-208
+mml|mirBase:mml-mir-5697
+ppc|mirBase:ppc-mir-8303-1 ppc|mirBase:ppc-mir-8303-2
+mmu|mirBase:mmu-mir-702 rno|mirBase:rno-mir-702
+mmu|mirBase:mmu-mir-592 mml|mirBase:mml-mir-592
+hsa|mirBase:hsa-mir-593
+hsa|mirBase:hsa-mir-590 mmu|mirBase:mmu-mir-590 oan|mirBase:oan-mir-590 mml|mirBase:mml-mir-590 eca|mirBase:eca-mir-590 ppy|mirBase:ppy-mir-590
+mmu|mirBase:mmu-mir-1193 rno|mirBase:rno-mir-1193 oar|mirBase:oar-mir-1193
+hsa|mirBase:hsa-mir-597
+mmu|mirBase:mmu-mir-1199 hsa|mirBase:hsa-mir-1199 ppy|mirBase:ppy-mir-1199 cfa|mirBase:cfa-mir-1199 rno|mirBase:rno-mir-1199 ptr|mirBase:ptr-mir-1199
+hsa|mirBase:hsa-mir-598 mmu|mirBase:mmu-mir-598 rno|mirBase:rno-mir-598-1 mml|mirBase:mml-mir-598 rno|mirBase:rno-mir-598-2
+mml|mirBase:mml-mir-599 mdo|mirBase:mdo-mir-599
+hsa|mirBase:hsa-mir-615 mmu|mirBase:mmu-mir-615 mml|mirBase:mml-mir-615 eca|mirBase:eca-mir-615 ppy|mirBase:ppy-mir-615 cgr|mirBase:cgr-mir-615
+mmu|mirBase:mmu-mir-320 rno|mirBase:rno-mir-320
+dme|mirBase:dme-mir-978
+dme|mirBase:dme-mir-927 tca|mirBase:tca-mir-927a bmo|mirBase:bmo-mir-927 dps|mirBase:dps-mir-927 dsi|mirBase:dsi-mir-927
+mmu|mirBase:mmu-mir-873a hsa|mirBase:hsa-mir-873 rno|mirBase:rno-mir-873 oan|mirBase:oan-mir-873 mml|mirBase:mml-mir-873 mdo|mirBase:mdo-mir-873 chi|mirBase:chi-mir-873
+mmu|mirBase:mmu-mir-872 rno|mirBase:rno-mir-872 cgr|mirBase:cgr-mir-872
+hsa|mirBase:hsa-mir-875 mmu|mirBase:mmu-mir-875 oan|mirBase:oan-mir-875 mml|mirBase:mml-mir-875 mdo|mirBase:mdo-mir-875 ppy|mirBase:ppy-mir-875 oha|mirBase:oha-mir-875
+mmu|mirBase:mmu-mir-874 hsa|mirBase:hsa-mir-874 rno|mirBase:rno-mir-874 mml|mirBase:mml-mir-874 chi|mirBase:chi-mir-874
+mmu|mirBase:mmu-mir-877 hsa|mirBase:hsa-mir-877 mml|mirBase:mml-mir-877 chi|mirBase:chi-mir-877
+mmu|mirBase:mmu-mir-876 hsa|mirBase:hsa-mir-876 mml|mirBase:mml-mir-876 eca|mirBase:eca-mir-876 ppy|mirBase:ppy-mir-876 chi|mirBase:chi-mir-876
+mmu|mirBase:mmu-mir-879 rno|mirBase:rno-mir-879
+mmu|mirBase:mmu-mir-878
+hsa|mirBase:hsa-mir-3136
+dme|mirBase:dme-mir-973
+hsa|mirBase:hsa-mir-3130-1 hsa|mirBase:hsa-mir-3130-2
+dme|mirBase:dme-mir-975
+dme|mirBase:dme-mir-976
+dme|mirBase:dme-mir-977
+osa|mirBase:osa-MIR1863b
+oar|mirBase:oar-mir-3956
+mmu|mirBase:mmu-mir-7094-1 mmu|mirBase:mmu-mir-7094-2
+gga|mirBase:gga-mir-2131
+cel|mirBase:cel-mir-228
+mmu|mirBase:mmu-mir-471 rno|mirBase:rno-mir-471
+mmu|mirBase:mmu-mir-5132 rno|mirBase:rno-mir-5132
+hsa|mirBase:hsa-mir-1178
+mdo|mirBase:mdo-mir-7359a-1 mdo|mirBase:mdo-mir-7359a-2 mdo|mirBase:mdo-mir-7359a-3 mdo|mirBase:mdo-mir-7359a-4 mdo|mirBase:mdo-mir-7359a-5 mdo|mirBase:mdo-mir-7359b-1 mdo|mirBase:mdo-mir-7359b-2 mdo|mirBase:mdo-mir-7359b-3 mdo|mirBase:mdo-mir-7359b-4
+dme|mirBase:dme-mir-277 bmo|mirBase:bmo-mir-277 tca|mirBase:tca-mir-277 aae|mirBase:aae-mir-277
+dme|mirBase:dme-mir-276a dme|mirBase:dme-mir-276b aga|mirBase:aga-mir-276 bmo|mirBase:bmo-mir-276 tca|mirBase:tca-mir-276 dgr|mirBase:dgr-mir-276b dgr|mirBase:dgr-mir-276a dwi|mirBase:dwi-mir-276a dwi|mirBase:dwi-mir-276b lmi|mirBase:lmi-mir-276 aae|mirBase:aae-mir-276-1 cqu|mirBase:cqu-mir-276-1 cqu|mirBase:cqu-mir-276-2 cqu|mirBase:cqu-mir-276-3 tur|mirBase:tur-mir-276
+dme|mirBase:dme-mir-275 bmo|mirBase:bmo-mir-275 tca|mirBase:tca-mir-275 aae|mirBase:aae-mir-275
+dme|mirBase:dme-mir-274 bmo|mirBase:bmo-mir-274
+hsa|mirBase:hsa-mir-3117
+hsa|mirBase:hsa-mir-378a mmu|mirBase:mmu-mir-378a rno|mirBase:rno-mir-378a rno|mirBase:rno-mir-3557 cgr|mirBase:cgr-mir-378 chi|mirBase:chi-mir-378
+hsa|mirBase:hsa-mir-379 hsa|mirBase:hsa-mir-380 mmu|mirBase:mmu-mir-379 mmu|mirBase:mmu-mir-380 mmu|mirBase:mmu-mir-411 rno|mirBase:rno-mir-379 hsa|mirBase:hsa-mir-411 hsa|mirBase:hsa-mir-758 mmu|mirBase:mmu-mir-758 bta|mirBase:bta-mir-380 rno|mirBase:rno-mir-380 rno|mirBase:rno-mir-411 rno|mirBase:rno-mir-758 mmu|mirBase:mmu-mir-1197 mml|mirBase:mml-mir-379 mml|mirBase:mml-mir-380 mml|mirBase:mml-mir-411 mml|mirBase:mml-mir-758 oar|mirBase:oar-mir-379 oar|mirBase:oar-mir-411a oar|mirBase:oar-mir-380 oar|mirBase:oar-mir-411b oar|mirBase:oar-mir-1197 oar|mirBase:oar-mir-758 oar|mirBase:oar-mir-3959 bta|mirBase:bta-mir-411c chi|mirBase:chi-mir-379 chi|mirBase:chi-mir-380 chi|mirBase:chi-mir-3959 chi|mirBase:chi-mir-411a chi|mirBase:chi-mir-411b
+oar|mirBase:oar-mir-3957
+gma|mirBase:gma-MIR2109
+hsa|mirBase:hsa-mir-374a rno|mirBase:rno-mir-374 mmu|mirBase:mmu-mir-374b hsa|mirBase:hsa-mir-374b mml|mirBase:mml-mir-374a mml|mirBase:mml-mir-374b ssc|mirBase:ssc-mir-374a ssc|mirBase:ssc-mir-374b mmu|mirBase:mmu-mir-374c hsa|mirBase:hsa-mir-374c cgr|mirBase:cgr-mir-374 chi|mirBase:chi-mir-374a chi|mirBase:chi-mir-374b
+mmu|mirBase:mmu-mir-375 dme|mirBase:dme-mir-375 rno|mirBase:rno-mir-375 dps|mirBase:dps-mir-375 dsi|mirBase:dsi-mir-375 tca|mirBase:tca-mir-375 pma|mirBase:pma-mir-375a pma|mirBase:pma-mir-375b aca|mirBase:aca-mir-375 ssa|mirBase:ssa-mir-375-1 ssa|mirBase:ssa-mir-375-2 ssa|mirBase:ssa-mir-375-3 oha|mirBase:oha-mir-375
+hsa|mirBase:hsa-mir-373
+dme|mirBase:dme-mir-279 tca|mirBase:tca-mir-279a tca|mirBase:tca-mir-279b bmo|mirBase:bmo-mir-279d bmo|mirBase:bmo-mir-279b bmo|mirBase:bmo-mir-279c aae|mirBase:aae-mir-2945 cqu|mirBase:cqu-mir-279 tca|mirBase:tca-mir-279d asu|mirBase:asu-mir-279a asu|mirBase:asu-mir-279b asu|mirBase:asu-mir-279c tur|mirBase:tur-mir-279 pxy|mirBase:pxy-mir-279b
+dme|mirBase:dme-mir-278 bmo|mirBase:bmo-mir-278 aae|mirBase:aae-mir-278
+hsa|mirBase:hsa-mir-3680-1 hsa|mirBase:hsa-mir-3680-2
+hsa|mirBase:hsa-mir-3688-1 hsa|mirBase:hsa-mir-3688-2
+hsa|mirBase:hsa-mir-3689a hsa|mirBase:hsa-mir-3689b
+cel|mirBase:cel-mir-58a crm|mirBase:crm-mir-58b
+cel|mirBase:cel-mir-59
+mdo|mirBase:mdo-mir-7345-1 mdo|mirBase:mdo-mir-7345-2
+chi|mirBase:chi-mir-3432
+mmu|mirBase:mmu-mir-188 hsa|mirBase:hsa-mir-188 mml|mirBase:mml-mir-188 hsa|mirBase:hsa-mir-532 mmu|mirBase:mmu-mir-532 hsa|mirBase:hsa-mir-660 rno|mirBase:rno-mir-188 rno|mirBase:rno-mir-532 mml|mirBase:mml-mir-532 mml|mirBase:mml-mir-660 eca|mirBase:eca-mir-188 eca|mirBase:eca-mir-532 ssc|mirBase:ssc-mir-532 ppy|mirBase:ppy-mir-532 cgr|mirBase:cgr-mir-532 chi|mirBase:chi-mir-188 chi|mirBase:chi-mir-532 tch|mirBase:tch-mir-188
+cel|mirBase:cel-mir-50 crm|mirBase:crm-mir-50 asu|mirBase:asu-mir-50
+cel|mirBase:cel-mir-51
+cel|mirBase:cel-mir-52 cel|mirBase:cel-mir-53 crm|mirBase:crm-mir-52-1 crm|mirBase:crm-mir-52-2
+cel|mirBase:cel-mir-54 cbr|mirBase:cbr-mir-54a
+cel|mirBase:cel-mir-55 crm|mirBase:crm-mir-55
+cel|mirBase:cel-mir-56
+cel|mirBase:cel-mir-57 asu|mirBase:asu-mir-57
+hsa|mirBase:hsa-mir-1537
+stu|mirBase:stu-MIR7993b
+stu|mirBase:stu-MIR7994b
+prd|mirBase:prd-mir-7940b prd|mirBase:prd-mir-7940a
+ppe|mirBase:ppe-MIR7125
+ath|mirBase:ath-MIR408 osa|mirBase:osa-MIR408 ptc|mirBase:ptc-MIR408 zma|mirBase:zma-MIR408b aly|mirBase:aly-MIR408 ahy|mirBase:ahy-MIR408 bdi|mirBase:bdi-MIR408 gma|mirBase:gma-MIR408a gma|mirBase:gma-MIR408b gma|mirBase:gma-MIR408c mtr|mirBase:mtr-MIR408 stu|mirBase:stu-MIR408a stu|mirBase:stu-MIR408b bra|mirBase:bra-MIR408 ata|mirBase:ata-MIR408
+nta|mirBase:nta-MIR6020a
+sly|mirBase:sly-MIR6027
+stu|mirBase:stu-MIR6026
+aly|mirBase:aly-MIR771
+aly|mirBase:aly-MIR402
+ath|mirBase:ath-MIR403 ptc|mirBase:ptc-MIR403c aly|mirBase:aly-MIR403a aly|mirBase:aly-MIR403b sly|mirBase:sly-MIR403 bra|mirBase:bra-MIR403
+aly|mirBase:aly-MIR400
+mml|mirBase:mml-mir-1323
+aly|mirBase:aly-MIR773b ath|mirBase:ath-MIR773b
+ppe|mirBase:ppe-MIR5225
+cin|mirBase:cin-mir-1497
+oan|mirBase:oan-mir-1329 gga|mirBase:gga-mir-1329 tgu|mirBase:tgu-mir-1329 aca|mirBase:aca-mir-1329 oha|mirBase:oha-mir-1329
+bmo|mirBase:bmo-mir-2804-1 bmo|mirBase:bmo-mir-2804-2 bmo|mirBase:bmo-mir-2804-3 bmo|mirBase:bmo-mir-2804-4
+cin|mirBase:cin-mir-1502a
+tur|mirBase:tur-mir-5727 tur|mirBase:tur-mir-5732
+mmu|mirBase:mmu-mir-3618
+mmu|mirBase:mmu-mir-153 hsa|mirBase:hsa-mir-153-2 rno|mirBase:rno-mir-153 gga|mirBase:gga-mir-153 dre|mirBase:dre-mir-153b dre|mirBase:dre-mir-153a dre|mirBase:dre-mir-153c mml|mirBase:mml-mir-153-1 mml|mirBase:mml-mir-153-2 oan|mirBase:oan-mir-153-1 cin|mirBase:cin-mir-153 spu|mirBase:spu-mir-153 mdo|mirBase:mdo-mir-153-2 mdo|mirBase:mdo-mir-153-1 tgu|mirBase:tgu-mir-153-1 tgu|mirBase:tgu-mir-153-2 pma|mirBase:pma-mir-153-1 aca|mirBase:aca-mir-153-2 oan|mirBase:oan-mir-153-2 ssa|mirBase:ssa-mir-153a-1 ssa|mirBase:ssa-mir-153a-2 ssa|mirBase:ssa-mir-153b oha|mirBase:oha-mir-153-1 oha|mirBase:oha-mir-153-2
+mmu|mirBase:mmu-mir-150 hsa|mirBase:hsa-mir-150 rno|mirBase:rno-mir-150 oan|mirBase:oan-mir-150 mml|mirBase:mml-mir-150 mdo|mirBase:mdo-mir-150 aca|mirBase:aca-mir-150
+tur|mirBase:tur-mir-5728-2 tur|mirBase:tur-mir-5728-1
+cfa|mirBase:cfa-mir-8908a-1 cfa|mirBase:cfa-mir-8908a-3 cfa|mirBase:cfa-mir-8908a-4
+mmu|mirBase:mmu-mir-154 mmu|mirBase:mmu-mir-300 hsa|mirBase:hsa-mir-154 rno|mirBase:rno-mir-323 mmu|mirBase:mmu-mir-323 hsa|mirBase:hsa-mir-369 hsa|mirBase:hsa-mir-377 hsa|mirBase:hsa-mir-381 hsa|mirBase:hsa-mir-382 mmu|mirBase:mmu-mir-377 mmu|mirBase:mmu-mir-381 mmu|mirBase:mmu-mir-382 hsa|mirBase:hsa-mir-323a rno|mirBase:rno-mir-154 rno|mirBase:rno-mir-300 mmu|mirBase:mmu-mir-409 mmu|mirBase:mmu-mir-410 hsa|mirBase:hsa-mir-409 hsa|mirBase:hsa-mir-410 hsa|mirBase:hsa-mir-487a hsa|mirBase:hsa-mir-494 rno|mirBase:rno-mir-377 hsa|mirBase:hsa-mir-539 mmu|mirBase:mmu-mir-539 rno|mirBase:rno-mir-539 hsa|mirBase:hsa-mir-487b mmu|mirBase:mmu-mir-494 mmu|mirBase:mmu-mir-487b mmu|mirBase:mmu-mir-369 rno|mirBase:rno-mir-494 rno|mirBase:rno-mir-381 rno|mirBase:rno-mir-487b rno|mirBase:rno-mir-382 rno|mirBase:rno-mir-409a rno|mirBase:rno-mir-369 hsa|mirBase:hsa-mir-655 hsa|mirBase:hsa-mir-656 hsa|mirBase:hsa-mir-1185-2 hsa|mirBase:hsa-mir-1185-1 mmu|mirBase:mmu-mir-496a bta|mirBase:bta-mir-369 rno|mirBase:rno-mir-410 mml|mirBase:mml-mir-154 mml|mirBase:mml-mir-323a mml|mirBase:mml-mir-369 mml|mirBase:mml-mir-377 mml|mirBase:mml-mir-381 mml|mirBase:mml-mir-382 mml|mirBase:mml-mir-409 mml|mirBase:mml-mir-410 mml|mirBase:mml-mir-487b mml|mirBase:mml-mir-494 mml|mirBase:mml-mir-656 rno|mirBase:rno-mir-496 eca|mirBase:eca-mir-323 eca|mirBase:eca-mir-369 eca|mirBase:eca-mir-409 hsa|mirBase:hsa-mir-323b ppy|mirBase:ppy-mir-323 ppy|mirBase:ppy-mir-369 ppy|mirBase:ppy-mir-409 oar|mirBase:oar-mir-323a oar|mirBase:oar-mir-494 oar|mirBase:oar-mir-3958 oar|mirBase:oar-mir-1185 oar|mirBase:oar-mir-381 oar|mirBase:oar-mir-487b oar|mirBase:oar-mir-539 oar|mirBase:oar-mir-655 oar|mirBase:oar-mir-487a oar|mirBase:oar-mir-382 oar|mirBase:oar-mir-154a oar|mirBase:oar-mir-154b oar|mirBase:oar-mir-496 oar|mirBase:oar-mir-377 oar|mirBase:oar-mir-409 oar|mirBase:oar-mir-369 oar|mirBase:oar-mir-410 cgr|mirBase:cgr-mir-154 cgr|mirBase:cgr-mir-369 cgr|mirBase:cgr-mir-377 cgr|mirBase:cgr-mir-409 cgr|mirBase:cgr-mir-410 mml|mirBase:mml-mir-1185-1 mml|mirBase:mml-mir-1185-2 mml|mirBase:mml-mir-323b chi|mirBase:chi-mir-1185 chi|mirBase:chi-mir-154a chi|mirBase:chi-mir-154b chi|mirBase:chi-mir-369 chi|mirBase:chi-mir-382 chi|mirBase:chi-mir-3958 chi|mirBase:chi-mir-409 chi|mirBase:chi-mir-410 chi|mirBase:chi-mir-487a chi|mirBase:chi-mir-487b chi|mirBase:chi-mir-496
+mmu|mirBase:mmu-mir-155 hsa|mirBase:hsa-mir-155 oan|mirBase:oan-mir-155 tgu|mirBase:tgu-mir-155 ssc|mirBase:ssc-mir-155 aca|mirBase:aca-mir-155 rno|mirBase:rno-mir-155 ssa|mirBase:ssa-mir-155-1 ssa|mirBase:ssa-mir-155-2 chi|mirBase:chi-mir-155
+gga|mirBase:gga-mir-1759
+hsa|mirBase:hsa-mir-4677 mml|mirBase:mml-mir-4677
+mdo|mirBase:mdo-mir-1545a mdo|mirBase:mdo-mir-1545b-1 mdo|mirBase:mdo-mir-1545b-2 mdo|mirBase:mdo-mir-1545b-3 mdo|mirBase:mdo-mir-1545c
+gma|mirBase:gma-MIR1516a
+prd|mirBase:prd-mir-7939c prd|mirBase:prd-mir-7939i prd|mirBase:prd-mir-7939f prd|mirBase:prd-mir-7939d prd|mirBase:prd-mir-7939e prd|mirBase:prd-mir-7939h prd|mirBase:prd-mir-7939j prd|mirBase:prd-mir-7939b prd|mirBase:prd-mir-7939g prd|mirBase:prd-mir-7939a
+gma|mirBase:gma-MIR1514a gma|mirBase:gma-MIR1514b
+gma|mirBase:gma-MIR1512a
+gma|mirBase:gma-MIR1513a
+gma|mirBase:gma-MIR1510a mtr|mirBase:mtr-MIR1510b mtr|mirBase:mtr-MIR1510a mtr|mirBase:mtr-MIR2089 gma|mirBase:gma-MIR1510b
+ppe|mirBase:ppe-MIR1511
+mmu|mirBase:mmu-mir-3070-1 mmu|mirBase:mmu-mir-3070-2
+ssa|mirBase:ssa-mir-722-1 ssa|mirBase:ssa-mir-722-2
+mtr|mirBase:mtr-MIR319c
+cel|mirBase:cel-mir-2217a cel|mirBase:cel-mir-2217b-1 cel|mirBase:cel-mir-2217b-2 cel|mirBase:cel-mir-2217b-3 cel|mirBase:cel-mir-2217b-4
+mtr|mirBase:mtr-MIR2619b
+zma|mirBase:zma-MIR398a zma|mirBase:zma-MIR398b
+hsa|mirBase:hsa-mir-4742
+hco|mirBase:hco-mir-5890b hco|mirBase:hco-mir-5890f
+aae|mirBase:aae-mir-1889 cqu|mirBase:cqu-mir-1889
+aca|mirBase:aca-mir-1662
+mdo|mirBase:mdo-mir-1544a mdo|mirBase:mdo-mir-1544b mdo|mirBase:mdo-mir-1544c-1 mdo|mirBase:mdo-mir-1544c-2 mdo|mirBase:mdo-mir-1544c-3 mdo|mirBase:mdo-mir-1544c-4 mdo|mirBase:mdo-mir-1544c-5 mdo|mirBase:mdo-mir-1544c-6 mdo|mirBase:mdo-mir-1544e-1 mdo|mirBase:mdo-mir-1544e-2 mdo|mirBase:mdo-mir-1544e-3 mdo|mirBase:mdo-mir-1544d
+dme|mirBase:dme-mir-957 dps|mirBase:dps-mir-957
+hsa|mirBase:hsa-mir-4662a
+osa|mirBase:osa-MIR810b
+hsa|mirBase:hsa-mir-4667
+osa|mirBase:osa-MIR812n osa|mirBase:osa-MIR812o
+oan|mirBase:oan-mir-1397 gga|mirBase:gga-mir-1397 tgu|mirBase:tgu-mir-1397 oha|mirBase:oha-mir-1397
+sbi|mirBase:sbi-MIR5568g
+ddi|mirBase:ddi-mir-7131a ddi|mirBase:ddi-mir-7131c
+hsa|mirBase:hsa-mir-556 mml|mirBase:mml-mir-556 ppy|mirBase:ppy-mir-556
+dme|mirBase:dme-mir-970 tca|mirBase:tca-mir-970 bmo|mirBase:bmo-mir-970 dps|mirBase:dps-mir-970 dsi|mirBase:dsi-mir-970
+hsa|mirBase:hsa-mir-552
+hsa|mirBase:hsa-mir-550a-1 hsa|mirBase:hsa-mir-550a-2 hsa|mirBase:hsa-mir-550a-3 mml|mirBase:mml-mir-550 hsa|mirBase:hsa-mir-550b-1 hsa|mirBase:hsa-mir-550b-2
+mmu|mirBase:mmu-mir-129-1 hsa|mirBase:hsa-mir-129-1 hsa|mirBase:hsa-mir-129-2 mmu|mirBase:mmu-mir-129-2 rno|mirBase:rno-mir-129-2 rno|mirBase:rno-mir-129-1 dre|mirBase:dre-mir-129-2 dre|mirBase:dre-mir-129-1 mdo|mirBase:mdo-mir-129 oan|mirBase:oan-mir-129 mml|mirBase:mml-mir-129-1 bta|mirBase:bta-mir-129-2 bfl|mirBase:bfl-mir-129a mml|mirBase:mml-mir-129-2 eca|mirBase:eca-mir-129a eca|mirBase:eca-mir-129b ssc|mirBase:ssc-mir-129a tgu|mirBase:tgu-mir-129 ppy|mirBase:ppy-mir-129-1 ppy|mirBase:ppy-mir-129-2 pma|mirBase:pma-mir-129a aca|mirBase:aca-mir-129a aca|mirBase:aca-mir-129b mmu|mirBase:mmu-mir-129b hhi|mirBase:hhi-mir-129b bbe|mirBase:bbe-mir-129a ssa|mirBase:ssa-mir-129-1 ssa|mirBase:ssa-mir-129-2 ssa|mirBase:ssa-mir-129-3 chi|mirBase:chi-mir-129 oha|mirBase:oha-mir-129a oha|mirBase:oha-mir-129b-1
+mmu|mirBase:mmu-mir-128-1 hsa|mirBase:hsa-mir-128-1 mmu|mirBase:mmu-mir-128-2 hsa|mirBase:hsa-mir-128-2 rno|mirBase:rno-mir-128-1 rno|mirBase:rno-mir-128-2 gga|mirBase:gga-mir-128-2 gga|mirBase:gga-mir-128-1 dre|mirBase:dre-mir-128-1 mml|mirBase:mml-mir-128a mdo|mirBase:mdo-mir-128a oan|mirBase:oan-mir-128-2 mml|mirBase:mml-mir-128b tgu|mirBase:tgu-mir-128-2 tgu|mirBase:tgu-mir-128-1 aca|mirBase:aca-mir-128-1 cgr|mirBase:cgr-mir-128 mdo|mirBase:mdo-mir-128b ssa|mirBase:ssa-mir-128-1 ssa|mirBase:ssa-mir-128-2 ssa|mirBase:ssa-mir-128-3 ssa|mirBase:ssa-mir-128-4 chi|mirBase:chi-mir-128 oha|mirBase:oha-mir-128
+mmu|mirBase:mmu-mir-127 hsa|mirBase:hsa-mir-127 rno|mirBase:rno-mir-127 mml|mirBase:mml-mir-127 chi|mirBase:chi-mir-127
+mmu|mirBase:mmu-mir-126a hsa|mirBase:hsa-mir-126 rno|mirBase:rno-mir-126a gga|mirBase:gga-mir-126 dre|mirBase:dre-mir-126a bta|mirBase:bta-mir-126 xtr|mirBase:xtr-mir-126 oan|mirBase:oan-mir-126 cin|mirBase:cin-mir-126 dre|mirBase:dre-mir-126b mdo|mirBase:mdo-mir-126 eca|mirBase:eca-mir-126 tgu|mirBase:tgu-mir-126 ssc|mirBase:ssc-mir-126 aca|mirBase:aca-mir-126 ola|mirBase:ola-mir-126 ccr|mirBase:ccr-mir-126 ssa|mirBase:ssa-mir-126-1 ssa|mirBase:ssa-mir-126-2 ssa|mirBase:ssa-mir-126-3 ssa|mirBase:ssa-mir-126-4 chi|mirBase:chi-mir-126 mmu|mirBase:mmu-mir-126b oha|mirBase:oha-mir-126
+mmu|mirBase:mmu-mir-124-3 cel|mirBase:cel-mir-124 dme|mirBase:dme-mir-124 hsa|mirBase:hsa-mir-124-1 hsa|mirBase:hsa-mir-124-2 hsa|mirBase:hsa-mir-124-3 mmu|mirBase:mmu-mir-124-1 mmu|mirBase:mmu-mir-124-2 rno|mirBase:rno-mir-124-3 rno|mirBase:rno-mir-124-1 rno|mirBase:rno-mir-124-2 gga|mirBase:gga-mir-124a dre|mirBase:dre-mir-124-2 dre|mirBase:dre-mir-124-3 dre|mirBase:dre-mir-124-4 dre|mirBase:dre-mir-124-5 dre|mirBase:dre-mir-124-6 mml|mirBase:mml-mir-124a-1 sme|mirBase:sme-mir-124a sme|mirBase:sme-mir-124b sme|mirBase:sme-mir-124c-1 mdo|mirBase:mdo-mir-124a-1 mdo|mirBase:mdo-mir-124a-2 mdo|mirBase:mdo-mir-124a-3 oan|mirBase:oan-mir-124a-1 cin|mirBase:cin-mir-124-1 cin|mirBase:cin-mir-124-2 mml|mirBase:mml-mir-124a-2 gga|mirBase:gga-mir-124a-2 tca|mirBase:tca-mir-124 bfl|mirBase:bfl-mir-124 sko|mirBase:sko-mir-124 sme|mirBase:sme-mir-124e sme|mirBase:sme-mir-124c-2 tgu|mirBase:tgu-mir-124-1 tgu|mirBase:tgu-mir-124-2 tgu|mirBase:tgu-mir-124-3 sja|mirBase:sja-mir-124 pma|mirBase:pma-mir-124 egr|mirBase:egr-mir-124b asu|mirBase:asu-mir-124 tur|mirBase:tur-mir-124-2 tur|mirBase:tur-mir-124-1 ola|mirBase:ola-mir-124-1 ola|mirBase:ola-mir-124-3 pol|mirBase:pol-mir-124 gga|mirBase:gga-mir-124c oan|mirBase:oan-mir-124a-2 prd|mirBase:prd-mir-124 bbe|mirBase:bbe-mir-124 oha|mirBase:oha-mir-124-2 oha|mirBase:oha-mir-124-4 oha|mirBase:oha-mir-124-3
+hsa|mirBase:hsa-mir-651
+mmu|mirBase:mmu-mir-122 hsa|mirBase:hsa-mir-122 rno|mirBase:rno-mir-122 gga|mirBase:gga-mir-122-1 gga|mirBase:gga-mir-122-2 mdo|mirBase:mdo-mir-122 oan|mirBase:oan-mir-122 mml|mirBase:mml-mir-122a tgu|mirBase:tgu-mir-122 hsa|mirBase:hsa-mir-3591 aca|mirBase:aca-mir-122 pol|mirBase:pol-mir-122 ssa|mirBase:ssa-mir-122-1 ssa|mirBase:ssa-mir-122-2 oha|mirBase:oha-mir-122
+hsa|mirBase:hsa-mir-653 mmu|mirBase:mmu-mir-653 mml|mirBase:mml-mir-653 rno|mirBase:rno-mir-653
+hsa|mirBase:hsa-mir-652 mmu|mirBase:mmu-mir-652 rno|mirBase:rno-mir-652 cgr|mirBase:cgr-mir-652
+bmo|mirBase:bmo-mir-2843-1 bmo|mirBase:bmo-mir-2843-2
+mmu|mirBase:mmu-mir-6967-1 mmu|mirBase:mmu-mir-6967-2
+dme|mirBase:dme-mir-8 mmu|mirBase:mmu-mir-141 mmu|mirBase:mmu-mir-200b hsa|mirBase:hsa-mir-200b hsa|mirBase:hsa-mir-141 mmu|mirBase:mmu-mir-200a hsa|mirBase:hsa-mir-200c mmu|mirBase:mmu-mir-200c hsa|mirBase:hsa-mir-200a rno|mirBase:rno-mir-141 rno|mirBase:rno-mir-200c rno|mirBase:rno-mir-200a rno|mirBase:rno-mir-200b gga|mirBase:gga-mir-200a gga|mirBase:gga-mir-200b mmu|mirBase:mmu-mir-429 dre|mirBase:dre-mir-141 dre|mirBase:dre-mir-200a dre|mirBase:dre-mir-200b dre|mirBase:dre-mir-200c mml|mirBase:mml-mir-200c mml|mirBase:mml-mir-141 gga|mirBase:gga-mir-429 bmo|mirBase:bmo-mir-8 sme|mirBase:sme-mir-8a mdo|mirBase:mdo-mir-200c mdo|mirBase:mdo-mir-141 mdo|mirBase:mdo-mir-200b mdo|mirBase:mdo-mir-200a oan|mirBase:oan-mir-200a oan|mirBase:oan-mir-200b oan|mirBase:oan-mir-429 cin|mirBase:cin-mir-141 mml|mirBase:mml-mir-200a mml|mirBase:mml-mir-429 tca|mirBase:tca-mir-8 spu|mirBase:spu-mir-200 lmi|mirBase:lmi-mir-8 aae|mirBase:aae-mir-8 cqu|mirBase:cqu-mir-8 tgu|mirBase:tgu-mir-200a tgu|mirBase:tgu-mir-200b sja|mirBase:sja-mir-8 pma|mirBase:pma-mir-200b pma|mirBase:pma-mir-429 aca|mirBase:aca-mir-200a aca|mirBase:aca-mir-200b aca|mirBase:aca-mir-429 sma|mirBase:sma-mir-8 pmi|mirBase:pmi-mir-200 bbe|mirBase:bbe-mir-200a bbe|mirBase:bbe-mir-200b ssa|mirBase:ssa-mir-200a-1 ssa|mirBase:ssa-mir-200a-2 ssa|mirBase:ssa-mir-200a-3 ssa|mirBase:ssa-mir-200b-1 ssa|mirBase:ssa-mir-200b-2 ssa|mirBase:ssa-mir-429 oha|mirBase:oha-mir-429
+cel|mirBase:cel-mir-79 dme|mirBase:dme-mir-9a mmu|mirBase:mmu-mir-9-2 dme|mirBase:dme-mir-79 dme|mirBase:dme-mir-9c dme|mirBase:dme-mir-9b hsa|mirBase:hsa-mir-9-1 hsa|mirBase:hsa-mir-9-2 hsa|mirBase:hsa-mir-9-3 mmu|mirBase:mmu-mir-9-1 mmu|mirBase:mmu-mir-9-3 rno|mirBase:rno-mir-9a-1 rno|mirBase:rno-mir-9a-3 rno|mirBase:rno-mir-9a-2 dre|mirBase:dre-mir-9-1 dre|mirBase:dre-mir-9-2 dre|mirBase:dre-mir-9-4 dre|mirBase:dre-mir-9-3 dre|mirBase:dre-mir-9-5 dre|mirBase:dre-mir-9-6 dre|mirBase:dre-mir-9-7 gga|mirBase:gga-mir-9-1 xtr|mirBase:xtr-mir-9a-1 xtr|mirBase:xtr-mir-9a-2 xtr|mirBase:xtr-mir-9b xtr|mirBase:xtr-mir-9-3 bmo|mirBase:bmo-mir-9a sme|mirBase:sme-mir-79 mdo|mirBase:mdo-mir-9a-2 mdo|mirBase:mdo-mir-9a-1 oan|mirBase:oan-mir-9-1 mml|mirBase:mml-mir-9-1 mml|mirBase:mml-mir-9-2 mml|mirBase:mml-mir-9-3 bmo|mirBase:bmo-mir-79 tca|mirBase:tca-mir-9b bta|mirBase:bta-mir-9-1 bta|mirBase:bta-mir-9-2 bmo|mirBase:bmo-mir-9b cte|mirBase:cte-mir-9 lgi|mirBase:lgi-mir-9 sko|mirBase:sko-mir-9 spu|mirBase:spu-mir-9 bfl|mirBase:bfl-mir-9-1 bfl|mirBase:bfl-mir-9-2 tca|mirBase:tca-mir-9a lmi|mirBase:lmi-mir-9a sme|mirBase:sme-mir-9a crm|mirBase:crm-mir-79 bmo|mirBase:bmo-mir-9c dpu|mirBase:dpu-mir-9 bma|mirBase:bma-mir-9 aae|mirBase:aae-mir-9c aae|mirBase:aae-mir-79 cqu|mirBase:cqu-mir-9 tgu|mirBase:tgu-mir-9-2 tgu|mirBase:tgu-mir-9-1 rno|mirBase:rno-mir-9b-3 rno|mirBase:rno-mir-9b-1 rno|mirBase:rno-mir-9b-2 tca|mirBase:tca-mir-9d pma|mirBase:pma-mir-9a-2 asu|mirBase:asu-mir-9 asu|mirBase:asu-mir-79 aca|mirBase:aca-mir-9-1 aca|mirBase:aca-mir-9-3 tur|mirBase:tur-mir-9-1 tur|mirBase:tur-mir-9-2 ola|mirBase:ola-mir-9a-1 tca|mirBase:tca-mir-9e pol|mirBase:pol-mir-9b ccr|mirBase:ccr-mir-9 mdo|mirBase:mdo-mir-9a-3 mdo|mirBase:mdo-mir-9b prd|mirBase:prd-mir-9b bbe|mirBase:bbe-mir-9 ssa|mirBase:ssa-mir-9a-1 ssa|mirBase:ssa-mir-9a-2 ssa|mirBase:ssa-mir-9a-3 ssa|mirBase:ssa-mir-9a-4 ssa|mirBase:ssa-mir-9a-5 ssa|mirBase:ssa-mir-9a-6 ssa|mirBase:ssa-mir-9a-7 ssa|mirBase:ssa-mir-9a-8 ssa|mirBase:ssa-mir-9b pxy|mirBase:pxy-mir-9b-1 pxy|mirBase:pxy-mir-9b-2 efu|mirBase:efu-mir-9-2 efu|mirBase:efu-mir-9-3 efu|mirBase:efu-mir-9-1 chi|mirBase:chi-mir-9 oha|mirBase:oha-mir-9-1 oha|mirBase:oha-mir-9-2 oha|mirBase:oha-mir-9-3 oha|mirBase:oha-mir-9-4
+mmu|mirBase:mmu-mir-1249 hsa|mirBase:hsa-mir-1249
+mdo|mirBase:mdo-mir-7331-1 mdo|mirBase:mdo-mir-7331-2
+hsa|mirBase:hsa-mir-654 mmu|mirBase:mmu-mir-654 mml|mirBase:mml-mir-654 ppy|mirBase:ppy-mir-654 oar|mirBase:oar-mir-654
+cel|mirBase:cel-mir-2 dme|mirBase:dme-mir-2a-1 dme|mirBase:dme-mir-2a-2 dme|mirBase:dme-mir-2b-1 dme|mirBase:dme-mir-2b-2 dme|mirBase:dme-mir-13a dme|mirBase:dme-mir-13b-1 dme|mirBase:dme-mir-13b-2 dme|mirBase:dme-mir-2c sme|mirBase:sme-mir-2a-1 sme|mirBase:sme-mir-2a-2 sme|mirBase:sme-mir-2b sme|mirBase:sme-mir-2c sme|mirBase:sme-mir-2d bmo|mirBase:bmo-mir-2a-1 bmo|mirBase:bmo-mir-2a-2 bmo|mirBase:bmo-mir-2b bmo|mirBase:bmo-mir-13a bmo|mirBase:bmo-mir-13b tca|mirBase:tca-mir-2c tca|mirBase:tca-mir-2a tca|mirBase:tca-mir-2b tca|mirBase:tca-mir-13a tca|mirBase:tca-mir-13b crm|mirBase:crm-mir-2 aae|mirBase:aae-mir-2a aae|mirBase:aae-mir-13 sja|mirBase:sja-mir-2b sja|mirBase:sja-mir-2c sja|mirBase:sja-mir-2d sja|mirBase:sja-mir-2e egr|mirBase:egr-mir-2c asu|mirBase:asu-mir-2a tur|mirBase:tur-mir-2-1 tur|mirBase:tur-mir-2-2 sma|mirBase:sma-mir-2b sma|mirBase:sma-mir-2c sma|mirBase:sma-mir-2d sma|mirBase:sma-mir-2e pxy|mirBase:pxy-mir-2a
+dme|mirBase:dme-mir-3 dme|mirBase:dme-mir-309 aae|mirBase:aae-mir-309b
+cel|mirBase:cel-mir-1 dme|mirBase:dme-mir-1 mmu|mirBase:mmu-mir-1a-1 mmu|mirBase:mmu-mir-206 hsa|mirBase:hsa-mir-1-1 mmu|mirBase:mmu-mir-1a-2 rno|mirBase:rno-mir-206 gga|mirBase:gga-mir-1a-2 gga|mirBase:gga-mir-1a-1 gga|mirBase:gga-mir-1b dre|mirBase:dre-mir-206-1 rno|mirBase:rno-mir-1 bmo|mirBase:bmo-mir-1a mdo|mirBase:mdo-mir-1-1 mmu|mirBase:mmu-mir-1b oan|mirBase:oan-mir-1a oan|mirBase:oan-mir-206 mml|mirBase:mml-mir-1-1 mml|mirBase:mml-mir-1-2 tca|mirBase:tca-mir-1 bfl|mirBase:bfl-mir-1 sko|mirBase:sko-mir-1 crm|mirBase:crm-mir-1 bmo|mirBase:bmo-mir-1b tgu|mirBase:tgu-mir-1-2 tgu|mirBase:tgu-mir-1-1 cin|mirBase:cin-mir-1 pma|mirBase:pma-mir-1a pma|mirBase:pma-mir-1c asu|mirBase:asu-mir-1 aca|mirBase:aca-mir-1a-1 aca|mirBase:aca-mir-1a-2 aca|mirBase:aca-mir-1b aca|mirBase:aca-mir-206 tur|mirBase:tur-mir-1 ola|mirBase:ola-mir-1-1 pol|mirBase:pol-mir-1 pol|mirBase:pol-mir-206 mdo|mirBase:mdo-mir-1-2 prd|mirBase:prd-mir-1 bbe|mirBase:bbe-mir-1 ssa|mirBase:ssa-mir-1-3 ssa|mirBase:ssa-mir-1-2 ssa|mirBase:ssa-mir-1-1 ssa|mirBase:ssa-mir-1-4 ssa|mirBase:ssa-mir-206 str|mirBase:str-mir-1 oha|mirBase:oha-mir-1a oha|mirBase:oha-mir-1b oha|mirBase:oha-mir-1c oha|mirBase:oha-mir-1d
+dme|mirBase:dme-mir-6-1 dme|mirBase:dme-mir-6-2 dme|mirBase:dme-mir-6-3 dsi|mirBase:dsi-mir-6-2
+dme|mirBase:dme-mir-7 hsa|mirBase:hsa-mir-7-1 hsa|mirBase:hsa-mir-7-2 rno|mirBase:rno-mir-7a-1 mmu|mirBase:mmu-mir-7a-1 mmu|mirBase:mmu-mir-7a-2 mmu|mirBase:mmu-mir-7b rno|mirBase:rno-mir-7a-2 bmo|mirBase:bmo-mir-7 oan|mirBase:oan-mir-7-2 oan|mirBase:oan-mir-7-1 oan|mirBase:oan-mir-7-3 cin|mirBase:cin-mir-7 tca|mirBase:tca-mir-7 sko|mirBase:sko-mir-7 tgu|mirBase:tgu-mir-7-1 tgu|mirBase:tgu-mir-7-4 pma|mirBase:pma-mir-7a-2 asu|mirBase:asu-mir-7 aca|mirBase:aca-mir-7-1 aca|mirBase:aca-mir-7-2 tur|mirBase:tur-mir-7 bbe|mirBase:bbe-mir-7 ssa|mirBase:ssa-mir-7a-1 ssa|mirBase:ssa-mir-7a-2 ssa|mirBase:ssa-mir-7a-3 ssa|mirBase:ssa-mir-7a-4 ssa|mirBase:ssa-mir-7a-5 ssa|mirBase:ssa-mir-7a-6 ssa|mirBase:ssa-mir-7a-7 chi|mirBase:chi-mir-7 oha|mirBase:oha-mir-7-1 oha|mirBase:oha-mir-7-2 oha|mirBase:oha-mir-7-3
+dme|mirBase:dme-mir-4
+dme|mirBase:dme-mir-5
+ata|mirBase:ata-MIR9863a ata|mirBase:ata-MIR9863b
+hsa|mirBase:hsa-mir-3150a hsa|mirBase:hsa-mir-3150b
+dre|mirBase:dre-mir-2187
+hsa|mirBase:hsa-mir-3664
+hsa|mirBase:hsa-mir-3151
+ata|mirBase:ata-MIR5070
+dre|mirBase:dre-mir-2185-1 dre|mirBase:dre-mir-2185-2 dre|mirBase:dre-mir-2185-3
+bfl|mirBase:bfl-mir-4869 bbe|mirBase:bbe-mir-4869
+tca|mirBase:tca-mir-3804a tca|mirBase:tca-mir-3804b
+bta|mirBase:bta-mir-2284t bta|mirBase:bta-mir-2284h
+ath|mirBase:ath-MIR840 aly|mirBase:aly-MIR840
+mmu|mirBase:mmu-mir-880 rno|mirBase:rno-mir-880
+dme|mirBase:dme-bantam sme|mirBase:sme-bantam-b sme|mirBase:sme-bantam-c-1 bmo|mirBase:bmo-bantam tca|mirBase:tca-bantam sme|mirBase:sme-bantam-c-2 aae|mirBase:aae-bantam cqu|mirBase:cqu-bantam
+rno|mirBase:rno-mir-330 mmu|mirBase:mmu-mir-330 hsa|mirBase:hsa-mir-330 mml|mirBase:mml-mir-330 ppy|mirBase:ppy-mir-330 chi|mirBase:chi-mir-330
+rno|mirBase:rno-mir-331 mmu|mirBase:mmu-mir-331 hsa|mirBase:hsa-mir-331 bta|mirBase:bta-mir-331 mml|mirBase:mml-mir-331 ssc|mirBase:ssc-mir-331 ppy|mirBase:ppy-mir-331 cgr|mirBase:cgr-mir-331 chi|mirBase:chi-mir-331
+rno|mirBase:rno-mir-337 mmu|mirBase:mmu-mir-337 hsa|mirBase:hsa-mir-337 mml|mirBase:mml-mir-337 eca|mirBase:eca-mir-337 ppy|mirBase:ppy-mir-337
+hsa|mirBase:hsa-mir-335 mmu|mirBase:mmu-mir-335 mml|mirBase:mml-mir-335 chi|mirBase:chi-mir-335
+hsa|mirBase:hsa-mir-889 mml|mirBase:mml-mir-889
+rno|mirBase:rno-mir-338 mmu|mirBase:mmu-mir-338 hsa|mirBase:hsa-mir-338 mml|mirBase:mml-mir-338 eca|mirBase:eca-mir-338 tgu|mirBase:tgu-mir-338 ppy|mirBase:ppy-mir-338 aca|mirBase:aca-mir-338 ola|mirBase:ola-mir-338-1 ssa|mirBase:ssa-mir-338a-3 ssa|mirBase:ssa-mir-338a-2 ssa|mirBase:ssa-mir-338a-1 ssa|mirBase:ssa-mir-338a-4 chi|mirBase:chi-mir-338 oha|mirBase:oha-mir-338
+rno|mirBase:rno-mir-339 mmu|mirBase:mmu-mir-339 hsa|mirBase:hsa-mir-339 mml|mirBase:mml-mir-339 ssc|mirBase:ssc-mir-339-1
+aly|mirBase:aly-MIR847
+mmu|mirBase:mmu-mir-3074-1 mmu|mirBase:mmu-mir-3074-2 hsa|mirBase:hsa-mir-3074
+cel|mirBase:cel-mir-239a cel|mirBase:cel-mir-239b crm|mirBase:crm-mir-239a asu|mirBase:asu-mir-239
+cel|mirBase:cel-mir-238
+asu|mirBase:asu-mir-5350b asu|mirBase:asu-mir-5350c
+bdi|mirBase:bdi-MIR7723a bdi|mirBase:bdi-MIR7723b
+cel|mirBase:cel-mir-233
+cel|mirBase:cel-mir-232
+cel|mirBase:cel-mir-231
+cel|mirBase:cel-mir-230 crm|mirBase:crm-mir-230
+cel|mirBase:cel-mir-237 cbr|mirBase:cbr-mir-237 crm|mirBase:crm-mir-237
+cel|mirBase:cel-mir-236 asu|mirBase:asu-mir-236 prd|mirBase:prd-mir-236
+cel|mirBase:cel-mir-235 crm|mirBase:crm-mir-235
+cel|mirBase:cel-mir-234 asu|mirBase:asu-mir-234 prd|mirBase:prd-mir-234
+mdo|mirBase:mdo-mir-7383-1 mdo|mirBase:mdo-mir-7383-2 mdo|mirBase:mdo-mir-7383-3 mdo|mirBase:mdo-mir-7383-4 mdo|mirBase:mdo-mir-7383-5
+hsa|mirBase:hsa-mir-3940
+hsa|mirBase:hsa-mir-19a hsa|mirBase:hsa-mir-19b-1 hsa|mirBase:hsa-mir-19b-2 mmu|mirBase:mmu-mir-19b-2 mmu|mirBase:mmu-mir-19a mmu|mirBase:mmu-mir-19b-1 rno|mirBase:rno-mir-19b-1 rno|mirBase:rno-mir-19b-2 rno|mirBase:rno-mir-19a gga|mirBase:gga-mir-19b gga|mirBase:gga-mir-19a dre|mirBase:dre-mir-19a dre|mirBase:dre-mir-19b dre|mirBase:dre-mir-19c dre|mirBase:dre-mir-19d mml|mirBase:mml-mir-19a mdo|mirBase:mdo-mir-19a mdo|mirBase:mdo-mir-19b-1 oan|mirBase:oan-mir-19b-1 oan|mirBase:oan-mir-19a tgu|mirBase:tgu-mir-19b-1 tgu|mirBase:tgu-mir-19b-2 tgu|mirBase:tgu-mir-19a pma|mirBase:pma-mir-19b aca|mirBase:aca-mir-19a cgr|mirBase:cgr-mir-19b mdo|mirBase:mdo-mir-19b-2 oan|mirBase:oan-mir-19b-2 ssa|mirBase:ssa-mir-19a-1 ssa|mirBase:ssa-mir-19a-3 ssa|mirBase:ssa-mir-19a-2 ssa|mirBase:ssa-mir-19c-1 ssa|mirBase:ssa-mir-19c-2 ssa|mirBase:ssa-mir-19c-3 ssa|mirBase:ssa-mir-19c-4 ssa|mirBase:ssa-mir-19d chi|mirBase:chi-mir-19b oha|mirBase:oha-mir-19a oha|mirBase:oha-mir-19b
+mdo|mirBase:mdo-mir-7385a mdo|mirBase:mdo-mir-7385b mdo|mirBase:mdo-mir-7385c mdo|mirBase:mdo-mir-7385d mdo|mirBase:mdo-mir-7385e mdo|mirBase:mdo-mir-7385f
+gma|mirBase:gma-MIR4415a gma|mirBase:gma-MIR4415b
+dme|mirBase:dme-mir-14 bmo|mirBase:bmo-mir-14 tca|mirBase:tca-mir-14
+hsa|mirBase:hsa-mir-15a hsa|mirBase:hsa-mir-16-1 hsa|mirBase:hsa-mir-16-2 mmu|mirBase:mmu-mir-15b mmu|mirBase:mmu-mir-195a hsa|mirBase:hsa-mir-15b hsa|mirBase:hsa-mir-195 mmu|mirBase:mmu-mir-15a mmu|mirBase:mmu-mir-16-1 mmu|mirBase:mmu-mir-16-2 rno|mirBase:rno-mir-15b rno|mirBase:rno-mir-16 rno|mirBase:rno-mir-195 gga|mirBase:gga-mir-16-1 gga|mirBase:gga-mir-16-2 gga|mirBase:gga-mir-15b dre|mirBase:dre-mir-15a-1 dre|mirBase:dre-mir-15b dre|mirBase:dre-mir-16c dre|mirBase:dre-mir-457b mml|mirBase:mml-mir-15b mml|mirBase:mml-mir-15a mml|mirBase:mml-mir-16-1 mdo|mirBase:mdo-mir-15a mdo|mirBase:mdo-mir-16-1 oan|mirBase:oan-mir-15c oan|mirBase:oan-mir-16c oan|mirBase:oan-mir-15b oan|mirBase:oan-mir-16b oan|mirBase:oan-mir-15a oan|mirBase:oan-mir-16a gga|mirBase:gga-mir-15c gga|mirBase:gga-mir-16c mml|mirBase:mml-mir-16-2 mml|mirBase:mml-mir-195 tgu|mirBase:tgu-mir-15a tgu|mirBase:tgu-mir-16a tgu|mirBase:tgu-mir-16b tgu|mirBase:tgu-mir-15b tgu|mirBase:tgu-mir-15c pma|mirBase:pma-mir-16 aca|mirBase:aca-mir-15b aca|mirBase:aca-mir-15a aca|mirBase:aca-mir-16a aca|mirBase:aca-mir-16b aca|mirBase:aca-mir-457 cgr|mirBase:cgr-mir-15a cgr|mirBase:cgr-mir-15b cgr|mirBase:cgr-mir-16 mdo|mirBase:mdo-mir-16-2 ssa|mirBase:ssa-mir-15a ssa|mirBase:ssa-mir-15b ssa|mirBase:ssa-mir-15d ssa|mirBase:ssa-mir-16a-1 ssa|mirBase:ssa-mir-16a-2 ssa|mirBase:ssa-mir-16b ssa|mirBase:ssa-mir-16c rno|mirBase:rno-mir-15a chi|mirBase:chi-mir-15a chi|mirBase:chi-mir-15b chi|mirBase:chi-mir-16a chi|mirBase:chi-mir-16b chi|mirBase:chi-mir-195 oha|mirBase:oha-mir-15a oha|mirBase:oha-mir-15b oha|mirBase:oha-mir-16a oha|mirBase:oha-mir-16b ssa|mirBase:ssa-mir-15c-1 ssa|mirBase:ssa-mir-15c-2
+hsa|mirBase:hsa-mir-17 hsa|mirBase:hsa-mir-18a hsa|mirBase:hsa-mir-20a hsa|mirBase:hsa-mir-93 hsa|mirBase:hsa-mir-106a mmu|mirBase:mmu-mir-106a mmu|mirBase:mmu-mir-106b mmu|mirBase:mmu-mir-18a mmu|mirBase:mmu-mir-20a mmu|mirBase:mmu-mir-93 rno|mirBase:rno-mir-20a mmu|mirBase:mmu-mir-17 hsa|mirBase:hsa-mir-106b rno|mirBase:rno-mir-17-1 rno|mirBase:rno-mir-18a rno|mirBase:rno-mir-93 rno|mirBase:rno-mir-106b gga|mirBase:gga-mir-20a gga|mirBase:gga-mir-18a gga|mirBase:gga-mir-17 gga|mirBase:gga-mir-18b gga|mirBase:gga-mir-106 gga|mirBase:gga-mir-20b hsa|mirBase:hsa-mir-18b hsa|mirBase:hsa-mir-20b dre|mirBase:dre-mir-17a-1 dre|mirBase:dre-mir-17a-2 dre|mirBase:dre-mir-20b dre|mirBase:dre-mir-18b dre|mirBase:dre-mir-20a ggo|mirBase:ggo-mir-17 lca|mirBase:lca-mir-17 age|mirBase:age-mir-17 ppa|mirBase:ppa-mir-17 ppy|mirBase:ppy-mir-17 ptr|mirBase:ptr-mir-17 mml|mirBase:mml-mir-17 mml|mirBase:mml-mir-18a mml|mirBase:mml-mir-20a sla|mirBase:sla-mir-17 lla|mirBase:lla-mir-17 mne|mirBase:mne-mir-17 mml|mirBase:mml-mir-106b mml|mirBase:mml-mir-93 mml|mirBase:mml-mir-106a mmu|mirBase:mmu-mir-20b rno|mirBase:rno-mir-20b xtr|mirBase:xtr-mir-17 xtr|mirBase:xtr-mir-18a xtr|mirBase:xtr-mir-20a bta|mirBase:bta-mir-17 mdo|mirBase:mdo-mir-17 mdo|mirBase:mdo-mir-18a mdo|mirBase:mdo-mir-20a mdo|mirBase:mdo-mir-93 mmu|mirBase:mmu-mir-18b rno|mirBase:rno-mir-17-2 oan|mirBase:oan-mir-106 oan|mirBase:oan-mir-18 oan|mirBase:oan-mir-20b oan|mirBase:oan-mir-20a-1 oan|mirBase:oan-mir-20a-2 oan|mirBase:oan-mir-17 mml|mirBase:mml-mir-20b ssc|mirBase:ssc-mir-17 mdo|mirBase:mdo-mir-106 tgu|mirBase:tgu-mir-20a tgu|mirBase:tgu-mir-17a tgu|mirBase:tgu-mir-106 tgu|mirBase:tgu-mir-20b pma|mirBase:pma-mir-17a pma|mirBase:pma-mir-18a pma|mirBase:pma-mir-18b pma|mirBase:pma-mir-20a aca|mirBase:aca-mir-17 aca|mirBase:aca-mir-18a aca|mirBase:aca-mir-18b aca|mirBase:aca-mir-20a aca|mirBase:aca-mir-20b cgr|mirBase:cgr-mir-106b cgr|mirBase:cgr-mir-17 cgr|mirBase:cgr-mir-18a cgr|mirBase:cgr-mir-93 ccr|mirBase:ccr-mir-17 ccr|mirBase:ccr-mir-20a mdo|mirBase:mdo-mir-20b mdo|mirBase:mdo-mir-18b ssa|mirBase:ssa-mir-106a-1 ssa|mirBase:ssa-mir-106a-2 ssa|mirBase:ssa-mir-106b ssa|mirBase:ssa-mir-17-3 ssa|mirBase:ssa-mir-17-2 ssa|mirBase:ssa-mir-17-1 ssa|mirBase:ssa-mir-18a ssa|mirBase:ssa-mir-18b ssa|mirBase:ssa-mir-20a-1 ssa|mirBase:ssa-mir-20a-2 ssa|mirBase:ssa-mir-20a-3 ssa|mirBase:ssa-mir-20b ssa|mirBase:ssa-mir-93a-1 ssa|mirBase:ssa-mir-93a-2 chi|mirBase:chi-mir-106a chi|mirBase:chi-mir-106b chi|mirBase:chi-mir-17 chi|mirBase:chi-mir-18a chi|mirBase:chi-mir-18b chi|mirBase:chi-mir-20a chi|mirBase:chi-mir-93 oha|mirBase:oha-mir-17 oha|mirBase:oha-mir-18a oha|mirBase:oha-mir-18b oha|mirBase:oha-mir-20b oha|mirBase:oha-mir-20a
+hsa|mirBase:hsa-mir-99a hsa|mirBase:hsa-mir-100 dme|mirBase:dme-mir-10 mmu|mirBase:mmu-mir-99a mmu|mirBase:mmu-mir-99b mmu|mirBase:mmu-mir-125a mmu|mirBase:mmu-mir-125b-2 mmu|mirBase:mmu-mir-10b hsa|mirBase:hsa-mir-10a hsa|mirBase:hsa-mir-10b dme|mirBase:dme-mir-100 dme|mirBase:dme-mir-125 hsa|mirBase:hsa-mir-125b-1 hsa|mirBase:hsa-mir-125a hsa|mirBase:hsa-mir-125b-2 mmu|mirBase:mmu-mir-10a mmu|mirBase:mmu-mir-100 mmu|mirBase:mmu-mir-125b-1 hsa|mirBase:hsa-mir-99b rno|mirBase:rno-mir-10a rno|mirBase:rno-mir-10b rno|mirBase:rno-mir-99a rno|mirBase:rno-mir-99b rno|mirBase:rno-mir-100 rno|mirBase:rno-mir-125a rno|mirBase:rno-mir-125b-1 rno|mirBase:rno-mir-125b-2 gga|mirBase:gga-mir-99a gga|mirBase:gga-mir-125b-2 gga|mirBase:gga-mir-10b gga|mirBase:gga-mir-100 dre|mirBase:dre-mir-10a dre|mirBase:dre-mir-10b-1 dre|mirBase:dre-mir-10b-2 dre|mirBase:dre-mir-10c dre|mirBase:dre-mir-10d dre|mirBase:dre-mir-100-1 dre|mirBase:dre-mir-100-2 dre|mirBase:dre-mir-125b-1 dre|mirBase:dre-mir-125b-2 dre|mirBase:dre-mir-125b-3 dre|mirBase:dre-mir-125c mml|mirBase:mml-mir-125b-1 mml|mirBase:mml-mir-125b-2 mml|mirBase:mml-mir-99a mml|mirBase:mml-mir-100 bta|mirBase:bta-mir-99a bmo|mirBase:bmo-mir-10 mdo|mirBase:mdo-mir-10a mdo|mirBase:mdo-mir-10b mdo|mirBase:mdo-mir-100 mdo|mirBase:mdo-mir-125b-1 mdo|mirBase:mdo-mir-125b-2 dme|mirBase:dme-mir-993 oan|mirBase:oan-mir-100 oan|mirBase:oan-mir-125 oan|mirBase:oan-mir-10a oan|mirBase:oan-mir-99 oan|mirBase:oan-mir-10b gga|mirBase:gga-mir-10a mml|mirBase:mml-mir-10a mml|mirBase:mml-mir-10b mml|mirBase:mml-mir-99b mml|mirBase:mml-mir-125a tca|mirBase:tca-mir-10 tca|mirBase:tca-mir-100 tca|mirBase:tca-mir-125 bfl|mirBase:bfl-mir-10a bfl|mirBase:bfl-mir-100 bfl|mirBase:bfl-mir-125a spu|mirBase:spu-mir-125 tca|mirBase:tca-mir-993 bmo|mirBase:bmo-mir-993b bmo|mirBase:bmo-mir-993a lmi|mirBase:lmi-mir-10 dps|mirBase:dps-mir-993 dsi|mirBase:dsi-mir-993 eca|mirBase:eca-mir-125a ssc|mirBase:ssc-mir-10a cqu|mirBase:cqu-mir-125 cqu|mirBase:cqu-mir-993 cqu|mirBase:cqu-mir-100 cqu|mirBase:cqu-mir-10 tgu|mirBase:tgu-mir-125-1 tgu|mirBase:tgu-mir-125-2 tgu|mirBase:tgu-mir-100-1 tgu|mirBase:tgu-mir-100-2 tgu|mirBase:tgu-mir-99-1 tgu|mirBase:tgu-mir-99-2 ppy|mirBase:ppy-mir-125a sja|mirBase:sja-mir-10 tgu|mirBase:tgu-mir-10a pma|mirBase:pma-mir-100a pma|mirBase:pma-mir-125 asu|mirBase:asu-mir-100a-1 asu|mirBase:asu-mir-100a-2 asu|mirBase:asu-mir-100d asu|mirBase:asu-mir-100e aca|mirBase:aca-mir-10a aca|mirBase:aca-mir-10b aca|mirBase:aca-mir-10c aca|mirBase:aca-mir-125a aca|mirBase:aca-mir-99a aca|mirBase:aca-mir-99b tur|mirBase:tur-mir-10 tur|mirBase:tur-mir-993b tur|mirBase:tur-mir-993a-1 tur|mirBase:tur-mir-993a-2 ola|mirBase:ola-mir-125a cgr|mirBase:cgr-mir-100 cgr|mirBase:cgr-mir-10a cgr|mirBase:cgr-mir-10b cgr|mirBase:cgr-mir-125a cgr|mirBase:cgr-mir-125b cgr|mirBase:cgr-mir-99a sma|mirBase:sma-mir-10 pol|mirBase:pol-mir-10b bbe|mirBase:bbe-mir-100 bbe|mirBase:bbe-mir-10a bbe|mirBase:bbe-mir-10b bbe|mirBase:bbe-mir-125a ssa|mirBase:ssa-mir-100a-1 ssa|mirBase:ssa-mir-100a-2 ssa|mirBase:ssa-mir-10a-1 ssa|mirBase:ssa-mir-10a-2 ssa|mirBase:ssa-mir-10b-1 ssa|mirBase:ssa-mir-10b-2 ssa|mirBase:ssa-mir-10b-3 ssa|mirBase:ssa-mir-10b-4 ssa|mirBase:ssa-mir-10d-1 ssa|mirBase:ssa-mir-10d-2 ssa|mirBase:ssa-mir-125a-1 ssa|mirBase:ssa-mir-125a-2 ssa|mirBase:ssa-mir-125b-1 ssa|mirBase:ssa-mir-125b-2 ssa|mirBase:ssa-mir-125b-3 ssa|mirBase:ssa-mir-99-1 ssa|mirBase:ssa-mir-99-2 pxy|mirBase:pxy-mir-10 chi|mirBase:chi-mir-100 chi|mirBase:chi-mir-10a chi|mirBase:chi-mir-10b chi|mirBase:chi-mir-125a chi|mirBase:chi-mir-125b chi|mirBase:chi-mir-99a chi|mirBase:chi-mir-99b oha|mirBase:oha-mir-100 oha|mirBase:oha-mir-10a oha|mirBase:oha-mir-10b oha|mirBase:oha-mir-10c oha|mirBase:oha-mir-125a oha|mirBase:oha-mir-125b oha|mirBase:oha-mir-99a oha|mirBase:oha-mir-99b
+dme|mirBase:dme-mir-11 bmo|mirBase:bmo-mir-11 aae|mirBase:aae-mir-11 cqu|mirBase:cqu-mir-11 tca|mirBase:tca-mir-11
+dme|mirBase:dme-mir-12 tca|mirBase:tca-mir-12 aae|mirBase:aae-mir-12 cqu|mirBase:cqu-mir-12 tur|mirBase:tur-mir-12a
+bbe|mirBase:bbe-mir-2061
+bbe|mirBase:bbe-mir-2063
+hsa|mirBase:hsa-mir-3160-1 hsa|mirBase:hsa-mir-3160-2
+mml|mirBase:mml-mir-3167
+dre|mirBase:dre-mir-2188 tgu|mirBase:tgu-mir-2188 gga|mirBase:gga-mir-2188 aca|mirBase:aca-mir-2188 ssa|mirBase:ssa-mir-2188 oha|mirBase:oha-mir-2188
+bbe|mirBase:bbe-mir-2067
+hsa|mirBase:hsa-mir-1245b mml|mirBase:mml-mir-1245
+bfl|mirBase:bfl-mir-2068 bbe|mirBase:bbe-mir-2068
+tca|mirBase:tca-mir-6012
+esi|mirBase:esi-MIR3454g esi|mirBase:esi-MIR3454a esi|mirBase:esi-MIR3454c esi|mirBase:esi-MIR3454f esi|mirBase:esi-MIR3454b esi|mirBase:esi-MIR3454e esi|mirBase:esi-MIR3454d
+mmu|mirBase:mmu-mir-1247 hsa|mirBase:hsa-mir-1247 bta|mirBase:bta-mir-1247 mml|mirBase:mml-mir-1247 rno|mirBase:rno-mir-1247
+bra|mirBase:bra-MIR9563a bra|mirBase:bra-MIR9563b
+zma|mirBase:zma-MIR529 bdi|mirBase:bdi-MIR529
+mmu|mirBase:mmu-mir-346
+rno|mirBase:rno-mir-345 mmu|mirBase:mmu-mir-345 hsa|mirBase:hsa-mir-345 bta|mirBase:bta-mir-345 eca|mirBase:eca-mir-345 ssc|mirBase:ssc-mir-345-1 ssc|mirBase:ssc-mir-345-2 chi|mirBase:chi-mir-345
+cel|mirBase:cel-lin-4 crm|mirBase:crm-lin-4 asu|mirBase:asu-lin-4
+rno|mirBase:rno-mir-342 mmu|mirBase:mmu-mir-342 hsa|mirBase:hsa-mir-342 mml|mirBase:mml-mir-342 eca|mirBase:eca-mir-342 ppy|mirBase:ppy-mir-342 cgr|mirBase:cgr-mir-342 chi|mirBase:chi-mir-342
+mmu|mirBase:mmu-mir-341
+rno|mirBase:rno-mir-340-1 mmu|mirBase:mmu-mir-340 hsa|mirBase:hsa-mir-340 mml|mirBase:mml-mir-340 eca|mirBase:eca-mir-340 cgr|mirBase:cgr-mir-340 chi|mirBase:chi-mir-340 rno|mirBase:rno-mir-340-2
+mmu|mirBase:mmu-mir-425 hsa|mirBase:hsa-mir-425 bta|mirBase:bta-mir-425 mdo|mirBase:mdo-mir-425 rno|mirBase:rno-mir-425 oan|mirBase:oan-mir-425 ssc|mirBase:ssc-mir-425 tgu|mirBase:tgu-mir-425 aca|mirBase:aca-mir-425 cgr|mirBase:cgr-mir-425 chi|mirBase:chi-mir-425 oha|mirBase:oha-mir-425
+crm|mirBase:crm-mir-64c crm|mirBase:crm-mir-64b
+hsa|mirBase:hsa-mir-423 mmu|mirBase:mmu-mir-423 bta|mirBase:bta-mir-423 rno|mirBase:rno-mir-423 mml|mirBase:mml-mir-423 eca|mirBase:eca-mir-423 ssc|mirBase:ssc-mir-423 ppy|mirBase:ppy-mir-423 cgr|mirBase:cgr-mir-423 chi|mirBase:chi-mir-423
+pin|mirBase:pin-MIR8788 pra|mirBase:pra-MIR8788a pra|mirBase:pra-MIR8788b psj|mirBase:psj-MIR8788a psj|mirBase:psj-MIR8788b
+hsa|mirBase:hsa-mir-4520-1 hsa|mirBase:hsa-mir-4520-2
+gga|mirBase:gga-mir-1597
+han|mirBase:han-MIR3630
+hsa|mirBase:hsa-mir-4524a hsa|mirBase:hsa-mir-4524b
+cre|mirBase:cre-MIR1151a cre|mirBase:cre-MIR1151b
+hsa|mirBase:hsa-mir-4529
+mtr|mirBase:mtr-MIR2592b mtr|mirBase:mtr-MIR2592d mtr|mirBase:mtr-MIR2592e mtr|mirBase:mtr-MIR2592o mtr|mirBase:mtr-MIR2592q mtr|mirBase:mtr-MIR2592s mtr|mirBase:mtr-MIR2592a mtr|mirBase:mtr-MIR5554a mtr|mirBase:mtr-MIR2592bl mtr|mirBase:mtr-MIR5554b mtr|mirBase:mtr-MIR2592bm mtr|mirBase:mtr-MIR2592bn mtr|mirBase:mtr-MIR5554c mtr|mirBase:mtr-MIR2592bo mtr|mirBase:mtr-MIR2592bp mtr|mirBase:mtr-MIR2592bq mtr|mirBase:mtr-MIR2592br
+ata|mirBase:ata-MIR6201
+gma|mirBase:gma-MIR1520f
+cel|mirBase:cel-mir-83 asu|mirBase:asu-mir-83
+cel|mirBase:cel-mir-81 cel|mirBase:cel-mir-82 crm|mirBase:crm-mir-81
+cel|mirBase:cel-mir-80 crm|mirBase:crm-mir-80
+cel|mirBase:cel-mir-87 dme|mirBase:dme-mir-87 sme|mirBase:sme-mir-87a tca|mirBase:tca-mir-87a crm|mirBase:crm-mir-87 tca|mirBase:tca-mir-87b egr|mirBase:egr-mir-87 asu|mirBase:asu-mir-87a asu|mirBase:asu-mir-87b tur|mirBase:tur-mir-87 prd|mirBase:prd-mir-87 gsa|mirBase:gsa-mir-87
+cel|mirBase:cel-mir-86 crm|mirBase:crm-mir-86 asu|mirBase:asu-mir-86 prd|mirBase:prd-mir-86
+cel|mirBase:cel-mir-85
+cel|mirBase:cel-mir-84 crm|mirBase:crm-mir-84 asu|mirBase:asu-mir-84 bma|mirBase:bma-mir-84-1
+tca|mirBase:tca-mir-2788 hme|mirBase:hme-mir-2788
+mdo|mirBase:mdo-mir-7398e mdo|mirBase:mdo-mir-7398a-1 mdo|mirBase:mdo-mir-7398r mdo|mirBase:mdo-mir-7398n mdo|mirBase:mdo-mir-7398k-1 mdo|mirBase:mdo-mir-7398k-2 mdo|mirBase:mdo-mir-7398o mdo|mirBase:mdo-mir-7398l mdo|mirBase:mdo-mir-7398m mdo|mirBase:mdo-mir-7398c mdo|mirBase:mdo-mir-7398b mdo|mirBase:mdo-mir-7398a-2 mdo|mirBase:mdo-mir-7398a-3 mdo|mirBase:mdo-mir-7398a-4 mdo|mirBase:mdo-mir-7398a-5 mdo|mirBase:mdo-mir-7398p mdo|mirBase:mdo-mir-7398q mdo|mirBase:mdo-mir-7398d mdo|mirBase:mdo-mir-7398s mdo|mirBase:mdo-mir-7398u mdo|mirBase:mdo-mir-7398j mdo|mirBase:mdo-mir-7398h mdo|mirBase:mdo-mir-7398t mdo|mirBase:mdo-mir-7398i
+ath|mirBase:ath-MIR4228
+dme|mirBase:dme-mir-989
+hsa|mirBase:hsa-mir-6500
+dme|mirBase:dme-mir-988 dps|mirBase:dps-mir-988 dsi|mirBase:dsi-mir-988 aae|mirBase:aae-mir-988 cqu|mirBase:cqu-mir-988
+dps|mirBase:dps-mir-2545a
+dps|mirBase:dps-mir-2542-1 dps|mirBase:dps-mir-2542-2 dps|mirBase:dps-mir-2542-3
+dps|mirBase:dps-mir-2543a-1 dps|mirBase:dps-mir-2543b-2 dps|mirBase:dps-mir-2543b-1 dps|mirBase:dps-mir-2543a-2
+mmu|mirBase:mmu-mir-3099
+hsa|mirBase:hsa-mir-3607 gga|mirBase:gga-mir-3607
+cel|mirBase:cel-mir-8186-1 cel|mirBase:cel-mir-8186-2
+cel|mirBase:cel-mir-357
+hsa|mirBase:hsa-mir-3605
+ppe|mirBase:ppe-MIR6274b
+hsa|mirBase:hsa-mir-5583-1 hsa|mirBase:hsa-mir-5583-2
+hsa|mirBase:hsa-mir-6790 mml|mirBase:mml-mir-6790
+hsa|mirBase:hsa-mir-4782
+gga|mirBase:gga-mir-1744
+ath|mirBase:ath-MIR173 aly|mirBase:aly-MIR173a
+cca|mirBase:cca-MIR6108e
+aly|mirBase:aly-MIR859
+aly|mirBase:aly-MIR858
+asu|mirBase:asu-mir-5345a
+mmu|mirBase:mmu-mir-5615-1 mmu|mirBase:mmu-mir-5615-2
+dme|mirBase:dme-mir-980 dps|mirBase:dps-mir-980 dsi|mirBase:dsi-mir-980 aae|mirBase:aae-mir-980 tca|mirBase:tca-mir-980
+dme|mirBase:dme-mir-282 bmo|mirBase:bmo-mir-282 tca|mirBase:tca-mir-282 aae|mirBase:aae-mir-282-1 aae|mirBase:aae-mir-282-2
+mmu|mirBase:mmu-mir-3544
+aly|mirBase:aly-MIR853
+cin|mirBase:cin-mir-281
+dme|mirBase:dme-mir-286
+dme|mirBase:dme-mir-983-1 dme|mirBase:dme-mir-983-2 dsi|mirBase:dsi-mir-983a
+dme|mirBase:dme-mir-284
+aly|mirBase:aly-MIR856
+asu|mirBase:asu-mir-5365a asu|mirBase:asu-mir-5365b
+dme|mirBase:dme-mir-982
+cin|mirBase:cin-mir-4019 cin|mirBase:cin-mir-4018a
+hsa|mirBase:hsa-mir-3622a hsa|mirBase:hsa-mir-3622b
+bmo|mirBase:bmo-mir-2808a-2
+mml|mirBase:mml-mir-512 ocu|mirBase:ocu-mir-512a ocu|mirBase:ocu-mir-512b
+prd|mirBase:prd-mir-7957b prd|mirBase:prd-mir-7957a prd|mirBase:prd-mir-7957d prd|mirBase:prd-mir-7957c
+rno|mirBase:rno-mir-511
+hsa|mirBase:hsa-mir-515-1 hsa|mirBase:hsa-mir-519e hsa|mirBase:hsa-mir-520f hsa|mirBase:hsa-mir-515-2 hsa|mirBase:hsa-mir-519c hsa|mirBase:hsa-mir-520a hsa|mirBase:hsa-mir-526b hsa|mirBase:hsa-mir-519b hsa|mirBase:hsa-mir-525 hsa|mirBase:hsa-mir-523 hsa|mirBase:hsa-mir-518f hsa|mirBase:hsa-mir-520c hsa|mirBase:hsa-mir-518c hsa|mirBase:hsa-mir-524 hsa|mirBase:hsa-mir-517a hsa|mirBase:hsa-mir-519d hsa|mirBase:hsa-mir-520d hsa|mirBase:hsa-mir-517b hsa|mirBase:hsa-mir-520g hsa|mirBase:hsa-mir-516b-2 hsa|mirBase:hsa-mir-518e hsa|mirBase:hsa-mir-518a-1 hsa|mirBase:hsa-mir-518d hsa|mirBase:hsa-mir-516b-1 hsa|mirBase:hsa-mir-518a-2 hsa|mirBase:hsa-mir-517c hsa|mirBase:hsa-mir-522 hsa|mirBase:hsa-mir-519a-1 hsa|mirBase:hsa-mir-516a-1 hsa|mirBase:hsa-mir-516a-2 mml|mirBase:mml-mir-516a-1 mml|mirBase:mml-mir-516a-2 mml|mirBase:mml-mir-518a-1 mml|mirBase:mml-mir-518c mml|mirBase:mml-mir-519a mml|mirBase:mml-mir-520a mml|mirBase:mml-mir-524 ppy|mirBase:ppy-mir-515-1 ppy|mirBase:ppy-mir-515-2 ppy|mirBase:ppy-mir-516a-1 ppy|mirBase:ppy-mir-516a-2 ppy|mirBase:ppy-mir-518a-1 ppy|mirBase:ppy-mir-518a-2 ppy|mirBase:ppy-mir-518d ppy|mirBase:ppy-mir-519b ppy|mirBase:ppy-mir-520a ppy|mirBase:ppy-mir-520c ppy|mirBase:ppy-mir-520d ppy|mirBase:ppy-mir-524 ppy|mirBase:ppy-mir-525 mml|mirBase:mml-mir-518d-1 mml|mirBase:mml-mir-518d-2 mml|mirBase:mml-mir-518g mml|mirBase:mml-mir-518a-2 ggo|mirBase:ggo-mir-515-1 ggo|mirBase:ggo-mir-519e ggo|mirBase:ggo-mir-515-2 ggo|mirBase:ggo-mir-519c-1 ggo|mirBase:ggo-mir-525 ggo|mirBase:ggo-mir-523 ggo|mirBase:ggo-mir-518f ggo|mirBase:ggo-mir-518c ggo|mirBase:ggo-mir-524 ggo|mirBase:ggo-mir-518e ggo|mirBase:ggo-mir-518d ggo|mirBase:ggo-mir-517c-2 ggo|mirBase:ggo-mir-522 ggo|mirBase:ggo-mir-519a-1 ggo|mirBase:ggo-mir-516a-1 mml|mirBase:mml-mir-518a-3 mml|mirBase:mml-mir-518a-4 ppy|mirBase:ppy-mir-515-3 ppy|mirBase:ppy-mir-517c-2 ppy|mirBase:ppy-mir-517c-3 ppy|mirBase:ppy-mir-518g ppy|mirBase:ppy-mir-518a-3 ptr|mirBase:ptr-mir-518g ptr|mirBase:ptr-mir-519f
+dme|mirBase:dme-mir-987 dps|mirBase:dps-mir-987 dsi|mirBase:dsi-mir-987
+dme|mirBase:dme-mir-986 dps|mirBase:dps-mir-986 dsi|mirBase:dsi-mir-986
+hsa|mirBase:hsa-mir-1911 mml|mirBase:mml-mir-1911
+bta|mirBase:bta-mir-2320 ssc|mirBase:ssc-mir-2320
+cin|mirBase:cin-mir-4015-1 cin|mirBase:cin-mir-4015-2
+dme|mirBase:dme-mir-iab-8 dps|mirBase:dps-mir-iab-8 dsi|mirBase:dsi-mir-iab-8 tca|mirBase:tca-mir-iab-8
+dme|mirBase:dme-mir-iab-4 dps|mirBase:dps-mir-iab-4 tca|mirBase:tca-mir-iab-4 dan|mirBase:dan-mir-iab-4 der|mirBase:der-mir-iab-4 dgr|mirBase:dgr-mir-iab-4 dmo|mirBase:dmo-mir-iab-4 dpe|mirBase:dpe-mir-iab-4 dse|mirBase:dse-mir-iab-4 dsi|mirBase:dsi-mir-iab-4 dwi|mirBase:dwi-mir-iab-4 dya|mirBase:dya-mir-iab-4 bmo|mirBase:bmo-mir-iab-4 dpu|mirBase:dpu-mir-iab-4 aae|mirBase:aae-mir-iab-4-1 aae|mirBase:aae-mir-iab-4-2
+oan|mirBase:oan-mir-2985 oha|mirBase:oha-mir-2985a-2 oha|mirBase:oha-mir-2985a-1 oha|mirBase:oha-mir-2985b
+hsa|mirBase:hsa-mir-1910
+hsa|mirBase:hsa-mir-4659a hsa|mirBase:hsa-mir-4659b
+mmu|mirBase:mmu-mir-1912 rno|mirBase:rno-mir-1912
+hsa|mirBase:hsa-mir-1914
+hsa|mirBase:hsa-mir-1915
+hsa|mirBase:hsa-mir-4716
+hsa|mirBase:hsa-mir-4650-1 hsa|mirBase:hsa-mir-4650-2
+ppt|mirBase:ppt-MIR1023a ppt|mirBase:ppt-MIR1023b ppt|mirBase:ppt-MIR1023c ppt|mirBase:ppt-MIR1023e
+ppe|mirBase:ppe-MIR3627
+chi|mirBase:chi-mir-3431
+hsa|mirBase:hsa-mir-605
+hsa|mirBase:hsa-mir-769 eca|mirBase:eca-mir-769a ssc|mirBase:ssc-mir-769 mml|mirBase:mml-mir-769
+ppc|mirBase:ppc-mir-8250a-1 ppc|mirBase:ppc-mir-8250a-2 ppc|mirBase:ppc-mir-8250c ppc|mirBase:ppc-mir-8250d
+mmu|mirBase:mmu-mir-764 rno|mirBase:rno-mir-764 eca|mirBase:eca-mir-764
+hsa|mirBase:hsa-mir-767 mml|mirBase:mml-mir-767 eca|mirBase:eca-mir-767 ppy|mirBase:ppy-mir-767
+hsa|mirBase:hsa-mir-766
+aly|mirBase:aly-MIR774a aly|mirBase:aly-MIR774b ath|mirBase:ath-MIR774b
+mmu|mirBase:mmu-mir-760 rno|mirBase:rno-mir-760 bta|mirBase:bta-mir-760
+hsa|mirBase:hsa-mir-1180 mml|mirBase:mml-mir-1180
+ata|mirBase:ata-MIR5084
+pxy|mirBase:pxy-mir-8524-1 pxy|mirBase:pxy-mir-8524-2
+mmu|mirBase:mmu-mir-1188 rno|mirBase:rno-mir-1188
+hsa|mirBase:hsa-mir-561
+cel|mirBase:cel-mir-787
+cel|mirBase:cel-mir-786
+cel|mirBase:cel-mir-785
+crm|mirBase:crm-mir-784
+hsa|mirBase:hsa-mir-3129
+mmu|mirBase:mmu-mir-881 rno|mirBase:rno-mir-881
+hsa|mirBase:hsa-mir-3127
+hsa|mirBase:hsa-mir-3126
+hsa|mirBase:hsa-mir-551b mmu|mirBase:mmu-mir-551b rno|mirBase:rno-mir-551b oan|mirBase:oan-mir-551 gga|mirBase:gga-mir-551 mml|mirBase:mml-mir-551b mdo|mirBase:mdo-mir-551b tgu|mirBase:tgu-mir-551 ssa|mirBase:ssa-mir-551 oha|mirBase:oha-mir-551b
+cel|mirBase:cel-mir-789-1 cel|mirBase:cel-mir-789-2
+cel|mirBase:cel-mir-788
+ptc|mirBase:ptc-MIR482a ath|mirBase:ath-MIR472 gma|mirBase:gma-MIR482a mdm|mirBase:mdm-MIR482a aly|mirBase:aly-MIR472 gma|mirBase:gma-MIR482b csi|mirBase:csi-MIR482a gma|mirBase:gma-MIR2118b gma|mirBase:gma-MIR482c mtr|mirBase:mtr-MIR482 sly|mirBase:sly-MIR482e gma|mirBase:gma-MIR482d stu|mirBase:stu-MIR482b stu|mirBase:stu-MIR482a stu|mirBase:stu-MIR482d stu|mirBase:stu-MIR482e nta|mirBase:nta-MIR482b ppe|mirBase:ppe-MIR482a ppe|mirBase:ppe-MIR482b ppe|mirBase:ppe-MIR482c ptc|mirBase:ptc-MIR482d ptc|mirBase:ptc-MIR482b ptc|mirBase:ptc-MIR482c sly|mirBase:sly-MIR482d
+mmu|mirBase:mmu-mir-883a mmu|mirBase:mmu-mir-883b rno|mirBase:rno-mir-883
+gga|mirBase:gga-mir-1781
+dme|mirBase:dme-mir-932 tca|mirBase:tca-mir-932 dps|mirBase:dps-mir-932 dsi|mirBase:dsi-mir-932 aae|mirBase:aae-mir-932 cqu|mirBase:cqu-mir-932
+hsa|mirBase:hsa-mir-885 mml|mirBase:mml-mir-885 eca|mirBase:eca-mir-885 ssc|mirBase:ssc-mir-885 ppy|mirBase:ppy-mir-885
+ath|mirBase:ath-MIR172b ath|mirBase:ath-MIR172d ath|mirBase:ath-MIR172e osa|mirBase:osa-MIR172d zma|mirBase:zma-MIR172d zma|mirBase:zma-MIR172b zma|mirBase:zma-MIR172c gma|mirBase:gma-MIR172b ptc|mirBase:ptc-MIR172b ptc|mirBase:ptc-MIR172g ptc|mirBase:ptc-MIR172h bra|mirBase:bra-MIR172b csi|mirBase:csi-MIR172a aly|mirBase:aly-MIR172a aly|mirBase:aly-MIR172b aly|mirBase:aly-MIR172c aly|mirBase:aly-MIR172d aly|mirBase:aly-MIR172e bdi|mirBase:bdi-MIR172a mtr|mirBase:mtr-MIR172c gma|mirBase:gma-MIR172h gma|mirBase:gma-MIR172i mtr|mirBase:mtr-MIR172d stu|mirBase:stu-MIR172b stu|mirBase:stu-MIR172c stu|mirBase:stu-MIR172a stu|mirBase:stu-MIR172d stu|mirBase:stu-MIR172e aly|mirBase:aly-MIR172f ppe|mirBase:ppe-MIR172a bra|mirBase:bra-MIR172c bra|mirBase:bra-MIR172d ata|mirBase:ata-MIR172a ata|mirBase:ata-MIR172b ata|mirBase:ata-MIR172c
+mmu|mirBase:mmu-mir-463 rno|mirBase:rno-mir-463
+dre|mirBase:dre-mir-460 gga|mirBase:gga-mir-460a oan|mirBase:oan-mir-460 gga|mirBase:gga-mir-460b mdo|mirBase:mdo-mir-460 tgu|mirBase:tgu-mir-460b tgu|mirBase:tgu-mir-460a aca|mirBase:aca-mir-460a aca|mirBase:aca-mir-460b ola|mirBase:ola-mir-460 ccr|mirBase:ccr-mir-460 ssa|mirBase:ssa-mir-460-1 ssa|mirBase:ssa-mir-460-2 ssa|mirBase:ssa-mir-730a-1 ssa|mirBase:ssa-mir-730a-2
+bdi|mirBase:bdi-MIR7729a bdi|mirBase:bdi-MIR7729b
+mmu|mirBase:mmu-mir-466a mmu|mirBase:mmu-mir-466b-1 mmu|mirBase:mmu-mir-466b-2 mmu|mirBase:mmu-mir-466b-3 mmu|mirBase:mmu-mir-466c-1 mmu|mirBase:mmu-mir-466e mmu|mirBase:mmu-mir-466c-2 mmu|mirBase:mmu-mir-466b-4 mmu|mirBase:mmu-mir-466b-5 mmu|mirBase:mmu-mir-466b-6 mmu|mirBase:mmu-mir-466b-7 mmu|mirBase:mmu-mir-466p mmu|mirBase:mmu-mir-466b-8 mmu|mirBase:mmu-mir-466c-3
+mmu|mirBase:mmu-mir-467a-1 mmu|mirBase:mmu-mir-669a-1 mmu|mirBase:mmu-mir-669b mmu|mirBase:mmu-mir-669a-2 mmu|mirBase:mmu-mir-669a-3 mmu|mirBase:mmu-mir-467b mmu|mirBase:mmu-mir-669c mmu|mirBase:mmu-mir-466f-1 mmu|mirBase:mmu-mir-466f-2 mmu|mirBase:mmu-mir-466f-3 mmu|mirBase:mmu-mir-466h mmu|mirBase:mmu-mir-467c mmu|mirBase:mmu-mir-467d mmu|mirBase:mmu-mir-466d rno|mirBase:rno-mir-466b-1 rno|mirBase:rno-mir-466b-2 rno|mirBase:rno-mir-466c mmu|mirBase:mmu-mir-467e mmu|mirBase:mmu-mir-466l mmu|mirBase:mmu-mir-669k mmu|mirBase:mmu-mir-669d mmu|mirBase:mmu-mir-466i mmu|mirBase:mmu-mir-669f mmu|mirBase:mmu-mir-669h mmu|mirBase:mmu-mir-669e mmu|mirBase:mmu-mir-669l mmu|mirBase:mmu-mir-669m-1 mmu|mirBase:mmu-mir-669m-2 mmu|mirBase:mmu-mir-669o mmu|mirBase:mmu-mir-466m mmu|mirBase:mmu-mir-669d-2 mmu|mirBase:mmu-mir-466o mmu|mirBase:mmu-mir-467a-2 mmu|mirBase:mmu-mir-669a-4 mmu|mirBase:mmu-mir-669a-5 mmu|mirBase:mmu-mir-467a-3 mmu|mirBase:mmu-mir-669a-6 mmu|mirBase:mmu-mir-467a-4 mmu|mirBase:mmu-mir-669a-7 mmu|mirBase:mmu-mir-467a-5 mmu|mirBase:mmu-mir-669p-1 mmu|mirBase:mmu-mir-467a-6 mmu|mirBase:mmu-mir-669a-8 mmu|mirBase:mmu-mir-669a-9 mmu|mirBase:mmu-mir-467a-7 mmu|mirBase:mmu-mir-669p-2 mmu|mirBase:mmu-mir-467a-8 mmu|mirBase:mmu-mir-669a-10 mmu|mirBase:mmu-mir-467a-9 mmu|mirBase:mmu-mir-669a-11 mmu|mirBase:mmu-mir-467a-10 mmu|mirBase:mmu-mir-669a-12 mmu|mirBase:mmu-mir-466n rno|mirBase:rno-mir-466b-3 rno|mirBase:rno-mir-466b-4
+cel|mirBase:cel-mir-1822
+mmu|mirBase:mmu-mir-465a mmu|mirBase:mmu-mir-465b-1 mmu|mirBase:mmu-mir-465b-2 mmu|mirBase:mmu-mir-465c-1 mmu|mirBase:mmu-mir-465c-2 rno|mirBase:rno-mir-465 mmu|mirBase:mmu-mir-465d
+cin|mirBase:cin-mir-4017-1 cin|mirBase:cin-mir-4017-2
+hsa|mirBase:hsa-mir-887
+cin|mirBase:cin-mir-4012-2
+cel|mirBase:cel-mir-1829a cel|mirBase:cel-mir-1829b cel|mirBase:cel-mir-1829c cel|mirBase:cel-mir-4812
+bdi|mirBase:bdi-MIR7757
+dme|mirBase:dme-mir-308 bmo|mirBase:bmo-mir-308 aae|mirBase:aae-mir-308
+dme|mirBase:dme-mir-263a dme|mirBase:dme-mir-263b bmo|mirBase:bmo-mir-263b bmo|mirBase:bmo-mir-263a tca|mirBase:tca-mir-263b tca|mirBase:tca-mir-263a aae|mirBase:aae-mir-263a aae|mirBase:aae-mir-263b asu|mirBase:asu-mir-228 tur|mirBase:tur-mir-263b tur|mirBase:tur-mir-263a
+dme|mirBase:dme-mir-303
+mmu|mirBase:mmu-mir-302a hsa|mirBase:hsa-mir-302a hsa|mirBase:hsa-mir-302b hsa|mirBase:hsa-mir-302c hsa|mirBase:hsa-mir-302d gga|mirBase:gga-mir-302b gga|mirBase:gga-mir-302c mmu|mirBase:mmu-mir-302b mmu|mirBase:mmu-mir-302c mmu|mirBase:mmu-mir-302d oan|mirBase:oan-mir-302-2 mml|mirBase:mml-mir-302a ocu|mirBase:ocu-mir-302b ocu|mirBase:ocu-mir-302c ocu|mirBase:ocu-mir-302a ocu|mirBase:ocu-mir-302d
+hsa|mirBase:hsa-mir-3613
+dme|mirBase:dme-mir-306 der|mirBase:der-mir-306 dmo|mirBase:dmo-mir-306 dse|mirBase:dse-mir-306 dya|mirBase:dya-mir-306 bmo|mirBase:bmo-mir-306a
+dme|mirBase:dme-mir-305 bmo|mirBase:bmo-mir-305 tca|mirBase:tca-mir-305 aae|mirBase:aae-mir-305 cqu|mirBase:cqu-mir-305
+dme|mirBase:dme-mir-304

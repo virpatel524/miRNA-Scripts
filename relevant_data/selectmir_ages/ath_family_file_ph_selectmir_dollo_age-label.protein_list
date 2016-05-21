@@ -1,0 +1,94 @@
+# age_proteins.py -o ../relevant_data/selectmir_ages/ -t ../relevant_data/time_tree_dates.txt ../relevant_data/family_file_ph_selectmir.txt ../relevant_data/phylo_tree.txt 2016-05-19 19:02:08.011342
+#
+# FAMILY_FILE = ../relevant_data/family_file_ph_selectmir.txt
+# TREE_FILE = ../relevant_data/phylo_tree.txt
+# RECONSTRUCTION_ALGO = dollo
+# GAIN_PENALTY = 1
+# OUTPUT_NAME = family_file_ph_selectmir_dollo
+# OUTPUT_DIR = ../relevant_data/selectmir_ages/
+# OUTPUT_FORMATS = ['depth', 'label', 'time', 'profile']
+# TIME_FILE = ../relevant_data/time_tree_dates.txt
+# ADDITIONAL_ID_FILE = None
+#
+ath-MIR156a	Tracheophyta
+ath-MIR156b	Tracheophyta
+ath-MIR156c	Tracheophyta
+ath-MIR156d	Tracheophyta
+ath-MIR156f	Tracheophyta
+ath-MIR157a	Tracheophyta
+ath-MIR157b	Tracheophyta
+ath-MIR157c	Tracheophyta
+ath-MIR158a	Brassicaceae
+ath-MIR159b	Embryophyta
+ath-MIR160a	Mesangiospermae
+ath-MIR160c	Mesangiospermae
+ath-MIR161	Brassicaceae
+ath-MIR162a	Pentapetalae
+ath-MIR162b	Pentapetalae
+ath-MIR164b	Mesangiospermae
+ath-MIR164c	Mesangiospermae
+ath-MIR165a	Mesangiospermae
+ath-MIR166a	Mesangiospermae
+ath-MIR166b	Mesangiospermae
+ath-MIR166e	Mesangiospermae
+ath-MIR167a	Mesangiospermae
+ath-MIR167c	Mesangiospermae
+ath-MIR168a	Mesangiospermae
+ath-MIR168b	Mesangiospermae
+ath-MIR169a	Mesangiospermae
+ath-MIR169b	Mesangiospermae
+ath-MIR169f	Mesangiospermae
+ath-MIR169g	Mesangiospermae
+ath-MIR170	Mesangiospermae
+ath-MIR171a	Mesangiospermae
+ath-MIR171b	Mesangiospermae
+ath-MIR171c	Mesangiospermae
+ath-MIR172b	Mesangiospermae
+ath-MIR172d	Mesangiospermae
+ath-MIR172e	Mesangiospermae
+ath-MIR173	Camelineae
+ath-MIR2111a	rosids
+ath-MIR2111b	rosids
+ath-MIR2112	Camelineae
+ath-MIR2934	ath
+ath-MIR3434	Camelineae
+ath-MIR3440b	Camelineae
+ath-MIR390a	Embryophyta
+ath-MIR390b	Embryophyta
+ath-MIR391	Camelineae
+ath-MIR3932b	ath
+ath-MIR393a	Mesangiospermae
+ath-MIR393b	Mesangiospermae
+ath-MIR394b	Mesangiospermae
+ath-MIR396a	Mesangiospermae
+ath-MIR396b	Mesangiospermae
+ath-MIR398a	Mesangiospermae
+ath-MIR398b	Mesangiospermae
+ath-MIR398c	Mesangiospermae
+ath-MIR399c	Mesangiospermae
+ath-MIR403	Pentapetalae
+ath-MIR408	Mesangiospermae
+ath-MIR4228	ath
+ath-MIR447a	ath
+ath-MIR447c	ath
+ath-MIR472	Pentapetalae
+ath-MIR5014a	ath
+ath-MIR773b	Camelineae
+ath-MIR774b	Camelineae
+ath-MIR822	Camelineae
+ath-MIR824	Camelineae
+ath-MIR829	Camelineae
+ath-MIR831	Camelineae
+ath-MIR833a	Camelineae
+ath-MIR835	Camelineae
+ath-MIR837	Camelineae
+ath-MIR840	Camelineae
+ath-MIR841a	ath
+ath-MIR841b	ath
+ath-MIR844	Camelineae
+ath-MIR846	Camelineae
+ath-MIR851	Camelineae
+ath-MIR861	Camelineae
+ath-MIR862	Camelineae
+ath-MIR868	Camelineae
+ath-MIR869	Camelineae

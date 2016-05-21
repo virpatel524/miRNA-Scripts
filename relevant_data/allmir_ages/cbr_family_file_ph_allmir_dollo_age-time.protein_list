@@ -1,0 +1,110 @@
+# age_proteins.py -o ../relevant_data/allmir_ages/ -t ../relevant_data/time_tree_dates.txt ../relevant_data/family_file_ph_allmir.txt ../relevant_data/phylo_tree.txt 2016-05-19 19:01:05.137938
+#
+# FAMILY_FILE = ../relevant_data/family_file_ph_allmir.txt
+# TREE_FILE = ../relevant_data/phylo_tree.txt
+# RECONSTRUCTION_ALGO = dollo
+# GAIN_PENALTY = 1
+# OUTPUT_NAME = family_file_ph_allmir_dollo
+# OUTPUT_DIR = ../relevant_data/allmir_ages/
+# OUTPUT_FORMATS = ['depth', 'label', 'time', 'profile']
+# TIME_FILE = ../relevant_data/time_tree_dates.txt
+# ADDITIONAL_ID_FILE = None
+#
+cbr-let-7	910.0
+cbr-lin-4	250.0
+cbr-lsy-6	110.6
+cbr-mir-1	910.0
+cbr-mir-124a	910.0
+cbr-mir-2	910.0
+cbr-mir-2222-1	0.0
+cbr-mir-2222-2	0.0
+cbr-mir-230	110.6
+cbr-mir-234	250.0
+cbr-mir-235a	110.6
+cbr-mir-236	250.0
+cbr-mir-237	110.6
+cbr-mir-238	110.6
+cbr-mir-239a	250.0
+cbr-mir-239b	250.0
+cbr-mir-240	110.6
+cbr-mir-242	110.6
+cbr-mir-248	110.6
+cbr-mir-249	110.6
+cbr-mir-250	250.0
+cbr-mir-252	910.0
+cbr-mir-253	110.6
+cbr-mir-259	110.6
+cbr-mir-268	250.0
+cbr-mir-34	910.0
+cbr-mir-354	110.6
+cbr-mir-356	110.6
+cbr-mir-358	110.6
+cbr-mir-359	110.6
+cbr-mir-35a	110.6
+cbr-mir-35b-1	910.0
+cbr-mir-35b-10	910.0
+cbr-mir-35b-11	910.0
+cbr-mir-35b-12	910.0
+cbr-mir-35b-13	910.0
+cbr-mir-35b-2	910.0
+cbr-mir-35b-3	910.0
+cbr-mir-35b-4	910.0
+cbr-mir-35b-5	910.0
+cbr-mir-35b-6	910.0
+cbr-mir-35b-7	910.0
+cbr-mir-35b-8	910.0
+cbr-mir-35b-9	910.0
+cbr-mir-35c-1	910.0
+cbr-mir-35c-2	910.0
+cbr-mir-35d	110.6
+cbr-mir-35e	910.0
+cbr-mir-35f	910.0
+cbr-mir-35g-1	910.0
+cbr-mir-35g-2	910.0
+cbr-mir-35g-3	910.0
+cbr-mir-36	910.0
+cbr-mir-38	910.0
+cbr-mir-392	110.6
+cbr-mir-40	910.0
+cbr-mir-41a	910.0
+cbr-mir-41b	910.0
+cbr-mir-42	110.6
+cbr-mir-44	250.0
+cbr-mir-45-1	250.0
+cbr-mir-45-2	250.0
+cbr-mir-46	910.0
+cbr-mir-47	910.0
+cbr-mir-50	250.0
+cbr-mir-54a	110.6
+cbr-mir-54b	110.6
+cbr-mir-54c	110.6
+cbr-mir-54d	110.6
+cbr-mir-55	110.6
+cbr-mir-57	250.0
+cbr-mir-67	910.0
+cbr-mir-70	110.6
+cbr-mir-71	910.0
+cbr-mir-7580-1	0.0
+cbr-mir-7580-2	0.0
+cbr-mir-7583a	0.0
+cbr-mir-7583b	0.0
+cbr-mir-7583c	0.0
+cbr-mir-7583d	0.0
+cbr-mir-7594a-1	0.0
+cbr-mir-7594a-2	0.0
+cbr-mir-7594b-1	0.0
+cbr-mir-7594b-2	0.0
+cbr-mir-76	110.6
+cbr-mir-784	110.6
+cbr-mir-785a	110.6
+cbr-mir-786	110.6
+cbr-mir-787	110.6
+cbr-mir-789	110.6
+cbr-mir-79	910.0
+cbr-mir-791	110.6
+cbr-mir-81	250.0
+cbr-mir-82	250.0
+cbr-mir-83	250.0
+cbr-mir-84	250.0
+cbr-mir-86	250.0
+cbr-mir-87	910.0

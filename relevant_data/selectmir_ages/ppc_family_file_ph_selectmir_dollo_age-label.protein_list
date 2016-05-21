@@ -1,0 +1,61 @@
+# age_proteins.py -o ../relevant_data/selectmir_ages/ -t ../relevant_data/time_tree_dates.txt ../relevant_data/family_file_ph_selectmir.txt ../relevant_data/phylo_tree.txt 2016-05-19 19:02:08.011342
+#
+# FAMILY_FILE = ../relevant_data/family_file_ph_selectmir.txt
+# TREE_FILE = ../relevant_data/phylo_tree.txt
+# RECONSTRUCTION_ALGO = dollo
+# GAIN_PENALTY = 1
+# OUTPUT_NAME = family_file_ph_selectmir_dollo
+# OUTPUT_DIR = ../relevant_data/selectmir_ages/
+# OUTPUT_FORMATS = ['depth', 'label', 'time', 'profile']
+# TIME_FILE = ../relevant_data/time_tree_dates.txt
+# ADDITIONAL_ID_FILE = None
+#
+ppc-mir-2235a-1	Diplogasterida
+ppc-mir-2235a-10	Diplogasterida
+ppc-mir-2235a-11	Diplogasterida
+ppc-mir-2235a-2	Diplogasterida
+ppc-mir-2235a-3	Diplogasterida
+ppc-mir-2235a-4	Diplogasterida
+ppc-mir-2235a-5	Diplogasterida
+ppc-mir-2235a-6	Diplogasterida
+ppc-mir-2235a-7	Diplogasterida
+ppc-mir-2235a-8	Diplogasterida
+ppc-mir-2235a-9	Diplogasterida
+ppc-mir-2238g	Diplogasterida
+ppc-mir-2238h	Diplogasterida
+ppc-mir-2238i	Diplogasterida
+ppc-mir-2238k	Diplogasterida
+ppc-mir-2253c	Diplogasterida
+ppc-mir-2253d	Diplogasterida
+ppc-mir-235	Bilateria
+ppc-mir-63i	Chromadorea
+ppc-mir-71b	Bilateria
+ppc-mir-8229a	Diplogasterida
+ppc-mir-8229b	Diplogasterida
+ppc-mir-8250a-1	Diplogasterida
+ppc-mir-8250a-2	Diplogasterida
+ppc-mir-8250c	Diplogasterida
+ppc-mir-8250d	Diplogasterida
+ppc-mir-8286a	Diplogasterida
+ppc-mir-8286b	Diplogasterida
+ppc-mir-8303-1	Diplogasterida
+ppc-mir-8303-2	Diplogasterida
+ppc-mir-8315-1	Diplogasterida
+ppc-mir-8315-2	Diplogasterida
+ppc-mir-8338-1	Diplogasterida
+ppc-mir-8338-2	Diplogasterida
+ppc-mir-8356a	Diplogasterida
+ppc-mir-8356b	Diplogasterida
+ppc-mir-8364b-1	Diplogasterida
+ppc-mir-8364b-2	Diplogasterida
+ppc-mir-8364f	Diplogasterida
+ppc-mir-8364g	Diplogasterida
+ppc-mir-8364h	Diplogasterida
+ppc-mir-8364i	Diplogasterida
+ppc-mir-8364j	Diplogasterida
+ppc-mir-8364k	Diplogasterida
+ppc-mir-8364m	Diplogasterida
+ppc-mir-8364o	Diplogasterida
+ppc-mir-8364r	Diplogasterida
+ppc-mir-8364s	Diplogasterida
+ppc-mir-8364v	Diplogasterida

@@ -1,0 +1,26 @@
+# age_proteins.py -o ../relevant_data/allmir_ages/ -t ../relevant_data/time_tree_dates.txt ../relevant_data/family_file_ph_allmir.txt ../relevant_data/phylo_tree.txt 2016-05-19 19:01:05.137938
+#
+# FAMILY_FILE = ../relevant_data/family_file_ph_allmir.txt
+# TREE_FILE = ../relevant_data/phylo_tree.txt
+# RECONSTRUCTION_ALGO = dollo
+# GAIN_PENALTY = 1
+# OUTPUT_NAME = family_file_ph_allmir_dollo
+# OUTPUT_DIR = ../relevant_data/allmir_ages/
+# OUTPUT_FORMATS = ['depth', 'label', 'time', 'profile']
+# TIME_FILE = ../relevant_data/time_tree_dates.txt
+# ADDITIONAL_ID_FILE = None
+#
+hbr-MIR156	Embryophyta
+hbr-MIR159a	Embryophyta
+hbr-MIR159b	Embryophyta
+hbr-MIR166a	Embryophyta
+hbr-MIR166b	Embryophyta
+hbr-MIR2118	Mesangiospermae
+hbr-MIR319	Embryophyta
+hbr-MIR396a	Tracheophyta
+hbr-MIR396b	Tracheophyta
+hbr-MIR398	Spermatophyta
+hbr-MIR408a	Embryophyta
+hbr-MIR408b	Embryophyta
+hbr-MIR482a	Spermatophyta
+hbr-MIR482b	Spermatophyta

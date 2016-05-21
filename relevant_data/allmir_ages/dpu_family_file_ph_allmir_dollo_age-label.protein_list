@@ -1,0 +1,50 @@
+# age_proteins.py -o ../relevant_data/allmir_ages/ -t ../relevant_data/time_tree_dates.txt ../relevant_data/family_file_ph_allmir.txt ../relevant_data/phylo_tree.txt 2016-05-19 19:01:05.137938
+#
+# FAMILY_FILE = ../relevant_data/family_file_ph_allmir.txt
+# TREE_FILE = ../relevant_data/phylo_tree.txt
+# RECONSTRUCTION_ALGO = dollo
+# GAIN_PENALTY = 1
+# OUTPUT_NAME = family_file_ph_allmir_dollo
+# OUTPUT_DIR = ../relevant_data/allmir_ages/
+# OUTPUT_FORMATS = ['depth', 'label', 'time', 'profile']
+# TIME_FILE = ../relevant_data/time_tree_dates.txt
+# ADDITIONAL_ID_FILE = None
+#
+dpu-bantam	Bilateria
+dpu-mir-1	Bilateria
+dpu-mir-10	Bilateria
+dpu-mir-100	Bilateria
+dpu-mir-12	Protostomia
+dpu-mir-124	Bilateria
+dpu-mir-133	Bilateria
+dpu-mir-137	Bilateria
+dpu-mir-153	Bilateria
+dpu-mir-2-1	Bilateria
+dpu-mir-2-2	Bilateria
+dpu-mir-219	Bilateria
+dpu-mir-252a	Bilateria
+dpu-mir-252b	Bilateria
+dpu-mir-263a	Protostomia
+dpu-mir-263b	Protostomia
+dpu-mir-275	Arthropoda
+dpu-mir-276	Arthropoda
+dpu-mir-278	Bilateria
+dpu-mir-279a	Protostomia
+dpu-mir-281	Bilateria
+dpu-mir-283	Bilateria
+dpu-mir-285	Bilateria
+dpu-mir-307	Bilateria
+dpu-mir-31	Bilateria
+dpu-mir-315	Bilateria
+dpu-mir-317	Arthropoda
+dpu-mir-33	Bilateria
+dpu-mir-34	Bilateria
+dpu-mir-7	Bilateria
+dpu-mir-71	Bilateria
+dpu-mir-8	Bilateria
+dpu-mir-9	Bilateria
+dpu-mir-92	Bilateria
+dpu-mir-965	Mandibulata
+dpu-mir-981	Bilateria
+dpu-mir-993	Bilateria
+dpu-mir-iab-4	Arthropoda

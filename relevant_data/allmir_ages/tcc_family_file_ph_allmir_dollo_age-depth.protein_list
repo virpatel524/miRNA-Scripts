@@ -1,0 +1,94 @@
+# age_proteins.py -o ../relevant_data/allmir_ages/ -t ../relevant_data/time_tree_dates.txt ../relevant_data/family_file_ph_allmir.txt ../relevant_data/phylo_tree.txt 2016-05-19 19:01:05.137938
+#
+# FAMILY_FILE = ../relevant_data/family_file_ph_allmir.txt
+# TREE_FILE = ../relevant_data/phylo_tree.txt
+# RECONSTRUCTION_ALGO = dollo
+# GAIN_PENALTY = 1
+# OUTPUT_NAME = family_file_ph_allmir_dollo
+# OUTPUT_DIR = ../relevant_data/allmir_ages/
+# OUTPUT_FORMATS = ['depth', 'label', 'time', 'profile']
+# TIME_FILE = ../relevant_data/time_tree_dates.txt
+# ADDITIONAL_ID_FILE = None
+#
+tcc-MIR156a	15
+tcc-MIR156b	15
+tcc-MIR156c	15
+tcc-MIR156d	15
+tcc-MIR156e	15
+tcc-MIR156f	15
+tcc-MIR156g	15
+tcc-MIR160a	15
+tcc-MIR160b	15
+tcc-MIR160c	15
+tcc-MIR162	12
+tcc-MIR164a	12
+tcc-MIR164b	12
+tcc-MIR164c	12
+tcc-MIR166a	15
+tcc-MIR166b	15
+tcc-MIR166c	15
+tcc-MIR166d	15
+tcc-MIR167a	11
+tcc-MIR167b	11
+tcc-MIR167c	11
+tcc-MIR168	11
+tcc-MIR169a	12
+tcc-MIR169b	12
+tcc-MIR169c	12
+tcc-MIR169d	11
+tcc-MIR169e	12
+tcc-MIR169f	11
+tcc-MIR169g	11
+tcc-MIR169h	11
+tcc-MIR169i	11
+tcc-MIR169j	11
+tcc-MIR169k	12
+tcc-MIR169l	12
+tcc-MIR169m	12
+tcc-MIR169n	12
+tcc-MIR171a	15
+tcc-MIR171b	15
+tcc-MIR171c	15
+tcc-MIR171d	15
+tcc-MIR171e	15
+tcc-MIR171f	15
+tcc-MIR171g	15
+tcc-MIR171h	15
+tcc-MIR172a	11
+tcc-MIR172b	11
+tcc-MIR172c	11
+tcc-MIR172d	11
+tcc-MIR172e	11
+tcc-MIR2111	6
+tcc-MIR319	11
+tcc-MIR390a	15
+tcc-MIR390b	15
+tcc-MIR393a	11
+tcc-MIR393b	11
+tcc-MIR394a	11
+tcc-MIR394b	11
+tcc-MIR395a	12
+tcc-MIR395b	12
+tcc-MIR396a	14
+tcc-MIR396b	14
+tcc-MIR396c	14
+tcc-MIR396d	14
+tcc-MIR396e	14
+tcc-MIR397	12
+tcc-MIR398a	12
+tcc-MIR398b	12
+tcc-MIR399a	10
+tcc-MIR399b	10
+tcc-MIR399c	10
+tcc-MIR399d	10
+tcc-MIR399e	10
+tcc-MIR399f	10
+tcc-MIR399g	10
+tcc-MIR399h	10
+tcc-MIR399i	10
+tcc-MIR403a	7
+tcc-MIR403b	7
+tcc-MIR530a	10
+tcc-MIR530b	10
+tcc-MIR535	15
+tcc-MIR827	4

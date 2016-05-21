@@ -1,0 +1,41 @@
+# age_proteins.py -o ../relevant_data/selectmir_ages/ -t ../relevant_data/time_tree_dates.txt ../relevant_data/family_file_ph_selectmir.txt ../relevant_data/phylo_tree.txt 2016-05-19 19:02:08.011342
+#
+# FAMILY_FILE = ../relevant_data/family_file_ph_selectmir.txt
+# TREE_FILE = ../relevant_data/phylo_tree.txt
+# RECONSTRUCTION_ALGO = dollo
+# GAIN_PENALTY = 1
+# OUTPUT_NAME = family_file_ph_selectmir_dollo
+# OUTPUT_DIR = ../relevant_data/selectmir_ages/
+# OUTPUT_FORMATS = ['depth', 'label', 'time', 'profile']
+# TIME_FILE = ../relevant_data/time_tree_dates.txt
+# ADDITIONAL_ID_FILE = None
+#
+tur-mir-1	910.0
+tur-mir-10	910.0
+tur-mir-124-1	910.0
+tur-mir-124-2	910.0
+tur-mir-133	910.0
+tur-mir-137	910.0
+tur-mir-184	910.0
+tur-mir-190	910.0
+tur-mir-2-1	910.0
+tur-mir-2-2	910.0
+tur-mir-210-1	910.0
+tur-mir-210-2	910.0
+tur-mir-252	910.0
+tur-mir-263a	728.0
+tur-mir-263b	728.0
+tur-mir-279	728.0
+tur-mir-281	910.0
+tur-mir-307	910.0
+tur-mir-34	910.0
+tur-mir-7	910.0
+tur-mir-71-1	910.0
+tur-mir-71-2	910.0
+tur-mir-87	910.0
+tur-mir-9-1	910.0
+tur-mir-9-2	910.0
+tur-mir-92	910.0
+tur-mir-993a-1	910.0
+tur-mir-993a-2	910.0
+tur-mir-993b	910.0

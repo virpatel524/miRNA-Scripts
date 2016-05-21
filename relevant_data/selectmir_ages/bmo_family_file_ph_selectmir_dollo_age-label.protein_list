@@ -1,0 +1,96 @@
+# age_proteins.py -o ../relevant_data/selectmir_ages/ -t ../relevant_data/time_tree_dates.txt ../relevant_data/family_file_ph_selectmir.txt ../relevant_data/phylo_tree.txt 2016-05-19 19:02:08.011342
+#
+# FAMILY_FILE = ../relevant_data/family_file_ph_selectmir.txt
+# TREE_FILE = ../relevant_data/phylo_tree.txt
+# RECONSTRUCTION_ALGO = dollo
+# GAIN_PENALTY = 1
+# OUTPUT_NAME = family_file_ph_selectmir_dollo
+# OUTPUT_DIR = ../relevant_data/selectmir_ages/
+# OUTPUT_FORMATS = ['depth', 'label', 'time', 'profile']
+# TIME_FILE = ../relevant_data/time_tree_dates.txt
+# ADDITIONAL_ID_FILE = None
+#
+bmo-bantam	Bilateria
+bmo-let-7	Bilateria
+bmo-mir-10	Bilateria
+bmo-mir-11	Endopterygota
+bmo-mir-1175	Protostomia
+bmo-mir-13a	Bilateria
+bmo-mir-13b	Bilateria
+bmo-mir-14	Endopterygota
+bmo-mir-184	Bilateria
+bmo-mir-190	Bilateria
+bmo-mir-1a	Bilateria
+bmo-mir-1b	Bilateria
+bmo-mir-252	Bilateria
+bmo-mir-263a	Ecdysozoa
+bmo-mir-263b	Ecdysozoa
+bmo-mir-2733a-3	Ditrysia
+bmo-mir-2733i	Ditrysia
+bmo-mir-274	Endopterygota
+bmo-mir-275	Endopterygota
+bmo-mir-2755	Bombyciformes
+bmo-mir-2756	Bombyciformes
+bmo-mir-276	Arthropoda
+bmo-mir-2763	Bombyciformes
+bmo-mir-2766	Bombyciformes
+bmo-mir-277	Endopterygota
+bmo-mir-2778a-1	Bombyciformes
+bmo-mir-2778a-2	Bombyciformes
+bmo-mir-2778a-3	Bombyciformes
+bmo-mir-2778a-4	Bombyciformes
+bmo-mir-2778b	Bombyciformes
+bmo-mir-2778c	Bombyciformes
+bmo-mir-2778d	Bombyciformes
+bmo-mir-278	Endopterygota
+bmo-mir-2780a-1	Bombyciformes
+bmo-mir-2796	Endopterygota
+bmo-mir-279b	Ecdysozoa
+bmo-mir-279c	Ecdysozoa
+bmo-mir-279d	Ecdysozoa
+bmo-mir-2804-1	Bombyciformes
+bmo-mir-2804-2	Bombyciformes
+bmo-mir-2804-3	Bombyciformes
+bmo-mir-2804-4	Bombyciformes
+bmo-mir-2808a-2	Bombyciformes
+bmo-mir-281	Bilateria
+bmo-mir-282	Endopterygota
+bmo-mir-283	Bilateria
+bmo-mir-2843-1	Bombyciformes
+bmo-mir-2843-2	Bombyciformes
+bmo-mir-2856-1	Bombyciformes
+bmo-mir-2856-2	Bombyciformes
+bmo-mir-2a-1	Bilateria
+bmo-mir-2a-2	Bilateria
+bmo-mir-2b	Bilateria
+bmo-mir-305	Endopterygota
+bmo-mir-306a	Endopterygota
+bmo-mir-307	Bilateria
+bmo-mir-308	Endopterygota
+bmo-mir-31	Bilateria
+bmo-mir-316	Endopterygota
+bmo-mir-317	Arthropoda
+bmo-mir-3204a	Bombyciformes
+bmo-mir-3286	Bilateria
+bmo-mir-33	Bilateria
+bmo-mir-3327	Bombyciformes
+bmo-mir-3338	Bombyciformes
+bmo-mir-3389	Bombyciformes
+bmo-mir-34	Bilateria
+bmo-mir-6497	Bombyciformes
+bmo-mir-7	Bilateria
+bmo-mir-71	Bilateria
+bmo-mir-745	Bombyciformes
+bmo-mir-750	Bombyciformes
+bmo-mir-79	Bilateria
+bmo-mir-8	Bilateria
+bmo-mir-927	Endopterygota
+bmo-mir-929	Endopterygota
+bmo-mir-965	Endopterygota
+bmo-mir-970	Endopterygota
+bmo-mir-993a	Bilateria
+bmo-mir-993b	Bilateria
+bmo-mir-9a	Bilateria
+bmo-mir-9b	Bilateria
+bmo-mir-9c	Bilateria
+bmo-mir-iab-4	Pancrustacea

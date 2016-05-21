@@ -1,0 +1,120 @@
+# age_proteins.py -o ../relevant_data/selectmir_ages/ -t ../relevant_data/time_tree_dates.txt ../relevant_data/family_file_ph_selectmir.txt ../relevant_data/phylo_tree.txt 2016-05-19 19:02:08.011342
+#
+# FAMILY_FILE = ../relevant_data/family_file_ph_selectmir.txt
+# TREE_FILE = ../relevant_data/phylo_tree.txt
+# RECONSTRUCTION_ALGO = dollo
+# GAIN_PENALTY = 1
+# OUTPUT_NAME = family_file_ph_selectmir_dollo
+# OUTPUT_DIR = ../relevant_data/selectmir_ages/
+# OUTPUT_FORMATS = ['depth', 'label', 'time', 'profile']
+# TIME_FILE = ../relevant_data/time_tree_dates.txt
+# ADDITIONAL_ID_FILE = None
+#
+bdi-MIR156b	14
+bdi-MIR156d	14
+bdi-MIR156e	14
+bdi-MIR156f	14
+bdi-MIR156g	14
+bdi-MIR156h	14
+bdi-MIR156i	14
+bdi-MIR159a	15
+bdi-MIR159b	15
+bdi-MIR160a	10
+bdi-MIR160b	10
+bdi-MIR160c	10
+bdi-MIR160d	10
+bdi-MIR160e	10
+bdi-MIR164a	10
+bdi-MIR164c	10
+bdi-MIR166a	10
+bdi-MIR166b	10
+bdi-MIR166c	10
+bdi-MIR166d	10
+bdi-MIR166e	10
+bdi-MIR166g	10
+bdi-MIR166h	10
+bdi-MIR166i	10
+bdi-MIR167c	10
+bdi-MIR167d	10
+bdi-MIR167e	10
+bdi-MIR168	10
+bdi-MIR169a	10
+bdi-MIR169c	10
+bdi-MIR169e	10
+bdi-MIR169h	10
+bdi-MIR169j	5
+bdi-MIR169k	10
+bdi-MIR171c	10
+bdi-MIR171d	10
+bdi-MIR172a	10
+bdi-MIR1878	2
+bdi-MIR319b	15
+bdi-MIR390a	15
+bdi-MIR393b	10
+bdi-MIR395c	10
+bdi-MIR395d	10
+bdi-MIR395e	10
+bdi-MIR395f	10
+bdi-MIR395g	10
+bdi-MIR395h	10
+bdi-MIR395j	10
+bdi-MIR395k	10
+bdi-MIR395l	10
+bdi-MIR395n	10
+bdi-MIR395o	10
+bdi-MIR395p	10
+bdi-MIR396a	10
+bdi-MIR396b	10
+bdi-MIR396c	10
+bdi-MIR396d	10
+bdi-MIR396e	10
+bdi-MIR397b	10
+bdi-MIR408	10
+bdi-MIR5163a	2
+bdi-MIR5163b	2
+bdi-MIR5167a	2
+bdi-MIR5167b	2
+bdi-MIR5174b	3
+bdi-MIR5174c	3
+bdi-MIR5174d	3
+bdi-MIR5174e	3
+bdi-MIR5181a	3
+bdi-MIR5181c	3
+bdi-MIR5185a	2
+bdi-MIR5185b	2
+bdi-MIR5185c	2
+bdi-MIR5185d	2
+bdi-MIR5185e	2
+bdi-MIR5185f	2
+bdi-MIR5185g	2
+bdi-MIR5185h	2
+bdi-MIR5185i	2
+bdi-MIR5185j	2
+bdi-MIR5185k	2
+bdi-MIR5185l	2
+bdi-MIR5185m	2
+bdi-MIR5200a	3
+bdi-MIR5200b	3
+bdi-MIR528	5
+bdi-MIR529	5
+bdi-MIR7708a	2
+bdi-MIR7708b	2
+bdi-MIR7717a	2
+bdi-MIR7717b	2
+bdi-MIR7717c	2
+bdi-MIR7723a	2
+bdi-MIR7723b	2
+bdi-MIR7724a	2
+bdi-MIR7724b	2
+bdi-MIR7725a	2
+bdi-MIR7725b	2
+bdi-MIR7726a	2
+bdi-MIR7726b	2
+bdi-MIR7729a	2
+bdi-MIR7729b	2
+bdi-MIR7757	2
+bdi-MIR7768a	2
+bdi-MIR7768b	2
+bdi-MIR7784a	2
+bdi-MIR7784b	2
+bdi-MIR827	5

@@ -1,0 +1,92 @@
+# age_proteins.py -o ../relevant_data/selectmir_ages/ -t ../relevant_data/time_tree_dates.txt ../relevant_data/family_file_ph_selectmir.txt ../relevant_data/phylo_tree.txt 2016-05-19 19:02:08.011342
+#
+# FAMILY_FILE = ../relevant_data/family_file_ph_selectmir.txt
+# TREE_FILE = ../relevant_data/phylo_tree.txt
+# RECONSTRUCTION_ALGO = dollo
+# GAIN_PENALTY = 1
+# OUTPUT_NAME = family_file_ph_selectmir_dollo
+# OUTPUT_DIR = ../relevant_data/selectmir_ages/
+# OUTPUT_FORMATS = ['depth', 'label', 'time', 'profile']
+# TIME_FILE = ../relevant_data/time_tree_dates.txt
+# ADDITIONAL_ID_FILE = None
+#
+ppy-mir-1199	Boreoeutheria
+ppy-mir-1207	Hominidae
+ppy-mir-1224	Euarchontoglires
+ppy-mir-1225	Catarrhini
+ppy-mir-125a	Bilateria
+ppy-mir-129-1	Chordata
+ppy-mir-129-2	Chordata
+ppy-mir-139	Euteleostomi
+ppy-mir-140	Euteleostomi
+ppy-mir-142	Euteleostomi
+ppy-mir-146b	Vertebrata
+ppy-mir-151a	Boreoeutheria
+ppy-mir-17	Vertebrata
+ppy-mir-181a-1	Vertebrata
+ppy-mir-193a	Bilateria
+ppy-mir-199a-2	Vertebrata
+ppy-mir-199b	Vertebrata
+ppy-mir-24-1	Euteleostomi
+ppy-mir-296	Boreoeutheria
+ppy-mir-299	Boreoeutheria
+ppy-mir-30a	Vertebrata
+ppy-mir-323	Boreoeutheria
+ppy-mir-324	Boreoeutheria
+ppy-mir-330	Boreoeutheria
+ppy-mir-331	Boreoeutheria
+ppy-mir-337	Boreoeutheria
+ppy-mir-338	Euteleostomi
+ppy-mir-342	Boreoeutheria
+ppy-mir-34c	Bilateria
+ppy-mir-361	Boreoeutheria
+ppy-mir-362	Boreoeutheria
+ppy-mir-369	Boreoeutheria
+ppy-mir-371	Boreoeutheria
+ppy-mir-409	Boreoeutheria
+ppy-mir-423	Boreoeutheria
+ppy-mir-450b	Boreoeutheria
+ppy-mir-455	Euteleostomi
+ppy-mir-485	Boreoeutheria
+ppy-mir-490	Amniota
+ppy-mir-491	Boreoeutheria
+ppy-mir-499	Euteleostomi
+ppy-mir-502	Boreoeutheria
+ppy-mir-508	Boreoeutheria
+ppy-mir-509-1	Boreoeutheria
+ppy-mir-509-2	Boreoeutheria
+ppy-mir-509-3	Boreoeutheria
+ppy-mir-513a-1	Boreoeutheria
+ppy-mir-513a-2	Boreoeutheria
+ppy-mir-515-1	Catarrhini
+ppy-mir-515-2	Catarrhini
+ppy-mir-515-3	Catarrhini
+ppy-mir-516a-1	Catarrhini
+ppy-mir-516a-2	Catarrhini
+ppy-mir-517c-2	Catarrhini
+ppy-mir-517c-3	Catarrhini
+ppy-mir-518a-1	Catarrhini
+ppy-mir-518a-2	Catarrhini
+ppy-mir-518a-3	Catarrhini
+ppy-mir-518d	Catarrhini
+ppy-mir-518g	Catarrhini
+ppy-mir-519b	Catarrhini
+ppy-mir-520a	Catarrhini
+ppy-mir-520c	Catarrhini
+ppy-mir-520d	Catarrhini
+ppy-mir-524	Catarrhini
+ppy-mir-525	Catarrhini
+ppy-mir-532	Boreoeutheria
+ppy-mir-542	Boreoeutheria
+ppy-mir-556	Catarrhini
+ppy-mir-576	Catarrhini
+ppy-mir-582	Boreoeutheria
+ppy-mir-590	Mammalia
+ppy-mir-615	Boreoeutheria
+ppy-mir-628	Catarrhini
+ppy-mir-654	Boreoeutheria
+ppy-mir-671	Boreoeutheria
+ppy-mir-767	Boreoeutheria
+ppy-mir-875	Amniota
+ppy-mir-876	Boreoeutheria
+ppy-mir-885	Boreoeutheria

@@ -1,0 +1,96 @@
+# age_proteins.py -o ../relevant_data/selectmir_ages/ -t ../relevant_data/time_tree_dates.txt ../relevant_data/family_file_ph_selectmir.txt ../relevant_data/phylo_tree.txt 2016-05-19 19:02:08.011342
+#
+# FAMILY_FILE = ../relevant_data/family_file_ph_selectmir.txt
+# TREE_FILE = ../relevant_data/phylo_tree.txt
+# RECONSTRUCTION_ALGO = dollo
+# GAIN_PENALTY = 1
+# OUTPUT_NAME = family_file_ph_selectmir_dollo
+# OUTPUT_DIR = ../relevant_data/selectmir_ages/
+# OUTPUT_FORMATS = ['depth', 'label', 'time', 'profile']
+# TIME_FILE = ../relevant_data/time_tree_dates.txt
+# ADDITIONAL_ID_FILE = None
+#
+bmo-bantam	25
+bmo-let-7	25
+bmo-mir-10	25
+bmo-mir-11	13
+bmo-mir-1175	24
+bmo-mir-13a	25
+bmo-mir-13b	25
+bmo-mir-14	13
+bmo-mir-184	25
+bmo-mir-190	25
+bmo-mir-1a	25
+bmo-mir-1b	25
+bmo-mir-252	25
+bmo-mir-263a	23
+bmo-mir-263b	23
+bmo-mir-2733a-3	7
+bmo-mir-2733i	7
+bmo-mir-274	13
+bmo-mir-275	13
+bmo-mir-2755	4
+bmo-mir-2756	4
+bmo-mir-276	21
+bmo-mir-2763	4
+bmo-mir-2766	4
+bmo-mir-277	13
+bmo-mir-2778a-1	4
+bmo-mir-2778a-2	4
+bmo-mir-2778a-3	4
+bmo-mir-2778a-4	4
+bmo-mir-2778b	4
+bmo-mir-2778c	4
+bmo-mir-2778d	4
+bmo-mir-278	13
+bmo-mir-2780a-1	4
+bmo-mir-2796	13
+bmo-mir-279b	23
+bmo-mir-279c	23
+bmo-mir-279d	23
+bmo-mir-2804-1	4
+bmo-mir-2804-2	4
+bmo-mir-2804-3	4
+bmo-mir-2804-4	4
+bmo-mir-2808a-2	4
+bmo-mir-281	25
+bmo-mir-282	13
+bmo-mir-283	25
+bmo-mir-2843-1	4
+bmo-mir-2843-2	4
+bmo-mir-2856-1	4
+bmo-mir-2856-2	4
+bmo-mir-2a-1	25
+bmo-mir-2a-2	25
+bmo-mir-2b	25
+bmo-mir-305	13
+bmo-mir-306a	13
+bmo-mir-307	25
+bmo-mir-308	13
+bmo-mir-31	25
+bmo-mir-316	13
+bmo-mir-317	21
+bmo-mir-3204a	4
+bmo-mir-3286	25
+bmo-mir-33	25
+bmo-mir-3327	4
+bmo-mir-3338	4
+bmo-mir-3389	4
+bmo-mir-34	25
+bmo-mir-6497	4
+bmo-mir-7	25
+bmo-mir-71	25
+bmo-mir-745	4
+bmo-mir-750	4
+bmo-mir-79	25
+bmo-mir-8	25
+bmo-mir-927	13
+bmo-mir-929	13
+bmo-mir-965	13
+bmo-mir-970	13
+bmo-mir-993a	25
+bmo-mir-993b	25
+bmo-mir-9a	25
+bmo-mir-9b	25
+bmo-mir-9c	25
+bmo-mir-iab-4	19

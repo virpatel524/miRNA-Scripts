@@ -1,0 +1,96 @@
+# age_proteins.py -o ../relevant_data/selectmir_ages/ -t ../relevant_data/time_tree_dates.txt ../relevant_data/family_file_ph_selectmir.txt ../relevant_data/phylo_tree.txt 2016-05-19 19:02:08.011342
+#
+# FAMILY_FILE = ../relevant_data/family_file_ph_selectmir.txt
+# TREE_FILE = ../relevant_data/phylo_tree.txt
+# RECONSTRUCTION_ALGO = dollo
+# GAIN_PENALTY = 1
+# OUTPUT_NAME = family_file_ph_selectmir_dollo
+# OUTPUT_DIR = ../relevant_data/selectmir_ages/
+# OUTPUT_FORMATS = ['depth', 'label', 'time', 'profile']
+# TIME_FILE = ../relevant_data/time_tree_dates.txt
+# ADDITIONAL_ID_FILE = None
+#
+ata-MIR1432	Poaceae
+ata-MIR156a	Tracheophyta
+ata-MIR156b	Tracheophyta
+ata-MIR156c	Tracheophyta
+ata-MIR156d	Tracheophyta
+ata-MIR156e	Tracheophyta
+ata-MIR160a	Mesangiospermae
+ata-MIR160b	Mesangiospermae
+ata-MIR160c	Mesangiospermae
+ata-MIR164a	Mesangiospermae
+ata-MIR164b	Mesangiospermae
+ata-MIR164c	Mesangiospermae
+ata-MIR166a	Mesangiospermae
+ata-MIR166b	Mesangiospermae
+ata-MIR166c	Mesangiospermae
+ata-MIR166d	Mesangiospermae
+ata-MIR166e	Mesangiospermae
+ata-MIR167a	Mesangiospermae
+ata-MIR167b	Mesangiospermae
+ata-MIR167c	Mesangiospermae
+ata-MIR167d	Mesangiospermae
+ata-MIR167e	Mesangiospermae
+ata-MIR167f	Mesangiospermae
+ata-MIR168	Mesangiospermae
+ata-MIR169a	Mesangiospermae
+ata-MIR169b	Mesangiospermae
+ata-MIR169c	Mesangiospermae
+ata-MIR169d	Mesangiospermae
+ata-MIR169f	Mesangiospermae
+ata-MIR169g	Mesangiospermae
+ata-MIR169h	Mesangiospermae
+ata-MIR169i	Mesangiospermae
+ata-MIR169j	Mesangiospermae
+ata-MIR171a	Mesangiospermae
+ata-MIR171b	Mesangiospermae
+ata-MIR171c	Mesangiospermae
+ata-MIR171d	Mesangiospermae
+ata-MIR172a	Mesangiospermae
+ata-MIR172b	Mesangiospermae
+ata-MIR172c	Mesangiospermae
+ata-MIR2118a	Mesangiospermae
+ata-MIR2118b	Mesangiospermae
+ata-MIR2275a	Poaceae
+ata-MIR2275b	Poaceae
+ata-MIR2275c	Poaceae
+ata-MIR319	Embryophyta
+ata-MIR390	Embryophyta
+ata-MIR393	Mesangiospermae
+ata-MIR394	Mesangiospermae
+ata-MIR395a	Mesangiospermae
+ata-MIR395b	Mesangiospermae
+ata-MIR395c	Mesangiospermae
+ata-MIR395d	Mesangiospermae
+ata-MIR395e	Mesangiospermae
+ata-MIR395f	Mesangiospermae
+ata-MIR396a	Mesangiospermae
+ata-MIR396b	Mesangiospermae
+ata-MIR396c	Mesangiospermae
+ata-MIR396d	Mesangiospermae
+ata-MIR396e	Mesangiospermae
+ata-MIR398f	Mesangiospermae
+ata-MIR398g	Mesangiospermae
+ata-MIR399a	Mesangiospermae
+ata-MIR399b	Mesangiospermae
+ata-MIR408	Mesangiospermae
+ata-MIR5062a	Aegilops
+ata-MIR5062b	Aegilops
+ata-MIR5070	Aegilops
+ata-MIR5084	Aegilops
+ata-MIR5168	Mesangiospermae
+ata-MIR5181	Pooideae
+ata-MIR5200	Pooideae
+ata-MIR528	Poaceae
+ata-MIR6201	Aegilops
+ata-MIR9672	Aegilops
+ata-MIR9674a	Aegilops
+ata-MIR9674b	Aegilops
+ata-MIR9677	Aegilops
+ata-MIR9772a	Aegilops
+ata-MIR9772b	Aegilops
+ata-MIR9776	Aegilops
+ata-MIR9783	Aegilops
+ata-MIR9863a	Aegilops
+ata-MIR9863b	Aegilops

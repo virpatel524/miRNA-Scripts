@@ -1,0 +1,99 @@
+# age_proteins.py -o ../relevant_data/allmir_ages/ -t ../relevant_data/time_tree_dates.txt ../relevant_data/family_file_ph_allmir.txt ../relevant_data/phylo_tree.txt 2016-05-19 19:01:05.137938
+#
+# FAMILY_FILE = ../relevant_data/family_file_ph_allmir.txt
+# TREE_FILE = ../relevant_data/phylo_tree.txt
+# RECONSTRUCTION_ALGO = dollo
+# GAIN_PENALTY = 1
+# OUTPUT_NAME = family_file_ph_allmir_dollo
+# OUTPUT_DIR = ../relevant_data/allmir_ages/
+# OUTPUT_FORMATS = ['depth', 'label', 'time', 'profile']
+# TIME_FILE = ../relevant_data/time_tree_dates.txt
+# ADDITIONAL_ID_FILE = None
+#
+ata-MIR1432	Poaceae
+ata-MIR156a	Embryophyta
+ata-MIR156b	Embryophyta
+ata-MIR156c	Embryophyta
+ata-MIR156d	Embryophyta
+ata-MIR156e	Embryophyta
+ata-MIR160a	Embryophyta
+ata-MIR160b	Embryophyta
+ata-MIR160c	Embryophyta
+ata-MIR164a	Spermatophyta
+ata-MIR164b	Spermatophyta
+ata-MIR164c	Spermatophyta
+ata-MIR166a	Embryophyta
+ata-MIR166b	Embryophyta
+ata-MIR166c	Embryophyta
+ata-MIR166d	Embryophyta
+ata-MIR166e	Embryophyta
+ata-MIR167a	Magnoliophyta
+ata-MIR167b	Magnoliophyta
+ata-MIR167c	Magnoliophyta
+ata-MIR167d	Magnoliophyta
+ata-MIR167e	Magnoliophyta
+ata-MIR167f	Magnoliophyta
+ata-MIR168	Magnoliophyta
+ata-MIR169a	Magnoliophyta
+ata-MIR169b	Magnoliophyta
+ata-MIR169c	Magnoliophyta
+ata-MIR169d	Spermatophyta
+ata-MIR169e	Spermatophyta
+ata-MIR169f	Spermatophyta
+ata-MIR169g	Spermatophyta
+ata-MIR169h	Spermatophyta
+ata-MIR169i	Magnoliophyta
+ata-MIR169j	Magnoliophyta
+ata-MIR171a	Mesangiospermae
+ata-MIR171b	Embryophyta
+ata-MIR171c	Embryophyta
+ata-MIR171d	Embryophyta
+ata-MIR172a	Magnoliophyta
+ata-MIR172b	Magnoliophyta
+ata-MIR172c	Magnoliophyta
+ata-MIR2118a	Mesangiospermae
+ata-MIR2118b	Mesangiospermae
+ata-MIR2118c	Mesangiospermae
+ata-MIR2118d	Mesangiospermae
+ata-MIR2275a	Poaceae
+ata-MIR2275b	Poaceae
+ata-MIR2275c	Poaceae
+ata-MIR319	Embryophyta
+ata-MIR390	Embryophyta
+ata-MIR393	Magnoliophyta
+ata-MIR394	Magnoliophyta
+ata-MIR395a	Spermatophyta
+ata-MIR395b	Spermatophyta
+ata-MIR395c	Spermatophyta
+ata-MIR395d	Spermatophyta
+ata-MIR395e	Spermatophyta
+ata-MIR395f	Spermatophyta
+ata-MIR396a	Tracheophyta
+ata-MIR396b	Tracheophyta
+ata-MIR396c	Tracheophyta
+ata-MIR396d	Tracheophyta
+ata-MIR396e	Tracheophyta
+ata-MIR398f	Spermatophyta
+ata-MIR398g	Spermatophyta
+ata-MIR399a	Mesangiospermae
+ata-MIR399b	Mesangiospermae
+ata-MIR408	Embryophyta
+ata-MIR5062a	Triticeae
+ata-MIR5062b	Triticeae
+ata-MIR5070	Pooideae
+ata-MIR5084	Triticeae
+ata-MIR5168	Embryophyta
+ata-MIR5181	Pooideae
+ata-MIR5200	Pooideae
+ata-MIR528	Poaceae
+ata-MIR6201	Triticeae
+ata-MIR9672	Triticeae
+ata-MIR9674a	Triticeae
+ata-MIR9674b	Triticeae
+ata-MIR9677	Triticeae
+ata-MIR9772a	Triticeae
+ata-MIR9772b	Triticeae
+ata-MIR9776	Triticeae
+ata-MIR9783	Triticeae
+ata-MIR9863a	Aegilops
+ata-MIR9863b	Aegilops

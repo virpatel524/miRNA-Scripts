@@ -1,0 +1,34 @@
+# age_proteins.py -o ../relevant_data/allmir_ages/ -t ../relevant_data/time_tree_dates.txt ../relevant_data/family_file_ph_allmir.txt ../relevant_data/phylo_tree.txt 2016-05-19 19:01:05.137938
+#
+# FAMILY_FILE = ../relevant_data/family_file_ph_allmir.txt
+# TREE_FILE = ../relevant_data/phylo_tree.txt
+# RECONSTRUCTION_ALGO = dollo
+# GAIN_PENALTY = 1
+# OUTPUT_NAME = family_file_ph_allmir_dollo
+# OUTPUT_DIR = ../relevant_data/allmir_ages/
+# OUTPUT_FORMATS = ['depth', 'label', 'time', 'profile']
+# TIME_FILE = ../relevant_data/time_tree_dates.txt
+# ADDITIONAL_ID_FILE = None
+#
+xla-mir-1306	Euteleostomi
+xla-mir-133a	Bilateria
+xla-mir-133b	Bilateria
+xla-mir-133d	Bilateria
+xla-mir-142	Euteleostomi
+xla-mir-15c	Vertebrata
+xla-mir-18	Vertebrata
+xla-mir-194	Vertebrata
+xla-mir-19b	Vertebrata
+xla-mir-1b	Bilateria
+xla-mir-20	Vertebrata
+xla-mir-205	Vertebrata
+xla-mir-223	Euteleostomi
+xla-mir-23a	Vertebrata
+xla-mir-24b	Vertebrata
+xla-mir-363	Euteleostomi
+xla-mir-427	Amphibia
+xla-mir-428	Amphibia
+xla-mir-429	Bilateria
+xla-mir-703	Tetrapoda
+xla-mir-92a-1	Bilateria
+xla-mir-92a-2	Bilateria

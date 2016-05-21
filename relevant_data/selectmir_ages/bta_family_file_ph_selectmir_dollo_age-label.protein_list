@@ -1,0 +1,58 @@
+# age_proteins.py -o ../relevant_data/selectmir_ages/ -t ../relevant_data/time_tree_dates.txt ../relevant_data/family_file_ph_selectmir.txt ../relevant_data/phylo_tree.txt 2016-05-19 19:02:08.011342
+#
+# FAMILY_FILE = ../relevant_data/family_file_ph_selectmir.txt
+# TREE_FILE = ../relevant_data/phylo_tree.txt
+# RECONSTRUCTION_ALGO = dollo
+# GAIN_PENALTY = 1
+# OUTPUT_NAME = family_file_ph_selectmir_dollo
+# OUTPUT_DIR = ../relevant_data/selectmir_ages/
+# OUTPUT_FORMATS = ['depth', 'label', 'time', 'profile']
+# TIME_FILE = ../relevant_data/time_tree_dates.txt
+# ADDITIONAL_ID_FILE = None
+#
+bta-let-7a-3	Bilateria
+bta-mir-1247	Boreoeutheria
+bta-mir-126	Chordata
+bta-mir-129-2	Chordata
+bta-mir-1343	Boreoeutheria
+bta-mir-1388	Euteleostomi
+bta-mir-142	Euteleostomi
+bta-mir-1434	Bovinae
+bta-mir-149	Boreoeutheria
+bta-mir-151	Boreoeutheria
+bta-mir-17	Vertebrata
+bta-mir-193a	Bilateria
+bta-mir-199a-1	Vertebrata
+bta-mir-199a-2	Vertebrata
+bta-mir-21	Euteleostomi
+bta-mir-219-1	Bilateria
+bta-mir-22	Chordata
+bta-mir-2284h	Bovinae
+bta-mir-2284t	Bovinae
+bta-mir-2320	Cetartiodactyla
+bta-mir-2331	Bovinae
+bta-mir-2355	Boreoeutheria
+bta-mir-23b	Vertebrata
+bta-mir-2411	Bovinae
+bta-mir-2483	Bovidae
+bta-mir-27a	Vertebrata
+bta-mir-296	Boreoeutheria
+bta-mir-29d	Bilateria
+bta-mir-30b	Vertebrata
+bta-mir-331	Boreoeutheria
+bta-mir-345	Boreoeutheria
+bta-mir-362	Boreoeutheria
+bta-mir-365-1	Euteleostomi
+bta-mir-369	Boreoeutheria
+bta-mir-380	Boreoeutheria
+bta-mir-411c	Boreoeutheria
+bta-mir-423	Boreoeutheria
+bta-mir-424	Boreoeutheria
+bta-mir-425	Amniota
+bta-mir-455	Euteleostomi
+bta-mir-503	Boreoeutheria
+bta-mir-545	Boreoeutheria
+bta-mir-760	Boreoeutheria
+bta-mir-9-1	Bilateria
+bta-mir-9-2	Bilateria
+bta-mir-99a	Bilateria

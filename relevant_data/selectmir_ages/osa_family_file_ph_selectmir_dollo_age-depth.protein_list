@@ -1,0 +1,86 @@
+# age_proteins.py -o ../relevant_data/selectmir_ages/ -t ../relevant_data/time_tree_dates.txt ../relevant_data/family_file_ph_selectmir.txt ../relevant_data/phylo_tree.txt 2016-05-19 19:02:08.011342
+#
+# FAMILY_FILE = ../relevant_data/family_file_ph_selectmir.txt
+# TREE_FILE = ../relevant_data/phylo_tree.txt
+# RECONSTRUCTION_ALGO = dollo
+# GAIN_PENALTY = 1
+# OUTPUT_NAME = family_file_ph_selectmir_dollo
+# OUTPUT_DIR = ../relevant_data/selectmir_ages/
+# OUTPUT_FORMATS = ['depth', 'label', 'time', 'profile']
+# TIME_FILE = ../relevant_data/time_tree_dates.txt
+# ADDITIONAL_ID_FILE = None
+#
+osa-MIR1428a	3
+osa-MIR1428e	3
+osa-MIR1437b	3
+osa-MIR156b	14
+osa-MIR156c	14
+osa-MIR156f	14
+osa-MIR156g	14
+osa-MIR156h	14
+osa-MIR156j	14
+osa-MIR156l	14
+osa-MIR159a	15
+osa-MIR160a	10
+osa-MIR160b	10
+osa-MIR160c	10
+osa-MIR160d	10
+osa-MIR160e	10
+osa-MIR160f	10
+osa-MIR166a	10
+osa-MIR166b	10
+osa-MIR166c	10
+osa-MIR166d	10
+osa-MIR166e	10
+osa-MIR166g	10
+osa-MIR166h	10
+osa-MIR166i	10
+osa-MIR166j	10
+osa-MIR166k	10
+osa-MIR166l	10
+osa-MIR167a	10
+osa-MIR167c	10
+osa-MIR167d	10
+osa-MIR167e	10
+osa-MIR167h	10
+osa-MIR167i	10
+osa-MIR168a	10
+osa-MIR169f	10
+osa-MIR169i	10
+osa-MIR169r	10
+osa-MIR171c	10
+osa-MIR171d	10
+osa-MIR171e	10
+osa-MIR171f	10
+osa-MIR171i	10
+osa-MIR172d	10
+osa-MIR1846a	3
+osa-MIR1846b	3
+osa-MIR1846c	3
+osa-MIR1846d	3
+osa-MIR1863b	3
+osa-MIR1882e	3
+osa-MIR2871a	3
+osa-MIR319a	15
+osa-MIR390	15
+osa-MIR393b	10
+osa-MIR396a	10
+osa-MIR396b	10
+osa-MIR396c	10
+osa-MIR396e	10
+osa-MIR396f	10
+osa-MIR3980a	3
+osa-MIR3980b	3
+osa-MIR408	10
+osa-MIR444a	3
+osa-MIR444b	3
+osa-MIR444c	3
+osa-MIR444d	3
+osa-MIR5157a	3
+osa-MIR5157b	3
+osa-MIR528	5
+osa-MIR530	3
+osa-MIR535	3
+osa-MIR810b	3
+osa-MIR812n	3
+osa-MIR812o	3

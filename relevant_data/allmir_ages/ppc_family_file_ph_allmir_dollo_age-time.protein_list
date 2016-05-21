@@ -1,0 +1,43 @@
+# age_proteins.py -o ../relevant_data/allmir_ages/ -t ../relevant_data/time_tree_dates.txt ../relevant_data/family_file_ph_allmir.txt ../relevant_data/phylo_tree.txt 2016-05-19 19:01:05.137938
+#
+# FAMILY_FILE = ../relevant_data/family_file_ph_allmir.txt
+# TREE_FILE = ../relevant_data/phylo_tree.txt
+# RECONSTRUCTION_ALGO = dollo
+# GAIN_PENALTY = 1
+# OUTPUT_NAME = family_file_ph_allmir_dollo
+# OUTPUT_DIR = ../relevant_data/allmir_ages/
+# OUTPUT_FORMATS = ['depth', 'label', 'time', 'profile']
+# TIME_FILE = ../relevant_data/time_tree_dates.txt
+# ADDITIONAL_ID_FILE = None
+#
+ppc-let-7	910.0
+ppc-mir-1	910.0
+ppc-mir-124	910.0
+ppc-mir-234	250.0
+ppc-mir-235	910.0
+ppc-mir-239-1	250.0
+ppc-mir-239-2	250.0
+ppc-mir-252	910.0
+ppc-mir-45	250.0
+ppc-mir-46	910.0
+ppc-mir-63a	250.0
+ppc-mir-63b	250.0
+ppc-mir-63c-1	250.0
+ppc-mir-63c-2	250.0
+ppc-mir-63c-3	250.0
+ppc-mir-63c-4	250.0
+ppc-mir-63d	250.0
+ppc-mir-63e	250.0
+ppc-mir-63f	250.0
+ppc-mir-63g	250.0
+ppc-mir-63h	250.0
+ppc-mir-63i	250.0
+ppc-mir-71a	910.0
+ppc-mir-71b	910.0
+ppc-mir-79	910.0
+ppc-mir-81	250.0
+ppc-mir-84a	250.0
+ppc-mir-84b	250.0
+ppc-mir-86	250.0
+ppc-mir-87	910.0
+ppc-mir-9	910.0

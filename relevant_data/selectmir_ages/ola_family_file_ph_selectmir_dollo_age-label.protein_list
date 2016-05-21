@@ -1,0 +1,48 @@
+# age_proteins.py -o ../relevant_data/selectmir_ages/ -t ../relevant_data/time_tree_dates.txt ../relevant_data/family_file_ph_selectmir.txt ../relevant_data/phylo_tree.txt 2016-05-19 19:02:08.011342
+#
+# FAMILY_FILE = ../relevant_data/family_file_ph_selectmir.txt
+# TREE_FILE = ../relevant_data/phylo_tree.txt
+# RECONSTRUCTION_ALGO = dollo
+# GAIN_PENALTY = 1
+# OUTPUT_NAME = family_file_ph_selectmir_dollo
+# OUTPUT_DIR = ../relevant_data/selectmir_ages/
+# OUTPUT_FORMATS = ['depth', 'label', 'time', 'profile']
+# TIME_FILE = ../relevant_data/time_tree_dates.txt
+# ADDITIONAL_ID_FILE = None
+#
+ola-let-7a-1	Bilateria
+ola-mir-1-1	Bilateria
+ola-mir-101a	Euteleostomi
+ola-mir-101b	Euteleostomi
+ola-mir-124-1	Bilateria
+ola-mir-124-3	Bilateria
+ola-mir-125a	Bilateria
+ola-mir-126	Chordata
+ola-mir-133-1	Bilateria
+ola-mir-133-2	Bilateria
+ola-mir-1388	Euteleostomi
+ola-mir-140	Euteleostomi
+ola-mir-181a-1	Vertebrata
+ola-mir-181b-1	Vertebrata
+ola-mir-183-1	Chordata
+ola-mir-183-2	Chordata
+ola-mir-184-1	Bilateria
+ola-mir-184-2	Bilateria
+ola-mir-192	Vertebrata
+ola-mir-194	Vertebrata
+ola-mir-199a-1	Vertebrata
+ola-mir-199a-2	Vertebrata
+ola-mir-199a-3	Vertebrata
+ola-mir-199a-4	Vertebrata
+ola-mir-210	Bilateria
+ola-mir-24b	Euteleostomi
+ola-mir-27c	Vertebrata
+ola-mir-301a	Vertebrata
+ola-mir-301b	Vertebrata
+ola-mir-30a	Vertebrata
+ola-mir-30d	Vertebrata
+ola-mir-338-1	Euteleostomi
+ola-mir-455	Euteleostomi
+ola-mir-459	Clupeocephala
+ola-mir-460	Euteleostomi
+ola-mir-9a-1	Bilateria

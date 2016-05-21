@@ -1,0 +1,30 @@
+# age_proteins.py -o ../relevant_data/selectmir_ages/ -t ../relevant_data/time_tree_dates.txt ../relevant_data/family_file_ph_selectmir.txt ../relevant_data/phylo_tree.txt 2016-05-19 19:02:08.011342
+#
+# FAMILY_FILE = ../relevant_data/family_file_ph_selectmir.txt
+# TREE_FILE = ../relevant_data/phylo_tree.txt
+# RECONSTRUCTION_ALGO = dollo
+# GAIN_PENALTY = 1
+# OUTPUT_NAME = family_file_ph_selectmir_dollo
+# OUTPUT_DIR = ../relevant_data/selectmir_ages/
+# OUTPUT_FORMATS = ['depth', 'label', 'time', 'profile']
+# TIME_FILE = ../relevant_data/time_tree_dates.txt
+# ADDITIONAL_ID_FILE = None
+#
+aae-bantam	910.0
+aae-mir-13	910.0
+aae-mir-252	910.0
+aae-mir-263a	728.0
+aae-mir-263b	728.0
+aae-mir-281	910.0
+aae-mir-2945	728.0
+aae-mir-2a	910.0
+aae-mir-309b	471.4
+aae-mir-315	910.0
+aae-mir-34	910.0
+aae-mir-71	910.0
+aae-mir-79	910.0
+aae-mir-8	910.0
+aae-mir-92a	910.0
+aae-mir-92b	910.0
+aae-mir-988	471.4
+aae-mir-9c	910.0

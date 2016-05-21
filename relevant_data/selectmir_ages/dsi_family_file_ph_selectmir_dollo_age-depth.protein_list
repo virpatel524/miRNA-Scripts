@@ -1,0 +1,58 @@
+# age_proteins.py -o ../relevant_data/selectmir_ages/ -t ../relevant_data/time_tree_dates.txt ../relevant_data/family_file_ph_selectmir.txt ../relevant_data/phylo_tree.txt 2016-05-19 19:02:08.011342
+#
+# FAMILY_FILE = ../relevant_data/family_file_ph_selectmir.txt
+# TREE_FILE = ../relevant_data/phylo_tree.txt
+# RECONSTRUCTION_ALGO = dollo
+# GAIN_PENALTY = 1
+# OUTPUT_NAME = family_file_ph_selectmir_dollo
+# OUTPUT_DIR = ../relevant_data/selectmir_ages/
+# OUTPUT_FORMATS = ['depth', 'label', 'time', 'profile']
+# TIME_FILE = ../relevant_data/time_tree_dates.txt
+# ADDITIONAL_ID_FILE = None
+#
+dsi-mir-1000	18
+dsi-mir-1001	1
+dsi-mir-1002	3
+dsi-mir-1003	1
+dsi-mir-1005	0
+dsi-mir-1006	3
+dsi-mir-1010	3
+dsi-mir-1012	1
+dsi-mir-137	30
+dsi-mir-184	30
+dsi-mir-190	30
+dsi-mir-193	30
+dsi-mir-2494	1
+dsi-mir-252	30
+dsi-mir-2582a	0
+dsi-mir-2582b	0
+dsi-mir-281	30
+dsi-mir-312	1
+dsi-mir-375	30
+dsi-mir-6-2	1
+dsi-mir-927	18
+dsi-mir-929	18
+dsi-mir-932	18
+dsi-mir-955	1
+dsi-mir-958	3
+dsi-mir-961	1
+dsi-mir-963	1
+dsi-mir-964	1
+dsi-mir-965	18
+dsi-mir-967	1
+dsi-mir-968	3
+dsi-mir-969	3
+dsi-mir-970	18
+dsi-mir-980	18
+dsi-mir-981	3
+dsi-mir-983a	1
+dsi-mir-986	3
+dsi-mir-987	3
+dsi-mir-988	17
+dsi-mir-991	1
+dsi-mir-992	1
+dsi-mir-993	30
+dsi-mir-995	3
+dsi-mir-999	1
+dsi-mir-iab-4	24
+dsi-mir-iab-8	18

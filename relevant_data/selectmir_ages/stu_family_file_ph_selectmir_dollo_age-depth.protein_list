@@ -1,0 +1,102 @@
+# age_proteins.py -o ../relevant_data/selectmir_ages/ -t ../relevant_data/time_tree_dates.txt ../relevant_data/family_file_ph_selectmir.txt ../relevant_data/phylo_tree.txt 2016-05-19 19:02:08.011342
+#
+# FAMILY_FILE = ../relevant_data/family_file_ph_selectmir.txt
+# TREE_FILE = ../relevant_data/phylo_tree.txt
+# RECONSTRUCTION_ALGO = dollo
+# GAIN_PENALTY = 1
+# OUTPUT_NAME = family_file_ph_selectmir_dollo
+# OUTPUT_DIR = ../relevant_data/selectmir_ages/
+# OUTPUT_FORMATS = ['depth', 'label', 'time', 'profile']
+# TIME_FILE = ../relevant_data/time_tree_dates.txt
+# ADDITIONAL_ID_FILE = None
+#
+stu-MIR156d	15
+stu-MIR156f	15
+stu-MIR156g	15
+stu-MIR156h	15
+stu-MIR156i	15
+stu-MIR156j	15
+stu-MIR156k	15
+stu-MIR160a	11
+stu-MIR162a	8
+stu-MIR162b	8
+stu-MIR164	11
+stu-MIR166a	11
+stu-MIR166c	11
+stu-MIR166d	11
+stu-MIR167a	11
+stu-MIR167b	11
+stu-MIR167c	11
+stu-MIR167d	11
+stu-MIR169a	11
+stu-MIR169b	11
+stu-MIR169c	11
+stu-MIR169d	11
+stu-MIR169e	11
+stu-MIR171a	11
+stu-MIR171b	11
+stu-MIR171c	11
+stu-MIR171d	11
+stu-MIR172a	11
+stu-MIR172b	11
+stu-MIR172c	11
+stu-MIR172d	11
+stu-MIR172e	11
+stu-MIR1886g	0
+stu-MIR1886i	0
+stu-MIR1919	3
+stu-MIR319	16
+stu-MIR319a	16
+stu-MIR384	11
+stu-MIR390	16
+stu-MIR393	11
+stu-MIR396	11
+stu-MIR397	11
+stu-MIR398a	11
+stu-MIR398b	11
+stu-MIR399a	11
+stu-MIR399b	11
+stu-MIR399c	11
+stu-MIR399d	11
+stu-MIR399e	11
+stu-MIR399f	11
+stu-MIR399g	11
+stu-MIR399i	11
+stu-MIR399j	11
+stu-MIR399k	11
+stu-MIR399l	11
+stu-MIR399m	11
+stu-MIR399n	11
+stu-MIR399o	11
+stu-MIR408a	11
+stu-MIR408b	11
+stu-MIR4376	0
+stu-MIR477b	16
+stu-MIR482a	8
+stu-MIR482b	8
+stu-MIR482d	8
+stu-MIR482e	8
+stu-MIR5304	0
+stu-MIR6024	0
+stu-MIR6026	0
+stu-MIR7984b	0
+stu-MIR7984c	0
+stu-MIR7984d	0
+stu-MIR7993b	0
+stu-MIR7994b	0
+stu-MIR8001b	0
+stu-MIR8005b	0
+stu-MIR8007a	0
+stu-MIR8007b	0
+stu-MIR8024a	0
+stu-MIR8032a	0
+stu-MIR8032b	0
+stu-MIR8032d	0
+stu-MIR8032e	0
+stu-MIR8032f	0
+stu-MIR8032g	0
+stu-MIR8038a	0
+stu-MIR8038b	0
+stu-MIR8041a	0
+stu-MIR8041b	0
+stu-MIR827	0

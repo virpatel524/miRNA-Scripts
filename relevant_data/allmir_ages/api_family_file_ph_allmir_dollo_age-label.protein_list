@@ -1,0 +1,94 @@
+# age_proteins.py -o ../relevant_data/allmir_ages/ -t ../relevant_data/time_tree_dates.txt ../relevant_data/family_file_ph_allmir.txt ../relevant_data/phylo_tree.txt 2016-05-19 19:01:05.137938
+#
+# FAMILY_FILE = ../relevant_data/family_file_ph_allmir.txt
+# TREE_FILE = ../relevant_data/phylo_tree.txt
+# RECONSTRUCTION_ALGO = dollo
+# GAIN_PENALTY = 1
+# OUTPUT_NAME = family_file_ph_allmir_dollo
+# OUTPUT_DIR = ../relevant_data/allmir_ages/
+# OUTPUT_FORMATS = ['depth', 'label', 'time', 'profile']
+# TIME_FILE = ../relevant_data/time_tree_dates.txt
+# ADDITIONAL_ID_FILE = None
+#
+api-bantam	Bilateria
+api-let-7	Bilateria
+api-mir-1	Bilateria
+api-mir-10	Bilateria
+api-mir-100	Bilateria
+api-mir-1000	Neoptera
+api-mir-124	Bilateria
+api-mir-137	Bilateria
+api-mir-13a	Bilateria
+api-mir-14	Neoptera
+api-mir-184a	Bilateria
+api-mir-184b	Bilateria
+api-mir-190	Bilateria
+api-mir-1923	Neoptera
+api-mir-210	Bilateria
+api-mir-219	Bilateria
+api-mir-252a	Bilateria
+api-mir-263a	Protostomia
+api-mir-263b	Protostomia
+api-mir-275	Arthropoda
+api-mir-276	Arthropoda
+api-mir-277	Neoptera
+api-mir-278	Bilateria
+api-mir-279a	Protostomia
+api-mir-279b	Protostomia
+api-mir-281	Bilateria
+api-mir-29	Bilateria
+api-mir-2a	Bilateria
+api-mir-2b	Bilateria
+api-mir-2c	Bilateria
+api-mir-3015a-1	Paraneoptera
+api-mir-3015a-2	Paraneoptera
+api-mir-3015b	Paraneoptera
+api-mir-3015c	Paraneoptera
+api-mir-3017b-1	Paraneoptera
+api-mir-3017b-2	Paraneoptera
+api-mir-3017b-3	Paraneoptera
+api-mir-3021-1	Paraneoptera
+api-mir-3021-2	Paraneoptera
+api-mir-3021-3	Paraneoptera
+api-mir-3035-1	Paraneoptera
+api-mir-3035-2	Paraneoptera
+api-mir-3036-1	Paraneoptera
+api-mir-3036-2	Paraneoptera
+api-mir-3036-3	Paraneoptera
+api-mir-3036-4	Paraneoptera
+api-mir-3036-5	Paraneoptera
+api-mir-3043-1	Paraneoptera
+api-mir-3043-2	Paraneoptera
+api-mir-3043-3	Paraneoptera
+api-mir-3045a	Paraneoptera
+api-mir-3045b	Paraneoptera
+api-mir-3047-1	Paraneoptera
+api-mir-3047-2	Paraneoptera
+api-mir-3051-1	Paraneoptera
+api-mir-3051-2	Paraneoptera
+api-mir-3055-1	Paraneoptera
+api-mir-3055-2	Paraneoptera
+api-mir-3055-3	Paraneoptera
+api-mir-3055-4	Paraneoptera
+api-mir-3055-5	Paraneoptera
+api-mir-307	Bilateria
+api-mir-315	Bilateria
+api-mir-316	Neoptera
+api-mir-34	Bilateria
+api-mir-7	Bilateria
+api-mir-71	Bilateria
+api-mir-8	Bilateria
+api-mir-87a	Bilateria
+api-mir-87b	Bilateria
+api-mir-927	Neoptera
+api-mir-929	Neoptera
+api-mir-92a-1	Paraneoptera
+api-mir-92a-2	Paraneoptera
+api-mir-92b-1	Paraneoptera
+api-mir-92b-2	Paraneoptera
+api-mir-965	Mandibulata
+api-mir-971	Neoptera
+api-mir-993	Bilateria
+api-mir-996	Neoptera
+api-mir-9a	Bilateria
+api-mir-iab-4	Arthropoda

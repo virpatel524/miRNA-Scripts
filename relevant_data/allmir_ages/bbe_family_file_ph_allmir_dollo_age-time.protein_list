@@ -1,0 +1,70 @@
+# age_proteins.py -o ../relevant_data/allmir_ages/ -t ../relevant_data/time_tree_dates.txt ../relevant_data/family_file_ph_allmir.txt ../relevant_data/phylo_tree.txt 2016-05-19 19:01:05.137938
+#
+# FAMILY_FILE = ../relevant_data/family_file_ph_allmir.txt
+# TREE_FILE = ../relevant_data/phylo_tree.txt
+# RECONSTRUCTION_ALGO = dollo
+# GAIN_PENALTY = 1
+# OUTPUT_NAME = family_file_ph_allmir_dollo
+# OUTPUT_DIR = ../relevant_data/allmir_ages/
+# OUTPUT_FORMATS = ['depth', 'label', 'time', 'profile']
+# TIME_FILE = ../relevant_data/time_tree_dates.txt
+# ADDITIONAL_ID_FILE = None
+#
+bbe-let-7a-1	910.0
+bbe-let-7a-2	910.0
+bbe-mir-1	910.0
+bbe-mir-100	910.0
+bbe-mir-10a	910.0
+bbe-mir-10b	910.0
+bbe-mir-10c	910.0
+bbe-mir-124	910.0
+bbe-mir-125a	910.0
+bbe-mir-125b	910.0
+bbe-mir-129a	797.0
+bbe-mir-129b	797.0
+bbe-mir-133	910.0
+bbe-mir-135a	797.0
+bbe-mir-135b	797.0
+bbe-mir-137	910.0
+bbe-mir-153	910.0
+bbe-mir-182a	910.0
+bbe-mir-182b	910.0
+bbe-mir-182c	910.0
+bbe-mir-182d	910.0
+bbe-mir-183	842.0
+bbe-mir-184	910.0
+bbe-mir-190	910.0
+bbe-mir-193b	910.0
+bbe-mir-200a	910.0
+bbe-mir-200b	910.0
+bbe-mir-200c	910.0
+bbe-mir-2013	842.0
+bbe-mir-210	910.0
+bbe-mir-216	910.0
+bbe-mir-217	797.0
+bbe-mir-219-1	910.0
+bbe-mir-219-2	910.0
+bbe-mir-22	842.0
+bbe-mir-242	910.0
+bbe-mir-252a	910.0
+bbe-mir-252b	910.0
+bbe-mir-278	910.0
+bbe-mir-281	910.0
+bbe-mir-29a	910.0
+bbe-mir-29b	910.0
+bbe-mir-31	910.0
+bbe-mir-33-1	910.0
+bbe-mir-33-2	910.0
+bbe-mir-34a	910.0
+bbe-mir-34c	910.0
+bbe-mir-34h	910.0
+bbe-mir-375	910.0
+bbe-mir-7	910.0
+bbe-mir-71	910.0
+bbe-mir-9	910.0
+bbe-mir-92a-1	910.0
+bbe-mir-92a-2	910.0
+bbe-mir-92b	910.0
+bbe-mir-92c	910.0
+bbe-mir-92d	910.0
+bbe-mir-96	910.0

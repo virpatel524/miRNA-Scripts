@@ -1,0 +1,119 @@
+# age_proteins.py -o ../relevant_data/selectmir_ages/ -t ../relevant_data/time_tree_dates.txt ../relevant_data/family_file_ph_selectmir.txt ../relevant_data/phylo_tree.txt 2016-05-19 19:02:08.011342
+#
+# FAMILY_FILE = ../relevant_data/family_file_ph_selectmir.txt
+# TREE_FILE = ../relevant_data/phylo_tree.txt
+# RECONSTRUCTION_ALGO = dollo
+# GAIN_PENALTY = 1
+# OUTPUT_NAME = family_file_ph_selectmir_dollo
+# OUTPUT_DIR = ../relevant_data/selectmir_ages/
+# OUTPUT_FORMATS = ['depth', 'label', 'time', 'profile']
+# TIME_FILE = ../relevant_data/time_tree_dates.txt
+# ADDITIONAL_ID_FILE = None
+#
+cgr-let-7d	Bilateria
+cgr-let-7g	Bilateria
+cgr-mir-100	Bilateria
+cgr-mir-101b	Euteleostomi
+cgr-mir-103	Vertebrata
+cgr-mir-106b	Vertebrata
+cgr-mir-10a	Bilateria
+cgr-mir-10b	Bilateria
+cgr-mir-125a	Bilateria
+cgr-mir-125b	Bilateria
+cgr-mir-128	Euteleostomi
+cgr-mir-1306	Amniota
+cgr-mir-130a	Vertebrata
+cgr-mir-130b	Vertebrata
+cgr-mir-132	Vertebrata
+cgr-mir-137	Bilateria
+cgr-mir-139	Euteleostomi
+cgr-mir-140	Euteleostomi
+cgr-mir-142	Euteleostomi
+cgr-mir-146b	Vertebrata
+cgr-mir-148b	Euteleostomi
+cgr-mir-149	Boreoeutheria
+cgr-mir-151	Boreoeutheria
+cgr-mir-152	Euteleostomi
+cgr-mir-154	Boreoeutheria
+cgr-mir-15a	Vertebrata
+cgr-mir-15b	Vertebrata
+cgr-mir-16	Vertebrata
+cgr-mir-17	Vertebrata
+cgr-mir-181a	Vertebrata
+cgr-mir-181b	Vertebrata
+cgr-mir-181c	Vertebrata
+cgr-mir-181d	Vertebrata
+cgr-mir-1839	Boreoeutheria
+cgr-mir-185	Euarchontoglires
+cgr-mir-186	Mammalia
+cgr-mir-18a	Vertebrata
+cgr-mir-191	Amniota
+cgr-mir-193b	Bilateria
+cgr-mir-196a	Vertebrata
+cgr-mir-199a	Vertebrata
+cgr-mir-19b	Vertebrata
+cgr-mir-21	Euteleostomi
+cgr-mir-210	Bilateria
+cgr-mir-214	Euteleostomi
+cgr-mir-215	Vertebrata
+cgr-mir-22	Chordata
+cgr-mir-221	Vertebrata
+cgr-mir-222	Vertebrata
+cgr-mir-23a	Vertebrata
+cgr-mir-23b	Vertebrata
+cgr-mir-24	Euteleostomi
+cgr-mir-25	Bilateria
+cgr-mir-26b	Vertebrata
+cgr-mir-27a	Vertebrata
+cgr-mir-27b	Vertebrata
+cgr-mir-28	Boreoeutheria
+cgr-mir-298	Rodentia
+cgr-mir-29a	Bilateria
+cgr-mir-29b	Bilateria
+cgr-mir-29c	Bilateria
+cgr-mir-301a	Vertebrata
+cgr-mir-3072	Muroidea
+cgr-mir-30a	Vertebrata
+cgr-mir-30b	Vertebrata
+cgr-mir-30e	Vertebrata
+cgr-mir-31	Bilateria
+cgr-mir-32	Amniota
+cgr-mir-322	Boreoeutheria
+cgr-mir-324	Boreoeutheria
+cgr-mir-325	Rodentia
+cgr-mir-331	Boreoeutheria
+cgr-mir-340	Boreoeutheria
+cgr-mir-342	Boreoeutheria
+cgr-mir-34b	Bilateria
+cgr-mir-34c	Bilateria
+cgr-mir-350	Muroidea
+cgr-mir-365	Euteleostomi
+cgr-mir-369	Boreoeutheria
+cgr-mir-374	Boreoeutheria
+cgr-mir-377	Boreoeutheria
+cgr-mir-378	Boreoeutheria
+cgr-mir-384	Rodentia
+cgr-mir-409	Boreoeutheria
+cgr-mir-410	Boreoeutheria
+cgr-mir-412	Boreoeutheria
+cgr-mir-423	Boreoeutheria
+cgr-mir-425	Amniota
+cgr-mir-450b	Boreoeutheria
+cgr-mir-455	Euteleostomi
+cgr-mir-486	Boreoeutheria
+cgr-mir-497	Theria
+cgr-mir-499	Euteleostomi
+cgr-mir-501	Boreoeutheria
+cgr-mir-505	Euarchontoglires
+cgr-mir-532	Boreoeutheria
+cgr-mir-542	Boreoeutheria
+cgr-mir-615	Boreoeutheria
+cgr-mir-652	Euarchontoglires
+cgr-mir-664	Boreoeutheria
+cgr-mir-671	Boreoeutheria
+cgr-mir-744	Euarchontoglires
+cgr-mir-872	Rodentia
+cgr-mir-92a	Bilateria
+cgr-mir-92b	Bilateria
+cgr-mir-93	Vertebrata
+cgr-mir-99a	Bilateria

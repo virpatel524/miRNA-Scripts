@@ -1,0 +1,78 @@
+# age_proteins.py -o ../relevant_data/selectmir_ages/ -t ../relevant_data/time_tree_dates.txt ../relevant_data/family_file_ph_selectmir.txt ../relevant_data/phylo_tree.txt 2016-05-19 19:02:08.011342
+#
+# FAMILY_FILE = ../relevant_data/family_file_ph_selectmir.txt
+# TREE_FILE = ../relevant_data/phylo_tree.txt
+# RECONSTRUCTION_ALGO = dollo
+# GAIN_PENALTY = 1
+# OUTPUT_NAME = family_file_ph_selectmir_dollo
+# OUTPUT_DIR = ../relevant_data/selectmir_ages/
+# OUTPUT_FORMATS = ['depth', 'label', 'time', 'profile']
+# TIME_FILE = ../relevant_data/time_tree_dates.txt
+# ADDITIONAL_ID_FILE = None
+#
+mtr-MIR1507	Trifolieae
+mtr-MIR1509a	fabids
+mtr-MIR1510a	Papilionoideae
+mtr-MIR1510b	Papilionoideae
+mtr-MIR156b	Tracheophyta
+mtr-MIR156c	Tracheophyta
+mtr-MIR156d	Tracheophyta
+mtr-MIR156g	Tracheophyta
+mtr-MIR156h	Tracheophyta
+mtr-MIR156i	Tracheophyta
+mtr-MIR166e	Mesangiospermae
+mtr-MIR166g	Mesangiospermae
+mtr-MIR167b	Mesangiospermae
+mtr-MIR168c	Mesangiospermae
+mtr-MIR169d	Mesangiospermae
+mtr-MIR169e	Mesangiospermae
+mtr-MIR169l	Mesangiospermae
+mtr-MIR171e	Mesangiospermae
+mtr-MIR172c	Mesangiospermae
+mtr-MIR172d	Mesangiospermae
+mtr-MIR2086	Trifolieae
+mtr-MIR2087	Trifolieae
+mtr-MIR2089	Papilionoideae
+mtr-MIR2111a	rosids
+mtr-MIR2111d	rosids
+mtr-MIR2111e	rosids
+mtr-MIR2111g	rosids
+mtr-MIR2111m	rosids
+mtr-MIR2592a	Trifolieae
+mtr-MIR2592b	Trifolieae
+mtr-MIR2592bl	Trifolieae
+mtr-MIR2592bm	Trifolieae
+mtr-MIR2592bn	Trifolieae
+mtr-MIR2592bo	Trifolieae
+mtr-MIR2592bp	Trifolieae
+mtr-MIR2592bq	Trifolieae
+mtr-MIR2592br	Trifolieae
+mtr-MIR2592d	Trifolieae
+mtr-MIR2592e	Trifolieae
+mtr-MIR2592o	Trifolieae
+mtr-MIR2592q	Trifolieae
+mtr-MIR2592s	Trifolieae
+mtr-MIR2619b	Trifolieae
+mtr-MIR319a	Embryophyta
+mtr-MIR319b	Embryophyta
+mtr-MIR319c	Trifolieae
+mtr-MIR319d	Embryophyta
+mtr-MIR393b	Mesangiospermae
+mtr-MIR396a	Mesangiospermae
+mtr-MIR396b	Mesangiospermae
+mtr-MIR397	Mesangiospermae
+mtr-MIR398a	Mesangiospermae
+mtr-MIR399s	Mesangiospermae
+mtr-MIR399t	Mesangiospermae
+mtr-MIR408	Mesangiospermae
+mtr-MIR4414a	Papilionoideae
+mtr-MIR482	Pentapetalae
+mtr-MIR5274b	Trifolieae
+mtr-MIR5554a	Trifolieae
+mtr-MIR5554b	Trifolieae
+mtr-MIR5554c	Trifolieae
+mtr-MIR5559	Trifolieae
+mtr-MIR7696a	Trifolieae
+mtr-MIR7696b	Trifolieae
+mtr-MIR7696c	Trifolieae
+mtr-MIR7696d	Trifolieae

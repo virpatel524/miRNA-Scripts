@@ -1,0 +1,78 @@
+# age_proteins.py -o ../relevant_data/selectmir_ages/ -t ../relevant_data/time_tree_dates.txt ../relevant_data/family_file_ph_selectmir.txt ../relevant_data/phylo_tree.txt 2016-05-19 19:02:08.011342
+#
+# FAMILY_FILE = ../relevant_data/family_file_ph_selectmir.txt
+# TREE_FILE = ../relevant_data/phylo_tree.txt
+# RECONSTRUCTION_ALGO = dollo
+# GAIN_PENALTY = 1
+# OUTPUT_NAME = family_file_ph_selectmir_dollo
+# OUTPUT_DIR = ../relevant_data/selectmir_ages/
+# OUTPUT_FORMATS = ['depth', 'label', 'time', 'profile']
+# TIME_FILE = ../relevant_data/time_tree_dates.txt
+# ADDITIONAL_ID_FILE = None
+#
+bbe-let-7a-1	Bilateria
+bbe-let-7a-2	Bilateria
+bbe-mir-1	Bilateria
+bbe-mir-100	Bilateria
+bbe-mir-10a	Bilateria
+bbe-mir-10b	Bilateria
+bbe-mir-124	Bilateria
+bbe-mir-125a	Bilateria
+bbe-mir-129a	Chordata
+bbe-mir-133	Bilateria
+bbe-mir-135a	Chordata
+bbe-mir-182a	Chordata
+bbe-mir-182b	Chordata
+bbe-mir-184	Bilateria
+bbe-mir-190	Bilateria
+bbe-mir-200a	Bilateria
+bbe-mir-200b	Bilateria
+bbe-mir-2057	bbe
+bbe-mir-2058	Cephalochordata
+bbe-mir-2059	Cephalochordata
+bbe-mir-2061	bbe
+bbe-mir-2062	Cephalochordata
+bbe-mir-2063	bbe
+bbe-mir-2064	bbe
+bbe-mir-2066	bbe
+bbe-mir-2067	bbe
+bbe-mir-2068	Cephalochordata
+bbe-mir-2070	Cephalochordata
+bbe-mir-2071-1	Cephalochordata
+bbe-mir-2071-2	Cephalochordata
+bbe-mir-2072	Cephalochordata
+bbe-mir-2076	Cephalochordata
+bbe-mir-210	Bilateria
+bbe-mir-216	Bilateria
+bbe-mir-217	Chordata
+bbe-mir-219-1	Bilateria
+bbe-mir-219-2	Bilateria
+bbe-mir-22	Chordata
+bbe-mir-252a	Bilateria
+bbe-mir-252b	Bilateria
+bbe-mir-281	Bilateria
+bbe-mir-29a	Bilateria
+bbe-mir-29b	Bilateria
+bbe-mir-31	Bilateria
+bbe-mir-33-1	Bilateria
+bbe-mir-33-2	Bilateria
+bbe-mir-4856a	bbe
+bbe-mir-4857	bbe
+bbe-mir-4859	Cephalochordata
+bbe-mir-4860	Cephalochordata
+bbe-mir-4863	Cephalochordata
+bbe-mir-4864	Cephalochordata
+bbe-mir-4865	Cephalochordata
+bbe-mir-4866	Cephalochordata
+bbe-mir-4868c	Cephalochordata
+bbe-mir-4869	Cephalochordata
+bbe-mir-4874	Cephalochordata
+bbe-mir-4891	Cephalochordata
+bbe-mir-4904	Cephalochordata
+bbe-mir-7	Bilateria
+bbe-mir-71	Bilateria
+bbe-mir-9	Bilateria
+bbe-mir-92a-1	Bilateria
+bbe-mir-92b	Bilateria
+bbe-mir-92d	Bilateria
+bbe-mir-96	Chordata

@@ -1,0 +1,69 @@
+# age_proteins.py -o ../relevant_data/allmir_ages/ -t ../relevant_data/time_tree_dates.txt ../relevant_data/family_file_ph_allmir.txt ../relevant_data/phylo_tree.txt 2016-05-19 19:01:05.137938
+#
+# FAMILY_FILE = ../relevant_data/family_file_ph_allmir.txt
+# TREE_FILE = ../relevant_data/phylo_tree.txt
+# RECONSTRUCTION_ALGO = dollo
+# GAIN_PENALTY = 1
+# OUTPUT_NAME = family_file_ph_allmir_dollo
+# OUTPUT_DIR = ../relevant_data/allmir_ages/
+# OUTPUT_FORMATS = ['depth', 'label', 'time', 'profile']
+# TIME_FILE = ../relevant_data/time_tree_dates.txt
+# ADDITIONAL_ID_FILE = None
+#
+ghr-MIR156a	Embryophyta
+ghr-MIR156b	Embryophyta
+ghr-MIR156c	Embryophyta
+ghr-MIR156d	Embryophyta
+ghr-MIR160	Embryophyta
+ghr-MIR162a	Spermatophyta
+ghr-MIR164	Spermatophyta
+ghr-MIR166b	Embryophyta
+ghr-MIR167a	Magnoliophyta
+ghr-MIR167b	Magnoliophyta
+ghr-MIR169a	Magnoliophyta
+ghr-MIR169b	Spermatophyta
+ghr-MIR172	Magnoliophyta
+ghr-MIR2948	Spermatophyta
+ghr-MIR2949a	ghr
+ghr-MIR2949b	ghr
+ghr-MIR2949c	ghr
+ghr-MIR2950	ghr
+ghr-MIR390a	Embryophyta
+ghr-MIR390b	Embryophyta
+ghr-MIR390c	Embryophyta
+ghr-MIR393	Magnoliophyta
+ghr-MIR394a	Magnoliophyta
+ghr-MIR394b	Magnoliophyta
+ghr-MIR396a	Tracheophyta
+ghr-MIR396b	Tracheophyta
+ghr-MIR398	Spermatophyta
+ghr-MIR399a	Mesangiospermae
+ghr-MIR399b	Mesangiospermae
+ghr-MIR399c	Mesangiospermae
+ghr-MIR399d	Mesangiospermae
+ghr-MIR399e	Mesangiospermae
+ghr-MIR479	Mesangiospermae
+ghr-MIR482a	Spermatophyta
+ghr-MIR482b	Spermatophyta
+ghr-MIR7484a	Malvoideae
+ghr-MIR7484b	Malvoideae
+ghr-MIR7486a	Malvoideae
+ghr-MIR7486b	Malvoideae
+ghr-MIR7492a	Malvoideae
+ghr-MIR7492b	Malvoideae
+ghr-MIR7492c	Malvoideae
+ghr-MIR7493	Malvoideae
+ghr-MIR7494	Malvoideae
+ghr-MIR7495a	ghr
+ghr-MIR7495b	ghr
+ghr-MIR7496a	ghr
+ghr-MIR7496b	ghr
+ghr-MIR7502	Malvoideae
+ghr-MIR7504a	Malvoideae
+ghr-MIR7504b	Malvoideae
+ghr-MIR7506	Malvoideae
+ghr-MIR7510a	ghr
+ghr-MIR7510b	ghr
+ghr-MIR827a	Malvales
+ghr-MIR827b	Malvales
+ghr-MIR827c	Malvales

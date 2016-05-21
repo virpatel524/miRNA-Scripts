@@ -1,0 +1,129 @@
+# age_proteins.py -o ../relevant_data/selectmir_ages/ -t ../relevant_data/time_tree_dates.txt ../relevant_data/family_file_ph_selectmir.txt ../relevant_data/phylo_tree.txt 2016-05-19 19:02:08.011342
+#
+# FAMILY_FILE = ../relevant_data/family_file_ph_selectmir.txt
+# TREE_FILE = ../relevant_data/phylo_tree.txt
+# RECONSTRUCTION_ALGO = dollo
+# GAIN_PENALTY = 1
+# OUTPUT_NAME = family_file_ph_selectmir_dollo
+# OUTPUT_DIR = ../relevant_data/selectmir_ages/
+# OUTPUT_FORMATS = ['depth', 'label', 'time', 'profile']
+# TIME_FILE = ../relevant_data/time_tree_dates.txt
+# ADDITIONAL_ID_FILE = None
+#
+cel-let-7	Bilateria
+cel-lin-4	Chromadorea
+cel-lsy-6	cel
+cel-mir-1	Bilateria
+cel-mir-124	Bilateria
+cel-mir-1822	cel
+cel-mir-1829a	cel
+cel-mir-1829b	cel
+cel-mir-1829c	cel
+cel-mir-2	Bilateria
+cel-mir-2208a	cel
+cel-mir-2208b	cel
+cel-mir-2209a	cel
+cel-mir-2209b	cel
+cel-mir-2217a	cel
+cel-mir-2217b-1	cel
+cel-mir-2217b-2	cel
+cel-mir-2217b-3	cel
+cel-mir-2217b-4	cel
+cel-mir-228	cel
+cel-mir-230	Caenorhabditis
+cel-mir-231	cel
+cel-mir-232	cel
+cel-mir-233	cel
+cel-mir-234	Chromadorea
+cel-mir-235	Caenorhabditis
+cel-mir-236	Chromadorea
+cel-mir-237	Caenorhabditis
+cel-mir-238	cel
+cel-mir-239a	Chromadorea
+cel-mir-239b	Chromadorea
+cel-mir-240	cel
+cel-mir-241	cel
+cel-mir-244	Caenorhabditis
+cel-mir-245	cel
+cel-mir-246	Caenorhabditis
+cel-mir-247	cel
+cel-mir-249	cel
+cel-mir-250	Caenorhabditis
+cel-mir-252	Bilateria
+cel-mir-253	cel
+cel-mir-254	cel
+cel-mir-255	cel
+cel-mir-259	cel
+cel-mir-34	Bilateria
+cel-mir-35	Caenorhabditis
+cel-mir-354	cel
+cel-mir-355	cel
+cel-mir-357	cel
+cel-mir-358	cel
+cel-mir-36	Bilateria
+cel-mir-360	cel
+cel-mir-37	Bilateria
+cel-mir-38	Bilateria
+cel-mir-39	cel
+cel-mir-392	cel
+cel-mir-40	Bilateria
+cel-mir-41	Bilateria
+cel-mir-42	cel
+cel-mir-43	cel
+cel-mir-44	Chromadorea
+cel-mir-45	Chromadorea
+cel-mir-46	Bilateria
+cel-mir-47	Bilateria
+cel-mir-48	Caenorhabditis
+cel-mir-4812	cel
+cel-mir-49	cel
+cel-mir-50	Chromadorea
+cel-mir-51	cel
+cel-mir-52	Caenorhabditis
+cel-mir-53	Caenorhabditis
+cel-mir-54	Caenorhabditis
+cel-mir-55	Caenorhabditis
+cel-mir-5592-1	cel
+cel-mir-5592-2	cel
+cel-mir-5593-1	cel
+cel-mir-5593-2	cel
+cel-mir-56	cel
+cel-mir-57	Chromadorea
+cel-mir-58a	Caenorhabditis
+cel-mir-59	cel
+cel-mir-60	Caenorhabditis
+cel-mir-61	cel
+cel-mir-63	Chromadorea
+cel-mir-64	Caenorhabditis
+cel-mir-65	Caenorhabditis
+cel-mir-67	Bilateria
+cel-mir-70	cel
+cel-mir-71	Bilateria
+cel-mir-72	Chromadorea
+cel-mir-73	cel
+cel-mir-74	Caenorhabditis
+cel-mir-75	cel
+cel-mir-76	cel
+cel-mir-77	cel
+cel-mir-785	cel
+cel-mir-786	cel
+cel-mir-787	cel
+cel-mir-788	cel
+cel-mir-789-1	cel
+cel-mir-789-2	cel
+cel-mir-79	Bilateria
+cel-mir-790	cel
+cel-mir-791	cel
+cel-mir-80	Caenorhabditis
+cel-mir-81	Caenorhabditis
+cel-mir-8186-1	cel
+cel-mir-8186-2	cel
+cel-mir-8196a	cel
+cel-mir-8196b	cel
+cel-mir-82	Caenorhabditis
+cel-mir-83	Chromadorea
+cel-mir-84	Chromadorea
+cel-mir-85	cel
+cel-mir-86	Chromadorea
+cel-mir-87	Bilateria
+cel-mir-90	Caenorhabditis

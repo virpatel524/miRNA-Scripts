@@ -1,0 +1,60 @@
+# age_proteins.py -o ../relevant_data/selectmir_ages/ -t ../relevant_data/time_tree_dates.txt ../relevant_data/family_file_ph_selectmir.txt ../relevant_data/phylo_tree.txt 2016-05-19 19:02:08.011342
+#
+# FAMILY_FILE = ../relevant_data/family_file_ph_selectmir.txt
+# TREE_FILE = ../relevant_data/phylo_tree.txt
+# RECONSTRUCTION_ALGO = dollo
+# GAIN_PENALTY = 1
+# OUTPUT_NAME = family_file_ph_selectmir_dollo
+# OUTPUT_DIR = ../relevant_data/selectmir_ages/
+# OUTPUT_FORMATS = ['depth', 'label', 'time', 'profile']
+# TIME_FILE = ../relevant_data/time_tree_dates.txt
+# ADDITIONAL_ID_FILE = None
+#
+eca-mir-125a	Bilateria
+eca-mir-126	Chordata
+eca-mir-129a	Chordata
+eca-mir-129b	Chordata
+eca-mir-139	Euteleostomi
+eca-mir-140	Euteleostomi
+eca-mir-142	Euteleostomi
+eca-mir-146b	Vertebrata
+eca-mir-148b	Euteleostomi
+eca-mir-188	Boreoeutheria
+eca-mir-193a	Bilateria
+eca-mir-199a	Vertebrata
+eca-mir-199b	Vertebrata
+eca-mir-28	Boreoeutheria
+eca-mir-301b	Vertebrata
+eca-mir-323	Boreoeutheria
+eca-mir-324	Boreoeutheria
+eca-mir-337	Boreoeutheria
+eca-mir-338	Euteleostomi
+eca-mir-340	Boreoeutheria
+eca-mir-342	Boreoeutheria
+eca-mir-345	Boreoeutheria
+eca-mir-34b	Bilateria
+eca-mir-361	Boreoeutheria
+eca-mir-362	Boreoeutheria
+eca-mir-369	Boreoeutheria
+eca-mir-371	Boreoeutheria
+eca-mir-409	Boreoeutheria
+eca-mir-423	Boreoeutheria
+eca-mir-450b	Boreoeutheria
+eca-mir-485	Boreoeutheria
+eca-mir-486	Boreoeutheria
+eca-mir-490	Amniota
+eca-mir-491	Boreoeutheria
+eca-mir-499	Euteleostomi
+eca-mir-502	Boreoeutheria
+eca-mir-508	Boreoeutheria
+eca-mir-532	Boreoeutheria
+eca-mir-542	Boreoeutheria
+eca-mir-582	Boreoeutheria
+eca-mir-590	Mammalia
+eca-mir-615	Boreoeutheria
+eca-mir-671	Boreoeutheria
+eca-mir-764	Boreoeutheria
+eca-mir-767	Boreoeutheria
+eca-mir-769a	Boreoeutheria
+eca-mir-876	Boreoeutheria
+eca-mir-885	Boreoeutheria

@@ -1,0 +1,57 @@
+# age_proteins.py -o ../relevant_data/selectmir_ages/ -t ../relevant_data/time_tree_dates.txt ../relevant_data/family_file_ph_selectmir.txt ../relevant_data/phylo_tree.txt 2016-05-19 19:02:08.011342
+#
+# FAMILY_FILE = ../relevant_data/family_file_ph_selectmir.txt
+# TREE_FILE = ../relevant_data/phylo_tree.txt
+# RECONSTRUCTION_ALGO = dollo
+# GAIN_PENALTY = 1
+# OUTPUT_NAME = family_file_ph_selectmir_dollo
+# OUTPUT_DIR = ../relevant_data/selectmir_ages/
+# OUTPUT_FORMATS = ['depth', 'label', 'time', 'profile']
+# TIME_FILE = ../relevant_data/time_tree_dates.txt
+# ADDITIONAL_ID_FILE = None
+#
+ptc-MIR160b	Mesangiospermae
+ptc-MIR160c	Mesangiospermae
+ptc-MIR160e	Mesangiospermae
+ptc-MIR167f	Mesangiospermae
+ptc-MIR167g	Mesangiospermae
+ptc-MIR167h	Mesangiospermae
+ptc-MIR168a	Mesangiospermae
+ptc-MIR168b	Mesangiospermae
+ptc-MIR169b	Mesangiospermae
+ptc-MIR169n	Mesangiospermae
+ptc-MIR169u	Mesangiospermae
+ptc-MIR171a	Mesangiospermae
+ptc-MIR171g	Mesangiospermae
+ptc-MIR171h	Mesangiospermae
+ptc-MIR171l	Mesangiospermae
+ptc-MIR172b	Mesangiospermae
+ptc-MIR172g	Mesangiospermae
+ptc-MIR172h	Mesangiospermae
+ptc-MIR390d	Embryophyta
+ptc-MIR393a	Mesangiospermae
+ptc-MIR393b	Mesangiospermae
+ptc-MIR394a	Mesangiospermae
+ptc-MIR394b	Mesangiospermae
+ptc-MIR396e	Mesangiospermae
+ptc-MIR396g	Mesangiospermae
+ptc-MIR398c	Mesangiospermae
+ptc-MIR403c	Pentapetalae
+ptc-MIR408	Mesangiospermae
+ptc-MIR473a	Embryophyta
+ptc-MIR475a	ptc
+ptc-MIR475b	ptc
+ptc-MIR475d	ptc
+ptc-MIR477a	Embryophyta
+ptc-MIR477d	Embryophyta
+ptc-MIR482a	Pentapetalae
+ptc-MIR482b	Pentapetalae
+ptc-MIR482c	Pentapetalae
+ptc-MIR482d	Pentapetalae
+ptc-MIR6425a	ptc
+ptc-MIR6425b	ptc
+ptc-MIR6425c	ptc
+ptc-MIR6425d	ptc
+ptc-MIR6459a	ptc
+ptc-MIR6462c	ptc
+ptc-MIR828b	rosids

@@ -1,0 +1,43 @@
+# age_proteins.py -o ../relevant_data/selectmir_ages/ -t ../relevant_data/time_tree_dates.txt ../relevant_data/family_file_ph_selectmir.txt ../relevant_data/phylo_tree.txt 2016-05-19 19:02:08.011342
+#
+# FAMILY_FILE = ../relevant_data/family_file_ph_selectmir.txt
+# TREE_FILE = ../relevant_data/phylo_tree.txt
+# RECONSTRUCTION_ALGO = dollo
+# GAIN_PENALTY = 1
+# OUTPUT_NAME = family_file_ph_selectmir_dollo
+# OUTPUT_DIR = ../relevant_data/selectmir_ages/
+# OUTPUT_FORMATS = ['depth', 'label', 'time', 'profile']
+# TIME_FILE = ../relevant_data/time_tree_dates.txt
+# ADDITIONAL_ID_FILE = None
+#
+cqu-bantam	Bilateria
+cqu-let-7	Bilateria
+cqu-mir-10	Bilateria
+cqu-mir-100	Bilateria
+cqu-mir-11	Endopterygota
+cqu-mir-1175	Protostomia
+cqu-mir-12	Arthropoda
+cqu-mir-125	Bilateria
+cqu-mir-1889	Culicinae
+cqu-mir-210	Bilateria
+cqu-mir-252-1	Bilateria
+cqu-mir-252-2	Bilateria
+cqu-mir-276-1	Arthropoda
+cqu-mir-276-2	Arthropoda
+cqu-mir-276-3	Arthropoda
+cqu-mir-279	Ecdysozoa
+cqu-mir-281-1	Bilateria
+cqu-mir-281-2	Bilateria
+cqu-mir-285	Bilateria
+cqu-mir-2941-1	Culicini
+cqu-mir-2941-2	Culicini
+cqu-mir-305	Endopterygota
+cqu-mir-31	Bilateria
+cqu-mir-317-1	Arthropoda
+cqu-mir-317-2	Arthropoda
+cqu-mir-71	Bilateria
+cqu-mir-8	Bilateria
+cqu-mir-9	Bilateria
+cqu-mir-932	Endopterygota
+cqu-mir-988	Diptera
+cqu-mir-993	Bilateria

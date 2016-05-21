@@ -1,0 +1,86 @@
+# age_proteins.py -o ../relevant_data/selectmir_ages/ -t ../relevant_data/time_tree_dates.txt ../relevant_data/family_file_ph_selectmir.txt ../relevant_data/phylo_tree.txt 2016-05-19 19:02:08.011342
+#
+# FAMILY_FILE = ../relevant_data/family_file_ph_selectmir.txt
+# TREE_FILE = ../relevant_data/phylo_tree.txt
+# RECONSTRUCTION_ALGO = dollo
+# GAIN_PENALTY = 1
+# OUTPUT_NAME = family_file_ph_selectmir_dollo
+# OUTPUT_DIR = ../relevant_data/selectmir_ages/
+# OUTPUT_FORMATS = ['depth', 'label', 'time', 'profile']
+# TIME_FILE = ../relevant_data/time_tree_dates.txt
+# ADDITIONAL_ID_FILE = None
+#
+osa-MIR1428a	Ehrhartoideae
+osa-MIR1428e	Ehrhartoideae
+osa-MIR1437b	Ehrhartoideae
+osa-MIR156b	Tracheophyta
+osa-MIR156c	Tracheophyta
+osa-MIR156f	Tracheophyta
+osa-MIR156g	Tracheophyta
+osa-MIR156h	Tracheophyta
+osa-MIR156j	Tracheophyta
+osa-MIR156l	Tracheophyta
+osa-MIR159a	Embryophyta
+osa-MIR160a	Mesangiospermae
+osa-MIR160b	Mesangiospermae
+osa-MIR160c	Mesangiospermae
+osa-MIR160d	Mesangiospermae
+osa-MIR160e	Mesangiospermae
+osa-MIR160f	Mesangiospermae
+osa-MIR166a	Mesangiospermae
+osa-MIR166b	Mesangiospermae
+osa-MIR166c	Mesangiospermae
+osa-MIR166d	Mesangiospermae
+osa-MIR166e	Mesangiospermae
+osa-MIR166g	Mesangiospermae
+osa-MIR166h	Mesangiospermae
+osa-MIR166i	Mesangiospermae
+osa-MIR166j	Mesangiospermae
+osa-MIR166k	Mesangiospermae
+osa-MIR166l	Mesangiospermae
+osa-MIR167a	Mesangiospermae
+osa-MIR167c	Mesangiospermae
+osa-MIR167d	Mesangiospermae
+osa-MIR167e	Mesangiospermae
+osa-MIR167h	Mesangiospermae
+osa-MIR167i	Mesangiospermae
+osa-MIR168a	Mesangiospermae
+osa-MIR169f	Mesangiospermae
+osa-MIR169i	Mesangiospermae
+osa-MIR169r	Mesangiospermae
+osa-MIR171c	Mesangiospermae
+osa-MIR171d	Mesangiospermae
+osa-MIR171e	Mesangiospermae
+osa-MIR171f	Mesangiospermae
+osa-MIR171i	Mesangiospermae
+osa-MIR172d	Mesangiospermae
+osa-MIR1846a	Ehrhartoideae
+osa-MIR1846b	Ehrhartoideae
+osa-MIR1846c	Ehrhartoideae
+osa-MIR1846d	Ehrhartoideae
+osa-MIR1863b	Ehrhartoideae
+osa-MIR1882e	Ehrhartoideae
+osa-MIR2871a	Ehrhartoideae
+osa-MIR319a	Embryophyta
+osa-MIR390	Embryophyta
+osa-MIR393b	Mesangiospermae
+osa-MIR396a	Mesangiospermae
+osa-MIR396b	Mesangiospermae
+osa-MIR396c	Mesangiospermae
+osa-MIR396e	Mesangiospermae
+osa-MIR396f	Mesangiospermae
+osa-MIR3980a	Ehrhartoideae
+osa-MIR3980b	Ehrhartoideae
+osa-MIR408	Mesangiospermae
+osa-MIR444a	Ehrhartoideae
+osa-MIR444b	Ehrhartoideae
+osa-MIR444c	Ehrhartoideae
+osa-MIR444d	Ehrhartoideae
+osa-MIR5157a	Ehrhartoideae
+osa-MIR5157b	Ehrhartoideae
+osa-MIR528	Poaceae
+osa-MIR530	Ehrhartoideae
+osa-MIR535	Ehrhartoideae
+osa-MIR810b	Ehrhartoideae
+osa-MIR812n	Ehrhartoideae
+osa-MIR812o	Ehrhartoideae

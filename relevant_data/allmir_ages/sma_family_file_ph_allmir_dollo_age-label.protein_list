@@ -1,0 +1,33 @@
+# age_proteins.py -o ../relevant_data/allmir_ages/ -t ../relevant_data/time_tree_dates.txt ../relevant_data/family_file_ph_allmir.txt ../relevant_data/phylo_tree.txt 2016-05-19 19:01:05.137938
+#
+# FAMILY_FILE = ../relevant_data/family_file_ph_allmir.txt
+# TREE_FILE = ../relevant_data/phylo_tree.txt
+# RECONSTRUCTION_ALGO = dollo
+# GAIN_PENALTY = 1
+# OUTPUT_NAME = family_file_ph_allmir_dollo
+# OUTPUT_DIR = ../relevant_data/allmir_ages/
+# OUTPUT_FORMATS = ['depth', 'label', 'time', 'profile']
+# TIME_FILE = ../relevant_data/time_tree_dates.txt
+# ADDITIONAL_ID_FILE = None
+#
+sma-let-7	Bilateria
+sma-mir-10	Bilateria
+sma-mir-125a	Trematoda
+sma-mir-125b	Bilateria
+sma-mir-190	Trematoda
+sma-mir-1a	Bilateria
+sma-mir-2162	Trematoda
+sma-mir-219	Bilateria
+sma-mir-2a	Trematoda
+sma-mir-2b	Bilateria
+sma-mir-2c	Bilateria
+sma-mir-2d	Bilateria
+sma-mir-2e	Bilateria
+sma-mir-31	Trematoda
+sma-mir-3479	Trematoda
+sma-mir-3492	Trematoda
+sma-mir-36a	Bilateria
+sma-mir-61	Trematoda
+sma-mir-71a	Bilateria
+sma-mir-71b	Bilateria
+sma-mir-8	Bilateria

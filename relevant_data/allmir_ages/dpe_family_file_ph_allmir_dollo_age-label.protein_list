@@ -1,0 +1,87 @@
+# age_proteins.py -o ../relevant_data/allmir_ages/ -t ../relevant_data/time_tree_dates.txt ../relevant_data/family_file_ph_allmir.txt ../relevant_data/phylo_tree.txt 2016-05-19 19:01:05.137938
+#
+# FAMILY_FILE = ../relevant_data/family_file_ph_allmir.txt
+# TREE_FILE = ../relevant_data/phylo_tree.txt
+# RECONSTRUCTION_ALGO = dollo
+# GAIN_PENALTY = 1
+# OUTPUT_NAME = family_file_ph_allmir_dollo
+# OUTPUT_DIR = ../relevant_data/allmir_ages/
+# OUTPUT_FORMATS = ['depth', 'label', 'time', 'profile']
+# TIME_FILE = ../relevant_data/time_tree_dates.txt
+# ADDITIONAL_ID_FILE = None
+#
+dpe-bantam	Bilateria
+dpe-let-7-1	Bilateria
+dpe-let-7-2	Bilateria
+dpe-mir-1	Bilateria
+dpe-mir-10	Bilateria
+dpe-mir-100-1	Bilateria
+dpe-mir-100-2	Bilateria
+dpe-mir-11	Endopterygota
+dpe-mir-12	Protostomia
+dpe-mir-124	Bilateria
+dpe-mir-125-1	Bilateria
+dpe-mir-125-2	Bilateria
+dpe-mir-125-3	Bilateria
+dpe-mir-133	Bilateria
+dpe-mir-13a	Bilateria
+dpe-mir-13b-1	Bilateria
+dpe-mir-13b-2	Bilateria
+dpe-mir-14	Neoptera
+dpe-mir-184	Bilateria
+dpe-mir-210	Bilateria
+dpe-mir-219	Bilateria
+dpe-mir-263a	Protostomia
+dpe-mir-263b	Protostomia
+dpe-mir-274	Endopterygota
+dpe-mir-275	Arthropoda
+dpe-mir-276a	Arthropoda
+dpe-mir-276b	Arthropoda
+dpe-mir-277	Neoptera
+dpe-mir-278	Bilateria
+dpe-mir-279	Protostomia
+dpe-mir-280	Drosophila
+dpe-mir-281-1	Bilateria
+dpe-mir-281-2	Bilateria
+dpe-mir-282	Endopterygota
+dpe-mir-283	Bilateria
+dpe-mir-284	Drosophila
+dpe-mir-286	Diptera
+dpe-mir-287	Drosophila
+dpe-mir-288	Drosophila
+dpe-mir-289	Sophophora
+dpe-mir-2a-1	Bilateria
+dpe-mir-2a-2	Bilateria
+dpe-mir-2b	Bilateria
+dpe-mir-2c	Bilateria
+dpe-mir-3	Diptera
+dpe-mir-305	Arthropoda
+dpe-mir-306	Endopterygota
+dpe-mir-307	Bilateria
+dpe-mir-308	Endopterygota
+dpe-mir-309	Diptera
+dpe-mir-314	Drosophila
+dpe-mir-315	Bilateria
+dpe-mir-316	Neoptera
+dpe-mir-317-1	Arthropoda
+dpe-mir-317-2	Arthropoda
+dpe-mir-318	Drosophila
+dpe-mir-31a	Bilateria
+dpe-mir-31b	Bilateria
+dpe-mir-33	Bilateria
+dpe-mir-34	Bilateria
+dpe-mir-4	Drosophila
+dpe-mir-5	Drosophila
+dpe-mir-6-1	Drosophila
+dpe-mir-6-2	Drosophila
+dpe-mir-6-3	Drosophila
+dpe-mir-7	Bilateria
+dpe-mir-79	Bilateria
+dpe-mir-8	Bilateria
+dpe-mir-87	Bilateria
+dpe-mir-92a	Bilateria
+dpe-mir-92b	Bilateria
+dpe-mir-9a	Bilateria
+dpe-mir-9b	Bilateria
+dpe-mir-9c	Bilateria
+dpe-mir-iab-4	Arthropoda

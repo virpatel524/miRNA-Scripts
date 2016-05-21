@@ -1,0 +1,74 @@
+# age_proteins.py -o ../relevant_data/allmir_ages/ -t ../relevant_data/time_tree_dates.txt ../relevant_data/family_file_ph_allmir.txt ../relevant_data/phylo_tree.txt 2016-05-19 19:01:05.137938
+#
+# FAMILY_FILE = ../relevant_data/family_file_ph_allmir.txt
+# TREE_FILE = ../relevant_data/phylo_tree.txt
+# RECONSTRUCTION_ALGO = dollo
+# GAIN_PENALTY = 1
+# OUTPUT_NAME = family_file_ph_allmir_dollo
+# OUTPUT_DIR = ../relevant_data/allmir_ages/
+# OUTPUT_FORMATS = ['depth', 'label', 'time', 'profile']
+# TIME_FILE = ../relevant_data/time_tree_dates.txt
+# ADDITIONAL_ID_FILE = None
+#
+sly-MIR156a	17
+sly-MIR156b	17
+sly-MIR156c	17
+sly-MIR156d	17
+sly-MIR156e	17
+sly-MIR159	17
+sly-MIR160a	17
+sly-MIR162	14
+sly-MIR164a	14
+sly-MIR164b	14
+sly-MIR166a	17
+sly-MIR166b	17
+sly-MIR166c	17
+sly-MIR167a	13
+sly-MIR167b	13
+sly-MIR168a	13
+sly-MIR168b	13
+sly-MIR169a	14
+sly-MIR169b	13
+sly-MIR169c	14
+sly-MIR169d	13
+sly-MIR169e	13
+sly-MIR171a	17
+sly-MIR171b	17
+sly-MIR171c	17
+sly-MIR171d	17
+sly-MIR171e	17
+sly-MIR172a	13
+sly-MIR172b	13
+sly-MIR1919a	6
+sly-MIR1919b	6
+sly-MIR1919c	6
+sly-MIR319a	17
+sly-MIR319b	17
+sly-MIR319c	17
+sly-MIR390a	17
+sly-MIR390b	17
+sly-MIR394	13
+sly-MIR395a	14
+sly-MIR395b	14
+sly-MIR396a	16
+sly-MIR396b	16
+sly-MIR397	14
+sly-MIR399	12
+sly-MIR403	9
+sly-MIR4376	4
+sly-MIR482a	14
+sly-MIR482b	14
+sly-MIR482c	14
+sly-MIR482d	14
+sly-MIR482e	14
+sly-MIR5302a	1
+sly-MIR5302b	1
+sly-MIR5303	6
+sly-MIR5304	4
+sly-MIR6022	4
+sly-MIR6023	4
+sly-MIR6024	6
+sly-MIR6026	4
+sly-MIR6027	4
+sly-MIR9471a	1
+sly-MIR9471b	1

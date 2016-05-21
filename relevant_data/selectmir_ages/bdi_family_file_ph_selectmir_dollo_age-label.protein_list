@@ -1,0 +1,120 @@
+# age_proteins.py -o ../relevant_data/selectmir_ages/ -t ../relevant_data/time_tree_dates.txt ../relevant_data/family_file_ph_selectmir.txt ../relevant_data/phylo_tree.txt 2016-05-19 19:02:08.011342
+#
+# FAMILY_FILE = ../relevant_data/family_file_ph_selectmir.txt
+# TREE_FILE = ../relevant_data/phylo_tree.txt
+# RECONSTRUCTION_ALGO = dollo
+# GAIN_PENALTY = 1
+# OUTPUT_NAME = family_file_ph_selectmir_dollo
+# OUTPUT_DIR = ../relevant_data/selectmir_ages/
+# OUTPUT_FORMATS = ['depth', 'label', 'time', 'profile']
+# TIME_FILE = ../relevant_data/time_tree_dates.txt
+# ADDITIONAL_ID_FILE = None
+#
+bdi-MIR156b	Tracheophyta
+bdi-MIR156d	Tracheophyta
+bdi-MIR156e	Tracheophyta
+bdi-MIR156f	Tracheophyta
+bdi-MIR156g	Tracheophyta
+bdi-MIR156h	Tracheophyta
+bdi-MIR156i	Tracheophyta
+bdi-MIR159a	Embryophyta
+bdi-MIR159b	Embryophyta
+bdi-MIR160a	Mesangiospermae
+bdi-MIR160b	Mesangiospermae
+bdi-MIR160c	Mesangiospermae
+bdi-MIR160d	Mesangiospermae
+bdi-MIR160e	Mesangiospermae
+bdi-MIR164a	Mesangiospermae
+bdi-MIR164c	Mesangiospermae
+bdi-MIR166a	Mesangiospermae
+bdi-MIR166b	Mesangiospermae
+bdi-MIR166c	Mesangiospermae
+bdi-MIR166d	Mesangiospermae
+bdi-MIR166e	Mesangiospermae
+bdi-MIR166g	Mesangiospermae
+bdi-MIR166h	Mesangiospermae
+bdi-MIR166i	Mesangiospermae
+bdi-MIR167c	Mesangiospermae
+bdi-MIR167d	Mesangiospermae
+bdi-MIR167e	Mesangiospermae
+bdi-MIR168	Mesangiospermae
+bdi-MIR169a	Mesangiospermae
+bdi-MIR169c	Mesangiospermae
+bdi-MIR169e	Mesangiospermae
+bdi-MIR169h	Mesangiospermae
+bdi-MIR169j	Poaceae
+bdi-MIR169k	Mesangiospermae
+bdi-MIR171c	Mesangiospermae
+bdi-MIR171d	Mesangiospermae
+bdi-MIR172a	Mesangiospermae
+bdi-MIR1878	Brachypodieae
+bdi-MIR319b	Embryophyta
+bdi-MIR390a	Embryophyta
+bdi-MIR393b	Mesangiospermae
+bdi-MIR395c	Mesangiospermae
+bdi-MIR395d	Mesangiospermae
+bdi-MIR395e	Mesangiospermae
+bdi-MIR395f	Mesangiospermae
+bdi-MIR395g	Mesangiospermae
+bdi-MIR395h	Mesangiospermae
+bdi-MIR395j	Mesangiospermae
+bdi-MIR395k	Mesangiospermae
+bdi-MIR395l	Mesangiospermae
+bdi-MIR395n	Mesangiospermae
+bdi-MIR395o	Mesangiospermae
+bdi-MIR395p	Mesangiospermae
+bdi-MIR396a	Mesangiospermae
+bdi-MIR396b	Mesangiospermae
+bdi-MIR396c	Mesangiospermae
+bdi-MIR396d	Mesangiospermae
+bdi-MIR396e	Mesangiospermae
+bdi-MIR397b	Mesangiospermae
+bdi-MIR408	Mesangiospermae
+bdi-MIR5163a	Brachypodieae
+bdi-MIR5163b	Brachypodieae
+bdi-MIR5167a	Brachypodieae
+bdi-MIR5167b	Brachypodieae
+bdi-MIR5174b	Pooideae
+bdi-MIR5174c	Pooideae
+bdi-MIR5174d	Pooideae
+bdi-MIR5174e	Pooideae
+bdi-MIR5181a	Pooideae
+bdi-MIR5181c	Pooideae
+bdi-MIR5185a	Brachypodieae
+bdi-MIR5185b	Brachypodieae
+bdi-MIR5185c	Brachypodieae
+bdi-MIR5185d	Brachypodieae
+bdi-MIR5185e	Brachypodieae
+bdi-MIR5185f	Brachypodieae
+bdi-MIR5185g	Brachypodieae
+bdi-MIR5185h	Brachypodieae
+bdi-MIR5185i	Brachypodieae
+bdi-MIR5185j	Brachypodieae
+bdi-MIR5185k	Brachypodieae
+bdi-MIR5185l	Brachypodieae
+bdi-MIR5185m	Brachypodieae
+bdi-MIR5200a	Pooideae
+bdi-MIR5200b	Pooideae
+bdi-MIR528	Poaceae
+bdi-MIR529	Poaceae
+bdi-MIR7708a	Brachypodieae
+bdi-MIR7708b	Brachypodieae
+bdi-MIR7717a	Brachypodieae
+bdi-MIR7717b	Brachypodieae
+bdi-MIR7717c	Brachypodieae
+bdi-MIR7723a	Brachypodieae
+bdi-MIR7723b	Brachypodieae
+bdi-MIR7724a	Brachypodieae
+bdi-MIR7724b	Brachypodieae
+bdi-MIR7725a	Brachypodieae
+bdi-MIR7725b	Brachypodieae
+bdi-MIR7726a	Brachypodieae
+bdi-MIR7726b	Brachypodieae
+bdi-MIR7729a	Brachypodieae
+bdi-MIR7729b	Brachypodieae
+bdi-MIR7757	Brachypodieae
+bdi-MIR7768a	Brachypodieae
+bdi-MIR7768b	Brachypodieae
+bdi-MIR7784a	Brachypodieae
+bdi-MIR7784b	Brachypodieae
+bdi-MIR827	Poaceae

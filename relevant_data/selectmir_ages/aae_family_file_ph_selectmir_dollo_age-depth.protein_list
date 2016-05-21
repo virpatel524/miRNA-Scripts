@@ -1,0 +1,48 @@
+# age_proteins.py -o ../relevant_data/selectmir_ages/ -t ../relevant_data/time_tree_dates.txt ../relevant_data/family_file_ph_selectmir.txt ../relevant_data/phylo_tree.txt 2016-05-19 19:02:08.011342
+#
+# FAMILY_FILE = ../relevant_data/family_file_ph_selectmir.txt
+# TREE_FILE = ../relevant_data/phylo_tree.txt
+# RECONSTRUCTION_ALGO = dollo
+# GAIN_PENALTY = 1
+# OUTPUT_NAME = family_file_ph_selectmir_dollo
+# OUTPUT_DIR = ../relevant_data/selectmir_ages/
+# OUTPUT_FORMATS = ['depth', 'label', 'time', 'profile']
+# TIME_FILE = ../relevant_data/time_tree_dates.txt
+# ADDITIONAL_ID_FILE = None
+#
+aae-bantam	22
+aae-mir-11	10
+aae-mir-1175	21
+aae-mir-12	18
+aae-mir-13	22
+aae-mir-1889	4
+aae-mir-252	22
+aae-mir-263a	20
+aae-mir-263b	20
+aae-mir-275	10
+aae-mir-276-1	18
+aae-mir-277	10
+aae-mir-278	10
+aae-mir-281	22
+aae-mir-282-1	10
+aae-mir-282-2	10
+aae-mir-2944a	10
+aae-mir-2944b	10
+aae-mir-2945	20
+aae-mir-2a	22
+aae-mir-305	10
+aae-mir-308	10
+aae-mir-309b	9
+aae-mir-315	22
+aae-mir-34	22
+aae-mir-71	22
+aae-mir-79	22
+aae-mir-8	22
+aae-mir-92a	22
+aae-mir-92b	22
+aae-mir-932	10
+aae-mir-980	10
+aae-mir-988	9
+aae-mir-9c	22
+aae-mir-iab-4-1	16
+aae-mir-iab-4-2	16

@@ -1,0 +1,55 @@
+# age_proteins.py -o ../relevant_data/allmir_ages/ -t ../relevant_data/time_tree_dates.txt ../relevant_data/family_file_ph_allmir.txt ../relevant_data/phylo_tree.txt 2016-05-19 19:01:05.137938
+#
+# FAMILY_FILE = ../relevant_data/family_file_ph_allmir.txt
+# TREE_FILE = ../relevant_data/phylo_tree.txt
+# RECONSTRUCTION_ALGO = dollo
+# GAIN_PENALTY = 1
+# OUTPUT_NAME = family_file_ph_allmir_dollo
+# OUTPUT_DIR = ../relevant_data/allmir_ages/
+# OUTPUT_FORMATS = ['depth', 'label', 'time', 'profile']
+# TIME_FILE = ../relevant_data/time_tree_dates.txt
+# ADDITIONAL_ID_FILE = None
+#
+aqc-MIR156a	Embryophyta
+aqc-MIR156b	Embryophyta
+aqc-MIR159	Embryophyta
+aqc-MIR160a	Embryophyta
+aqc-MIR160b	Embryophyta
+aqc-MIR166a	Embryophyta
+aqc-MIR166b	Embryophyta
+aqc-MIR166c	Embryophyta
+aqc-MIR166d	Embryophyta
+aqc-MIR166e	Embryophyta
+aqc-MIR167	Magnoliophyta
+aqc-MIR169a	Magnoliophyta
+aqc-MIR169b	Magnoliophyta
+aqc-MIR169c	Spermatophyta
+aqc-MIR171a	Embryophyta
+aqc-MIR171b	Embryophyta
+aqc-MIR171c	Embryophyta
+aqc-MIR171d	Embryophyta
+aqc-MIR171e	Embryophyta
+aqc-MIR171f	Embryophyta
+aqc-MIR172a	Magnoliophyta
+aqc-MIR172b	Magnoliophyta
+aqc-MIR319	Embryophyta
+aqc-MIR395a	Spermatophyta
+aqc-MIR395b	Spermatophyta
+aqc-MIR396a	Tracheophyta
+aqc-MIR396b	Tracheophyta
+aqc-MIR398a	Spermatophyta
+aqc-MIR398b	Spermatophyta
+aqc-MIR399	Mesangiospermae
+aqc-MIR408	Spermatophyta
+aqc-MIR477b	Embryophyta
+aqc-MIR477c	Embryophyta
+aqc-MIR477d	Embryophyta
+aqc-MIR477e	Embryophyta
+aqc-MIR477f	Embryophyta
+aqc-MIR477g	Embryophyta
+aqc-MIR482a	Spermatophyta
+aqc-MIR482b	Spermatophyta
+aqc-MIR482c	Spermatophyta
+aqc-MIR529	Embryophyta
+aqc-MIR530	Mesangiospermae
+aqc-MIR535	Embryophyta

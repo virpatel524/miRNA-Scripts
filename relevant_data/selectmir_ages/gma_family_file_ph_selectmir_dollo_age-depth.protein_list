@@ -1,0 +1,66 @@
+# age_proteins.py -o ../relevant_data/selectmir_ages/ -t ../relevant_data/time_tree_dates.txt ../relevant_data/family_file_ph_selectmir.txt ../relevant_data/phylo_tree.txt 2016-05-19 19:02:08.011342
+#
+# FAMILY_FILE = ../relevant_data/family_file_ph_selectmir.txt
+# TREE_FILE = ../relevant_data/phylo_tree.txt
+# RECONSTRUCTION_ALGO = dollo
+# GAIN_PENALTY = 1
+# OUTPUT_NAME = family_file_ph_selectmir_dollo
+# OUTPUT_DIR = ../relevant_data/selectmir_ages/
+# OUTPUT_FORMATS = ['depth', 'label', 'time', 'profile']
+# TIME_FILE = ../relevant_data/time_tree_dates.txt
+# ADDITIONAL_ID_FILE = None
+#
+gma-MIR1510a	4
+gma-MIR1510b	4
+gma-MIR1512a	0
+gma-MIR1513a	0
+gma-MIR1514a	0
+gma-MIR1514b	0
+gma-MIR1516a	0
+gma-MIR1520f	0
+gma-MIR159a	17
+gma-MIR159b	17
+gma-MIR159e	17
+gma-MIR159f	17
+gma-MIR160a	12
+gma-MIR166a	12
+gma-MIR166c	12
+gma-MIR166h	12
+gma-MIR166i	12
+gma-MIR166j	12
+gma-MIR169i	0
+gma-MIR169j	12
+gma-MIR169l	12
+gma-MIR169n	12
+gma-MIR171b	12
+gma-MIR171c	12
+gma-MIR171i	12
+gma-MIR171j	12
+gma-MIR171k	12
+gma-MIR171o	12
+gma-MIR172b	12
+gma-MIR172h	12
+gma-MIR172i	12
+gma-MIR2109	0
+gma-MIR2118a	12
+gma-MIR2118b	9
+gma-MIR390a	17
+gma-MIR390b	17
+gma-MIR393c	12
+gma-MIR394a	12
+gma-MIR394b	12
+gma-MIR396a	12
+gma-MIR396b	12
+gma-MIR396i	12
+gma-MIR396k	12
+gma-MIR397b	12
+gma-MIR408a	12
+gma-MIR408b	12
+gma-MIR408c	12
+gma-MIR4414	4
+gma-MIR4415a	0
+gma-MIR4415b	0
+gma-MIR482a	9
+gma-MIR482b	9
+gma-MIR482c	9
+gma-MIR482d	9

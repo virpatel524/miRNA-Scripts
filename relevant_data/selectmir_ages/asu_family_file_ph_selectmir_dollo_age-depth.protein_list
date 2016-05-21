@@ -1,0 +1,63 @@
+# age_proteins.py -o ../relevant_data/selectmir_ages/ -t ../relevant_data/time_tree_dates.txt ../relevant_data/family_file_ph_selectmir.txt ../relevant_data/phylo_tree.txt 2016-05-19 19:02:08.011342
+#
+# FAMILY_FILE = ../relevant_data/family_file_ph_selectmir.txt
+# TREE_FILE = ../relevant_data/phylo_tree.txt
+# RECONSTRUCTION_ALGO = dollo
+# GAIN_PENALTY = 1
+# OUTPUT_NAME = family_file_ph_selectmir_dollo
+# OUTPUT_DIR = ../relevant_data/selectmir_ages/
+# OUTPUT_FORMATS = ['depth', 'label', 'time', 'profile']
+# TIME_FILE = ../relevant_data/time_tree_dates.txt
+# ADDITIONAL_ID_FILE = None
+#
+asu-let-7	9
+asu-lin-4	5
+asu-mir-1	9
+asu-mir-100a-1	9
+asu-mir-100a-2	9
+asu-mir-100d	9
+asu-mir-100e	9
+asu-mir-1175	8
+asu-mir-124	9
+asu-mir-133	9
+asu-mir-228	7
+asu-mir-234	5
+asu-mir-236	5
+asu-mir-239	5
+asu-mir-252	9
+asu-mir-279a	7
+asu-mir-279b	7
+asu-mir-279c	7
+asu-mir-283	9
+asu-mir-2a	9
+asu-mir-34	9
+asu-mir-36c	9
+asu-mir-36d	9
+asu-mir-36e	9
+asu-mir-43b	4
+asu-mir-43c-1	4
+asu-mir-43c-2	4
+asu-mir-43e	4
+asu-mir-44a	5
+asu-mir-46	9
+asu-mir-50	5
+asu-mir-5345a	4
+asu-mir-5350b	4
+asu-mir-5350c	4
+asu-mir-5360	4
+asu-mir-5365a	4
+asu-mir-5365b	4
+asu-mir-5366	4
+asu-mir-57	5
+asu-mir-67	9
+asu-mir-7	9
+asu-mir-71	9
+asu-mir-72	5
+asu-mir-79	9
+asu-mir-83	5
+asu-mir-84	5
+asu-mir-86	5
+asu-mir-87a	9
+asu-mir-87b	9
+asu-mir-9	9
+asu-mir-92	9

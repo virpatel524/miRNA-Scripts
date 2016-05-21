@@ -1,0 +1,66 @@
+# age_proteins.py -o ../relevant_data/selectmir_ages/ -t ../relevant_data/time_tree_dates.txt ../relevant_data/family_file_ph_selectmir.txt ../relevant_data/phylo_tree.txt 2016-05-19 19:02:08.011342
+#
+# FAMILY_FILE = ../relevant_data/family_file_ph_selectmir.txt
+# TREE_FILE = ../relevant_data/phylo_tree.txt
+# RECONSTRUCTION_ALGO = dollo
+# GAIN_PENALTY = 1
+# OUTPUT_NAME = family_file_ph_selectmir_dollo
+# OUTPUT_DIR = ../relevant_data/selectmir_ages/
+# OUTPUT_FORMATS = ['depth', 'label', 'time', 'profile']
+# TIME_FILE = ../relevant_data/time_tree_dates.txt
+# ADDITIONAL_ID_FILE = None
+#
+dps-mir-1000	Endopterygota
+dps-mir-1002	Sophophora
+dps-mir-1006	Sophophora
+dps-mir-1010	Sophophora
+dps-mir-137	Bilateria
+dps-mir-190	Bilateria
+dps-mir-193	Bilateria
+dps-mir-2507b	Sophophora
+dps-mir-2517a-1	dps
+dps-mir-2517a-2	dps
+dps-mir-2517a-3	dps
+dps-mir-252	Bilateria
+dps-mir-2542-1	dps
+dps-mir-2542-2	dps
+dps-mir-2542-3	dps
+dps-mir-2543a-1	dps
+dps-mir-2543a-2	dps
+dps-mir-2543b-1	dps
+dps-mir-2543b-2	dps
+dps-mir-2545a	dps
+dps-mir-2558-1	dps
+dps-mir-2558-2	dps
+dps-mir-2566a-1	dps
+dps-mir-2566a-2	dps
+dps-mir-2566b	dps
+dps-mir-2567a	dps
+dps-mir-2567b	dps
+dps-mir-2567c	dps
+dps-mir-2568a	dps
+dps-mir-2568b	dps
+dps-mir-2574a	dps
+dps-mir-311	Sophophora
+dps-mir-375	Bilateria
+dps-mir-927	Endopterygota
+dps-mir-929	Endopterygota
+dps-mir-932	Endopterygota
+dps-mir-957	Sophophora
+dps-mir-958	Sophophora
+dps-mir-959	Sophophora
+dps-mir-965	Endopterygota
+dps-mir-968	Sophophora
+dps-mir-969	Sophophora
+dps-mir-970	Endopterygota
+dps-mir-971	Sophophora
+dps-mir-980	Endopterygota
+dps-mir-981	Sophophora
+dps-mir-986	Sophophora
+dps-mir-987	Sophophora
+dps-mir-988	Diptera
+dps-mir-993	Bilateria
+dps-mir-994	Sophophora
+dps-mir-995	Sophophora
+dps-mir-iab-4	Pancrustacea
+dps-mir-iab-8	Endopterygota

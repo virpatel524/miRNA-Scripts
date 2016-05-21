@@ -1,0 +1,57 @@
+# age_proteins.py -o ../relevant_data/selectmir_ages/ -t ../relevant_data/time_tree_dates.txt ../relevant_data/family_file_ph_selectmir.txt ../relevant_data/phylo_tree.txt 2016-05-19 19:02:08.011342
+#
+# FAMILY_FILE = ../relevant_data/family_file_ph_selectmir.txt
+# TREE_FILE = ../relevant_data/phylo_tree.txt
+# RECONSTRUCTION_ALGO = dollo
+# GAIN_PENALTY = 1
+# OUTPUT_NAME = family_file_ph_selectmir_dollo
+# OUTPUT_DIR = ../relevant_data/selectmir_ages/
+# OUTPUT_FORMATS = ['depth', 'label', 'time', 'profile']
+# TIME_FILE = ../relevant_data/time_tree_dates.txt
+# ADDITIONAL_ID_FILE = None
+#
+ptc-MIR160b	10
+ptc-MIR160c	10
+ptc-MIR160e	10
+ptc-MIR167f	10
+ptc-MIR167g	10
+ptc-MIR167h	10
+ptc-MIR168a	10
+ptc-MIR168b	10
+ptc-MIR169b	10
+ptc-MIR169n	10
+ptc-MIR169u	10
+ptc-MIR171a	10
+ptc-MIR171g	10
+ptc-MIR171h	10
+ptc-MIR171l	10
+ptc-MIR172b	10
+ptc-MIR172g	10
+ptc-MIR172h	10
+ptc-MIR390d	15
+ptc-MIR393a	10
+ptc-MIR393b	10
+ptc-MIR394a	10
+ptc-MIR394b	10
+ptc-MIR396e	10
+ptc-MIR396g	10
+ptc-MIR398c	10
+ptc-MIR403c	7
+ptc-MIR408	10
+ptc-MIR473a	15
+ptc-MIR475a	0
+ptc-MIR475b	0
+ptc-MIR475d	0
+ptc-MIR477a	15
+ptc-MIR477d	15
+ptc-MIR482a	7
+ptc-MIR482b	7
+ptc-MIR482c	7
+ptc-MIR482d	7
+ptc-MIR6425a	0
+ptc-MIR6425b	0
+ptc-MIR6425c	0
+ptc-MIR6425d	0
+ptc-MIR6459a	0
+ptc-MIR6462c	0
+ptc-MIR828b	6

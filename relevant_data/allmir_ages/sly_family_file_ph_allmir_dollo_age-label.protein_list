@@ -1,0 +1,74 @@
+# age_proteins.py -o ../relevant_data/allmir_ages/ -t ../relevant_data/time_tree_dates.txt ../relevant_data/family_file_ph_allmir.txt ../relevant_data/phylo_tree.txt 2016-05-19 19:01:05.137938
+#
+# FAMILY_FILE = ../relevant_data/family_file_ph_allmir.txt
+# TREE_FILE = ../relevant_data/phylo_tree.txt
+# RECONSTRUCTION_ALGO = dollo
+# GAIN_PENALTY = 1
+# OUTPUT_NAME = family_file_ph_allmir_dollo
+# OUTPUT_DIR = ../relevant_data/allmir_ages/
+# OUTPUT_FORMATS = ['depth', 'label', 'time', 'profile']
+# TIME_FILE = ../relevant_data/time_tree_dates.txt
+# ADDITIONAL_ID_FILE = None
+#
+sly-MIR156a	Embryophyta
+sly-MIR156b	Embryophyta
+sly-MIR156c	Embryophyta
+sly-MIR156d	Embryophyta
+sly-MIR156e	Embryophyta
+sly-MIR159	Embryophyta
+sly-MIR160a	Embryophyta
+sly-MIR162	Spermatophyta
+sly-MIR164a	Spermatophyta
+sly-MIR164b	Spermatophyta
+sly-MIR166a	Embryophyta
+sly-MIR166b	Embryophyta
+sly-MIR166c	Embryophyta
+sly-MIR167a	Magnoliophyta
+sly-MIR167b	Magnoliophyta
+sly-MIR168a	Magnoliophyta
+sly-MIR168b	Magnoliophyta
+sly-MIR169a	Spermatophyta
+sly-MIR169b	Magnoliophyta
+sly-MIR169c	Spermatophyta
+sly-MIR169d	Magnoliophyta
+sly-MIR169e	Magnoliophyta
+sly-MIR171a	Embryophyta
+sly-MIR171b	Embryophyta
+sly-MIR171c	Embryophyta
+sly-MIR171d	Embryophyta
+sly-MIR171e	Embryophyta
+sly-MIR172a	Magnoliophyta
+sly-MIR172b	Magnoliophyta
+sly-MIR1919a	Solanales
+sly-MIR1919b	Solanales
+sly-MIR1919c	Solanales
+sly-MIR319a	Embryophyta
+sly-MIR319b	Embryophyta
+sly-MIR319c	Embryophyta
+sly-MIR390a	Embryophyta
+sly-MIR390b	Embryophyta
+sly-MIR394	Magnoliophyta
+sly-MIR395a	Spermatophyta
+sly-MIR395b	Spermatophyta
+sly-MIR396a	Tracheophyta
+sly-MIR396b	Tracheophyta
+sly-MIR397	Spermatophyta
+sly-MIR399	Mesangiospermae
+sly-MIR403	Pentapetalae
+sly-MIR4376	Solanoideae
+sly-MIR482a	Spermatophyta
+sly-MIR482b	Spermatophyta
+sly-MIR482c	Spermatophyta
+sly-MIR482d	Spermatophyta
+sly-MIR482e	Spermatophyta
+sly-MIR5302a	Lycopersicon
+sly-MIR5302b	Lycopersicon
+sly-MIR5303	Solanales
+sly-MIR5304	Solanoideae
+sly-MIR6022	Solanoideae
+sly-MIR6023	Solanoideae
+sly-MIR6024	Solanales
+sly-MIR6026	Solanoideae
+sly-MIR6027	Solanoideae
+sly-MIR9471a	Lycopersicon
+sly-MIR9471b	Lycopersicon

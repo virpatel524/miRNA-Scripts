@@ -1,0 +1,48 @@
+# age_proteins.py -o ../relevant_data/allmir_ages/ -t ../relevant_data/time_tree_dates.txt ../relevant_data/family_file_ph_allmir.txt ../relevant_data/phylo_tree.txt 2016-05-19 19:01:05.137938
+#
+# FAMILY_FILE = ../relevant_data/family_file_ph_allmir.txt
+# TREE_FILE = ../relevant_data/phylo_tree.txt
+# RECONSTRUCTION_ALGO = dollo
+# GAIN_PENALTY = 1
+# OUTPUT_NAME = family_file_ph_allmir_dollo
+# OUTPUT_DIR = ../relevant_data/allmir_ages/
+# OUTPUT_FORMATS = ['depth', 'label', 'time', 'profile']
+# TIME_FILE = ../relevant_data/time_tree_dates.txt
+# ADDITIONAL_ID_FILE = None
+#
+isc-bantam	14
+isc-let-7	14
+isc-mir-1	14
+isc-mir-10	14
+isc-mir-100	14
+isc-mir-12	13
+isc-mir-124	14
+isc-mir-133	14
+isc-mir-137	14
+isc-mir-153	14
+isc-mir-184	14
+isc-mir-219	14
+isc-mir-252b	14
+isc-mir-263a	13
+isc-mir-275	10
+isc-mir-276	10
+isc-mir-278	14
+isc-mir-279	13
+isc-mir-285	14
+isc-mir-2a	14
+isc-mir-2b	14
+isc-mir-305	10
+isc-mir-307	14
+isc-mir-315	14
+isc-mir-317	10
+isc-mir-375	14
+isc-mir-3931	7
+isc-mir-7	14
+isc-mir-71	14
+isc-mir-750	13
+isc-mir-79	14
+isc-mir-8	14
+isc-mir-87	14
+isc-mir-96	14
+isc-mir-993	14
+isc-mir-iab-4	10

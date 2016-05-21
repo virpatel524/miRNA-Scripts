@@ -1,0 +1,58 @@
+# age_proteins.py -o ../relevant_data/selectmir_ages/ -t ../relevant_data/time_tree_dates.txt ../relevant_data/family_file_ph_selectmir.txt ../relevant_data/phylo_tree.txt 2016-05-19 19:02:08.011342
+#
+# FAMILY_FILE = ../relevant_data/family_file_ph_selectmir.txt
+# TREE_FILE = ../relevant_data/phylo_tree.txt
+# RECONSTRUCTION_ALGO = dollo
+# GAIN_PENALTY = 1
+# OUTPUT_NAME = family_file_ph_selectmir_dollo
+# OUTPUT_DIR = ../relevant_data/selectmir_ages/
+# OUTPUT_FORMATS = ['depth', 'label', 'time', 'profile']
+# TIME_FILE = ../relevant_data/time_tree_dates.txt
+# ADDITIONAL_ID_FILE = None
+#
+dsi-mir-1000	Endopterygota
+dsi-mir-1001	melanogaster_subgroup
+dsi-mir-1002	Sophophora
+dsi-mir-1003	melanogaster_subgroup
+dsi-mir-1005	dsi
+dsi-mir-1006	Sophophora
+dsi-mir-1010	Sophophora
+dsi-mir-1012	melanogaster_subgroup
+dsi-mir-137	Bilateria
+dsi-mir-184	Bilateria
+dsi-mir-190	Bilateria
+dsi-mir-193	Bilateria
+dsi-mir-2494	melanogaster_subgroup
+dsi-mir-252	Bilateria
+dsi-mir-2582a	dsi
+dsi-mir-2582b	dsi
+dsi-mir-281	Bilateria
+dsi-mir-312	melanogaster_subgroup
+dsi-mir-375	Bilateria
+dsi-mir-6-2	melanogaster_subgroup
+dsi-mir-927	Endopterygota
+dsi-mir-929	Endopterygota
+dsi-mir-932	Endopterygota
+dsi-mir-955	melanogaster_subgroup
+dsi-mir-958	Sophophora
+dsi-mir-961	melanogaster_subgroup
+dsi-mir-963	melanogaster_subgroup
+dsi-mir-964	melanogaster_subgroup
+dsi-mir-965	Endopterygota
+dsi-mir-967	melanogaster_subgroup
+dsi-mir-968	Sophophora
+dsi-mir-969	Sophophora
+dsi-mir-970	Endopterygota
+dsi-mir-980	Endopterygota
+dsi-mir-981	Sophophora
+dsi-mir-983a	melanogaster_subgroup
+dsi-mir-986	Sophophora
+dsi-mir-987	Sophophora
+dsi-mir-988	Diptera
+dsi-mir-991	melanogaster_subgroup
+dsi-mir-992	melanogaster_subgroup
+dsi-mir-993	Bilateria
+dsi-mir-995	Sophophora
+dsi-mir-999	melanogaster_subgroup
+dsi-mir-iab-4	Pancrustacea
+dsi-mir-iab-8	Endopterygota

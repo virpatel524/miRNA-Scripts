@@ -1,0 +1,66 @@
+# age_proteins.py -o ../relevant_data/allmir_ages/ -t ../relevant_data/time_tree_dates.txt ../relevant_data/family_file_ph_allmir.txt ../relevant_data/phylo_tree.txt 2016-05-19 19:01:05.137938
+#
+# FAMILY_FILE = ../relevant_data/family_file_ph_allmir.txt
+# TREE_FILE = ../relevant_data/phylo_tree.txt
+# RECONSTRUCTION_ALGO = dollo
+# GAIN_PENALTY = 1
+# OUTPUT_NAME = family_file_ph_allmir_dollo
+# OUTPUT_DIR = ../relevant_data/allmir_ages/
+# OUTPUT_FORMATS = ['depth', 'label', 'time', 'profile']
+# TIME_FILE = ../relevant_data/time_tree_dates.txt
+# ADDITIONAL_ID_FILE = None
+#
+der-bantam	910.0
+der-let-7	910.0
+der-mir-1	910.0
+der-mir-10	910.0
+der-mir-100	910.0
+der-mir-124	910.0
+der-mir-125	910.0
+der-mir-133	910.0
+der-mir-13a	910.0
+der-mir-13b-1	910.0
+der-mir-13b-2	910.0
+der-mir-184	910.0
+der-mir-210	910.0
+der-mir-219	910.0
+der-mir-278	910.0
+der-mir-280	47.6
+der-mir-281-1	910.0
+der-mir-281-2	910.0
+der-mir-283	910.0
+der-mir-284	47.6
+der-mir-285	910.0
+der-mir-286	471.4
+der-mir-287	47.6
+der-mir-288	47.6
+der-mir-2a-1	910.0
+der-mir-2a-2	910.0
+der-mir-2b-1	910.0
+der-mir-2b-2	910.0
+der-mir-2c	910.0
+der-mir-3	471.4
+der-mir-304	47.6
+der-mir-307	910.0
+der-mir-309	471.4
+der-mir-314	47.6
+der-mir-315	910.0
+der-mir-318	47.6
+der-mir-31a	910.0
+der-mir-31b	910.0
+der-mir-33	910.0
+der-mir-34	910.0
+der-mir-4	47.6
+der-mir-5	47.6
+der-mir-6-1	47.6
+der-mir-6-2	47.6
+der-mir-6-3	47.6
+der-mir-7	910.0
+der-mir-79	910.0
+der-mir-8	910.0
+der-mir-87	910.0
+der-mir-92a	910.0
+der-mir-92b	910.0
+der-mir-9a	910.0
+der-mir-9b	910.0
+der-mir-9c	910.0

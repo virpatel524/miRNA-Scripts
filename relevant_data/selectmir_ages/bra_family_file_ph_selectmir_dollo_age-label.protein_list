@@ -1,0 +1,57 @@
+# age_proteins.py -o ../relevant_data/selectmir_ages/ -t ../relevant_data/time_tree_dates.txt ../relevant_data/family_file_ph_selectmir.txt ../relevant_data/phylo_tree.txt 2016-05-19 19:02:08.011342
+#
+# FAMILY_FILE = ../relevant_data/family_file_ph_selectmir.txt
+# TREE_FILE = ../relevant_data/phylo_tree.txt
+# RECONSTRUCTION_ALGO = dollo
+# GAIN_PENALTY = 1
+# OUTPUT_NAME = family_file_ph_selectmir_dollo
+# OUTPUT_DIR = ../relevant_data/selectmir_ages/
+# OUTPUT_FORMATS = ['depth', 'label', 'time', 'profile']
+# TIME_FILE = ../relevant_data/time_tree_dates.txt
+# ADDITIONAL_ID_FILE = None
+#
+bra-MIR156a	Tracheophyta
+bra-MIR156b	Tracheophyta
+bra-MIR156c	Tracheophyta
+bra-MIR156d	Tracheophyta
+bra-MIR156e	Tracheophyta
+bra-MIR156f	Tracheophyta
+bra-MIR156g	Tracheophyta
+bra-MIR158	Brassicaceae
+bra-MIR160a	Mesangiospermae
+bra-MIR161	Brassicaceae
+bra-MIR162	Pentapetalae
+bra-MIR164b	Mesangiospermae
+bra-MIR164c	Mesangiospermae
+bra-MIR164d	Mesangiospermae
+bra-MIR164e	Mesangiospermae
+bra-MIR168a	Mesangiospermae
+bra-MIR168b	Mesangiospermae
+bra-MIR168c	Mesangiospermae
+bra-MIR172b	Mesangiospermae
+bra-MIR172c	Mesangiospermae
+bra-MIR172d	Mesangiospermae
+bra-MIR2111	rosids
+bra-MIR2111a	rosids
+bra-MIR2111b	rosids
+bra-MIR319	Embryophyta
+bra-MIR390	Embryophyta
+bra-MIR395a	Mesangiospermae
+bra-MIR395b	Mesangiospermae
+bra-MIR395c	Mesangiospermae
+bra-MIR395d	Mesangiospermae
+bra-MIR396	Mesangiospermae
+bra-MIR398	Mesangiospermae
+bra-MIR403	Pentapetalae
+bra-MIR408	Mesangiospermae
+bra-MIR6032	bra
+bra-MIR860	Brassicaceae
+bra-MIR9408	bra
+bra-MIR9552a	bra
+bra-MIR9552b	bra
+bra-MIR9555a	bra
+bra-MIR9555b	bra
+bra-MIR9560a	bra
+bra-MIR9560b	bra
+bra-MIR9563a	bra
+bra-MIR9563b	bra

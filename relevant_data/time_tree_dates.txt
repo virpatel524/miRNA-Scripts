@@ -55,4 +55,3 @@ Mus		7.8
 Rodentia		77.2
 Carnivora		55.0
 Drosophila		47.6
-

@@ -1,0 +1,52 @@
+# age_proteins.py -o ../relevant_data/selectmir_ages/ -t ../relevant_data/time_tree_dates.txt ../relevant_data/family_file_ph_selectmir.txt ../relevant_data/phylo_tree.txt 2016-05-19 19:02:08.011342
+#
+# FAMILY_FILE = ../relevant_data/family_file_ph_selectmir.txt
+# TREE_FILE = ../relevant_data/phylo_tree.txt
+# RECONSTRUCTION_ALGO = dollo
+# GAIN_PENALTY = 1
+# OUTPUT_NAME = family_file_ph_selectmir_dollo
+# OUTPUT_DIR = ../relevant_data/selectmir_ages/
+# OUTPUT_FORMATS = ['depth', 'label', 'time', 'profile']
+# TIME_FILE = ../relevant_data/time_tree_dates.txt
+# ADDITIONAL_ID_FILE = None
+#
+bfl-let-7a-1	Bilateria
+bfl-mir-1	Bilateria
+bfl-mir-100	Bilateria
+bfl-mir-10a	Bilateria
+bfl-mir-124	Bilateria
+bfl-mir-125a	Bilateria
+bfl-mir-129a	Chordata
+bfl-mir-184	Bilateria
+bfl-mir-2058	Cephalochordata
+bfl-mir-2059	Cephalochordata
+bfl-mir-2062	Cephalochordata
+bfl-mir-2068	Cephalochordata
+bfl-mir-2070	Cephalochordata
+bfl-mir-2071	Cephalochordata
+bfl-mir-2072	Cephalochordata
+bfl-mir-2076	Cephalochordata
+bfl-mir-210	Bilateria
+bfl-mir-216	Bilateria
+bfl-mir-22	Chordata
+bfl-mir-252b	Bilateria
+bfl-mir-29a	Bilateria
+bfl-mir-29b	Bilateria
+bfl-mir-31	Bilateria
+bfl-mir-34b	Bilateria
+bfl-mir-4859	Cephalochordata
+bfl-mir-4860	Cephalochordata
+bfl-mir-4863	Cephalochordata
+bfl-mir-4864	Cephalochordata
+bfl-mir-4865	Cephalochordata
+bfl-mir-4866	Cephalochordata
+bfl-mir-4868c	Cephalochordata
+bfl-mir-4869	Cephalochordata
+bfl-mir-4874	Cephalochordata
+bfl-mir-4891	Cephalochordata
+bfl-mir-4904	Cephalochordata
+bfl-mir-71	Bilateria
+bfl-mir-9-1	Bilateria
+bfl-mir-9-2	Bilateria
+bfl-mir-92b	Bilateria
+bfl-mir-96	Chordata
