@@ -1,0 +1,42 @@
+# age_enrichment_analysis.py -l /Users/virpatel/Desktop/pub_stuff/relevant_data/time_tree_dates.txt /Users/virpatel/Desktop/pub_stuff/relevant_data/mirna2age_lst.txt /Users/virpatel/Desktop/pub_stuff/relevant_data/dis2mir_db/Myocardial-Infarction_mir.txt 2016-05-21 22:58:10.561997
+#
+# AGE_LABEL_FILE = /Users/virpatel/Desktop/pub_stuff/relevant_data/time_tree_dates.txt
+# PHYLO_PROFILE_FILE = None
+# POI1_NAME = Myocardial-Infarction_mir
+# POI2_NAME = Background
+# OUTPUT_NAME = mirna2age_lst--Myocardial-Infarction_mir--Background
+# OUTPUT_DIR = results/enrichment/mirna2age_lst--Myocardial-Infarction_mir--Background/
+#
+# MISSING_POI = error
+# MULTI_CORRECT = False
+# PLOT_TYPE = bar
+# SCALE_X = False
+#
+# Proteins in Myocardial-Infarction_mir: 33
+# Proteins in Background: 1025
+#
+# age	label	Myocardial-Infarction_mir	Background	p-value
+0.0	Homo	0	151	0.010
+6.1	Homininae	0	51	0.404
+15.7	Hominidae	0	107	0.041
+29.6	Catarrhini	0	239	0.000
+44.2	Simiiformes	0	1	1.000
+89.1	Euarchontoglires	0	13	1.000
+97.4	Boreoeutheria	3	238	0.058
+176.1	Theria	0	8	1.000
+220.2	Mammalia	1	4	0.123
+324.5	Amniota	0	9	1.000
+361.2	Tetrapoda	0	9	1.000
+454.6	Euteleostomi	6	29	0.000
+535.7	Vertebrata	6	83	0.044
+797.0	Chordata	1	7	0.205
+842.0	Deuterostomia	0	5	1.000
+910.0	Coelomata	16	71	0.000
+#
+# Mann-Whitney U test: U = 3.7e+03 (p = 4.8e-15)
+#
+# Average age of Myocardial-Infarction_mir: 660.9
+# Average age of Background: 169.7
+#
+# Median age of Myocardial-Infarction_mir: 797.0
+# Median age of Background: 29.6
