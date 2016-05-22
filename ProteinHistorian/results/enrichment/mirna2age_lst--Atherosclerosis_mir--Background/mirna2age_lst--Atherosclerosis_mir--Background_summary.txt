@@ -1,0 +1,42 @@
+# age_enrichment_analysis.py -l /Users/virpatel/Desktop/pub_stuff/relevant_data/time_tree_dates.txt /Users/virpatel/Desktop/pub_stuff/relevant_data/mirna2age_lst.txt /Users/virpatel/Desktop/pub_stuff/relevant_data/dis2mir_db/Atherosclerosis_mir.txt 2016-05-21 22:42:13.674175
+#
+# AGE_LABEL_FILE = /Users/virpatel/Desktop/pub_stuff/relevant_data/time_tree_dates.txt
+# PHYLO_PROFILE_FILE = None
+# POI1_NAME = Atherosclerosis_mir
+# POI2_NAME = Background
+# OUTPUT_NAME = mirna2age_lst--Atherosclerosis_mir--Background
+# OUTPUT_DIR = results/enrichment/mirna2age_lst--Atherosclerosis_mir--Background/
+#
+# MISSING_POI = error
+# MULTI_CORRECT = False
+# PLOT_TYPE = bar
+# SCALE_X = False
+#
+# Proteins in Atherosclerosis_mir: 25
+# Proteins in Background: 1025
+#
+# age	label	Atherosclerosis_mir	Background	p-value
+0.0	Homo	0	151	0.039
+6.1	Homininae	0	51	0.631
+15.7	Hominidae	0	107	0.099
+29.6	Catarrhini	1	239	0.016
+44.2	Simiiformes	0	1	1.000
+89.1	Euarchontoglires	0	13	1.000
+97.4	Boreoeutheria	3	238	0.233
+176.1	Theria	0	8	1.000
+220.2	Mammalia	0	4	1.000
+324.5	Amniota	0	9	1.000
+361.2	Tetrapoda	0	9	1.000
+454.6	Euteleostomi	2	29	0.155
+535.7	Vertebrata	8	83	0.000
+797.0	Chordata	1	7	0.159
+842.0	Deuterostomia	0	5	1.000
+910.0	Coelomata	10	71	0.000
+#
+# Mann-Whitney U test: U = 3.4e+03 (p = 9.88e-11)
+#
+# Average age of Atherosclerosis_mir: 616.5
+# Average age of Background: 169.7
+#
+# Median age of Atherosclerosis_mir: 535.7
+# Median age of Background: 29.6
