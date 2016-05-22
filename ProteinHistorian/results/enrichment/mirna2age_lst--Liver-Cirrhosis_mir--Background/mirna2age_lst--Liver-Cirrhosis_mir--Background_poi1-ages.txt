@@ -1,0 +1,37 @@
+# age_enrichment_analysis.py -l /Users/virpatel/Desktop/pub_stuff/relevant_data/time_tree_dates.txt /Users/virpatel/Desktop/pub_stuff/relevant_data/mirna2age_lst.txt /Users/virpatel/Desktop/pub_stuff/relevant_data/dis2mir_db/Liver-Cirrhosis_mir.txt 2016-05-21 22:55:24.676202
+#
+# AGE_LABEL_FILE = /Users/virpatel/Desktop/pub_stuff/relevant_data/time_tree_dates.txt
+# PHYLO_PROFILE_FILE = None
+# POI1_NAME = Liver-Cirrhosis_mir
+# POI2_NAME = Background
+# OUTPUT_NAME = mirna2age_lst--Liver-Cirrhosis_mir--Background
+# OUTPUT_DIR = results/enrichment/mirna2age_lst--Liver-Cirrhosis_mir--Background/
+#
+# MISSING_POI = error
+# MULTI_CORRECT = False
+# PLOT_TYPE = bar
+# SCALE_X = False
+#
+#protein	age	label
+hsa-mir-200b	910.0	Coelomata
+hsa-mir-200a	910.0	Coelomata
+hsa-mir-29b-2	910.0	Coelomata
+hsa-mir-29c	910.0	Coelomata
+hsa-mir-29a	910.0	Coelomata
+hsa-mir-21	454.6	Euteleostomi
+hsa-mir-571	29.6	Catarrhini
+hsa-mir-214	454.6	Euteleostomi
+hsa-mir-652	97.4	Boreoeutheria
+hsa-mir-513a-2	97.4	Boreoeutheria
+hsa-mir-29b-1	910.0	Coelomata
+hsa-mir-222	535.7	Vertebrata
+hsa-mir-221	535.7	Vertebrata
+hsa-mir-181b-1	535.7	Vertebrata
+hsa-mir-513a-1	97.4	Boreoeutheria
+hsa-mir-513c	97.4	Boreoeutheria
+hsa-mir-133a-1	910.0	Coelomata
+hsa-mir-133a-2	910.0	Coelomata
+hsa-mir-181b-2	535.7	Vertebrata
+hsa-mir-513b	97.4	Boreoeutheria
+hsa-mir-199a-1	535.7	Vertebrata
+hsa-mir-199a-2	535.7	Vertebrata

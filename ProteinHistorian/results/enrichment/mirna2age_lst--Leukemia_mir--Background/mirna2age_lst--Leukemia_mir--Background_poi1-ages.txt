@@ -1,0 +1,52 @@
+# age_enrichment_analysis.py -l /Users/virpatel/Desktop/pub_stuff/relevant_data/time_tree_dates.txt /Users/virpatel/Desktop/pub_stuff/relevant_data/mirna2age_lst.txt /Users/virpatel/Desktop/pub_stuff/relevant_data/dis2mir_db/Leukemia_mir.txt 2016-05-21 22:55:02.541887
+#
+# AGE_LABEL_FILE = /Users/virpatel/Desktop/pub_stuff/relevant_data/time_tree_dates.txt
+# PHYLO_PROFILE_FILE = None
+# POI1_NAME = Leukemia_mir
+# POI2_NAME = Background
+# OUTPUT_NAME = mirna2age_lst--Leukemia_mir--Background
+# OUTPUT_DIR = results/enrichment/mirna2age_lst--Leukemia_mir--Background/
+#
+# MISSING_POI = error
+# MULTI_CORRECT = False
+# PLOT_TYPE = bar
+# SCALE_X = False
+#
+#protein	age	label
+hsa-mir-19a	535.7	Vertebrata
+hsa-mir-125b-1	910.0	Coelomata
+hsa-mir-125b-2	910.0	Coelomata
+hsa-mir-485	97.4	Boreoeutheria
+hsa-mir-125a	910.0	Coelomata
+hsa-mir-17	535.7	Vertebrata
+hsa-mir-16-2	535.7	Vertebrata
+hsa-mir-34a	910.0	Coelomata
+hsa-mir-138-2	535.7	Vertebrata
+hsa-mir-138-1	535.7	Vertebrata
+hsa-mir-15a	535.7	Vertebrata
+hsa-mir-495	97.4	Boreoeutheria
+hsa-mir-18a	535.7	Vertebrata
+hsa-mir-339	97.4	Boreoeutheria
+hsa-mir-331	97.4	Boreoeutheria
+hsa-mir-150	454.6	Euteleostomi
+hsa-mir-20a	535.7	Vertebrata
+hsa-mir-21	454.6	Euteleostomi
+hsa-mir-181a-1	535.7	Vertebrata
+hsa-mir-575	15.7	Hominidae
+hsa-mir-16-1	535.7	Vertebrata
+hsa-mir-92a-2	910.0	Coelomata
+hsa-mir-196b	535.7	Vertebrata
+hsa-mir-9-1	910.0	Coelomata
+hsa-mir-9-3	910.0	Coelomata
+hsa-mir-92a-1	910.0	Coelomata
+hsa-mir-143	535.7	Vertebrata
+hsa-mir-660	97.4	Boreoeutheria
+hsa-mir-31	910.0	Coelomata
+hsa-mir-19b-2	535.7	Vertebrata
+hsa-mir-19b-1	535.7	Vertebrata
+hsa-mir-27a	535.7	Vertebrata
+hsa-mir-199b	535.7	Vertebrata
+hsa-mir-454	454.6	Euteleostomi
+hsa-mir-199a-1	535.7	Vertebrata
+hsa-mir-199a-2	535.7	Vertebrata
+hsa-mir-9-2	910.0	Coelomata

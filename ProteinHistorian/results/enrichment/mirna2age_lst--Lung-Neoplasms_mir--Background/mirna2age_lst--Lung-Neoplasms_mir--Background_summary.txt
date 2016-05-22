@@ -1,0 +1,42 @@
+# age_enrichment_analysis.py -l /Users/virpatel/Desktop/pub_stuff/relevant_data/time_tree_dates.txt /Users/virpatel/Desktop/pub_stuff/relevant_data/mirna2age_lst.txt /Users/virpatel/Desktop/pub_stuff/relevant_data/dis2mir_db/Lung-Neoplasms_mir.txt 2016-05-21 22:55:54.753092
+#
+# AGE_LABEL_FILE = /Users/virpatel/Desktop/pub_stuff/relevant_data/time_tree_dates.txt
+# PHYLO_PROFILE_FILE = None
+# POI1_NAME = Lung-Neoplasms_mir
+# POI2_NAME = Background
+# OUTPUT_NAME = mirna2age_lst--Lung-Neoplasms_mir--Background
+# OUTPUT_DIR = results/enrichment/mirna2age_lst--Lung-Neoplasms_mir--Background/
+#
+# MISSING_POI = error
+# MULTI_CORRECT = False
+# PLOT_TYPE = bar
+# SCALE_X = False
+#
+# Proteins in Lung-Neoplasms_mir: 142
+# Proteins in Background: 1025
+#
+# age	label	Lung-Neoplasms_mir	Background	p-value
+0.0	Homo	0	151	0.000
+6.1	Homininae	1	51	0.006
+15.7	Hominidae	0	107	0.000
+29.6	Catarrhini	2	239	0.000
+44.2	Simiiformes	1	1	0.139
+89.1	Euarchontoglires	1	13	1.000
+97.4	Boreoeutheria	19	238	0.003
+176.1	Theria	1	8	1.000
+220.2	Mammalia	1	4	0.450
+324.5	Amniota	1	9	1.000
+361.2	Tetrapoda	1	9	1.000
+454.6	Euteleostomi	10	29	0.004
+535.7	Vertebrata	45	83	0.000
+797.0	Chordata	4	7	0.009
+842.0	Deuterostomia	2	5	0.144
+910.0	Coelomata	53	71	0.000
+#
+# Mann-Whitney U test: U = 2e+04 (p = 7.26e-46)
+#
+# Average age of Lung-Neoplasms_mir: 597.8
+# Average age of Background: 169.7
+#
+# Median age of Lung-Neoplasms_mir: 535.7
+# Median age of Background: 29.6
