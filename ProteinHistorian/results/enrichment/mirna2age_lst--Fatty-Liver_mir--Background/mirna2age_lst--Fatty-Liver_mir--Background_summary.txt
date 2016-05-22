@@ -1,0 +1,42 @@
+# age_enrichment_analysis.py -l /Users/virpatel/Desktop/pub_stuff/relevant_data/time_tree_dates.txt /Users/virpatel/Desktop/pub_stuff/relevant_data/mirna2age_lst.txt /Users/virpatel/Desktop/pub_stuff/relevant_data/dis2mir_db/Fatty-Liver_mir.txt 2016-05-21 22:48:53.365314
+#
+# AGE_LABEL_FILE = /Users/virpatel/Desktop/pub_stuff/relevant_data/time_tree_dates.txt
+# PHYLO_PROFILE_FILE = None
+# POI1_NAME = Fatty-Liver_mir
+# POI2_NAME = Background
+# OUTPUT_NAME = mirna2age_lst--Fatty-Liver_mir--Background
+# OUTPUT_DIR = results/enrichment/mirna2age_lst--Fatty-Liver_mir--Background/
+#
+# MISSING_POI = error
+# MULTI_CORRECT = False
+# PLOT_TYPE = bar
+# SCALE_X = False
+#
+# Proteins in Fatty-Liver_mir: 7
+# Proteins in Background: 1025
+#
+# age	label	Fatty-Liver_mir	Background	p-value
+0.0	Homo	0	151	0.602
+6.1	Homininae	0	51	1.000
+15.7	Hominidae	0	107	1.000
+29.6	Catarrhini	0	239	0.364
+44.2	Simiiformes	0	1	1.000
+89.1	Euarchontoglires	0	13	1.000
+97.4	Boreoeutheria	1	238	1.000
+176.1	Theria	0	8	1.000
+220.2	Mammalia	0	4	1.000
+324.5	Amniota	0	9	1.000
+361.2	Tetrapoda	1	9	0.060
+454.6	Euteleostomi	0	29	1.000
+535.7	Vertebrata	1	83	0.447
+797.0	Chordata	0	7	1.000
+842.0	Deuterostomia	1	5	0.034
+910.0	Coelomata	3	71	0.009
+#
+# Mann-Whitney U test: U = 8.5e+02 (p = 0.000201)
+#
+# Average age of Fatty-Liver_mir: 652.3
+# Average age of Background: 169.7
+#
+# Median age of Fatty-Liver_mir: 842.0
+# Median age of Background: 29.6
