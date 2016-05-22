@@ -1,0 +1,42 @@
+# age_enrichment_analysis.py -l /Users/virpatel/Desktop/pub_stuff/relevant_data/time_tree_dates.txt /Users/virpatel/Desktop/pub_stuff/relevant_data/mirna2age_lst.txt /Users/virpatel/Desktop/pub_stuff/relevant_data/dis2mir_db/Heart-Failure_mir.txt 2016-05-21 22:51:27.914686
+#
+# AGE_LABEL_FILE = /Users/virpatel/Desktop/pub_stuff/relevant_data/time_tree_dates.txt
+# PHYLO_PROFILE_FILE = None
+# POI1_NAME = Heart-Failure_mir
+# POI2_NAME = Background
+# OUTPUT_NAME = mirna2age_lst--Heart-Failure_mir--Background
+# OUTPUT_DIR = results/enrichment/mirna2age_lst--Heart-Failure_mir--Background/
+#
+# MISSING_POI = error
+# MULTI_CORRECT = False
+# PLOT_TYPE = bar
+# SCALE_X = False
+#
+# Proteins in Heart-Failure_mir: 130
+# Proteins in Background: 1025
+#
+# age	label	Heart-Failure_mir	Background	p-value
+0.0	Homo	0	151	0.000
+6.1	Homininae	0	51	0.002
+15.7	Hominidae	0	107	0.000
+29.6	Catarrhini	17	239	0.003
+44.2	Simiiformes	0	1	1.000
+89.1	Euarchontoglires	1	13	1.000
+97.4	Boreoeutheria	22	238	0.075
+176.1	Theria	2	8	0.269
+220.2	Mammalia	1	4	0.419
+324.5	Amniota	1	9	1.000
+361.2	Tetrapoda	4	9	0.019
+454.6	Euteleostomi	7	29	0.082
+535.7	Vertebrata	43	83	0.000
+797.0	Chordata	4	7	0.006
+842.0	Deuterostomia	1	5	0.493
+910.0	Coelomata	27	71	0.000
+#
+# Mann-Whitney U test: U = 2.8e+04 (p = 2.25e-28)
+#
+# Average age of Heart-Failure_mir: 460.7
+# Average age of Background: 169.7
+#
+# Median age of Heart-Failure_mir: 535.7
+# Median age of Background: 29.6

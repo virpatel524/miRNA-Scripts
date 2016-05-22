@@ -1,0 +1,145 @@
+# age_enrichment_analysis.py -l /Users/virpatel/Desktop/pub_stuff/relevant_data/time_tree_dates.txt /Users/virpatel/Desktop/pub_stuff/relevant_data/mirna2age_lst.txt /Users/virpatel/Desktop/pub_stuff/relevant_data/dis2mir_db/Heart-Failure_mir.txt 2016-05-21 22:51:27.914686
+#
+# AGE_LABEL_FILE = /Users/virpatel/Desktop/pub_stuff/relevant_data/time_tree_dates.txt
+# PHYLO_PROFILE_FILE = None
+# POI1_NAME = Heart-Failure_mir
+# POI2_NAME = Background
+# OUTPUT_NAME = mirna2age_lst--Heart-Failure_mir--Background
+# OUTPUT_DIR = results/enrichment/mirna2age_lst--Heart-Failure_mir--Background/
+#
+# MISSING_POI = error
+# MULTI_CORRECT = False
+# PLOT_TYPE = bar
+# SCALE_X = False
+#
+#protein	age	label
+hsa-mir-126	797.0	Chordata
+hsa-mir-19a	535.7	Vertebrata
+hsa-let-7f-2	910.0	Coelomata
+hsa-mir-520a	29.6	Catarrhini
+hsa-mir-520c	29.6	Catarrhini
+hsa-mir-520b	29.6	Catarrhini
+hsa-mir-520e	29.6	Catarrhini
+hsa-mir-520d	29.6	Catarrhini
+hsa-mir-520g	29.6	Catarrhini
+hsa-mir-125a	910.0	Coelomata
+hsa-mir-520h	29.6	Catarrhini
+hsa-mir-325	97.4	Boreoeutheria
+hsa-mir-195	535.7	Vertebrata
+hsa-mir-192	535.7	Vertebrata
+hsa-mir-320a	97.4	Boreoeutheria
+hsa-mir-135a-2	797.0	Chordata
+hsa-mir-135a-1	797.0	Chordata
+hsa-mir-30a	535.7	Vertebrata
+hsa-mir-30b	535.7	Vertebrata
+hsa-mir-30e	535.7	Vertebrata
+hsa-mir-300	97.4	Boreoeutheria
+hsa-mir-382	97.4	Boreoeutheria
+hsa-mir-208a	454.6	Euteleostomi
+hsa-mir-424	97.4	Boreoeutheria
+hsa-mir-18b	535.7	Vertebrata
+hsa-mir-17	535.7	Vertebrata
+hsa-mir-526a-2	29.6	Catarrhini
+hsa-mir-145	535.7	Vertebrata
+hsa-mir-16-2	535.7	Vertebrata
+hsa-mir-34b	910.0	Coelomata
+hsa-mir-34c	910.0	Coelomata
+hsa-mir-216a	910.0	Coelomata
+hsa-mir-340	97.4	Boreoeutheria
+hsa-mir-342	97.4	Boreoeutheria
+hsa-mir-106b	535.7	Vertebrata
+hsa-mir-24-1	535.7	Vertebrata
+hsa-mir-211	535.7	Vertebrata
+hsa-mir-15b	535.7	Vertebrata
+hsa-mir-205	535.7	Vertebrata
+hsa-mir-204	535.7	Vertebrata
+hsa-mir-29a	910.0	Coelomata
+hsa-mir-299	97.4	Boreoeutheria
+hsa-mir-296	97.4	Boreoeutheria
+hsa-mir-297	89.1	Euarchontoglires
+hsa-mir-520f	29.6	Catarrhini
+hsa-mir-494	97.4	Boreoeutheria
+hsa-mir-26a-2	535.7	Vertebrata
+hsa-mir-26a-1	535.7	Vertebrata
+hsa-mir-182	910.0	Coelomata
+hsa-mir-186	220.2	Mammalia
+hsa-let-7b	910.0	Coelomata
+hsa-let-7c	910.0	Coelomata
+hsa-mir-381	97.4	Boreoeutheria
+hsa-mir-500a	97.4	Boreoeutheria
+hsa-mir-423	97.4	Boreoeutheria
+hsa-mir-18a	535.7	Vertebrata
+hsa-let-7d	910.0	Coelomata
+hsa-mir-133b	910.0	Coelomata
+hsa-mir-339	97.4	Boreoeutheria
+hsa-mir-512-2	97.4	Boreoeutheria
+hsa-mir-512-1	97.4	Boreoeutheria
+hsa-mir-330	97.4	Boreoeutheria
+hsa-mir-132	535.7	Vertebrata
+hsa-mir-302c	361.2	Tetrapoda
+hsa-mir-150	454.6	Euteleostomi
+hsa-mir-155	454.6	Euteleostomi
+hsa-mir-21	454.6	Euteleostomi
+hsa-mir-22	842.0	Deuterostomia
+hsa-mir-212	535.7	Vertebrata
+hsa-mir-515-1	29.6	Catarrhini
+hsa-mir-515-2	29.6	Catarrhini
+hsa-mir-30c-2	535.7	Vertebrata
+hsa-mir-30c-1	535.7	Vertebrata
+hsa-mir-130b	535.7	Vertebrata
+hsa-mir-373	29.6	Catarrhini
+hsa-mir-372	97.4	Boreoeutheria
+hsa-mir-377	97.4	Boreoeutheria
+hsa-mir-181a-1	535.7	Vertebrata
+hsa-mir-215	535.7	Vertebrata
+hsa-mir-210	910.0	Coelomata
+hsa-mir-92b	910.0	Coelomata
+hsa-mir-526b	29.6	Catarrhini
+hsa-mir-650	29.6	Catarrhini
+hsa-mir-107	535.7	Vertebrata
+hsa-mir-10b	910.0	Coelomata
+hsa-mir-16-1	535.7	Vertebrata
+hsa-mir-92a-2	910.0	Coelomata
+hsa-mir-302b	361.2	Tetrapoda
+hsa-mir-26b	535.7	Vertebrata
+hsa-mir-218-2	535.7	Vertebrata
+hsa-mir-302a	361.2	Tetrapoda
+hsa-mir-196a-2	535.7	Vertebrata
+hsa-mir-28	176.1	Theria
+hsa-mir-29b-1	910.0	Coelomata
+hsa-mir-200c	910.0	Coelomata
+hsa-mir-92a-1	910.0	Coelomata
+hsa-mir-223	454.6	Euteleostomi
+hsa-mir-1-1	910.0	Coelomata
+hsa-mir-1-2	910.0	Coelomata
+hsa-mir-136	97.4	Boreoeutheria
+hsa-mir-139	454.6	Euteleostomi
+hsa-mir-32	324.5	Amniota
+hsa-mir-19b-2	535.7	Vertebrata
+hsa-mir-19b-1	535.7	Vertebrata
+hsa-mir-218-1	535.7	Vertebrata
+hsa-mir-367	361.2	Tetrapoda
+hsa-let-7a-2	910.0	Coelomata
+hsa-let-7a-1	910.0	Coelomata
+hsa-mir-27a	535.7	Vertebrata
+hsa-mir-133a-1	910.0	Coelomata
+hsa-mir-133a-2	910.0	Coelomata
+hsa-mir-130a	535.7	Vertebrata
+hsa-mir-526a-1	29.6	Catarrhini
+hsa-let-7e	910.0	Coelomata
+hsa-mir-497	176.1	Theria
+hsa-mir-98	910.0	Coelomata
+hsa-mir-199b	535.7	Vertebrata
+hsa-mir-525	29.6	Catarrhini
+hsa-mir-129-2	797.0	Chordata
+hsa-mir-523	29.6	Catarrhini
+hsa-mir-23a	535.7	Vertebrata
+hsa-mir-23b	535.7	Vertebrata
+hsa-mir-148a	535.7	Vertebrata
+hsa-mir-196a-1	535.7	Vertebrata
+hsa-mir-452	97.4	Boreoeutheria
+hsa-mir-142	454.6	Euteleostomi
+hsa-mir-199a-1	535.7	Vertebrata
+hsa-mir-199a-2	535.7	Vertebrata
+hsa-let-7f-1	910.0	Coelomata
+hsa-mir-432	97.4	Boreoeutheria
