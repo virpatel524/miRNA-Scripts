@@ -59,7 +59,7 @@ plt.xlabel('Number of Annotated miRNAs per Species',fontsize=17)
 plt.ylabel('Skewness of Species miRNA Age Distribution',fontsize=17)
 
 
-plt.savefig('/Users/virpatel/Desktop/pub_stuff/figures/allspec_skewness.pdf',bbox_inches='tight')
+plt.savefig('/Users/virpatel/Desktop/pub_stuff/figures/allspec_skewness.pdf',bbox_inches='tight'g)
 plt.close()
 
 plt.gcf().set_size_inches(20, 10)
