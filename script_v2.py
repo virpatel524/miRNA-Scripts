@@ -249,7 +249,10 @@ def mir_num_dis_bin(mirna2disease, mirna2age, age2clade):
 def gen_dis_db(disease2mirna,mirna2age):
 	for dis in disease2mirna:
 		with open('relevant_data/dis2mir_db/%s_mir.txt' %(dis)) as cur_disfle:
-			for mir in disease2mirna[dis]
+			for mir in disease2mirna[dis]:
+				if mir in mirna2age:
+					cur_disfle.write('%s\n' %(mir))
+
 
 
 	
