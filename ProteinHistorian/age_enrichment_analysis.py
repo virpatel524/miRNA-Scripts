@@ -690,7 +690,7 @@ def main():
     # write age files
     outfn = '%s%s_poi1-ages.txt' % (OUTPUT_DIR, OUTPUT_NAME)
     outfile = open(outfn, 'w')
-    if not WEB: print 'writing %s...' % outfn
+    if not WEB: print 'wtf %s...' % outfn
     outfile.write(PREAMBLE)
     outfile.write('#protein\tage%s\n' % ('\tlabel' if AGE_LABEL_FILE else ''))
     for i, prot in enumerate(poi1_names):
@@ -703,7 +703,7 @@ def main():
     if PHYLO_PROFILE_FILE:
         profile_outfn = '%s%s_poi1-phylo-profiles.txt' % (OUTPUT_DIR, OUTPUT_NAME)
         profile_outfile = open(profile_outfn, 'w')
-        if not WEB: print 'writing %s...' % profile_outfn
+        if not WEB: print 'wtf %s...' % profile_outfn
         profile_outfile.write(PREAMBLE)
         profile_outfile.write(species_order_str + '\n')
         for prot in poi1_names:
@@ -717,7 +717,7 @@ def main():
     if poi2_names:
         outfn = '%s%s_poi2-ages.txt' % (OUTPUT_DIR, OUTPUT_NAME)
         outfile = open(outfn, 'w')
-        if not WEB: print 'writing %s...' % outfn
+        if not WEB: print 'wtf %s...' % outfn
         outfile.write(PREAMBLE)
         outfile.write('#protein\tage%s\n' % ('\tlabel' if AGE_LABEL_FILE else ''))
         for i, prot in enumerate(poi2_names):
