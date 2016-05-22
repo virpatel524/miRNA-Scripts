@@ -105,6 +105,7 @@ import getopt
 import random
 import datetime
 import commands
+import csv
 
 import matplotlib
 import matplotlib.pylab as plt
@@ -243,15 +244,11 @@ def make_age2label_dict(age_label_file, age2prot):
 
 
     if age_label_file != None and os.path.exists(age_label_file):
-        prot2label, label2prot, bg, n2s = parse_age_file(age_label_file)
+       alpha=list(csv.reader(open(age_label_file),delimiter='\t'))
+       print alpha
 
-        for age in age2prot:
-            for prot in age2prot[age]:
-                if age2label[age] != str(age): break
-                if prot in prot2label:
-                    print prot2label
-                    age2label[age] = str(prot2label[prot]).replace('_', ' ')
-   
+
+
     return age2label
 
 
