@@ -362,7 +362,7 @@ def age_plot(dataname2age2num, age2pval, age2label, outfn, plot_type='bar',
         if age in age2label:
             label = age2label[age]
             if label != str(age):
-                labels.append('%s (%d)' % (label, age))
+                labels.append('%s (%.1f)' % (label, age))
             else:
                 labels.append('%d' % age)
         else:
