@@ -380,7 +380,7 @@ def age_plot(dataname2age2num, age2pval, age2label, outfn, plot_type='bar',
     title_obj = plt.title(title, fontsize=12)
 
     plt.figtext(0.07, 0.01, '[DB: '+methods_str+']', size=9)
-
+    plt.gca().xaxis.grid(False)
     plt.savefig(outfn,bbox_inches='tight')
     if output_png: plt.savefig(outfn.replace('.pdf', '.png'))
     
