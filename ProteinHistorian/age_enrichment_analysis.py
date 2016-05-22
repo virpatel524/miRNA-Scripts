@@ -241,8 +241,10 @@ def make_age2label_dict(age_label_file, age2prot):
     for age in age2prot:
         age2label[age] = str(age)
 
+
     if age_label_file != None and os.path.exists(age_label_file):
         prot2label, label2prot, bg, n2s = parse_age_file(age_label_file)
+        print 'HEIIII'
 
         for age in age2prot:
             for prot in age2prot[age]:
@@ -691,7 +693,6 @@ def main():
     outfn = '%s%s_poi1-ages.txt' % (OUTPUT_DIR, OUTPUT_NAME)
     outfile = open(outfn, 'w')
     if not WEB: print 'wtf %s...' % outfn
-    if not WEB: print age2label
     outfile.write(PREAMBLE)
     outfile.write('#protein\tage%s\n' % ('\tlabel' if AGE_LABEL_FILE else ''))
     for i, prot in enumerate(poi1_names):
