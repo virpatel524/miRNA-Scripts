@@ -200,6 +200,7 @@ def mir_num_dis_bin(mirna2disease, mirna2age, age2clade):
 
 
 	labels = sorted(list(set(agelst)))
+	print labels
 	str_labels = ['%s (%.1f)' %(age2clade[a], a) for a in labels]
 
 	binlst = [[] for _ in xrange(len(labels))]
@@ -236,7 +237,7 @@ def mir_num_dis_bin(mirna2disease, mirna2age, age2clade):
 		for mir in mirna2age:
 			mir_fle.write('%s %.1f\n' %(mir, mirna2age[mir]))
 
-	
+
 
 
 
