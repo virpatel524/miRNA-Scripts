@@ -1,0 +1,61 @@
+# age_enrichment_analysis.py -l /Users/virpatel/Desktop/pub_stuff/relevant_data/time_tree_dates.txt /Users/virpatel/Desktop/pub_stuff/relevant_data/mirna2age_lst.txt /Users/virpatel/Desktop/pub_stuff/relevant_data/dis2mir_db/Carcinoma_mir.txt 2016-05-21 22:44:17.713114
+#
+# AGE_LABEL_FILE = /Users/virpatel/Desktop/pub_stuff/relevant_data/time_tree_dates.txt
+# PHYLO_PROFILE_FILE = None
+# POI1_NAME = Carcinoma_mir
+# POI2_NAME = Background
+# OUTPUT_NAME = mirna2age_lst--Carcinoma_mir--Background
+# OUTPUT_DIR = results/enrichment/mirna2age_lst--Carcinoma_mir--Background/
+#
+# MISSING_POI = error
+# MULTI_CORRECT = False
+# PLOT_TYPE = bar
+# SCALE_X = False
+#
+#protein	age	label
+hsa-mir-125b-1	910.0	Coelomata
+hsa-mir-125b-2	910.0	Coelomata
+hsa-mir-192	535.7	Vertebrata
+hsa-mir-200b	910.0	Coelomata
+hsa-mir-200a	910.0	Coelomata
+hsa-mir-30a	535.7	Vertebrata
+hsa-mir-145	535.7	Vertebrata
+hsa-mir-16-2	535.7	Vertebrata
+hsa-mir-34a	910.0	Coelomata
+hsa-mir-138-2	535.7	Vertebrata
+hsa-mir-138-1	535.7	Vertebrata
+hsa-mir-106b	535.7	Vertebrata
+hsa-mir-205	535.7	Vertebrata
+hsa-mir-182	910.0	Coelomata
+hsa-mir-183	842.0	Deuterostomia
+hsa-mir-184	910.0	Coelomata
+hsa-mir-423	97.4	Boreoeutheria
+hsa-mir-302f	361.2	Tetrapoda
+hsa-mir-302c	361.2	Tetrapoda
+hsa-mir-155	454.6	Euteleostomi
+hsa-mir-20a	535.7	Vertebrata
+hsa-mir-21	454.6	Euteleostomi
+hsa-mir-146b	535.7	Vertebrata
+hsa-mir-373	29.6	Catarrhini
+hsa-mir-372	97.4	Boreoeutheria
+hsa-mir-375	910.0	Coelomata
+hsa-mir-214	454.6	Euteleostomi
+hsa-mir-302e	15.7	Hominidae
+hsa-mir-302d	361.2	Tetrapoda
+hsa-mir-10b	910.0	Coelomata
+hsa-mir-10a	910.0	Coelomata
+hsa-mir-16-1	535.7	Vertebrata
+hsa-mir-302b	361.2	Tetrapoda
+hsa-mir-302a	361.2	Tetrapoda
+hsa-mir-200c	910.0	Coelomata
+hsa-mir-222	535.7	Vertebrata
+hsa-mir-221	535.7	Vertebrata
+hsa-mir-149	97.4	Boreoeutheria
+hsa-mir-31	910.0	Coelomata
+hsa-let-7a-2	910.0	Coelomata
+hsa-let-7a-3	910.0	Coelomata
+hsa-let-7a-1	910.0	Coelomata
+hsa-let-7i	910.0	Coelomata
+hsa-mir-96	910.0	Coelomata
+hsa-mir-23a	535.7	Vertebrata
+hsa-mir-142	454.6	Euteleostomi

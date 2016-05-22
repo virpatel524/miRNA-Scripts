@@ -1,0 +1,42 @@
+# age_enrichment_analysis.py -l /Users/virpatel/Desktop/pub_stuff/relevant_data/time_tree_dates.txt /Users/virpatel/Desktop/pub_stuff/relevant_data/mirna2age_lst.txt /Users/virpatel/Desktop/pub_stuff/relevant_data/dis2mir_db/Carcinoma,-Non-Small-Cell-Lung_mir.txt 2016-05-21 22:43:57.890299
+#
+# AGE_LABEL_FILE = /Users/virpatel/Desktop/pub_stuff/relevant_data/time_tree_dates.txt
+# PHYLO_PROFILE_FILE = None
+# POI1_NAME = Carcinoma,-Non-Small-Cell-Lung_mir
+# POI2_NAME = Background
+# OUTPUT_NAME = mirna2age_lst--Carcinoma,-Non-Small-Cell-Lung_mir--Background
+# OUTPUT_DIR = results/enrichment/mirna2age_lst--Carcinoma,-Non-Small-Cell-Lung_mir--Background/
+#
+# MISSING_POI = error
+# MULTI_CORRECT = False
+# PLOT_TYPE = bar
+# SCALE_X = False
+#
+# Proteins in Carcinoma,-Non-Small-Cell-Lung_mir: 102
+# Proteins in Background: 1025
+#
+# age	label	Carcinoma,-Non-Small-Cell-Lung_mir	Background	p-value
+0.0	Homo	0	151	0.000
+6.1	Homininae	1	51	0.053
+15.7	Hominidae	1	107	0.000
+29.6	Catarrhini	6	239	0.000
+44.2	Simiiformes	0	1	1.000
+89.1	Euarchontoglires	0	13	0.631
+97.4	Boreoeutheria	11	238	0.001
+176.1	Theria	1	8	0.569
+220.2	Mammalia	1	4	0.343
+324.5	Amniota	0	9	0.611
+361.2	Tetrapoda	0	9	0.611
+454.6	Euteleostomi	7	29	0.019
+535.7	Vertebrata	32	83	0.000
+797.0	Chordata	4	7	0.003
+842.0	Deuterostomia	3	5	0.008
+910.0	Coelomata	35	71	0.000
+#
+# Mann-Whitney U test: U = 1.6e+04 (p = 2.52e-31)
+#
+# Average age of Carcinoma,-Non-Small-Cell-Lung_mir: 583.9
+# Average age of Background: 169.7
+#
+# Median age of Carcinoma,-Non-Small-Cell-Lung_mir: 535.7
+# Median age of Background: 29.6

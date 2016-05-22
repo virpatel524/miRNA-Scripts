@@ -1,0 +1,102 @@
+# age_enrichment_analysis.py -l /Users/virpatel/Desktop/pub_stuff/relevant_data/time_tree_dates.txt /Users/virpatel/Desktop/pub_stuff/relevant_data/mirna2age_lst.txt /Users/virpatel/Desktop/pub_stuff/relevant_data/dis2mir_db/Carcinoma,-Squamous-Cell_mir.txt 2016-05-21 22:44:13.669444
+#
+# AGE_LABEL_FILE = /Users/virpatel/Desktop/pub_stuff/relevant_data/time_tree_dates.txt
+# PHYLO_PROFILE_FILE = None
+# POI1_NAME = Carcinoma,-Squamous-Cell_mir
+# POI2_NAME = Background
+# OUTPUT_NAME = mirna2age_lst--Carcinoma,-Squamous-Cell_mir--Background
+# OUTPUT_DIR = results/enrichment/mirna2age_lst--Carcinoma,-Squamous-Cell_mir--Background/
+#
+# MISSING_POI = error
+# MULTI_CORRECT = False
+# PLOT_TYPE = bar
+# SCALE_X = False
+#
+#protein	age	label
+hsa-mir-126	797.0	Chordata
+hsa-mir-125b-1	910.0	Coelomata
+hsa-mir-125b-2	910.0	Coelomata
+hsa-mir-489	454.6	Euteleostomi
+hsa-mir-125a	910.0	Coelomata
+hsa-mir-195	535.7	Vertebrata
+hsa-mir-197	97.4	Boreoeutheria
+hsa-mir-30a	535.7	Vertebrata
+hsa-mir-30d	535.7	Vertebrata
+hsa-mir-193a	910.0	Coelomata
+hsa-mir-18b	535.7	Vertebrata
+hsa-mir-145	535.7	Vertebrata
+hsa-mir-16-2	535.7	Vertebrata
+hsa-mir-34a	910.0	Coelomata
+hsa-mir-34b	910.0	Coelomata
+hsa-mir-34c	910.0	Coelomata
+hsa-mir-138-2	535.7	Vertebrata
+hsa-mir-138-1	535.7	Vertebrata
+hsa-mir-106a	535.7	Vertebrata
+hsa-mir-106b	535.7	Vertebrata
+hsa-mir-24-1	535.7	Vertebrata
+hsa-mir-15a	535.7	Vertebrata
+hsa-mir-211	535.7	Vertebrata
+hsa-mir-205	535.7	Vertebrata
+hsa-mir-29c	910.0	Coelomata
+hsa-mir-296	97.4	Boreoeutheria
+hsa-mir-182	910.0	Coelomata
+hsa-mir-184	910.0	Coelomata
+hsa-mir-185	97.4	Boreoeutheria
+hsa-mir-124-2	910.0	Coelomata
+hsa-mir-421	97.4	Boreoeutheria
+hsa-mir-423	97.4	Boreoeutheria
+hsa-mir-542	97.4	Boreoeutheria
+hsa-mir-18a	535.7	Vertebrata
+hsa-let-7d	910.0	Coelomata
+hsa-mir-133b	910.0	Coelomata
+hsa-mir-874	97.4	Boreoeutheria
+hsa-mir-155	454.6	Euteleostomi
+hsa-mir-20a	535.7	Vertebrata
+hsa-mir-137	910.0	Coelomata
+hsa-mir-181d	535.7	Vertebrata
+hsa-mir-21	454.6	Euteleostomi
+hsa-mir-504	97.4	Boreoeutheria
+hsa-mir-375	910.0	Coelomata
+hsa-mir-181a-1	535.7	Vertebrata
+hsa-mir-214	454.6	Euteleostomi
+hsa-mir-210	910.0	Coelomata
+hsa-mir-661	29.6	Catarrhini
+hsa-mir-100	910.0	Coelomata
+hsa-mir-10b	910.0	Coelomata
+hsa-mir-10a	910.0	Coelomata
+hsa-mir-16-1	535.7	Vertebrata
+hsa-mir-92a-2	910.0	Coelomata
+hsa-mir-101-1	454.6	Euteleostomi
+hsa-mir-218-2	535.7	Vertebrata
+hsa-mir-9-1	910.0	Coelomata
+hsa-mir-9-3	910.0	Coelomata
+hsa-mir-200c	910.0	Coelomata
+hsa-mir-885	176.1	Theria
+hsa-mir-20b	535.7	Vertebrata
+hsa-mir-143	535.7	Vertebrata
+hsa-mir-140	454.6	Euteleostomi
+hsa-mir-223	454.6	Euteleostomi
+hsa-mir-222	535.7	Vertebrata
+hsa-mir-181b-1	535.7	Vertebrata
+hsa-mir-1-1	910.0	Coelomata
+hsa-mir-1-2	910.0	Coelomata
+hsa-mir-101-2	454.6	Euteleostomi
+hsa-mir-31	910.0	Coelomata
+hsa-mir-19b-2	535.7	Vertebrata
+hsa-mir-218-1	535.7	Vertebrata
+hsa-mir-363	454.6	Euteleostomi
+hsa-mir-27a	535.7	Vertebrata
+hsa-mir-27b	535.7	Vertebrata
+hsa-mir-133a-1	910.0	Coelomata
+hsa-mir-133a-2	910.0	Coelomata
+hsa-mir-130a	535.7	Vertebrata
+hsa-mir-519a-1	29.6	Catarrhini
+hsa-mir-519a-2	29.6	Catarrhini
+hsa-mir-124-1	910.0	Coelomata
+hsa-mir-181b-2	535.7	Vertebrata
+hsa-let-7i	910.0	Coelomata
+hsa-mir-497	176.1	Theria
+hsa-mir-129-2	797.0	Chordata
+hsa-mir-148a	535.7	Vertebrata
+hsa-mir-142	454.6	Euteleostomi
+hsa-mir-146a	535.7	Vertebrata
