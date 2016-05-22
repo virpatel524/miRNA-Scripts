@@ -1,0 +1,30 @@
+# age_enrichment_analysis.py -l /Users/virpatel/Desktop/pub_stuff/relevant_data/time_tree_dates.txt /Users/virpatel/Desktop/pub_stuff/relevant_data/mirna2age_lst.txt /Users/virpatel/Desktop/pub_stuff/relevant_data/dis2mir_db/Psoriasis_mir.txt 2016-05-21 23:02:22.065053
+#
+# AGE_LABEL_FILE = /Users/virpatel/Desktop/pub_stuff/relevant_data/time_tree_dates.txt
+# PHYLO_PROFILE_FILE = None
+# POI1_NAME = Psoriasis_mir
+# POI2_NAME = Background
+# OUTPUT_NAME = mirna2age_lst--Psoriasis_mir--Background
+# OUTPUT_DIR = results/enrichment/mirna2age_lst--Psoriasis_mir--Background/
+#
+# MISSING_POI = error
+# MULTI_CORRECT = False
+# PLOT_TYPE = bar
+# SCALE_X = False
+#
+#protein	age	label
+hsa-mir-125b-1	910.0	Coelomata
+hsa-mir-125b-2	910.0	Coelomata
+hsa-mir-197	97.4	Boreoeutheria
+hsa-mir-99a	910.0	Coelomata
+hsa-mir-423	97.4	Boreoeutheria
+hsa-mir-150	454.6	Euteleostomi
+hsa-mir-21	454.6	Euteleostomi
+hsa-mir-146b	535.7	Vertebrata
+hsa-mir-100	910.0	Coelomata
+hsa-mir-223	454.6	Euteleostomi
+hsa-mir-1266	15.7	Hominidae
+hsa-mir-31	910.0	Coelomata
+hsa-mir-492	97.4	Boreoeutheria
+hsa-mir-142	454.6	Euteleostomi
+hsa-mir-146a	535.7	Vertebrata

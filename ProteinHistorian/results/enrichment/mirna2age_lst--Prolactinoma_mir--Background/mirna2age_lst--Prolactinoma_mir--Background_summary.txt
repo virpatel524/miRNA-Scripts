@@ -1,0 +1,42 @@
+# age_enrichment_analysis.py -l /Users/virpatel/Desktop/pub_stuff/relevant_data/time_tree_dates.txt /Users/virpatel/Desktop/pub_stuff/relevant_data/mirna2age_lst.txt /Users/virpatel/Desktop/pub_stuff/relevant_data/dis2mir_db/Prolactinoma_mir.txt 2016-05-21 23:02:07.800395
+#
+# AGE_LABEL_FILE = /Users/virpatel/Desktop/pub_stuff/relevant_data/time_tree_dates.txt
+# PHYLO_PROFILE_FILE = None
+# POI1_NAME = Prolactinoma_mir
+# POI2_NAME = Background
+# OUTPUT_NAME = mirna2age_lst--Prolactinoma_mir--Background
+# OUTPUT_DIR = results/enrichment/mirna2age_lst--Prolactinoma_mir--Background/
+#
+# MISSING_POI = error
+# MULTI_CORRECT = False
+# PLOT_TYPE = bar
+# SCALE_X = False
+#
+# Proteins in Prolactinoma_mir: 15
+# Proteins in Background: 1025
+#
+# age	label	Prolactinoma_mir	Background	p-value
+0.0	Homo	0	151	0.146
+6.1	Homininae	0	51	1.000
+15.7	Hominidae	0	107	0.389
+29.6	Catarrhini	4	239	0.760
+44.2	Simiiformes	0	1	1.000
+89.1	Euarchontoglires	0	13	1.000
+97.4	Boreoeutheria	4	238	0.759
+176.1	Theria	0	8	1.000
+220.2	Mammalia	0	4	1.000
+324.5	Amniota	0	9	1.000
+361.2	Tetrapoda	0	9	1.000
+454.6	Euteleostomi	0	29	1.000
+535.7	Vertebrata	3	83	0.115
+797.0	Chordata	0	7	1.000
+842.0	Deuterostomia	0	5	1.000
+910.0	Coelomata	4	71	0.016
+#
+# Mann-Whitney U test: U = 4.3e+03 (p = 0.00136)
+#
+# Average age of Prolactinoma_mir: 383.7
+# Average age of Background: 169.7
+#
+# Median age of Prolactinoma_mir: 97.4
+# Median age of Background: 29.6

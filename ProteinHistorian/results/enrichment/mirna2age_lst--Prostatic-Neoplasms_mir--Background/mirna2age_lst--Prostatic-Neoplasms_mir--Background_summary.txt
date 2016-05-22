@@ -1,0 +1,42 @@
+# age_enrichment_analysis.py -l /Users/virpatel/Desktop/pub_stuff/relevant_data/time_tree_dates.txt /Users/virpatel/Desktop/pub_stuff/relevant_data/mirna2age_lst.txt /Users/virpatel/Desktop/pub_stuff/relevant_data/dis2mir_db/Prostatic-Neoplasms_mir.txt 2016-05-21 23:02:17.039849
+#
+# AGE_LABEL_FILE = /Users/virpatel/Desktop/pub_stuff/relevant_data/time_tree_dates.txt
+# PHYLO_PROFILE_FILE = None
+# POI1_NAME = Prostatic-Neoplasms_mir
+# POI2_NAME = Background
+# OUTPUT_NAME = mirna2age_lst--Prostatic-Neoplasms_mir--Background
+# OUTPUT_DIR = results/enrichment/mirna2age_lst--Prostatic-Neoplasms_mir--Background/
+#
+# MISSING_POI = error
+# MULTI_CORRECT = False
+# PLOT_TYPE = bar
+# SCALE_X = False
+#
+# Proteins in Prostatic-Neoplasms_mir: 120
+# Proteins in Background: 1025
+#
+# age	label	Prostatic-Neoplasms_mir	Background	p-value
+0.0	Homo	0	151	0.000
+6.1	Homininae	1	51	0.023
+15.7	Hominidae	1	107	0.000
+29.6	Catarrhini	8	239	0.000
+44.2	Simiiformes	1	1	0.117
+89.1	Euarchontoglires	0	13	0.384
+97.4	Boreoeutheria	16	238	0.006
+176.1	Theria	0	8	0.607
+220.2	Mammalia	0	4	1.000
+324.5	Amniota	1	9	1.000
+361.2	Tetrapoda	1	9	1.000
+454.6	Euteleostomi	6	29	0.138
+535.7	Vertebrata	41	83	0.000
+797.0	Chordata	2	7	0.193
+842.0	Deuterostomia	3	5	0.013
+910.0	Coelomata	39	71	0.000
+#
+# Mann-Whitney U test: U = 2.1e+04 (p = 9.07e-34)
+#
+# Average age of Prostatic-Neoplasms_mir: 557.1
+# Average age of Background: 169.7
+#
+# Median age of Prostatic-Neoplasms_mir: 535.7
+# Median age of Background: 29.6
