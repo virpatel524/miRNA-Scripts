@@ -1,0 +1,42 @@
+# age_enrichment_analysis.py -l /Users/virpatel/Desktop/pub_stuff/relevant_data/time_tree_dates.txt /Users/virpatel/Desktop/pub_stuff/relevant_data/mirna2age_lst.txt /Users/virpatel/Desktop/pub_stuff/relevant_data/dis2mir_db/Schizophrenia_mir.txt 2016-05-21 23:04:05.994163
+#
+# AGE_LABEL_FILE = /Users/virpatel/Desktop/pub_stuff/relevant_data/time_tree_dates.txt
+# PHYLO_PROFILE_FILE = None
+# POI1_NAME = Schizophrenia_mir
+# POI2_NAME = Background
+# OUTPUT_NAME = mirna2age_lst--Schizophrenia_mir--Background
+# OUTPUT_DIR = results/enrichment/mirna2age_lst--Schizophrenia_mir--Background/
+#
+# MISSING_POI = error
+# MULTI_CORRECT = False
+# PLOT_TYPE = bar
+# SCALE_X = False
+#
+# Proteins in Schizophrenia_mir: 34
+# Proteins in Background: 1025
+#
+# age	label	Schizophrenia_mir	Background	p-value
+0.0	Homo	0	151	0.006
+6.1	Homininae	0	51	0.408
+15.7	Hominidae	0	107	0.042
+29.6	Catarrhini	0	239	0.000
+44.2	Simiiformes	1	1	0.033
+89.1	Euarchontoglires	0	13	1.000
+97.4	Boreoeutheria	1	238	0.002
+176.1	Theria	0	8	1.000
+220.2	Mammalia	0	4	1.000
+324.5	Amniota	0	9	1.000
+361.2	Tetrapoda	0	9	1.000
+454.6	Euteleostomi	0	29	0.620
+535.7	Vertebrata	16	83	0.000
+797.0	Chordata	0	7	1.000
+842.0	Deuterostomia	0	5	1.000
+910.0	Coelomata	16	71	0.000
+#
+# Mann-Whitney U test: U = 3.4e+03 (p = 2.32e-16)
+#
+# Average age of Schizophrenia_mir: 684.5
+# Average age of Background: 169.7
+#
+# Median age of Schizophrenia_mir: 535.7
+# Median age of Background: 29.6

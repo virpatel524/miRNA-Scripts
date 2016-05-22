@@ -1,0 +1,42 @@
+# age_enrichment_analysis.py -l /Users/virpatel/Desktop/pub_stuff/relevant_data/time_tree_dates.txt /Users/virpatel/Desktop/pub_stuff/relevant_data/mirna2age_lst.txt /Users/virpatel/Desktop/pub_stuff/relevant_data/dis2mir_db/Stomach-Neoplasms_mir.txt 2016-05-21 23:04:54.976424
+#
+# AGE_LABEL_FILE = /Users/virpatel/Desktop/pub_stuff/relevant_data/time_tree_dates.txt
+# PHYLO_PROFILE_FILE = None
+# POI1_NAME = Stomach-Neoplasms_mir
+# POI2_NAME = Background
+# OUTPUT_NAME = mirna2age_lst--Stomach-Neoplasms_mir--Background
+# OUTPUT_DIR = results/enrichment/mirna2age_lst--Stomach-Neoplasms_mir--Background/
+#
+# MISSING_POI = error
+# MULTI_CORRECT = False
+# PLOT_TYPE = bar
+# SCALE_X = False
+#
+# Proteins in Stomach-Neoplasms_mir: 192
+# Proteins in Background: 1025
+#
+# age	label	Stomach-Neoplasms_mir	Background	p-value
+0.0	Homo	0	151	0.000
+6.1	Homininae	1	51	0.000
+15.7	Hominidae	4	107	0.000
+29.6	Catarrhini	30	239	0.005
+44.2	Simiiformes	0	1	1.000
+89.1	Euarchontoglires	0	13	0.144
+97.4	Boreoeutheria	32	238	0.018
+176.1	Theria	1	8	1.000
+220.2	Mammalia	1	4	0.564
+324.5	Amniota	1	9	1.000
+361.2	Tetrapoda	6	9	0.002
+454.6	Euteleostomi	13	29	0.001
+535.7	Vertebrata	52	83	0.000
+797.0	Chordata	6	7	0.000
+842.0	Deuterostomia	5	5	0.000
+910.0	Coelomata	40	71	0.000
+#
+# Mann-Whitney U test: U = 4.6e+04 (p = 3.71e-33)
+#
+# Average age of Stomach-Neoplasms_mir: 448.5
+# Average age of Background: 169.7
+#
+# Median age of Stomach-Neoplasms_mir: 535.7
+# Median age of Background: 29.6
