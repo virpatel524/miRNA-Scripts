@@ -189,18 +189,14 @@ def mir_num_dis_bin(mirna2disease, mirna2age, age2clade):
 		agelst.append(float(mirna2age[mir])) 
 		dislst.append(float(len(mirna2disease[mir])))
 
-	mast = sorted(list(set(agelst)))
 
 	oldage = agelst[:]
 
-	for ind,i in enumerate(agelst):
-		agelst[ind] = float(mast.index(i))
 
 
 
 
 	labels = sorted(list(set(agelst)))
-	print labels
 	str_labels = ['%s (%.1f)' %(age2clade[a], a) for a in labels]
 
 	binlst = [[] for _ in xrange(len(labels))]
@@ -233,7 +229,7 @@ def mir_num_dis_bin(mirna2disease, mirna2age, age2clade):
 	plt.close()
 
 
-	with open('mirna2age_lst.txt','w') as mir_fle:
+	with open('relevant_data/mirna2age_lst.txt','w') as mir_fle:
 		for mir in mirna2age:
 			mir_fle.write('%s %.1f\n' %(mir, mirna2age[mir]))
 
