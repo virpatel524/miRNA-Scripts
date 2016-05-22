@@ -1,0 +1,42 @@
+# age_enrichment_analysis.py -l /Users/virpatel/Desktop/pub_stuff/relevant_data/time_tree_dates.txt /Users/virpatel/Desktop/pub_stuff/relevant_data/mirna2age_lst.txt /Users/virpatel/Desktop/pub_stuff/relevant_data/dis2mir_db/Leukemia,-Myeloid,-Acute_mir.txt 2016-05-21 22:54:34.907872
+#
+# AGE_LABEL_FILE = /Users/virpatel/Desktop/pub_stuff/relevant_data/time_tree_dates.txt
+# PHYLO_PROFILE_FILE = None
+# POI1_NAME = Leukemia,-Myeloid,-Acute_mir
+# POI2_NAME = Background
+# OUTPUT_NAME = mirna2age_lst--Leukemia,-Myeloid,-Acute_mir--Background
+# OUTPUT_DIR = results/enrichment/mirna2age_lst--Leukemia,-Myeloid,-Acute_mir--Background/
+#
+# MISSING_POI = error
+# MULTI_CORRECT = False
+# PLOT_TYPE = bar
+# SCALE_X = False
+#
+# Proteins in Leukemia,-Myeloid,-Acute_mir: 70
+# Proteins in Background: 1025
+#
+# age	label	Leukemia,-Myeloid,-Acute_mir	Background	p-value
+0.0	Homo	0	151	0.000
+6.1	Homininae	0	51	0.043
+15.7	Hominidae	0	107	0.001
+29.6	Catarrhini	1	239	0.000
+44.2	Simiiformes	0	1	1.000
+89.1	Euarchontoglires	0	13	1.000
+97.4	Boreoeutheria	10	238	0.078
+176.1	Theria	0	8	1.000
+220.2	Mammalia	1	4	0.247
+324.5	Amniota	0	9	1.000
+361.2	Tetrapoda	0	9	1.000
+454.6	Euteleostomi	4	29	0.130
+535.7	Vertebrata	28	83	0.000
+797.0	Chordata	1	7	0.391
+842.0	Deuterostomia	0	5	1.000
+910.0	Coelomata	25	71	0.000
+#
+# Mann-Whitney U test: U = 9.4e+03 (p = 5.51e-26)
+#
+# Average age of Leukemia,-Myeloid,-Acute_mir: 594.1
+# Average age of Background: 169.7
+#
+# Median age of Leukemia,-Myeloid,-Acute_mir: 535.7
+# Median age of Background: 29.6
