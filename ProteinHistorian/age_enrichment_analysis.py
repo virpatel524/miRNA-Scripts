@@ -246,7 +246,7 @@ def make_age2label_dict(age_label_file, age2prot):
     if age_label_file != None and os.path.exists(age_label_file):
        alpha=[a for a in list(csv.reader(open(age_label_file),delimiter='\t')) if len(a) > 1]
        for clade in alpha:
-        age2label[float(clade[-1])] = clade[0]
+            if float(clade[-1]) in age2label: age2label[float(clade[-1])] = clade[0]
 
 
 
@@ -370,7 +370,7 @@ def age_plot(dataname2age2num, age2pval, age2label, outfn, plot_type='bar',
 
     xtickNames = plt.setp(ax1, xticklabels = labels)
     plt.setp(xtickNames, fontsize=10)
-    plt.setp(xtickNames, rotation=30)
+    plt.setp(xtickNames, rotation=65)
     plt.setp(xtickNames, horizontalalignment='right')
 
 
