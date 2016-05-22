@@ -1,0 +1,42 @@
+# age_enrichment_analysis.py -l /Users/virpatel/Desktop/pub_stuff/relevant_data/time_tree_dates.txt /Users/virpatel/Desktop/pub_stuff/relevant_data/mirna2age_lst.txt /Users/virpatel/Desktop/pub_stuff/relevant_data/dis2mir_db/Glioma_mir.txt 2016-05-21 22:49:56.814341
+#
+# AGE_LABEL_FILE = /Users/virpatel/Desktop/pub_stuff/relevant_data/time_tree_dates.txt
+# PHYLO_PROFILE_FILE = None
+# POI1_NAME = Glioma_mir
+# POI2_NAME = Background
+# OUTPUT_NAME = mirna2age_lst--Glioma_mir--Background
+# OUTPUT_DIR = results/enrichment/mirna2age_lst--Glioma_mir--Background/
+#
+# MISSING_POI = error
+# MULTI_CORRECT = False
+# PLOT_TYPE = bar
+# SCALE_X = False
+#
+# Proteins in Glioma_mir: 79
+# Proteins in Background: 1025
+#
+# age	label	Glioma_mir	Background	p-value
+0.0	Homo	0	151	0.000
+6.1	Homininae	0	51	0.028
+15.7	Hominidae	0	107	0.000
+29.6	Catarrhini	1	239	0.000
+44.2	Simiiformes	0	1	1.000
+89.1	Euarchontoglires	0	13	0.615
+97.4	Boreoeutheria	8	238	0.003
+176.1	Theria	0	8	1.000
+220.2	Mammalia	0	4	1.000
+324.5	Amniota	0	9	1.000
+361.2	Tetrapoda	6	9	0.000
+454.6	Euteleostomi	3	29	0.484
+535.7	Vertebrata	41	83	0.000
+797.0	Chordata	2	7	0.096
+842.0	Deuterostomia	1	5	0.331
+910.0	Coelomata	17	71	0.000
+#
+# Mann-Whitney U test: U = 1.1e+04 (p = 3.86e-28)
+#
+# Average age of Glioma_mir: 559.6
+# Average age of Background: 169.7
+#
+# Median age of Glioma_mir: 535.7
+# Median age of Background: 29.6
