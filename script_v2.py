@@ -246,6 +246,7 @@ def mir_num_dis_bin(mirna2disease, mirna2age, age2clade):
 
 
 
+def gen_dis_db(disease2mirna):
 
 
 	
@@ -286,6 +287,8 @@ def main():
 
 
 	mir_num_dis_bin(mirna2disease, mirna2age,age2clade)
+
+	gen_dis_db(disease2mirna)
 
 
 
