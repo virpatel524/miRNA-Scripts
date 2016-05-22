@@ -1,0 +1,42 @@
+# age_enrichment_analysis.py -l /Users/virpatel/Desktop/pub_stuff/relevant_data/time_tree_dates.txt /Users/virpatel/Desktop/pub_stuff/relevant_data/mirna2age_lst.txt /Users/virpatel/Desktop/pub_stuff/relevant_data/dis2mir_db/Mouth-Neoplasms_mir.txt 2016-05-21 22:57:13.562693
+#
+# AGE_LABEL_FILE = /Users/virpatel/Desktop/pub_stuff/relevant_data/time_tree_dates.txt
+# PHYLO_PROFILE_FILE = None
+# POI1_NAME = Mouth-Neoplasms_mir
+# POI2_NAME = Background
+# OUTPUT_NAME = mirna2age_lst--Mouth-Neoplasms_mir--Background
+# OUTPUT_DIR = results/enrichment/mirna2age_lst--Mouth-Neoplasms_mir--Background/
+#
+# MISSING_POI = error
+# MULTI_CORRECT = False
+# PLOT_TYPE = bar
+# SCALE_X = False
+#
+# Proteins in Mouth-Neoplasms_mir: 27
+# Proteins in Background: 1025
+#
+# age	label	Mouth-Neoplasms_mir	Background	p-value
+0.0	Homo	0	151	0.024
+6.1	Homininae	0	51	0.640
+15.7	Hominidae	1	107	0.349
+29.6	Catarrhini	0	239	0.001
+44.2	Simiiformes	0	1	1.000
+89.1	Euarchontoglires	0	13	1.000
+97.4	Boreoeutheria	2	238	0.062
+176.1	Theria	0	8	1.000
+220.2	Mammalia	0	4	1.000
+324.5	Amniota	0	9	1.000
+361.2	Tetrapoda	0	9	1.000
+454.6	Euteleostomi	2	29	0.176
+535.7	Vertebrata	5	83	0.060
+797.0	Chordata	1	7	0.171
+842.0	Deuterostomia	0	5	1.000
+910.0	Coelomata	16	71	0.000
+#
+# Mann-Whitney U test: U = 3.1e+03 (p = 1.29e-12)
+#
+# Average age of Mouth-Neoplasms_mir: 709.5
+# Average age of Background: 169.7
+#
+# Median age of Mouth-Neoplasms_mir: 910.0
+# Median age of Background: 29.6
