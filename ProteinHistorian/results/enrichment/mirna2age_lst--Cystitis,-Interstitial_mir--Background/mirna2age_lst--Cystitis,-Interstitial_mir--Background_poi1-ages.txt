@@ -1,0 +1,27 @@
+# age_enrichment_analysis.py -l /Users/virpatel/Desktop/pub_stuff/relevant_data/time_tree_dates.txt /Users/virpatel/Desktop/pub_stuff/relevant_data/mirna2age_lst.txt /Users/virpatel/Desktop/pub_stuff/relevant_data/dis2mir_db/Cystitis,-Interstitial_mir.txt 2016-05-21 22:46:46.971884
+#
+# AGE_LABEL_FILE = /Users/virpatel/Desktop/pub_stuff/relevant_data/time_tree_dates.txt
+# PHYLO_PROFILE_FILE = None
+# POI1_NAME = Cystitis,-Interstitial_mir
+# POI2_NAME = Background
+# OUTPUT_NAME = mirna2age_lst--Cystitis,-Interstitial_mir--Background
+# OUTPUT_DIR = results/enrichment/mirna2age_lst--Cystitis,-Interstitial_mir--Background/
+#
+# MISSING_POI = error
+# MULTI_CORRECT = False
+# PLOT_TYPE = bar
+# SCALE_X = False
+#
+#protein	age	label
+hsa-mir-320a	97.4	Boreoeutheria
+hsa-mir-328	97.4	Boreoeutheria
+hsa-mir-320c-1	97.4	Boreoeutheria
+hsa-mir-320c-2	97.4	Boreoeutheria
+hsa-mir-320d-2	97.4	Boreoeutheria
+hsa-mir-320d-1	97.4	Boreoeutheria
+hsa-mir-500a	97.4	Boreoeutheria
+hsa-mir-320b-1	97.4	Boreoeutheria
+hsa-mir-320b-2	97.4	Boreoeutheria
+hsa-mir-449b	842.0	Deuterostomia
+hsa-mir-199a-1	535.7	Vertebrata
+hsa-mir-199a-2	535.7	Vertebrata

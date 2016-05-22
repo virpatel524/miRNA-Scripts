@@ -1,0 +1,33 @@
+# age_enrichment_analysis.py -l /Users/virpatel/Desktop/pub_stuff/relevant_data/time_tree_dates.txt /Users/virpatel/Desktop/pub_stuff/relevant_data/mirna2age_lst.txt /Users/virpatel/Desktop/pub_stuff/relevant_data/dis2mir_db/Coronary-Artery-Disease_mir.txt 2016-05-21 22:46:28.246584
+#
+# AGE_LABEL_FILE = /Users/virpatel/Desktop/pub_stuff/relevant_data/time_tree_dates.txt
+# PHYLO_PROFILE_FILE = None
+# POI1_NAME = Coronary-Artery-Disease_mir
+# POI2_NAME = Background
+# OUTPUT_NAME = mirna2age_lst--Coronary-Artery-Disease_mir--Background
+# OUTPUT_DIR = results/enrichment/mirna2age_lst--Coronary-Artery-Disease_mir--Background/
+#
+# MISSING_POI = error
+# MULTI_CORRECT = False
+# PLOT_TYPE = bar
+# SCALE_X = False
+#
+#protein	age	label
+hsa-mir-122	454.6	Euteleostomi
+hsa-mir-126	797.0	Chordata
+hsa-mir-198	44.2	Simiiformes
+hsa-mir-34a	910.0	Coelomata
+hsa-mir-340	97.4	Boreoeutheria
+hsa-mir-21	454.6	Euteleostomi
+hsa-mir-370	97.4	Boreoeutheria
+hsa-mir-181a-1	535.7	Vertebrata
+hsa-mir-92a-2	910.0	Coelomata
+hsa-mir-624	29.6	Catarrhini
+hsa-mir-196a-2	535.7	Vertebrata
+hsa-mir-92a-1	910.0	Coelomata
+hsa-mir-222	535.7	Vertebrata
+hsa-mir-221	535.7	Vertebrata
+hsa-mir-1-1	910.0	Coelomata
+hsa-mir-1-2	910.0	Coelomata
+hsa-mir-134	97.4	Boreoeutheria
+hsa-mir-130a	535.7	Vertebrata
