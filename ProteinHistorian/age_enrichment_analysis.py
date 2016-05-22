@@ -245,7 +245,10 @@ def make_age2label_dict(age_label_file, age2prot):
 
     if age_label_file != None and os.path.exists(age_label_file):
        alpha=list(csv.reader(open(age_label_file),delimiter='\t'))
-       print alpha
+       for clade in alpha:
+        if clade[0] == '#':
+            continue
+        print clade
 
 
 
