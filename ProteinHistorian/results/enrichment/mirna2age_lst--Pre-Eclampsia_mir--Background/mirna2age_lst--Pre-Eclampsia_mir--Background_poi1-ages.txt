@@ -1,0 +1,45 @@
+# age_enrichment_analysis.py -l /Users/virpatel/Desktop/pub_stuff/relevant_data/time_tree_dates.txt /Users/virpatel/Desktop/pub_stuff/relevant_data/mirna2age_lst.txt /Users/virpatel/Desktop/pub_stuff/relevant_data/dis2mir_db/Pre-Eclampsia_mir.txt 2016-05-21 23:01:40.886443
+#
+# AGE_LABEL_FILE = /Users/virpatel/Desktop/pub_stuff/relevant_data/time_tree_dates.txt
+# PHYLO_PROFILE_FILE = None
+# POI1_NAME = Pre-Eclampsia_mir
+# POI2_NAME = Background
+# OUTPUT_NAME = mirna2age_lst--Pre-Eclampsia_mir--Background
+# OUTPUT_DIR = results/enrichment/mirna2age_lst--Pre-Eclampsia_mir--Background/
+#
+# MISSING_POI = error
+# MULTI_CORRECT = False
+# PLOT_TYPE = bar
+# SCALE_X = False
+#
+#protein	age	label
+hsa-mir-325	97.4	Boreoeutheria
+hsa-mir-411	97.4	Boreoeutheria
+hsa-mir-29b-2	910.0	Coelomata
+hsa-mir-17	535.7	Vertebrata
+hsa-mir-342	97.4	Boreoeutheria
+hsa-mir-24-1	535.7	Vertebrata
+hsa-mir-26a-2	535.7	Vertebrata
+hsa-mir-26a-1	535.7	Vertebrata
+hsa-mir-182	910.0	Coelomata
+hsa-let-7b	910.0	Coelomata
+hsa-mir-133b	910.0	Coelomata
+hsa-mir-302f	361.2	Tetrapoda
+hsa-mir-302c	361.2	Tetrapoda
+hsa-mir-152	535.7	Vertebrata
+hsa-mir-155	454.6	Euteleostomi
+hsa-mir-20a	535.7	Vertebrata
+hsa-mir-21	454.6	Euteleostomi
+hsa-mir-130b	535.7	Vertebrata
+hsa-mir-181a-1	535.7	Vertebrata
+hsa-mir-210	910.0	Coelomata
+hsa-mir-574	97.4	Boreoeutheria
+hsa-mir-302e	15.7	Hominidae
+hsa-mir-302d	361.2	Tetrapoda
+hsa-mir-302b	361.2	Tetrapoda
+hsa-mir-302a	361.2	Tetrapoda
+hsa-mir-29b-1	910.0	Coelomata
+hsa-mir-20b	535.7	Vertebrata
+hsa-mir-128-1	535.7	Vertebrata
+hsa-mir-128-2	535.7	Vertebrata
+hsa-mir-518c	29.6	Catarrhini
