@@ -1,4 +1,4 @@
-# age_enrichment_analysis.py -l ../relevant_data/time_tree_dates.txt ../relevant_data/mirna2age_lst.txt ../relevant_data/mirdis_lst.txt 2016-05-21 22:09:48.082346
+# age_enrichment_analysis.py -l ../relevant_data/time_tree_dates.txt ../relevant_data/mirna2age_lst.txt ../relevant_data/mirdis_lst.txt 2016-05-21 22:11:43.211192
 #
 # AGE_LABEL_FILE = ../relevant_data/time_tree_dates.txt
 # PHYLO_PROFILE_FILE = None
@@ -16,22 +16,22 @@
 # Proteins in Background: 1025
 #
 # age	label	mirdis_lst	Background	p-value
-0.0	0.0	9	151	0.000
-6.1	6.1	9	51	0.000
-15.7	15.7	40	107	0.019
-29.6	29.6	97	239	0.006
-44.2	44.2	1	1	0.484
-89.1	89.1	6	13	1.000
-97.4	97.4	146	238	0.000
-176.1	176.1	3	8	0.727
-220.2	220.2	3	4	0.359
-324.5	324.5	3	9	0.508
-361.2	361.2	9	9	0.001
-454.6	454.6	20	29	0.036
-535.7	535.7	72	83	0.000
-797.0	797.0	7	7	0.006
-842.0	842.0	5	5	0.026
-910.0	910.0	66	71	0.000
+0.0	Homo	9	151	0.000
+6.1	Homininae	9	51	0.000
+15.7	Hominidae	40	107	0.019
+29.6	Catarrhini	97	239	0.006
+44.2	Simiiformes	1	1	0.484
+89.1	Euarchontoglires	6	13	1.000
+97.4	Boreoeutheria	146	238	0.000
+176.1	Theria	3	8	0.727
+220.2	Mammalia	3	4	0.359
+324.5	Amniota	3	9	0.508
+361.2	Tetrapoda	9	9	0.001
+454.6	Euteleostomi	20	29	0.036
+535.7	Vertebrata	72	83	0.000
+797.0	Chordata	7	7	0.006
+842.0	Deuterostomia	5	5	0.026
+910.0	Coelomata	66	71	0.000
 #
 # Mann-Whitney U test: U = 1.8e+05 (p = 2.45e-22)
 #
