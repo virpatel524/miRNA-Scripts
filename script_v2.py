@@ -246,9 +246,10 @@ def mir_num_dis_bin(mirna2disease, mirna2age, age2clade):
 
 
 
-def gen_dis_db(disease2mirna):
+def gen_dis_db(disease2mirna,mirna2age):
 	for dis in disease2mirna:
-		with open('relevant_data/dis2mir_db/%s_mir.txt' %(dis)) 
+		with open('relevant_data/dis2mir_db/%s_mir.txt' %(dis)) as cur_disfle:
+			for mir in disease2mirna[dis]
 
 
 	
@@ -290,7 +291,7 @@ def main():
 
 	mir_num_dis_bin(mirna2disease, mirna2age,age2clade)
 
-	gen_dis_db(disease2mirna)
+	gen_dis_db(disease2mirna, mirna2age)
 
 
 
