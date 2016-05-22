@@ -1,0 +1,42 @@
+# age_enrichment_analysis.py -l /Users/virpatel/Desktop/pub_stuff/relevant_data/time_tree_dates.txt /Users/virpatel/Desktop/pub_stuff/relevant_data/mirna2age_lst.txt /Users/virpatel/Desktop/pub_stuff/relevant_data/dis2mir_db/Lymphoma,-Large-Cell,-Anaplastic_mir.txt 2016-05-21 22:56:21.053827
+#
+# AGE_LABEL_FILE = /Users/virpatel/Desktop/pub_stuff/relevant_data/time_tree_dates.txt
+# PHYLO_PROFILE_FILE = None
+# POI1_NAME = Lymphoma,-Large-Cell,-Anaplastic_mir
+# POI2_NAME = Background
+# OUTPUT_NAME = mirna2age_lst--Lymphoma,-Large-Cell,-Anaplastic_mir--Background
+# OUTPUT_DIR = results/enrichment/mirna2age_lst--Lymphoma,-Large-Cell,-Anaplastic_mir--Background/
+#
+# MISSING_POI = error
+# MULTI_CORRECT = False
+# PLOT_TYPE = bar
+# SCALE_X = False
+#
+# Proteins in Lymphoma,-Large-Cell,-Anaplastic_mir: 11
+# Proteins in Background: 1025
+#
+# age	label	Lymphoma,-Large-Cell,-Anaplastic_mir	Background	p-value
+0.0	Homo	0	151	0.384
+6.1	Homininae	0	51	1.000
+15.7	Hominidae	0	107	0.617
+29.6	Catarrhini	0	239	0.077
+44.2	Simiiformes	0	1	1.000
+89.1	Euarchontoglires	0	13	1.000
+97.4	Boreoeutheria	0	238	0.077
+176.1	Theria	0	8	1.000
+220.2	Mammalia	0	4	1.000
+324.5	Amniota	0	9	1.000
+361.2	Tetrapoda	0	9	1.000
+454.6	Euteleostomi	3	29	0.003
+535.7	Vertebrata	6	83	0.000
+797.0	Chordata	0	7	1.000
+842.0	Deuterostomia	0	5	1.000
+910.0	Coelomata	2	71	0.174
+#
+# Mann-Whitney U test: U = 1.4e+03 (p = 5.43e-06)
+#
+# Average age of Lymphoma,-Large-Cell,-Anaplastic_mir: 581.6
+# Average age of Background: 169.7
+#
+# Median age of Lymphoma,-Large-Cell,-Anaplastic_mir: 535.7
+# Median age of Background: 29.6
