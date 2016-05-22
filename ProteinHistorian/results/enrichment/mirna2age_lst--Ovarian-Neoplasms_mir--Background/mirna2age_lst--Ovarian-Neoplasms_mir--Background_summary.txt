@@ -1,0 +1,42 @@
+# age_enrichment_analysis.py -l /Users/virpatel/Desktop/pub_stuff/relevant_data/time_tree_dates.txt /Users/virpatel/Desktop/pub_stuff/relevant_data/mirna2age_lst.txt /Users/virpatel/Desktop/pub_stuff/relevant_data/dis2mir_db/Ovarian-Neoplasms_mir.txt 2016-05-21 23:00:22.573855
+#
+# AGE_LABEL_FILE = /Users/virpatel/Desktop/pub_stuff/relevant_data/time_tree_dates.txt
+# PHYLO_PROFILE_FILE = None
+# POI1_NAME = Ovarian-Neoplasms_mir
+# POI2_NAME = Background
+# OUTPUT_NAME = mirna2age_lst--Ovarian-Neoplasms_mir--Background
+# OUTPUT_DIR = results/enrichment/mirna2age_lst--Ovarian-Neoplasms_mir--Background/
+#
+# MISSING_POI = error
+# MULTI_CORRECT = False
+# PLOT_TYPE = bar
+# SCALE_X = False
+#
+# Proteins in Ovarian-Neoplasms_mir: 123
+# Proteins in Background: 1025
+#
+# age	label	Ovarian-Neoplasms_mir	Background	p-value
+0.0	Homo	0	151	0.000
+6.1	Homininae	1	51	0.024
+15.7	Hominidae	1	107	0.000
+29.6	Catarrhini	4	239	0.000
+44.2	Simiiformes	0	1	1.000
+89.1	Euarchontoglires	0	13	0.385
+97.4	Boreoeutheria	15	238	0.001
+176.1	Theria	0	8	0.606
+220.2	Mammalia	0	4	1.000
+324.5	Amniota	0	9	0.610
+361.2	Tetrapoda	7	9	0.000
+454.6	Euteleostomi	9	29	0.005
+535.7	Vertebrata	37	83	0.000
+797.0	Chordata	2	7	0.201
+842.0	Deuterostomia	4	5	0.001
+910.0	Coelomata	43	71	0.000
+#
+# Mann-Whitney U test: U = 1.9e+04 (p = 2.07e-38)
+#
+# Average age of Ovarian-Neoplasms_mir: 586.5
+# Average age of Background: 169.7
+#
+# Median age of Ovarian-Neoplasms_mir: 535.7
+# Median age of Background: 29.6

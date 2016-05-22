@@ -1,0 +1,138 @@
+# age_enrichment_analysis.py -l /Users/virpatel/Desktop/pub_stuff/relevant_data/time_tree_dates.txt /Users/virpatel/Desktop/pub_stuff/relevant_data/mirna2age_lst.txt /Users/virpatel/Desktop/pub_stuff/relevant_data/dis2mir_db/Ovarian-Neoplasms_mir.txt 2016-05-21 23:00:22.573855
+#
+# AGE_LABEL_FILE = /Users/virpatel/Desktop/pub_stuff/relevant_data/time_tree_dates.txt
+# PHYLO_PROFILE_FILE = None
+# POI1_NAME = Ovarian-Neoplasms_mir
+# POI2_NAME = Background
+# OUTPUT_NAME = mirna2age_lst--Ovarian-Neoplasms_mir--Background
+# OUTPUT_DIR = results/enrichment/mirna2age_lst--Ovarian-Neoplasms_mir--Background/
+#
+# MISSING_POI = error
+# MULTI_CORRECT = False
+# PLOT_TYPE = bar
+# SCALE_X = False
+#
+#protein	age	label
+hsa-mir-126	797.0	Chordata
+hsa-mir-127	97.4	Boreoeutheria
+hsa-mir-19a	535.7	Vertebrata
+hsa-mir-125b-1	910.0	Coelomata
+hsa-mir-125b-2	910.0	Coelomata
+hsa-mir-488	97.4	Boreoeutheria
+hsa-let-7f-2	910.0	Coelomata
+hsa-mir-125a	910.0	Coelomata
+hsa-mir-191	361.2	Tetrapoda
+hsa-mir-192	535.7	Vertebrata
+hsa-mir-320a	97.4	Boreoeutheria
+hsa-mir-200b	910.0	Coelomata
+hsa-mir-200a	910.0	Coelomata
+hsa-mir-642a	29.6	Catarrhini
+hsa-mir-30a	535.7	Vertebrata
+hsa-mir-30b	535.7	Vertebrata
+hsa-mir-30d	535.7	Vertebrata
+hsa-mir-30e	535.7	Vertebrata
+hsa-mir-99a	910.0	Coelomata
+hsa-mir-29b-2	910.0	Coelomata
+hsa-mir-300	97.4	Boreoeutheria
+hsa-mir-193b	910.0	Coelomata
+hsa-mir-17	535.7	Vertebrata
+hsa-mir-376c	97.4	Boreoeutheria
+hsa-mir-145	535.7	Vertebrata
+hsa-mir-141	910.0	Coelomata
+hsa-mir-16-2	535.7	Vertebrata
+hsa-mir-34a	910.0	Coelomata
+hsa-mir-34b	910.0	Coelomata
+hsa-mir-34c	910.0	Coelomata
+hsa-mir-138-2	535.7	Vertebrata
+hsa-mir-138-1	535.7	Vertebrata
+hsa-mir-106b	535.7	Vertebrata
+hsa-mir-29a	910.0	Coelomata
+hsa-mir-296	97.4	Boreoeutheria
+hsa-mir-194-1	535.7	Vertebrata
+hsa-mir-194-2	535.7	Vertebrata
+hsa-mir-182	910.0	Coelomata
+hsa-mir-183	842.0	Deuterostomia
+hsa-mir-187	454.6	Euteleostomi
+hsa-mir-185	97.4	Boreoeutheria
+hsa-let-7b	910.0	Coelomata
+hsa-let-7c	910.0	Coelomata
+hsa-mir-383	361.2	Tetrapoda
+hsa-let-7g	910.0	Coelomata
+hsa-mir-542	97.4	Boreoeutheria
+hsa-mir-18a	535.7	Vertebrata
+hsa-let-7d	910.0	Coelomata
+hsa-mir-133b	910.0	Coelomata
+hsa-mir-335	97.4	Boreoeutheria
+hsa-mir-339	97.4	Boreoeutheria
+hsa-mir-338	454.6	Euteleostomi
+hsa-mir-302c	361.2	Tetrapoda
+hsa-mir-152	535.7	Vertebrata
+hsa-mir-155	454.6	Euteleostomi
+hsa-mir-20a	535.7	Vertebrata
+hsa-mir-153-2	910.0	Coelomata
+hsa-mir-181d	535.7	Vertebrata
+hsa-mir-21	454.6	Euteleostomi
+hsa-mir-22	842.0	Deuterostomia
+hsa-mir-30c-2	535.7	Vertebrata
+hsa-mir-30c-1	535.7	Vertebrata
+hsa-mir-502	97.4	Boreoeutheria
+hsa-mir-516a-1	29.6	Catarrhini
+hsa-mir-146b	535.7	Vertebrata
+hsa-mir-449b	842.0	Deuterostomia
+hsa-mir-449a	842.0	Deuterostomia
+hsa-mir-370	97.4	Boreoeutheria
+hsa-mir-375	910.0	Coelomata
+hsa-mir-214	454.6	Euteleostomi
+hsa-mir-215	535.7	Vertebrata
+hsa-mir-92b	910.0	Coelomata
+hsa-mir-100	910.0	Coelomata
+hsa-mir-302d	361.2	Tetrapoda
+hsa-mir-10b	910.0	Coelomata
+hsa-mir-16-1	535.7	Vertebrata
+hsa-mir-92a-2	910.0	Coelomata
+hsa-mir-302b	361.2	Tetrapoda
+hsa-mir-1299	15.7	Hominidae
+hsa-mir-101-1	454.6	Euteleostomi
+hsa-mir-625	29.6	Catarrhini
+hsa-mir-302a	361.2	Tetrapoda
+hsa-mir-433	97.4	Boreoeutheria
+hsa-mir-532	97.4	Boreoeutheria
+hsa-mir-9-1	910.0	Coelomata
+hsa-mir-29b-1	910.0	Coelomata
+hsa-mir-200c	910.0	Coelomata
+hsa-mir-99b	910.0	Coelomata
+hsa-mir-92a-1	910.0	Coelomata
+hsa-mir-20b	535.7	Vertebrata
+hsa-mir-140	454.6	Euteleostomi
+hsa-mir-224	97.4	Boreoeutheria
+hsa-mir-223	454.6	Euteleostomi
+hsa-mir-221	535.7	Vertebrata
+hsa-mir-25	910.0	Coelomata
+hsa-mir-1-1	910.0	Coelomata
+hsa-mir-101-2	454.6	Euteleostomi
+hsa-mir-128-1	535.7	Vertebrata
+hsa-mir-128-2	535.7	Vertebrata
+hsa-mir-31	910.0	Coelomata
+hsa-mir-19b-1	535.7	Vertebrata
+hsa-mir-218-1	535.7	Vertebrata
+hsa-mir-367	361.2	Tetrapoda
+hsa-let-7a-2	910.0	Coelomata
+hsa-let-7a-3	910.0	Coelomata
+hsa-let-7a-1	910.0	Coelomata
+hsa-mir-27a	535.7	Vertebrata
+hsa-mir-133a-1	910.0	Coelomata
+hsa-mir-133a-2	910.0	Coelomata
+hsa-mir-130a	535.7	Vertebrata
+hsa-let-7i	910.0	Coelomata
+hsa-let-7e	910.0	Coelomata
+hsa-mir-516a-2	29.6	Catarrhini
+hsa-mir-93	535.7	Vertebrata
+hsa-mir-96	910.0	Coelomata
+hsa-mir-135b	797.0	Chordata
+hsa-mir-148b	535.7	Vertebrata
+hsa-mir-148a	535.7	Vertebrata
+hsa-mir-629	6.1	Homininae
+hsa-mir-199a-1	535.7	Vertebrata
+hsa-mir-199a-2	535.7	Vertebrata
+hsa-let-7f-1	910.0	Coelomata
+hsa-mir-146a	535.7	Vertebrata
