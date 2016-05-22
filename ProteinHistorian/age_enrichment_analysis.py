@@ -248,7 +248,7 @@ def make_age2label_dict(age_label_file, age2prot):
        for clade in alpha:
         if clade[0] == '#':
             continue
-        print clade
+        age2label[float(clade[-1])] = clade[0]
 
 
 
