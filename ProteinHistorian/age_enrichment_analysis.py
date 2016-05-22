@@ -691,6 +691,7 @@ def main():
     outfn = '%s%s_poi1-ages.txt' % (OUTPUT_DIR, OUTPUT_NAME)
     outfile = open(outfn, 'w')
     if not WEB: print 'wtf %s...' % outfn
+    if not WEB: print age2label
     outfile.write(PREAMBLE)
     outfile.write('#protein\tage%s\n' % ('\tlabel' if AGE_LABEL_FILE else ''))
     for i, prot in enumerate(poi1_names):
