@@ -1,0 +1,67 @@
+# age_enrichment_analysis.py -l /Users/virpatel/Desktop/pub_stuff/relevant_data/time_tree_dates.txt /Users/virpatel/Desktop/pub_stuff/relevant_data/mirna2age_lst.txt /Users/virpatel/Desktop/pub_stuff/relevant_data/dis2mir_db/Thyroid-Neoplasms_mir.txt 2016-05-21 23:05:16.656926
+#
+# AGE_LABEL_FILE = /Users/virpatel/Desktop/pub_stuff/relevant_data/time_tree_dates.txt
+# PHYLO_PROFILE_FILE = None
+# POI1_NAME = Thyroid-Neoplasms_mir
+# POI2_NAME = Background
+# OUTPUT_NAME = mirna2age_lst--Thyroid-Neoplasms_mir--Background
+# OUTPUT_DIR = results/enrichment/mirna2age_lst--Thyroid-Neoplasms_mir--Background/
+#
+# MISSING_POI = error
+# MULTI_CORRECT = False
+# PLOT_TYPE = bar
+# SCALE_X = False
+#
+#protein	age	label
+hsa-mir-7-2	910.0	Coelomata
+hsa-mir-122	454.6	Euteleostomi
+hsa-mir-126	797.0	Chordata
+hsa-mir-127	97.4	Boreoeutheria
+hsa-mir-125b-1	910.0	Coelomata
+hsa-mir-125b-2	910.0	Coelomata
+hsa-mir-197	97.4	Boreoeutheria
+hsa-mir-191	361.2	Tetrapoda
+hsa-mir-200b	910.0	Coelomata
+hsa-mir-200a	910.0	Coelomata
+hsa-mir-30d	535.7	Vertebrata
+hsa-mir-129-1	797.0	Chordata
+hsa-mir-141	910.0	Coelomata
+hsa-mir-34b	910.0	Coelomata
+hsa-mir-138-2	535.7	Vertebrata
+hsa-mir-138-1	535.7	Vertebrata
+hsa-mir-328	97.4	Boreoeutheria
+hsa-mir-183	842.0	Deuterostomia
+hsa-mir-133b	910.0	Coelomata
+hsa-mir-155	454.6	Euteleostomi
+hsa-mir-21	454.6	Euteleostomi
+hsa-mir-22	842.0	Deuterostomia
+hsa-mir-146b	535.7	Vertebrata
+hsa-mir-154	97.4	Boreoeutheria
+hsa-mir-370	97.4	Boreoeutheria
+hsa-mir-375	910.0	Coelomata
+hsa-mir-181a-1	535.7	Vertebrata
+hsa-mir-100	910.0	Coelomata
+hsa-mir-10b	910.0	Coelomata
+hsa-mir-92a-2	910.0	Coelomata
+hsa-mir-302b	361.2	Tetrapoda
+hsa-mir-218-2	535.7	Vertebrata
+hsa-mir-9-1	910.0	Coelomata
+hsa-mir-9-3	910.0	Coelomata
+hsa-mir-7-3	910.0	Coelomata
+hsa-mir-7-1	910.0	Coelomata
+hsa-mir-200c	910.0	Coelomata
+hsa-mir-92a-1	910.0	Coelomata
+hsa-mir-144	535.7	Vertebrata
+hsa-mir-222	535.7	Vertebrata
+hsa-mir-221	535.7	Vertebrata
+hsa-mir-25	910.0	Coelomata
+hsa-mir-1-1	910.0	Coelomata
+hsa-mir-1-2	910.0	Coelomata
+hsa-mir-31	910.0	Coelomata
+hsa-mir-323b	97.4	Boreoeutheria
+hsa-mir-130a	535.7	Vertebrata
+hsa-let-7e	910.0	Coelomata
+hsa-mir-199b	535.7	Vertebrata
+hsa-mir-129-2	797.0	Chordata
+hsa-mir-9-2	910.0	Coelomata
+hsa-mir-146a	535.7	Vertebrata
