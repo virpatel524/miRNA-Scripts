@@ -232,6 +232,13 @@ def mir_num_dis_bin(mirna2disease, mirna2age, age2clade):
 	plt.close()
 
 
+	with open('mirna2age_lst.txt','w') as mir_fle:
+		for mir in mirna2age:
+			mir_fle.write('%s %.1f\n' %(mir, mirna2age[mir]))
+
+	
+
+
 
 
 
