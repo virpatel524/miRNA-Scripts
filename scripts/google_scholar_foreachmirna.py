@@ -60,7 +60,7 @@ with open('/Users/virpatel/Desktop/pub_stuff/relevant_data/scholar_hits.txt','w'
 		reg_return = re.findall(r'\d+ results',page)
 		if len(reg_return) == 0:
 			scholar_txt.write(i + '\t' + str(0) + '\n')
-			time.sleep(random.randint(10,15))
+			time.sleep(random.randint(0,5))
 			datalst.append([i,str(0)])
 			continue
 
