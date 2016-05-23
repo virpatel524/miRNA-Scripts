@@ -36,12 +36,11 @@ with open('/Users/virpatel/Desktop/pub_stuff/relevant_data/scholar_hits.txt','w'
 		priv = True
 
 		while priv:
-			try:
-				page = requests.get(site,proxies=random.choice(proxy_lst))
-				print page.text()
-			except:
-				print 'lol'
-				continue
+			# try:
+			page = requests.get(site,proxies=random.choice(proxy_lst))
+			# except:
+			# 	print 'lol'
+			# 	continue
 			page = page.text
 			print page
 			if 'Privoxy' in page:
@@ -63,7 +62,6 @@ with open('/Users/virpatel/Desktop/pub_stuff/relevant_data/scholar_hits.txt','w'
 		if len(reg_return) == 0:
 			print page
 			scholar_txt.write(i + '\t' + str(0) + '\n')
-			time.sleep(random.randint(0,5))
 			datalst.append([i,str(0)])
 			continue
 
@@ -73,7 +71,6 @@ with open('/Users/virpatel/Desktop/pub_stuff/relevant_data/scholar_hits.txt','w'
 
 		scholar_txt.write(i + '\t' + found + '\n')
 
-		time.sleep(random.randint(0,5))
 
 
 
