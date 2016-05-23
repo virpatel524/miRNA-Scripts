@@ -35,14 +35,17 @@ with open('/Users/virpatel/Desktop/pub_stuff/relevant_data/scholar_hits.txt','w'
 		       'Accept-Encoding': 'none',
 		       'Accept-Language': 'en-US,en;q=0.8'}
 
-		priv = False
+		priv = True
 
-		while priv == False:
-			page = requests.get(site,proxies=random.choice(proxy_lst))
+		while priv == True:
+			try:
+				page = requests.get(site,proxies=random.choice(proxy_lst))
+			except:
+				continue
 			page = page.text
 			print page
 			if 'Internal Privoxy Error' in page:
-				priv = True
+				continue
 			else:
 				priv = False
 
