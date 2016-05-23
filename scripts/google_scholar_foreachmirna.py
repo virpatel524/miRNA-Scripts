@@ -35,7 +35,7 @@ with open('/Users/virpatel/Desktop/pub_stuff/relevant_data/scholar_hits.txt','w'
 		       'Accept-Encoding': 'none',
 		       'Accept-Language': 'en-US,en;q=0.8'}
 
-		page = requests.get(site,random.choice(proxy_lst))
+		page = requests.get(site,proxies=random.choice(proxy_lst))
 		page = page.text
 
 
