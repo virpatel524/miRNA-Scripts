@@ -27,8 +27,7 @@ with open('/Users/virpatel/Desktop/pub_stuff/relevant_data/scholar_hits.txt','w'
 		       'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
 		       'Accept-Charset': 'ISO-8859-1,utf-8;q=0.7,*;q=0.3',
 		       'Accept-Encoding': 'none',
-		       'Accept-Language': 'en-US,en;q=0.8',
-		       'Connection': 'keep-alive'}
+		       'Accept-Language': 'en-US,en;q=0.8'}
 
 		page = requests.get(site)
 		page = page.text
@@ -54,7 +53,7 @@ with open('/Users/virpatel/Desktop/pub_stuff/relevant_data/scholar_hits.txt','w'
 
 		scholar_txt.write(i + '\t' + found + '\n')
 
-		time.sleep(random.randint(10,15))
+		time.sleep(random.randint(50,60))
 
 
 
