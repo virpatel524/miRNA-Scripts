@@ -35,8 +35,17 @@ with open('/Users/virpatel/Desktop/pub_stuff/relevant_data/scholar_hits.txt','w'
 		       'Accept-Encoding': 'none',
 		       'Accept-Language': 'en-US,en;q=0.8'}
 
-		page = requests.get(site,proxies=random.choice(proxy_lst))
-		page = page.text
+		priv = False
+
+		while priv == False:
+			page = requests.get(site,proxies=random.choice(proxy_lst))
+			page = page.text
+			print page
+			if 'Internal Privoxy Error' in page:
+				priv = True
+			else:
+				priv = False
+
 
 
 
@@ -47,7 +56,6 @@ with open('/Users/virpatel/Desktop/pub_stuff/relevant_data/scholar_hits.txt','w'
 
 		reg_return = re.findall(r'\d+ results',page)
 		if len(reg_return) == 0:
-			print page
 			scholar_txt.write(i + '\t' + str(0) + '\n')
 			time.sleep(random.randint(10,15))
 			datalst.append([i,str(0)])
