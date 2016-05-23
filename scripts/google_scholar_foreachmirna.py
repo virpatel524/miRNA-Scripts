@@ -10,6 +10,14 @@ import random
 import re
 
 
+proxies = {
+  'http': '60.191.153.12:3128',
+  'https': '41.220.28.138:8080',
+}
+
+
+
+
 with open(sys.argv[-1],'r') as fle:
 	data = [alpha[0] for alpha in list(csv.reader(fle,delimiter='\t'))]
 
@@ -29,7 +37,7 @@ with open('/Users/virpatel/Desktop/pub_stuff/relevant_data/scholar_hits.txt','w'
 		       'Accept-Encoding': 'none',
 		       'Accept-Language': 'en-US,en;q=0.8'}
 
-		page = requests.get(site)
+		page = requests.get(site,proxies=proxies)
 		page = page.text
 
 
