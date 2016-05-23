@@ -41,6 +41,7 @@ with open('/Users/virpatel/Desktop/pub_stuff/relevant_data/scholar_hits.txt','w'
 				page = requests.get(site,proxies=random.choice(proxy_lst))
 				print page.text()
 			except:
+				print 'lol'
 				continue
 			page = page.text
 			print page
