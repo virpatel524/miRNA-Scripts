@@ -44,7 +44,9 @@ with open('/Users/virpatel/Desktop/pub_stuff/relevant_data/scholar_hits.txt','w'
 				continue
 			page = page.text
 			print page
-			if 'Internal Privoxy Error' in page:
+			if 'Privoxy' in page:
+				continue
+			if 'detected unusual traffic' in page:
 				continue
 			else:
 				priv = False
