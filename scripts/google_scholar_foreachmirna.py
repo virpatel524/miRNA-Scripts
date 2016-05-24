@@ -61,13 +61,13 @@ with open('/Users/virpatel/Desktop/pub_stuff/relevant_data/scholar_hits.txt','w'
 
 
 		driver = webdriver.Firefox()
-    	driver.wait = WebDriverWait(driver, random.randint(15,20))
-    	driver.get(site)
-    	page = driver.page_source
-    	print page
+		driver.wait = WebDriverWait(driver, random.randint(15,20))
+		driver.get(site)
+		page = driver.page_source
+		print page
 
-    	if 'include citations' in page: priv = False
-    	
+		if 'include citations' in page: priv = False
+		
 		time.sleep(random.randint(10,15))
 
 
