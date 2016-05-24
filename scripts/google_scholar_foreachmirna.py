@@ -8,6 +8,8 @@ import sys, os, string
 import requests
 import random
 import re
+import traceback
+
 
 
 proxy_lst = [{'http': '218.205.17.75:80'}, {'http': '178.155.14.10:8080'}, {'http': '104.236.48.178:8080'}, {'http': '218.205.17.78:80'}, {'http': '216.251.125.103:80'}, {'http': '221.178.181.125:80'}, {'http': '117.21.182.109:80'}, {'http': '203.66.159.45:3128'}, {'http': '203.66.159.44:3128'}, {'http': '203.223.143.51:8080'}, {'http': '112.16.87.160:8003'}, {'http': '112.65.200.211:80'}, {'http': '218.205.17.66:80'}, {'http': '120.52.72.24:80'}, {'http': '107.151.152.218:80'}, {'http': '120.52.72.59:80'}, {'http': '111.56.13.168:80'}, {'http': '221.178.181.250:80'}, {'http': '14.18.236.99:80'}, {'http': '202.100.167.145:80'}, {'http': '24.148.100.200:8080'}, {'http': '221.181.244.118:80'}, {'http': '221.178.181.193:80'}, {'http': '111.56.13.174:80'}, {'http': '117.135.157.188:80'}]
@@ -36,11 +38,11 @@ with open('/Users/virpatel/Desktop/pub_stuff/relevant_data/scholar_hits.txt','w'
 		priv = True
 
 		while priv:
-			# try:
-			page = requests.get(site,proxies=random.choice(proxy_lst))
-			# except:
-			# 	print 'lol'
-			# 	continue
+			try:
+				page = requests.get(site,proxies=random.choice(proxy_lst))
+			except Exception, e:
+				traceback.print_exc()
+				continue
 			page = page.text
 			print page
 			if 'Privoxy' in page:
