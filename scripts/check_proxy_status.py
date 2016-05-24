@@ -18,7 +18,7 @@ def is_bad_proxy(pip):
     return False
 
 def main():
-    socket.setdefaulttimeout(120)
+    socket.setdefaulttimeout(20)
 
     # two sample proxy IPs
     proxyList = ['125.76.226.9:80', '213.55.87.162:6588']
