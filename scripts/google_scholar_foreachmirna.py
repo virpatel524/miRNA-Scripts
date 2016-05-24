@@ -35,39 +35,29 @@ with open('/Users/virpatel/Desktop/pub_stuff/relevant_data/scholar_hits.txt','w'
 
 		site = 'https://scholar.google.com/scholar?as_vis=1&q="%s"+&hl=en&as_sdt=1,18' %(i)
 
-		# hdr = {'User-Agent': 'Mozilla/5.0 (X11; U; Linux i686) Gecko/20071127 Firefox/2.0.0.11',
-		#        'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
-		#        'Accept-Charset': 'ISO-8859-1,utf-8;q=0.7,*;q=0.3',
-		#        'Accept-Encoding': 'none',
-		#        'Accept-Language': 'en-US,en;q=0.8'}
+		hdr = {'User-Agent': 'Camino 8.723',
+		       'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+		       'Accept-Charset': 'ISO-8859-1,utf-8;q=0.7,*;q=0.3',
+		       'Accept-Encoding': 'none',
+		       'Accept-Language': 'en-US,en;q=0.8'}
 
-		# priv = True
+		priv = True
 
-		# while priv:
-		# 	if len(proxy_lst) < 10:
-		# 		print 'oh god.....'
-		# 	prox = random.choice(proxy_lst)
-		# 	try:
-		# 		page = requests.get(site,proxies=random.choice(proxy_lst))
-		# 		page = page.text
+		while priv:
+			if len(proxy_lst) < 10:
+				print 'oh god.....'
+			prox = random.choice(proxy_lst)
+			try:
+				page = requests.get(site,headers=hdr)
+				page = page.text
 
-		# 	except Exception, e:
-		# 		del proxy_lst[proxy_lst.index(prox)]
-		# 		continue
-
-
+			except Exception, e:
+				del proxy_lst[proxy_lst.index(prox)]
+				continue
 
 
-		time.sleep(random.randint(10,15))
 
-
-		driver = webdriver.Firefox()
-		driver.wait = WebDriverWait(driver, random.randint(15,20))
-		driver.get(site)
-		page = driver.page_source
-		print page
-
-		if 'include citations' in page: priv = False
+			if 'include citations' in page: priv = False
 		
 
 
