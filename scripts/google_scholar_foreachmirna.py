@@ -41,19 +41,23 @@ with open('/Users/virpatel/Desktop/pub_stuff/relevant_data/scholar_hits.txt','w'
 		#        'Accept-Encoding': 'none',
 		#        'Accept-Language': 'en-US,en;q=0.8'}
 
-		priv = True
+		# priv = True
 
-		while priv:
-			if len(proxy_lst) < 10:
-				print 'oh god.....'
-			prox = random.choice(proxy_lst)
-			try:
-				page = requests.get(site,proxies=random.choice(proxy_lst))
-				page = page.text
+		# while priv:
+		# 	if len(proxy_lst) < 10:
+		# 		print 'oh god.....'
+		# 	prox = random.choice(proxy_lst)
+		# 	try:
+		# 		page = requests.get(site,proxies=random.choice(proxy_lst))
+		# 		page = page.text
 
-			except Exception, e:
-				del proxy_lst[proxy_lst.index(prox)]
-				continue
+		# 	except Exception, e:
+		# 		del proxy_lst[proxy_lst.index(prox)]
+		# 		continue
+
+
+
+
 
 
 		driver = webdriver.Firefox()
@@ -62,12 +66,9 @@ with open('/Users/virpatel/Desktop/pub_stuff/relevant_data/scholar_hits.txt','w'
     	page = driver.page_source
     	print page
 
-
-		if 'include citations' in page:
-			priv = False
-
+    	if 'include citations' in page: priv = False
+    	
 		time.sleep(random.randint(10,15))
-
 
 
 
