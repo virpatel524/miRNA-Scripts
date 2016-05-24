@@ -57,7 +57,7 @@ with open('/Users/virpatel/Desktop/pub_stuff/relevant_data/scholar_hits.txt','w'
 
 
 
-
+		print i
 		print re.findall("(\d+) citations", page)
 	
 
