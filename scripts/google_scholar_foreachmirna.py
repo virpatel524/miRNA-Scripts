@@ -58,6 +58,7 @@ with open('/Users/virpatel/Desktop/pub_stuff/relevant_data/scholar_hits.txt','w'
 
 
 
+		time.sleep(random.randint(10,15))
 
 
 		driver = webdriver.Firefox()
@@ -68,7 +69,6 @@ with open('/Users/virpatel/Desktop/pub_stuff/relevant_data/scholar_hits.txt','w'
 
 		if 'include citations' in page: priv = False
 		
-		time.sleep(random.randint(10,15))
 
 
 
