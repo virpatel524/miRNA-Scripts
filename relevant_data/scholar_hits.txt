@@ -1,0 +1,4 @@
+hsa-mir-1322	0
+hsa-mir-1323	0
+hsa-mir-3193	0
+hsa-mir-3192	0
