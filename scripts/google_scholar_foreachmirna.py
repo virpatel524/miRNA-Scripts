@@ -58,8 +58,7 @@ with open('/Users/virpatel/Desktop/pub_stuff/relevant_data/scholar_hits.txt','w'
 
 
 
-		m = re.search('(.+?) citations', page).group(0)
-		print m
+		print re.findall("(\d+) citations", page)
 	
 
 
