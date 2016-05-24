@@ -50,6 +50,7 @@ with open('/Users/virpatel/Desktop/pub_stuff/relevant_data/scholar_hits.txt','w'
 			try:
 				page = requests.get(site,headers=hdr)
 				page = page.text
+				print page
 
 			except Exception, e:
 				del proxy_lst[proxy_lst.index(prox)]
