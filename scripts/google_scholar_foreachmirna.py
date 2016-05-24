@@ -35,7 +35,7 @@ with open('/Users/virpatel/Desktop/pub_stuff/relevant_data/scholar_hits.txt','w'
 
 		site = 'https://scholar.google.com/scholar?as_vis=1&q="%s"+&hl=en&as_sdt=1,18' %(i)
 
-		hdr = {'User-Agent': 'Camino 8.723',
+		hdr = {'User-Agent': 'Mozilla/5.0 (Windows; U; WinNT; en; rv:1.0.2) Gecko/20030311 Beonex/0.8.2-stable',
 		       'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
 		       'Accept-Charset': 'ISO-8859-1,utf-8;q=0.7,*;q=0.3',
 		       'Accept-Encoding': 'none',
@@ -44,9 +44,7 @@ with open('/Users/virpatel/Desktop/pub_stuff/relevant_data/scholar_hits.txt','w'
 		priv = True
 
 		while priv:
-			if len(proxy_lst) < 10:
-				print 'oh god.....'
-			prox = random.choice(proxy_lst)
+			time.sleep(random.randint(15,60))
 			try:
 				page = requests.get(site,headers=hdr)
 				page = page.text
