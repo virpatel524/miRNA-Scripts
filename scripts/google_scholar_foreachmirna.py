@@ -43,21 +43,18 @@ with open('/Users/virpatel/Desktop/pub_stuff/relevant_data/scholar_hits.txt','w'
 
 		priv = True
 
-		while priv:
-			time.sleep(random.randint(15,60))
-			try:
-				page = requests.get(site,headers=hdr)
-				page = page.text
-				print page
 
-			except Exception, e:
-				del proxy_lst[proxy_lst.index(prox)]
-				continue
+		page = requests.get(site,headers=hdr)
+		page = page.text
+		print page
 
 
 
-			if 'include citations' in page: priv = False
-		
+		if 'Summary' not in page:
+			datalst.append(['0',found])
+
+
+
 
 
 
@@ -65,7 +62,8 @@ with open('/Users/virpatel/Desktop/pub_stuff/relevant_data/scholar_hits.txt','w'
 	
 		# found = m.group(1)
 
-		reg_return = re.findall(r'\d+ results',page)
+		reg_return = re.search('\((.*?)\ citations)',page).group(1)
+		print reg_return
 		if len(reg_return) == 0:
 			print page
 			scholar_txt.write(i + '\t' + str(0) + '\n')
