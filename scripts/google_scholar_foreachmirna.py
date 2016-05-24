@@ -66,6 +66,7 @@ with open('/Users/virpatel/Desktop/pub_stuff/relevant_data/scholar_hits.txt','w'
 		found = str(reg_return[0]).split(' ')[0]
 		datalst.append([i,found])
 		print datalst
+		new_fle.write('%s\t%s\n' %(i, found))
 
 		scholar_txt.write(i + '\t' + found + '\n')
 
@@ -78,8 +79,7 @@ with open('/Users/virpatel/Desktop/pub_stuff/relevant_data/scholar_hits.txt','w'
 
 
 
-
-
+new_fle.close()
 
 
 

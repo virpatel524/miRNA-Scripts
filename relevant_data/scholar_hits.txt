@@ -1,3 +1,0 @@
-hsa-mir-1322	19
-hsa-mir-1323	41
-hsa-mir-3193	5
