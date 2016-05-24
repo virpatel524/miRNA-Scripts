@@ -38,11 +38,12 @@ with open('/Users/virpatel/Desktop/pub_stuff/relevant_data/scholar_hits.txt','w'
 		priv = True
 
 		while priv:
+			prox = random.choice(proxy_lst)
 			try:
 				page = requests.get(site,proxies=random.choice(proxy_lst))
 				page = page.text
 			except Exception, e:
-				traceback.print_exc()
+				del proxy_lst[proxy_lst.index(prox)]
 				continue
 
 			if 'include citations' in page:
