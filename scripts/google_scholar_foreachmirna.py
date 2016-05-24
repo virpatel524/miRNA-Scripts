@@ -46,7 +46,6 @@ with open('/Users/virpatel/Desktop/pub_stuff/relevant_data/scholar_hits.txt','w'
 
 		page = requests.get(site,headers=hdr)
 		page = page.text
-		print page
 
 
 
@@ -59,22 +58,17 @@ with open('/Users/virpatel/Desktop/pub_stuff/relevant_data/scholar_hits.txt','w'
 
 
 
-		m = re.search(' (.+?) citations', page)
+		m = re.search(' .+?) citations', page).group(0)
 		print m
 	
 
-		if len(reg_return) == 0:
-			print page
-			scholar_txt.write(i + '\t' + str(0) + '\n')
-			datalst.append([i,str(0)])
-			continue
 
-		found = str(reg_return[0]).split(' ')[0]
-		datalst.append([i,found])
-		print datalst
-		new_fle.write('%s\t%s\n' %(i, found))
+		# found = str(reg_return[0]).split(' ')[0]
+		# datalst.append([i,found])
+		# print datalst
+		# new_fle.write('%s\t%s\n' %(i, found))
 
-		scholar_txt.write(i + '\t' + found + '\n')
+		# scholar_txt.write(i + '\t' + found + '\n')
 
 
 
