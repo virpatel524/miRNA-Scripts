@@ -43,15 +43,7 @@ with open('/Users/virpatel/Desktop/pub_stuff/relevant_data/scholar_hits.txt','w'
 			except Exception, e:
 				traceback.print_exc()
 				continue
-			page = page.text
-			print page
-			if 'Privoxy' in page:
-				continue
-			if 'detected unusual traffic' in page:
-				continue
-			if 'The requested URL could not be retrieved' in page:
-				continue
-			else:
+			if 'include citations' in page:
 				priv = False
 
 
