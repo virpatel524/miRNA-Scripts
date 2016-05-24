@@ -10,7 +10,7 @@ import random
 import re
 
 
-proxy_lst = [{'http': '200.149.232.32:8080'}]
+proxy_lst = [{'https': '200.149.232.32:8080'}]
 with open(sys.argv[-1],'r') as fle:
 	data = [alpha[0] for alpha in list(csv.reader(fle,delimiter='\t'))]
 
@@ -23,7 +23,7 @@ with open('/Users/virpatel/Desktop/pub_stuff/relevant_data/scholar_hits.txt','w'
 
 
 
-		site = 'http://scholar.google.com/scholar?as_vis=1&q="%s"+&hl=en&as_sdt=1,18' %(i)
+		site = 'https://scholar.google.com/scholar?as_vis=1&q="%s"+&hl=en&as_sdt=1,18' %(i)
 		print site
 
 		hdr = {'User-Agent': 'Mozilla/5.0 (X11; U; Linux i686) Gecko/20071127 Firefox/2.0.0.11',
