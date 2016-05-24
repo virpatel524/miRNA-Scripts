@@ -41,6 +41,7 @@ with open('/Users/virpatel/Desktop/pub_stuff/relevant_data/scholar_hits.txt','w'
 			except Exception, e:
 				traceback.print_exc()
 				continue
+			print page
 			if 'include citations' in page:
 				priv = False
 
