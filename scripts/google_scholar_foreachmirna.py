@@ -10,7 +10,7 @@ import random
 import re
 
 
-proxy_lst = [{'http': '198.199.73.125:8118'}]
+proxy_lst = [{'http': '62.210.109.20:3128'}]
 with open(sys.argv[-1],'r') as fle:
 	data = [alpha[0] for alpha in list(csv.reader(fle,delimiter='\t'))]
 
