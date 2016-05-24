@@ -52,6 +52,7 @@ with open('/Users/virpatel/Desktop/pub_stuff/relevant_data/scholar_hits.txt','w'
 
 		if 'Summary' not in page:
 			datalst.append(['0',found])
+			continue
 
 
 
@@ -59,6 +60,7 @@ with open('/Users/virpatel/Desktop/pub_stuff/relevant_data/scholar_hits.txt','w'
 
 
 		m = re.search(' (.+?) citations', page)
+		print m
 	
 
 		if len(reg_return) == 0:
