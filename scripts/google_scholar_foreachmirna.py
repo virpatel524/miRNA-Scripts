@@ -16,6 +16,8 @@ with open(sys.argv[-1],'r') as fle:
 	data = [alpha[0] for alpha in list(csv.reader(fle,delimiter='\t'))]
 
 
+new_fle = open('test_scholar.txt','w')
+
 datalst = []
 
 with open('/Users/virpatel/Desktop/pub_stuff/relevant_data/scholar_hits.txt','w') as scholar_txt:
