@@ -253,6 +253,7 @@ def gen_dis_db(disease2mirna,mirna2age):
 			for mir in disease2mirna[dis]:
 				if mir in mirna2age:
 					cur_disfle.write('%s\n' %(mir))
+					
 
 
 
