@@ -58,12 +58,9 @@ with open('/Users/virpatel/Desktop/pub_stuff/relevant_data/scholar_hits.txt','w'
 
 
 
-		# m = re.search(' (.+?) results', page)
+		m = re.search(' (.+?) citations', page)
 	
-		# found = m.group(1)
 
-		reg_return = re.search('\((.*?)\ citations)',page).group(1)
-		print reg_return
 		if len(reg_return) == 0:
 			print page
 			scholar_txt.write(i + '\t' + str(0) + '\n')
