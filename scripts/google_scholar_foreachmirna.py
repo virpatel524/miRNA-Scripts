@@ -49,6 +49,8 @@ with open('/Users/virpatel/Desktop/pub_stuff/relevant_data/scholar_hits.txt','w'
 				continue
 			if 'detected unusual traffic' in page:
 				continue
+			if 'The requested URL could not be retrieved' in page:
+				continue
 			else:
 				priv = False
 
