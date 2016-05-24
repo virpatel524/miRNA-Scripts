@@ -43,6 +43,7 @@ with open('/Users/virpatel/Desktop/pub_stuff/relevant_data/scholar_hits.txt','w'
 			try:
 				page = requests.get(site,proxies=random.choice(proxy_lst))
 				page = page.text
+				time.sleep(random.randint(10,15))
 			except Exception, e:
 				del proxy_lst[proxy_lst.index(prox)]
 				continue
