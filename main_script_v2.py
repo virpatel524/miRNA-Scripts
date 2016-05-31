@@ -273,7 +273,7 @@ def generate_disease_vector(dislst, mirna2disease_element):
 
 	
 def family_homogenity(human_mirlst, mirna2disease, mirna2age):
-	all_mir_vector_df = ''
+	all_mir_vector_df = pd.DataFrame()
 
 	dislst = get_list_of_diseases(mirna2disease)
 
