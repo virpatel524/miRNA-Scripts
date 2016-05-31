@@ -273,13 +273,16 @@ def generate_disease_vector(dislst, mirna2disease_element):
 
 	
 def family_homogenity(human_mirlst, mirna2disease, mirna2age):
+	all_mir_vector_df = ''
+
 	dislst = get_list_of_diseases(mirna2disease)
 
 	all_fam_mir = list(itertools.chain.from_iterable(human_mirlst.values()))
 
 	for mir in all_fam_mir:
 		if mir in mirna2disease:
-			generate_disease_vector(dislst, mirna2disease[mir])
+			vec = generate_disease_vector(dislst, mirna2disease[mir])
+
 
 
 
