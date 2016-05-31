@@ -306,7 +306,8 @@ def family_homogenity(human_mirlst, mirna2disease, mirna2age):
 		family_avg_hamming.append(mean(family_vector))
 		family_avg_age.append(mean([float(mirna2age[mirna]) for mirna in mirlst if mirna in mirna2age]))
 
-	print spearmanr(family_avg_hamming, family_avg_age)
+	fam_df = pd.DataFrame([family_avg_age,family_avg_hamming],columns=['1','2'])
+	print fam_df
 
 
 		
