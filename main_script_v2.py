@@ -259,9 +259,13 @@ def gen_dis_db(disease2mirna,mirna2age):
 					cur_disfle.write('%s\n' %(mir))
 
 
+def get_list_of_diseases(mirna2disease):
+	print mirna2disease.values()
+
 
 	
-def family_homogenity(human_mirlst, mirna2disease, mirna2age, dislst):
+def family_homogenity(human_mirlst, mirna2disease, mirna2age):
+	get_list_of_diseases(mirna2disease)
 	
 
 
