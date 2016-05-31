@@ -29,7 +29,7 @@ def sort_mir(txt,txt2):
 	mega_mir_lst = []
 	famdict = {}
 	mirlst_by_species = {}
-	mirlst_by_family = {}
+	human_mirlstily = {}
 
 	meglst = [alpha[0] for alpha in list(csv.reader(txt,delimiter='\t'))]
 	famlst = [alpha for alpha in list(csv.reader(txt2,delimiter='\t'))]
@@ -57,8 +57,6 @@ def sort_mir(txt,txt2):
 			if lst[2] not in mega_mir_lst: continue
 			else:
 				famdict.setdefault(current_fam,[]).append(lst[2])
-	print famdict
-
 
 
 	family_file_for_mirbase = open('/Users/virpatel/Desktop/pub_stuff/relevant_data/family_file_ph_selectmir.txt','w')
@@ -75,7 +73,7 @@ def sort_mir(txt,txt2):
 
 
 
-	return mega_mir_lst, mirlst_by_species, mirlst_by_family
+	return mega_mir_lst, mirlst_by_species, human_mirlst 
 
 
 def diseaese_parser(disease_txt):
@@ -258,8 +256,8 @@ def gen_dis_db(disease2mirna,mirna2age):
 
 
 	
-def family_homogenity(mirlst_by_fam, mirna2disease, mirna2age):
-	print mirlst_by_fam
+def family_homogenity(human_mirlst, mirna2disease, mirna2age):
+	print human_mirlst
 
 
 
@@ -284,7 +282,7 @@ def main():
 	taragedb = '/Users/virpatel/Desktop/pub_stuff/ProteinHistorian/example/ages/human_age-label_wagner1.txt'
 	timetreedb = '/Users/virpatel/Desktop/pub_stuff/relevant_data/time_tree_dates.txt'
 
-	mega_mir_lst, mirlst_by_species, mirlst_by_fam = sort_mir(open(mirdb,'r'),open(famdb,'r'))
+	mega_mir_lst, mirlst_by_species, human_mirlst = sort_mir(open(mirdb,'r'),open(famdb,'r'))
 	mirna2disease, disease2mirna = diseaese_parser(open(diseasedb,'r'))
 	mirna2age, age2mirna = age_parser(open(agedb, 'r'))
 	age2clade, clade2age = time_tree_parse(timetreedb)
@@ -300,7 +298,7 @@ def main():
 
 	# gen_dis_db(disease2mirna, mirna2age)
 
-	family_homogenity(mirlst_by_fam, mirna2disease, mirna2age)
+	family_homogenity(human_mirlst, mirna2disease, mirna2age)
 
 
 
