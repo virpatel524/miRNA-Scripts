@@ -27,6 +27,8 @@ bad_lst = ['ghb','ssp','fru','hsv','hvt','ebv','rlc','hhv','mcm','pbi','jcv','bk
 
 def hamming2(l1, l2):
     assert len(s1) == len(s2)
+    s1 = ''.join(l1)
+    s2 = ''.join(l2)
     return sum(c1 != c2 for c1, c2 in zip(s1, s2))
 
 
