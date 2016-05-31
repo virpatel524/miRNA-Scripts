@@ -26,7 +26,7 @@ bad_lst = ['ghb','ssp','fru','hsv','hvt','ebv','rlc','hhv','mcm','pbi','jcv','bk
 
 
 def hamming(l1, l2):
-    assert len(s1) == len(s2)
+    assert len(l1) == len(l2)
     s1 = ''.join(l1)
     s2 = ''.join(l2)
     return sum(c1 != c2 for c1, c2 in zip(s1, s2))
@@ -300,7 +300,7 @@ def family_homogenity(human_mirlst, mirna2disease, mirna2age):
 		if len(mirlst) < 4: continue
 		for mir in mirlst:
 			for other_mir in mirlst:
-				family_vector.append(hamming(all_mir_vector_df.loc[mir], all_mir_vector_df[other_mir]))
+				family_vector.append(hamming(all_mir_vector_df.loc[mir], all_mir_vector_df.loc[other_mir]))
 
 		
 
