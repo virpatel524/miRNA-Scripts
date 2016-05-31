@@ -29,7 +29,7 @@ def sort_mir(txt,txt2):
 	mega_mir_lst = []
 	famdict = {}
 	mirlst_by_species = {}
-	human_mirlstily = {}
+	human_mirlst = {}
 
 	meglst = [alpha[0] for alpha in list(csv.reader(txt,delimiter='\t'))]
 	famlst = [alpha for alpha in list(csv.reader(txt2,delimiter='\t'))]
@@ -57,6 +57,11 @@ def sort_mir(txt,txt2):
 			if lst[2] not in mega_mir_lst: continue
 			else:
 				famdict.setdefault(current_fam,[]).append(lst[2])
+
+	for key in famdict:
+		new_lst  = [a for a in famdict[key] if 'hsa' in a]
+		if len(new_lst) > 1:
+			human_mirlst[key] = new_lst
 
 
 	family_file_for_mirbase = open('/Users/virpatel/Desktop/pub_stuff/relevant_data/family_file_ph_selectmir.txt','w')
