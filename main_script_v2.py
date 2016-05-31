@@ -4,7 +4,7 @@ import scipy
 import time
 import math, csv
 import random
-import operator
+import operator, itertools
 import numpy as np
 from numpy.random import randn
 import pandas as pd
@@ -260,7 +260,7 @@ def gen_dis_db(disease2mirna,mirna2age):
 
 
 def get_list_of_diseases(mirna2disease):
-	print [a for a in beta for beta in mirna2disease.values()]
+	print [beta for beta in beta for beta in ]
 
 
 	
