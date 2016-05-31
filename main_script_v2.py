@@ -318,10 +318,12 @@ def family_homogenity(human_mirlst, mirna2disease, mirna2age):
 	sns.boxplot(x='fam_age',y='fam_hamming',data=fam_df)
 
 	plt.xticks(range(0,len(list(set(family_avg_age)))), [str(a) for a in sorted(list(set(family_avg_age)))])
-	plt.gca().set_ylim([0,70])
-	plt.ylabel('Number of Diseases', fontsize=15)
-	plt.xlabel('miRNA Clade of Origination',fontsize=15)
+	plt.gca().set_ylim([0,.15])
+	plt.ylabel('Average Family Disease Vector Hamming Distance (0-1)', fontsize=15)
+	plt.xlabel('Average Family Age',fontsize=15)
 	plt.subplots_adjust(bottom=0.20)
+	plt.show()
+	plt.close()
 
 
 		
