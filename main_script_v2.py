@@ -296,7 +296,9 @@ def family_homogenity(human_mirlst, mirna2disease, mirna2age):
 	for fam in human_mirlst:
 		family_vector = []
 		mirlst = [a for a in human_mirlst[fam] if a in mirna2disease]
-		if len(mirlst) > 3: print mirlst
+		if len(mirlst) < 4: continue
+		
+		
 
 		
 
