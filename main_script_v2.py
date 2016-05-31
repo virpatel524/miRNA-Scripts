@@ -25,7 +25,7 @@ sns.set_context("paper")
 bad_lst = ['ghb','ssp','fru','hsv','hvt','ebv','rlc','hhv','mcm','pbi','jcv','bkv','mdv','hma','bpc','ksh']
 
 
-def hamming2(l1, l2):
+def hamming(l1, l2):
     assert len(s1) == len(s2)
     s1 = ''.join(l1)
     s2 = ''.join(l2)
@@ -293,9 +293,11 @@ def family_homogenity(human_mirlst, mirna2disease, mirna2age):
 			all_mir_vector_df = all_mir_vector_df.append(tmp)
 
 
-	for idx in all_mir_vector_df.index:
-		print all_mir_vector_df.loc[idx].tolist()
+	for fam in all_fam_mir:
+		family_vector = []
+		
 
+		
 
 
 
