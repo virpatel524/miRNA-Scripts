@@ -311,7 +311,7 @@ def family_homogenity(human_mirlst, mirna2disease, mirna2age):
 
 	print spearmanr(family_percent_invoved_dis, family_avg_hamming)
 
-	fam_df = pd.DataFrame(zip(family_avg_age,family_avg_hamming),columns=['fam_age','fam_hamming'])
+	fam_df = pd.DataFrame(zip(family_avg_age,family_avg_hamming,family_percent_invoved_dis),columns=['fam_age','fam_hamming','fam_per'])
 
 
 	fam_df = fam_df.sort('fam_age',ascending=1)
