@@ -286,7 +286,7 @@ def family_homogenity(human_mirlst, mirna2disease, mirna2age):
 			all_mir_vector_df = all_mir_vector_df.append(tmp).reset_index()
 
 	
-	print all_mir_vector_df[list(all_mir_vector_df.index)[0]]
+	print all_mir_vector_df.head
 
 
 
