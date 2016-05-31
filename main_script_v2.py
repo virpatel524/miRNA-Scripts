@@ -330,6 +330,22 @@ def family_homogenity(human_mirlst, mirna2disease, mirna2age):
 	plt.close()
 
 
+	fam_df = fam_df.sort('fam_age',ascending=1)
+
+	f = plt.gcf()
+	f.set_size_inches(20, 10)
+
+	sns.boxplot(x='fam_age',y='fam_per',data=fam_df)
+
+	plt.xticks(range(0,len(list(set(family_avg_age)))), [str(a) for a in sorted(list(set(family_avg_age)))])
+	plt.gca().set_ylim([0,1])
+	plt.ylabel('Percentage of Family miRNAs involved in Disease (0-1)', fontsize=15)
+	plt.xlabel('Average Family Age',fontsize=15)
+	plt.subplots_adjust(bottom=0.20)
+	plt.show()
+	plt.close()
+
+
 		
 
 		
