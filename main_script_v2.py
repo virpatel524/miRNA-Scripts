@@ -263,16 +263,20 @@ def get_list_of_diseases(mirna2disease):
 	return sorted(list(set(list(itertools.chain.from_iterable(mirna2disease.values())))))
 
 
+def generate_disease_vector(dislst, mirna2disease_element):
+	new_vec = len(dislst) * [0]
+
+	for 
+
 	
 def family_homogenity(human_mirlst, mirna2disease, mirna2age):
 	dislst = get_list_of_diseases(mirna2disease)
 
 	all_fam_mir = list(itertools.chain.from_iterable(human_mirlst.values()))
 
-	empty_vector = len(dislst) * [0]
-
 	for mir in all_fam_mir:
-		print mir
+		if mir in mirna2disease:
+
 	
 
 
