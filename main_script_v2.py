@@ -314,6 +314,8 @@ def family_homogenity(human_mirlst, mirna2disease, mirna2age):
 	f = plt.gcf()
 	f.set_size_inches(20, 10)
 
+	print len(family_avg_age)
+
 
 	sns.boxplot(x='fam_age',y='fam_hamming',data=fam_df)
 
