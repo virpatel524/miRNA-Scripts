@@ -260,7 +260,7 @@ def gen_dis_db(disease2mirna,mirna2age):
 
 
 def get_list_of_diseases(mirna2disease):
-	print mirna2disease.values()
+	print [a for a in beta for beta in mirna2disease.values()]
 
 
 	
