@@ -5,6 +5,7 @@ import time
 import math, csv
 import random
 import operator, itertools
+from distance import hamming
 import numpy as np
 from numpy.random import randn
 import pandas as pd
@@ -25,11 +26,7 @@ sns.set_context("paper")
 bad_lst = ['ghb','ssp','fru','hsv','hvt','ebv','rlc','hhv','mcm','pbi','jcv','bkv','mdv','hma','bpc','ksh']
 
 
-def hamming(l1, l2):
-    assert len(l1) == len(l2)
-    s1 = ''.join([str(a) for a in l1])
-    s2 = ''.join([str(a) for a in l2])
-    return sum(c1 != c2 for c1, c2 in zip(s1, s2))
+
 
 
 def sort_mir(txt,txt2):
@@ -299,7 +296,7 @@ def family_homogenity(human_mirlst, mirna2disease, mirna2age):
 		if len(mirlst) < 4: continue
 		for mir in mirlst:
 			for other_mir in mirlst:
-				family_vector.append(hamming(all_mir_vector_df.loc[mir], all_mir_vector_df.loc[other_mir]))
+				family_vector.append(hamming(all_mir_vector_df.loc[mir], all_mir_vector_df.loc[other_mir],normalized=True))
 		print family_vector
 
 		
