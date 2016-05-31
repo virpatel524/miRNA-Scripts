@@ -257,7 +257,8 @@ def gen_dis_db(disease2mirna,mirna2age):
 
 
 	
-
+def family_homogenity(mirlst_by_fam, mirna2disease, mirna2age):
+	print mirlst_by_fam
 
 
 
@@ -282,7 +283,7 @@ def main():
 	taragedb = '/Users/virpatel/Desktop/pub_stuff/ProteinHistorian/example/ages/human_age-label_wagner1.txt'
 	timetreedb = '/Users/virpatel/Desktop/pub_stuff/relevant_data/time_tree_dates.txt'
 
-	# mega_mir_lst, mirlst_by_species, mirlst_by_fam = sort_mir(open(mirdb,'r'),open(famdb,'r'))
+	mega_mir_lst, mirlst_by_species, mirlst_by_fam = sort_mir(open(mirdb,'r'),open(famdb,'r'))
 	mirna2disease, disease2mirna = diseaese_parser(open(diseasedb,'r'))
 	mirna2age, age2mirna = age_parser(open(agedb, 'r'))
 	age2clade, clade2age = time_tree_parse(timetreedb)
@@ -293,9 +294,9 @@ def main():
 
 
 
-	mir_num_dis_bin(mirna2disease, mirna2age,age2clade)
+	# mir_num_dis_bin(mirna2disease, mirna2age,age2clade)
 
-	gen_dis_db(disease2mirna, mirna2age)
+	# gen_dis_db(disease2mirna, mirna2age)
 
 
 
