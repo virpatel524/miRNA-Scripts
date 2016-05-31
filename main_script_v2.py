@@ -277,6 +277,10 @@ def generate_disease_vector(dislst, mirna2disease_element):
 
 	
 def family_homogenity(human_mirlst, mirna2disease, mirna2age):
+
+	family_avg_age = []
+	family_avg_hamming = []
+	
 	all_mir_vector_df = pd.DataFrame()
 
 	dislst = get_list_of_diseases(mirna2disease)
@@ -297,7 +301,12 @@ def family_homogenity(human_mirlst, mirna2disease, mirna2age):
 		for mir in mirlst:
 			for other_mir in mirlst:
 				family_vector.append(hamming(all_mir_vector_df.loc[mir], all_mir_vector_df.loc[other_mir],normalized=True))
-		print family_vector
+		
+		family_avg_hamming.append(mean(family_vector))
+		family_avg_age.append(mean([float(mirna2[age]) for mirna in human_mirlst[fam] if mirna in mirna2age]))
+
+
+		
 
 		
 
