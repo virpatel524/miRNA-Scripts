@@ -269,7 +269,7 @@ def generate_disease_vector(dislst, mirna2disease_element):
 	for alpha in mirna2disease_element:
 		new_vec[dislst.index(alpha)] = 1
 
-	print sum(new_vec)
+	return new_vec
 
 	
 def family_homogenity(human_mirlst, mirna2disease, mirna2age):
@@ -280,7 +280,8 @@ def family_homogenity(human_mirlst, mirna2disease, mirna2age):
 	for mir in all_fam_mir:
 		if mir in mirna2disease:
 			generate_disease_vector(dislst, mirna2disease[mir])
-			
+
+
 
 	
 
