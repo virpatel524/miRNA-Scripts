@@ -279,6 +279,8 @@ def family_homogenity(human_mirlst, mirna2disease, mirna2age):
 
 	for mir in all_fam_mir:
 		if mir in mirna2disease:
+			generate_disease_vector(dislst, mirna2disease[mir])
+			
 
 	
 
