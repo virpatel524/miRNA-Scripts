@@ -260,7 +260,8 @@ def gen_dis_db(disease2mirna,mirna2age):
 
 
 def get_list_of_diseases(mirna2disease):
-	print [beta for beta in beta for beta in ]
+	print sorted(list(set(list(itertools.chain.from_iterable(mirna2disease.values())))))
+
 
 
 	
