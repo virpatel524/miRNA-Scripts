@@ -262,7 +262,7 @@ def gen_dis_db(disease2mirna,mirna2age):
 
 	
 def family_homogenity(human_mirlst, mirna2disease, mirna2age):
-	print human_mirlst
+	
 
 
 
