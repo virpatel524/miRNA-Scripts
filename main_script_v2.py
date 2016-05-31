@@ -305,7 +305,7 @@ def family_homogenity(human_mirlst, mirna2disease, mirna2age):
 		family_avg_hamming.append(mean(family_vector))
 		family_avg_age.append(mean([float(mirna2age[mirna]) for mirna in human_mirlst[fam] if mirna in mirna2age]))
 
-		print spearmanr(family_avg_hamming, family_avg_age)
+	print spearmanr(family_avg_hamming, family_avg_age)
 
 
 		
