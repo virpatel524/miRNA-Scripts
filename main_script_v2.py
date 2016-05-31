@@ -297,7 +297,7 @@ def family_homogenity(human_mirlst, mirna2disease, mirna2age):
 	for fam in human_mirlst:
 		family_vector = []
 		mirlst = [a for a in human_mirlst[fam] if a in mirna2disease]
-		if len(mirlst) < 4: continue
+		if len(mirlst) < 3: continue
 		for mir in mirlst:
 			for other_mir in mirlst:
 				family_vector.append(hamming(all_mir_vector_df.loc[mir], all_mir_vector_df.loc[other_mir],normalized=True))
