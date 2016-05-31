@@ -260,13 +260,15 @@ def gen_dis_db(disease2mirna,mirna2age):
 
 
 def get_list_of_diseases(mirna2disease):
-	print sorted(list(set(list(itertools.chain.from_iterable(mirna2disease.values())))))
+	return sorted(list(set(list(itertools.chain.from_iterable(mirna2disease.values())))))
 
 
 
 	
 def family_homogenity(human_mirlst, mirna2disease, mirna2age):
-	get_list_of_diseases(mirna2disease)
+	dislst = get_list_of_diseases(mirna2disease)
+
+	empty_vector = len(dislst) * [0]
 	
 
 
