@@ -57,6 +57,7 @@ def sort_mir(txt,txt2):
 			if lst[2] not in mega_mir_lst: continue
 			else:
 				famdict.setdefault(current_fam,[]).append(lst[2])
+	print famdict
 
 
 
