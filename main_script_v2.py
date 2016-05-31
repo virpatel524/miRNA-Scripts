@@ -306,8 +306,22 @@ def family_homogenity(human_mirlst, mirna2disease, mirna2age):
 		family_avg_hamming.append(mean(family_vector))
 		family_avg_age.append(mean([float(mirna2age[mirna]) for mirna in mirlst if mirna in mirna2age]))
 
-	fam_df = pd.DataFrame(zip(family_avg_age,family_avg_hamming),columns=['1','2'])
-	print fam_df
+	fam_df = pd.DataFrame(zip(family_avg_age,family_avg_hamming),columns=['fam_age','fam_hamming'])
+
+
+	fam_df = fam_df.sort('fam_age',ascending=1)
+
+	f = plt.gcf()
+	f.set_size_inches(20, 10)
+
+
+	sns.boxplot(x='fam_age',y='fam_hamming',data=fam_df)
+
+	plt.xticks(range(0,len(list(set(family_avg_age)))), [str(a) for a in sorted(list(set(family_avg_age)))])
+	plt.gca().set_ylim([0,70])
+	plt.ylabel('Number of Diseases', fontsize=15)
+	plt.xlabel('miRNA Clade of Origination',fontsize=15)
+	plt.subplots_adjust(bottom=0.20)
 
 
 		
