@@ -308,6 +308,8 @@ def family_homogenity(human_mirlst, mirna2disease, mirna2age):
 		family_avg_age.append(round(mean([float(mirna2age[mirna]) for mirna in mirlst if mirna in mirna2age]),1))
 		family_percent_invoved_dis.append(float(len(mirlst)) / float(len(human_mirlst[fam])))
 
+		print family_percent_invoved_dis
+
 
 	print spearmanr(family_percent_invoved_dis, family_avg_hamming)
 
