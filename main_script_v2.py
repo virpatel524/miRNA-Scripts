@@ -285,7 +285,7 @@ def family_homogenity(human_mirlst, mirna2disease, mirna2age):
 			tmp = pd.DataFrame([vec,],index=[mir,], columns=dislst)
 			all_mir_vector_df = all_mir_vector_df.append(tmp)
 
-	print all_mir_vector_df.head
+	print all_mir_vector_df.shape
 
 
 
