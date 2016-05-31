@@ -25,6 +25,11 @@ sns.set_context("paper")
 bad_lst = ['ghb','ssp','fru','hsv','hvt','ebv','rlc','hhv','mcm','pbi','jcv','bkv','mdv','hma','bpc','ksh']
 
 
+def hamming2(l1, l2):
+    assert len(s1) == len(s2)
+    return sum(c1 != c2 for c1, c2 in zip(s1, s2))
+
+
 def sort_mir(txt,txt2):
 	mega_mir_lst = []
 	famdict = {}
