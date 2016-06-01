@@ -169,7 +169,7 @@ def parse_target_data(tardb,taragedb,timetreedb):
 	with open(tardb) as tardb_fle:
 		data = list(csv.reader(tardb_fle,delimiter='\t'))
 		for i in data:
-			tar2age[i[0]] = float(i[[1]]) 
+			tar2age[i[0]] = float(i[1]) 
 
 
 	return mirna2target, tar2age
