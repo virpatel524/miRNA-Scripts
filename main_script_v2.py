@@ -374,13 +374,14 @@ def target_gene_expression_analysis(mirna2age, mirna2disease,mirna2family,gene2a
 		mir_avg_tar_age_nondis = []
 		mir_age = []
 
-		for mir in mirna2disease:
-			if mir in mir_targetdb.index:
-				mirnanumdis.append(len(mirna2disease[mir]))
-				bintarlt = mir_targetdb.loc[mir].tolist()
-				mirnanumtar.append(sum(bintarlt))
-				tarages = [float(gene2age[target_lst[ind]]) for ind, a in enumerate(bintarlt) if target_lst[ind] in gene2age and a == 1]
-				mir_avg_tar_age_dis.append(mean(tarages))
+		for mir in mir_targetdb.index:
+			if mir not in mirna2disease: mirnanumdis.append(0)
+			else: mirnanumdis.append(len(mirna2disease[mir]))
+			bintarlt = mir_targetdb.loc[mir].tolist()
+			mirnanumtar.append(sum(bintarlt))
+			tarages = [float(gene2age[target_lst[ind]]) for ind, a in enumerate(bintarlt) if target_lst[ind] in gene2age and a == 1]
+			mir_avg_tar_age_all.append(median(tarage))
+			mir_avg_tar_age_dis.append(mean(tarages))
 
 		for mir in mir_targetdb.index:
 			if mir not in mirna2disease:
