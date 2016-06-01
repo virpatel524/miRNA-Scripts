@@ -395,7 +395,7 @@ def main():
 	# family_homogenity(human_mirlst, mirna2disease, mirna2age
 
 
-	target_gene_analysis(mirna2age, mirna2disease, mirna2target, target2age)
+	target_gene_analysis(mirna2age, mirna2disease, mirna2tar, tar2age)
 
 
 
