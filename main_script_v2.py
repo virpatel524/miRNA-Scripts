@@ -356,7 +356,7 @@ def target_gene_expression_analysis(mirna2age, mirna2disease,mirn2family):
 					if mir == other_mir: continue
 					family_vector.append(hamming(mir_targetdb.loc[mir], mir_targetdb.loc[other_mir],normalized=True))
 				
-			family_target_hamming.append(mean(family_vector))
+			family_target_hamming.append(max(family_vector))
 			family_target_avg_age.append(round(mean([float(mirna2age[mirna]) for mirna in mirlst if mirna in mirna2age]),1))
 
 		print spearmanr(family_target_hamming, family_target_avg_age)
