@@ -348,20 +348,24 @@ def target_gene_expression_analysis(mirna2age, mirna2disease,mirna2family):
 		family_target_avg_age = []
 		family_perc_dis = []
 
-		for fam in mirna2family:
-			family_vector = []
-			mirlst = [a for a in mirna2family[fam] if a in mir_targetdb.index]
-			mirdislst = [a for a in mirna2family[fam] if a in mirna2disease]
-			if len(mirlst) < 4: continue
-			if len(mirdislst) < 4: continue
-			for mir in mirlst:
-				for other_mir in mirlst:
-					if mir == other_mir: continue
-					family_vector.append(hamming(mir_targetdb.loc[mir], mir_targetdb.loc[other_mir],normalized=True))
+		# for fam in mirna2family:
+		# 	family_vector = []
+		# 	mirlst = [a for a in mirna2family[fam] if a in mir_targetdb.index]
+		# 	mirdislst = [a for a in mirna2family[fam] if a in mirna2disease]
+		# 	if len(mirlst) < 4: continue
+		# 	if len(mirdislst) < 4: continue
+		# 	for mir in mirlst:
+		# 		for other_mir in mirlst:
+		# 			if mir == other_mir: continue
+		# 			family_vector.append(hamming(mir_targetdb.loc[mir], mir_targetdb.loc[other_mir],normalized=True))
 				
-			family_target_hamming.append(std(family_vector))
-			family_target_avg_age.append(round(mean([float(mirna2age[mirna]) for mirna in mirlst if mirna in mirna2age]),1))
-			family_perc_dis.append(float(len(mirdislst)) / float(len(mirna2family[fam])))
+		# 	family_target_hamming.append(std(family_vector))
+		# 	family_target_avg_age.append(round(mean([float(mirna2age[mirna]) for mirna in mirlst if mirna in mirna2age]),1))
+		# 	family_perc_dis.append(float(len(mirdislst)) / float(len(mirna2family[fam])))
+
+
+		for mirna in mirna2age:
+			if mirna in mirna2disease
 
 		print spearmanr(family_target_hamming, family_perc_dis)
 
