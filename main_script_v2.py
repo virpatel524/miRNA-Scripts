@@ -401,13 +401,16 @@ def target_gene_expression_analysis(mirna2age, mirna2disease,mirna2family,gene2a
 			if mirna in mirna2disease:
 				if mir in mirna2age:
 					mirage = mirna2age[mir]
-					mir_age_lst = []
+					mir_age_lst.append(mirage)
 					exp_val.append(sum(mir_expdb.loc[mir].tolist()))
+
 					# if mirage > 100.0: old_num_tis.append(sum(mir_expdb.loc[mir].tolist()))
 					# else: yung_num_tis.append(sum(mir_expdb.loc[mir].tolist()))
 
 
-
+		plt.scatter(mir_age_lst, exp_val)
+		plt.show()
+		plt.close()
 		# print mannwhitneyu(yung_num_tis, old_num_tis)
 
 
