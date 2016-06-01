@@ -396,8 +396,10 @@ def target_gene_expression_analysis(mirna2age, mirna2disease,mirna2family,gene2a
 
 		for mir in mir_expdb:
 			if mir in mirna2age:
-				mir_age.append(mirna2age[mir])
+				mir_age.append(float(mirna2age[mir]))
 				mir_num_tis.append(sum(mir_expdb.loc[mir].tolist()))
+				print mir_age
+				print mir_num_tis
 
 		print spearmanr(mir_age, mir_num_tis)
 
