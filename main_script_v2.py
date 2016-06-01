@@ -341,7 +341,7 @@ def target_gene_dataframe(mirna2age, mirna2disease,mirna2target, target2age):
 
 
 def target_gene_expression_analysis(mirna2age, mirna2disease):
-		mir_targetdb = pd.read_csv('/Users/virpatel/Desktop/pub_stuff/relevant_data/mir_target_vectordb.txt', sep='\t',index_col=[0] encoding='utf-8')
+		mir_targetdb = pd.read_csv('/Users/virpatel/Desktop/pub_stuff/relevant_data/mir_target_vectordb.txt', sep='\t',index_col=[0], encoding='utf-8')
 		mir_expdb = pd.read_csv('/Users/virpatel/Desktop/pub_stuff/relevant_data/exp_data_alldmir.txt', sep='\t',index_col=[0])
 		print mir_targetdb.head
 
