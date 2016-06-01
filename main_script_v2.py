@@ -345,19 +345,19 @@ def target_gene_expression_analysis(mirna2age, mirna2disease,mirn2family):
 		mir_expdb = pd.read_csv('/Users/virpatel/Desktop/pub_stuff/relevant_data/exp_data_alldmir.txt', sep='\t',index_col=[0])
 
 		for fam in mirn2family:
-		family_vector = []
-		mirlst = [a for a in mirn2family[fam] if a in mirna2disease]
-		if len(mirlst) < 4: continue
-		for mir in mirlst:
-			for other_mir in mirlst:
-				if mir == other_mir: continue
-				family_vector.append(hamming(all_mir_vector_df.loc[mir], all_mir_vector_df.loc[other_mir],normalized=True))
-		
-		family_avg_hamming.append(mean(family_vector))
-		family_avg_age.append(round(mean([float(mirna2age[mirna]) for mirna in mirlst if mirna in mirna2age]),1))
-		family_percent_invoved_dis.append(float(len(mirlst)) / float(len(human_mirlst[fam])))
+			family_vector = []
+			mirlst = [a for a in mirn2family[fam] if a in mir_targetdb.index]
+		# if len(mirlst) < 4: continue
+			for mir in mirlst:
+				for other_mir in mirlst:
+					if mir == other_mir: continue
+					family_vector.append(hamming(mir_targetdb.loc[mir], mir_targetdb.loc[other_mir],normalized=True))
+				
+			family_avg_hamming.append(mean(family_vector))
+			family_avg_age.append(round(mean([float(mirna2age[mirna]) for mirna in mirlst if mirna in mirna2age]),1))
+			family_percent_invoved_dis.append(float(len(mirlst)) / float(len(human_mirlst[fam])))
 
-		
+			
 
 
 
