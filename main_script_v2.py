@@ -366,6 +366,8 @@ def target_gene_expression_analysis(mirna2age, mirna2disease,mirna2family):
 		# 	family_perc_dis.append(float(len(mirdislst)) / float(len(mirna2family[fam])))
 
 
+		target_lst = list(mir_targetdb.columns.values)
+
 		mirnanumdis = []
 		mirnanumtar = []
 		mir_avg_tar_age = []
@@ -374,9 +376,9 @@ def target_gene_expression_analysis(mirna2age, mirna2disease,mirna2family):
 		for mir in mirna2disease:
 			if mir in mir_targetdb.index:
 				mirnanumdis.append(len(mirna2disease[mir]))
-				tarlst = mir_targetdb.loc[mir].tolist()
+				bintarlt = mir_targetdb.loc[mir].tolist()
 
-				mirnanumtar.append(sum(mir_targetdb.loc[mir].tolist()))
+				mirnanumtar.append(sum(bintarlt))
 				for tar in 
 			
 
