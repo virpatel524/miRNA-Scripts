@@ -1,3 +1,4 @@
+	Placenta	Cervix	Testis	Liver	Hair follicle	Bone marrow	Saliva	Semen	Brain	Lung	Blood	Bladder	Kidney	Nasopharynx	Sperm	Pancreas	Plasma	Serum	Bone	Breast
 hsa-mir-770	1	0	1	1	0	1	0	1	1	1	1	1	0	1	0	1	1	0	0	1
 hsa-mir-6808	0	1	0	1	0	1	0	0	0	0	1	1	0	1	1	0	0	0	0	1
 hsa-mir-6891	1	1	0	1	0	0	0	0	1	1	1	1	1	1	1	0	1	1	1	1
