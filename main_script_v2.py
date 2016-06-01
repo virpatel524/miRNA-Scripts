@@ -394,7 +394,7 @@ def target_gene_expression_analysis(mirna2age, mirna2disease,mirna2family,gene2a
 		mir_age = []
 		mir_num_tis = []
 
-		for mir in mir_expdb:
+		for mir in mir_expdb.index:
 			print mir
 			if mir in mirna2age:
 				mir_age.append(float(mirna2age[mir]))
