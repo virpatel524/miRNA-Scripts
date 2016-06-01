@@ -342,7 +342,7 @@ def target_gene_dataframe(mirna2age, mirna2disease,mirna2target, target2age):
 
 
 
-def target_gene_expression_analysis(mirna2age, mirna2disease,mirna2family):
+def target_gene_expression_analysis(mirna2age, mirna2disease,mirna2family,gene2age):
 		mir_targetdb = pd.read_csv('/Users/virpatel/Desktop/pub_stuff/relevant_data/mir_target_vectordb.txt', sep='\t',index_col=[0], encoding='utf-8')
 		mir_expdb = pd.read_csv('/Users/virpatel/Desktop/pub_stuff/relevant_data/exp_data_alldmir.txt', sep='\t',index_col=[0])
 
@@ -379,7 +379,7 @@ def target_gene_expression_analysis(mirna2age, mirna2disease,mirna2family):
 				bintarlt = mir_targetdb.loc[mir].tolist()
 
 				mirnanumtar.append(sum(bintarlt))
-				for tar in 
+				tarages = []
 			
 
 
@@ -427,7 +427,7 @@ def main():
 
 	master_tarlst = target_gene_dataframe(mirna2age, mirna2disease, mirna2target, target2age)
 
-	target_gene_expression_analysis(mirna2age, mirna2disease,human_mirlst, master_tarlst)
+	target_gene_expression_analysis(mirna2age, mirna2disease,human_mirlst, master_tarlst, tar2age)
 
 
 
