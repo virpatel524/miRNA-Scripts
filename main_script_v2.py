@@ -361,7 +361,7 @@ def target_gene_expression_analysis(mirna2age, mirna2disease,mirna2family):
 				
 			family_target_hamming.append(std(family_vector))
 			family_target_avg_age.append(round(mean([float(mirna2age[mirna]) for mirna in mirlst if mirna in mirna2age]),1))
-			family_perc_dis.append(float(len(mirdislst)) / float(len(mirna2family[mir])))
+			family_perc_dis.append(float(len(mirdislst)) / float(len(mirna2family[fam])))
 
 		print spearmanr(family_target_hamming, family_perc_dis)
 
