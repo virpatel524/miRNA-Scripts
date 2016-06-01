@@ -332,6 +332,10 @@ def family_homogenity(human_mirlst, mirna2disease, mirna2age):
 
 
 
+def target_gene_analysis(mirna2age, mirna2disease,mirna2target, target2age):
+	
+
+
 		
 
 		
@@ -372,7 +376,7 @@ def main():
 	# get_mirna_disease_age_relationship(mirna2age, mirna2disease)
 
 
-	# parse_target_data(tardb,taragedb,timetreedb)
+	parse_target_data(tardb,taragedb,timetreedb)
 
 
 
