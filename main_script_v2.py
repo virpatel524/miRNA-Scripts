@@ -373,6 +373,7 @@ def target_gene_expression_analysis(mirna2age, mirna2disease,mirna2family,gene2a
 		mir_avg_tar_age_dis = []
 		mir_avg_tar_age_nondis = []
 		mir_age = []
+		mir_median_tar_age_all = []
 
 		for mir in mir_targetdb.index:
 			if mir not in mirna2disease: mirnanumdis.append(0)
@@ -380,19 +381,19 @@ def target_gene_expression_analysis(mirna2age, mirna2disease,mirna2family,gene2a
 			bintarlt = mir_targetdb.loc[mir].tolist()
 			mirnanumtar.append(sum(bintarlt))
 			tarages = [float(gene2age[target_lst[ind]]) for ind, a in enumerate(bintarlt) if target_lst[ind] in gene2age and a == 1]
-			mir_avg_tar_age_all.append(median(tarage))
+			mir_median_tar_age_all.append(median(tarage))
 			mir_avg_tar_age_dis.append(mean(tarages))
 
-		for mir in mir_targetdb.index:
-			if mir not in mirna2disease:
-				bintarlt = mir_targetdb.loc[mir].tolist()
-				tarages = [float(gene2age[target_lst[ind]]) for ind, a in enumerate(bintarlt) if target_lst[ind] in gene2age and a == 1]
-				mir_avg_tar_age_nondis.append(median(tarages))
+		# for mir in mir_targetdb.index:
+		# 	if mir not in mirna2disease:
+		# 		bintarlt = mir_targetdb.loc[mir].tolist()
+		# 		tarages = [float(gene2age[target_lst[ind]]) for ind, a in enumerate(bintarlt) if target_lst[ind] in gene2age and a == 1]
+		# 		mir_avg_tar_age_nondis.append(median(tarages))
 
 
 
 
-		print mannwhitneyu(mir_avg_tar_age_dis,mir_avg_tar_age_nondis)
+		print spearmanr(mirnanumdis, mir_median_tar_age_all)
 
 
 
