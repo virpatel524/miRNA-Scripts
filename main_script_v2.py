@@ -328,6 +328,8 @@ def target_gene_dataframe(mirna2age, mirna2disease,mirna2target, target2age):
 		target_agedb = target_agedb.append(tmp)
 
 	tar_base_vec = get_list_of_dictionary(mirna2target)
+
+	return tar_base_vec
 	
 	for index,mir in enumerate(mirna2target):
 		print index + 1, len(mirna2target)
@@ -372,7 +374,10 @@ def target_gene_expression_analysis(mirna2age, mirna2disease,mirna2family):
 		for mir in mirna2disease:
 			if mir in mir_targetdb.index:
 				mirnanumdis.append(len(mirna2disease[mir]))
+				tarlst = mir_targetdb.loc[mir].tolist()
+
 				mirnanumtar.append(sum(mir_targetdb.loc[mir].tolist()))
+				for tar in 
 			
 
 
@@ -417,6 +422,8 @@ def main():
 
 	# family_homogenity(human_mirlst, mirna2disease, mirna2age
 
+
+	target_gene_dataframe(mirna2age, mirna2disease, mirna2target, target2age)
 
 	target_gene_expression_analysis(mirna2age, mirna2disease,human_mirlst)
 
