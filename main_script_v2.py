@@ -344,10 +344,12 @@ def target_gene_expression_analysis(mirna2age, mirna2disease,mirn2family):
 		mir_targetdb = pd.read_csv('/Users/virpatel/Desktop/pub_stuff/relevant_data/mir_target_vectordb.txt', sep='\t',index_col=[0], encoding='utf-8')
 		mir_expdb = pd.read_csv('/Users/virpatel/Desktop/pub_stuff/relevant_data/exp_data_alldmir.txt', sep='\t',index_col=[0])
 
+		family_target_hamming = []
+
 		for fam in mirn2family:
 			family_vector = []
 			mirlst = [a for a in mirn2family[fam] if a in mir_targetdb.index]
-		# if len(mirlst) < 4: continue
+			# if len(mirlst) < 4: continue
 			for mir in mirlst:
 				for other_mir in mirlst:
 					if mir == other_mir: continue
