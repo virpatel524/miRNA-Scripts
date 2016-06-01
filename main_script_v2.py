@@ -346,11 +346,14 @@ def target_gene_expression_analysis(mirna2age, mirna2disease,mirn2family):
 
 		family_target_hamming = []
 		family_target_avg_age = []
+		family_perc_dis = []
 
 		for fam in mirn2family:
 			family_vector = []
 			mirlst = [a for a in mirn2family[fam] if a in mir_targetdb.index]
+			mirdislst = [a for a in mirn2family[fam] if a in mirna2disease]
 			if len(mirlst) < 4: continue
+			if len(mirdislst) < 4: continue
 			for mir in mirlst:
 				for other_mir in mirlst:
 					if mir == other_mir: continue
