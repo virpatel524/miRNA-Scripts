@@ -176,6 +176,7 @@ def parse_target_data(tardb,taragedb,timetreedb):
 		for item in parsed_ages:
 			if len(item) == 3:
 				continue
+			print item
 			tar2age[item[2]] = clade2age[item[-1]]
 
 
