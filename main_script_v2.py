@@ -166,7 +166,7 @@ def parse_target_data(tardb,taragedb,timetreedb):
 	master_tarlst = list(set([item for sublist in mirna2target.values() for item in sublist]))
 
 
-	with open(tardb) as tardb_fle:
+	with open(taragedb) as tardb_fle:
 		data = list(csv.reader(tardb_fle,delimiter='\t'))
 		for i in data:
 			print i 
