@@ -370,18 +370,25 @@ def target_gene_expression_analysis(mirna2age, mirna2disease,mirna2family,gene2a
 
 		mirnanumdis = []
 		mirnanumtar = []
-		mir_avg_tar_age = []
+		mir_avg_tar_age_dis = []
+		mir_avg_tar_age_nondis = []
 		mir_age = []
 
 		for mir in mirna2disease:
 			if mir in mir_targetdb.index:
 				mirnanumdis.append(len(mirna2disease[mir]))
 				bintarlt = mir_targetdb.loc[mir].tolist()
-				print bintarlt
 				mirnanumtar.append(sum(bintarlt))
 				tarages = [float(gene2age[target_lst[ind]]) for ind, a in enumerate(bintarlt) if target_lst[ind] in gene2age and a == 1]
-				mir_avg_tar_age.append(mean(tarages))
-				print mir_avg_tar_age
+				mir_avg_tar_age_dis.append(mean(tarages))
+
+		for mir in mir_targetdb.index:
+			if mir not in mirna2disease:
+				bintarlt = mir_targetdb.loc[mir].tolist()
+				tarages = [float(gene2age[target_lst[ind]]) for ind, a in enumerate(bintarlt) if target_lst[ind] in gene2age and a == 1]
+				mir_avg_tar_age_dis.append(mean(tarages))
+
+
 
 
 		print spearmanr(mirnanumtar,mir_avg_tar_age )
