@@ -186,6 +186,8 @@ def parse_target_data(tardb,taragedb,timetreedb):
 				if tar in tar2age:
 					tar2age_fle.write('%s\t%s\n' %(tar, tar2age[tar]))
 
+	return mirna2target, tar2age
+
 			
 
 def mir_num_dis_bin(mirna2disease, mirna2age, age2clade):
@@ -333,7 +335,7 @@ def family_homogenity(human_mirlst, mirna2disease, mirna2age):
 
 
 def target_gene_analysis(mirna2age, mirna2disease,mirna2target, target2age):
-	
+
 
 
 		
