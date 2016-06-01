@@ -429,7 +429,7 @@ def main():
 
 	master_tarlst = target_gene_dataframe(mirna2age, mirna2disease, mirna2tar, tar2age)
 
-	target_gene_expression_analysis(mirna2age, mirna2disease,human_mirlst, master_tarlst, tar2age)
+	target_gene_expression_analysis(mirna2age, mirna2disease,human_mirlst, tar2age)
 
 
 
