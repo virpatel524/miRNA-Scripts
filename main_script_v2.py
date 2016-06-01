@@ -380,10 +380,10 @@ def target_gene_expression_analysis(mirna2age, mirna2disease,mirna2family,gene2a
 
 				mirnanumtar.append(sum(bintarlt))
 				tarages = [gene2age[target_lst[ind]] for ind, a in enumerate(bintarlt) if target_lst[ind] in gene2age]
+				mir_avg_tar_age.append(mean(tarages))
 
 
-			
-
+		print spearmanr(mirnanumdis,mirnanumtar )
 
 
 
