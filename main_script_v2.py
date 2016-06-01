@@ -423,9 +423,9 @@ def main():
 	# family_homogenity(human_mirlst, mirna2disease, mirna2age
 
 
-	target_gene_dataframe(mirna2age, mirna2disease, mirna2target, target2age)
+	master_tarlst = target_gene_dataframe(mirna2age, mirna2disease, mirna2target, target2age)
 
-	target_gene_expression_analysis(mirna2age, mirna2disease,human_mirlst)
+	target_gene_expression_analysis(mirna2age, mirna2disease,human_mirlst, master_tarlst)
 
 
 
