@@ -155,11 +155,6 @@ def parse_target_data(tardb,taragedb,timetreedb):
 	master_tarlst = []
 
 
-	with open(timetreedb) as time_tree_data:
-		time_tree_lst = [a for a in list(csv.reader(time_tree_data,delimiter='\t')) if len(a) > 1]
-		for alpha in time_tree_lst:
-			clade2age[alpha[0]] = alpha[-1]
-
 
 
 	with open(tardb) as tardb_fle:
@@ -171,22 +166,10 @@ def parse_target_data(tardb,taragedb,timetreedb):
 	master_tarlst = list(set([item for sublist in mirna2target.values() for item in sublist]))
 
 
-	with open(taragedb) as taragedb_fle:
-		parsed_ages = [a for a in list(csv.reader(taragedb_fle,delimiter='\t'))  if len(a) > 1]
-		for item in parsed_ages:
-			if len(item) == 3:
-				continue
-			print item
-			tar2age[item[2]] = clade2age[item[-1]]
+	with open(tardb) as tardb_fle:
+		data = list(csv.reader(tardb_fle,delimiter='\t'))
+		
 
-
-
-	with open('/Users/virpatel/Desktop/pub_stuff/relevant_data/tar2age_all.txt','w') as tar2age_fle:
-		tarage_preproc = {}
-		for tar in master_tarlst:
-			print tar
-			if tar in tar2age:
-				tar2age_fle.write('%s\t%s\n' %(tar, tar2age[tar]))
 
 	return mirna2target, tar2age
 
