@@ -380,6 +380,8 @@ def target_gene_expression_analysis(mirna2age, mirna2disease,mirna2family,gene2a
 
 				mirnanumtar.append(sum(bintarlt))
 				tarages = [gene2age[target_lst[ind]] for ind, a in enumerate(bintarlt) if target_lst[ind] in gene2age]
+
+
 			
 
 
@@ -425,7 +427,7 @@ def main():
 	# family_homogenity(human_mirlst, mirna2disease, mirna2age
 
 
-	master_tarlst = target_gene_dataframe(mirna2age, mirna2disease, mirna2target, target2age)
+	master_tarlst = target_gene_dataframe(mirna2age, mirna2disease, mirna2tar, tar2age)
 
 	target_gene_expression_analysis(mirna2age, mirna2disease,human_mirlst, master_tarlst, tar2age)
 
