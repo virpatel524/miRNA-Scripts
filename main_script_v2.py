@@ -335,7 +335,7 @@ def target_gene_analysis(mirna2age, mirna2disease,mirna2target, target2age):
 		print len(tar_base_vec)
 		newdata = generate_class_vector(tar_base_vec, mirna2target[mir])
 		print len(newdata)
-		tmp = pd.DataFrame(index=[mir,],columns=tar_base_vec)
+		tmp = pd.DataFrame([newdata,], index=[mir,],columns=tar_base_vec)
 		mir_targetdb = mir_targetdb.append(tmp)
 
 
