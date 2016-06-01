@@ -251,15 +251,15 @@ def gen_dis_db(disease2mirna,mirna2age):
 					cur_disfle.write('%s\n' %(mir))
 
 
-def get_list_of_diseases(mirna2disease):
-	return sorted(list(set(list(itertools.chain.from_iterable(mirna2disease.values())))))
+def get_list_of_dictionary(dic):
+	return sorted(list(set(list(itertools.chain.from_iterable(dic.values())))))
 
 
-def generate_disease_vector(dislst, mirna2disease_element):
-	new_vec = len(dislst) * [0]
+def generate_class_vector(biglst, element):
+	new_vec = len(biglst) * [0]
 
-	for alpha in mirna2disease_element:
-		new_vec[dislst.index(alpha)] = 1
+	for alpha in element:
+		new_vec[biglst.index(alpha)] = 1
 
 	return new_vec
 
@@ -272,13 +272,13 @@ def family_homogenity(human_mirlst, mirna2disease, mirna2age):
 	
 	all_mir_vector_df = pd.DataFrame()
 
-	dislst = get_list_of_diseases(mirna2disease)
+	dislst = get_list_of_dictionary(mirna2disease)
 
 	all_fam_mir = list(itertools.chain.from_iterable(human_mirlst.values()))
 
 	for mir in all_fam_mir:
 		if mir in mirna2disease:
-			vec = generate_disease_vector(dislst, mirna2disease[mir])
+			vec = generate_class_vector(dislst, mirna2disease[mir])
 			tmp = pd.DataFrame([vec,],index=[str(mir),], columns=dislst)
 			all_mir_vector_df = all_mir_vector_df.append(tmp)
 
@@ -326,6 +326,8 @@ def target_gene_analysis(mirna2age, mirna2disease,mirna2target, target2age):
 	for target in target2age:
 		tmp = pd.DataFrame([float(target2age[target]),], index=[target,], columns=['age',])
 		targetdb = targetdb.append(tmp)
+
+
 
 
 
