@@ -183,8 +183,9 @@ def parse_target_data(tardb,taragedb,timetreedb):
 	with open('/Users/virpatel/Desktop/pub_stuff/relevant_data/tar2age_all.txt','w') as tar2age_fle:
 		tarage_preproc = {}
 		for tar in master_tarlst:
-				if tar in tar2age:
-					tar2age_fle.write('%s\t%s\n' %(tar, tar2age[tar]))
+			print tar
+			if tar in tar2age:
+				tar2age_fle.write('%s\t%s\n' %(tar, tar2age[tar]))
 
 	return mirna2target, tar2age
 
