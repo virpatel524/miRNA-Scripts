@@ -375,7 +375,7 @@ def main():
 	agedb = '/Users/virpatel/Desktop/pub_stuff/relevant_data/allmir_ages/hsa_family_file_ph_allmir_dollo_age-time.protein_list'
 	tardb = '/Users/virpatel/Desktop/pub_stuff/relevant_data/all_targets.txt'
 	expdb = '/Users/virpatel/Desktop/pub_stuff/relevant_data/exp_data_alldmir.txt'
-	taragedb = '/Users/virpatel/Desktop/pub_stuff/ProteinHistorian/example/ages/human_age-label_wagner1.txt'
+	taragedb = '/Users/virpatel/projects/vanderbilt-summer-2014/main_script/hgnc_names_2_age.txt'
 	timetreedb = '/Users/virpatel/Desktop/pub_stuff/relevant_data/time_tree_dates.txt'
 
 	mega_mir_lst, mirlst_by_species, human_mirlst = sort_mir(open(mirdb,'r'),open(famdb,'r'))
