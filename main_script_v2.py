@@ -366,6 +366,9 @@ def target_gene_expression_analysis(mirna2age, mirna2disease,mirna2family):
 
 		mirnanumdis = []
 		mirnanumtar = []
+		mir_avg_tar_age = []
+		mir_age = []
+
 
 		
 			
