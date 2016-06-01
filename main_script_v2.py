@@ -348,10 +348,10 @@ def target_gene_expression_analysis(mirna2age, mirna2disease,mirna2family):
 		family_target_avg_age = []
 		family_perc_dis = []
 
-		for fam in mirn2family:
+		for fam in mirna2family:
 			family_vector = []
-			mirlst = [a for a in mirn2family[fam] if a in mir_targetdb.index]
-			mirdislst = [a for a in mirn2family[fam] if a in mirna2disease]
+			mirlst = [a for a in mirna2family[fam] if a in mir_targetdb.index]
+			mirdislst = [a for a in mirna2family[fam] if a in mirna2disease]
 			if len(mirlst) < 4: continue
 			if len(mirdislst) < 4: continue
 			for mir in mirlst:
