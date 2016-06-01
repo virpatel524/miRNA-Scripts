@@ -335,6 +335,11 @@ def family_homogenity(human_mirlst, mirna2disease, mirna2age):
 
 
 def target_gene_analysis(mirna2age, mirna2disease,mirna2target, target2age):
+	targetdb = pd.DataFrame()
+
+	for target in target2age:
+		targetdb = targetdb.append([float(target2age[target]),], index=[target,], columns=['age',])
+
 
 
 
@@ -378,7 +383,7 @@ def main():
 	# get_mirna_disease_age_relationship(mirna2age, mirna2disease)
 
 
-	parse_target_data(tardb,taragedb,timetreedb)
+	mirna2tar, tar2age = parse_target_data(tardb,taragedb,timetreedb)
 
 
 
@@ -387,7 +392,10 @@ def main():
 
 	# gen_dis_db(disease2mirna, mirna2age)
 
-	family_homogenity(human_mirlst, mirna2disease, mirna2age)
+	# family_homogenity(human_mirlst, mirna2disease, mirna2age
+
+
+	target_gene_analysis(mirna2age, mirna2disease, mirna2target, target2age)
 
 
 
