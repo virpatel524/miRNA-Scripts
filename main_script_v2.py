@@ -383,7 +383,7 @@ def target_gene_expression_analysis(mirna2age, mirna2disease,mirna2family,gene2a
 				mir_avg_tar_age.append(mean(tarages))
 
 
-		print spearmanr(mirnanumdis,mirnanumtar )
+		print spearmanr(mirnanumdis,mir_avg_tar_age )
 
 
 
