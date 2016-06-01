@@ -337,7 +337,7 @@ def target_gene_analysis(mirna2age, mirna2disease,mirna2target, target2age):
 		mir_targetdb = mir_targetdb.append(tmp)
 
 
-	mir_targetdb.to_csv(file_name, sep='\t', encoding='utf-8')
+	mir_targetdb.to_csv('/Users/virpatel/Desktop/pub_stuff/relevant_data/mir_target_vectordb.txt', sep='\t', encoding='utf-8')
 
 
 
