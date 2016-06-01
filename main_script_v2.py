@@ -364,11 +364,10 @@ def target_gene_expression_analysis(mirna2age, mirna2disease,mirna2family):
 		# 	family_perc_dis.append(float(len(mirdislst)) / float(len(mirna2family[fam])))
 
 
-		for mirna in mirna2age:
-			if mirna in mirna2disease
+		mirnanumdis = []
+		mirnanumtar = []
 
-		print spearmanr(family_target_hamming, family_perc_dis)
-
+		
 			
 
 
