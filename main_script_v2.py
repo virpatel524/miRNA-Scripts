@@ -330,14 +330,15 @@ def target_gene_analysis(mirna2age, mirna2disease,mirna2target, target2age):
 
 	tar_base_vec = get_list_of_dictionary(mirna2target)
 	
-	for mir in mirna2target:
+	for index,mir in enumerate(mirna2target):
+		print index + 1
 		newdata = generate_class_vector(tar_base_vec, mirna2target[mir])
-		print len(newdata)
 		tmp = pd.DataFrame([newdata,], index=[mir,],columns=tar_base_vec)
 		mir_targetdb = mir_targetdb.append(tmp)
 
 
 	mir_targetdb.to_csv('/Users/virpatel/Desktop/pub_stuff/relevant_data/mir_target_vectordb.txt', sep='\t', encoding='utf-8')
+
 
 
 
