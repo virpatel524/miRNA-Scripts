@@ -169,7 +169,6 @@ def parse_target_data(tardb,taragedb,timetreedb):
 	with open(taragedb) as tardb_fle:
 		data = list(csv.reader(tardb_fle,delimiter='\t'))
 		for i in data:
-			print i 
 			tar2age[i[0]] = float(i[1]) 
 
 
@@ -327,7 +326,7 @@ def target_gene_analysis(mirna2age, mirna2disease,mirna2target, target2age):
 	for target in target2age:
 		tmp = pd.DataFrame([float(target2age[target]),], index=[target,], columns=['age',])
 		targetdb = targetdb.append(tmp)
-		
+
 
 
 
