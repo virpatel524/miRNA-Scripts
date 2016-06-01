@@ -319,8 +319,7 @@ def family_homogenity(human_mirlst, mirna2disease, mirna2age):
 	plt.close()
 
 
-
-def target_gene_analysis(mirna2age, mirna2disease,mirna2target, target2age):
+def target_gene_dataframe(mirna2age, mirna2disease,mirna2target, target2age):
 	target_agedb = pd.DataFrame()
 	mir_targetdb = pd.DataFrame()
 
@@ -338,6 +337,12 @@ def target_gene_analysis(mirna2age, mirna2disease,mirna2target, target2age):
 
 
 	mir_targetdb.to_csv('/Users/virpatel/Desktop/pub_stuff/relevant_data/mir_target_vectordb.txt', sep='\t', encoding='utf-8')
+
+
+
+def target_gene_expression_analysis(mirna2age, mirna2disease):
+		pd.read_csv('/Users/virpatel/Desktop/pub_stuff/relevant_data/mir_target_vectordb.txt', sep='\t', encoding='utf-8')
+
 
 
 
@@ -380,7 +385,7 @@ def main():
 	# family_homogenity(human_mirlst, mirna2disease, mirna2age
 
 
-	target_gene_analysis(mirna2age, mirna2disease, mirna2tar, tar2age)
+	target_gene_expression_analysis(mirna2age, mirna2disease)
 
 
 
