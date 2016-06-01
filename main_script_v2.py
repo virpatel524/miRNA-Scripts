@@ -379,7 +379,7 @@ def target_gene_expression_analysis(mirna2age, mirna2disease,mirna2family,gene2a
 				bintarlt = mir_targetdb.loc[mir].tolist()
 
 				mirnanumtar.append(sum(bintarlt))
-				tarages = []
+				tarages = [gene2age[target_lst[ind]] for ind, a in enumerate(bintarlt) if target_lst[ind] in gene2age]
 			
 
 
