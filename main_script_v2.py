@@ -326,14 +326,16 @@ def target_gene_analysis(mirna2age, mirna2disease,mirna2target, target2age):
 
 	for target in target2age:
 		tmp = pd.DataFrame([float(target2age[target]),], index=[target,], columns=['age',])
-		target_agedb = targetdb.append(tmp)
+		target_agedb = target_agedb.append(tmp)
 
 	tar_base_vec = get_list_of_dictionary(mirna2target)
 	
 	for mir in mirna2target:
 		tmp = pd.DataFrame(generate_class_vector(tar_base_vec, element),index=mir,columns=tar_base_vec)
-		mir_targetdb = 
+		mir_targetdb = mir_targetdb.append(tmp)
 
+
+	print mir_targetdb.head
 
 
 
