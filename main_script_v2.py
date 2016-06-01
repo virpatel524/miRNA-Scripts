@@ -325,7 +325,9 @@ def target_gene_analysis(mirna2age, mirna2disease,mirna2target, target2age):
 	targetdb = pd.DataFrame()
 
 	for target in target2age:
-		targetdb = targetdb.append([float(target2age[target]),], index=[target,], columns=['age',])
+		tmp = pd.DataFrame([float(target2age[target]),], index=[target,], columns=['age',])
+		targetdb = targetdb.append(tmp)
+		
 
 
 
