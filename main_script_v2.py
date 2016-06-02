@@ -471,11 +471,12 @@ def disease_bootstrapping(mirna2age, mirna2disease,mirna2target,gene2age):
 
 	## setup for gene analysis
 
-	allmirinq = [gene2age[a] for a in two_dic_common(mirna2target, mirna2disease) if a  in gene2age]
+	allmirinq = [a for a in two_dic_common(mirna2target, mirna2disease) if a  in gene2age]
+	alltarinq = [mirnatarget[a] for a  in allmirinq]
 
 	counter = 0
 	for dis in disease2mirna:
-		potmir +=[a for a in disease2mirna[dis] if in allmirinq]
+		potmir = [a for a in disease2mirna[dis] if a in allmirinq]
 
 		z,b  = mannwhitneyu(alldismir, age_of_supporting_mir)
 		z = float(b)
