@@ -488,9 +488,10 @@ def disease_bootstrapping(mirna2age, mirna2disease,mirna2target,gene2age):
 	## setup for gene analysis
 
 	dis2tar = three_way_map(disease2mirna, mir)
-	alltar = list(set(flatten(dis2tar.values())))
+	alltar_age = [gene2age[a] for a  in list(set(flatten(dis2tar.values()))) if a  in gene2age]
 
 	for dis in dis2tar:
+		pottarage = [gene2age[a] for a  in dis2tar[dis] if a in gene2age]
 
 
 
