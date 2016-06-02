@@ -4,8 +4,8 @@ data = list(csv.reader(open('/Users/virpatel/projects/vanderbilt-summer-2014/dat
 canlst = []
 for el in data:
 	dis = el[0]
-	if 'oma' in dis:
+	if 'oma' in dis or 'eoplas' in dis:
 		canlst.append(dis)
 		data.remove(el)
 
-prnt len(data)
+print data
