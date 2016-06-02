@@ -410,10 +410,6 @@ def target_gene_expression_analysis(mirna2age, mirna2disease,mirna2family,gene2a
 
 					# if mirage > 100.0: old_num_tis.append(sum(mir_expdb.loc[mir].tolist()))
 					# else: yung_num_tis.append(sum(mir_expdb.loc[mir].tolist()))
-			else:
-				v = float(sum(mir_expdb.loc[mir].tolist()))
-				exp_val.append(v)
-				dis_num.append(0)
 
 
 
