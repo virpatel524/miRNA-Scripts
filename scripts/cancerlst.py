@@ -8,12 +8,10 @@ def flatten(l):
 data = list(csv.reader(open('/Users/virpatel/projects/vanderbilt-summer-2014/data/list_of_HMDD_diseases.txt','r'),delimiter='\t'))
 data = flatten(data)
 canlst = []
+nonlst = []
 for ind,dis in enumerate(data):
-	print dis
-	# if dis == 'Glioblastoma':
-	# 	print 'ah'
-	# if 'oma' in dis or 'eoplas' in dis:
-	# 	canlst.append(dis)
-	# 	data.pop(ind)
+	if 'oma' in dis or 'eoplas' in dis or 'Leukemia' in dis:
+		canlst.append(dis)
+	else: nonlst.append(dis)
 
-print data
+print len(nonlst)
