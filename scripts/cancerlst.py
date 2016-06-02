@@ -15,4 +15,4 @@ for ind,dis in enumerate(data):
 	else: nonlst.append(dis)
 
 
-print len(nonlst)
+print nonlst
