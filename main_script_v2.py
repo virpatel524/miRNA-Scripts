@@ -430,6 +430,9 @@ def target_gene_expression_analysis(mirna2age, mirna2disease,mirna2family,gene2a
 
 
 def disease_bootstrapping(mirna2age, mirna2disease,mirna2target):
+	disease2mirna = reverse_dict(mirna2disease)
+
+	print disease2mirna
 
 
 
