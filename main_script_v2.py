@@ -26,7 +26,6 @@ sns.set_context("paper")
 bad_lst = ['ghb','ssp','fru','hsv','hvt','ebv','rlc','hhv','mcm','pbi','jcv','bkv','mdv','hma','bpc','ksh']
 
 
-disease2mirna, mirna2targets
 
 def reverse_dict(dic):
 	new_dic = {}
@@ -455,39 +454,43 @@ def target_gene_expression_analysis(mirna2age, mirna2disease,mirna2family,gene2a
 def disease_bootstrapping(mirna2age, mirna2disease,mirna2target,gene2age):
 	disease2mirna = reverse_dict(mirna2disease)
 
-	for dis in disease2mirna:
-		age_of_supporting_mir = [mirna2age[a] for a  in disease2mirna[dis] if a in mirna2age]
-		med_dis = float(mean(age_of_supporting_mir))
-		if len(age_of_supporting_mir) > 2:
-			counter_over  = 0
-			counter_under = 0
-			for i in range(10000):
-				while_loop_safety = 0
-				new_ages_lst = []
+	# for dis in disease2mirna:
+	# 	age_of_supporting_mir = [mirna2age[a] for a  in disease2mirna[dis] if a in mirna2age]
+	# 	med_dis = float(mean(age_of_supporting_mir))
+	# 	if len(age_of_supporting_mir) > 2:
+	# 		counter_over  = 0
+	# 		counter_under = 0
+	# 		for i in range(10000):
+	# 			while_loop_safety = 0
+	# 			new_ages_lst = []
 
-				while_loop_safety += 1
-				new_ages_lst = [mirna2age[ran_choice] for ran_choice in random.sample(set(two_dic_common(mirna2age,mirna2disease)),len(age_of_supporting_mir))]
-				if float(mean(new_ages_lst)) > med_dis: counter_under += 1
-				if float(mean(new_ages_lst)) < med_dis: counter_under += 1
+	# 			while_loop_safety += 1
+	# 			new_ages_lst = [mirna2age[ran_choice] for ran_choice in random.sample(set(two_dic_common(mirna2age,mirna2disease)),len(age_of_supporting_mir))]
+	# 			if float(mean(new_ages_lst)) > med_dis: counter_under += 1
+	# 			if float(mean(new_ages_lst)) < med_dis: counter_under += 1
 
-			print "Disease:%s, prob it's younger:%f, prob it's older:%f" %(dis,float(counter_under)/ float(10000),float(counter_over)/ float(10000))
+	# 		print "Disease:%s, prob it's younger:%f, prob it's older:%f" %(dis,float(counter_under)/ float(10000),float(counter_over)/ float(10000))
 
-	alldismir = [mirna2age[a] for a in mirna2disease if a in mirna2age]
-	counter = 0
-	for dis in disease2mirna:
-		age_of_supporting_mir = [mirna2age[a] for a  in disease2mirna[dis] if a in mirna2age]
-		z,b  = mannwhitneyu(alldismir, age_of_supporting_mir)
-		z = float(b)
+	# alldismir = [mirna2age[a] for a in mirna2disease if a in mirna2age]
+	# counter = 0
+	# for dis in disease2mirna:
+	# 	age_of_supporting_mir = [mirna2age[a] for a  in disease2mirna[dis] if a in mirna2age]
+	# 	z,b  = mannwhitneyu(alldismir, age_of_supporting_mir)
+	# 	z = float(b)
 
-		if z < 0.005: 
-			print 'Disease:%s, mann: %s' %(dis, z)
-			counter += 1
-	print float(counter) / float(len(disease2mirna))
+	# 	if z < 0.005: 
+	# 		print 'Disease:%s, mann: %s' %(dis, z)
+	# 		counter += 1
+	# print float(counter) / float(len(disease2mirna))
 
 
 
 	## setup for gene analysis
 
+	dis2tar = three_way_map(disease2mirna, mir)
+	alltar = list(set(flatten(dis2tar.values())))
+
+	for dis in dis2tar:
 
 
 
