@@ -4,7 +4,9 @@ data = list(csv.reader(open('/Users/virpatel/projects/vanderbilt-summer-2014/dat
 canlst = []
 for el in data:
 	dis = el[0]
+	print dis
 	if 'oma' in dis or 'eoplas' in dis:
+		print 'hi'
 		canlst.append(dis)
 		data.remove(el)
 
