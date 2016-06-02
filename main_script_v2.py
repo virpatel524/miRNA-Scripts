@@ -492,6 +492,16 @@ def disease_bootstrapping(mirna2age, mirna2disease,mirna2target,gene2age):
 
 	for dis in dis2tar:
 		pottarage = [gene2age[a] for a  in dis2tar[dis] if a in gene2age]
+		medpot = median(pottarage)
+		counter_under = 0
+		counter_over = 0 
+
+		for i in range(10000):
+			new_ages_lst = random.sample(alltar_age, len(pottarage))
+			if float(median(new_ages_lst)) > med_dis: counter_under += 1
+	 		if float(median(new_ages_lst)) < med_dis: counter_under += 1
+
+
 
 
 
