@@ -434,14 +434,18 @@ def disease_bootstrapping(mirna2age, mirna2disease,mirna2target):
 
 	for dis in disease2mirna:
 		age_of_supporting_mir = [mirna2age[a] for a  in disease2mirna[dis] if a in mirna2age]
-		med_dis = median(age_of_supporting_mir)
+		med_dis = float(median(age_of_supporting_mir))
 		if len(age_of_supporting_mir) > 2:
-			counter  = 0
+			counter_over  = 0
+			counter_under = 0
 			for i in range(10000):
 				new_ages_lst = []
-				while len(new_ages_lst) != len(age_of_supporting_mir)
-				beta = random.choice(set(mirna2disease))
-				beta_ages = [mirna2age[]]
+				while len(new_ages_lst) != len(age_of_supporting_mir):
+					new_ages_lst = [mirna2age[ran_choice] for ran_choice in random.sample(set(mirna2disease),len(age_of_supporting_mir))]
+				if float(median(new_ages_lst)) > med_dis: counter_under += 1
+				if float(median(new_ages_lst)) < med_dis: counter_under += 1
+
+			print "Disease:%s, prob it's younger:%f, prob it's older:%f" %(dis,float(counter_under)/ float(10000),float(counter_over)/ float(10000))
 
 
 
