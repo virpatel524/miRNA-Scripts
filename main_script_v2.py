@@ -456,7 +456,7 @@ def disease_bootstrapping(mirna2age, mirna2disease,mirna2target):
 	# 		print "Disease:%s, prob it's younger:%f, prob it's older:%f" %(dis,float(counter_under)/ float(10000),float(counter_over)/ float(10000))
 
 	alldismir = [mirna2age[a] for a in mirna2disease if a in mirna2age]
-	for dis in mirna2disease:
+	for dis in disease2mirna:
 		age_of_supporting_mir = [mirna2age[a] for a  in disease2mirna[dis] if a in mirna2age]
 		z  = str(mannwhitneyu(alldismir, age_of_supporting_mir))
 		print 'Disease:%s, mann: %s' %(dis, z)
