@@ -493,7 +493,7 @@ def disease_bootstrapping(mirna2age, mirna2disease,mirna2target,gene2age):
 						num_canc_yes += 1
 					dislstfle.write('Disease:%s, mann: %s\n' %(dis, z))
 				else:
-					num_canc_no += 1
+					num_canc_non += 1
 
 			print float(counter) / float(len(disease2mirna))
 			print float(num_canc_yes) / float(len(cancers))
