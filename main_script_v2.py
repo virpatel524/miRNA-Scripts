@@ -479,8 +479,8 @@ def disease_bootstrapping(mirna2age, mirna2disease,mirna2target,gene2age):
 	with open('/Users/virpatel/Desktop/pub_stuff/relevant_data/mann-whit-disagelst.txt','w') as dislstfle:
 			alldismir = [mirna2age[a] for a in mirna2disease if a in mirna2age]
 			cancers = list(csv.reader(open('/Users/virpatel/Desktop/pub_stuff/relevant_data/cancerlst.txt','r'),delimiter='\t'))
-			num_canc_non = []
-			num_canc_canc = []
+			num_canc_non = 0
+			num_canc_yes = 0
 			counter = 0
 			for dis in disease2mirna:
 				age_of_supporting_mir = [mirna2age[a] for a  in disease2mirna[dis] if a in mirna2age]
@@ -489,6 +489,8 @@ def disease_bootstrapping(mirna2age, mirna2disease,mirna2target,gene2age):
 
 				if z < 0.005: 
 					counter += 1
+					if dis in cancers:
+						num_canc_yes += 1
 					dislstfle.write('Disease:%s, mann: %s\n' %(dis, z))
 				else:
 					print 'Disease:%s, mann: %s\n' %(dis, z)
