@@ -438,22 +438,27 @@ def target_gene_expression_analysis(mirna2age, mirna2disease,mirna2family,gene2a
 def disease_bootstrapping(mirna2age, mirna2disease,mirna2target):
 	disease2mirna = reverse_dict(mirna2disease)
 
-	for dis in disease2mirna:
+	# for dis in disease2mirna:
+	# 	age_of_supporting_mir = [mirna2age[a] for a  in disease2mirna[dis] if a in mirna2age]
+	# 	med_dis = float(median(age_of_supporting_mir))
+	# 	if len(age_of_supporting_mir) > 2:
+	# 		counter_over  = 0
+	# 		counter_under = 0
+	# 		for i in range(10000):
+	# 			while_loop_safety = 0
+	# 			new_ages_lst = []
+
+	# 			while_loop_safety += 1
+	# 			new_ages_lst = [mirna2age[ran_choice] for ran_choice in random.sample(set(two_dic_common(mirna2age,mirna2disease)),len(age_of_supporting_mir))]
+	# 			if float(median(new_ages_lst)) > med_dis: counter_under += 1
+	# 			if float(median(new_ages_lst)) < med_dis: counter_under += 1
+
+	# 		print "Disease:%s, prob it's younger:%f, prob it's older:%f" %(dis,float(counter_under)/ float(10000),float(counter_over)/ float(10000))
+
+	alldismir = [mirna2age[a] for a in mirna2disease if a in mirna2age]
+	for dis in mirna2disease:
 		age_of_supporting_mir = [mirna2age[a] for a  in disease2mirna[dis] if a in mirna2age]
-		med_dis = float(median(age_of_supporting_mir))
-		if len(age_of_supporting_mir) > 2:
-			counter_over  = 0
-			counter_under = 0
-			for i in range(10000):
-				while_loop_safety = 0
-				new_ages_lst = []
 
-				while_loop_safety += 1
-				new_ages_lst = [mirna2age[ran_choice] for ran_choice in random.sample(set(two_dic_common(mirna2age,mirna2disease)),len(age_of_supporting_mir))]
-				if float(median(new_ages_lst)) > med_dis: counter_under += 1
-				if float(median(new_ages_lst)) < med_dis: counter_under += 1
-
-			print "Disease:%s, prob it's younger:%f, prob it's older:%f" %(dis,float(counter_under)/ float(10000),float(counter_over)/ float(10000))
 
 
 
