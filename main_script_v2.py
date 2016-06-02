@@ -453,11 +453,6 @@ def disease_bootstrapping(mirna2age, mirna2disease,mirna2target):
 
 
 
-def try_random_gen(mirna2age,lensupporting):
-	new_ages_lst = [mirna2age[ran_choice] for ran_choice in random.sample(set(mirna2disease), lensupporting if ran_choice in mirna2age]
-
-
-
 
 
 
