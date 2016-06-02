@@ -27,8 +27,14 @@ bad_lst = ['ghb','ssp','fru','hsv','hvt','ebv','rlc','hhv','mcm','pbi','jcv','bk
 
 
 def reverse_dict(dic):
-	dict_inside = list(set(dic.values()))
-	
+	new_dic = {}
+	for item in dic:
+		vals = dic[item]
+		for a in vals:
+			new_dic.setdefault(a, []).append(item)
+
+	return new_dic
+
 
 
 def sort_mir(txt,txt2):
