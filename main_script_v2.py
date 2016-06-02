@@ -478,8 +478,10 @@ def disease_bootstrapping(mirna2age, mirna2disease,mirna2target,gene2age):
 	counter = 0
 	for dis in disease2mirna:
 		potmir = [a for a in disease2mirna[dis] if a in allmirinq]
+		pottar = list(set(flatten([mirna2target[a] for a  in allmirinq])))
+		all_pottar_age = [gene2age[a] for a  in alltarinq]
 
-		z,b  = mannwhitneyu(alldismir, age_of_supporting_mir)
+		z,b  = mannwhitneyu(all_tarinq_age, all_pottar_age)
 		z = float(b)
 
 		if z < 0.005: 
