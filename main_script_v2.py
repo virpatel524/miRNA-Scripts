@@ -487,8 +487,9 @@ def disease_bootstrapping(mirna2age, mirna2disease,mirna2target,gene2age):
 				if z < 0.005: 
 					counter += 1
 					dislstfle.write('Disease:%s, mann: %s\n' %(dis, z))
-					
-			print float(counter) / float(len(disease2mirna))
+				else:
+					print 'Disease:%s, mann: %s\n' %(dis, z)
+
 
 
 
