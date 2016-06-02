@@ -15,4 +15,6 @@ for ind,dis in enumerate(data):
 	else: nonlst.append(dis)
 
 
-print nonlst
+with open('/Users/virpatel/Desktop/pub_stuff/relevant_data/cancerlst.txt','w') as cancerfle:
+	for can in canlst:
+		cancerfle.write(can + '\n')

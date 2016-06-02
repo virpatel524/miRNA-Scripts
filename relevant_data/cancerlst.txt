@@ -1,0 +1,94 @@
+Carcinoma, Ehrlich Tumor
+Prostatic Neoplasms
+Astrocytoma
+Neoplasms, Squamous Cell
+Adrenal Cortex Neoplasms
+Lymphoma, Primary Effusion
+Precursor B-Cell Lymphoblastic Leukemia-Lymphoma
+Ependymoma
+Sarcoma, Ewing's
+Melanoma
+Breast Neoplasms
+Choriocarcinoma
+Cholesteatoma
+Biliary Tract Neoplasms
+Cholangiocarcinoma
+Neoplasms
+Mouth Neoplasms
+Leiomyoma
+Lymphoma, Large-Cell, Anaplastic
+Tongue Neoplasms
+Lymphoma, T-Cell
+Leukemia, Myelogenous, Chronic, BCR-ABL Positive
+Kidney Neoplasms
+Esophageal Neoplasms
+Hematologic Neoplasms
+Precursor Cell Lymphoblastic Leukemia-Lymphoma
+Pancreatic Neoplasms
+Brain Neoplasms
+Leukemia, B-Cell
+Liposarcoma
+Uterine Cervical Neoplasms
+Mesothelioma
+Carcinoma
+Salivary Gland Neoplasms
+Lymphoma, Large B-Cell, Diffuse
+Laryngeal Neoplasms
+Carcinoma, Small Cell
+Carcinoma, Squamous Cell
+Rectal Neoplasms
+Sezary Syndrome
+Leukemia, Promyelocytic, Acute
+Leukemia, Myeloid
+Adenocarcinoma
+Sarcoma
+Lymphoma, Mantle-Cell
+Colon Neoplasms
+Pituitary Neoplasms
+Ovarian Neoplasms
+Digestive System Neoplasms
+Leukemia-Lymphoma, Adult T-Cell
+Adrenocortical Carcinoma
+Urinary Bladder Neoplasms
+Lung Neoplasms
+Carcinoma, Non-Small-Cell Lung
+Liver Neoplasms
+Hepatoblastoma
+Gastrointestinal Neoplasms
+Leukemia
+Prostate Neoplasms
+Carcinoma, Renal Cell
+Sarcoma, Kaposi
+Leukemia, Myeloid, Chronic-Phase
+Stomach Neoplasms
+Medulloblastoma
+Hemangiosarcoma
+Glioma
+Head and Neck Neoplasms
+Leukemia, Myeloid, Acute
+Multiple Myeloma
+Adrenocortical Adenoma
+Testicular Neoplasms
+Skin Neoplasms
+Colonic Neoplasms
+Meningioma
+Neuroblastoma
+Prolactinoma
+Carcinoma, Hepatocellular
+Waldenstrom Macroglobulinemia
+Retinoblastoma
+Endometrial Neoplasms
+Nasopharyngeal Neoplasms
+Colorectal Neoplasms
+Sarcoma, Ewing
+Stomach Neoplasms 
+Lymphoma, B-Cell
+ACTH-Secreting Pituitary Adenoma
+Thyroid Neoplasms
+Burkitt Lymphoma
+Rhabdomyosarcoma
+Lymphoma
+Leukemia, Lymphocytic, Chronic, B-Cell
+Osteosarcoma
+Glioblastoma
+Carcinoma, Basal Cell
