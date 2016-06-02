@@ -52,9 +52,11 @@ def three_way_map(dic1, dic2):
 		all_sub_dic1 = dic1[item]
 		meglst = []
 		for alpha in all_sub_dic1:
-			meglst.append(dic2[alpha])
+			if alpha in dic2:
+				meglst.append(dic2[alpha])
 		finlst = list(set(flatten(meglst)))
-		newdic[item] = finlst
+		if len(finlst) != 0:
+			newdic[item] = finlst
 
 
 
