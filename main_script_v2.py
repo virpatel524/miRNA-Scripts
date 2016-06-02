@@ -491,6 +491,7 @@ def disease_bootstrapping(mirna2age, mirna2disease,mirna2target,gene2age):
 	alltar_age = [gene2age[a] for a  in list(set(flatten(dis2tar.values()))) if a  in gene2age]
 
 	for dis in dis2tar:
+		print dis
 		pottarage = [gene2age[a] for a  in dis2tar[dis] if a in gene2age]
 		medpot = median(pottarage)
 		counter_under = 0
@@ -503,6 +504,7 @@ def disease_bootstrapping(mirna2age, mirna2disease,mirna2target,gene2age):
 
 
 
+		print "Disease:%s, prob it's younger:%f, prob it's older:%f" %(dis,float(counter_under)/ float(10000),float(counter_over)/ float(10000))
 
 
 
