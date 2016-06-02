@@ -439,8 +439,11 @@ def disease_bootstrapping(mirna2age, mirna2disease,mirna2target):
 			counter_over  = 0
 			counter_under = 0
 			for i in range(10000):
+				while_loop_safety = 0
 				new_ages_lst = []
 				while len(new_ages_lst) != len(age_of_supporting_mir):
+					if 
+					while_loop_safety += 1
 					new_ages_lst = [mirna2age[ran_choice] for ran_choice in random.sample(set(mirna2disease),len(age_of_supporting_mir)) if ran_choice in mirna2age]
 				if float(median(new_ages_lst)) > med_dis: counter_under += 1
 				if float(median(new_ages_lst)) < med_dis: counter_under += 1
@@ -450,7 +453,8 @@ def disease_bootstrapping(mirna2age, mirna2disease,mirna2target):
 
 
 
-
+def try_random_gen(mirna2age,lensupporting):
+	new_ages_lst = [mirna2age[ran_choice] for ran_choice in random.sample(set(mirna2disease), lensupporting if ran_choice in mirna2age]
 
 
 
