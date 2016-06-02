@@ -432,7 +432,13 @@ def target_gene_expression_analysis(mirna2age, mirna2disease,mirna2family,gene2a
 def disease_bootstrapping(mirna2age, mirna2disease,mirna2target):
 	disease2mirna = reverse_dict(mirna2disease)
 
-	print disease2mirna
+	for dis in disease2mirna:
+		age_of_supporting_mir = [mirna2age[a] for a  in disease2mirna[dis] if a in mirna2age]
+		med_dis = median(age_of_supporting_mir)
+		if len(age_of_supporting_mir) > 2:
+
+
+
 
 
 
