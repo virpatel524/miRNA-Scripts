@@ -35,6 +35,9 @@ def reverse_dict(dic):
 
 	return new_dic
 
+def two_dic_common(dic1, dic2):
+	return list(set(dic1.keys() + dic2.keys()))
+
 
 
 def sort_mir(txt,txt2):
