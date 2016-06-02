@@ -459,6 +459,7 @@ def disease_bootstrapping(mirna2age, mirna2disease,mirna2target):
 	for dis in disease2mirna:
 		age_of_supporting_mir = [mirna2age[a] for a  in disease2mirna[dis] if a in mirna2age]
 		z  = str(mannwhitneyu(alldismir, age_of_supporting_mir))
+		print z[1]
 		print 'Disease:%s, mann: %s' %(dis, z)
 
 
