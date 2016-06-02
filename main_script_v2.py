@@ -474,7 +474,7 @@ def disease_bootstrapping(mirna2age, mirna2disease,mirna2target,gene2age):
 
 	allmirinq = [a for a in two_dic_common(mirna2target, mirna2disease) if a  in gene2age]
 	alltarinq = list(set(flatten([mirnatarget[a] for a  in allmirinq])))
-
+	all_tarinq_age = [gene2age[a] for a in alltarinq]
 	counter = 0
 	for dis in disease2mirna:
 		potmir = [a for a in disease2mirna[dis] if a in allmirinq]
