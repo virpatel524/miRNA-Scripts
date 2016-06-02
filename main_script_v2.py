@@ -436,6 +436,12 @@ def disease_bootstrapping(mirna2age, mirna2disease,mirna2target):
 		age_of_supporting_mir = [mirna2age[a] for a  in disease2mirna[dis] if a in mirna2age]
 		med_dis = median(age_of_supporting_mir)
 		if len(age_of_supporting_mir) > 2:
+			counter  = 0
+			for i in range(10000):
+				new_ages_lst = []
+				while len(new_ages_lst) != len(age_of_supporting_mir)
+				beta = random.choice(set(mirna2disease))
+				beta_ages = [mirna2age[]]
 
 
 
