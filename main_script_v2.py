@@ -44,6 +44,8 @@ def two_dic_common(dic1, dic2):
 def flatten(l):
 	return [item for sublist in l for item in sublist]
 
+def three_way_map(dic1, dic2, dic3)
+
 def sort_mir(txt,txt2):
 	mega_mir_lst = []
 	famdict = {}
@@ -477,21 +479,21 @@ def disease_bootstrapping(mirna2age, mirna2disease,mirna2target,gene2age):
 	all_tarinq_age = [gene2age[a] for a in alltarinq]
 	counter = 0
 	for dis in disease2mirna:
-		age_of_supporting_mir = [mirna2age[a] for a  in disease2mirna[dis] if a in mirna2age]
-			# 	med_dis = float(median(age_of_supporting_mir))
-			# 	if len(age_of_supporting_mir) > 2:
-			# 		counter_over  = 0
-			# 		counter_under = 0
-			# 		for i in range(10000):
-			# 			while_loop_safety = 0
-			# 			new_ages_lst = []
+		age_of_supporting_tar = [mirna2age[a] for a  in disease2mirna[dis] if a in mirna2age]
+		med_dis = float(median(age_of_supporting_mir))
+		if len(age_of_supporting_mir) > 2:
+			counter_over  = 0
+			counter_under = 0
+			for i in range(10000):
+				while_loop_safety = 0
+				new_ages_lst = []
 
-			# 			while_loop_safety += 1
-			# 			new_ages_lst = [mirna2age[ran_choice] for ran_choice in random.sample(set(two_dic_common(mirna2age,mirna2disease)),len(age_of_supporting_mir))]
-			# 			if float(median(new_ages_lst)) > med_dis: counter_under += 1
-			# 			if float(median(new_ages_lst)) < med_dis: counter_under += 1
+				while_loop_safety += 1
+				new_ages_lst = [mirna2age[ran_choice] for ran_choice in random.sample(set(two_dic_common(mirna2age,mirna2disease)),len(age_of_supporting_mir))]
+				if float(median(new_ages_lst)) > med_dis: counter_under += 1
+				if float(median(new_ages_lst)) < med_dis: counter_under += 1
 
-			# 		print "Disease:%s, prob it's younger:%f, prob it's older:%f" %(dis,float(counter_under)/ float(10000),float(counter_over)/ float(10000))
+			print "Disease:%s, prob it's younger:%f, prob it's older:%f" %(dis,float(counter_under)/ float(10000),float(counter_over)/ float(10000))
 
 
 
