@@ -26,6 +26,8 @@ sns.set_context("paper")
 bad_lst = ['ghb','ssp','fru','hsv','hvt','ebv','rlc','hhv','mcm','pbi','jcv','bkv','mdv','hma','bpc','ksh']
 
 
+disease2mirna, mirna2targets
+
 def reverse_dict(dic):
 	new_dic = {}
 	for item in dic:
@@ -44,7 +46,19 @@ def two_dic_common(dic1, dic2):
 def flatten(l):
 	return [item for sublist in l for item in sublist]
 
-def three_way_map(dic1, dic2, dic3)
+def three_way_map(dic1, dic2):
+	newdic = {}
+
+	for item in dic1:
+		all_sub_dic1 = dic1[item]
+		meglst = []
+		for alpha in all_sub_dic1:
+			meglst.append(dic2[alpha])
+		finlst = list(set(flatten(meglst)))
+		newdic[item] = finlst
+
+
+
 
 def sort_mir(txt,txt2):
 	mega_mir_lst = []
