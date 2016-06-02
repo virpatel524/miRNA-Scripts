@@ -36,7 +36,10 @@ def reverse_dict(dic):
 	return new_dic
 
 def two_dic_common(dic1, dic2):
-	return list(set(dic1.keys() + dic2.keys()))
+	b1 = dic1.keys()
+	b2 = dic2.keys()
+
+	return [val for val in b1 if val in b2]
 
 
 
