@@ -422,7 +422,10 @@ def target_gene_expression_analysis(mirna2age, mirna2disease,mirna2family,gene2a
 
 
 def disease_bootstrapping(mirna2age, mirna2disease,mirna2target):
-	
+	inv_map_mir2disease = {v: k for k, v in mirna2disease.items()}
+
+	print inv_map_mir2disease
+
 
 
 
