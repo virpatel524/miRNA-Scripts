@@ -404,7 +404,7 @@ def target_gene_expression_analysis(mirna2age, mirna2disease,mirna2family,gene2a
 				# mirage = mirna2age[mir]
 				# mir_age_lst.append(mirage)
 				v = float(sum(mir_expdb.loc[mir].tolist()))
-				print v
+				if int(v) == 0: continue
 				v =  math.log(v)
 				exp_val.append(v)
 
