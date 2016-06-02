@@ -445,6 +445,7 @@ def disease_bootstrapping(mirna2age, mirna2disease,mirna2target):
 			counter_over  = 0
 			counter_under = 0
 			for i in range(10000):
+				print i
 				while_loop_safety = 0
 				new_ages_lst = []
 
