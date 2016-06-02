@@ -41,7 +41,8 @@ def two_dic_common(dic1, dic2):
 
 	return [val for val in b1 if val in b2]
 
-
+def flatten(l):
+	return [item for sublist in l for item in sublist]
 
 def sort_mir(txt,txt2):
 	mega_mir_lst = []
@@ -472,7 +473,7 @@ def disease_bootstrapping(mirna2age, mirna2disease,mirna2target,gene2age):
 	## setup for gene analysis
 
 	allmirinq = [a for a in two_dic_common(mirna2target, mirna2disease) if a  in gene2age]
-	alltarinq = [mirnatarget[a] for a  in allmirinq]
+	alltarinq = list(set(flatten([mirnatarget[a] for a  in allmirinq])))
 
 	counter = 0
 	for dis in disease2mirna:
