@@ -475,40 +475,43 @@ def disease_bootstrapping(mirna2age, mirna2disease,mirna2target,gene2age):
 
 	# 		print "Disease:%s, prob it's younger:%f, prob it's older:%f" %(dis,float(counter_under)/ float(10000),float(counter_over)/ float(10000))
 
-	# alldismir = [mirna2age[a] for a in mirna2disease if a in mirna2age]
-	# counter = 0
-	# for dis in disease2mirna:
-	# 	age_of_supporting_mir = [mirna2age[a] for a  in disease2mirna[dis] if a in mirna2age]
-	# 	z,b  = mannwhitneyu(alldismir, age_of_supporting_mir)
-	# 	z = float(b)
 
-	# 	if z < 0.005: 
-	# 		print 'Disease:%s, mann: %s' %(dis, z)
-	# 		counter += 1
-	# print float(counter) / float(len(disease2mirna))
+with open('/Users/virpatel/Desktop/pub_stuff/relevant_data/mann-whit-disagelst.txt','w') as dislstfle:
+		
+		alldismir = [mirna2age[a] for a in mirna2disease if a in mirna2age]
+		counter = 0
+		for dis in disease2mirna:
+			age_of_supporting_mir = [mirna2age[a] for a  in disease2mirna[dis] if a in mirna2age]
+			z,b  = mannwhitneyu(alldismir, age_of_supporting_mir)
+			z = float(b)
+
+			if z < 0.005: 
+				print 'Disease:%s, mann: %s' %(dis, z)
+				counter += 1
+		# print float(counter) / float(len(disease2mirna))
 
 
 
 	## setup for gene analysis
 
-	dis2tar = three_way_map(disease2mirna, mirna2target)
-	alltar_age = [gene2age[a] for a  in list(set(flatten(dis2tar.values()))) if a  in gene2age]
+	# dis2tar = three_way_map(disease2mirna, mirna2target)
+	# alltar_age = [gene2age[a] for a  in list(set(flatten(dis2tar.values()))) if a  in gene2age]
 
-	for dis in dis2tar:
-		print dis
-		pottarage = [gene2age[a] for a  in dis2tar[dis] if a in gene2age]
-		medpot = median(pottarage)
-		counter_under = 0
-		counter_over = 0 
+	# for dis in dis2tar:
+	# 	print dis
+	# 	pottarage = [gene2age[a] for a  in dis2tar[dis] if a in gene2age]
+	# 	medpot = median(pottarage)
+	# 	counter_under = 0
+	# 	counter_over = 0 
 
-		for i in range(10000):
-			new_ages_lst = random.sample(alltar_age, len(pottarage))
-			if float(median(new_ages_lst)) > medpot: counter_under += 1
-	 		if float(median(new_ages_lst)) < medpot: counter_under += 1
+	# 	for i in range(10000):
+	# 		new_ages_lst = random.sample(alltar_age, len(pottarage))
+	# 		if float(median(new_ages_lst)) > medpot: counter_under += 1
+	#  		if float(median(new_ages_lst)) < medpot: counter_under += 1
 
 
 
-		print "Disease:%s, prob it's younger:%f, prob it's older:%f" %(dis,float(counter_under)/ float(10000),float(counter_over)/ float(10000))
+	# 	print "Disease:%s, prob it's younger:%f, prob it's older:%f" %(dis,float(counter_under)/ float(10000),float(counter_over)/ float(10000))
 
 
 
