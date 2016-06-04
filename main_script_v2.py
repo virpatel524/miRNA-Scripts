@@ -468,7 +468,7 @@ def target_gene_expression_analysis(mirna2age, mirna2disease,mirna2family,gene2a
 					tots.append(sum(mir_expdb.loc[submir].tolist()))
 			if len(tots) == 0: continue		
 			mir_age.append(mean(beta))
-			exp_val.append(max(tots))
+			exp_val.append(median(tots))
 
 
 
