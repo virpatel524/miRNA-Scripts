@@ -371,6 +371,13 @@ def target_gene_dataframe(mirna2age, mirna2disease,mirna2target, target2age):
 		tmp = pd.DataFrame([newdata,], index=[mir,],columns=tar_base_vec)
 		mir_targetdb = mir_targetdb.append(tmp)
 
+	mir_age = []
+	mir_num_target = []
+
+	for mir in mirna2target:
+		if mir in mirna2age:
+			mir_age.append()
+
 
 	mir_targetdb.to_csv('/Users/virpatel/Desktop/pub_stuff/relevant_data/mir_target_vectordb.txt', sep='\t', encoding='utf-8')
 
@@ -570,8 +577,7 @@ def main():
 
 	# target_gene_expression_analysis(mirna2age, mirna2disease,human_mirlst, tar2age)
 
-	# disease_bootstrapping(mirna2age, mirna2disease, mirna2tar, tar2age)
-
+master
 
 
 
