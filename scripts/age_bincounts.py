@@ -346,8 +346,9 @@ def individual_bincounts(allmir_lst, starmir_lst, age_dir_allmir, age_dir_starmi
 
 	for spec in allmir_species:
 		ages_lst = [allmir2age[a] for a in allmir2age if a[:3] == spec]
-		spec_num_mir.append(len(ages_lst))
-	print mean(spec_num_mir)
+		if spec == 'hsa':
+			print float(len([a for a in ages_lst if a == 0.0])) / float(len(ages_lst))
+
 
 
 
