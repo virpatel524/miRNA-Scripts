@@ -411,7 +411,7 @@ def target_gene_expression_analysis(mirna2age, mirna2disease,mirna2family,gene2a
 
 				totcount += 1
 				if int(v) < 10:
-				sub10 += 1
+					sub10 += 1
 
 
 
@@ -421,7 +421,7 @@ def target_gene_expression_analysis(mirna2age, mirna2disease,mirna2family,gene2a
 					# else: yung_num_tis.append(sum(mir_expdb.loc[mir].tolist()))
 
 
-
+			print float(sub10) / float(totcount)
 
 		plt.scatter(mir_age_lst, exp_val)
 		print spearmanr(exp_val, mir_age_lst)
