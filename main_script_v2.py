@@ -227,7 +227,7 @@ def mir_num_dis_bin(mirna2disease, mirna2age, age2clade):
 	mir_not_dis = [mirna2age[a] for a in mirna2age  if a not in mirna2disease]
 
 
-	print spearmanr(mirindis, mir_not_dis)
+	print mannwhitneyu(mirindis, mir_not_dis)
 	return
 
 
