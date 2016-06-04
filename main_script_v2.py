@@ -223,6 +223,9 @@ def mir_num_dis_bin(mirna2disease, mirna2age, age2clade):
 	oldage = agelst[:]
 
 
+	mirindis = [mirna]
+
+
 
 
 
@@ -242,21 +245,21 @@ def mir_num_dis_bin(mirna2disease, mirna2age, age2clade):
 	f.set_size_inches(20, 10)
 
 
-	sns.boxplot(x='mir_ages',y='mir_disease_nums',data=disease_age_pd)
+	# sns.boxplot(x='mir_ages',y='mir_disease_nums',data=disease_age_pd)
 
-	plt.xticks(range(0,len(labels)), str_labels, rotation = 65)
-	plt.gca().set_ylim([0,70])
-	plt.ylabel('Number of Diseases', fontsize=15)
-	plt.xlabel('miRNA Clade of Origination',fontsize=15)
-	plt.subplots_adjust(bottom=0.20)
+	# plt.xticks(range(0,len(labels)), str_labels, rotation = 65)
+	# plt.gca().set_ylim([0,70])
+	# plt.ylabel('Number of Diseases', fontsize=15)
+	# plt.xlabel('miRNA Clade of Origination',fontsize=15)
+	# plt.subplots_adjust(bottom=0.20)
 
 
 
-	num_of_dismir_perage = [len(disease_age_pd.loc[disease_age_pd['mir_ages'] == alpha]) for alpha in labels]
+	# num_of_dismir_perage = [len(disease_age_pd.loc[disease_age_pd['mir_ages'] == alpha]) for alpha in labels]
 
-	plt.savefig('/Users/virpatel/Desktop/pub_stuff/figures/mirage_vs_numdis.pdf', bbox_inches='tight')
+	# plt.savefig('/Users/virpatel/Desktop/pub_stuff/figures/mirage_vs_numdis.pdf', bbox_inches='tight')
 
-	plt.close()
+	# plt.close()
 
 
 	with open('relevant_data/mirna2age_lst.txt','w') as mir_fle:
@@ -578,7 +581,7 @@ def main():
 
 
 
-	# mir_num_dis_bin(mirna2disease, mirna2age,age2clade)
+	mir_num_dis_bin(mirna2disease, mirna2age,age2clade)
 
 
 	# gen_dis_db(disease2mirna, mirna2age)
@@ -588,7 +591,7 @@ def main():
 
 	# master_tarlst = target_gene_dataframe(mirna2age, mirna2disease, mirna2tar, tar2age)
 
-	target_gene_expression_analysis(mirna2age, mirna2disease,human_mirlst, tar2age)
+	# target_gene_expression_analysis(mirna2age, mirna2disease,human_mirlst, tar2age)
 
 
 
