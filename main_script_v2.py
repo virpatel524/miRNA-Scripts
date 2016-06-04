@@ -478,7 +478,7 @@ def target_gene_expression_analysis(mirna2age, mirna2disease,mirna2family,gene2a
 			
 
 		plt.gca().set_ylim([20])
-		plt.ylabel('Average Family Disease Vector Hamming Distance (0-1)', fontsize=15)
+		plt.ylabel('Number of Tissues Observed to be Expressed In', fontsize=15)
 		plt.xlabel('Average Family Age',fontsize=15)
 		plt.subplots_adjust(bottom=0.20)
 		plt.savefig('figures/family_disease_hamming.pdf',bbox_inches='tight')
