@@ -293,141 +293,142 @@ def bincount_style1(allmir_lst, starmir_lst, time_tree_fle):
 def individual_bincounts(allmir_lst, starmir_lst, age_dir_allmir, age_dir_starmir,time_tree_fle,image_dir):
 
 	
-	skew_lst_all = []
-	num_lst_all = []
-	percent_lst_all = []
+	# skew_lst_all = []
+	# num_lst_all = []
+	# percent_lst_all = []
 
-	skew_lst_star = []
-	num_lst_star = []
-	percent_lst_star = []
-
-
-
-	labels = [float(alpha) for alpha in sorted(list(set(allmir_lst + starmir_lst)))]
-
-
-	age2clade = {}
-
-	with open(time_tree_fle,'r') as time_tree_data:
-		time_tree_lst = [a for a in list(csv.reader(time_tree_data,delimiter='\t')) if len(a) > 1]
-		for alpha in time_tree_lst:
-			age2clade[alpha[-1]] = alpha[0]
-
-
-	str_labels = ['%s (%.1f)' %(age2clade[str(alpha)], alpha) for alpha in sorted(list(set(allmir_lst)))]
-	nd = np.arange(0,len(labels)*10,10)
-
-	flatui = ["#9b59b6", "#3498db", "#95a5a6", "#e74c3c", "#34495e", "#2ecc71"]
-	palette = itertools.cycle(flatui)
-
-	## ALL MIRNAS
-
-	try:
-		shutil.rmtree(os.path.join(image_dir, 'species_bincounts_allmir/'))
-	except:
-		pass
-
-	os.mkdir(os.path.join(image_dir, 'species_bincounts_allmir/'))
+	# skew_lst_star = []
+	# num_lst_star = []
+	# percent_lst_star = []
 
 
 
-	allmir2age = {}
+	# labels = [float(alpha) for alpha in sorted(list(set(allmir_lst + starmir_lst)))]
 
-	with open('/Users/virpatel/Desktop/pub_stuff/relevant_data/ph_dataset_with_time_tree_allmir.txt','r') as ph_allmir:
-		allmir_ph = [a for a in list(csv.reader(ph_allmir,delimiter='\t'))]
-		for mir in allmir_ph:
-			allmir2age[mir[0]] = float(mir[-1])
+
+	# age2clade = {}
+
+	# with open(time_tree_fle,'r') as time_tree_data:
+	# 	time_tree_lst = [a for a in list(csv.reader(time_tree_data,delimiter='\t')) if len(a) > 1]
+	# 	for alpha in time_tree_lst:
+	# 		age2clade[alpha[-1]] = alpha[0]
+
+
+	# str_labels = ['%s (%.1f)' %(age2clade[str(alpha)], alpha) for alpha in sorted(list(set(allmir_lst)))]
+	# nd = np.arange(0,len(labels)*10,10)
+
+	# flatui = ["#9b59b6", "#3498db", "#95a5a6", "#e74c3c", "#34495e", "#2ecc71"]
+	# palette = itertools.cycle(flatui)
+
+	# ## ALL MIRNAS
+
+	# try:
+	# 	shutil.rmtree(os.path.join(image_dir, 'species_bincounts_allmir/'))
+	# except:
+	# 	pass
+
+	# os.mkdir(os.path.join(image_dir, 'species_bincounts_allmir/'))
+
+
+
+	# allmir2age = {}
+
+	# with open('/Users/virpatel/Desktop/pub_stuff/relevant_data/ph_dataset_with_time_tree_allmir.txt','r') as ph_allmir:
+	# 	allmir_ph = [a for a in list(csv.reader(ph_allmir,delimiter='\t'))]
+	# 	for mir in allmir_ph:
+	# 		allmir2age[mir[0]] = float(mir[-1])
 
 
 	allmir_species = list(set([a[:3] for a in allmir2age.keys()]))
+	print allmir_species
 
-	for species in all_species:
-		ages_lst = [allmir2age[a] for a in allmir2age if a[:3] == species]
-		if len(ages_lst) < 5: continue
+	# for species in all_species:
+	# 	ages_lst = [allmir2age[a] for a in allmir2age if a[:3] == species]
+	# 	if len(ages_lst) < 5: continue
 
-		tmp_binlst = [0] * len(labels)
-		for el in ages_lst: tmp_binlst[labels.index(float(el))] = tmp_binlst[labels.index(float(el))] + 1
+	# 	tmp_binlst = [0] * len(labels)
+	# 	for el in ages_lst: tmp_binlst[labels.index(float(el))] = tmp_binlst[labels.index(float(el))] + 1
 
-		f, ax = plt.subplots(1)
-		f.set_size_inches(20, 10)
-
-
-		barlst = plt.bar(nd, tmp_binlst, width=9,align='center')
-
-		for i in range(len(barlst)): barlst[i].set_color(next(palette)) 
+	# 	f, ax = plt.subplots(1)
+	# 	f.set_size_inches(20, 10)
 
 
-		plt.xticks(nd, str_labels, rotation=65)
+	# 	barlst = plt.bar(nd, tmp_binlst, width=9,align='center')
 
-		plt.ylabel('miRNA Count', fontsize=15)
-		plt.xlabel('miRNA Clade of Origination',fontsize=15)
-
-
-		plt.subplots_adjust(bottom=0.20)
-
-		ax.set_xlim(xmin=0-5,xmax=float(nd[-1])-4.5)
-		plt.gca().xaxis.grid(False)
+	# 	for i in range(len(barlst)): barlst[i].set_color(next(palette)) 
 
 
+	# 	plt.xticks(nd, str_labels, rotation=65)
+
+	# 	plt.ylabel('miRNA Count', fontsize=15)
+	# 	plt.xlabel('miRNA Clade of Origination',fontsize=15)
 
 
-		plt.savefig(os.path.join(image_dir, 'species_bincounts_allmir/', '%s_bincount.pdf' %(species)))
-		plt.close()
+	# 	plt.subplots_adjust(bottom=0.20)
 
-
-	## STAR MIRNAS
-
-	try:
-		shutil.rmtree(os.path.join(image_dir, 'species_bincounts_starmir/'))
-	except:
-		pass
-
-	os.mkdir(os.path.join(image_dir, 'species_bincounts_starmir/'))
-
-
-
-	starmir2age = {}
-
-	with open('/Users/virpatel/Desktop/pub_stuff/relevant_data/ph_dataset_with_time_tree_starmir.txt','r') as ph_starmir:
-		starmir_ph = [a for a in list(csv.reader(ph_starmir,delimiter='\t'))]
-		for mir in starmir_ph:
-			starmir2age[mir[0]] = float(mir[-1])
-
-
-	starmir_species = list(set([a[:3] for a in starmir2age.keys()]))
-
-	for species in all_species:
-		ages_lst = [starmir2age[a] for a in starmir2age if a[:3] == species]
-		if len(ages_lst) < 5: continue
-
-		tmp_binlst = [0] * len(labels)
-		for el in ages_lst: tmp_binlst[labels.index(float(el))] = tmp_binlst[labels.index(float(el))] + 1
-
-		f, ax = plt.subplots(1)
-		f.set_size_inches(20, 10)
-
-
-		barlst = plt.bar(nd, tmp_binlst, width=9,align='center')
-
-		for i in range(len(barlst)): barlst[i].set_color(next(palette)) 
-
-
-		plt.xticks(nd, str_labels, rotation=65)
-
-		plt.ylabel('miRNA Count', fontsize=15)
-		plt.xlabel('miRNA Clade of Origination',fontsize=15)
-
-
-		plt.subplots_adjust(bottom=0.20)
-
-		ax.set_xlim(xmin=0-5,xmax=float(nd[-1])-4.5)
-		plt.gca().xaxis.grid(False)
+	# 	ax.set_xlim(xmin=0-5,xmax=float(nd[-1])-4.5)
+	# 	plt.gca().xaxis.grid(False)
 
 
 
 
-		plt.savefig(os.path.join(image_dir, 'species_bincounts_starmir/', '%s_bincount.pdf' %(species)),bbox_inches='tight')
-		plt.close()
+	# 	plt.savefig(os.path.join(image_dir, 'species_bincounts_allmir/', '%s_bincount.pdf' %(species)))
+	# 	plt.close()
+
+
+	# ## STAR MIRNAS
+
+	# try:
+	# 	shutil.rmtree(os.path.join(image_dir, 'species_bincounts_starmir/'))
+	# except:
+	# 	pass
+
+	# os.mkdir(os.path.join(image_dir, 'species_bincounts_starmir/'))
+
+
+
+	# starmir2age = {}
+
+	# with open('/Users/virpatel/Desktop/pub_stuff/relevant_data/ph_dataset_with_time_tree_starmir.txt','r') as ph_starmir:
+	# 	starmir_ph = [a for a in list(csv.reader(ph_starmir,delimiter='\t'))]
+	# 	for mir in starmir_ph:
+	# 		starmir2age[mir[0]] = float(mir[-1])
+
+
+	# starmir_species = list(set([a[:3] for a in starmir2age.keys()]))
+
+	# for species in all_species:
+	# 	ages_lst = [starmir2age[a] for a in starmir2age if a[:3] == species]
+	# 	if len(ages_lst) < 5: continue
+
+	# 	tmp_binlst = [0] * len(labels)
+	# 	for el in ages_lst: tmp_binlst[labels.index(float(el))] = tmp_binlst[labels.index(float(el))] + 1
+
+	# 	f, ax = plt.subplots(1)
+	# 	f.set_size_inches(20, 10)
+
+
+	# 	barlst = plt.bar(nd, tmp_binlst, width=9,align='center')
+
+	# 	for i in range(len(barlst)): barlst[i].set_color(next(palette)) 
+
+
+	# 	plt.xticks(nd, str_labels, rotation=65)
+
+	# 	plt.ylabel('miRNA Count', fontsize=15)
+	# 	plt.xlabel('miRNA Clade of Origination',fontsize=15)
+
+
+	# 	plt.subplots_adjust(bottom=0.20)
+
+	# 	ax.set_xlim(xmin=0-5,xmax=float(nd[-1])-4.5)
+	# 	plt.gca().xaxis.grid(False)
+
+
+
+
+	# 	plt.savefig(os.path.join(image_dir, 'species_bincounts_starmir/', '%s_bincount.pdf' %(species)),bbox_inches='tight')
+	# 	plt.close()
 
 
 
