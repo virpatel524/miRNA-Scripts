@@ -480,9 +480,10 @@ def target_gene_expression_analysis(mirna2age, mirna2disease,mirna2family,gene2a
 
 		plt.gca().set_ylim([20])
 		plt.ylabel('Number of Tissues Expressed In', fontsize=15)
-		plt.xlabel('Average Family Age',fontsize=15)
+		plt.xlabel('miRNA Age (MYA)',fontsize=15)
 		plt.subplots_adjust(bottom=0.20)
-		plt.savefig('figures/family_disease_hamming.pdf',bbox_inches='tight')
+		plt.show()
+		plt.savefig('figures/mir_age_tis_exp.pdf',bbox_inches='tight')
 		plt.close()
 
 
@@ -604,9 +605,9 @@ def main():
 	# family_homogenity(human_mirlst, mirna2disease, mirna2age
 
 
-	master_tarlst = target_gene_dataframe(mirna2age, mirna2disease, mirna2tar, tar2age)
+	# master_tarlst = target_gene_dataframe(mirna2age, mirna2disease, mirna2tar, tar2age)
 
-	# target_gene_expression_analysis(mirna2age, mirna2disease,human_mirlst, tar2age)
+	target_gene_expression_analysis(mirna2age, mirna2disease,human_mirlst, tar2age)
 
 
 
