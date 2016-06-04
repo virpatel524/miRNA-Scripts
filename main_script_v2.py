@@ -453,14 +453,15 @@ def target_gene_expression_analysis(mirna2age, mirna2disease,mirna2family,gene2a
 		yung_num_tis = []
 		old_num_tis = []
 
+		mir_age = []
 		dis_num = []
 		mir_age_lst = []
 		exp_val = []
 
 		for mir in mir_expdb.index:
-			if mir in mirna2disease:
+			if mir in mirna2age:
 				v = float(sum(mir_expdb.loc[mir].tolist()))
-				dis_num.append(len(mirna2disease[mir]))
+				mir_age.append(mirna2age[mir])
 				# mirage = mirna2age[mir]
 				# mir_age_lst.append(mirage)
 
@@ -474,11 +475,11 @@ def target_gene_expression_analysis(mirna2age, mirna2disease,mirna2family,gene2a
 
 
 		print spearmanr(dis_num, exp_val)
-		plt.scatter(dis_num, exp_val)
+		plt.scatter(mir_age, exp_val)
 			
 
 		plt.gca().set_ylim([20])
-		plt.ylabel('Number of Tissues Observed to be Expressed In', fontsize=15)
+		plt.ylabel('Number of Tissues Expressed In', fontsize=15)
 		plt.xlabel('Average Family Age',fontsize=15)
 		plt.subplots_adjust(bottom=0.20)
 		plt.savefig('figures/family_disease_hamming.pdf',bbox_inches='tight')
