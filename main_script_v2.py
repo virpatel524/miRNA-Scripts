@@ -459,7 +459,9 @@ def target_gene_expression_analysis(mirna2age, mirna2disease,mirna2family,gene2a
 		exp_val = []
 
 		for mir in mirna2family:
-			mir_age.append(mean([mirna2age[submir] for submir in mirna2family[mir] if submir in mirna2age]))
+			beta = [mirna2age[submir] for submir in mirna2family[mir] if submir in mirna2age]
+			if len(beta) > 4:
+				mir_age.append(mean(beta))
 			tots = []
 			for submir in mirna2family[mir]:
 				if submir in mir_expdb.index:
