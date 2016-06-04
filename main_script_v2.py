@@ -474,11 +474,11 @@ def target_gene_expression_analysis(mirna2age, mirna2disease,mirna2family,gene2a
 
 
 
-		print spearmanr(dis_num, exp_val)
 		plt.scatter(mir_age, exp_val)
+		plt.show()
 			
 
-		plt.gca().set_ylim([20])
+		plt.gca().set_ylim([0,20])
 		plt.ylabel('Number of Tissues Expressed In', fontsize=15)
 		plt.xlabel('miRNA Age (MYA)',fontsize=15)
 		plt.subplots_adjust(bottom=0.20)
