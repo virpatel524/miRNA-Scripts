@@ -357,20 +357,6 @@ def target_gene_dataframe(mirna2age, mirna2disease,mirna2target, target2age):
 	target_agedb = pd.DataFrame()
 	mir_targetdb = pd.DataFrame()
 
-	for target in target2age:
-		tmp = pd.DataFrame([float(target2age[target]),], index=[target,], columns=['age',])
-		target_agedb = target_agedb.append(tmp)
-
-	tar_base_vec = get_list_of_dictionary(mirna2target)
-
-	return tar_base_vec
-	
-	for index,mir in enumerate(mirna2target):
-		print index + 1, len(mirna2target)
-		newdata = generate_class_vector(tar_base_vec, mirna2target[mir])
-		tmp = pd.DataFrame([newdata,], index=[mir,],columns=tar_base_vec)
-		mir_targetdb = mir_targetdb.append(tmp)
-
 	mir_age = []
 	mir_num_target = []
 
@@ -380,6 +366,24 @@ def target_gene_dataframe(mirna2age, mirna2disease,mirna2target, target2age):
 			mir_num_target.append(len(mirna2target[mir]))
 
 	print spearmanr(mir_age,mir_num_target)
+	return
+
+
+
+	for target in target2age:
+		tmp = pd.DataFrame([float(target2age[target]),], index=[target,], columns=['age',])
+		target_agedb = target_agedb.append(tmp)
+
+	tar_base_vec = get_list_of_dictionary(mirna2target)
+
+
+	
+	for index,mir in enumerate(mirna2target):
+		print index + 1, len(mirna2target)
+		newdata = generate_class_vector(tar_base_vec, mirna2target[mir])
+		tmp = pd.DataFrame([newdata,], index=[mir,],columns=tar_base_vec)
+		mir_targetdb = mir_targetdb.append(tmp)
+
 
 
 	mir_targetdb.to_csv('/Users/virpatel/Desktop/pub_stuff/relevant_data/mir_target_vectordb.txt', sep='\t', encoding='utf-8')
@@ -580,7 +584,7 @@ def main():
 
 	# target_gene_expression_analysis(mirna2age, mirna2disease,human_mirlst, tar2age)
 
-master
+
 
 
 
