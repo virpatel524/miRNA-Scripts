@@ -5,6 +5,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 import seaborn as sns
 import itertools
+from numpy import mean
 
 from scipy.stats import mannwhitneyu
 
@@ -339,6 +340,7 @@ def individual_bincounts(allmir_lst, starmir_lst, age_dir_allmir, age_dir_starmi
 			allmir2age[mir[0]] = float(mir[-1])
 
 
+	print mean(allmir2age.values())
 	allmir_species = list(set([a[:3] for a in allmir2age.keys()]))
 	print len(allmir_species)
 
