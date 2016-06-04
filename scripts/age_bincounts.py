@@ -331,7 +331,7 @@ def individual_bincounts(allmir_lst, starmir_lst, age_dir_allmir, age_dir_starmi
 
 
 
-	# allmir2age = {}
+	allmir2age = {}
 
 	with open('/Users/virpatel/Desktop/pub_stuff/relevant_data/ph_dataset_with_time_tree_allmir.txt','r') as ph_allmir:
 		allmir_ph = [a for a in list(csv.reader(ph_allmir,delimiter='\t'))]
@@ -340,7 +340,7 @@ def individual_bincounts(allmir_lst, starmir_lst, age_dir_allmir, age_dir_starmi
 
 
 	allmir_species = list(set([a[:3] for a in allmir2age.keys()]))
-	print allmir_species
+	print len(allmir_species)
 
 	# for species in all_species:
 	# 	ages_lst = [allmir2age[a] for a in allmir2age if a[:3] == species]
