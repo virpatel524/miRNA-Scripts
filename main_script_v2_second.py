@@ -406,7 +406,6 @@ def target_gene_expression_analysis(mirna2age, mirna2disease,mirna2family,gene2a
 				# mirage = mirna2age[mir]
 				# mir_age_lst.append(mirage)
 
-				v =  1/v
 				exp_val.append(v)
 
 					# if mirage > 100.0: old_num_tis.append(sum(mir_expdb.loc[mir].tolist()))
@@ -463,7 +462,7 @@ def main():
 	# family_homogenity(human_mirlst, mirna2disease, mirna2age
 
 
-	master_tarlst = target_gene_dataframe(mirna2age, mirna2disease, mirna2tar, tar2age)
+	# master_tarlst = target_gene_dataframe(mirna2age, mirna2disease, mirna2tar, tar2age)
 
 	target_gene_expression_analysis(mirna2age, mirna2disease,human_mirlst, tar2age)
 
