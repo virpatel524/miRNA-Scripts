@@ -460,29 +460,32 @@ def target_gene_expression_analysis(mirna2age, mirna2disease,mirna2family,gene2a
 		yung_num_tis = []
 		old_num_tis = []
 
-		mir_age = []
 		dis_num = []
 		mir_age_lst = []
 		exp_val = []
 
-		for mir in mirna2age:
-			if mir in mir_expdb.index:
-				mir_age.append(mirna2age[mir])
-				exp_val.append(sum(mir_expdb.loc[mir].tolist()))
+		for mir in mir_expdb.index:
+			if mir in mirna2disease:
+				v = float(sum(mir_expdb.loc[mir].tolist()))
+				dis_num.append(len(mirna2disease[mir]))
+				# mirage = mirna2age[mir]
+				# mir_age_lst.append(mirage)
 
 
+				exp_val.append(v)
 
 					# if mirage > 100.0: old_num_tis.append(sum(mir_expdb.loc[mir].tolist()))
 					# else: yung_num_tis.append(sum(mir_expdb.loc[mir].tolist()))
 
 
 
-		
 
-
-		print len(mir_age)
-		print spearmanr(mir_age, exp_val)
+		print spearmanr(dis_num, exp_val)
+		plt.scatter(dis_num, exp_val)
+		plt.show()
+		plt.close()
 		# print mannwhitneyu(yung_num_tis, old_num_tis)
+
 
 
 def disease_bootstrapping(mirna2age, mirna2disease,mirna2target,gene2age):
@@ -588,7 +591,7 @@ def main():
 
 
 
-	mir_num_dis_bin(mirna2disease, mirna2age,age2clade)
+	# mir_num_dis_bin(mirna2disease, mirna2age,age2clade)
 
 
 	# gen_dis_db(disease2mirna, mirna2age)
@@ -598,7 +601,7 @@ def main():
 
 	# master_tarlst = target_gene_dataframe(mirna2age, mirna2disease, mirna2tar, tar2age)
 
-	# target_gene_expression_analysis(mirna2age, mirna2disease,human_mirlst, tar2age)
+	target_gene_expression_analysis(mirna2age, mirna2disease,human_mirlst, tar2age)
 
 
 
