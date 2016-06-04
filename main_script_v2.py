@@ -462,11 +462,12 @@ def target_gene_expression_analysis(mirna2age, mirna2disease,mirna2family,gene2a
 			beta = [mirna2age[submir] for submir in mirna2family[mir] if submir in mirna2age]
 			if len(beta) == 0:
 				continue
-			mir_age.append(mean(beta))
 			tots = []
 			for submir in mirna2family[mir]:
 				if submir in mir_expdb.index:
 					tots.append(sum(mir_expdb.loc[submir].tolist()))
+			if len(tots) == 0: continue		
+			mir_age.append(mean(beta))
 			exp_val.append(max(tots))
 
 
