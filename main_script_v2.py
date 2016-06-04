@@ -363,10 +363,12 @@ def target_gene_dataframe(mirna2age, mirna2disease,mirna2target, target2age):
 	for mir in mirna2target:
 		if mir in mirna2age:
 			mir_age.append(mirna2age[mir])
-			for tar in mirna2target[mirna]:
+			for tar in mirna2target[mir]:
 				mir_tar_age.append(tar)
 
 	mir_tar_age = [target2age[a] for a  in  list(set(mir_tar_age)) if a  in target2age]
+
+	print mannwhitneyu(mir_age, mir_tar_age)
 
 
 	print spearmanr(mir_age,mir_tar_age)
