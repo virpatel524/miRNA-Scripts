@@ -416,6 +416,7 @@ def target_gene_expression_analysis(mirna2age, mirna2disease,mirna2family,gene2a
 
 
 		plt.scatter(mir_age_lst, exp_val)
+		print spearmanr(exp_val, mir_age_lst)
 		plt.show()
 		plt.close()
 		# print mannwhitneyu(yung_num_tis, old_num_tis)
