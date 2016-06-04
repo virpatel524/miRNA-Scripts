@@ -333,10 +333,10 @@ def individual_bincounts(allmir_lst, starmir_lst, age_dir_allmir, age_dir_starmi
 
 	# allmir2age = {}
 
-	# with open('/Users/virpatel/Desktop/pub_stuff/relevant_data/ph_dataset_with_time_tree_allmir.txt','r') as ph_allmir:
-	# 	allmir_ph = [a for a in list(csv.reader(ph_allmir,delimiter='\t'))]
-	# 	for mir in allmir_ph:
-	# 		allmir2age[mir[0]] = float(mir[-1])
+	with open('/Users/virpatel/Desktop/pub_stuff/relevant_data/ph_dataset_with_time_tree_allmir.txt','r') as ph_allmir:
+		allmir_ph = [a for a in list(csv.reader(ph_allmir,delimiter='\t'))]
+		for mir in allmir_ph:
+			allmir2age[mir[0]] = float(mir[-1])
 
 
 	allmir_species = list(set([a[:3] for a in allmir2age.keys()]))
@@ -602,15 +602,15 @@ species2mirna_starmir, master_age_lst_starmir = import_ages('/Users/virpatel/Des
 
 target_bincount = parse_target_data(tardb)
 
-print mannwhitneyu([float(a) for a in target_bincount], [float(a) for a in master_age_lst_allmir])
+# print mannwhitneyu([float(a) for a in target_bincount], [float(a) for a in master_age_lst_allmir])
 
 # bincount_style2(master_age_lst_allmir, target_bincount,time_treedb)
-bincount_style3(master_age_lst_allmir, target_bincount, time_treedb)
+# bincount_style3(master_age_lst_allmir, target_bincount, time_treedb)
 
 # all_species = list(set(species2mir_allmir.keys() + species2mirna_starmir.keys()))
 
 # bincount_style1(master_age_lst_allmir, master_age_lst_starmir, '/Users/virpatel/Desktop/pub_stuff/relevant_data/time_tree_dates.txt')
-# individual_bincounts(master_age_lst_allmir, master_age_lst_starmir, '/Users/virpatel/Desktop/pub_stuff/relevant_data/allmir_ages/','/Users/virpatel/Desktop/pub_stuff/relevant_data/selectmir_ages/','/Users/virpatel/Desktop/pub_stuff/relevant_data/time_tree_dates.txt','/Users/virpatel/Desktop/pub_stuff/figures/')
+individual_bincounts(master_age_lst_allmir, master_age_lst_starmir, '/Users/virpatel/Desktop/pub_stuff/relevant_data/allmir_ages/','/Users/virpatel/Desktop/pub_stuff/relevant_data/selectmir_ages/','/Users/virpatel/Desktop/pub_stuff/relevant_data/time_tree_dates.txt','/Users/virpatel/Desktop/pub_stuff/figures/')
 
 
 
