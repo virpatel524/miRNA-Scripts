@@ -423,6 +423,19 @@ def target_gene_expression_analysis(mirna2age, mirna2disease,mirna2family,gene2a
 
 		print float(sub10) / float(totcount)
 
+
+
+
+		totcount = 0
+		sub10 = 0
+
+		for mir in mirna2age:
+			if mir not in mir_expdb.index: continue
+			
+
+
+		print float(sub10) / float(totcount)
+
 		# plt.scatter(mir_age_lst, exp_val)
 		# print spearmanr(exp_val, mir_age_lst)
 		# plt.show()
