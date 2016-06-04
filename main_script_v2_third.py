@@ -398,8 +398,10 @@ def target_gene_expression_analysis(mirna2age, mirna2disease,mirna2family,gene2a
 		mir_age_lst = []
 		exp_val = []
 
-		for mir in mir_expdb.index:
-			if mir in mirna2age:
+		for mir in mirna2family:
+			if len(mirna2family[mir]) < 4: continue
+			for submir in mirna2family[mir]:
+				if submir not in mirna2age or submir not in mir_expdb.index: continue
 				print mirna2family
 				if mir not in mirna2family: continue
 				if len(mirna2family[mir]) < 4: continue
