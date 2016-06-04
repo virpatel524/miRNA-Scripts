@@ -570,7 +570,7 @@ def main():
 
 	# target_gene_expression_analysis(mirna2age, mirna2disease,human_mirlst, tar2age)
 
-	disease_bootstrapping(mirna2age, mirna2disease, mirna2tar, tar2age)
+	# disease_bootstrapping(mirna2age, mirna2disease, mirna2tar, tar2age)
 
 
 
