@@ -431,7 +431,12 @@ def target_gene_expression_analysis(mirna2age, mirna2disease,mirna2family,gene2a
 
 		for mir in mirna2age:
 			if mir not in mir_expdb.index: continue
-			
+			v = float(sum(mir_expdb.loc[mir].tolist()))
+			totcount += 1
+			if int(v) < 10:
+				sub10 += 1
+
+
 
 
 		print float(sub10) / float(totcount)
