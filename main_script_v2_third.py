@@ -394,18 +394,34 @@ def target_gene_expression_analysis(mirna2age, mirna2disease,mirna2family,gene2a
 		yung_num_tis = []
 		old_num_tis = []
 
-		for mir in mir_expdb.index:
-			print mir
-			if mir in mirna2age:
-				mirage = mirna2age[mir]
-				if mirage > 200.0: old_num_tis.append(sum(mir_expdb.loc[mir].tolist()))
-				else: yung_num_tis.append(sum(mir_expdb.loc[mir].tolist()))
+		dis_num = []
+		mir_age_lst = []
+		exp_val = []
 
-		plt.scatter(mir_age, mir_num_tis)
+		for mir in mir_expdb.index:
+			if mir in mirna2age:
+				v = float(sum(mir_expdb.loc[mir].tolist()))
+				dis_num.append(len(mirna2disease[mir]))
+				# mirage = mirna2age[mir]
+				# mir_age_lst.append(mirage)
+
+
+				exp_val.append(v)
+
+					# if mirage > 100.0: old_num_tis.append(sum(mir_expdb.loc[mir].tolist()))
+					# else: yung_num_tis.append(sum(mir_expdb.loc[mir].tolist()))
+			else:
+				v = float(sum(mir_expdb.loc[mir].tolist()))
+				exp_val.append(v)
+				dis_num.append(0)
+
+
+
+		print spearmanr(dis_num, exp_val)
+		plt.scatter(dis_num, exp_val)
 		plt.show()
 		plt.close()
-
-		print mannwhitneyu(yung_num_tis, old_num_tis)
+		# print mannwhitneyu(yung_num_tis, old_num_tis)
 
 
 
