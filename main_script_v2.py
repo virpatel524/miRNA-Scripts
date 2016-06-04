@@ -376,7 +376,10 @@ def target_gene_dataframe(mirna2age, mirna2disease,mirna2target, target2age):
 
 	for mir in mirna2target:
 		if mir in mirna2age:
-			mir_age.append()
+			mir_age.append(mirna2age[mir])
+			mir_num_target.append(len(mirna2target[mir]))
+
+	print spearmanr(mir_age,mir_num_target)
 
 
 	mir_targetdb.to_csv('/Users/virpatel/Desktop/pub_stuff/relevant_data/mir_target_vectordb.txt', sep='\t', encoding='utf-8')
