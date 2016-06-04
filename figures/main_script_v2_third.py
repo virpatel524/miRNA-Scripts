@@ -27,40 +27,6 @@ bad_lst = ['ghb','ssp','fru','hsv','hvt','ebv','rlc','hhv','mcm','pbi','jcv','bk
 
 
 
-def reverse_dict(dic):
-	new_dic = {}
-	for item in dic:
-		vals = dic[item]
-		for a in vals:
-			new_dic.setdefault(a, []).append(item)
-
-	return new_dic
-
-def two_dic_common(dic1, dic2):
-	b1 = dic1.keys()
-	b2 = dic2.keys()
-
-	return [val for val in b1 if val in b2]
-
-def flatten(l):
-	return [item for sublist in l for item in sublist]
-
-def three_way_map(dic1, dic2):
-	newdic = {}
-
-	for item in dic1:
-		all_sub_dic1 = dic1[item]
-		meglst = []
-		for alpha in all_sub_dic1:
-			if alpha in dic2:
-				meglst.append(dic2[alpha])
-		finlst = list(set(flatten(meglst)))
-		if len(finlst) != 0:
-			newdic[item] = finlst
-
-	return newdic
-
-
 
 
 def sort_mir(txt,txt2):
@@ -223,13 +189,6 @@ def mir_num_dis_bin(mirna2disease, mirna2age, age2clade):
 	oldage = agelst[:]
 
 
-	mirindis = [mirna2age[a] for a in mirna2age  if a in mirna2disease]
-	mir_not_dis = [mirna2age[a] for a in mirna2age  if a not in mirna2disease]
-
-
-	print mannwhitneyu(mirindis, mir_not_dis)
-	return
-
 
 
 
@@ -249,21 +208,21 @@ def mir_num_dis_bin(mirna2disease, mirna2age, age2clade):
 	f.set_size_inches(20, 10)
 
 
-	# sns.boxplot(x='mir_ages',y='mir_disease_nums',data=disease_age_pd)
+	sns.boxplot(x='mir_ages',y='mir_disease_nums',data=disease_age_pd)
 
-	# plt.xticks(range(0,len(labels)), str_labels, rotation = 65)
-	# plt.gca().set_ylim([0,70])
-	# plt.ylabel('Number of Diseases', fontsize=15)
-	# plt.xlabel('miRNA Clade of Origination',fontsize=15)
-	# plt.subplots_adjust(bottom=0.20)
+	plt.xticks(range(0,len(labels)), str_labels, rotation = 65)
+	plt.gca().set_ylim([0,70])
+	plt.ylabel('Number of Diseases', fontsize=15)
+	plt.xlabel('miRNA Clade of Origination',fontsize=15)
+	plt.subplots_adjust(bottom=0.20)
 
 
 
-	# num_of_dismir_perage = [len(disease_age_pd.loc[disease_age_pd['mir_ages'] == alpha]) for alpha in labels]
+	num_of_dismir_perage = [len(disease_age_pd.loc[disease_age_pd['mir_ages'] == alpha]) for alpha in labels]
 
-	# plt.savefig('/Users/virpatel/Desktop/pub_stuff/figures/mirage_vs_numdis.pdf', bbox_inches='tight')
+	plt.savefig('/Users/virpatel/Desktop/pub_stuff/figures/mirage_vs_numdis.pdf', bbox_inches='tight')
 
-	# plt.close()
+	plt.close()
 
 
 	with open('relevant_data/mirna2age_lst.txt','w') as mir_fle:
@@ -364,44 +323,19 @@ def target_gene_dataframe(mirna2age, mirna2disease,mirna2target, target2age):
 	target_agedb = pd.DataFrame()
 	mir_targetdb = pd.DataFrame()
 
-	mir_age = []
-	mir_tar_age = []
-
-	for mir in mirna2target:
-		if mir in mirna2age:
-			mir_age.append(mirna2age[mir])
-			for tar in mirna2target[mir]:
-				mir_tar_age.append(tar)
-
-
-	mir_tar_age = [target2age[a] for a  in  list(set(mir_tar_age)) if a  in target2age]
-
-	mir_age  = np.array(mir_age)
-	mir_tar_age = np.array(mir_tar_age)
-	print mir_age.shape
-	print mir_tar_age.shape
-	print mannwhitneyu(mir, mir_tar_age)
-
-
-
-	return
-
-
-
 	for target in target2age:
 		tmp = pd.DataFrame([float(target2age[target]),], index=[target,], columns=['age',])
 		target_agedb = target_agedb.append(tmp)
 
 	tar_base_vec = get_list_of_dictionary(mirna2target)
 
-
+	return tar_base_vec
 	
 	for index,mir in enumerate(mirna2target):
 		print index + 1, len(mirna2target)
 		newdata = generate_class_vector(tar_base_vec, mirna2target[mir])
 		tmp = pd.DataFrame([newdata,], index=[mir,],columns=tar_base_vec)
 		mir_targetdb = mir_targetdb.append(tmp)
-
 
 
 	mir_targetdb.to_csv('/Users/virpatel/Desktop/pub_stuff/relevant_data/mir_target_vectordb.txt', sep='\t', encoding='utf-8')
@@ -465,97 +399,30 @@ def target_gene_expression_analysis(mirna2age, mirna2disease,mirna2family,gene2a
 		exp_val = []
 
 		for mir in mir_expdb.index:
-			if mir in mirna2age:
-				if mir in mirna2disease:
-					v = float(sum(mir_expdb.loc[mir].tolist()))
-					mir_age_lst.append(mirna2age[mir])
-					mirage = mirna2age[mir]
+			if mir in mirna2disease:
+				v = float(sum(mir_expdb.loc[mir].tolist()))
+				dis_num.append(len(mirna2disease[mir]))
+				# mirage = mirna2age[mir]
+				# mir_age_lst.append(mirage)
+
+
+				exp_val.append(v)
+
+					# if mirage > 100.0: old_num_tis.append(sum(mir_expdb.loc[mir].tolist()))
+					# else: yung_num_tis.append(sum(mir_expdb.loc[mir].tolist()))
+			else:
+				v = float(sum(mir_expdb.loc[mir].tolist()))
+				exp_val.append(v)
+				dis_num.append(0)
 
 
 
-					exp_val.append(v)
-
-					if mirage > 100.0: old_num_tis.append(sum(mir_expdb.loc[mir].tolist()))
-					else: yung_num_tis.append(sum(mir_expdb.loc[mir].tolist()))
-
-
-
-
-		print spearmanr(mir_age_lst, exp_val)
-		# plt.scatter(mir_age_lst, exp_val)
+		print spearmanr(dis_num, exp_val)
+		plt.scatter(dis_num, exp_val)
 		plt.show()
 		plt.close()
-		print mannwhitneyu(yung_num_tis, old_num_tis)
+		# print mannwhitneyu(yung_num_tis, old_num_tis)
 
-
-
-def disease_bootstrapping(mirna2age, mirna2disease,mirna2target,gene2age):
-	disease2mirna = reverse_dict(mirna2disease)
-
-	# for dis in disease2mirna:
-	# 	age_of_supporting_mir = [mirna2age[a] for a  in disease2mirna[dis] if a in mirna2age]
-	# 	med_dis = float(mean(age_of_supporting_mir))
-	# 	if len(age_of_supporting_mir) > 2:
-	# 		counter_over  = 0
-	# 		counter_under = 0
-	# 		for i in range(10000):
-	# 			while_loop_safety = 0
-	# 			new_ages_lst = []
-
-	# 			while_loop_safety += 1
-	# 			new_ages_lst = [mirna2age[ran_choice] for ran_choice in random.sample(set(two_dic_common(mirna2age,mirna2disease)),len(age_of_supporting_mir))]
-	# 			if float(mean(new_ages_lst)) > med_dis: counter_under += 1
-	# 			if float(mean(new_ages_lst)) < med_dis: counter_under += 1
-
-	# 		print "Disease:%s, prob it's younger:%f, prob it's older:%f" %(dis,float(counter_under)/ float(10000),float(counter_over)/ float(10000))
-
-
-	with open('/Users/virpatel/Desktop/pub_stuff/relevant_data/mann-whit-disagelst.txt','w') as dislstfle:
-			alldismir = [mirna2age[a] for a in mirna2disease if a in mirna2age]
-			cancers = flatten(list(csv.reader(open('/Users/virpatel/Desktop/pub_stuff/relevant_data/cancerlst.txt','r'),delimiter='\t')))
-			num_canc_non = 0
-			num_canc_yes = 0
-			counter = 0
-			for dis in disease2mirna:
-				age_of_supporting_mir = [mirna2age[a] for a  in disease2mirna[dis] if a in mirna2age]
-				z,b  = mannwhitneyu(alldismir, age_of_supporting_mir)
-				z = float(b)
-
-				if z < 0.005: 
-					counter += 1
-					if dis in cancers:
-						num_canc_yes += 1
-					dislstfle.write('Disease:%s, mann: %s\n' %(dis, z))
-				else:
-					num_canc_non += 1
-
-			print float(counter) / float(len(disease2mirna))
-			print float(num_canc_yes) / float(len(cancers))
-			print float(num_canc_yes) / float(counter)
-
-
-
-
-	## setup for gene analysis
-
-	# dis2tar = three_way_map(disease2mirna, mirna2target)
-	# alltar_age = [gene2age[a] for a  in list(set(flatten(dis2tar.values()))) if a  in gene2age]
-
-	# for dis in dis2tar:
-	# 	print dis
-	# 	pottarage = [gene2age[a] for a  in dis2tar[dis] if a in gene2age]
-	# 	medpot = median(pottarage)
-	# 	counter_under = 0
-	# 	counter_over = 0 
-
-	# 	for i in range(10000):
-	# 		new_ages_lst = random.sample(alltar_age, len(pottarage))
-	# 		if float(median(new_ages_lst)) > medpot: counter_under += 1
-	#  		if float(median(new_ages_lst)) < medpot: counter_under += 1
-
-
-
-	# 	print "Disease:%s, prob it's younger:%f, prob it's older:%f" %(dis,float(counter_under)/ float(10000),float(counter_over)/ float(10000))
 
 
 
@@ -600,7 +467,7 @@ def main():
 	# family_homogenity(human_mirlst, mirna2disease, mirna2age
 
 
-	# master_tarlst = target_gene_dataframe(mirna2age, mirna2disease, mirna2tar, tar2age)
+	master_tarlst = target_gene_dataframe(mirna2age, mirna2disease, mirna2tar, tar2age)
 
 	target_gene_expression_analysis(mirna2age, mirna2disease,human_mirlst, tar2age)
 
