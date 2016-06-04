@@ -465,9 +465,9 @@ def target_gene_expression_analysis(mirna2age, mirna2disease,mirna2family,gene2a
 		exp_val = []
 
 		for mir in mir_expdb.index:
-			if mir in mirna2disease:
+			if mir in mirna2age:
 				v = float(sum(mir_expdb.loc[mir].tolist()))
-				dis_num.append(len(mirna2disease[mir]))
+				mir_age_lst.append(mirna2age[mir])
 				# mirage = mirna2age[mir]
 				# mir_age_lst.append(mirage)
 
@@ -480,7 +480,7 @@ def target_gene_expression_analysis(mirna2age, mirna2disease,mirna2family,gene2a
 
 
 
-		print spearmanr(dis_num, exp_val)
+		print spearmanr(mir_age_lst, exp_val)
 		plt.scatter(dis_num, exp_val)
 		plt.show()
 		plt.close()
