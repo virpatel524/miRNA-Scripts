@@ -358,14 +358,14 @@ def target_gene_dataframe(mirna2age, mirna2disease,mirna2target, target2age):
 	mir_targetdb = pd.DataFrame()
 
 	mir_age = []
-	mir_num_target = []
+	mir_tar_age = []
 
 	for mir in mirna2target:
 		if mir in mirna2age:
 			mir_age.append(mirna2age[mir])
-			mir_num_target.append(len(mirna2target[mir]))
-
-	print spearmanr(mir_age,mir_num_target)
+			tmp = [target2age[a] for a in mirna2target[mir] if a in target2age]
+			mir_tar_age.append(mean(tmp))
+	print spearmanr(mir_age,mir_tar_age)
 	return
 
 
