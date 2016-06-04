@@ -373,7 +373,7 @@ def target_gene_dataframe(mirna2age, mirna2disease,mirna2target, target2age):
 	mir_tar_age = np.array(mir_tar_age)
 	print mir_age.shape
 	print mir_tar_age.shape
-	print mannwhitneyu(mir_age, mir_tar_age)
+	print mannwhitneyu(mir, mir_tar_age)
 
 
 
@@ -475,7 +475,19 @@ def target_gene_expression_analysis(mirna2age, mirna2disease,mirna2family,gene2a
 
 		print spearmanr(dis_num, exp_val)
 		plt.scatter(dis_num, exp_val)
-		plt.show()
+			
+
+		plt.gca().set_ylim([20])
+		plt.ylabel('Average Family Disease Vector Hamming Distance (0-1)', fontsize=15)
+		plt.xlabel('Average Family Age',fontsize=15)
+		plt.subplots_adjust(bottom=0.20)
+		plt.savefig('figures/family_disease_hamming.pdf',bbox_inches='tight')
+		plt.close()
+
+
+
+
+
 		plt.close()
 		# print mannwhitneyu(yung_num_tis, old_num_tis)
 
