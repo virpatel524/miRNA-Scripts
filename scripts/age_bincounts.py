@@ -340,9 +340,16 @@ def individual_bincounts(allmir_lst, starmir_lst, age_dir_allmir, age_dir_starmi
 			allmir2age[mir[0]] = float(mir[-1])
 
 
-	print mean(allmir2age.values())
+	spec_num_mir = []
+
 	allmir_species = list(set([a[:3] for a in allmir2age.keys()]))
-	print len(allmir_species)
+
+	for spec in allmir_species:
+		ages_lst = [allmir2age[a] for a in allmir2age if a[:3] == species]
+		spec_num_mir.append(len(ages_lst))
+	print mean(spec_num_mir)
+
+
 
 	# for species in all_species:
 	# 	ages_lst = [allmir2age[a] for a in allmir2age if a[:3] == species]
