@@ -249,36 +249,36 @@ def mir_num_dis_bin(mirna2disease, mirna2age, age2clade):
 	f.set_size_inches(20, 10)
 
 
-	# sns.boxplot(x='mir_ages',y='mir_disease_nums',data=disease_age_pd)
+	sns.boxplot(x='mir_ages',y='mir_disease_nums',data=disease_age_pd)
 
-	# plt.xticks(range(0,len(labels)), str_labels, rotation = 65)
-	# plt.gca().set_ylim([0,70])
-	# plt.ylabel('Number of Diseases', fontsize=15)
-	# plt.xlabel('miRNA Clade of Origination',fontsize=15)
-	# plt.subplots_adjust(bottom=0.20)
-
-
-
-	# num_of_dismir_perage = [len(disease_age_pd.loc[disease_age_pd['mir_ages'] == alpha]) for alpha in labels]
-
-	# plt.savefig('/Users/virpatel/Desktop/pub_stuff/figures/mirage_vs_numdis.pdf', bbox_inches='tight')
-
-	# plt.close()
+	plt.xticks(range(0,len(labels)), str_labels, rotation = 65)
+	plt.gca().set_ylim([0,70])
+	plt.ylabel('Number of Diseases', fontsize=15)
+	plt.xlabel('miRNA Clade of Origination',fontsize=15)
+	plt.subplots_adjust(bottom=0.20)
 
 
-	with open('relevant_data/mirna2age_lst.txt','w') as mir_fle:
-		for mir in mirna2age:
-			mir_fle.write('%s\t%.1f\n' %(mir, mirna2age[mir]))
+
+	num_of_dismir_perage = [len(disease_age_pd.loc[disease_age_pd['mir_ages'] == alpha]) for alpha in labels]
+
+	plt.savefig('/Users/virpatel/Desktop/pub_stuff/figures/mirage_vs_numdis.pdf', bbox_inches='tight')
+
+	plt.close()
 
 
-	with open('relevant_data/mirdis_lst.txt','w') as mirdis_fle:
-		for mir in mirna2disease:
-			if mir in mirna2age:
-				mirdis_fle.write('%s\n' %(mir))
+	# with open('relevant_data/mirna2age_lst.txt','w') as mir_fle:
+	# 	for mir in mirna2age:
+	# 		mir_fle.write('%s\t%.1f\n' %(mir, mirna2age[mir]))
 
-	with open('relevant_data/age_label_fle.txt','w') as rel_fle:
-		for age in age2clade:
-			rel_fle.write('%.1f\t%s\n' %(age, age2clade[age]))
+
+	# with open('relevant_data/mirdis_lst.txt','w') as mirdis_fle:
+	# 	for mir in mirna2disease:
+	# 		if mir in mirna2age:
+	# 			mirdis_fle.write('%s\n' %(mir))
+
+	# with open('relevant_data/age_label_fle.txt','w') as rel_fle:
+	# 	for age in age2clade:
+	# 		rel_fle.write('%.1f\t%s\n' %(age, age2clade[age]))
 
 
 
