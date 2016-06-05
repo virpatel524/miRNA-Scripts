@@ -283,8 +283,17 @@ def mir_num_dis_bin(mirna2disease, mirna2age, age2clade):
 
 
 def collapse_cancer_lst(mirna2disese, cancerlst):
-	gen_class = ['neopl', 'carc', 'lymph']
+	gen_classes = ['neopl', 'carc', 'lymph']
+	gen_class_mapper = {}
+	for dis in flatten(mirna2disese.values()):
+		for val in gen_classes:
+			if val in dis.lower(): 
+				gen_class_mapper.setdefault(val, []).append(dis)
+				continue
 	
+
+
+
 
 
 
