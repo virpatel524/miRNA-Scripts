@@ -292,7 +292,23 @@ def collapse_cancer_lst(mirna2disease):
 					dis2genclass[dis] = val
 				continue
 
-	print dis2genclass
+	mirna2disease_collapsed = {}
+
+	for mir in mirna2disease:
+		newdislst = []
+		dislst = mirna2disease[mir]
+		for dis in dislst:
+			if dislst in dis2genclass:
+				newdislst.append(dis2genclass[dis])
+			else: dislst.append(dis)
+
+		newdislst = list(set(newdislst))
+
+		mirna2disease_collapsed[mir] = newdislst
+
+	return mirna2disease_collapsed
+
+
 
 
 
