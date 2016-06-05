@@ -322,7 +322,7 @@ def mir_num_dis_bin_collapsed(mirna2disease, mirna2age, age2clade):
 	sns.boxplot(x='mir_ages',y='mir_disease_nums',data=disease_age_pd)
 
 	plt.xticks(range(0,len(labels)), str_labels, rotation = 65)
-	plt.gca().set_ylim([0,70])
+	plt.gca().set_ylim([0,45])
 	plt.ylabel('Number of Diseases', fontsize=15)
 	plt.xlabel('miRNA Clade of Origination',fontsize=15)
 	plt.subplots_adjust(bottom=0.20)
