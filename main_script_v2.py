@@ -354,7 +354,6 @@ def collapse_cancer_lst(mirna2disease):
 	for mir in mirna2disease:
 		newdislst = []
 		dislst = mirna2disease[mir]
-		print dislst
 		for dis in dislst:
 			if dis in dis2genclass.keys():
 				newdislst.append(dis2genclass[dis])
@@ -762,6 +761,8 @@ def main():
 
 
 	mirna2disease_collapsed =  collapse_cancer_lst(mirna2disease)
+
+	
 
 	mir_num_dis_bin_collapsed(mirna2disease_collapsed, mirna2age, age2clade)
 
