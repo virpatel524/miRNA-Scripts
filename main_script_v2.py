@@ -282,6 +282,12 @@ def mir_num_dis_bin(mirna2disease, mirna2age, age2clade):
 
 
 
+def collapse_cancer_lst(mirna2disese, cancerlst):
+	gen_class = ['neopl', 'carc', 'lymph']
+	
+
+
+
 
 def gen_dis_db(disease2mirna,mirna2age):
 	for dis in disease2mirna:
