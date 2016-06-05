@@ -284,14 +284,15 @@ def mir_num_dis_bin(mirna2disease, mirna2age, age2clade):
 
 def collapse_cancer_lst(mirna2disease):
 	gen_classes = ['neopl', 'carc', 'lymph']
-	gen_class_mapper = {}
+	dis2genclass = {}
 	for dis in flatten(mirna2disease.values()):
 		for val in gen_classes:
 			if val in dis.lower(): 
-				gen_class_mapper.setdefault(val, []).append(dis)
+				if val not in dis2genclass:
+					dis2genclass[dis] = val
 				continue
 
-	print gen_class_mapper
+	print dis2genclass
 
 
 
