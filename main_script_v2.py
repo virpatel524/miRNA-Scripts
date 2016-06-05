@@ -394,6 +394,70 @@ def family_homogenity(human_mirlst, mirna2disease, mirna2age):
 	plt.close()
 
 
+
+
+
+def family_homogenity_collapsed(human_mirlst, mirna2disease, mirna2age):
+
+	family_avg_age = []
+	family_avg_hamming = []
+	family_percent_invoved_dis = []
+	
+	all_mir_vector_df = pd.DataFrame()
+
+	dislst = get_list_of_dictionary(mirna2disease)
+
+	all_fam_mir = list(itertools.chain.from_iterable(human_mirlst.values()))
+
+	for mir in all_fam_mir:
+		if mir in mirna2disease:
+			vec = generate_class_vector(dislst, mirna2disease[mir])
+			tmp = pd.DataFrame([vec,],index=[str(mir),], columns=dislst)
+			all_mir_vector_df = all_mir_vector_df.append(tmp)
+
+
+	for fam in human_mirlst:
+		family_vector = []
+		mirlst = [a for a in human_mirlst[fam] if a in mirna2disease]
+		if len(mirlst) < 4: continue
+		for mir in mirlst:
+			for other_mir in mirlst:
+				if mir == other_mir: continue
+				family_vector.append(hamming(all_mir_vector_df.loc[mir], all_mir_vector_df.loc[other_mir],normalized=True))
+		
+		family_avg_hamming.append(mean(family_vector))
+		family_avg_age.append(round(mean([float(mirna2age[mirna]) for mirna in mirlst if mirna in mirna2age]),1))
+		family_percent_invoved_dis.append(float(len(mirlst)) / float(len(human_mirlst[fam])))
+
+
+
+	print spearmanr(family_percent_invoved_dis, family_avg_hamming)
+
+	fam_df = pd.DataFrame(zip(family_avg_age,family_avg_hamming,family_percent_invoved_dis),columns=['fam_age','fam_hamming','fam_per'])
+
+
+	fam_df = fam_df.sort('fam_age',ascending=1)
+
+	f = plt.gcf()
+	f.set_size_inches(20, 10)
+
+	sns.boxplot(x='fam_age',y='fam_hamming',data=fam_df)
+
+	plt.xticks(range(0,len(list(set(family_avg_age)))), [str(a) for a in sorted(list(set(family_avg_age)))])
+	plt.gca().set_ylim([0,.12])
+	plt.ylabel('Average Family Disease Vector Hamming Distance (0-1)', fontsize=15)
+	plt.xlabel('Average Family Age',fontsize=15)
+	plt.subplots_adjust(bottom=0.20)
+	plt.savefig('figures/family_disease_hamming_collapsed.pdf',bbox_inches='tight')
+	plt.close()
+
+
+
+
+
+
+
+
 def target_gene_dataframe(mirna2age, mirna2disease,mirna2target, target2age):
 	target_agedb = pd.DataFrame()
 	mir_targetdb = pd.DataFrame()
@@ -639,7 +703,9 @@ def main():
 	# target_gene_expression_analysis(mirna2age, mirna2disease,human_mirlst, tar2age)
 
 
-	collapse_cancer_lst(mirna2disease)
+	mirna2disease_collapsed =  collapse_cancer_lst(mirna2disease)
+
+	family_homogenity_collapsed(human_mirlst, mirna2disease_collapsed, mirna2age)
 
 
 
