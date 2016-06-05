@@ -282,10 +282,10 @@ def mir_num_dis_bin(mirna2disease, mirna2age, age2clade):
 
 
 
-def collapse_cancer_lst(mirna2disease, cancerlst):
+def collapse_cancer_lst(mirna2disease):
 	gen_classes = ['neopl', 'carc', 'lymph']
 	gen_class_mapper = {}
-	for dis in flatten(mirna2disese.values()):
+	for dis in flatten(mirna2disease.values()):
 		for val in gen_classes:
 			if val in dis.lower(): 
 				gen_class_mapper.setdefault(val, []).append(dis)
@@ -622,7 +622,7 @@ def main():
 	# target_gene_expression_analysis(mirna2age, mirna2disease,human_mirlst, tar2age)
 
 
-	collapse_cancer_lst(mirna2disese)
+	collapse_cancer_lst(mirna2disease)
 
 
 
