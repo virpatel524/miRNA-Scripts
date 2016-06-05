@@ -592,7 +592,7 @@ def main():
 
 
 
-	# mir_num_dis_bin(mirna2disease, mirna2age,age2clade)
+	mir_num_dis_bin(mirna2disease, mirna2age,age2clade)
 
 
 	# gen_dis_db(disease2mirna, mirna2age)
@@ -602,7 +602,7 @@ def main():
 
 	# master_tarlst = target_gene_dataframe(mirna2age, mirna2disease, mirna2tar, tar2age)
 
-	target_gene_expression_analysis(mirna2age, mirna2disease,human_mirlst, tar2age)
+	# target_gene_expression_analysis(mirna2age, mirna2disease,human_mirlst, tar2age)
 
 
 
