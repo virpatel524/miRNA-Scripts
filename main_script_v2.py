@@ -227,10 +227,6 @@ def mir_num_dis_bin(mirna2disease, mirna2age, age2clade):
 	mir_not_dis = [mirna2age[a] for a in mirna2age  if a not in mirna2disease]
 
 
-	print mannwhitneyu(mirindis, mir_not_dis)
-	return
-
-
 
 
 	labels = sorted(list(set(agelst)))
@@ -280,6 +276,62 @@ def mir_num_dis_bin(mirna2disease, mirna2age, age2clade):
 	# 	for age in age2clade:
 	# 		rel_fle.write('%.1f\t%s\n' %(age, age2clade[age]))
 
+
+
+
+
+
+
+def mir_num_dis_bin_collapsed(mirna2disease_collapsed, mirna2age, age2clade):
+
+	agelst = []
+	dislst = []
+
+	for mir in list(set(mirna2age.keys()).intersection(mirna2disease.keys())):	
+		agelst.append(float(mirna2age[mir])) 
+		dislst.append(float(len(mirna2disease[mir])))
+
+
+	oldage = agelst[:]
+
+
+	mirindis = [mirna2age[a] for a in mirna2age  if a in mirna2disease]
+	mir_not_dis = [mirna2age[a] for a in mirna2age  if a not in mirna2disease]
+
+
+
+
+	labels = sorted(list(set(agelst)))
+	str_labels = ['%s (%.1f)' %(age2clade[a], a) for a in labels]
+
+	binlst = [[] for _ in xrange(len(labels))]
+
+	for ind, alpha in enumerate(agelst):
+		binlst[labels.index(alpha)].append(dislst[ind])
+
+
+	disease_age_pd = pd.DataFrame({'mir_ages':agelst, 'mir_disease_nums': dislst})
+	disease_age_pd = disease_age_pd.sort('mir_ages',ascending=1)
+
+	f = plt.gcf()
+	f.set_size_inches(20, 10)
+
+
+	sns.boxplot(x='mir_ages',y='mir_disease_nums',data=disease_age_pd)
+
+	plt.xticks(range(0,len(labels)), str_labels, rotation = 65)
+	plt.gca().set_ylim([0,70])
+	plt.ylabel('Number of Diseases', fontsize=15)
+	plt.xlabel('miRNA Clade of Origination',fontsize=15)
+	plt.subplots_adjust(bottom=0.20)
+
+
+
+	num_of_dismir_perage = [len(disease_age_pd.loc[disease_age_pd['mir_ages'] == alpha]) for alpha in labels]
+
+	plt.savefig('/Users/virpatel/Desktop/pub_stuff/figures/mirage_vs_numdis)collapsed.pdf', bbox_inches='tight')
+
+	plt.close()
 
 
 def collapse_cancer_lst(mirna2disease):
