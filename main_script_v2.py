@@ -298,7 +298,7 @@ def collapse_cancer_lst(mirna2disease):
 		newdislst = []
 		dislst = mirna2disease[mir]
 		for dis in dislst:
-			if dislst in dis2genclass:
+			if dis in dis2genclass:
 				newdislst.append(dis2genclass[dis])
 			else: dislst.append(dis)
 
