@@ -316,6 +316,8 @@ def mir_num_dis_bin_collapsed(mirna2disease_collapsed, mirna2age, age2clade):
 	f = plt.gcf()
 	f.set_size_inches(20, 10)
 
+	print spearmanr(disease_age_pd['mir_ages'], disease_age_pd['mir_disease_nums'])
+
 
 	sns.boxplot(x='mir_ages',y='mir_disease_nums',data=disease_age_pd)
 
@@ -329,7 +331,7 @@ def mir_num_dis_bin_collapsed(mirna2disease_collapsed, mirna2age, age2clade):
 
 	num_of_dismir_perage = [len(disease_age_pd.loc[disease_age_pd['mir_ages'] == alpha]) for alpha in labels]
 
-	plt.savefig('/Users/virpatel/Desktop/pub_stuff/figures/mirage_vs_numdis)collapsed.pdf', bbox_inches='tight')
+	plt.savefig('/Users/virpatel/Desktop/pub_stuff/figures/mirage_vs_numdis_collapsed.pdf', bbox_inches='tight')
 
 	plt.close()
 
@@ -761,8 +763,7 @@ def main():
 
 	mirna2disease_collapsed =  collapse_cancer_lst(mirna2disease)
 
-	family_homogenity_collapsed(human_mirlst, mirna2disease_collapsed, mirna2age)
-
+	mir_num_dis_bin_collapsed(mirna2disease_collapsed, mirna2age, age2clade)
 
 
 
