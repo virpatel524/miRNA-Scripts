@@ -282,7 +282,7 @@ def mir_num_dis_bin(mirna2disease, mirna2age, age2clade):
 
 
 
-def mir_num_dis_bin_collapsed(mirna2disease_collapsed, mirna2age, age2clade):
+def mir_num_dis_bin_collapsed(mirna2disease, mirna2age, age2clade):
 
 	agelst = []
 	dislst = []
