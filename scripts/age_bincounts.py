@@ -15,6 +15,9 @@ from scipy.stats import mannwhitneyu
 sns.axes_style('whitegrid')
 sns.set_style("whitegrid")
 sns.set_context("paper")
+bad_lst =['ghb','ssp','fru','hsv','hvt','ebv','rlc','hhv','mcm','pbi','jcv','bkv','mdv','hma','bpc','ksh']
+
+
 
 
 # initalize main dictionaires 
@@ -46,10 +49,11 @@ def import_ages(ph_db):
 
 
 
-	tree_maker = sorted(species2mirna, key=lambda x: len(species2mirna[x]))
+	tree_maker = [i for i in sorted(species2mirna, key=lambda x: len(species2mirna[x])) if i not in bad_lst
 
-	print tree_maker
-	print len(species2mirna)
+
+
+
 
 	return species2mirna, age_lst
 
