@@ -13,7 +13,7 @@ mapper_dict = {}
 
 for item in species_map:
 	if item[0][0] == '#': continue
-	mapper_dict[0] = item[2]
+	mapper_dict[item[0]] = item[2]
 	print item[2]
 
 	
@@ -21,4 +21,4 @@ for item in species_map:
 
 with open('/Users/virpatel/Desktop/pub_stuff/relevant_data/mapped_mir2species_4tree.txt','w') as mapped_fle:
 	for i in data:
-		print mapper_dict[i[0]]
+		mapped_dict.write(mapped_dict[i[0]] + '\n')
