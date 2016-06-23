@@ -51,7 +51,7 @@ def import_ages(ph_db):
 
 	tree_maker = [i for i in sorted(species2mirna, key=lambda x: len(species2mirna[x])) if i not in bad_lst]
 
-	rel_tree_spe = (tree_maker[::-1])[:25]
+	rel_tree_spe = random.sample(tree_maker, 25)
 
 	with open('/Users/virpatel/Desktop/pub_stuff/relevant_data/tree_species.txt','w') as tree_spec_fle:
 		for i in rel_tree_spe:
