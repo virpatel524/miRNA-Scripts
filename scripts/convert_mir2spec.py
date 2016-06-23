@@ -8,5 +8,14 @@ with open('/Users/virpatel/Desktop/pub_stuff/relevant_data/organisms.txt') as ma
 	species_map = list(csv.reader(map_fle,delimiter='\t'))
 
 
+
+mapper_dict = {}
+
 for item in species_map:
-	print item
+	if item[0] == '#': continue
+	
+
+	
+
+
+with open('/Users/virpatel/Desktop/pub_stuff/relevant_data/mapped_mir2species_4tree.txt','w') as mapped_fle:
