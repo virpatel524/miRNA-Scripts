@@ -21,5 +21,4 @@ for item in species_map:
 
 with open('/Users/virpatel/Desktop/pub_stuff/relevant_data/mapped_mir2species_4tree.txt','w') as mapped_fle:
 	for i in data:
-		print i[0]
 		mapped_fle.write(mapper_dict[i[0]] + '\n')
