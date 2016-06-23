@@ -49,7 +49,7 @@ def import_ages(ph_db):
 	tree_maker = sorted(species2mirna, key=lambda x: len(species2mirna[x]))
 
 	print tree_maker
-
+	return
 
 	return species2mirna, age_lst
 
