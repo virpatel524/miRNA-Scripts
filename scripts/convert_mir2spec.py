@@ -12,10 +12,12 @@ with open('/Users/virpatel/Desktop/pub_stuff/relevant_data/organisms.txt') as ma
 mapper_dict = {}
 
 for item in species_map:
-	if item[0] == '#': continue
-	
+	if item[0][0] == '#': continue
+	mapper_dict[0] = item[2]
 
 	
 
 
 with open('/Users/virpatel/Desktop/pub_stuff/relevant_data/mapped_mir2species_4tree.txt','w') as mapped_fle:
+	for i in data:
+		mapped_fle.write(mapper_dict[i] + '\n')
