@@ -1,6 +1,6 @@
 # import statements
 
-import csv, shutil, os
+import csv, shutil, os, random
 import numpy as np
 import matplotlib.pyplot as plt
 import seaborn as sns
