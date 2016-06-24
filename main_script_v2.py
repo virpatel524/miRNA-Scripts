@@ -665,8 +665,10 @@ def target_gene_expression_analysis(mirna2age, mirna2disease,mirna2family,gene2a
 				mir_not_in_fam.append(mirna)
 
 
-		gen1 = [mirna_in_hamming_2_exp[a] for a in mir_in_fam if mirna2age[a] < 100.0 ]
-		gen2 = [mirna_in_hamming_2_exp[a] for a in mir_not_in_fam if mirna2age[a] < 100.0 ] 
+		gen1 = [mirna_in_hamming_2_exp[a] for a in mir_in_fam if mirna2age[a] ]
+		gen2 = [mirna_in_hamming_2_exp[a] for a in mir_not_in_fam if mirna2age[a]] 
+
+		print gen1
 
 		print mannwhitneyu(gen1, gen2)
 		print 'bisshhhh'
