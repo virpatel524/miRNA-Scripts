@@ -728,7 +728,7 @@ def main_fraction_under_figure(mirna2tar, mirna2age, target2age):
 
 	print mean(perc_younger_lst)
 
-	sns.kdeplot(np.asarray(perc_younger_lst), shade=True);
+	sns.distplot(np.asarray(perc_younger_lst), shade=True);
 	plt.show()
 
 	# plt.gca().set_ylim([0,.094])
