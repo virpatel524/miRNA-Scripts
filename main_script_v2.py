@@ -634,12 +634,13 @@ def target_gene_expression_analysis(mirna2age, mirna2disease,mirna2family,gene2a
 
 
 
-
+		print mean(yung_num_tis)
+		print mean(old_num_tis)
 		plt.scatter(mir_age_lst, exp_val)
-		plt.ylabel('Number of miRNAs')
-		plt.xlabel('Fraction of Protein Coding Targets Younger than miRNA')
+		plt.ylabel('Tissue Expression Count')
+		plt.xlabel('miRNA Age')
 		plt.subplots_adjust(bottom=0.20)
-		plt.savefig('figures/mirna_age_fraction.pdf',bbox_inches='tight')
+		plt.savefig('figures/mirna_exp_all.pdf',bbox_inches='tight')
 		plt.close()
 
 
