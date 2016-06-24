@@ -675,8 +675,9 @@ def target_gene_expression_analysis(mirna2age, mirna2disease,mirna2family,gene2a
 
 		ax1.scatter(age2, gen2)
 		ax1.set_ylabel('Age of miRNAs Not Found in Families (MYA)')
-		plt.set_xlabel('Number of Tissues with miRNA Expression')
+		ax1.set_xlabel('Number of Tissues with miRNA Expression')
 		ax1.set_ylim([0,20])
+		ax1.set_xlim([0,1000])
 
 		ax2.scatter(age1, gen1)
 		ax2.set_xlabel('Number of Tissues with miRNA Expression')
