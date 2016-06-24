@@ -686,7 +686,7 @@ def target_gene_expression_analysis(mirna2age, mirna2disease,mirna2family,gene2a
 		# for mir in mir_not_in_fam
 
 		lst2 = [fam2allvals[fam][2] for fam in fam2allvals]
-		lst1 = [fam2allvals[fam][4] for fam in fam2allvals]
+		lst1 = [fam2allvals[fam][0] for fam in fam2allvals]
 		plt.scatter(lst1, lst2)
 		plt.show()
 		plt.close()
@@ -696,7 +696,7 @@ def target_gene_expression_analysis(mirna2age, mirna2disease,mirna2family,gene2a
 
 
 
-		
+
 
 
 
