@@ -649,6 +649,7 @@ def target_gene_expression_analysis(mirna2age, mirna2disease,mirna2family,gene2a
 		mir_in_fam = []
 		mir_not_in_fam = []
 
+		mirna_in_hamming_2_exp = {}
 
 		for mir in mirna2family:
 			if len(mirna2family[mir]) > 3:
@@ -661,7 +662,7 @@ def target_gene_expression_analysis(mirna2age, mirna2disease,mirna2family,gene2a
 			else:
 				mirna_not_in_fam.append(mirna)
 
-		
+
 
 
 def disease_bootstrapping(mirna2age, mirna2disease,mirna2target,gene2age):
