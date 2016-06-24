@@ -672,7 +672,7 @@ def target_gene_expression_analysis(mirna2age, mirna2disease,mirna2family,gene2a
 			lst_ham = []
 
 			for mir in mirna2family[fam]:
-				for secmir in mirna2family[mir]:
+				for secmir in mirna2family[fam]:
 					if mir == secmir: continue
 					lst_ham.append(hamming(mirna_in_hamming_2_exp[mir], mirna_in_hamming_2_exp[secmir], normalized=True))
 
