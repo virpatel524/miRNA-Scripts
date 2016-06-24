@@ -713,6 +713,9 @@ def disease_bootstrapping(mirna2age, mirna2disease,mirna2target,gene2age):
 	# 	print "Disease:%s, prob it's younger:%f, prob it's older:%f" %(dis,float(counter_under)/ float(10000),float(counter_over)/ float(10000))
 
 
+def 
+
+
 
 
 
@@ -766,7 +769,7 @@ def main():
 
 	mir_num_dis_bin_collapsed(mirna2disease_collapsed, mirna2age, age2clade)
 
-	main_fraction_under_figure(mirna2tar, mirna2age, target2age = [] )
+	main_fraction_under_figure(mirna2tar, mirna2age, target2age)
 
 
 
