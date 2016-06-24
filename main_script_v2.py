@@ -714,6 +714,8 @@ def disease_bootstrapping(mirna2age, mirna2disease,mirna2target,gene2age):
 
 
 def main_fraction_under_figure(mirna2tar, mirna2age, target2age):
+	
+	
 	counter = 0
 	perc_younger_lst = []
 	tot_counter = 0
