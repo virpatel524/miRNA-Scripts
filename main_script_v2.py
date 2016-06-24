@@ -726,9 +726,10 @@ def main_fraction_under_figure(mirna2tar, mirna2age, target2age):
 		perc_younger_lst.append(float(sum(i < mirna2age[mirna] for i in  age_set))/ float(len(age_set)))
 
 
-	print mean(perc_younger_lst)
+	print len(perc_younger_lst)
 
-	sns.distplot(np.asarray(perc_younger_lst), shade=True);
+
+	sns.distplot(np.asarray(perc_younger_lst));
 	plt.show()
 
 	# plt.gca().set_ylim([0,.094])
