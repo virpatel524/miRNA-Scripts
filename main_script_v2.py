@@ -673,6 +673,7 @@ def target_gene_expression_analysis(mirna2age, mirna2disease,mirna2family,gene2a
 		plt.ylabel('Age of miRNAs Not Found in Families (MYA)')
 		plt.xlabel('Number of Tissues with miRNA Expression')
 		plt.subplots_adjust(bottom=0.20)
+		plt.gca().set_xlim([0,20])
 		plt.savefig('figures/no_fam_tis.pdf',bbox_inches='tight')
 		plt.close()
 
@@ -681,8 +682,11 @@ def target_gene_expression_analysis(mirna2age, mirna2disease,mirna2family,gene2a
 		plt.ylabel('Age of miRNAs  Found in Families (MYA)')
 		plt.xlabel('Number of Tissues with miRNA Expression')
 		plt.subplots_adjust(bottom=0.20)
+		plt.gca().set_xlim([0,20])
 		plt.savefig('figures/fam_tis.pdf',bbox_inches='tight')
 		plt.close()
+
+
 
 
 		print gen1
