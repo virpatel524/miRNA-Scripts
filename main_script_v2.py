@@ -716,7 +716,7 @@ def disease_bootstrapping(mirna2age, mirna2disease,mirna2target,gene2age):
 def main_fraction_under_figure(mirna2tar, mirna2age, target2age):
 	for mirna in mirna2tar:
 		if mirna not in mirna2age: continue
-		age_set = [target2age[alpha] for alpha in ]
+		age_set = [target2age[alpha] for alpha in mirna2tar[mirna] if alpha in target2age]
 
 
 
