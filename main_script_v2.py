@@ -645,6 +645,18 @@ def target_gene_expression_analysis(mirna2age, mirna2disease,mirna2family,gene2a
 
 		print mannwhitneyu(yung_num_tis, old_num_tis)
 
+		mir_in_fam_pot = []
+		mir_in_fam = []
+		mir_not_in_fam = []
+
+
+		for mir in mirna2family:
+			if len(mirna2family[mir]) > 3:
+				mir_in_fam_pot += mirna2family[mir]
+
+
+		for mirna in mir_expdb.index:
+			if 
 
 
 def disease_bootstrapping(mirna2age, mirna2disease,mirna2target,gene2age):
