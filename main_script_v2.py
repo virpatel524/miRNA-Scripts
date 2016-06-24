@@ -729,7 +729,9 @@ def main_fraction_under_figure(mirna2tar, mirna2age, target2age):
 		perc_younger_lst.append(float(counter)/ float(tot_counter))
 
 
-	sns.kdeplot(perc_younger_lst, shade=True);
+	print sorted(perc_younger_lst)
+
+	sns.kdeplot(np.asarray(), shade=True);
 	plt.show()
 	plt.close()
 
