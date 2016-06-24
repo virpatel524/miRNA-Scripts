@@ -682,6 +682,8 @@ def target_gene_expression_analysis(mirna2age, mirna2disease,mirna2family,gene2a
 		ax2.scatter(age1, gen1)
 		ax2.set_xlabel('Number of Tissues with miRNA Expression')
 		ax2.set_ylim([0,20])
+		ax2.set_xlim([0,1000])
+
 		plt.subplots_adjust(bottom=0.20)
 		plt.savefig('figures/fam_tis_2tile.pdf',bbox_inches='tight')
 		plt.close()
@@ -694,7 +696,6 @@ def target_gene_expression_analysis(mirna2age, mirna2disease,mirna2family,gene2a
 		print gen1
 
 		print mannwhitneyu(gen1, gen2)
-		print 'bisshhhh'
 
 
 
@@ -891,7 +892,7 @@ def main():
 
 	# mir_num_dis_bin_collapsed(mirna2disease_collapsedf, mirna2age, age2clade)
 
-	main_fraction_under_figure(mirna2tar, mirna2age, tar2age)
+	# main_fraction_under_figure(mirna2tar, mirna2age, tar2age)
 
 
 
