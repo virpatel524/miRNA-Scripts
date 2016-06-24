@@ -657,6 +657,7 @@ def target_gene_expression_analysis(mirna2age, mirna2disease,mirna2family,gene2a
 
 
 		for mirna in mir_expdb.index:
+			if mirna not in mirna2age: continue
 			mirna_in_hamming_2_exp[mirna] = mir_expdb.loc[mirna].tolist()
 			if mirna in mir_in_fam_pot:
 				mir_in_fam.append(mirna)
@@ -664,10 +665,11 @@ def target_gene_expression_analysis(mirna2age, mirna2disease,mirna2family,gene2a
 				mir_not_in_fam.append(mirna)
 
 
-		gen1 = [mirna_in_hamming_2_exp[a] for a in mir_in_fam]
+		gen1 = [mirna_in_hamming_2_exp[a] for a in mir_in_fam if ]
 		gen2 = [mirna_in_hamming_2_exp[a] for a in mir_not_in_fam]
 
 		print mannwhitneyu(gen1, gen2)
+		print 'bisshhhh'
 
 
 
@@ -697,7 +699,7 @@ def target_gene_expression_analysis(mirna2age, mirna2disease,mirna2family,gene2a
 		plt.show()
 		plt.close()
 
-		print spearmanr(lst1, lst2)
+		# print speamanr(lst1, lst2)
 
 
 
