@@ -634,8 +634,7 @@ def target_gene_expression_analysis(mirna2age, mirna2disease,mirna2family,gene2a
 
 
 
-		print mean(yung_num_tis)
-		print mean(old_num_tis)
+		print mannwhitneyu(yung_num_tis, old_num_tis)
 		plt.scatter(mir_age_lst, exp_val)
 		plt.ylabel('Tissue Expression Count')
 		plt.xlabel('miRNA Age')
