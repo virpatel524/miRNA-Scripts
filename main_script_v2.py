@@ -733,8 +733,8 @@ def main_fraction_under_figure(mirna2tar, mirna2age, target2age):
 	sns.distplot(perc_younger_lst)
 
 	plt.gca().set_xlim([0,.6])
-	plt.ylabel('Number of miRNAs', fontsize=15)
-	plt.xlabel('Fraction of Protein Coding Targets Younger than miRNA',fontsize=15)
+	plt.ylabel('Number of miRNAs')
+	plt.xlabel('Fraction of Protein Coding Targets Younger than miRNA')
 	plt.subplots_adjust(bottom=0.20)
 	plt.savefig('figures/mirna_age_fraction.pdf',bbox_inches='tight')
 	plt.close()
