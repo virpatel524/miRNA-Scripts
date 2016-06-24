@@ -481,6 +481,11 @@ def parse_target_data(tardb):
 
 def bincount_style2(allmir_ages, target_ages,time_tree_fle):
 
+	
+	print allmir_ages
+
+	return
+
 	age2clade = {}
 
 	with open(time_tree_fle) as time_tree_data:
@@ -632,13 +637,13 @@ target_bincount = parse_target_data(tardb)
 
 # print mannwhitneyu([float(a) for a in target_bincount], [float(a) for a in master_age_lst_allmir])
 
-# bincount_style2(master_age_lst_allmir, target_bincount,time_treedb)
+bincount_style2(master_age_lst_allmir, target_bincount,time_treedb)
 # bincount_style3(master_age_lst_allmir, target_bincount, time_treedb)
 
 # all_species = list(set(species2mir_allmir.keys() + species2mirna_starmir.keys()))
 
 # bincount_style1(master_age_lst_allmir, master_age_lst_starmir, '/Users/virpatel/Desktop/pub_stuff/relevant_data/time_tree_dates.txt')
-individual_bincounts(master_age_lst_allmir, master_age_lst_starmir, '/Users/virpatel/Desktop/pub_stuff/relevant_data/allmir_ages/','/Users/virpatel/Desktop/pub_stuff/relevant_data/selectmir_ages/','/Users/virpatel/Desktop/pub_stuff/relevant_data/time_tree_dates.txt','/Users/virpatel/Desktop/pub_stuff/figures/')
+# individual_bincounts(master_age_lst_allmir, master_age_lst_starmir, '/Users/virpatel/Desktop/pub_stuff/relevant_data/allmir_ages/','/Users/virpatel/Desktop/pub_stuff/relevant_data/selectmir_ages/','/Users/virpatel/Desktop/pub_stuff/relevant_data/time_tree_dates.txt','/Users/virpatel/Desktop/pub_stuff/figures/')
 
 
 
