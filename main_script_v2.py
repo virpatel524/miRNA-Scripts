@@ -665,8 +665,8 @@ def target_gene_expression_analysis(mirna2age, mirna2disease,mirna2family,gene2a
 				mir_not_in_fam.append(mirna)
 
 
-		gen1 = [sum(mirna_in_hamming_2_exp[a]) for a in mir_in_fam if mirna2age[a] ]
-		gen2 = [sum(mirna_in_hamming_2_exp[a]) for a in mir_not_in_fam if mirna2age[a]] 
+		gen1 = [sum(mirna_in_hamming_2_exp[a]) for a in mir_in_fam if mirna2age[a] < 100.0 ]
+		gen2 = [sum(mirna_in_hamming_2_exp[a]) for a in mir_not_in_fam if mirna2age[a] < 100.0] 
 
 		print gen1
 
