@@ -670,10 +670,18 @@ def target_gene_expression_analysis(mirna2age, mirna2disease,mirna2family,gene2a
 		gen2 = [sum(mirna_in_hamming_2_exp[a]) for a in mir_not_in_fam]
 
 		plt.scatter(age2, gen2)
-		plt.ylabel('Age of miRNAs (MYA)')
-		plt.xlabel('Fraction of Protein Coding Targets Younger than miRNA')
+		plt.ylabel('Age of miRNAs Not Found in Families (MYA)')
+		plt.xlabel('Number of Tissues with miRNA Expression')
 		plt.subplots_adjust(bottom=0.20)
-		plt.savefig('figures/mirna_age_fraction.pdf',bbox_inches='tight')
+		plt.savefig('figures/no_fam_tis.pdf',bbox_inches='tight')
+		plt.close()
+
+
+		plt.scatter(age1, gen1)
+		plt.ylabel('Age of miRNAs  Found in Families (MYA)')
+		plt.xlabel('Number of Tissues with miRNA Expression')
+		plt.subplots_adjust(bottom=0.20)
+		plt.savefig('figures/fam_tis.pdf',bbox_inches='tight')
 		plt.close()
 
 
