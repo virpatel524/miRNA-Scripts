@@ -727,9 +727,16 @@ def main_fraction_under_figure(mirna2tar, mirna2age, target2age):
 
 
 	print mean(perc_younger_lst)
+
 	sns.kdeplot(np.asarray(perc_younger_lst), shade=True);
 	plt.show()
-	plt.close()
+
+	# plt.gca().set_ylim([0,.094])
+	# plt.ylabel('Average Family Disease Vector Hamming Distance (0-1)', fontsize=15)
+	# plt.xlabel('Average Family Age',fontsize=15)
+	# plt.subplots_adjust(bottom=0.20)
+	# plt.savefig('figures/family_disease_hamming_collapsed.pdf',bbox_inches='tight')
+	# plt.close()
 
 
 
