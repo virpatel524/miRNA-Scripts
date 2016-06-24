@@ -635,10 +635,15 @@ def target_gene_expression_analysis(mirna2age, mirna2disease,mirna2family,gene2a
 
 
 
-		print spearmanr(mir_age_lst, exp_val)
 		plt.scatter(mir_age_lst, exp_val)
-		plt.show()
+		plt.ylabel('Number of miRNAs')
+		plt.xlabel('Fraction of Protein Coding Targets Younger than miRNA')
+		plt.subplots_adjust(bottom=0.20)
+		plt.savefig('figures/mirna_age_fraction.pdf',bbox_inches='tight')
 		plt.close()
+
+
+
 		print mannwhitneyu(yung_num_tis, old_num_tis)
 
 
