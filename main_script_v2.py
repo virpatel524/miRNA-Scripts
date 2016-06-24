@@ -714,8 +714,7 @@ def disease_bootstrapping(mirna2age, mirna2disease,mirna2target,gene2age):
 
 
 def main_fraction_under_figure(mirna2tar, mirna2age, target2age):
-	
-	
+
 	counter = 0
 	perc_younger_lst = []
 	tot_counter = 0
@@ -727,7 +726,7 @@ def main_fraction_under_figure(mirna2tar, mirna2age, target2age):
 		perc_younger_lst.append(float(sum(i < mirna2age[mirna] for i in  age_set))/ float(len(age_set)))
 
 
-
+	print mean(perc_younger_lst)
 	sns.kdeplot(np.asarray(perc_younger_lst), shade=True);
 	plt.show()
 	plt.close()
