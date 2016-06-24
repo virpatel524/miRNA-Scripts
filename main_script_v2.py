@@ -669,7 +669,7 @@ def target_gene_expression_analysis(mirna2age, mirna2disease,mirna2family,gene2a
 
 		for fam in mirna2family:
 
-			if len([a for a in mirna2family[fam] if a in mir_expdb.index]) < 2: continue
+			if len([a for a in mirna2family[fam] if a in mir_expdb.index]) < 4: continue
 			print 'boo'
 			lst_ham = []
 
@@ -680,11 +680,11 @@ def target_gene_expression_analysis(mirna2age, mirna2disease,mirna2family,gene2a
 					if secmir not in mir_expdb.index: continue
 					lst_ham.append(hamming(mirna_in_hamming_2_exp[mir], mirna_in_hamming_2_exp[secmir], normalized=True))
 
-			fam2allvals[fam] = [len(mirna2family),mean(lst_ham), max(lst_ham)]
+			fam2allvals[fam] = [len(mirna2family[fam]),mean(lst_ham), max(lst_ham)]
 
 
 		lst1 = [fam2allvals[fam][0] for fam in fam2allvals]
-		lst2 = [fam2allvals[fam][0] for fam in fam2allvals]
+		lst2 = [fam2allvals[fam][1] for fam in fam2allvals]
 		print lst1
 
 
