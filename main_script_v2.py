@@ -713,7 +713,7 @@ def disease_bootstrapping(mirna2age, mirna2disease,mirna2target,gene2age):
 	# 	print "Disease:%s, prob it's younger:%f, prob it's older:%f" %(dis,float(counter_under)/ float(10000),float(counter_over)/ float(10000))
 
 
-def 
+def main_fraction_under
 
 
 
