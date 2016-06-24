@@ -714,7 +714,7 @@ def disease_bootstrapping(mirna2age, mirna2disease,mirna2target,gene2age):
 
 
 def main_fraction_under_figure(mirna2tar, mirna2age, target2age):
-	counter = 0
+	perc_younger_lst = []
 	tot_counter = 0
 	for mirna in mirna2tar:
 		if mirna not in mirna2age: continue
@@ -724,10 +724,11 @@ def main_fraction_under_figure(mirna2tar, mirna2age, target2age):
 		if sum(i < mirna2age[mirna] for i in  age_set) >= 1:
 			counter += 1
 
-	print counter 
-	print tot_counter
+
+		perc_younger_lst.append(float(counter)/ float(tot_counter))
 
 
+	
 
 
 
