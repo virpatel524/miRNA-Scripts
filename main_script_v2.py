@@ -658,7 +658,7 @@ def target_gene_expression_analysis(mirna2age, mirna2disease,mirna2family,gene2a
 
 		for mirna in mir_expdb.index:
 			mirna_in_hamming_2_exp[mirna] = mir_expdb.loc[mirna].tolist()
-			if mirna in mirna_in_fam_pot:
+			if mirna in mir_in_fam_pot:
 				mirna_in_fam.append(mirna)
 			else:
 				mirna_not_in_fam.append(mirna)
