@@ -674,7 +674,7 @@ def target_gene_expression_analysis(mirna2age, mirna2disease,mirna2family,gene2a
 		plt.xlabel('Number of Tissues with miRNA Expression')
 		plt.subplots_adjust(bottom=0.20)
 		plt.gca().set_ylim([0,20])
-		plt.savefig('figures/no_fam_tis.pdf',bbox_inches='tight')
+		plt.savefig('figures/fam_tis_no.pdf',bbox_inches='tight')
 		plt.close()
 
 
