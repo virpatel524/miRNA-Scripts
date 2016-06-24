@@ -220,7 +220,7 @@ def mir_num_dis_bin(mirna2disease, mirna2age, age2clade):
 		else:
 			mirnotindis.append(mirna2age[mir])
 
-	print mean(mirnotindis, mirindis)
+	print mean(mirnotindis), mean(mirindis)
 
 	return
 
