@@ -735,9 +735,18 @@ def target_gene_expression_analysis(mirna2age, mirna2disease,mirna2family,gene2a
 
 		lst2 = [fam2allvals[fam][2] for fam in fam2allvals]
 		lst1 = [fam2allvals[fam][0] for fam in fam2allvals]
-		# plt.scatter(lst1, lst2)
-		plt.show()
+		plt.scatter(lst1, lst2)
+		plt.savefig('figures/num_hererog.pdf')
+
+		
 		plt.close()
+
+
+
+		lst2 = [fam2allvals[fam][2] for fam in fam2allvals]
+		lst1 = [fam2allvals[fam][-1] for fam in fam2allvals]
+		plt.scatter(lst1, lst2)
+		plt.savefig('figures/age_hererog.pdf')
 
 		# print speamanr(lst1, lst2)
 
@@ -887,8 +896,7 @@ def main():
 
 
 
-	mir_num_dis_bin(mirna2disease, mirna2age,age2clade)
-	return
+	# mir_num_dis_bin(mirna2disease, mirna2age,age2clade)
 
 
 	# gen_dis_db(disease2mirna, mirna2age)
