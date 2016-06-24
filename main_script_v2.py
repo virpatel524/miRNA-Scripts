@@ -784,9 +784,9 @@ def main():
 
 	family_homogenity_collapsed(human_mirlst, mirna2disease_collapsed, mirna2age)
 
-	mir_num_dis_bin_collapsed(mirna2disease_collapsed, mirna2age, age2clade)
+	mir_num_dis_bin_collapsed(mirna2disease_collapsedf, mirna2age, age2clade)
 
-	main_fraction_under_figure(mirna2tar, mirna2age, target2age)
+	main_fraction_under_figure(mirna2tar, mirna2age, tar2age)
 
 
 
