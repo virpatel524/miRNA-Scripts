@@ -679,6 +679,13 @@ def target_gene_expression_analysis(mirna2age, mirna2disease,mirna2family,gene2a
 			fam2allvals[fam] = [len(mirna2family),mean(lst_ham), max(lst_ham)]
 
 
+		lst1 = [fam2allvals[fam][0] for fam in fam2allvals]
+		lst2 = [fam2allvals[fam][0] for fam in fam2allvals]
+
+		print spearmanr(lst1, lst2)
+
+
+
 
 
 
