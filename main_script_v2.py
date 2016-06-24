@@ -729,7 +729,7 @@ def main_fraction_under_figure(mirna2tar, mirna2age, target2age):
 	print len(perc_younger_lst)
 
 
-	sns.distplot(np.asarray(perc_younger_lst));
+	sns.distplot(perc_younger_lst);
 	plt.show()
 
 	# plt.gca().set_ylim([0,.094])
