@@ -212,6 +212,20 @@ def parse_target_data(tardb,taragedb,timetreedb):
 
 def mir_num_dis_bin(mirna2disease, mirna2age, age2clade):
 
+	mirnotindis = []
+	mirindis = []
+	for mir in mirna2age:
+		if mir in mirna2disease:
+			mirindis.append(mirna2age[mir])
+		else:
+			mirnotindis.append(mirna2age[mir])
+
+	print mean(mirnotindis, mirindis)
+
+	return
+
+
+
 	agelst = []
 	dislst = []
 
@@ -873,7 +887,8 @@ def main():
 
 
 
-	# mir_num_dis_bin(mirna2disease, mirna2age,age2clade)
+	mir_num_dis_bin(mirna2disease, mirna2age,age2clade)
+	return
 
 
 	# gen_dis_db(disease2mirna, mirna2age)
