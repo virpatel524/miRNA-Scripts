@@ -631,7 +631,6 @@ time_treedb = '/Users/virpatel/Desktop/pub_stuff/relevant_data/time_tree_dates.t
 
 
 species2mir_allmir, master_age_lst_allmir = import_ages('/Users/virpatel/Desktop/pub_stuff/relevant_data/ph_dataset_with_time_tree_allmir.txt')
-species2mirna_starmir, master_age_lst_starmir = import_ages('/Users/virpatel/Desktop/pub_stuff/relevant_data/ph_dataset_with_time_tree_starmir.txt')
 
 target_bincount = parse_target_data(tardb)
 
