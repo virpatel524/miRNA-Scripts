@@ -637,7 +637,7 @@ def target_gene_expression_analysis(mirna2age, mirna2disease,mirna2family,gene2a
 
 
 		print spearmanr(mir_age_lst, exp_val)
-		# plt.scatter(mir_age_lst, exp_val)
+		plt.scatter(mir_age_lst, exp_val)
 		plt.show()
 		plt.close()
 		print mannwhitneyu(yung_num_tis, old_num_tis)
@@ -765,6 +765,8 @@ def main():
 	family_homogenity_collapsed(human_mirlst, mirna2disease_collapsed, mirna2age)
 
 	mir_num_dis_bin_collapsed(mirna2disease_collapsed, mirna2age, age2clade)
+
+	main_fraction_under_figure(mirna2tar, mirna2age, target2age = [] )
 
 
 
