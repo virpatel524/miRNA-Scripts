@@ -669,8 +669,12 @@ def target_gene_expression_analysis(mirna2age, mirna2disease,mirna2family,gene2a
 		gen1 = [sum(mirna_in_hamming_2_exp[a]) for a in mir_in_fam ]
 		gen2 = [sum(mirna_in_hamming_2_exp[a]) for a in mir_not_in_fam]
 
-		plt.scatter(age2, gen2)
-		plt.ylabel('Age of miRNAs Not Found in Families (MYA)')
+
+		f, (ax1, ax2) = plt.subplots(1, 2, sharey=True)
+
+
+		ax1.scatter(age2, gen2)
+		ax1.ylabel('Age of miRNAs Not Found in Families (MYA)')
 		plt.xlabel('Number of Tissues with miRNA Expression')
 		plt.subplots_adjust(bottom=0.20)
 		plt.gca().set_ylim([0,20])
@@ -685,6 +689,8 @@ def target_gene_expression_analysis(mirna2age, mirna2disease,mirna2family,gene2a
 		plt.gca().set_ylim([0,20])
 		plt.savefig('figures/fam_tis.pdf',bbox_inches='tight')
 		plt.close()
+
+
 
 
 
