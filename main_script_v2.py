@@ -727,6 +727,8 @@ def main_fraction_under_figure(mirna2tar, mirna2age, target2age):
 
 
 
+	print len(sorted(perc_younger_lst))
+
 
 	sns.distplot(perc_younger_lst)
 	plt.show()
