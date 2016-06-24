@@ -656,7 +656,12 @@ def target_gene_expression_analysis(mirna2age, mirna2disease,mirna2family,gene2a
 
 
 		for mirna in mir_expdb.index:
-			if 
+			if mirna in mirna_in_fam_pot:
+				mirna_in_fam.append(mirna)
+			else:
+				mirna_not_in_fam.append(mirna)
+
+		
 
 
 def disease_bootstrapping(mirna2age, mirna2disease,mirna2target,gene2age):
