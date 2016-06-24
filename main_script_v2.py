@@ -665,9 +665,14 @@ def target_gene_expression_analysis(mirna2age, mirna2disease,mirna2family,gene2a
 
 
 
+		fam2allvals = {}
+
 		for fam in mirna2family:
 			if len(mirna2family) < 4: continue
-			
+			lst_ham = []
+
+			fam2allvals[fam] = [len(mirna2family)]
+
 
 
 
