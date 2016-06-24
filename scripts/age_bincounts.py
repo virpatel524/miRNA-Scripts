@@ -489,9 +489,7 @@ def parse_target_data(tardb):
 def bincount_style2(allmir_ages, target_ages,time_tree_fle):
 
 	
-	print allmir_ages
 
-	return
 
 	age2clade = {}
 
@@ -549,7 +547,6 @@ def bincount_style2(allmir_ages, target_ages,time_tree_fle):
 
 	ax1.xaxis.grid(False)
 	ax2.xaxis.grid(False)
-
 
 
 
