@@ -719,14 +719,10 @@ def main_fraction_under_figure(mirna2tar, mirna2age, target2age):
 	tot_counter = 0
 	for mirna in mirna2tar:
 		if mirna not in mirna2age: continue
-		tot_counter += 1
 		age_set = [target2age[alpha] for alpha in mirna2tar[mirna] if alpha in target2age]
 
-		if sum(i < mirna2age[mirna] for i in  age_set) >= 1:
-			counter += 1
 
-
-		perc_younger_lst.append(float(counter)/ float(tot_counter))
+		perc_younger_lst.append(float(sum(i < mirna2age[mirna] for i in  age_set))/ float(len(age_set))
 
 
 	print sorted(perc_younger_lst)
