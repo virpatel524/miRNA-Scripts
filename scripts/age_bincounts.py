@@ -39,10 +39,17 @@ def import_ages(ph_db):
 
 	age_lst = []
 
+	human_mirna_lst = []
 
 	for spe in species2mirna:
 		for mir in species2mirna[spe]:
 			age_lst.append(float(mir[-1]))
+
+
+	for mir in species2mirna['hsa']:
+		human_mirna_lst.append(float(mir[-1]))
+
+
 
 
 
@@ -61,7 +68,7 @@ def import_ages(ph_db):
 
 
 
-	return species2mirna, age_lst
+	return species2mirna, age_lst, human_mirna_lst
 
 
 
@@ -630,13 +637,13 @@ time_treedb = '/Users/virpatel/Desktop/pub_stuff/relevant_data/time_tree_dates.t
 
 
 
-species2mir_allmir, master_age_lst_allmir = import_ages('/Users/virpatel/Desktop/pub_stuff/relevant_data/ph_dataset_with_time_tree_allmir.txt')
+species2mir_allmir, master_age_lst_allmir, human_mirna_lst = import_ages('/Users/virpatel/Desktop/pub_stuff/relevant_data/ph_dataset_with_time_tree_allmir.txt')
 
 target_bincount = parse_target_data(tardb)
 
 # print mannwhitneyu([float(a) for a in target_bincount], [float(a) for a in master_age_lst_allmir])
 
-bincount_style2(master_age_lst_allmir, target_bincount,time_treedb)
+bincount_style2(human_mirna_lst, target_bincount,time_treedb)
 # bincount_style3(master_age_lst_allmir, target_bincount, time_treedb)
 
 # all_species = list(set(species2mir_allmir.keys() + species2mirna_starmir.keys()))
