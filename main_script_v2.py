@@ -671,7 +671,12 @@ def target_gene_expression_analysis(mirna2age, mirna2disease,mirna2family,gene2a
 			if len(mirna2family) < 4: continue
 			lst_ham = []
 
-			fam2allvals[fam] = [len(mirna2family)]
+			for mir in mirna2family[fam]:
+				for secmir in mirna2family[mir]:
+					if mir == secmir: continue
+					lst_ham.append(hamming(mirna_in_hamming_2_exp[mir], mirna_in_hamming_2_exp[secmir], normalized=True))
+
+			fam2allvals[fam] = [len(mirna2family),mean(lst_ham), max(lst_ham)]
 
 
 
