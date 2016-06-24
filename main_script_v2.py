@@ -665,8 +665,8 @@ def target_gene_expression_analysis(mirna2age, mirna2disease,mirna2family,gene2a
 				mir_not_in_fam.append(mirna)
 
 
-		gen1 = [mirna_in_hamming_2_exp[a] for a in mir_in_fam if mirna2age[a] ]
-		gen2 = [mirna_in_hamming_2_exp[a] for a in mir_not_in_fam if mirna2age[a]] 
+		gen1 = [sum(mirna_in_hamming_2_exp[a]) for a in mir_in_fam if mirna2age[a] ]
+		gen2 = [sum(mirna_in_hamming_2_exp[a]) for a in mir_not_in_fam if mirna2age[a]] 
 
 		print gen1
 
@@ -689,7 +689,7 @@ def target_gene_expression_analysis(mirna2age, mirna2disease,mirna2family,gene2a
 					if mir == secmir: continue
 					if mir not in mir_expdb.index: continue
 					if secmir not in mir_expdb.index: continue
-					lst_ham.append(hamming(mirna_in_hamming_2_exp[mir], mirna_in_hamming_2_exp[secmir], normalized=True))
+					lst_ham.append(hamming(sum(mirna_in_hamming_2_exp[mir]), sum(mirna_in_hamming_2_exp[secmir]), normalized=True))
 
 			fam2allvals[fam] = [len(mirna2family[fam]),mean(lst_ham), max(lst_ham), mean(fam_ages), max(fam_ages)]
 
