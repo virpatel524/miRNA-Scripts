@@ -721,6 +721,15 @@ def main_fraction_under_figure(mirna2tar, mirna2age, target2age):
 		tot_counter += 1
 		age_set = [target2age[alpha] for alpha in mirna2tar[mirna] if alpha in target2age]
 
+		if summ(i < mirna2age[mirna] for i in  age_set) >= 1:
+			counter += 1
+
+	print counter 
+	print tot_counter
+
+
+
+
 
 
 
