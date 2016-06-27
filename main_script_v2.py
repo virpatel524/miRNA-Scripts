@@ -869,7 +869,11 @@ def heatmap_analysis(mirna2age, mirna2disease, mirna2family, gene2age):
 	round_robyn_target = pd.read_csv('/Users/virpatel/Desktop/pub_stuff/relevant_data/mir_target_vectordb.txt', sep='\t',index_col=[0])
 
 
+	mirnas_in_family = []
 
+	for a in mirna2family:
+		if len(mirna2family[a]) < 4: continue
+		
 
 
 
