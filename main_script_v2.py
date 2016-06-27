@@ -876,11 +876,12 @@ def heatmap_analysis(mirna2age, mirna2disease, mirna2family, gene2age):
 		else: mirnas_in_family = mirnas_in_family + mirna2family[a]
 
 	mirnas_in_dis = mirna2disease.keys()
+	mirnas_notindis = [a for a in mirna2age.keys() if a not in mirna2disease]
 
 	mir_dis_target = []
 	mir_nondis_target = []
 
-	
+
 
 
 
