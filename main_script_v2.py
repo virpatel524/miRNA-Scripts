@@ -904,7 +904,7 @@ def main():
 	age2clade, clade2age = time_tree_parse(timetreedb)
 	# get_mirna_disease_age_relationship(mirna2age, mirna2disease)
 
-	mirna2family = human_mirlst[:]
+	mirna2family = human_mirlst.copy()
 
 
 	mirna2tar, tar2age = parse_target_data(tardb,taragedb,timetreedb)
