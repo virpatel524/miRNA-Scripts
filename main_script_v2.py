@@ -18,8 +18,7 @@ from distance import hamming
 from numpy import mean, std, median
 import pandas as pd
 
-
-#test comment
+# no tet comment
 
 sns.axes_style('whitegrid')
 sns.set_style("whitegrid")
