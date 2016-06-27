@@ -873,8 +873,10 @@ def heatmap_analysis(mirna2age, mirna2disease, mirna2family, gene2age):
 
 	for a in mirna2family:
 		if len(mirna2family[a]) < 4: continue
-		elese: mirnas_in_family = mirnas_in_family + mirna2family[a]
-	
+		else: mirnas_in_family = mirnas_in_family + mirna2family[a]
+
+
+
 
 
 
