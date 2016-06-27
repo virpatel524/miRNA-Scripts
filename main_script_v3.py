@@ -587,7 +587,6 @@ def target_gene_dataframe(mirna2age, mirna2disease,mirna2target, target2age):
 
 
 
-	return
 
 
 
@@ -645,23 +644,23 @@ def generate_matrix(db, str_rel):
 
 
 
-# def target_gene_expression_analysis(mirna2age, mirna2disease,mirna2family,gene2age):
-# 		mir_targetdb = pd.read_csv('/Users/virpatel/Desktop/pub_stuff/relevant_data/mir_target_vectordb.txt', sep='\t',index_col=[0], encoding='utf-8')
-# 		mir_expdb = pd.read_csv('/Users/virpatel/Desktop/pub_stuff/relevant_data/exp_data_alldmir.txt', sep='\t',index_col=[0])
+def target_gene_expression_analysis(mirna2age, mirna2disease,mirna2family,gene2age):
+		mir_targetdb = pd.read_csv('/Users/virpatel/Desktop/pub_stuff/relevant_data/mir_target_vectordb.txt', sep='\t',index_col=[0], encoding='utf-8')
+		mir_expdb = pd.read_csv('/Users/virpatel/Desktop/pub_stuff/relevant_data/exp_data_alldmir.txt', sep='\t',index_col=[0])
 
-# 		family_target_hamming = []
-# 		family_target_avg_age = []
-# 		family_perc_dis = []
-
-
-# 		tardis = []
-# 		tarnotindis = []
+		family_target_hamming = []
+		family_target_avg_age = []
+		family_perc_dis = []
 
 
+		tardis = []
+		tarnotindis = []
 
 
-# 		# generate_matrix(mir_targetdb,'target_heatmap')
-# 		# generate_matrix(mir_expdb,'tis_exp_heatmap')
+
+
+		# generate_matrix(mir_targetdb,'target_heatmap')
+		# generate_matrix(mir_expdb,'tis_exp_heatmap')
 
 
 
