@@ -904,6 +904,8 @@ def main():
 	age2clade, clade2age = time_tree_parse(timetreedb)
 	# get_mirna_disease_age_relationship(mirna2age, mirna2disease)
 
+	mirna2family = human_mirlst[:]
+
 
 	mirna2tar, tar2age = parse_target_data(tardb,taragedb,timetreedb)
 
@@ -919,10 +921,10 @@ def main():
 
 	# master_tarlst = target_gene_dataframe(mirna2age, mirna2disease, mirna2tar, tar2age)
 
-	target_gene_expression_analysis(mirna2age, mirna2disease,human_mirlst, tar2age)
+	# target_gene_expression_analysis(mirna2age, mirna2disease,human_mirlst, tar2age)
 
 
-	mirna2disease_collapsed =  collapse_cancer_lst(mirna2disease)
+	# mirna2disease_collapsed =  collapse_cancer_lst(mirna2disease)
 
 	# family_homogenity_collapsed(human_mirlst, mirna2disease_collapsed, mirna2age)
 
@@ -931,7 +933,7 @@ def main():
 	# main_fraction_under_figure(mirna2tar, mirna2age, tar2age)
 
 
-	heatmap_analysis(mirna2age, mirna2disease, mirna2family, gene2age)
+	heatmap_analysis(mirna2age, mirna2disease, human_mirlst, gene2age)
 
 
 main()
