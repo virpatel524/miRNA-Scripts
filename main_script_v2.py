@@ -2,7 +2,8 @@ import string
 import re
 import scipy
 import time
-import math, csv
+import math
+import csv
 import random
 import operator, itertools
 from distance import hamming
