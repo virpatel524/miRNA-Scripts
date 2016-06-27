@@ -933,7 +933,7 @@ def main():
 	# main_fraction_under_figure(mirna2tar, mirna2age, tar2age)
 
 
-	heatmap_analysis(mirna2age, mirna2disease, human_mirlst, gene2age)
+	heatmap_analysis(mirna2age, mirna2disease, human_mirlst, tar2age)
 
 
 main()
