@@ -659,8 +659,10 @@ def target_gene_expression_analysis(mirna2age, mirna2disease,mirna2family,gene2a
 
 
 
-		# generate_matrix(mir_targetdb,'target_heatmap')
-		# generate_matrix(mir_expdb,'tis_exp_heatmap')
+		generate_matrix(mir_targetdb,'target_heatmap')
+		generate_matrix(mir_expdb,'tis_exp_heatmap')
+
+		return
 
 
 
@@ -1074,9 +1076,9 @@ def main():
 	# family_homogenity(human_mirlst, mirna2disease, mirna2age
 
 
-	master_tarlst = target_gene_dataframe(mirna2age, mirna2disease, mirna2tar, tar2age)
+	# master_tarlst = target_gene_dataframe(mirna2age, mirna2disease, mirna2tar, tar2age)
 
-	# target_gene_expression_analysis(mirna2age, mirna2disease,human_mirlst, tar2age)
+	target_gene_expression_analysis(mirna2age, mirna2disease,human_mirlst, tar2age)
 
 
 	# mirna2disease_collapsed =  collapse_cancer_lst(mirna2disease)
