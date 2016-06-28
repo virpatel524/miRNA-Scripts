@@ -985,8 +985,8 @@ def heatmap_analysis(mirna2age, mirna2disease, mirna2family, gene2age):
 	mir_nondis_target = []
 
 	for alpha in round_robyn_target.index:
-		print round_robyn_target.loc[alpha].tolist()
-
+		for beta in round_robyn_target.index:
+			print alpha, beta
 
 
 
