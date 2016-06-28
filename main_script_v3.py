@@ -1002,19 +1002,18 @@ def heatmap_analysis(mirna2age, mirna2disease, mirna2family, gene2age):
 			if alpha == beta: continue
 			if alpha in mirna2disease and beta in mirna2disease:
 				mir_dis_target.append(float(round_robyn_target[alpha][beta]))
-				dis_nondis_target_val.append(float(round_robyn_target[alpha][beta]))
-				dis_nondis_target_bool.append(True)
+				dis_nondis_target_val.append([float(round_robyn_target[alpha][beta]), True])
+				
 			else:
 				mir_nondis_target.append(float(round_robyn_target[alpha][beta]))
-				dis_nondis_target_val.append(float(round_robyn_target[alpha][beta]))
-				dis_nondis_target_bool.append(False)
+				dis_nondis_target_val.append([float(round_robyn_target[alpha][beta]), False])
 
 
 
 	print dis_nondis_target_bool
 
 
-	dis_nondis_target_master = pd.DataFrame([dis_nondis_target_val, dis_nondis_target_bool],columns=['hamming','bool'])
+	dis_nondis_target_master = pd.DataFrame(dis_nondis_target_master,columns=['hamming','bool'])
 
 
 
