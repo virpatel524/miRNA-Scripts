@@ -1045,6 +1045,7 @@ def heatmap_analysis(mirna2age, mirna2disease, mirna2family, gene2age):
 
 	sns.violinplot(x='miRNA Class',y='Number of Associated Targets',data=dis_nondis_target_master, cut=0)
 
+	plt.savefig('figures/mir_dis_num_tar_violin.pdf',bbox_inches='tight')
 
 
 
