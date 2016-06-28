@@ -1013,7 +1013,7 @@ def heatmap_analysis(mirna2age, mirna2disease, mirna2family, gene2age):
 
 	dis_nondis_target_master = pd.DataFrame(dis_nondis_target_val,columns=['hamming','bool'])
 
-
+	print dis_nondis_target_master
 
 
 	sns.violinplot(x='hamming',y='bool',data=dis_nondis_target_master)
