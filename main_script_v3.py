@@ -961,10 +961,34 @@ def main_fraction_under_figure(mirna2tar, mirna2age, target2age):
 
 
 
+def heatmap_analysis(mirna2age, mirna2disease, mirna2family, gene2age):
+	round_robyn_target = pd.read_csv('/Users/virpatel/Desktop/pub_stuff/relevant_data/mir_target_vectordb.txt', sep='\t',index_col=[0])
+	round_robyn_exp = pd.read_csv('/Users/virpatel/Desktop/pub_stuff/relevant_data/mir_target_vectordb.txt', sep='\t',index_col=[0])
 
 
+	mirnas_in_family = []
+	mirnas_notin_family = []
+
+	for a in mirna2family:
+		if len(mirna2family[a]) < 4: continue
+		else: mirnas_in_family = mirnas_in_family + mirna2family[a]
+
+	for a in mirna2age:
+		if a not in mirnas_in_family:
+			mirnas_notin_family.append(a)
 
 
+	mirnas_in_dis = mirna2disease.keys()
+	mirnas_notindis = [a for a in mirna2age.keys() if a not in mirna2disease]
+
+	mir_dis_target = []
+	mir_nondis_target = []
+
+	for alpha in round_robyn_target.index:
+		print round_robyn_target.loc[alpha].tolist()
+
+
+	
 
 
 
