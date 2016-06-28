@@ -962,8 +962,8 @@ def main_fraction_under_figure(mirna2tar, mirna2age, target2age):
 
 
 def heatmap_analysis(mirna2age, mirna2disease, mirna2family, gene2age):
-	round_robyn_target = pd.read_csv('/Users/virpatel/Desktop/pub_stuff/relevant_data/mir_target_vectordb.txt', sep='\t',index_col=[0])
-	round_robyn_exp = pd.read_csv('/Users/virpatel/Desktop/pub_stuff/relevant_data/mir_target_vectordb.txt', sep='\t',index_col=[0])
+	round_robyn_target = pd.read_csv('/Users/virpatel/Desktop/pub_stuff/relevant_data/target_heatmap_dataframe.txt', sep='\t',index_col=[0])
+	round_robyn_exp = pd.read_csv('/Users/virpatel/Desktop/pub_stuff/relevant_data/tis_exp_heatmap_dataframe.txt', sep='\t',index_col=[0])
 
 
 	mirnas_in_family = []
@@ -988,7 +988,7 @@ def heatmap_analysis(mirna2age, mirna2disease, mirna2family, gene2age):
 		print round_robyn_target.loc[alpha].tolist()
 
 
-	
+
 
 
 
