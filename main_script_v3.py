@@ -993,7 +993,7 @@ def heatmap_analysis(mirna2age, mirna2disease, mirna2family, gene2age):
 				mir_nondis_target.append(float(round_robyn_target[alpha][beta]))
 
 
-	sns.violinplot(mir_dis_target)
+	sns.violinplot(mir_dis_target, mirnas_notindis)
 
 
 	sns.plt.show()
