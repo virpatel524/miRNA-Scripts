@@ -1,0 +1,42 @@
+DATASET_COLORSTRIP
+#lines starting with a hash are comments and ignored during parsing
+#select the separator which is used to delimit the data below (TAB,SPACE or COMMA).This separator must be used throught this file (except in the SEPARATOR line, which uses space).
+
+#SEPARATOR TAB
+SEPARATOR SPACE
+#SEPARATOR COMMA
+
+#label is used in the legend table (can be changed later)
+DATASET_LABEL color_strip1
+
+#dataset color (can be changed later)
+
+#optional settings
+
+#all other optional settings can be set or changed later in the web interface (under 'Datasets' tab)
+COLOR_BRANCHES 1
+#maximum width
+STRIP_WIDTH 25
+
+#left margin, used to increase/decrease the spacing to the next dataset. Can be negative, causing datasets to overlap.
+MARGIN 0
+
+#border width; if set above 0, a black border of specified width (in pixels) will be drawn around the color strip 
+BORDER_WIDTH 1
+BORDER_COLOR #000
+
+#show internal values; if set, values associated to internal nodes will be displayed even if these nodes are not collapsed. It could cause overlapping in the dataset display.
+SHOW_INTERNAL 1
+
+DATA
+Homininae #caf390 COL#caf390
+Hominidae #caf390 COL#caf390
+Catarrhini #caf390 COL#caf390
+Euarchontoglires #caf390 COL#caf390
+Boreoeutheria #caf390 COL#caf390
+Theria #caf390 COL#caf390
+Mammalia #caf390 COL#caf390
+Amniota #caf390 COL#caf390
+Euteleostomi #caf390 COL#caf390
+Eukaryota #caf390 COL#caf390
+
