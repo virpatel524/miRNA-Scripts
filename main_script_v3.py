@@ -1002,21 +1002,21 @@ def heatmap_analysis(mirna2age, mirna2disease, mirna2family, gene2age):
 			if alpha == beta: continue
 			if alpha in mirna2disease and beta in mirna2disease:
 				mir_dis_target.append(float(round_robyn_target[alpha][beta]))
-				dis_nondis_target_val.append([float(round_robyn_target[alpha][beta]), True, 'dis'])
+				dis_nondis_target_val.append([float(round_robyn_target[alpha][beta]), 'dis'])
 				
 			else:
 				mir_nondis_target.append(float(round_robyn_target[alpha][beta]))
-				dis_nondis_target_val.append([float(round_robyn_target[alpha][beta]), False, 'dis'])
+				dis_nondis_target_val.append([float(round_robyn_target[alpha][beta]), 'nondis'])
 
 
 
 
-	dis_nondis_target_master = pd.DataFrame(dis_nondis_target_val,columns=['hamming','bool','dis'])
+	dis_nondis_target_master = pd.DataFrame(dis_nondis_target_val,columns=['hamming','bool'])
 
 
 
 
-	sns.violinplot(x='hamming',y='bool',data=dis_nondis_target_master,cut=0)
+	sns.violinplot(x='hamming',y='bool',data=dis_nondis_target_master)
 
 
 
