@@ -970,64 +970,80 @@ def generate_violin_pd(dictionary, pd_db):
 
 
 def heatmap_analysis(mirna2age, mirna2disease, mirna2family, gene2age):
-	round_robyn_target = pd.read_csv('/Users/virpatel/Desktop/pub_stuff/relevant_data/target_heatmap_dataframe.txt', sep='\t',index_col=[0])
-	round_robyn_exp = pd.read_csv('/Users/virpatel/Desktop/pub_stuff/relevant_data/tis_exp_heatmap_dataframe.txt', sep='\t',index_col=[0])
+	# round_robyn_target = pd.read_csv('/Users/virpatel/Desktop/pub_stuff/relevant_data/target_heatmap_dataframe.txt', sep='\t',index_col=[0])
+	# round_robyn_exp = pd.read_csv('/Users/virpatel/Desktop/pub_stuff/relevant_data/tis_exp_heatmap_dataframe.txt', sep='\t',index_col=[0])
 
 
-	mirnas_in_family = []
-	mirnas_notin_family = []
+	# mirnas_in_family = []
+	# mirnas_notin_family = []
 
-	for a in mirna2family:
-		if len(mirna2family[a]) < 4: continue
-		else: mirnas_in_family = mirnas_in_family + mirna2family[a]
+	# for a in mirna2family:
+	# 	if len(mirna2family[a]) < 4: continue
+	# 	else: mirnas_in_family = mirnas_in_family + mirna2family[a]
 
-	for a in mirna2age:
-		if a not in mirnas_in_family:
-			mirnas_notin_family.append(a)
+	# for a in mirna2age:
+	# 	if a not in mirnas_in_family:
+	# 		mirnas_notin_family.append(a)
 
 
-	mirnas_in_dis = mirna2disease.keys()
-	mirnas_notindis = [a for a in mirna2age.keys() if a not in mirna2disease]
+	# mirnas_in_dis = mirna2disease.keys()
+	# mirnas_notindis = [a for a in mirna2age.keys() if a not in mirna2disease]
 
-	dis_nondis_target_val = []
-	dis_nondis_target_bool = []
+	# dis_nondis_target_val = []
+	# dis_nondis_target_bool = []
 
-	dis_nondis_target_master = []
+	# dis_nondis_target_master = []
 
-	mir_dis_target = []
-	mir_nondis_target = []
+	# mir_dis_target = []
+	# mir_nondis_target = []
 
-	for alpha in round_robyn_target.index:
-		for beta in round_robyn_target.index:
-			if alpha == beta: continue
-			if alpha in mirna2disease and beta in mirna2disease:
-				mir_dis_target.append(float(round_robyn_target[alpha][beta]))
-				dis_nondis_target_val.append([float(round_robyn_target[alpha][beta]), 'Disease miRNAs'])
+	# for alpha in round_robyn_target.index:
+	# 	for beta in round_robyn_target.index:
+	# 		if alpha == beta: continue
+	# 		if alpha in mirna2disease and beta in mirna2disease:
+	# 			mir_dis_target.append(float(round_robyn_target[alpha][beta]))
+	# 			dis_nondis_target_val.append([float(round_robyn_target[alpha][beta]), 'Disease miRNAs'])
 				
-			else:
-				mir_nondis_target.append(float(round_robyn_target[alpha][beta]))
-				dis_nondis_target_val.append([float(round_robyn_target[alpha][beta]), 'Non-Disease miRNAs'])
+	# 		else:
+	# 			mir_nondis_target.append(float(round_robyn_target[alpha][beta]))
+	# 			dis_nondis_target_val.append([float(round_robyn_target[alpha][beta]), 'Non-Disease miRNAs'])
 
 
 
 
-	dis_nondis_target_master = pd.DataFrame(dis_nondis_target_val,columns=['Comparison Normalized Hamming Distance (0.0-1.0)','miRNA Class'])
+	# dis_nondis_target_master = pd.DataFrame(dis_nondis_target_val,columns=['Comparison Normalized Hamming Distance (0.0-1.0)','miRNA Class'])
 
-	print dis_nondis_target_master
-
-
-	sns.violinplot(x='miRNA Class',y='Comparison Normalized Hamming Distance (0.0-1.0)',data=dis_nondis_target_master, cut=0)
-	tot = float(round_robyn_target.values.max())
-
-	plt.gca().set_ylim([-0.005,.13])
+	# print dis_nondis_target_master
 
 
+	# sns.violinplot(x='miRNA Class',y='Comparison Normalized Hamming Distance (0.0-1.0)',data=dis_nondis_target_master, cut=0)
+	# tot = float(round_robyn_target.values.max())
+
+	# plt.gca().set_ylim([-0.005,.13])
 
 
-	plt.savefig('figures/mir_dis_tar_hamming.pdf',bbox_inches='tight')
 
-	plt.close()
 
+	# plt.savefig('figures/mir_dis_tar_hamming.pdf',bbox_inches='tight')
+
+	# plt.close()
+
+
+	mir_targetdb = pd.read_csv('/Users/virpatel/Desktop/pub_stuff/relevant_data/mir_target_vectordb.txt', sep='\t',index_col=[0], encoding='utf-8')
+
+	masterlst = []
+
+	for mir in mir_targetdb.index:
+		if mir in mirna2disease:
+			masterlst.append([sum(mir_targetdb.loc[mir].tolist()), 'Disease miRNAs'])
+		else: 
+			masterlst.append([sum(mir_targetdb.loc[mir].tolist()), 'Non-Disease miRNAs'])
+
+
+
+	dis_nondis_target_master = pd.DataFrame(masterlst,columns=['Number of Associated Targets', 'miRNA Class'])
+
+	sns.violinplot(x='miRNA Class',y='Number of Associated Targets',data=dis_nondis_target_master, cut=0)
 
 
 
