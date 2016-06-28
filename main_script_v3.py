@@ -1019,6 +1019,8 @@ def main():
 
 
 	mirna2tar, tar2age = parse_target_data(tardb,taragedb,timetreedb)
+	gene2age = tar2age.copy()
+	mirna2family = human_mirlst.copy()
 
 	# target_analysis(mirna2age, mirna2disease, mirna2tar, tar2age)
 
