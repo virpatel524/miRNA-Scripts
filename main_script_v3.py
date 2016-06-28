@@ -1010,8 +1010,6 @@ def heatmap_analysis(mirna2age, mirna2disease, mirna2family, gene2age):
 
 
 
-	print dis_nondis_target_bool
-
 
 	dis_nondis_target_master = pd.DataFrame([dis_nondis_target_val, dis_nondis_target_bool],columns=['hamming','bool'])
 
