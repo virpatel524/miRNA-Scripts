@@ -961,6 +961,13 @@ def main_fraction_under_figure(mirna2tar, mirna2age, target2age):
 
 
 
+def generate_violin_pd(dictionary, pd_db):
+
+
+
+
+
+
 def heatmap_analysis(mirna2age, mirna2disease, mirna2family, gene2age):
 	round_robyn_target = pd.read_csv('/Users/virpatel/Desktop/pub_stuff/relevant_data/target_heatmap_dataframe.txt', sep='\t',index_col=[0])
 	round_robyn_exp = pd.read_csv('/Users/virpatel/Desktop/pub_stuff/relevant_data/tis_exp_heatmap_dataframe.txt', sep='\t',index_col=[0])
@@ -1002,12 +1009,14 @@ def heatmap_analysis(mirna2age, mirna2disease, mirna2family, gene2age):
 				dis_nondis_target_bool.append(False)
 
 
+
+
 	dis_nondis_target_master = pd.DataFrame([dis_nondis_target_val, dis_nondis_target_bool],columns=['hamming','bool'])
 
 
 
 
-	sns.violinplot(x='hamming',hue="bool", split=True)
+	sns.violinplot(x='hamming',hue="bool",data=dis_nondis_target_master split=True)
 
 
 	sns.plt.show()
