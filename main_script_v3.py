@@ -1022,7 +1022,7 @@ def heatmap_analysis(mirna2age, mirna2disease, mirna2family, gene2age):
 
 
 
-	sns.plt.show()
+	plt.savefig('figures/mir_dis_tar_hamming.pdf',bbox_inches='tight')
 
 	plt.close()
 
