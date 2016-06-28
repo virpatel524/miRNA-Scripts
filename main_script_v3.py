@@ -1011,12 +1011,12 @@ def heatmap_analysis(mirna2age, mirna2disease, mirna2family, gene2age):
 
 
 
-	dis_nondis_target_master = pd.DataFrame(dis_nondis_target_val,columns=['hamming','Comparison Normalized Hamming Distance (0.0-1.0)'])
+	dis_nondis_target_master = pd.DataFrame(dis_nondis_target_val,columns=['Comparison Normalized Hamming Distance (0.0-1.0)','miRNA Class'])
 
 	print dis_nondis_target_master
 
 
-	sns.violinplot(x='bool',y='Comparison Normalized Hamming Distance (0.0-1.0)',data=dis_nondis_target_master)
+	sns.violinplot(x='miRNA Class',y='Comparison Normalized Hamming Distance (0.0-1.0)',data=dis_nondis_target_master)
 	plt.gca().set_xlim([-0.005,.10])
 
 
