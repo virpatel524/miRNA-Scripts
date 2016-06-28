@@ -1017,6 +1017,8 @@ def heatmap_analysis(mirna2age, mirna2disease, mirna2family, gene2age):
 
 
 	sns.violinplot(x='bool',y='hamming',data=dis_nondis_target_master)
+	plt.gca().set_xlim([-0.005,.10])
+
 
 
 
