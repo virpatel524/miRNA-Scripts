@@ -988,8 +988,14 @@ def heatmap_analysis(mirna2age, mirna2disease, mirna2family, gene2age):
 		for beta in round_robyn_target.index:
 			if alpha == beta: continue
 			if alpha in mirna2disease and beta in mirna2disease:
-				mir_dis_target.append(alpha)
+				mir_dis_target.append(float(round_robyn_target[alpha][beta]))
+			else:
+				mir_nondis_target.append(float(round_robyn_target[alpha]))
 
+
+	sns.violinplot([mir_dis_target, mir_nondis_target])
+
+	sns.plt.show()
 
 
 
