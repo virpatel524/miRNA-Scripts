@@ -997,6 +997,8 @@ def heatmap_analysis(mirna2age, mirna2disease, mirna2family, gene2age):
 
 	sns.plt.show()
 
+	plt.close()
+
 
 
 
