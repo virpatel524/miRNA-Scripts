@@ -4,6 +4,7 @@ import sys
 import csv
 
 def import_pcg():
+	return
 	
 
 def import_human_mirages():
