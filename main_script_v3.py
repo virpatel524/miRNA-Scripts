@@ -1058,7 +1058,7 @@ def violin_comp_rel(gen_exlus_dic, hamming_df, tipo, xentry, df_name):
 
 
 def heatmap_analysis(mirna2age, mirna2disease, mirna2family, gene2age):
-	
+	violin_nocomp(mirna2disease.keys(), binary_data_frame, tipo, xentry, df_name)
 
 
 
