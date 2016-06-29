@@ -3,7 +3,10 @@ import matplotlib.pyplot as plt
 import sys
 
 def import_pcg():
-	print sys.argv[1]
+	
+
+def import_human_mirages():
+
 
 
 import_pcg()
