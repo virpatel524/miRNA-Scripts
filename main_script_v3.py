@@ -996,6 +996,22 @@ def violin_nocomp(lst_for_exclusion, binary_data_frame, tipo,xentry,df_name):
 
 
 
+def violin_comp_norel(lst_for_exclusion, hamming_df, tipo,xentry,df_name):
+	yes = []
+	no = []
+
+	datalst = []
+
+
+	for alpha in hamming_df.index:
+		for beta in hamming_df.index:
+			if alpha == beta: continue
+			if alpha in lst_for_exclusion and beta in lst_for_exclusion:
+				datalst.append([float(hamming_df[alpha][beta]) '%s miRNAs' %(tipo)])
+				yes.append(float(hamming_df[alpha][beta])
+			else:
+				datalst.append([float(hamming_df[alpha][beta]) 'Non-%s miRNAs' %(tipo)])
+				no.append(float(hamming_df[alpha][beta])
 
 
 
