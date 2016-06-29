@@ -1067,9 +1067,12 @@ def heatmap_analysis(mirna2age, mirna2disease, mirna2family, gene2age):
 
 
 
-	
-	violin_nocomp(mirna2disease.keys(), binary_data_frame, tipo, xentry, df_name)
 
+	violin_nocomp(mirna2disease.keys(), mir_targetdb, 'Disease', 'Number of Gene Targets', 'dis_tarnum')
+	violin_nocomp(mirna2disease.keys(), mir_targetdb, 'Disease', 'Number of Tissues Expressed In ', 'dis_tisnum')
+
+	violin_nocomp(mirna2family_edited.keys(), mir_targetdb, 'Disease', 'Number of Gene Targets', 'dis_tarnum')
+	violin_nocomp(mirna2disease.keys(), mir_targetdb, 'Disease', 'Number of Tissues Expressed In ', 'dis_tisnum')
 
 
 
