@@ -13,7 +13,9 @@ def import_human_mirages():
 	with open(sys.argv[1],'r') as mir_ages_fle:
 		data = list(csv.reader(mir_ages_fle,delimiter='\t'))
 
-	print data
+	humanmirlst = [a for a in data if 'hsa' in a[0]]
+
+	print humanmirlst
 
 
 
