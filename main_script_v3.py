@@ -978,6 +978,7 @@ def violin_nocomp(lst_for_exclusion, binary_data_frame, tipo,xentry,df_name):
 	no = []
 
 	for alpha in binary_data_frame.index:
+		print alpha
 		if alpha in lst_for_exclusion:
 			datalst.append([sum(binary_data_frame.loc[alpha].tolist()),'%s miRNAs' %(tipo)])
 			yes.append(sum(binary_data_frame.loc[alpha].tolist()))
