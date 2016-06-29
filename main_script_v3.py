@@ -1086,7 +1086,8 @@ def heatmap_analysis(mirna2age, mirna2disease, mirna2family, gene2age):
 	violin_comp_norel(mirna2family_edited.keys(), round_robyn_target, 'Family', 'Hamming Target Comparisons', 'fam_tarham')
 	violin_comp_norel(mirna2family_edited.keys(), round_robyn_exp, 'Family', 'Hamming Expression Comparisons', 'fam_tisham')
 
-	violin_comp_rel(mirna2family_edited, hamming_df, tipo, xentry, df_name)
+	violin_comp_rel(mirna2family_edited, round_robyn_target, 'Family', 'Hamming Target Comparisons', 'fam_tarham')
+	violin_comp_rel(mirna2family_edited, round_robyn_exp, 'Family', 'Hamming Expression Comparisons', 'fam_tisham')
 
 
 
