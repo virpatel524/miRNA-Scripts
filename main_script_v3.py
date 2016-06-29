@@ -1064,12 +1064,18 @@ def heatmap_analysis(mirna2age, mirna2disease, mirna2family, gene2age):
 	mir_expdb = pd.read_csv('/Users/virpatel/Desktop/pub_stuff/relevant_data/exp_data_alldmir.txt', sep='\t',index_col=[0])
 	mir_targetdb = pd.read_csv('/Users/virpatel/Desktop/pub_stuff/relevant_data/mir_target_vectordb.txt', sep='\t',index_col=[0], encoding='utf-8')
 
+	mirna2family_edited = {}
+
+	for alpha in mirna2family:
+		if len(mirna2family[alpha]) > 3:
+			mirna2family_edited[alpha] = mirna2family[alpha]
+
 
 
 
 
 	violin_nocomp(mirna2disease.keys(), mir_targetdb, 'Disease', 'Number of Gene Targets', 'dis_tarnum')
-	violin_nocomp(mirna2disease.keys(), mir_targetdb, 'Disease', 'Number of Tissues Expressed In ', 'dis_tisnum')
+	violin_nocomp(mirna2disease.keys(), mir_expdb, 'Disease', 'Number of Tissues Expressed In ', 'dis_tisnum')
 
 	violin_nocomp(mirna2family_edited.keys(), mir_targetdb, 'Disease', 'Number of Gene Targets', 'dis_tarnum')
 	violin_nocomp(mirna2disease.keys(), mir_targetdb, 'Disease', 'Number of Tissues Expressed In ', 'dis_tisnum')
