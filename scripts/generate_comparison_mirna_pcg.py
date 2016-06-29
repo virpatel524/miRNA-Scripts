@@ -4,3 +4,6 @@ import sys
 
 def import_pcg():
 	print sys.argv[1]
+
+
+import_pcg()
