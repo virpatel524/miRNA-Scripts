@@ -961,7 +961,7 @@ def main_fraction_under_figure(mirna2tar, mirna2age, target2age):
 
 
 
-def violin_nocomp(dict_for_exclusion, binary_data_frame, tipo,xentry,df_name):
+def violin_nocomp(lst_for_exclusion, binary_data_frame, tipo,xentry,df_name):
 	yes = []
 	datalst = []
 	no = []
