@@ -1,0 +1,42 @@
+Number, Disease, Targets
+263.528436019 155.931937173
+175.0 112.0
+MannwhitneyuResult(statistic=207903.5, pvalue=1.7153916233118702e-16)
+/Users/virpatel/anaconda/lib/python2.7/site-packages/matplotlib/collections.py:590: FutureWarning: elementwise comparison failed; returning scalar instead, but in the future will perform elementwise comparison
+  if self._edgecolors == str('face'):
+Number, Disease, Expression
+14.5976190476 10.0782543266
+17.5 11.0
+MannwhitneyuResult(statistic=144258.5, pvalue=5.0101488311708785e-51)
+Number, Family, Targets
+334.41958042 168.235148515
+254.0 117.0
+MannwhitneyuResult(statistic=66772.0, pvalue=2.7028153163689777e-17)
+Number, Family, Expression
+16.4195804196 10.695516812
+18.0 12.0
+MannwhitneyuResult(statistic=50077.5, pvalue=1.7226645311101011e-29)
+Hamming, Disease, Targets
+0.0338880921412 0.0230390491153
+0.027878543598 0.01867526535
+MannwhitneyuResult(statistic=180369792456.0, pvalue=0.0)
+Hamming, Disease, Expression
+0.324404477782 0.419262499341
+0.2 0.4
+MannwhitneyuResult(statistic=187411388854.0, pvalue=0.0)
+Hamming, Family, Targets
+0.0413784507488 0.023545251815
+0.0376192395539 0.018943974204
+MannwhitneyuResult(statistic=15504125074.0, pvalue=0.0)
+Hamming, Family, Expression
+0.19700581109 0.415251901087
+0.15 0.4
+MannwhitneyuResult(statistic=14405238532.0, pvalue=0.0)
+Hamming Related, Family, Targets
+0.0307979568113 0.0236586380129
+0.0275426575306 0.0190111514174
+MannwhitneyuResult(statistic=1785985000.0, pvalue=7.0084675369709148e-86)
+Hamming Related, Family, Expression
+0.129316770186 0.413952223461
+0.1 0.4
+MannwhitneyuResult(statistic=703754566.0, pvalue=0.0)
