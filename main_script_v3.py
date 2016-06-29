@@ -1045,7 +1045,6 @@ def heatmap_analysis(mirna2age, mirna2disease, mirna2family, gene2age):
 			totnumnondis.append(sum(mir_targetdb.loc[mir].tolist()))
 
 
-	print median(totnumdis), median(totnumnondis)
 	print mean(totnumdis), mean(totnumnondis)
 
 
