@@ -14,8 +14,9 @@ def import_human_mirages():
 		data = list(csv.reader(mir_ages_fle,delimiter='\t'))
 
 	humanmirlst = [a for a in data if 'hsa' in a[0]]
-
 	human_ages = [float(a[-1]) for a in humanmirlst]
+
+	print human_ages
 
 
 
