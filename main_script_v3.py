@@ -1069,29 +1069,29 @@ def heatmap_analysis(mirna2age, mirna2disease, mirna2family, gene2age):
 	# mir_expdb = pd.read_csv('/Users/virpatel/Desktop/pub_stuff/relevant_data/exp_data_alldmir.txt', sep='\t',index_col=[0])
 
 
-	masterlst = []
-	totnumfam = []
-	totnumfam = []
+	# masterlst = []
+	# totnumfam = []
+	# totnumfam = []
 
-	for mir in mir_expdb.index:
-		if mir in mirna2disease:
-			masterlst.append([sum(mir_expdb.loc[mir].tolist()), 'Disease miRNAs'])
-			totnumdis.append(sum(mir_expdb.loc[mir].tolist()))
-		else: 
-			masterlst.append([sum(mir_expdb.loc[mir].tolist()), 'Non-Disease miRNAs'])
-			totnumnondis.append(sum(mir_expdb.loc[mir].tolist()))
-
-
-	print mean(totnumdis), mean(totnumnondis)
-	print median(totnumdis), median(totnumnondis)
+	# for mir in mir_expdb.index:
+	# 	if mir in mirna2disease:
+	# 		masterlst.append([sum(mir_expdb.loc[mir].tolist()), 'Disease miRNAs'])
+	# 		totnumdis.append(sum(mir_expdb.loc[mir].tolist()))
+	# 	else: 
+	# 		masterlst.append([sum(mir_expdb.loc[mir].tolist()), 'Non-Disease miRNAs'])
+	# 		totnumnondis.append(sum(mir_expdb.loc[mir].tolist()))
 
 
-	dis_nondis_target_master = pd.DataFrame(masterlst,columns=['Number of Expressed Tissues', 'miRNA Class'])
+	# print mean(totnumdis), mean(totnumnondis)
+	# print median(totnumdis), median(totnumnondis)
 
-	sns.violinplot(x='miRNA Class',y='Number of Expressed Tissues',data=dis_nondis_target_master, cut=0)
-	plt.gca().set_ylim([0, 20])
 
-	plt.savefig('figures/mir_dis_num_tis_violin.pdf',bbox_inches='tight')
+	# dis_nondis_target_master = pd.DataFrame(masterlst,columns=['Number of Expressed Tissues', 'miRNA Class'])
+
+	# sns.violinplot(x='miRNA Class',y='Number of Expressed Tissues',data=dis_nondis_target_master, cut=0)
+	# plt.gca().set_ylim([0, 20])
+
+	# plt.savefig('figures/mir_dis_num_tis_violin.pdf',bbox_inches='tight')
 
 
 
@@ -1107,8 +1107,8 @@ def heatmap_analysis(mirna2age, mirna2disease, mirna2family, gene2age):
 			mirnas_notin_family.append(a)
 
 
-	mirnas_in_dis = mirna2disease.keys()
-	mirnas_notindis = [a for a in mirna2age.keys() if a not in mirna2disease]
+	mirnas_in_fam = mirna2family_edited.keys()
+	mirnas_notinfam = [a for a in mirna2age.keys() if a not in mirna2disease]
 
 	dis_nondis_target_val = []
 	dis_nondis_target_bool = []
