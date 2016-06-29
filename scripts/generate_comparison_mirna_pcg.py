@@ -15,7 +15,8 @@ def import_human_mirages():
 
 	humanmirlst = [a for a in data if 'hsa' in a[0]]
 
-	print humanmirlst
+	human_ages = [float(a[-1]) for a in humanmirlst]
+
 
 
 
