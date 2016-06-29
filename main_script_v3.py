@@ -961,8 +961,21 @@ def main_fraction_under_figure(mirna2tar, mirna2age, target2age):
 
 
 
-def generate_violin_pd(dictionary, pd_db):
-	return
+def violin_nocomp(dict_for_exclusion, binary_data_frame, tipo):
+	yes = []
+	datalst = []
+	no = []
+
+	for alpha in binary_data_frame.index:
+		if alpha in dict_for_exclusion:
+			datalst.append([sum(binary_data_frame.loc[alpha].tolist()),'%s' %(tipo)])
+			yes.append(sum(binary_data_frame.loc[alpha].tolist()))
+		else:
+			datalst.append([sum(binary_data_frame.loc[alpha].tolist()),'Non-%s' %(tipo)])
+			yes.append(sum(binary_data_frame.loc[alpha].tolist()))
+
+
+
 
 
 
