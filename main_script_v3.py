@@ -1014,6 +1014,9 @@ def violin_comp_norel(lst_for_exclusion, hamming_df, tipo,xentry,df_name):
 				no.append(float(hamming_df[alpha][beta])
 
 
+	print mean(yes), mean(no)
+	print median(yes), median(no)
+
 
 
 
