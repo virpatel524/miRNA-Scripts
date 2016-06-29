@@ -1121,7 +1121,7 @@ def heatmap_analysis(mirna2age, mirna2disease, mirna2family, gene2age):
 	for alpha in round_robyn_target.index:
 		for beta in round_robyn_target.index:
 			if alpha == beta: continue
-			if alpha in mirna2family_edited and beta in mirna2disease:
+			if alpha in mirna2family_edited and beta in mirna2family_edited:
 				mir_dis_target.append(float(round_robyn_target[alpha][beta]))
 				dis_nondis_target_val.append([float(round_robyn_target[alpha][beta]), 'Disease miRNAs'])
 				
