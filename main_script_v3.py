@@ -994,6 +994,8 @@ def violin_nocomp(lst_for_exclusion, binary_data_frame, tipo,xentry,df_name):
 	sns.violinplot(x='miRNA Class',y=xentry,data=data_master, cut=0)
 	if 'tis' in df_name:
 		plt.gca().set_ylim([0,20])
+	if 'tar' in df_name:
+		plt.gca().set_ylim([0,3000])
 	plt.savefig('figures/nocomp_violin_%s.pdf' %(df_name),bbox_inches='tight')
 	plt.close()
 
