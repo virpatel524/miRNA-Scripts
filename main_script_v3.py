@@ -1126,8 +1126,8 @@ def heatmap_analysis(mirna2age, mirna2disease, mirna2family, gene2age):
 				fam_nonfam_target_val.append([float(round_robyn_target[alpha][beta]), 'Family miRNAs'])
 				
 			else:
-				mir_nondis_target.append(float(round_robyn_target[alpha][beta]))
-				dis_nondis_target_val.append([float(round_robyn_target[alpha][beta]), 'Non-Disease miRNAs'])
+				mir_nonfam_target.append(float(round_robyn_target[alpha][beta]))
+				fam_nonfam_target_val.append([float(round_robyn_target[alpha][beta]), 'Non-Disease miRNAs'])
 
 
 
