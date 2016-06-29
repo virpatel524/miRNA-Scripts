@@ -1127,12 +1127,12 @@ def heatmap_analysis(mirna2age, mirna2disease, mirna2family, gene2age):
 				
 			else:
 				mir_nonfam_target.append(float(round_robyn_target[alpha][beta]))
-				fam_nonfam_target_val.append([float(round_robyn_target[alpha][beta]), 'Non-Disease miRNAs'])
+				fam_nonfam_target_val.append([float(round_robyn_target[alpha][beta]), 'Non-Family miRNAs'])
 
 
 
 
-	dis_nondis_target_master = pd.DataFrame(dis_nondis_target_val,columns=['Comparison Normalized Hamming Distance (0.0-1.0)','miRNA Class'])
+	fam_nonfam_target_master = pd.DataFrame(dis_nondis_target_val,columns=['Comparison Normalized Hamming Distance (0.0-1.0)','miRNA Class'])
 
 	print dis_nondis_target_master
 
