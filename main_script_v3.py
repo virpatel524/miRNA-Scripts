@@ -1058,6 +1058,16 @@ def violin_comp_rel(gen_exlus_dic, hamming_df, tipo, xentry, df_name):
 
 
 def heatmap_analysis(mirna2age, mirna2disease, mirna2family, gene2age):
+
+	round_robyn_target = pd.read_csv('/Users/virpatel/Desktop/pub_stuff/relevant_data/target_heatmap_dataframe.txt', sep='\t',index_col=[0])
+	round_robyn_exp = pd.read_csv('/Users/virpatel/Desktop/pub_stuff/relevant_data/tis_exp_heatmap_dataframe.txt', sep='\t',index_col=[0])
+	mir_expdb = pd.read_csv('/Users/virpatel/Desktop/pub_stuff/relevant_data/exp_data_alldmir.txt', sep='\t',index_col=[0])
+	mir_targetdb = pd.read_csv('/Users/virpatel/Desktop/pub_stuff/relevant_data/mir_target_vectordb.txt', sep='\t',index_col=[0], encoding='utf-8')
+
+
+
+
+	
 	violin_nocomp(mirna2disease.keys(), binary_data_frame, tipo, xentry, df_name)
 
 
