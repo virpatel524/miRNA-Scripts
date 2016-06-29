@@ -981,7 +981,7 @@ def violin_nocomp(dict_for_exclusion, binary_data_frame, tipo,xentry):
 
 	data_master = pd.DataFrame(masterlst,columns=[xentry, 'miRNA Class'])
 
-	sns.violinplot(x='miRNA Class',y=xentry,data=dis_nondis_target_master, cut=0)
+	sns.violinplot(x='miRNA Class',y=xentry,data=data_master, cut=0)
 	plt.gca().set_ylim([0, 20])
 
 	plt.savefig('figures/mir_dis_num_tis_violin.pdf',bbox_inches='tight')	
