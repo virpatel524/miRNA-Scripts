@@ -1024,15 +1024,19 @@ def violin_comp_norel(lst_for_exclusion, hamming_df, tipo,xentry,df_name):
 
 
 	data_master = pd.DataFrame(datalst,columns=[xentry, 'miRNA Class'])
-	sns.violinplot(x='miRNA Class',y=xentry,data=data_master, cut=0)
 
 	if 'tis' in df_name:
+		sns.boxplot(x='miRNA Class',y=xentry,data=data_master, cut=0)
+		plt.savefig('figures/comp_norel_boxplot_%s.pdf' %(df_name),bbox_inches='tight')
 		plt.gca().set_ylim([0,1.0])
-	if 'tar' in df_name:
-		plt.gca().set_ylim([0,0.3])
+		plt.close()
 
-	plt.savefig('figures/comp_norel_violin_%s.pdf' %(df_name),bbox_inches='tight')
-	plt.close()	
+	if 'tar' in df_name:
+		sns.violinplot(x='miRNA Class',y=xentry,data=data_master, cut=0)
+		plt.savefig('figures/comp_norel_violin_%s.pdf' %(df_name),bbox_inches='tight')
+		plt.gca().set_ylim([0,0.3])
+		plt.close()
+
 
 
 def violin_comp_rel(gen_exlus_dic, hamming_df, tipo, xentry, df_name):
@@ -1066,16 +1070,18 @@ def violin_comp_rel(gen_exlus_dic, hamming_df, tipo, xentry, df_name):
 	print median(yes), median(no)
 
 	data_master = pd.DataFrame(datalst,columns=[xentry, 'miRNA Class'])
-	sns.violinplot(x='miRNA Class',y=xentry,data=data_master, cut=0)
 
 	if 'tis' in df_name:
+		sns.boxplot(x='miRNA Class',y=xentry,data=data_master, cut=0)
+		plt.savefig('figures/comp_rel_boxplot_%s.pdf' %(df_name),bbox_inches='tight')
 		plt.gca().set_ylim([0,1.0])
+		plt.close()
+
 	if 'tar' in df_name:
+		sns.violinplot(x='miRNA Class',y=xentry,data=data_master, cut=0)
+		plt.savefig('figures/comp_rel_violin_%s.pdf' %(df_name),bbox_inches='tight')
 		plt.gca().set_ylim([0,0.3])
-
-	plt.savefig('figures/comp_rel_violin_%s.pdf' %(df_name),bbox_inches='tight')
-	plt.close()		
-
+		plt.close()
 
 
 
