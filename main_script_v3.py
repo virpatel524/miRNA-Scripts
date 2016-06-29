@@ -1007,10 +1007,10 @@ def violin_comp_norel(lst_for_exclusion, hamming_df, tipo,xentry,df_name):
 		for beta in hamming_df.index:
 			if alpha == beta: continue
 			if alpha in lst_for_exclusion and beta in lst_for_exclusion:
-				datalst.append([float(hamming_df[alpha][beta]) '%s miRNAs' %(tipo)])
+				datalst.append([float(hamming_df[alpha][beta]), '%s miRNAs' %(tipo)])
 				yes.append(float(hamming_df[alpha][beta]))
 			else:
-				datalst.append([float(hamming_df[alpha][beta]) 'Non-%s miRNAs' %(tipo)])
+				datalst.append([float(hamming_df[alpha][beta]), 'Non-%s miRNAs' %(tipo)])
 				no.append(float(hamming_df[alpha][beta]))
 
 
@@ -1037,10 +1037,10 @@ def violin_comp_rel(gen_exlus_dic, hamming_df, tipo, xentry, df_name):
 		for beta in hamming_df.index:
 			if alpha == beta: continue
 			if beta in flipped_exlus[alpha]:
-				datalst.append([float(hamming_df[alpha][beta]) '%s miRNAs' %(tipo)])
+				datalst.append([float(hamming_df[alpha][beta]), '%s miRNAs' %(tipo)])
 				yes.append(float(hamming_df[alpha][beta]))
 			else:
-				datalst.append([float(hamming_df[alpha][beta]) 'Non-%s miRNAs' %(tipo)])
+				datalst.append([float(hamming_df[alpha][beta]), 'Non-%s miRNAs' %(tipo)])
 				no.append(float(hamming_df[alpha][beta]))
 
 
@@ -1072,12 +1072,20 @@ def heatmap_analysis(mirna2age, mirna2disease, mirna2family, gene2age):
 
 
 
-
+	print 'Number, Disease, Targets'
 
 	violin_nocomp(mirna2disease.keys(), mir_targetdb, 'Disease', 'Number of Gene Targets', 'dis_tarnum')
+	
+	print 'Number, Disease, Expression'
+
 	violin_nocomp(mirna2disease.keys(), mir_expdb, 'Disease', 'Number of Tissues Expressed In ', 'dis_tisnum')
 
+	print 'Number, Family, Targets'
+
 	violin_nocomp(mirna2family_edited.keys(), mir_targetdb, 'Family', 'Number of Gene Targets', 'fam_tarnum')
+	
+	print 'Number, Family, Expression'
+
 	violin_nocomp(mirna2family_edited.keys(), mir_expdb, 'Family', 'Number of Tissues Expressed In', 'fam_tisnum')
 
 	violin_comp_norel(mirna2disease.keys(), round_robyn_target, 'Disease', 'Hamming Target Comparisons', 'dis_tarham')
