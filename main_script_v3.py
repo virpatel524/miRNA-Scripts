@@ -1110,8 +1110,8 @@ def heatmap_analysis(mirna2age, mirna2disease, mirna2family, gene2age):
 	mirnas_in_fam = mirna2family_edited.keys()
 	mirnas_notinfam = [a for a in mirna2age.keys() if a not in mirna2family_edited]
 
-	dis_nondis_target_val = []
-	dis_nondis_target_bool = []
+	fam_nonfam_target_val = []
+	fam_nonfam_target_bool = []
 
 	dis_nondis_target_master = []
 
