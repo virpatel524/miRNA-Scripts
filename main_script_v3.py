@@ -1048,12 +1048,17 @@ def violin_comp_rel(gen_exlus_dic, hamming_df, tipo, xentry, df_name):
 	for alpha in hamming_df.index:
 		for beta in hamming_df.index:
 			if alpha == beta: continue
-			if beta in flipped_exlus[alpha]:
-				datalst.append([float(hamming_df[alpha][beta]), '%s miRNAs' %(tipo)])
-				yes.append(float(hamming_df[alpha][beta]))
+			if alpha in flipped_exlus::
+				if beta in flipped_exlus[alpha]
+					datalst.append([float(hamming_df[alpha][beta]), '%s miRNAs' %(tipo)])
+					yes.append(float(hamming_df[alpha][beta]))
+				else:
+					datalst.append([float(hamming_df[alpha][beta]), 'Non-%s miRNAs' %(tipo)])
+					no.append(float(hamming_df[alpha][beta]))
 			else:
 				datalst.append([float(hamming_df[alpha][beta]), 'Non-%s miRNAs' %(tipo)])
 				no.append(float(hamming_df[alpha][beta]))
+
 
 
 
@@ -1067,7 +1072,7 @@ def violin_comp_rel(gen_exlus_dic, hamming_df, tipo, xentry, df_name):
 		plt.gca().set_ylim([0,1.0])
 	if 'tar' in df_name:
 		plt.gca().set_ylim([0,0.3])
-	
+
 	plt.savefig('figures/comp_rel_violin_%s.pdf' %(df_name),bbox_inches='tight')
 	plt.close()		
 
