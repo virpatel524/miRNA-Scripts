@@ -1053,7 +1053,7 @@ def violin_comp_rel(gen_exlus_dic, hamming_df, tipo, xentry, df_name):
 		for beta in hamming_df.index:
 			if alpha == beta: continue
 			if alpha in flipped_exlus:
-				if beta in flipped_exlus[alpha]
+				if beta in flipped_exlus[alpha]:
 					datalst.append([float(hamming_df[alpha][beta]), '%s miRNAs' %(tipo)])
 					yes.append(float(hamming_df[alpha][beta]))
 				else:
