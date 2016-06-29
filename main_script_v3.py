@@ -1084,11 +1084,11 @@ def heatmap_analysis(mirna2age, mirna2disease, mirna2family, gene2age):
 
 	print 'Number, Family, Targets'
 
-	violin_nocomp(mirna2family_edited.keys(), mir_targetdb, 'Family', 'Number of Gene Targets', 'fam_tarnum')
+	violin_nocomp(flatten(mirna2family_edited.values()), mir_targetdb, 'Family', 'Number of Gene Targets', 'fam_tarnum')
 	
 	print 'Number, Family, Expression'
 
-	violin_nocomp(mirna2family_edited.keys(), mir_expdb, 'Family', 'Number of Tissues Expressed In', 'fam_tisnum')
+	violin_nocomp(flatten(mirna2family_edited.values()), mir_expdb, 'Family', 'Number of Tissues Expressed In', 'fam_tisnum')
 
 	print 'Hamming, Disease, Targets'
 
@@ -1100,11 +1100,11 @@ def heatmap_analysis(mirna2age, mirna2disease, mirna2family, gene2age):
 
 	print 'Hamming, Family, Targets'
 
-	violin_comp_norel(mirna2family_edited.keys(), round_robyn_target, 'Family', 'Hamming Target Comparisons', 'fam_tarham')
+	violin_comp_norel(flatten(mirna2family_edited.values()), round_robyn_target, 'Family', 'Hamming Target Comparisons', 'fam_tarham')
 
 	print 'Hamming, Family, Expression'
 
-	violin_comp_norel(mirna2family_edited.keys(), round_robyn_exp, 'Family', 'Hamming Expression Comparisons', 'fam_tisham')
+	violin_comp_norel(flatten(mirna2family_edited.values()), round_robyn_exp, 'Family', 'Hamming Expression Comparisons', 'fam_tisham')
 
 	print 'Hamming Related, Family, Targets'
 
