@@ -1021,6 +1021,7 @@ def violin_comp_norel(lst_for_exclusion, hamming_df, tipo,xentry,df_name):
 
 	print mean(yes), mean(no)
 	print median(yes), median(no)
+	print mannwhitneyu(yes, no)
 
 
 	data_master = pd.DataFrame(datalst,columns=[xentry, 'miRNA Class'])
@@ -1068,6 +1069,7 @@ def violin_comp_rel(gen_exlus_dic, hamming_df, tipo, xentry, df_name):
 
 	print mean(yes), mean(no)
 	print median(yes), median(no)
+	print mannwhitneyu(yes, no)
 
 	data_master = pd.DataFrame(datalst,columns=[xentry, 'miRNA Class'])
 
