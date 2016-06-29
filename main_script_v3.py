@@ -988,6 +988,7 @@ def violin_nocomp(lst_for_exclusion, binary_data_frame, tipo,xentry,df_name):
 
 	print mean(yes), mean(no)
 	print median(yes), median(no)
+	print mannwhitneyu(yes, no)
 
 
 	data_master = pd.DataFrame(datalst,columns=[xentry, 'miRNA Class'])
