@@ -1033,7 +1033,18 @@ def violin_comp_rel(gen_exlus_dic, hamming_df, tipo, xentry, df_name):
 	flipped_exlus = map_relatives(gen_exlus_dic)
 
 
-	for alpha in hamming_df:
+	for alpha in hamming_df.index:
+		for beta in hamming_df.index:
+			if alpha == beta: continue
+			if beta in flipped_exlus[alpha]:
+				datalst.append([float(hamming_df[alpha][beta]) '%s miRNAs' %(tipo)])
+				yes.append(float(hamming_df[alpha][beta]))
+			else:
+				datalst.append([float(hamming_df[alpha][beta]) 'Non-%s miRNAs' %(tipo)])
+				no.append(float(hamming_df[alpha][beta]))			
+
+
+
 
 
 
