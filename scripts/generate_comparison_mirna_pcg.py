@@ -6,7 +6,7 @@ import csv
 def import_pcg():
 	data = []
 
-	with open(sys.arv[2], 'r') as pcg_ages_precursor_fle:
+	with open(sys.argv[2], 'r') as pcg_ages_precursor_fle:
 		data = list(csv.reader(pcg_ages_precursor_fle, delimiter='\t'))
 
 	precursor_data = [a[-1] for a in data if '#' in data[0]]
@@ -28,4 +28,5 @@ def import_human_mirages():
 
 
 
-import_human_mirages()
+# import_human_mirages()
+import_pcg()
