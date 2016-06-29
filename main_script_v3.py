@@ -990,7 +990,7 @@ def violin_nocomp(lst_for_exclusion, binary_data_frame, tipo,xentry,df_name):
 	print median(yes), median(no)
 
 
-	data_master = pd.DataFrame(masterlst,columns=[xentry, 'miRNA Class'])
+	data_master = pd.DataFrame(datalst,columns=[xentry, 'miRNA Class'])
 	sns.violinplot(x='miRNA Class',y=xentry,data=data_master, cut=0)
 	plt.savefig('figures/nocomp_violin_%s.pdf' %(df_name),bbox_inches='tight')	
 
@@ -1011,11 +1011,14 @@ def violin_comp_norel(lst_for_exclusion, hamming_df, tipo,xentry,df_name):
 				yes.append(float(hamming_df[alpha][beta])
 			else:
 				datalst.append([float(hamming_df[alpha][beta]) 'Non-%s miRNAs' %(tipo)])
-				no.append(float(hamming_df[alpha][beta])
+				no.append(float(hamming_df[alpha][beta]))
 
 
 	print mean(yes), mean(no)
 	print median(yes), median(no)
+
+
+	data_master = pd.DataFrame(datalst,columns=[xentry, 'miRNA Class'])
 
 
 
