@@ -4,7 +4,13 @@ import sys
 import csv
 
 def import_pcg():
-	return
+	data = []
+
+	with open(sys.arv[2], 'r') as pcg_ages_precursor_fle:
+		data = list(csv.reader(pcg_ages_precursor_fle, delimiter='\t'))
+
+	precursor_data = [a[-1] for a in data if '#' in data[0]]
+	print precursor_data
 	
 
 def import_human_mirages():
