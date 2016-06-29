@@ -1119,7 +1119,7 @@ def heatmap_analysis(mirna2age, mirna2disease, mirna2family, gene2age):
 	
 	# print 'Number, Family, Expression'
 
-	violin_nocomp(flatten([a for a in mirna2family_edited.values() if a in mirna2age and mirna2age[a] < 100.0]), mir_expdb, 'Family', 'Number of Tissues Expressed In', 'fam_tisnum_young')
+	violin_nocomp([a for a in flatten(mirna2family_edited.values()) if a in mirna2age and mirna2age[a] < 100.0], mir_expdb, 'Family', 'Number of Tissues Expressed In', 'fam_tisnum_young')
 
 	# print 'Hamming, Disease, Targets'
 
