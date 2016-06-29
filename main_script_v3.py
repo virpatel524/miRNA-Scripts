@@ -1071,14 +1071,14 @@ def heatmap_analysis(mirna2age, mirna2disease, mirna2family, gene2age):
 
 	masterlst = []
 	totnumfam = []
-	totnumfam = []
+	totnumnofam = []
 
 	for mir in mir_expdb.index:
 		if mir in mirna2family_edited:
-			masterlst.append([sum(mir_expdb.loc[mir].tolist()), 'Disease miRNAs'])
+			masterlst.append([sum(mir_expdb.loc[mir].tolist()), 'Family miRNAs'])
 			totnumdis.append(sum(mir_expdb.loc[mir].tolist()))
 		else: 
-			masterlst.append([sum(mir_expdb.loc[mir].tolist()), 'Non-Disease miRNAs'])
+			masterlst.append([sum(mir_expdb.loc[mir].tolist()), 'Non-Family miRNAs'])
 			totnumnondis.append(sum(mir_expdb.loc[mir].tolist()))
 
 
