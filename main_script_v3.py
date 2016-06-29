@@ -1078,7 +1078,7 @@ def heatmap_analysis(mirna2age, mirna2disease, mirna2family, gene2age):
 	dis_nondis_target_master = pd.DataFrame(masterlst,columns=['Number of Expressed Tissues', 'miRNA Class'])
 
 	sns.violinplot(x='miRNA Class',y='Number of Expressed Tissues',data=dis_nondis_target_master, cut=0)
-	plt.gca().set_ylim([-10, 3000])
+	plt.gca().set_ylim([-10, 25])
 
 	plt.savefig('figures/mir_dis_num_tis_violin.pdf',bbox_inches='tight')
 
