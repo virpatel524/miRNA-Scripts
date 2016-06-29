@@ -961,19 +961,30 @@ def main_fraction_under_figure(mirna2tar, mirna2age, target2age):
 
 
 
-def violin_nocomp(dict_for_exclusion, binary_data_frame, tipo):
+def violin_nocomp(dict_for_exclusion, binary_data_frame, tipo,xentry):
 	yes = []
 	datalst = []
 	no = []
 
 	for alpha in binary_data_frame.index:
 		if alpha in dict_for_exclusion:
-			datalst.append([sum(binary_data_frame.loc[alpha].tolist()),'%s' %(tipo)])
+			datalst.append([sum(binary_data_frame.loc[alpha].tolist()),'%s miRNAs' %(tipo)])
 			yes.append(sum(binary_data_frame.loc[alpha].tolist()))
 		else:
-			datalst.append([sum(binary_data_frame.loc[alpha].tolist()),'Non-%s' %(tipo)])
-			yes.append(sum(binary_data_frame.loc[alpha].tolist()))
+			datalst.append([sum(binary_data_frame.loc[alpha].tolist()),'Non-%s miRNAs' %(tipo)])
+			no.append(sum(binary_data_frame.loc[alpha].tolist()))
 
+
+	print mean(yes), mean(no)
+	print median(yes), median(no)
+
+
+	data_master = pd.DataFrame(masterlst,columns=[xentry, 'miRNA Class'])
+
+	sns.violinplot(x='miRNA Class',y=xentry,data=dis_nondis_target_master, cut=0)
+	plt.gca().set_ylim([0, 20])
+
+	plt.savefig('figures/mir_dis_num_tis_violin.pdf',bbox_inches='tight')	
 
 
 
