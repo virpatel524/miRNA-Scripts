@@ -961,6 +961,17 @@ def main_fraction_under_figure(mirna2tar, mirna2age, target2age):
 
 
 
+def map_relatives(dic):
+	newdic = {}
+
+	for key in dic:
+		for el in dic[key]:
+			newdic[el] = [a for a in dic[key] if a != el]
+
+	return newdic
+
+
+
 def violin_nocomp(lst_for_exclusion, binary_data_frame, tipo,xentry,df_name):
 	yes = []
 	datalst = []
@@ -980,10 +991,11 @@ def violin_nocomp(lst_for_exclusion, binary_data_frame, tipo,xentry,df_name):
 
 
 	data_master = pd.DataFrame(masterlst,columns=[xentry, 'miRNA Class'])
-
 	sns.violinplot(x='miRNA Class',y=xentry,data=data_master, cut=0)
-
 	plt.savefig('figures/nocomp_violin_%s.pdf' %(df_name),bbox_inches='tight')	
+
+
+
 
 
 
