@@ -1137,14 +1137,8 @@ def heatmap_analysis(mirna2age, mirna2disease, mirna2family, gene2age):
 
 
 	sns.violinplot(x='miRNA Class',y='Comparison Normalized Hamming Distance (0.0-1.0)',data=fam_nonfam_target_master, cut=0)
-	tot = float(round_robyn_target.values.max())
 
-	plt.gca().set_ylim([-0.005,.13])
-
-
-
-
-	plt.savefig('figures/mir_dis_tar_hamming.pdf',bbox_inches='tight')
+	plt.savefig('figures/mir_fam_tar_hamming_violin.pdf',bbox_inches='tight')
 
 	plt.close()
 
