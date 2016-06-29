@@ -979,6 +979,8 @@ def heatmap_analysis(mirna2age, mirna2disease, mirna2family, gene2age):
 		if len(mirna2family[alpha]) > 3:
 			mirna2family_edited[alpha] = mirna2family[alpha]
 
+	print mirna2family
+
 
 	round_robyn_target = pd.read_csv('/Users/virpatel/Desktop/pub_stuff/relevant_data/target_heatmap_dataframe.txt', sep='\t',index_col=[0])
 	round_robyn_exp = pd.read_csv('/Users/virpatel/Desktop/pub_stuff/relevant_data/tis_exp_heatmap_dataframe.txt', sep='\t',index_col=[0])
