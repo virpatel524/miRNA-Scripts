@@ -1073,6 +1073,7 @@ def heatmap_analysis(mirna2age, mirna2disease, mirna2family, gene2age):
 
 
 	print mean(totnumdis), mean(totnumnondis)
+	print median(totnumdis), median(totnumnondis)
 
 
 	dis_nondis_target_master = pd.DataFrame(masterlst,columns=['Number of Expressed Tissues', 'miRNA Class'])
