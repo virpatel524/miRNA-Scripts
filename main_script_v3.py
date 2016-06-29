@@ -1024,7 +1024,17 @@ def violin_comp_norel(lst_for_exclusion, hamming_df, tipo,xentry,df_name):
 
 
 def violin_comp_rel(gen_exlus_dic, hamming_df, tipo, xentry, df_name):
-	
+	yes = []
+	no = []
+
+	datalst = []
+
+
+	flipped_exlus = map_relatives(gen_exlus_dic)
+
+
+	for alpha in hamming_df:
+
 
 
 
