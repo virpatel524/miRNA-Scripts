@@ -1053,7 +1053,7 @@ def violin_comp_rel(gen_exlus_dic, hamming_df, tipo, xentry, df_name):
 		for beta in hamming_df.index:
 			if alpha == beta: continue
 			if alpha in flipped_exlus:
-				if beta in flipped_exlus[alpha]:
+				if beta in flipped_exlus[alpha]: 
 					datalst.append([float(hamming_df[alpha][beta]), '%s miRNAs' %(tipo)])
 					yes.append(float(hamming_df[alpha][beta]))
 				else:
@@ -1074,13 +1074,13 @@ def violin_comp_rel(gen_exlus_dic, hamming_df, tipo, xentry, df_name):
 	if 'tis' in df_name:
 		sns.boxplot(x='miRNA Class',y=xentry,data=data_master, cut=0)
 		plt.savefig('figures/comp_rel_boxplot_%s.pdf' %(df_name),bbox_inches='tight')
-		plt.gca().set_ylim([0,1.0])
+		plt.gca().set_ylim([0.0,1.0])
 		plt.close()
 
 	if 'tar' in df_name:
 		sns.violinplot(x='miRNA Class',y=xentry,data=data_master, cut=0)
 		plt.savefig('figures/comp_rel_violin_%s.pdf' %(df_name),bbox_inches='tight')
-		plt.gca().set_ylim([0,0.3])
+		plt.gca().set_ylim([0.0,0.3])
 		plt.close()
 
 
