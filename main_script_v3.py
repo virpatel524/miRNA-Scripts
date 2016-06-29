@@ -996,7 +996,7 @@ def violin_nocomp(lst_for_exclusion, binary_data_frame, tipo,xentry,df_name):
 	if 'tis' in df_name:
 		plt.gca().set_ylim([0,20])
 	if 'tar' in df_name:
-		plt.gca().set_ylim([0,3000])
+		plt.gca().set_ylim([0,1000])
 	plt.savefig('figures/nocomp_violin_%s.pdf' %(df_name),bbox_inches='tight')
 	plt.close()
 
@@ -1109,41 +1109,41 @@ def heatmap_analysis(mirna2age, mirna2disease, mirna2family, gene2age):
 
 	violin_nocomp(mirna2disease.keys(), mir_targetdb, 'Disease', 'Number of Gene Targets', 'dis_tarnum')
 	
-	print 'Number, Disease, Expression'
+	# print 'Number, Disease, Expression'
 
-	violin_nocomp(mirna2disease.keys(), mir_expdb, 'Disease', 'Number of Tissues Expressed In ', 'dis_tisnum')
+	# violin_nocomp(mirna2disease.keys(), mir_expdb, 'Disease', 'Number of Tissues Expressed In ', 'dis_tisnum')
 
-	print 'Number, Family, Targets'
+	# print 'Number, Family, Targets'
 
-	violin_nocomp(flatten(mirna2family_edited.values()), mir_targetdb, 'Family', 'Number of Gene Targets', 'fam_tarnum')
+	# violin_nocomp(flatten(mirna2family_edited.values()), mir_targetdb, 'Family', 'Number of Gene Targets', 'fam_tarnum')
 	
-	print 'Number, Family, Expression'
+	# print 'Number, Family, Expression'
 
-	violin_nocomp(flatten(mirna2family_edited.values()), mir_expdb, 'Family', 'Number of Tissues Expressed In', 'fam_tisnum')
+	# violin_nocomp(flatten(mirna2family_edited.values()), mir_expdb, 'Family', 'Number of Tissues Expressed In', 'fam_tisnum')
 
-	print 'Hamming, Disease, Targets'
+	# print 'Hamming, Disease, Targets'
 
-	violin_comp_norel(mirna2disease.keys(), round_robyn_target, 'Disease', 'Hamming Target Comparisons', 'dis_tarham')
+	# violin_comp_norel(mirna2disease.keys(), round_robyn_target, 'Disease', 'Hamming Target Comparisons', 'dis_tarham')
 
-	print 'Hamming, Disease, Expression'
+	# print 'Hamming, Disease, Expression'
 
-	violin_comp_norel(mirna2disease.keys(), round_robyn_exp, 'Disease', 'Hamming Expression Comparisons', 'dis_tisham')
+	# violin_comp_norel(mirna2disease.keys(), round_robyn_exp, 'Disease', 'Hamming Expression Comparisons', 'dis_tisham')
 
-	print 'Hamming, Family, Targets'
+	# print 'Hamming, Family, Targets'
 
-	violin_comp_norel(flatten(mirna2family_edited.values()), round_robyn_target, 'Family', 'Hamming Target Comparisons', 'fam_tarham')
+	# violin_comp_norel(flatten(mirna2family_edited.values()), round_robyn_target, 'Family', 'Hamming Target Comparisons', 'fam_tarham')
 
-	print 'Hamming, Family, Expression'
+	# print 'Hamming, Family, Expression'
 
-	violin_comp_norel(flatten(mirna2family_edited.values()), round_robyn_exp, 'Family', 'Hamming Expression Comparisons', 'fam_tisham')
+	# violin_comp_norel(flatten(mirna2family_edited.values()), round_robyn_exp, 'Family', 'Hamming Expression Comparisons', 'fam_tisham')
 
-	print 'Hamming Related, Family, Targets'
+	# print 'Hamming Related, Family, Targets'
 
-	violin_comp_rel(mirna2family_edited, round_robyn_target, 'Family', 'Hamming Target Comparisons', 'fam_tarham')
+	# violin_comp_rel(mirna2family_edited, round_robyn_target, 'Family', 'Hamming Target Comparisons', 'fam_tarham')
 
-	print 'Hamming Related, Family, Expression'
+	# print 'Hamming Related, Family, Expression'
 
-	violin_comp_rel(mirna2family_edited, round_robyn_exp, 'Family', 'Hamming Expression Comparisons', 'fam_tisham')
+	# violin_comp_rel(mirna2family_edited, round_robyn_exp, 'Family', 'Hamming Expression Comparisons', 'fam_tisham')
 
 
 
