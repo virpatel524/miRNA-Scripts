@@ -1113,7 +1113,7 @@ def heatmap_analysis(mirna2age, mirna2disease, mirna2family, gene2age):
 	fam_nonfam_target_val = []
 	fam_nonfam_target_bool = []
 
-	dis_nondis_target_master = []
+	fam_nonfam_target_master = []
 
 	mir_dis_target = []
 	mir_nondis_target = []
