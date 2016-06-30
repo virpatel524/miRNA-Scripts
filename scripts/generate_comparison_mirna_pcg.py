@@ -72,7 +72,9 @@ for mirna in human_mirna_ages:
 	bins_mir[all_labels.index(mirna)] += 1
 
 for gene in human_gene_ages:
-	bins_mir[all_labels.index(mirna)] += 1
+	bins_tar[all_labels.index(gene)] += 1
+
+
 
 	
 
