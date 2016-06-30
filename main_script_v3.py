@@ -1189,11 +1189,12 @@ def heatmap_analysis(mirna2age, mirna2disease, mirna2family, gene2age):
 		else:
 			mirna2family_edited_above15[alpha] = num
 
+	print mirna2family_edited_above15
 
  	violin_comp_rel(mirna2family_edited_above15, round_robyn_exp, 'Family', 'Hamming Expression Comparisons', 'fam_tisham_above15')
 
 
- 	
+
 
 
 
