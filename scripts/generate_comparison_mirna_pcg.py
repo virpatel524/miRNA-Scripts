@@ -6,6 +6,7 @@ import pd
 
 
 
+
 sns.axes_style('whitegrid')
 sns.set_style("whitegrid")
 sns.set_context("paper")
@@ -56,6 +57,8 @@ def import_human_mirages():
 
 human_mirna_ages = import_human_mirages()
 human_gene_ages, time_tree_dict = import_pcg()
+
+full_df = pd.DataFrame()
 
 
 
