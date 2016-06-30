@@ -52,6 +52,15 @@ def import_human_mirages():
 	return human_ages
 
 
+def normalize(lst):
+	tot = sum(lst)
+	newlst = []
+
+	for a in lst:
+		newlst.append(float(a)/ float(tot))
+
+	return newlst
+
 
 
 
