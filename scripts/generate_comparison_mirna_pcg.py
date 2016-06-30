@@ -101,7 +101,7 @@ ax.set_xticks(ind + width)
 ax.set_xticklabels(str_labels, rotation=65)
 plt.gcf().subplots_adjust(hspace=.2)
 
-ax.legend((fig1[0], fig2[0]), ('miRNAs', 'PC Genes'))
+ax.legend((fig1[0], fig2[0]), ('miRNAs', 'PC Genes'), frameon=True)
 
 
 sns.plt.show()
