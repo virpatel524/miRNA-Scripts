@@ -63,7 +63,7 @@ newlst = []
 
 
 for age in human_mirna_ages:
-	newlst.append(['%s (%.1f)' %(time_tree_dict[age], age), 'miRNA']])
+	newlst.append(['%s (%.1f)' %(time_tree_dict[age], age), 'miRNA'])
 
 
 for age in human_gene_ages:
