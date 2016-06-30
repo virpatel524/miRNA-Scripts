@@ -41,14 +41,15 @@ def import_human_mirages():
 	humanmirlst = [a for a in data if 'hsa' in a[0]]
 	human_ages = [float(a[-1]) for a in humanmirlst]
 
-	print human_ages
+	return human_ages
 
 
 
 
 
-# import_human_mirages()
-import_pcg()
+human_mirna_ages = import_human_mirages()
+human_gene_ages, time_tree_dict = import_pcg()
+
 
 
 
