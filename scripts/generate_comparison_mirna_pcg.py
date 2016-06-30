@@ -60,16 +60,16 @@ human_gene_ages, time_tree_dict = import_pcg()
 
 newlst = []
 
-full_df = pd.DataFrame()
+
 
 for age in human_mirna_ages:
-	newlst.append([age, '%s (%.1f)' %(time_tree_dict[age], age), 'miRNA']])
+	newlst.append(['%s (%.1f)' %(time_tree_dict[age], age), 'miRNA']])
 
 
 for age in human_gene_ages:
-	newlst.append([age, '%s (%.1f)' %(time_tree_dict[age], age), 'PC Gene']])
+	newlst.append(['%s (%.1f)' %(time_tree_dict[age], age), 'PC Gene']])
 
-
+full_df = pd.DataFrame(newlst, columns=['Age (MYA)', 'Type' ])
 
 
 
