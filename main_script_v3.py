@@ -1114,20 +1114,27 @@ def heatmap_analysis(mirna2age, mirna2disease, mirna2family, gene2age):
 	count1 = 0
 	count2 = 0
 
+	mir_num_dis_fam = []
+	mir_num_dis_nofam = []
+
 	for mirna in mir_in_fam:
 		if mirna in mirna2disease:
+			mir_num_dis_fam.append(len(mirna2disease[mirna]))
 			count1 += 1
 
 
 	for mirna in mir_notin_fam:
 		if mirna in mirna2disease:
+			mir_num_dis_nofam.append(len(mirna2disease[mirna]))
 			count2 += 1
 
 	print float(count1) / float(len(mir_in_fam))
 	print float(count2) / float(len(mir_notin_fam))
 
 
+	print mean(mir_num_dis_fam), median(mir_num_dis_fam)
 
+	print mean(mir_num_dis_nofam), median(mir_num_dis_nofam)
 
 
 	# print 'Number, Disease, Targets'
