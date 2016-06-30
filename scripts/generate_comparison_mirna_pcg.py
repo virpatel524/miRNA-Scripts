@@ -91,10 +91,13 @@ width = 0.35
 
 fig, ax = plt.subplots()
 
-fig1 = plt.bar(ind, new_bins_mir, width, color='b')
-fig2 = plt.bar(ind + width, new_bins_gene, width, color='r')
+fig1 = ax.bar(ind, new_bins_mir, width, color='b')
+fig2 = ax.bar(ind + width, new_bins_gene, width, color='r')
 
-
+ax.set_ylabel('Count')
+ax.set_xlabel('Ages of miRNAs and Protein-Coding Genes (MY)')
+ax.set_xticks(ind + width)
+ax.set_xticklabels(('G1', 'G2', 'G3', 'G4', 'G5'))
 
 
 
