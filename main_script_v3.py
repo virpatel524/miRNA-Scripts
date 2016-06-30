@@ -1184,13 +1184,11 @@ def heatmap_analysis(mirna2age, mirna2disease, mirna2family, gene2age):
 
 	for alpha in mirna2family_edited:
 		mems = mirna2family_edited[alpha]
-		print mems
 		num = [a for a in mems if a in mir_expdb.index and sum(mir_expdb.loc[a].tolist()) > 15]
 		if len(num) == 1: continue
 		else:
 			mirna2family_edited_above15[alpha] = num
 
-	print mirna2family_edited_above15
 
  	violin_comp_rel(mirna2family_edited_above15, round_robyn_exp, 'Family', 'Hamming Expression Comparisons', 'fam_tisham_above15')
 
