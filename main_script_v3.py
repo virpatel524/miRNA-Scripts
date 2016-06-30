@@ -1225,7 +1225,7 @@ def heatmap_analysis(mirna2age, mirna2disease, mirna2family, gene2age):
 
 	# violin_comp_rel(mirna2family_edited, round_robyn_exp, 'Family', 'Hamming Expression Comparisons', 'fam_tisham')
 
-	viol
+	violin_comp_rel_ratio(mirna2family_edited, round_robyn_tar, 'Family', 'Hamming Target Comparisons', 'fam_tarham', mir_targetdb)
 
 
 	print 'Hamming, Family, Expression, Above  15'
