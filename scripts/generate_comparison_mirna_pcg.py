@@ -83,6 +83,11 @@ for mirna in human_mirna_ages:
 for gene in human_gene_ages:
 	bins_tar[all_labels.index(gene)] += 1
 
+new_bins_mir = normalize(bins_mir)
+new_bins_gene = normalize(bins_tar)
+
+
+
 
 
 	
