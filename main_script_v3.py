@@ -1121,6 +1121,9 @@ def violin_comp_rel_ratio(gen_exlus_dic, hamming_df, tipo, xentry, df_name, new_
 	# 		print alpha
 
 
+	for mir in new_df.index:
+		prin mir
+
 
 
 	print mean(yes), mean(no)
