@@ -13,10 +13,21 @@ def import_pcg():
 
 	time_tree_fle = open(sys.argv[3],'r')
 	time_tree_data = list(csv.reader(time_tree_fle, delimiter='\t'))
-
 	time_tree_data = [a for a in time_tree_data if '#' not in a[0]]
 
-	print time_tree_data
+	time_tree_dict = {}
+
+	for a in time_tree_data:
+		time_tree_dict[a[0]] = float(a[-1])
+
+	newlst = []
+
+	for alpha in precursor_data:
+		newlst.append(time_tree_data[alpha])
+
+	print newlst
+
+
 	
 
 def import_human_mirages():
