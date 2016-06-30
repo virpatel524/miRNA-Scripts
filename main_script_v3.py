@@ -1114,6 +1114,7 @@ def violin_comp_rel_ratio(gen_exlus_dic, hamming_df, tipo, xentry, df_name, new_
 						datalst.append([float(hamming_df[alpha][beta]), 'Non-%s miRNAs' %(tipo)])
 						no.append(	float(hamming_df[alpha][beta]) / (float(100) / float(sum(new_df[alpha]))))
 				else:
+					print alpha, beta
 					datalst.append([float(hamming_df[alpha][beta]), 'Non-%s miRNAs' %(tipo)])
 					no.append(float(hamming_df[alpha][beta]) / (float(100) / float(sum(new_df[alpha]))))
 
