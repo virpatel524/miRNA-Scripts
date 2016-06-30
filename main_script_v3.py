@@ -659,10 +659,10 @@ def target_gene_expression_analysis(mirna2age, mirna2disease,mirna2family,gene2a
 
 
 
-		generate_matrix(mir_targetdb,'target_heatmap')
-		generate_matrix(mir_expdb,'tis_exp_heatmap')
+		# generate_matrix(mir_targetdb,'target_heatmap')
+		# generate_matrix(mir_expdb,'tis_exp_heatmap')
 
-		return
+		# return
 
 
 
