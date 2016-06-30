@@ -62,7 +62,7 @@ newlst = []
 
 
 all_labels = sorted(list(set(human_gene_ages + human_mirna_ages)))
-
+str_labels = [time_tree_dict[a] for a in all_labels]
 
 
 for age in human_mirna_ages:
