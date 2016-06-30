@@ -71,6 +71,6 @@ for age in human_gene_ages:
 
 full_df = pd.DataFrame(newlst, columns=['Age (MYA)', 'Type' ])
 
-print full_df
-
+sns.countplot(x='Age (MYA)', hue='Type', data=full_df)
+sns.plt.show()
 
