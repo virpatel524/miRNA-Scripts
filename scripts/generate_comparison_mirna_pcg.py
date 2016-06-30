@@ -64,16 +64,18 @@ newlst = []
 all_labels = sorted(list(set(human_gene_ages + human_mirna_ages)))
 str_labels = [time_tree_dict[a] for a in all_labels]
 
-
-for age in human_mirna_ages:
-	newlst.append(['%s (%.1f)' %(time_tree_dict[age], age), 'miRNA'])
+print str_labels
 
 
-for age in human_gene_ages:
-	newlst.append(['%s (%.1f)' %(time_tree_dict[age], age), 'PC Gene'])
+# for age in human_mirna_ages:
+# 	newlst.append(['%s (%.1f)' %(time_tree_dict[age], age), 'miRNA'])
 
-full_df = pd.DataFrame(newlst, columns=['Age (MYA)', 'Type' ])
 
-sns.countplot(x='Age (MYA)', hue='Type', data=full_df)
-sns.plt.show()
+# for age in human_gene_ages:
+# 	newlst.append(['%s (%.1f)' %(time_tree_dict[age], age), 'PC Gene'])
+
+# full_df = pd.DataFrame(newlst, columns=['Age (MYA)', 'Type' ])
+
+# sns.countplot(x='Age (MYA)', hue='Type', data=full_df)
+# sns.plt.show()
 
