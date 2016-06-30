@@ -743,54 +743,54 @@ def target_gene_expression_analysis(mirna2age, mirna2disease,mirna2family,gene2a
 
 
 
-# 		# print mannwhitneyu(yung_num_tis, old_num_tis)
+		# print mannwhitneyu(yung_num_tis, old_num_tis)
 
-# 		mir_in_fam_pot = []
-# 		mir_in_fam = []
-# 		mir_not_in_fam = []
+		mir_in_fam_pot = []
+		mir_in_fam = []
+		mir_not_in_fam = []
 
-# 		mirna_in_hamming_2_exp = {}
+		mirna_in_hamming_2_exp = {}
 
-# 		for mir in mirna2family:
-# 			if len(mirna2family[mir]) > 3:
-# 				mir_in_fam_pot += mirna2family[mir]
-# 		expdb = []
+		for mir in mirna2family:
+			if len(mirna2family[mir]) > 3:
+				mir_in_fam_pot += mirna2family[mir]
+		expdb = []
 
-# 		for mirna in mir_expdb.index:
-# 			if mirna not in mirna2age: continue
-# 			mirna_in_hamming_2_exp[mirna] = mir_expdb.loc[mirna].tolist()
-# 			if mirna in mir_in_fam_pot:
-# 				mir_in_fam.append(mirna)
-# 				expdb.append([float(sum(mir_expdb.loc[mirna].tolist())), float(mirna2age[mirna]), 'In miRNA Family'])			
-# 			else:
-# 				mir_not_in_fam.append(mirna)
-# 				expdb.append([float(sum(mir_expdb.loc[mirna].tolist())), float(mirna2age[mirna]), 'Not In miRNA Family'])			
+		for mirna in mir_expdb.index:
+			if mirna not in mirna2age: continue
+			mirna_in_hamming_2_exp[mirna] = mir_expdb.loc[mirna].tolist()
+			if mirna in mir_in_fam_pot:
+				mir_in_fam.append(mirna)
+				expdb.append([float(sum(mir_expdb.loc[mirna].tolist())), float(mirna2age[mirna]), 'In miRNA Family'])			
+			else:
+				mir_not_in_fam.append(mirna)
+				expdb.append([float(sum(mir_expdb.loc[mirna].tolist())), float(mirna2age[mirna]), 'Not In miRNA Family'])			
 
-# 		age1 = [mirna2age[a] for a in mir_in_fam ]
-# 		age2 = [mirna2age[a] for a in mir_not_in_fam]
-# 		gen1 = [sum(mirna_in_hamming_2_exp[a]) for a in mir_in_fam ]
-# 		gen2 = [sum(mirna_in_hamming_2_exp[a]) for a in mir_not_in_fam]
-
-
-# 		expdb = pd.DataFrame(expdb, columns=['num','age','In miRNA Family?'])
-# 		expdb = expdb.sort('age',ascending=1)
+		age1 = [mirna2age[a] for a in mir_in_fam ]
+		age2 = [mirna2age[a] for a in mir_not_in_fam]
+		gen1 = [sum(mirna_in_hamming_2_exp[a]) for a in mir_in_fam ]
+		gen2 = [sum(mirna_in_hamming_2_exp[a]) for a in mir_not_in_fam]
 
 
-# 		with  sns.plotting_context(font_scale=300):
-# 			sns.violinplot(x='age',y='num',hue='In miRNA Family?',data=expdb,palette="muted", width=.7,legend=False,cut = 0)
-
-# 			fig = plt.gcf()
-# 			frame = plt.legend(frameon=True, loc='bottom right' )
-# 			fig.set_size_inches(30, 10.5)
-
-# 			ax1 = plt.gca()
-# 			ax1.set_xlim([-1,17])
-# 			ax1.set_ylim([-0.1, 20.5])
+		expdb = pd.DataFrame(expdb, columns=['num','age','In miRNA Family?'])
+		expdb = expdb.sort('age',ascending=1)
 
 
-# 			plt.savefig('figures/violin_fam_no_fam_exp.pdf',bbox_inches='tight')
+		with  sns.plotting_context(font_scale=300):
+			sns.violinplot(x='age',y='num',hue='In miRNA Family?',data=expdb,palette="muted", width=.7,legend=False,cut = 0)
 
-# 			plt.close()
+			fig = plt.gcf()
+			frame = plt.legend(frameon=True, loc='bottom right' )
+			fig.set_size_inches(30, 10.5)
+
+			ax1 = plt.gca()
+			ax1.set_xlim([-1,17])
+			ax1.set_ylim([-0.1, 20.5])
+
+
+			plt.savefig('figures/violin_fam_no_fam_exp.pdf',bbox_inches='tight')
+
+			plt.close()
 
 
 
