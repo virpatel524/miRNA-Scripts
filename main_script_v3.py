@@ -773,7 +773,7 @@ def target_gene_expression_analysis(mirna2age, mirna2disease,mirna2family,gene2a
 
 
 		expdb = pd.DataFrame(expdb, columns=['Number of Tissues','miRNA Age','In miRNA Family?'])
-		expdb = expdb.sort('age',ascending=1)
+		expdb = expdb.sort('miRNA Age',ascending=1)
 
 
 		with  sns.plotting_context(font_scale=300):
