@@ -1253,6 +1253,6 @@ def main():
 
 
 
-	# heatmap_analysis(mirna2age, mirna2disease, mirna2family, gene2age)
+	heatmap_analysis(mirna2age, mirna2disease, mirna2family, gene2age)
 
 main()
