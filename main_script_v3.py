@@ -772,7 +772,7 @@ def target_gene_expression_analysis(mirna2age, mirna2disease,mirna2family,gene2a
 		gen2 = [sum(mirna_in_hamming_2_exp[a]) for a in mir_not_in_fam]
 
 
-		expdb = pd.DataFrame(expdb, columns=['num','age','In miRNA Family?'])
+		expdb = pd.DataFrame(expdb, columns=['Number of Tissues','miRNA Age','In miRNA Family?'])
 		expdb = expdb.sort('age',ascending=1)
 
 
