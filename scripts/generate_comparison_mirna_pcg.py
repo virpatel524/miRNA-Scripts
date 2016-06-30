@@ -104,7 +104,7 @@ plt.subplots_adjust(bottom=0.4)
 ax.legend((fig1[0], fig2[0]), ('miRNAs', 'PC Genes'), frameon=True)
 
 
-sns.plt.show()
+sns.plt.savefig('../figures/mirna_gene_comp.pdf',bbox_inches='tight')
 
 
 
