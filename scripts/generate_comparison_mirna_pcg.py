@@ -99,6 +99,7 @@ ax.set_xlabel('Ages of miRNAs and Protein-Coding Genes (MY)')
 ax.set_xticks(ind + width)
 ax.set_xticklabels(str_labels)
 
+sns.plt.show()
 
 
 
