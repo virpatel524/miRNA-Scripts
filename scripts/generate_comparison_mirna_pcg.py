@@ -58,7 +58,16 @@ def import_human_mirages():
 human_mirna_ages = import_human_mirages()
 human_gene_ages, time_tree_dict = import_pcg()
 
+newlst = []
+
 full_df = pd.DataFrame()
+
+for age in human_mirna_ages:
+	newlst.append([age, '%s (%.1f)' %(time_tree_dict[age], age), 'miRNA']])
+
+
+for age in human_gene_ages:
+	newlst.append([age, '%s (%.1f)' %(time_tree_dict[age], age), 'PC Gene']])
 
 
 
