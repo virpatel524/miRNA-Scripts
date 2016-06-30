@@ -1097,7 +1097,9 @@ def violin_comp_rel_ratio(gen_exlus_dic, hamming_df, tipo, xentry, df_name, new_
 
 	flipped_exlus = map_relatives(gen_exlus_dic)
 
-	print list(new_df.index)
+	newlst = 
+
+
 
 	# for alpha in hamming_df.index:
 	# 	if alpha in list(new_df.index): 
