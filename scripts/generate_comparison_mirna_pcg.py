@@ -61,6 +61,8 @@ human_gene_ages, time_tree_dict = import_pcg()
 newlst = []
 
 
+all_labels = list(set(human_gene_ages + human_mirna_ages))
+
 
 for age in human_mirna_ages:
 	newlst.append(['%s (%.1f)' %(time_tree_dict[age], age), 'miRNA'])
