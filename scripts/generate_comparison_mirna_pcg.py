@@ -3,6 +3,12 @@ import matplotlib.pyplot as plt
 import sys
 import csv
 
+
+
+sns.axes_style('whitegrid')
+sns.set_style("whitegrid")
+sns.set_context("paper")
+
 def import_pcg():
 	data = []
 
