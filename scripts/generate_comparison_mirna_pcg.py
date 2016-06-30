@@ -10,7 +10,9 @@ def import_pcg():
 		data = list(csv.reader(pcg_ages_precursor_fle, delimiter='\t'))
 
 	precursor_data = [a[-1] for a in data if '#' not in a[0]]
-	print precursor_data
+
+	time_tree_fle = open(sys.argv[3],'r')
+	time_tree_data = list(csv.reader(time_tree_fle, delimiter='\t'))
 	
 
 def import_human_mirages():
