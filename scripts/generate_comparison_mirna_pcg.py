@@ -13,6 +13,8 @@ def import_pcg():
 
 	time_tree_fle = open(sys.argv[3],'r')
 	time_tree_data = list(csv.reader(time_tree_fle, delimiter='\t'))
+
+	time_tree_data = [a for a in data if '#' not in a[0]]
 	
 
 def import_human_mirages():
