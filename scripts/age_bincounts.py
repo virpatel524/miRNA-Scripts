@@ -123,8 +123,7 @@ def bincount_style1(allmir_lst, starmir_lst, time_tree_fle):
 	plt.xlabel('miRNA Clade of Origination',fontsize=15)
 	plt.ylabel('miRNA Count', fontsize=15)
 
-	
-	plt.subplots_adjust(bottom=50)
+	plt.gca().tight_layout()
 
 
 	ax2.set_xlim(xmin=0-5,xmax=float(nd[-1])-4.5)
