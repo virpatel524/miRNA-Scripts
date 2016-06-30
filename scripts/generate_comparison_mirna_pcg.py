@@ -72,7 +72,7 @@ newlst = []
 
 
 all_labels = sorted(list(set(human_gene_ages + human_mirna_ages)))
-str_labels = [time_tree_dict[a] for a in all_labels]
+str_labels = ['%s (%.1f)' (time_tree_dict[a],a) for a in all_labels]
 
 bins_mir = [0] * len(all_labels)
 bins_tar = [0] * len(all_labels)
