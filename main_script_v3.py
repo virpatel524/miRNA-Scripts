@@ -1130,7 +1130,7 @@ def violin_comp_rel_ratio(gen_exlus_dic, hamming_df, tipo, xentry, df_name, new_
 	if 'tar' in df_name:
 		sns.violinplot(x='miRNA Class',y=xentry,data=data_master, cut=0)
 		plt.gca().set_ylim([0.0,0.10])
-		plt.savefig('figures/comp_rel_violin_%s.pdf' %(df_name),bbox_inches='tight')
+		plt.savefig('figures/comp_rel_violinratio_%s.pdf' %(df_name),bbox_inches='tight')
 		plt.close()
 
 
@@ -1224,6 +1224,8 @@ def heatmap_analysis(mirna2age, mirna2disease, mirna2family, gene2age):
 	# print 'Hamming Related, Family, Expression'
 
 	# violin_comp_rel(mirna2family_edited, round_robyn_exp, 'Family', 'Hamming Expression Comparisons', 'fam_tisham')
+
+	viol
 
 
 	print 'Hamming, Family, Expression, Above  15'
