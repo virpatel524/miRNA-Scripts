@@ -777,7 +777,7 @@ def target_gene_expression_analysis(mirna2age, mirna2disease,mirna2family,gene2a
 
 
 		with  sns.plotting_context(font_scale=300):
-			sns.violinplot(x='age',y='num',hue='In miRNA Family?',data=expdb,palette="muted", width=.7,legend=False,cut = 0)
+			sns.violinplot(x='miRNA Age',y='Number of Tissues',hue='In miRNA Family?',data=expdb,palette="muted", width=.7,legend=False,cut = 0)
 
 			fig = plt.gcf()
 			frame = plt.legend(frameon=True, loc='bottom right' )
