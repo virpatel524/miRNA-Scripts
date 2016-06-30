@@ -1098,27 +1098,24 @@ def violin_comp_rel_ratio(gen_exlus_dic, hamming_df, tipo, xentry, df_name, new_
 	flipped_exlus = map_relatives(gen_exlus_dic)
 
 
-	# for alpha in hamming_df.index:
-	# 	if alpha in new_df.index: 
-	# 		for beta in hamming_df.index:
-	# 			if alpha == beta: continue
-	# 			if alpha in flipped_exlus:
-	# 				if beta in flipped_exlus[alpha]: 
-	# 					datalst.append([float(hamming_df[alpha][beta]), '%s miRNAs' %(tipo)])
-	# 					yes.append(	float(hamming_df[alpha][beta]) / (float(100) / float(sum(new_df[alpha]))))
-	# 				else:
-	# 					datalst.append([float(hamming_df[alpha][beta]), 'Non-%s miRNAs' %(tipo)])
-	# 					no.append(	float(hamming_df[alpha][beta]) / (float(100) / float(sum(new_df[alpha]))))
-	# 			else:
-	# 				datalst.append([float(hamming_df[alpha][beta]), 'Non-%s miRNAs' %(tipo)])
-	# 				no.append(	float(hamming_df[alpha][beta]) / (float(100) / float(sum(new_df[alpha]))))
+	for alpha in hamming_df.index:
+		if alpha in list(new_df.index): 
+			for beta in hamming_df.index:
+				if alpha == beta: continue
+				if alpha in flipped_exlus:
+					if beta in flipped_exlus[alpha]: 
+						datalst.append([float(hamming_df[alpha][beta]), '%s miRNAs' %(tipo)])
+						yes.append(	float(hamming_df[alpha][beta]) / (float(100) / float(sum(new_df[alpha]))))
+					else:
+						datalst.append([float(hamming_df[alpha][beta]), 'Non-%s miRNAs' %(tipo)])
+						no.append(	float(hamming_df[alpha][beta]) / (float(100) / float(sum(new_df[alpha]))))
+				else:
+					datalst.append([float(hamming_df[alpha][beta]), 'Non-%s miRNAs' %(tipo)])
+					no.append(	float(hamming_df[alpha][beta]) / (float(100) / float(sum(new_df[alpha]))))
 
 
 
 
-	# for alpha in hamming_df.index:
-	# 	if alpha not in new_df.index:
-	# 		print alpha
 
 
 	for mir in list(new_df.index):
@@ -1126,23 +1123,23 @@ def violin_comp_rel_ratio(gen_exlus_dic, hamming_df, tipo, xentry, df_name, new_
 
 
 
-	print mean(yes), mean(no)
-	print median(yes), median(no)
-	print mannwhitneyu(yes, no)
+	# print mean(yes), mean(no)
+	# print median(yes), median(no)
+	# print mannwhitneyu(yes, no)
 
-	data_master = pd.DataFrame(datalst,columns=[xentry, 'miRNA Class'])
+	# data_master = pd.DataFrame(datalst,columns=[xentry, 'miRNA Class'])
 
-	if 'tis' in df_name:
-		sns.boxplot(x='miRNA Class',y=xentry,data=data_master)
-		plt.gca().set_ylim([0.0,1.0])
-		plt.savefig('figures/comp_rel_boxplot_%s.pdf' %(df_name),bbox_inches='tight')
-		plt.close()
+	# if 'tis' in df_name:
+	# 	sns.boxplot(x='miRNA Class',y=xentry,data=data_master)
+	# 	plt.gca().set_ylim([0.0,1.0])
+	# 	plt.savefig('figures/comp_rel_boxplot_%s.pdf' %(df_name),bbox_inches='tight')
+	# 	plt.close()
 
-	if 'tar' in df_name:
-		sns.violinplot(x='miRNA Class',y=xentry,data=data_master, cut=0)
-		plt.gca().set_ylim([0.0,0.10])
-		plt.savefig('figures/comp_rel_violinratio_%s.pdf' %(df_name),bbox_inches='tight')
-		plt.close()
+	# if 'tar' in df_name:
+	# 	sns.violinplot(x='miRNA Class',y=xentry,data=data_master, cut=0)
+	# 	plt.gca().set_ylim([0.0,0.10])
+	# 	plt.savefig('figures/comp_rel_violinratio_%s.pdf' %(df_name),bbox_inches='tight')
+	# 	plt.close()
 
 
 
