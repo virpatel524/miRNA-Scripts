@@ -2,7 +2,7 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 import sys
 import csv
-import pd
+import pandas as pd
 
 
 
@@ -71,5 +71,6 @@ for age in human_gene_ages:
 
 full_df = pd.DataFrame(newlst, columns=['Age (MYA)', 'Type' ])
 
+print full_df
 
 
