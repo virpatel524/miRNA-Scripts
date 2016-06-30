@@ -1182,7 +1182,7 @@ def heatmap_analysis(mirna2age, mirna2disease, mirna2family, gene2age):
 
 	mirna2family_edited_above15 = {}
 
-	for alpha in mirna2family_edited_above15:
+	for alpha in mirna2family_edited:
 		mems = mirna2family_edited_above15[alpha]
 		print mems
 		num = [a for a in mems if a in mir_expdb.index and sum(mir_expdb.loc[a].tolist()) > 15]
