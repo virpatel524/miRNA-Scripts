@@ -92,7 +92,7 @@ width = 0.35
 fig, ax = plt.subplots()
 
 fig1 = plt.bar(ind, new_bins_mir, width, color='b')
-fig2 = plt.bar(ind + width, new_bins_mir, width, color='b')
+fig2 = plt.bar(ind + width, new_bins_gene, width, color='r')
 
 
 
