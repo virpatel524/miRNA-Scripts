@@ -16,8 +16,10 @@ def import_pcg():
 	time_tree_data = [a for a in time_tree_data if '#' not in a[0]]
 
 	time_tree_dict = {}
+	time_tree_dict_reverse = {}
 
 	for a in time_tree_data:
+		time_tree_dict_reverse[float(a[-1])] = a[0]
 		time_tree_dict[a[0]] = float(a[-1])
 
 	newlst = []
@@ -25,7 +27,7 @@ def import_pcg():
 	for alpha in precursor_data:
 		newlst.append(time_tree_dict[alpha])
 
-	print newlst
+	return newlst, time_tree_dict_reverse
 
 
 	
