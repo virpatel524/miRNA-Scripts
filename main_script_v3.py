@@ -1132,7 +1132,6 @@ def violin_comp_rel_ratio(gen_exlus_dic, hamming_df, tipo, xentry, df_name, new_
 
 	if 'tis' in df_name:
 		sns.boxplot(x='miRNA Class',y=xentry,data=data_master)
-		plt.gca().set_ylim([0.0,1.0])
 		plt.savefig('figures/comp_rel_boxplot_%s.pdf' %(df_name),bbox_inches='tight')
 		plt.close()
 
