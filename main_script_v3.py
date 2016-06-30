@@ -1088,7 +1088,7 @@ def violin_comp_rel(gen_exlus_dic, hamming_df, tipo, xentry, df_name):
 
 
 
-def violin_comp_rel_ratio(gen_exlus_dic, hamming_df, tipo, xentry, df_name):
+def violin_comp_rel_ratio(gen_exlus_dic, hamming_df, tipo, xentry, df_name, new_df):
 	yes = []
 	no = []
 
@@ -1098,7 +1098,7 @@ def violin_comp_rel_ratio(gen_exlus_dic, hamming_df, tipo, xentry, df_name):
 	flipped_exlus = map_relatives(gen_exlus_dic)
 
 
-	float(hamming_df[alpha][beta]) / (float(100) / float())
+	float(hamming_df[alpha][beta]) / (float(100) / float(sum(new_df[alpha])))
 
 	for alpha in hamming_df.index:
 		for beta in hamming_df.index:
