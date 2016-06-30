@@ -61,7 +61,8 @@ human_gene_ages, time_tree_dict = import_pcg()
 newlst = []
 
 
-all_labels = list(set(human_gene_ages + human_mirna_ages))
+all_labels = sorted(list(set(human_gene_ages + human_mirna_ages)))
+
 
 
 for age in human_mirna_ages:
