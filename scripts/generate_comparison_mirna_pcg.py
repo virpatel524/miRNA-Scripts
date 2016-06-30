@@ -64,7 +64,18 @@ newlst = []
 all_labels = sorted(list(set(human_gene_ages + human_mirna_ages)))
 str_labels = [time_tree_dict[a] for a in all_labels]
 
-print str_labels
+bins_mir = [0] * len(all_labels)
+bins_tar = [0] * len(all_labels)
+
+
+for mirna in human_mirna_ages:
+	bins_mir[all_labels.index(mirna)] += 1
+
+for gene in human_gene_ages:
+	bins_mir[all_labels.index(mirna)] += 1
+
+	
+
 
 
 # for age in human_mirna_ages:
