@@ -1107,7 +1107,7 @@ def heatmap_analysis(mirna2age, mirna2disease, mirna2family, gene2age):
 	mir_notin_fam = []
 
 	for mir in mirna2age:
-		if mir not in mir_in_fam:
+		if mir not in flatten(mirna2family.values()):
 			mir_notin_fam.append(mir)
 
 
