@@ -1116,7 +1116,8 @@ def violin_comp_rel_ratio(gen_exlus_dic, hamming_df, tipo, xentry, df_name, new_
 
 
 	for alpha in hamming_df.index:
-		if alpha not 
+		if alpha not in new_df.index:
+			print alpha
 
 
 
