@@ -86,7 +86,11 @@ for gene in human_gene_ages:
 new_bins_mir = normalize(bins_mir)
 new_bins_gene = normalize(bins_tar)
 
-ind = np.arange(len(str_labels)) 
+ind = np.arange(len(str_labels))
+width = 0.35
+
+
+
 
 
 
