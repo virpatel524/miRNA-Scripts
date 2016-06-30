@@ -1121,7 +1121,11 @@ def heatmap_analysis(mirna2age, mirna2disease, mirna2family, gene2age):
 
 	for mirna in mir_notin_fam:
 		if mirna in mirna2disease:
-			count1 += 1
+			count2 += 1
+
+	print float(count1) / float(len(mir_in_fam))
+	print float(count2) / float(len(mir_notin_fam))
+
 
 
 
