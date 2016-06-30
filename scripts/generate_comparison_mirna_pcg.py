@@ -23,7 +23,7 @@ def import_pcg():
 	newlst = []
 
 	for alpha in precursor_data:
-		newlst.append(time_tree_data[alpha])
+		newlst.append(time_tree_dict[alpha])
 
 	print newlst
 
