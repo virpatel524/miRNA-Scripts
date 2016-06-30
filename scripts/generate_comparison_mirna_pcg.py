@@ -89,7 +89,9 @@ new_bins_gene = normalize(bins_tar)
 ind = np.arange(len(str_labels))
 width = 0.35
 
+fig, ax = plt.subplots()
 
+fig1 = plt.bar(ind, new_bins_mir, width=width)
 
 
 
