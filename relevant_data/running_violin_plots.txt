@@ -40,3 +40,8 @@ Hamming Related, Family, Expression
 0.129316770186 0.413952223461
 0.1 0.4
 MannwhitneyuResult(statistic=703754566.0, pvalue=0.0)
+
+
+Startify based on ratio:
+0.121692379684 0.067420126134
+0.0651753325272 0.0224036006986
