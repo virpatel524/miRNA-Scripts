@@ -101,21 +101,6 @@ def sort_mir(txt,txt2):
 		if len(new_lst) > 1:
 			human_mirlst[key] = new_lst
 
-
-	family_file_for_mirbase = open('/Users/virpatel/Desktop/pub_stuff/relevant_data/family_file_ph_selectmir.txt','w')
-
-	for i in famdict:
-		for mir in famdict[i]:
-			if mir != famdict[i][-1]:
-				family_file_for_mirbase.write('%s|mirBase:%s ' %(mir[:3], mir)) 
-			else: family_file_for_mirbase.write('%s|mirBase:%s\n' %(mir[:3], mir)) 
-
-	family_file_for_mirbase.close()
-
-
-
-
-
 	return mega_mir_lst, mirlst_by_species, human_mirlst 
 
 
@@ -130,8 +115,6 @@ def diseaese_parser(disease_txt):
 
 	return mirna2disease, disease2mirna	
 
-	
-	disease_txt.close()
 
 def age_parser(age_txt):
 	mirna2age = {}
@@ -142,11 +125,6 @@ def age_parser(age_txt):
 	for i in age_lst:
 		mirna2age[i[0]] = float(i[1])
 		age2mirna.setdefault(float(i[1]),[]).append(i[0])
-
-	with open('/Users/virpatel/Desktop/pub_stuff/relevant_data/hsa_all_mir_lst.txt','w') as mirlst:
-		for mirna in mirna2age:
-			mirlst.write(mirna + '\n')
-			
 
 
 	return mirna2age, age2mirna
