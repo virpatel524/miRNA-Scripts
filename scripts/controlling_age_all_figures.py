@@ -76,7 +76,7 @@ def clean_common_last(lst1, lst2, input_lst):
 	tmp = list(set(lst1).intersection(set(lst2)))
 	newlst = []
 	for a in input_lst:
-		if a[-1] in tmp:
+		if a[-2] in tmp:
 			newlst.append(a)
 
 	return newlst

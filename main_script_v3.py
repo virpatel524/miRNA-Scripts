@@ -16,6 +16,7 @@ from scipy.stats import spearmanr, mannwhitneyu
 from distance import hamming
 from numpy import mean, std, median
 import pandas as pd
+import jaccard
 
 sns.axes_style('whitegrid')
 sns.set_style("whitegrid")
@@ -600,7 +601,7 @@ def generate_matrix(db, str_rel):
 				continue
 			a = db.loc[item].tolist()
 			b = db.loc[secitem].tolist()
-			secdic[secitem] = hamming(a,b,normalized=True)
+			secdic[secitem] = jaccard.jaccard_calculate(a,b)
 
 		dic[item] = secdic
 
@@ -637,10 +638,10 @@ def target_gene_expression_analysis(mirna2age, mirna2disease,mirna2family,gene2a
 
 
 
-		# generate_matrix(mir_targetdb,'target_heatmap')
+		generate_matrix(mir_targetdb,'target_heatmap_jaccard')
 		# generate_matrix(mir_expdb,'tis_exp_heatmap')
 
-		# return
+		return
 
 
 
@@ -1274,8 +1275,8 @@ def main():
 
 
 	# master_tarlst = target_gene_dataframe(mirna2age, mirna2disease, mirna2tar, tar2age)
-
-	# target_gene_expression_analysis(mirna2age, mirna2disease,human_mirlst, tar2age)
+	print 'hi'
+	target_gene_expression_analysis(mirna2age, mirna2disease,human_mirlst, tar2age)
 
 
 	# mirna2disease_collapsed =  collapse_cancer_lst(mirna2disease)
@@ -1288,6 +1289,6 @@ def main():
 
 
 
-	heatmap_analysis(mirna2age, mirna2disease, mirna2family, gene2age)
+	# heatmap_analysis(mirna2age, mirna2disease, mirna2family, gene2age)
 
 main()
