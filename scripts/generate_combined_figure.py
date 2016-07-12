@@ -35,10 +35,13 @@ def genfig(lst, name, yax, xax, length):
 def show_jaccard_target():
 	family = []
 	non_family = []
+	all_mir = []
 	family_values = flatten(mirna2family.values())
 	for val in round_robyn_target.index:
 		for secval in round_robyn_target.index:
-			print val, secval
+			if val == secval: continue
+			
+
 
 
 
