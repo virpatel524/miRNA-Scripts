@@ -14,7 +14,7 @@ def db_gen():
 		if len(mirna2family[alpha]) > 3:
 			mirna2family_edited[alpha] = mirna2family[alpha]
 
-
+	mirna2family = mirna2family_edited.copy()
 
 	round_robyn_target = pd.read_csv('/Users/virpatel/Desktop/pub_stuff/relevant_data/target_heatmap_dataframe.txt', sep='\t',index_col=[0])
 	round_robyn_exp = pd.read_csv('/Users/virpatel/Desktop/pub_stuff/relevant_data/tis_exp_heatmap_dataframe.txt', sep='\t',index_col=[0])
@@ -22,8 +22,9 @@ def db_gen():
 	mir_targetdb = pd.read_csv('/Users/virpatel/Desktop/pub_stuff/relevant_data/mir_target_vectordb.txt', sep='\t',index_col=[0], encoding='utf-8')
 
 
-	return mirna2disease, mirna2age, mirna2family_edited, round_robyn_target, round_robyn_exp, mir_expdb, mir_targetdb
+	return mirna2disease, mirna2age, mirna2family, round_robyn_target, round_robyn_exp, mir_expdb, mir_targetdb
 
 
 
-db_gen()
+ mirna2disease, mirna2age, mirna2family, round_robyn_target, round_robyn_exp, mir_expdb, mir_targetdb = db_gen()
+
