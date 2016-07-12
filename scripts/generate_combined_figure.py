@@ -63,7 +63,8 @@ def show_jaccard_target():
 
 	new_comb_agestrat = join_age_strat(family, non_family)
 
-	genfig(all_mir, 'mirbinary', 'Tissue Hamming', , length)
+	genfig(all_mir, 'mirbinary', 'Tissue Hamming', 'miRNA Class', 2)
+	genfig(new_comb_agestrat, name, yax, xax, length)
 
 
 
