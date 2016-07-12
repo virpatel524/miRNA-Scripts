@@ -52,6 +52,7 @@ def genfig(lst, name, yax, xax, length):
 
 	if length == 3:
 		sys.exit()
+		print 'kalamazoo!!!!!!!'
 		tmp = pd.DataFrame(lst, columns=[yax, xax, 'miRNA Class'])
 		sns.violinplot(x=xax, y=yax, cut=0, data=tmp, hue='miRNA Class',  showfliers=False)
 		sns.plt.gca().set_ylim(yaxis_switch(name))
