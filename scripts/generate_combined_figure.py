@@ -38,7 +38,7 @@ def show_jaccard_target():
 	family_values = flatten(mirna2family.values())
 	for val in round_robyn_target.index:
 		for secval in round_robyn_target.index:
-			
+			print val, secval
 
 
 
