@@ -23,8 +23,6 @@ def yaxis_switch(str_name):
 			return [0, 1000]
 		else:
 			return [0, 1500]
-	if 'jac' in str_name:
-		return [0,1.0]
 	if 'disnum' in str_name:
 		if 'binary' in str_name:
 			return [0, 75]
