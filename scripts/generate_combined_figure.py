@@ -44,7 +44,8 @@ def show_jaccard_target():
 		for secval in round_robyn_target.index:
 			lstvar = False
 			if val == secval: continue
-			if val in family_values and 
+			if val in family_values and secval in reversed_dict[val]:
+				lstvar = True
 			all_mir.append([round_robyn_target[val][secval], mirna2age[val],  ])
 
 
