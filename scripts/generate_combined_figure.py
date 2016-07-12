@@ -52,7 +52,6 @@ def genfig(lst, name, yax, xax, length):
 
 	if length == 3:
 		tmp = pd.DataFrame(lst, columns=[yax, xax, 'miRNA Class'])
-		print tmp
 		sns.violinplot(x=xax, y=yax, cut=0, data=tmp, hue='miRNA Class',  showfliers=False)
 		sns.plt.gca().set_ylim(yaxis_switch(name))
 		sns.plt.savefig('../figures/before_meeting/%s_violin.pdf' %(name), bbox_inches='tight')
@@ -75,7 +74,7 @@ def show_jaccard_target():
 		for secval in round_robyn_target.index:
 			lstvar = 0
 			if val == secval: continue
-			if val not in mirna2age or secval not in mirna2age: continue
+			if val not in mirna2age: continue
 			if val in family_values and secval in reversed_dict[val]:
 				lstvar = True
 			if val not in family_values and secval not in family_values:
