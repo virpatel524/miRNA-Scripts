@@ -61,7 +61,9 @@ def show_jaccard_target():
 			if lstvar == False: non_family.append([round_robyn_target[val][secval], mirna2age[val], 'Non-Family'])
 
 
-	
+	new_comb_agestrat = join_age_strat(family, non_family)
+
+	genfig(all_mir, name, yax, xax, length)
 
 
 
