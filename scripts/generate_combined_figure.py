@@ -52,6 +52,7 @@ def genfig(lst, name, yax, xax, length):
 
 	if length == 3:
 		tmp = pd.DataFrame(lst, columns=[yax, xax, 'miRNA Class'])
+		print tmp
 		sns.violinplot(x=xax, y=yax, cut=0, data=tmp, hue='miRNA Class',  showfliers=False)
 		sns.plt.gca().set_ylim(yaxis_switch(name))
 		sns.plt.savefig('../figures/before_meeting/%s_violin.pdf' %(name), bbox_inches='tight')
