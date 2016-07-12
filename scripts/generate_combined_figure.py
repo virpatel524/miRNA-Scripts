@@ -33,7 +33,8 @@ def genfig(lst, name, yax, xax, length):
 		sns.plt.close()
 
 def show_jaccard_target():
-	
+	for val in round_robyn_target.index:
+		print round_robyn_target[val]
 
 
 
