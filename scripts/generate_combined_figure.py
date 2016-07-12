@@ -82,7 +82,8 @@ def show_jaccard_target():
 			if lstvar == True: 
 				family.append([round_robyn_target[val][secval], mirna2age[val], 'Family'])
 				all_mir.append([round_robyn_target[val][secval], mirna2age[val], 'Family'])
-			if lstvar == False: non_family.append([round_robyn_target[val][secval], mirna2age[val], 'Non-Family'])
+			if lstvar == False: 
+				non_family.append([round_robyn_target[val][secval], mirna2age[val], 'Non-Family'])
 				all_mir.append([round_robyn_target[val][secval], mirna2age[val], 'Non-Family'])
 
 
