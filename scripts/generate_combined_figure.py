@@ -34,6 +34,8 @@ def yaxis_switch(str_name):
 		if 'strat' in str_name:
 			return [0, 0.1]
 
+	
+
 
 
 
