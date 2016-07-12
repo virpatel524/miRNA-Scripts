@@ -33,13 +33,18 @@ def genfig(lst, name, yax, xax, length):
 		sns.plt.close()
 
 def show_jaccard_target():
+	reversed_dict = map_relatives(mirna2family)
+
+
 	family = []
 	non_family = []
 	all_mir = []
 	family_values = flatten(mirna2family.values())
 	for val in round_robyn_target.index:
 		for secval in round_robyn_target.index:
+			lstvar = False
 			if val == secval: continue
+			if val in family_values and 
 			all_mir.append([round_robyn_target[val][secval], mirna2age[val],  ])
 
 
