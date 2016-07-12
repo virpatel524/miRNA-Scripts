@@ -12,6 +12,8 @@ def join_age_strat(lst1, lst2):
 
 	newlst = [a for a in tmp if a[-2] in agelst]
 
+	return newlst
+
 
 def yaxis_switch(str_name):
 	if 'tisnum' in str_name:
@@ -30,9 +32,6 @@ def yaxis_switch(str_name):
 			return [0, 120]
 	if 'tarjac' in str_name:
 		return [0, 1.0]
-
-
-
 
 
 
