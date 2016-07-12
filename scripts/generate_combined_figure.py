@@ -38,6 +38,7 @@ def yaxis_switch(str_name):
 
 def genfig(lst, name, yax, xax, length):
 	if length == 2:
+		print lst
 		tmp = pd.DataFrame(lst, columns=[yax, xax])
 
 		sns.violinplot(x=xax, y=yax, cut=0, data=tmp, showfliers=False)
