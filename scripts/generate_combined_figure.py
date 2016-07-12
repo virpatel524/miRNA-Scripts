@@ -90,18 +90,6 @@ def show_jaccard_target():
 	genfig(all_mir, 'mirbinary_tarjac', 'Target Hamming', 'miRNA Class', 2)
 	genfig(new_comb_agestrat, 'mirstrat_tarjac', 'Target Hamming', 'Age (MY)', 3)
 
-
-
-
-
-
-
-
-
-
-
-
-
 def db_gen():
 	mirna2disease = parse_disease('../relevant_data/hmdd_database.txt')
 	mirna2age = parse_age('../relevant_data/mirna2age_lst.txt')
