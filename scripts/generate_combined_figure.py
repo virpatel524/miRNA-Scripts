@@ -51,7 +51,7 @@ def show_jaccard_target():
 		for secval in round_robyn_target.index:
 			lstvar = 0
 			if val == secval: continue
-			if val not in mirna2age and secval not in mirna2age: continue
+			if val not in mirna2age or secval not in mirna2age: continue
 			if val in family_values and secval in reversed_dict[val]:
 				lstvar = True
 			if val not in family_values and secval not in family_values:
