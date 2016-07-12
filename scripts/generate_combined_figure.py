@@ -44,7 +44,6 @@ def genfig(lst, name, yax, xax, length):
 		sns.plt.gca().set_ylim(yaxis_switch(name))
 		sns.plt.savefig('../figures/before_meeting/%s_violin.pdf' %(name), bbox_inches='tight')
 		sns.plt.close()
-		sys.exit()
 		sns.boxplot(x=xax, y=yax, data=tmp,  showfliers=False) 
 		sns.plt.gca().set_ylim(yaxis_switch(name))
 		sns.plt.savefig('../figures/before_meeting/%s_boxplot.pdf' %(name), bbox_inches='tight')
@@ -52,8 +51,6 @@ def genfig(lst, name, yax, xax, length):
 
 
 	if length == 3:
-		sys.exit()
-		print 'kalamazoo!!!!!!!'
 		tmp = pd.DataFrame(lst, columns=[yax, xax, 'miRNA Class'])
 		sns.violinplot(x=xax, y=yax, cut=0, data=tmp, hue='miRNA Class',  showfliers=False)
 		sns.plt.gca().set_ylim(yaxis_switch(name))
