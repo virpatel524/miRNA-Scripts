@@ -12,6 +12,29 @@ def join_age_strat(lst1, lst2):
 	newlst = [a for a in tmp if a[-2] in agelst]
 
 
+def yaxis_switch(str_name):
+	if 'tisnum' in str_name:
+		return [0,20]
+	if 'tarnum' in str_name:
+		if 'binary' in str_name:
+			return [0, 1000]
+		else:
+			return [0, 1500]
+	if 'jac' in str_name:
+		return [0,1.0]
+	if 'disnum' in str_name:
+		if 'binary' in str_name:
+			return [0, 75]
+		if 'strat' in str_name:
+			return [0, 120]
+	if 'tarjac' in str_name:
+		return [0, 1.0]
+
+
+
+
+
+
 
 def genfig(lst, name, yax, xax, length):
 	if length == 2:
