@@ -49,7 +49,7 @@ def show_jaccard_target():
 			if val not in family_values and secval not in family_values:
 				lstvar = False
 			all_mir.append([round_robyn_target[val][secval], mirna2age[val]])
-			if lstvar == True: 
+			if lstvar == True: family.append([round_robyn_target[val][secval], mirna2age[val]])
 
 
 
