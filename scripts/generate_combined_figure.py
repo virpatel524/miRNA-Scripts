@@ -34,7 +34,7 @@ def yaxis_switch(str_name):
 		if 'binary' in str_name:
 			return [0,0.1]
 		if 'strat' in str_name:
-			return 
+
 
 
 
@@ -90,8 +90,8 @@ def show_jaccard_target():
 
 
 	new_comb_agestrat = join_age_strat(family, non_family)
-	genfig(all_mir, 'mirbinary_tarjac', 'Target Hamming', 'miRNA Class', 2)
-	genfig(new_comb_agestrat, 'mirstrat_tarjac', 'Target Hamming', 'Age (MY)', 3)
+	genfig(all_mir, 'mirbinary_tarjac', 'Target Jaccard', 'miRNA Class', 2)
+	genfig(new_comb_agestrat, 'mirstrat_tarjac', 'Target Jaccard', 'Age (MY)', 3)
 
 def db_gen():
 	mirna2disease = parse_disease('../relevant_data/hmdd_database.txt')
