@@ -40,6 +40,7 @@ def genfig(lst, name, yax, xax, length):
 	if length == 2:
 		tmp = pd.DataFrame(lst, columns=[yax, xax])
 		sns.violinplot(x=xax, y=yax, cut=0, data=tmp, showfliers=False)
+		sys.exit()
 		sns.plt.gca().set_ylim(yaxis_switch(name))
 		sns.plt.savefig('../figures/before_meeting/%s_violin.pdf' %(name), bbox_inches='tight')
 		sns.plt.close()
