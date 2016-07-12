@@ -31,7 +31,10 @@ def yaxis_switch(str_name):
 		if 'strat' in str_name:
 			return [0, 120]
 	if 'tarjac' in str_name:
-		return [0, 1.0]
+		if 'binary' in str_name:
+			return [0,0.1]
+		if 'strat' in str_name:
+			return 
 
 
 
@@ -50,8 +53,6 @@ def genfig(lst, name, yax, xax, length):
 
 
 	if length == 3:
-		print lst
-		print len(lst)
 		tmp = pd.DataFrame(lst, columns=[yax, xax, 'miRNA Class'])
 		sns.violinplot(x=xax, y=yax, cut=0, data=tmp, hue='miRNA Class',  showfliers=False)
 		sns.plt.gca().set_ylim(yaxis_switch(name))
