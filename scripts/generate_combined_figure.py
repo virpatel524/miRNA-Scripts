@@ -4,7 +4,7 @@ import csv
 from data_import import *
 
 
-def show_jaccard_target:
+def show_jaccard_target():
 	print mirna2family
 
 
