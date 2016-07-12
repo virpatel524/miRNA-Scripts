@@ -33,8 +33,13 @@ def genfig(lst, name, yax, xax, length):
 		sns.plt.close()
 
 def show_jaccard_target():
+	family = []
+	non_family = []
 	family_values = flatten(mirna2family.values())
 	for val in round_robyn_target.index:
+		for secval in round_robyn_target.index:
+			
+
 
 
 
