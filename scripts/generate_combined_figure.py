@@ -1,7 +1,7 @@
 import pandas as pd
 import seaborn as sns
 import csv
-from data_import 
+from data_import import *
 
 def data_import():
 	mirna2disease = parse_disease('../relevant_data/hmdd_database.txt')
