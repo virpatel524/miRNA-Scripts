@@ -42,11 +42,15 @@ def show_jaccard_target():
 	family_values = flatten(mirna2family.values())
 	for val in round_robyn_target.index:
 		for secval in round_robyn_target.index:
-			lstvar = False
+			lstvar = 0
 			if val == secval: continue
 			if val in family_values and secval in reversed_dict[val]:
 				lstvar = True
-			all_mir.append([round_robyn_target[val][secval], mirna2age[val],  ])
+			if val not in family_values and secval not in family_values:
+				lstvar = False
+			all_mir.append([round_robyn_target[val][secval], mirna2age[val]])
+			
+
 
 
 
