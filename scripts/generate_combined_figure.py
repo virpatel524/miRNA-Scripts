@@ -3,6 +3,13 @@ import seaborn as sns
 import csv
 from data_import import *
 
+def join_age_strat(lst1, lst2):
+	tmp = lst1 + lst2
+	ageset1 = set([a[-2] for a in lst1])
+	ageset2 = set([a[-2] for a in lst2])
+	agelst = list(ageset1.intersection(ageset2))
+
+	newlst = [a for a in tmp if a[-2] in agelst]
 
 
 
@@ -53,7 +60,7 @@ def show_jaccard_target():
 			if lstvar == True: family.append([round_robyn_target[val][secval], mirna2age[val], 'Family'])
 			if lstvar == False: non_family.append([round_robyn_target[val][secval], mirna2age[val], 'Non-Family'])
 
-	
+
 
 
 
