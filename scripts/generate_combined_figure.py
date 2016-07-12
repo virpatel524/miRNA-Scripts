@@ -44,7 +44,7 @@ def genfig(lst, name, yax, xax, length):
 		sns.plt.gca().set_ylim(yaxis_switch(name))
 		sns.plt.savefig('../figures/before_meeting/%s_violin.pdf' %(name), bbox_inches='tight')
 		sns.plt.close()
-		sys.close()
+		sys.exit()
 		sns.boxplot(x=xax, y=yax, data=tmp,  showfliers=False) 
 		sns.plt.gca().set_ylim(yaxis_switch(name))
 		sns.plt.savefig('../figures/before_meeting/%s_boxplot.pdf' %(name), bbox_inches='tight')
