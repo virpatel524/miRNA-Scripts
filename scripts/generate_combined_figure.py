@@ -3,6 +3,16 @@ import seaborn as sns
 import csv
 from data_import import *
 
+
+def show_jaccard_target:
+	print mirna2family
+
+
+
+
+
+
+
 def db_gen():
 	mirna2disease = parse_disease('../relevant_data/hmdd_database.txt')
 	mirna2age = parse_age('../relevant_data/mirna2age_lst.txt')
@@ -27,6 +37,5 @@ def db_gen():
 
 
 mirna2disease, mirna2age, mirna2family, round_robyn_target, round_robyn_exp, mir_expdb, mir_targetdb = db_gen()
+show_jaccard_target()
 
-
-print mirna2disease
