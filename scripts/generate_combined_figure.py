@@ -34,6 +34,7 @@ def yaxis_switch(str_name):
 		if 'binary' in str_name:
 			return [0,0.1]
 		if 'strat' in str_name:
+			return [0, 0.1]
 
 
 
