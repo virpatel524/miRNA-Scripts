@@ -40,7 +40,7 @@ def show_jaccard_target():
 	for val in round_robyn_target.index:
 		for secval in round_robyn_target.index:
 			if val == secval: continue
-			
+			all_mir.append([round_robyn_target[val][secval], mirna2age[val],  ])
 
 
 
