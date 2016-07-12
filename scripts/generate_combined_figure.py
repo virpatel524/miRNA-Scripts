@@ -26,3 +26,4 @@ def db_gen():
 
 
 
+db_gen()
