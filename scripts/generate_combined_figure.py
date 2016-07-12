@@ -79,9 +79,12 @@ def show_jaccard_target():
 				lstvar = True
 			if val not in family_values and secval not in family_values:
 				lstvar = False
-			all_mir.append([round_robyn_target[val][secval], mirna2age[val]])
-			if lstvar == True: family.append([round_robyn_target[val][secval], mirna2age[val], 'Family'])
+			if lstvar == True: 
+				family.append([round_robyn_target[val][secval], mirna2age[val], 'Family'])
+				all_mir.append([round_robyn_target[val][secval], mirna2age[val], 'Family'])
 			if lstvar == False: non_family.append([round_robyn_target[val][secval], mirna2age[val], 'Non-Family'])
+				all_mir.append([round_robyn_target[val][secval], mirna2age[val], 'Family'])
+
 
 
 	new_comb_agestrat = join_age_strat(family, non_family)
