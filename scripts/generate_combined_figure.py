@@ -3,7 +3,7 @@ import seaborn as sns
 import csv
 from data_import import *
 
-def data_import():
+def db_gen():
 	mirna2disease = parse_disease('../relevant_data/hmdd_database.txt')
 	mirna2age = parse_age('../relevant_data/mirna2age_lst.txt')
 	mirna2family = parse_families('../relevant_data/miFam.dat')
