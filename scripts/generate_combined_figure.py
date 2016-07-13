@@ -140,6 +140,8 @@ def genfig(lst, name, yax, xax, length):
 		sns.plt.close()
 
 def genfig_v2():
+	mirbinary_disjac = parsetxt('../relevant_data/precursor_pd/mirbinary_disjac')
+	mirbinary_expjac = parsetxt('../relevant_data/precursor_pd/mirbinary_disjac')
 
 
 
