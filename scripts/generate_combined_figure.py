@@ -292,10 +292,10 @@ def simple_family_nofamily():
 
 
 	for pair in fampair:
-		mirfamval_disjac.append(jaccard(   generate_class_vector(dislst, mirna2disease[pair[0]]),  generate_class_vector(dislst, mirna2disease[pair[1]])))
+		mirfamval_disjac.append(jaccard_calculate(   generate_class_vector(dislst, mirna2disease[pair[0]]),  generate_class_vector(dislst, mirna2disease[pair[1]])))
 
 	for pair in nonfampair:
-		mirnofamval_disjac.append(jaccard(   generate_class_vector(dislst, mirna2disease[pair[0]]),  generate_class_vector(dislst, mirna2disease[pair[1]])))
+		mirnofamval_disjac.append(jaccard_calculate(   generate_class_vector(dislst, mirna2disease[pair[0]]),  generate_class_vector(dislst, mirna2disease[pair[1]])))
 
 
 	mod_mirfamval_disjac = add_end_cat(mirfamval_disjac, 'Family')
