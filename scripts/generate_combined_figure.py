@@ -128,7 +128,7 @@ def db_gen():
 
 
 def simple_family_nofamily(mirna2disease, mirna2age,mirna2family, round_robyn_target, round_robyn_exp, mir_expdb, mir_targetdb):
-	argslst = []
+	argslst_nums = []
 
 	fam_mir_lst = flatten(mirna2family.values())
 	reverse_mirdict = map_relatives(mirna2family)
@@ -150,6 +150,9 @@ def simple_family_nofamily(mirna2disease, mirna2age,mirna2family, round_robyn_ta
 
 
 	genfig(join_simple(mod_mirfamval_disnum, mod_mirnofamval_disnum), 'mirbinary_disnum', 'Number of Diseases', 'miRNA Class', 2)
+
+	argslst.append([])
+
 
 	mirfamval_targetnum = []
 	mirnofamval_targetnum = []
