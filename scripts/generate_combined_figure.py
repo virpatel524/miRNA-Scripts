@@ -407,11 +407,7 @@ def stratage(mirna2disease, mirna2age,mirna2family, round_robyn_target, round_ro
 
 	genfig(join_age_strat(mod_mirfamval_tarham, mod_mirnofamval_tarham), 'mirstrat_tarham', 'Targets Hamming', 'Age (MY)', 3)
 
-
-
-
-
-
+	argslst_jac.append(join_age_strat(mod_mirfamval_tarham, mod_mirnofamval_tarham))
 
 
 def diseases_strat(mirna2disease, mirna2age,mirna2family, round_robyn_target, round_robyn_exp, mir_expdb, mir_targetdb):
