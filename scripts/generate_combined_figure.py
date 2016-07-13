@@ -405,7 +405,7 @@ def stratage(mirna2disease, mirna2age,mirna2family, round_robyn_target, round_ro
 	mod_mirnofamval_tarham = add_end_cat(mirnofamval_tarham, 'Non-Family')
 
 
-	genfig(join_age_strat(mod_mirfamval_tarham, mod_mirnofamval_tarham), 'mirstrat_tarham', 'Targets Hamming', 'Age (MY)', 3)
+	genfig(join_age_strat(mod_mirfamval_tarham, mod_mirnofamval_tarham), 'mirstrat_tarham', 'Targets Jaccard', 'Age (MY)', 3)
 
 	argslst_jac.append(join_age_strat(mod_mirfamval_tarham, mod_mirnofamval_tarham))
 
