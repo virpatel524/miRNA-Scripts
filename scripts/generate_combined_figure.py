@@ -243,6 +243,7 @@ def simple_family_nofamily(mirna2disease, mirna2age,mirna2family, round_robyn_ta
 	genfig(join_simple(mod_mirfamval_expjac, mod_mirnofamval_expjac), 'mirbinary_tisjac', 'Jaccard Tissues', 'miRNA Class', 2)
 
 
+	argslst_jac.append(join_simple(mod_mirfamval_expjac, mod_mirnofamval_expjac))
 
 	fampair, nonfampair = genpairs(reverse_mirdict, round_robyn_target.index)
 
