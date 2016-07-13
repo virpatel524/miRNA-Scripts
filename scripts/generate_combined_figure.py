@@ -141,7 +141,9 @@ def genfig(lst, name, yax, xax, length):
 
 def genfig_v2():
 	mirbinary_disjac = parsetxt('../relevant_data/precursor_pd/mirbinary_disjac')
-	mirbinary_expjac = parsetxt('../relevant_data/precursor_pd/mirbinary_disjac')
+	mirbinary_expjac = parsetxt('../relevant_data/precursor_pd/mirbinary_expjac')
+	mirbinary_tarjac = parsetxt('../relevant_data/precursor_pd/mirbinary_tarjac')
+	
 
 
 
