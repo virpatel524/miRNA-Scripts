@@ -466,7 +466,7 @@ def stratage():
 		mirfamval_disjac.append([jaccard_calculate(   generate_class_vector(dislst, mirna2disease[pair[0]]),  generate_class_vector(dislst, mirna2disease[pair[1]])), pair[-2]])
 
 	for pair in nonfampair:
-		mirnofamval_disjac.append([jaccard( generate_class_vector(dislst, mirna2disease[pair[0]]),  generate_class_vector(dislst, mirna2disease[pair[1]])), pair[-2]])
+		mirnofamval_disjac.append([jaccard_calculate( generate_class_vector(dislst, mirna2disease[pair[0]]),  generate_class_vector(dislst, mirna2disease[pair[1]])), pair[-2]])
 
 	mod_mirfamval_disjac = add_end_cat(mirfamval_disjac, 'Family')
 	mod_mirnofamval_disjac = add_end_cat(mirnofamval_disjac, 'Non-Family')
@@ -491,7 +491,7 @@ def stratage():
 	mirnofamval_expjac = []
 
 	for pair in fampair:
-		mirfamval_expjac.append([jaccard(mir_expdb.loc[pair[0]].tolist(),mir_expdb.loc[pair[1]].tolist()), pair[-2]])
+		mirfamval_expjac.append([jaccard_calculate(mir_expdb.loc[pair[0]].tolist(),mir_expdb.loc[pair[1]].tolist()), pair[-2]])
 
 	for pair in nonfampair:
 		mirnofamval_expjac.append([jaccard(mir_expdb.loc[pair[0]].tolist(),mir_expdb.loc[pair[1]].tolist()), pair[-2]])
