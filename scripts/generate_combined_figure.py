@@ -218,7 +218,16 @@ def simple_family_nofamily():
 
 	genfig(join_simple(mod_mirfamval_disnum, mod_mirnofamval_disnum), 'mirbinary_disnum', 'Number of Diseases', 'miRNA Class', 2)
 
-	argslst_nums.append(join_simple(mod_mirfamval_disnum, mod_mirnofamval_disnum))
+	tmplst = join_simple(mod_mirfamval_disnum, mod_mirnofamval_disnum)
+
+	with open('../relevant_data/precursor_pd/mirstrat_disnum.txt', 'wb') as myfile:
+		wr = csv.writer(myfile, quoting=csv.QUOTE_ALL)
+		wr.writerow(tmplst)
+
+
+
+
+
 
 
 	mirfamval_targetnum = []
@@ -238,7 +247,7 @@ def simple_family_nofamily():
 
 	genfig(join_simple(mod_mirfamval_tarnum, mod_mirnofamval_tarnum), 'mirbinary_tarnum', 'Number of Targets', 'miRNA Class', 2)
 
-	argslst_nums.append(join_simple(mod_mirfamval_tarnum, mod_mirnofamval_tarnum))
+	tmplst = join_simple(mod_mirfamval_tarnum, mod_mirnofamval_tarnum)
 
 
 	mirfamval_expnum = []
