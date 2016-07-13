@@ -303,8 +303,11 @@ def simple_family_nofamily():
 
 	genfig(join_simple(mod_mirfamval_disjac, mod_mirnofamval_disjac), 'mirbinary_disjac', 'Jaccard Diseases', 'miRNA Class', 2)
 
-	argslst_jac.append(join_simple(mod_mirfamval_disjac, mod_mirnofamval_disjac))
+	tmplst = join_simple(mod_mirfamval_disjac, mod_mirnofamval_disjac)
 
+	with open('../relevant_data/precursor_pd/mirbinary_disjac', 'wb') as myfile:
+		wr = csv.writer(myfile, quoting=csv.QUOTE_ALL)
+		wr.writerow(tmplst)
 	## expression jaccard
 
 	fampair, nonfampair = genpairs(reverse_mirdict, mir_expdb.index)
@@ -327,8 +330,11 @@ def simple_family_nofamily():
 	genfig(join_simple(mod_mirfamval_expjac, mod_mirnofamval_expjac), 'mirbinary_tisjac', 'Jaccard Tissues', 'miRNA Class', 2)
 
 
-	argslst_jac.append(join_simple(mod_mirfamval_expjac, mod_mirnofamval_expjac))
+	tmplst = join_simple(mod_mirfamval_expjac, mod_mirnofamval_expjac)
 
+	with open('../relevant_data/precursor_pd/mirbinary_expjac', 'wb') as myfile:
+		wr = csv.writer(myfile, quoting=csv.QUOTE_ALL)
+		wr.writerow(tmplst)
 	fampair, nonfampair = genpairs(reverse_mirdict, round_robyn_target.index)
 
 
