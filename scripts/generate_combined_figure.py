@@ -127,7 +127,7 @@ def db_gen():
 
 
 
-def simple_family_nofamily(mirna2disease, mirna2age,mirna2family, round_robyn_target, round_robyn_exp, mir_expdb, mir_targetdb):
+def simple_family_nofamily():
 	argslst_nums = []
 	argslst_jac = []
 
