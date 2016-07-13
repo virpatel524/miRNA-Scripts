@@ -267,6 +267,8 @@ def simple_family_nofamily(mirna2disease, mirna2age,mirna2family, round_robyn_ta
 
 def stratage(mirna2disease, mirna2age,mirna2family, round_robyn_target, round_robyn_exp, mir_expdb, mir_targetdb):
 
+	argslst_nums = []
+	argslst_jac = []
 
 	fam_mir_lst = flatten(mirna2family.values())
 	reverse_mirdict = map_relatives(mirna2family)
