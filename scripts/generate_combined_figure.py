@@ -265,7 +265,7 @@ def simple_family_nofamily(mirna2disease, mirna2age,mirna2family, round_robyn_ta
 	genfig(join_simple(mod_mirfamval_tarjac, mod_mirnofamval_tarjac), 'mirbinary_tarjac', 'Jaccard Targets', 'miRNA Class', 2)
 	argslst_jac.append(join_simple(mod_mirfamval_tarjac, mod_mirnofamval_tarjac))
 
-def stratage(mirna2disease, mirna2age,mirna2family, round_robyn_target, round_robyn_exp, mir_expdb, mir_targetdb):
+def stratage():
 
 	argslst_nums = []
 	argslst_jac = []
@@ -410,7 +410,7 @@ def stratage(mirna2disease, mirna2age,mirna2family, round_robyn_target, round_ro
 	argslst_jac.append(join_age_strat(mod_mirfamval_tarjac, mod_mirnofamval_tarjac))
 
 
-def diseases_strat(mirna2disease, mirna2age,mirna2family, round_robyn_target, round_robyn_exp, mir_expdb, mir_targetdb):
+def diseases_strat():
 
 
 	fam_mir_lst = flatten(mirna2family.values())
