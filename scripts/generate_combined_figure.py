@@ -220,7 +220,7 @@ def simple_family_nofamily():
 
 	tmplst = join_simple(mod_mirfamval_disnum, mod_mirnofamval_disnum)
 
-	with open('../relevant_data/precursor_pd/mirstrat_disnum.txt', 'wb') as myfile:
+	with open('../relevant_data/precursor_pd/mirstrat_disnum', 'wb') as myfile:
 		wr = csv.writer(myfile, quoting=csv.QUOTE_ALL)
 		wr.writerow(tmplst)
 
