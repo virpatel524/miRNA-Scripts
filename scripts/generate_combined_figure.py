@@ -115,6 +115,359 @@ def db_gen():
 
 	return mirna2disease, mirna2age, mirna2family, round_robyn_target, round_robyn_exp, mir_expdb, mir_targetdb
 
+
+
+
+
+
+
+
+
+
+
+
+
+def simple_family_nofamily(mirna2disease, mirna2age,mirna2family, round_robyn_target, round_robyn_exp, mir_expdb, mir_targetdb):
+
+	fam_mir_lst = flatten(mirna2family.values())
+	reverse_mirdict = map_relatives(mirna2family)
+
+
+	## disease number
+	mirfamval_disnum = []
+	mirnofamval_disnum = []
+
+	for mirna in mirna2disease:
+		if mirna in fam_mir_lst:
+			mirfamval_disnum.append(len(mirna2disease[mirna]))
+		else:
+			mirnofamval_disnum.append(len(mirna2disease[mirna]))
+
+
+	mod_mirfamval_disnum = add_end_cat(mirfamval_disnum, 'Family')
+	mod_mirnofamval_disnum = add_end_cat(mirnofamval_disnum, 'Non-Family')
+
+
+	genfig(join_simple(mod_mirfamval_disnum, mod_mirnofamval_disnum), 'mirbinary_disnum', 'Number of Diseases', 'miRNA Class', 2)
+
+	mirfamval_targetnum = []
+	mirnofamval_targetnum = []
+
+
+
+	for mirna in mir_targetdb.index:
+		if mirna in fam_mir_lst:
+			mirfamval_targetnum.append(sum(mir_targetdb.loc[mirna].tolist()))
+		else:
+			mirnofamval_targetnum.append(sum(mir_targetdb.loc[mirna].tolist()))
+
+	mod_mirfamval_tarnum = add_end_cat(mirfamval_targetnum, 'Family')
+	mod_mirnofamval_tarnum = add_end_cat(mirnofamval_targetnum, 'Non-Family')
+
+
+	genfig(join_simple(mod_mirfamval_tarnum, mod_mirnofamval_tarnum), 'mirbinary_tarnum', 'Number of Targets', 'miRNA Class', 2)
+
+
+
+	mirfamval_expnum = []
+	mirnofamval_expnum = []
+
+
+
+	for mirna in mir_expdb.index:
+		if mirna in fam_mir_lst:
+			mirfamval_expnum.append(sum(mir_expdb.loc[mirna].tolist()))
+		else:
+			mirnofamval_expnum.append(sum(mir_expdb.loc[mirna].tolist()))
+
+
+	mod_mirfamval_expnum = add_end_cat(mirfamval_expnum, 'Family')
+	mod_mirnofamval_expnum = add_end_cat(mirnofamval_expnum, 'Non-Family')
+
+
+	genfig(join_simple(mod_mirfamval_expnum, mod_mirnofamval_expnum), 'mirbinary_tisnum', 'Number of Tissues', 'miRNA Class', 2)
+
+
+
+
+	fampair, nonfampair = genpairs(reverse_mirdict, mirna2disease.keys())
+
+
+
+	## disease jaccard 
+
+	mirfamval_disjac = []
+	mirnofamval_disjac = []
+	dislst = flatten(mirna2disease.values())
+
+
+
+
+	for pair in fampair:
+		mirfamval_disjac.append(jaccard(   generate_class_vector(dislst, mirna2disease[pair[0]]),  generate_class_vector(dislst, mirna2disease[pair[1]])))
+
+	for pair in nonfampair:
+		mirnofamval_disjac.append(jaccard(   generate_class_vector(dislst, mirna2disease[pair[0]]),  generate_class_vector(dislst, mirna2disease[pair[1]])))
+
+
+	mod_mirfamval_disjac = add_end_cat(mirfamval_disjac, 'Family')
+	mod_mirnofamval_disjac = add_end_cat(mirnofamval_disjac, 'Non-Family')
+
+	genfig(join_simple(mod_mirfamval_disjac, mod_mirnofamval_disjac), 'mirbinary_disjac', 'Jaccard Diseases', 'miRNA Class', 2)
+
+
+	## expression jaccard
+
+	fampair, nonfampair = genpairs(reverse_mirdict, mir_expdb.index)
+
+
+	mirfamval_expjac = []
+	mirnofamval_expjac = []
+
+	for pair in fampair:
+		mirfamval_expjac.append(jaccard(mir_expdb.loc[pair[0]].tolist(),mir_expdb.loc[pair[1]].tolist()))
+
+	for pair in nonfampair:
+		mirnofamval_expjac.append(jaccard(mir_expdb.loc[pair[0]].tolist(),mir_expdb.loc[pair[1]].tolist()))
+
+
+	mod_mirfamval_expjac = add_end_cat(mirfamval_expjac, 'Family')
+	mod_mirnofamval_expjac = add_end_cat(mirnofamval_expjac, 'Non-Family')
+
+
+	genfig(join_simple(mod_mirfamval_expjac, mod_mirnofamval_expjac), 'mirbinary_tisjac', 'Jaccard Tissues', 'miRNA Class', 2)
+
+
+
+	fampair, nonfampair = genpairs(reverse_mirdict, round_robyn_target.index)
+
+
+	mirfamval_tarham = []
+	mirnofamval_tarham = []
+
+	for pair in fampair:
+		mirfamval_tarham.append(round_robyn_target[pair[0]][pair[1]])
+
+	for pair in nonfampair:
+		mirnofamval_tarham.append(round_robyn_target[pair[0]][pair[1]])
+
+
+	mod_mirfamval_tarham = add_end_cat(mirfamval_tarham, 'Family')
+	mod_mirnofamval_tarham = add_end_cat(mirnofamval_tarham, 'Non-Family')
+
+
+	genfig(join_simple(mod_mirfamval_tarham, mod_mirnofamval_tarham), 'mirbinary_tarham', 'Hamming Targets', 'miRNA Class', 2)
+
+
+
+def stratage(mirna2disease, mirna2age,mirna2family, round_robyn_target, round_robyn_exp, mir_expdb, mir_targetdb):
+
+
+	fam_mir_lst = flatten(mirna2family.values())
+	reverse_mirdict = map_relatives(mirna2family)
+
+
+	## disease number
+	mirfamval_disnum = []
+	mirnofamval_disnum = []
+
+	for mirna in mirna2disease:
+		if mirna not in mirna2age: continue
+		if mirna in fam_mir_lst:
+			mirfamval_disnum.append([len(mirna2disease[mirna]), mirna2age[mirna]])
+		else:
+			mirnofamval_disnum.append([len(mirna2disease[mirna]), mirna2age[mirna]])
+
+
+	mod_mirfamval_disnum = add_end_cat(mirfamval_disnum, 'Family')
+	mod_mirnofamval_disnum = add_end_cat(mirnofamval_disnum, 'Non-Family')
+
+
+	genfig(join_age_strat(mod_mirfamval_disnum, mod_mirnofamval_disnum), 'mirstrat_disnum', 'Number of Diseases', 'Age (MY)', 3)
+
+
+
+
+	mirfamval_targetnum = []
+	mirnofamval_targetnum = []
+
+
+
+
+
+	for mirna in mir_targetdb.index:
+		if mirna not in mirna2age: continue
+		if mirna in fam_mir_lst:
+			mirfamval_targetnum.append([sum(mir_targetdb.loc[mirna].tolist()), mirna2age[mirna]])
+		else:
+			mirnofamval_targetnum.append([sum(mir_targetdb.loc[mirna].tolist()), mirna2age[mirna]])
+
+
+	mod_mirfamval_tarnum = add_end_cat(mirfamval_targetnum, 'Family')
+	mod_mirnofamval_tarnum = add_end_cat(mirnofamval_targetnum, 'Non-Family')
+
+
+	genfig(join_age_strat(mod_mirfamval_tarnum, mod_mirnofamval_tarnum), 'mirstrat_tarnum', 'Number of Targets', 'Age (MY)', 3)
+
+
+
+	mirfamval_expnum = []
+	mirnofamval_expnum = []
+
+
+
+	for mirna in mir_expdb.index:
+		if mirna not in mirna2age: continue
+		if mirna in fam_mir_lst:
+			mirfamval_expnum.append([sum(mir_expdb.loc[mirna].tolist()), mirna2age[mirna]])
+		else:
+			mirnofamval_expnum.append([sum(mir_expdb.loc[mirna].tolist()), mirna2age[mirna]])
+
+
+	mod_mirfamval_expnum = add_end_cat(mirfamval_expnum, 'Family')
+	mod_mirnofamval_expnum = add_end_cat(mirnofamval_expnum, 'Non-Family')
+
+
+	genfig(join_age_strat(mod_mirfamval_expnum, mod_mirnofamval_expnum), 'mirstrat_tisnum', 'Number of Tissues', 'Age (MY)', 3)
+
+
+
+
+
+	fampair, nonfampair = genpairs_agestrat(reverse_mirdict, mirna2disease.keys(), mirna2age)
+
+
+	## disease jaccard 
+
+	mirfamval_disjac = []
+	mirnofamval_disjac = []
+	dislst = flatten(mirna2disease.values())
+
+	for pair in fampair:
+		mirfamval_disjac.append([jaccard(   generate_class_vector(dislst, mirna2disease[pair[0]]),  generate_class_vector(dislst, mirna2disease[pair[1]])), pair[-2]])
+
+	for pair in nonfampair:
+		mirnofamval_disjac.append([jaccard( generate_class_vector(dislst, mirna2disease[pair[0]]),  generate_class_vector(dislst, mirna2disease[pair[1]])), pair[-2]])
+
+	mod_mirfamval_disjac = add_end_cat(mirfamval_disjac, 'Family')
+	mod_mirnofamval_disjac = add_end_cat(mirnofamval_disjac, 'Non-Family')
+
+
+	genfig(join_age_strat(mod_mirfamval_disjac, mod_mirnofamval_disjac), 'mirstrat_disjac', 'Disease Jaccard', 'Age (MY)', 3)
+
+
+
+	## expression jaccard
+
+
+	fampair, nonfampair = genpairs_agestrat(reverse_mirdict, mir_expdb.index, mirna2age)
+
+
+	mirfamval_expjac = []
+	mirnofamval_expjac = []
+
+	for pair in fampair:
+		mirfamval_expjac.append([jaccard(mir_expdb.loc[pair[0]].tolist(),mir_expdb.loc[pair[1]].tolist()), pair[-2]])
+
+	for pair in nonfampair:
+		mirnofamval_expjac.append([jaccard(mir_expdb.loc[pair[0]].tolist(),mir_expdb.loc[pair[1]].tolist()), pair[-2]])
+
+
+	mod_mirfamval_expjac = add_end_cat(mirfamval_expjac, 'Family')
+	mod_mirnofamval_expjac = add_end_cat(mirnofamval_expjac, 'Non-Family')
+
+
+	genfig(join_age_strat(mod_mirfamval_expjac, mod_mirnofamval_expjac), 'mirstrat_tisjac', 'Tissues Jaccard', 'Age (MY)', 3)
+
+
+
+	fampair, nonfampair = genpairs_agestrat(reverse_mirdict, round_robyn_target.index, mirna2age)
+
+
+
+
+	mirfamval_tarham = []
+	mirnofamval_tarham = []
+
+	for pair in fampair:
+		mirfamval_tarham.append([round_robyn_target[pair[0]][pair[1]], pair[-2]])
+
+	for pair in nonfampair:
+		mirnofamval_tarham.append([round_robyn_target[pair[0]][pair[1]], pair[-2]])
+
+
+
+	mod_mirfamval_tarham = add_end_cat(mirfamval_tarham, 'Family')
+	mod_mirnofamval_tarham = add_end_cat(mirnofamval_tarham, 'Non-Family')
+
+
+	genfig(join_age_strat(mod_mirfamval_tarham, mod_mirnofamval_tarham), 'mirstrat_tarham', 'Targets Hamming', 'Age (MY)', 3)
+
+
+
+
+
+
+
+
+def diseases_strat(mirna2disease, mirna2age,mirna2family, round_robyn_target, round_robyn_exp, mir_expdb, mir_targetdb):
+
+
+	fam_mir_lst = flatten(mirna2family.values())
+	reverse_mirdict = map_relatives(mirna2family)
+
+
+
+	## disease number
+	mirfamval_disnum = []
+	mirnofamval_disnum = []
+
+	for mirna in mirna2disease:
+		if mirna not in mirna2age: continue
+		if mirna in fam_mir_lst:
+			mirfamval_disnum.append([len(mirna2disease[mirna]), mirna2age[mirna]])
+		else:
+			mirnofamval_disnum.append([len(mirna2disease[mirna]), mirna2age[mirna]])
+
+
+	mod_mirfamval_disnum = add_end_cat(mirfamval_disnum, 'Family')
+	mod_mirnofamval_disnum = add_end_cat(mirnofamval_disnum, 'Non-Family')
+
+
+	genfig(join_age_strat(mod_mirfamval_disnum, mod_mirnofamval_disnum), 'mirstrat_disnum_collapse', 'Number of Diseases', 'Age (MY)', 3)
+
+
+
+
+	fampair, nonfampair = genpairs_agestrat(reverse_mirdict, mirna2disease.keys(), mirna2age)
+
+
+	## disease jaccard 
+
+	mirfamval_disjac = []
+	mirnofamval_disjac = []
+	dislst = flatten(mirna2disease.values())
+
+	for pair in fampair:
+		mirfamval_disjac.append([jaccard(   generate_class_vector(dislst, mirna2disease[pair[0]]),  generate_class_vector(dislst, mirna2disease[pair[1]])), pair[-2]])
+
+	for pair in nonfampair:
+		mirnofamval_disjac.append([jaccard( generate_class_vector(dislst, mirna2disease[pair[0]]),  generate_class_vector(dislst, mirna2disease[pair[1]])), pair[-2]])
+
+	mod_mirfamval_disjac = add_end_cat(mirfamval_disjac, 'Family')
+	mod_mirnofamval_disjac = add_end_cat(mirnofamval_disjac, 'Non-Family')
+
+
+	genfig(join_age_strat(mod_mirfamval_disjac, mod_mirnofamval_disjac), 'mirstrat_disjac_collapse', 'Disease Jaccard', 'Age (MY)', 3)
+
+
+
+
+
+
+
+
+
 mirna2disease, mirna2age, mirna2family, round_robyn_target, round_robyn_exp, mir_expdb, mir_targetdb = db_gen()
 show_jaccard_target()
 
