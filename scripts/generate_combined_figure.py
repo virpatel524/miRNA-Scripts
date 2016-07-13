@@ -291,7 +291,7 @@ def stratage(mirna2disease, mirna2age,mirna2family, round_robyn_target, round_ro
 
 
 	genfig(join_age_strat(mod_mirfamval_disnum, mod_mirnofamval_disnum), 'mirstrat_disnum', 'Number of Diseases', 'Age (MY)', 3)
-
+	argslst_nums.append(join_age_strat(mod_mirfamval_disnum, mod_mirnofamval_disnum))
 
 
 
