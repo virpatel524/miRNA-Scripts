@@ -353,7 +353,12 @@ def simple_family_nofamily():
 
 
 	genfig(join_simple(mod_mirfamval_tarjac, mod_mirnofamval_tarjac), 'mirbinary_tarjac', 'Jaccard Targets', 'miRNA Class', 2)
-	argslst_jac.append(join_simple(mod_mirfamval_tarjac, mod_mirnofamval_tarjac))
+
+	tmplst = join_simple(mod_mirfamval_tarjac, mod_mirnofamval_tarjac)
+
+	with open('../relevant_data/precursor_pd/mirbinary_tarjac', 'wb') as myfile:
+		wr = csv.writer(myfile, quoting=csv.QUOTE_ALL)
+		wr.writerow(tmplst)
 
 
 	return argslst_nums, argslst_jac
