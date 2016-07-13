@@ -412,8 +412,7 @@ def stratage():
 
 	argslst_jac.append(join_age_strat(mod_mirfamval_tarjac, mod_mirnofamval_tarjac))
 
-
-
+	return argslst_nums, argslst_jac
 
 
 
