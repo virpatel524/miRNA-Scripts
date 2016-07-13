@@ -4,6 +4,10 @@ import csv
 from data_import import *
 import sys
 from jaccard import jaccard_calculate
+from general_methods import parsetxt
+
+
+
 
 def generate_class_vector(biglst, element):
 	new_vec = len(biglst) * [0]
@@ -136,8 +140,8 @@ def genfig(lst, name, yax, xax, length):
 		sns.plt.close()
 
 def genfig_v2():
-	print len(numsimp[0])
-	print len(numstrat[0])
+
+
 
 
 
