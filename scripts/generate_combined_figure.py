@@ -151,7 +151,7 @@ def simple_family_nofamily(mirna2disease, mirna2age,mirna2family, round_robyn_ta
 
 	genfig(join_simple(mod_mirfamval_disnum, mod_mirnofamval_disnum), 'mirbinary_disnum', 'Number of Diseases', 'miRNA Class', 2)
 
-	argslst.append([])
+	argslst_nums.append(join_simple(mod_mirfamval_disnum, mod_mirnofamval_disnum))
 
 
 	mirfamval_targetnum = []
