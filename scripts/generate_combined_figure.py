@@ -382,7 +382,7 @@ def stratage(mirna2disease, mirna2age,mirna2family, round_robyn_target, round_ro
 
 
 	genfig(join_age_strat(mod_mirfamval_expjac, mod_mirnofamval_expjac), 'mirstrat_tisjac', 'Tissues Jaccard', 'Age (MY)', 3)
-
+	argslst_jac.append(join_age_strat(mod_mirfamval_expjac, mod_mirnofamval_expjac))
 
 
 	fampair, nonfampair = genpairs_agestrat(reverse_mirdict, round_robyn_target.index, mirna2age)
