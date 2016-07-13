@@ -265,6 +265,9 @@ def simple_family_nofamily():
 	genfig(join_simple(mod_mirfamval_tarjac, mod_mirnofamval_tarjac), 'mirbinary_tarjac', 'Jaccard Targets', 'miRNA Class', 2)
 	argslst_jac.append(join_simple(mod_mirfamval_tarjac, mod_mirnofamval_tarjac))
 
+
+	return argslst_nums, argslst_jac
+
 def stratage():
 
 	argslst_nums = []
@@ -408,59 +411,6 @@ def stratage():
 	genfig(join_age_strat(mod_mirfamval_tarjac, mod_mirnofamval_tarjac), 'mirstrat_tarjac', 'Targets Jaccard', 'Age (MY)', 3)
 
 	argslst_jac.append(join_age_strat(mod_mirfamval_tarjac, mod_mirnofamval_tarjac))
-
-
-def diseases_strat():
-
-
-	fam_mir_lst = flatten(mirna2family.values())
-	reverse_mirdict = map_relatives(mirna2family)
-
-
-
-	## disease number
-	mirfamval_disnum = []
-	mirnofamval_disnum = []
-
-	for mirna in mirna2disease:
-		if mirna not in mirna2age: continue
-		if mirna in fam_mir_lst:
-			mirfamval_disnum.append([len(mirna2disease[mirna]), mirna2age[mirna]])
-		else:
-			mirnofamval_disnum.append([len(mirna2disease[mirna]), mirna2age[mirna]])
-
-
-	mod_mirfamval_disnum = add_end_cat(mirfamval_disnum, 'Family')
-	mod_mirnofamval_disnum = add_end_cat(mirnofamval_disnum, 'Non-Family')
-
-
-	genfig(join_age_strat(mod_mirfamval_disnum, mod_mirnofamval_disnum), 'mirstrat_disnum_collapse', 'Number of Diseases', 'Age (MY)', 3)
-
-
-
-
-	fampair, nonfampair = genpairs_agestrat(reverse_mirdict, mirna2disease.keys(), mirna2age)
-
-
-	## disease jaccard 
-
-	mirfamval_disjac = []
-	mirnofamval_disjac = []
-	dislst = flatten(mirna2disease.values())
-
-	for pair in fampair:
-		mirfamval_disjac.append([jaccard(   generate_class_vector(dislst, mirna2disease[pair[0]]),  generate_class_vector(dislst, mirna2disease[pair[1]])), pair[-2]])
-
-	for pair in nonfampair:
-		mirnofamval_disjac.append([jaccard( generate_class_vector(dislst, mirna2disease[pair[0]]),  generate_class_vector(dislst, mirna2disease[pair[1]])), pair[-2]])
-
-	mod_mirfamval_disjac = add_end_cat(mirfamval_disjac, 'Family')
-	mod_mirnofamval_disjac = add_end_cat(mirnofamval_disjac, 'Non-Family')
-
-
-	genfig(join_age_strat(mod_mirfamval_disjac, mod_mirnofamval_disjac), 'mirstrat_disjac_collapse', 'Disease Jaccard', 'Age (MY)', 3)
-
-
 
 
 
