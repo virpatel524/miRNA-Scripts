@@ -219,6 +219,7 @@ def simple_family_nofamily(mirna2disease, mirna2age,mirna2family, round_robyn_ta
 
 	genfig(join_simple(mod_mirfamval_disjac, mod_mirnofamval_disjac), 'mirbinary_disjac', 'Jaccard Diseases', 'miRNA Class', 2)
 
+	argslst_jac.append(join_simple(mod_mirfamval_disjac, mod_mirnofamval_disjac))
 
 	## expression jaccard
 
