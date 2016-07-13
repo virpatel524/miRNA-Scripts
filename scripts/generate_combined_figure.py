@@ -463,7 +463,7 @@ def stratage():
 	dislst = flatten(mirna2disease.values())
 
 	for pair in fampair:
-		mirfamval_disjac.append([jaccard(   generate_class_vector(dislst, mirna2disease[pair[0]]),  generate_class_vector(dislst, mirna2disease[pair[1]])), pair[-2]])
+		mirfamval_disjac.append([jaccard_calculate(   generate_class_vector(dislst, mirna2disease[pair[0]]),  generate_class_vector(dislst, mirna2disease[pair[1]])), pair[-2]])
 
 	for pair in nonfampair:
 		mirnofamval_disjac.append([jaccard( generate_class_vector(dislst, mirna2disease[pair[0]]),  generate_class_vector(dislst, mirna2disease[pair[1]])), pair[-2]])
