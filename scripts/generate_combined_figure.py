@@ -502,7 +502,13 @@ def stratage():
 
 
 	genfig(join_age_strat(mod_mirfamval_expjac, mod_mirnofamval_expjac), 'mirstrat_tisjac', 'Tissues Jaccard', 'Age (MY)', 3)
-	argslst_jac.append(join_age_strat(mod_mirfamval_expjac, mod_mirnofamval_expjac))
+
+	tmplst =  join_age_strat(mod_mirfamval_expjac, mod_mirnofamval_expjac)
+
+	with open('../relevant_data/precursor_pd/mirstrat_disjac', 'wb') as myfile:
+		wr = csv.writer(myfile, quoting=csv.QUOTE_ALL)
+		wr.writerow(tmplst)
+
 
 
 	fampair, nonfampair = genpairs_agestrat(reverse_mirdict, round_robyn_target.index, mirna2age)
