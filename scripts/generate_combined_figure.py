@@ -5,6 +5,16 @@ from data_import import *
 import sys
 from jaccard import jaccard_calculate
 
+def generate_class_vector(biglst, element):
+	new_vec = len(biglst) * [0]
+
+	for alpha in element:
+		new_vec[biglst.index(alpha)] = 1
+
+	return new_vec
+
+
+
 def join_age_strat(lst1, lst2):
 	tmp = lst1 + lst2
 	ageset1 = set([a[-2] for a in lst1])
