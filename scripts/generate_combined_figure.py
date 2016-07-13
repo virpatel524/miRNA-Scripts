@@ -35,6 +35,62 @@ def yaxis_switch(str_name):
 			return [0, 1.]
 
 	
+def genpairs(mapped, matrix_indices):
+	paira = []
+	pairb = []
+
+
+	for val in matrix_indices:
+		for secval in matrix_indices:
+			if val == secval: continue
+			if val not in mapped and secval not in mapped:
+				pairb.append([val, secval])
+			if val in mapped and secval in mapped[val]:
+				paira.append([val, secval])
+
+
+
+	return paira, pairb
+
+
+
+def genpairs_agestrat(mapped, oldind, mirna2age):
+	newlst = []
+
+
+	paira = []
+	pairb = []
+
+	matrix_indices = [a for a in oldind if a in mirna2age]
+
+
+	for val in matrix_indices:
+		for secval in matrix_indices:
+			if val == secval: continue
+			if val not in mapped and secval not in mapped:
+				pairb.append([val, secval, mirna2age[val], mirna2age[secval]])
+			if val in mapped and secval in mapped[val]:
+				paira.append([val, secval, mirna2age[val], mirna2age[secval]])
+
+
+	pairb_new = [a for a in pairb if a[-2] == a[-1]]
+
+	return paira, pairb_new
+
+
+def add_end_cat(lst, alpha):
+	newlst = []
+
+	for el in lst:
+		if type(el)!= list:
+			newlst.append([el, alpha])
+		else:
+
+			tmp = list(el[:])
+			tmp = tmp + [alpha,]
+			newlst.append(tmp)
+
+	return newlst
 
 
 
