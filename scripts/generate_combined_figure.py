@@ -359,8 +359,7 @@ def stratage(mirna2disease, mirna2age,mirna2family, round_robyn_target, round_ro
 
 
 	genfig(join_age_strat(mod_mirfamval_disjac, mod_mirnofamval_disjac), 'mirstrat_disjac', 'Disease Jaccard', 'Age (MY)', 3)
-
-
+	argslst_jac.append(join_age_strat(mod_mirfamval_disjac, mod_mirnofamval_disjac))
 
 	## expression jaccard
 
