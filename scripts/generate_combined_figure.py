@@ -494,7 +494,7 @@ def stratage():
 		mirfamval_expjac.append([jaccard_calculate(mir_expdb.loc[pair[0]].tolist(),mir_expdb.loc[pair[1]].tolist()), pair[-2]])
 
 	for pair in nonfampair:
-		mirnofamval_expjac.append([jaccard(mir_expdb.loc[pair[0]].tolist(),mir_expdb.loc[pair[1]].tolist()), pair[-2]])
+		mirnofamval_expjac.append([jaccard_calculate(mir_expdb.loc[pair[0]].tolist(),mir_expdb.loc[pair[1]].tolist()), pair[-2]])
 
 
 	mod_mirfamval_expjac = add_end_cat(mirfamval_expjac, 'Family')
