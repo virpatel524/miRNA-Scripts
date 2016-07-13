@@ -248,22 +248,22 @@ def simple_family_nofamily(mirna2disease, mirna2age,mirna2family, round_robyn_ta
 	fampair, nonfampair = genpairs(reverse_mirdict, round_robyn_target.index)
 
 
-	mirfamval_tarham = []
-	mirnofamval_tarham = []
+	mirfamval_tarjac = []
+	mirnofamval_tarjac = []
 
 	for pair in fampair:
-		mirfamval_tarham.append(round_robyn_target[pair[0]][pair[1]])
+		mirfamval_tarjac.append(round_robyn_target[pair[0]][pair[1]])
 
 	for pair in nonfampair:
-		mirnofamval_tarham.append(round_robyn_target[pair[0]][pair[1]])
+		mirnofamval_tarjac.append(round_robyn_target[pair[0]][pair[1]])
 
 
-	mod_mirfamval_tarham = add_end_cat(mirfamval_tarham, 'Family')
-	mod_mirnofamval_tarham = add_end_cat(mirnofamval_tarham, 'Non-Family')
+	mod_mirfamval_tarjac = add_end_cat(mirfamval_tarjac, 'Family')
+	mod_mirnofamval_tarjac = add_end_cat(mirnofamval_tarjac, 'Non-Family')
 
 
-	genfig(join_simple(mod_mirfamval_tarham, mod_mirnofamval_tarham), 'mirbinary_tarham', 'Jaccard Targets', 'miRNA Class', 2)
-	argslst_jac.append(join_simple(mod_mirfamval_tarham, mod_mirnofamval_tarham))
+	genfig(join_simple(mod_mirfamval_tarjac, mod_mirnofamval_tarjac), 'mirbinary_tarjac', 'Jaccard Targets', 'miRNA Class', 2)
+	argslst_jac.append(join_simple(mod_mirfamval_tarjac, mod_mirnofamval_tarjac))
 
 def stratage(mirna2disease, mirna2age,mirna2family, round_robyn_target, round_robyn_exp, mir_expdb, mir_targetdb):
 
@@ -390,24 +390,24 @@ def stratage(mirna2disease, mirna2age,mirna2family, round_robyn_target, round_ro
 
 
 
-	mirfamval_tarham = []
-	mirnofamval_tarham = []
+	mirfamval_tarjac = []
+	mirnofamval_tarjac = []
 
 	for pair in fampair:
-		mirfamval_tarham.append([round_robyn_target[pair[0]][pair[1]], pair[-2]])
+		mirfamval_tarjac.append([round_robyn_target[pair[0]][pair[1]], pair[-2]])
 
 	for pair in nonfampair:
-		mirnofamval_tarham.append([round_robyn_target[pair[0]][pair[1]], pair[-2]])
+		mirnofamval_tarjac.append([round_robyn_target[pair[0]][pair[1]], pair[-2]])
 
 
 
-	mod_mirfamval_tarham = add_end_cat(mirfamval_tarham, 'Family')
-	mod_mirnofamval_tarham = add_end_cat(mirnofamval_tarham, 'Non-Family')
+	mod_mirfamval_tarjac = add_end_cat(mirfamval_tarjac, 'Family')
+	mod_mirnofamval_tarjac = add_end_cat(mirnofamval_tarjac, 'Non-Family')
 
 
-	genfig(join_age_strat(mod_mirfamval_tarham, mod_mirnofamval_tarham), 'mirstrat_tarham', 'Targets Jaccard', 'Age (MY)', 3)
+	genfig(join_age_strat(mod_mirfamval_tarjac, mod_mirnofamval_tarjac), 'mirstrat_tarjac', 'Targets Jaccard', 'Age (MY)', 3)
 
-	argslst_jac.append(join_age_strat(mod_mirfamval_tarham, mod_mirnofamval_tarham))
+	argslst_jac.append(join_age_strat(mod_mirfamval_tarjac, mod_mirnofamval_tarjac))
 
 
 def diseases_strat(mirna2disease, mirna2age,mirna2family, round_robyn_target, round_robyn_exp, mir_expdb, mir_targetdb):
