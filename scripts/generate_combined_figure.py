@@ -64,6 +64,12 @@ def genfig(lst, name, yax, xax, length):
 		sns.plt.savefig('../figures/before_meeting/%s_boxplot.pdf' %(name), bbox_inches='tight')
 		sns.plt.close()
 
+def genfig_v2():
+	print len(numsimp[0])
+	print len(numstrat[0])
+
+
+
 def show_jaccard_target():
 	reversed_dict = map_relatives(mirna2family)
 
