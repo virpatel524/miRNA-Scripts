@@ -317,10 +317,10 @@ def simple_family_nofamily():
 	mirnofamval_expjac = []
 
 	for pair in fampair:
-		mirfamval_expjac.append(jaccard(mir_expdb.loc[pair[0]].tolist(),mir_expdb.loc[pair[1]].tolist()))
+		mirfamval_expjac.append(jaccard_calculate(mir_expdb.loc[pair[0]].tolist(),mir_expdb.loc[pair[1]].tolist()))
 
 	for pair in nonfampair:
-		mirnofamval_expjac.append(jaccard(mir_expdb.loc[pair[0]].tolist(),mir_expdb.loc[pair[1]].tolist()))
+		mirnofamval_expjac.append(jaccard_calculate(mir_expdb.loc[pair[0]].tolist(),mir_expdb.loc[pair[1]].tolist()))
 
 
 	mod_mirfamval_expjac = add_end_cat(mirfamval_expjac, 'Family')
