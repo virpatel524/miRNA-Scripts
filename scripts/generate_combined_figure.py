@@ -249,6 +249,12 @@ def simple_family_nofamily():
 
 	tmplst = join_simple(mod_mirfamval_tarnum, mod_mirnofamval_tarnum)
 
+	with open('../relevant_data/precursor_pd/mirbinary_tarnum', 'wb') as myfile:
+		wr = csv.writer(myfile, quoting=csv.QUOTE_ALL)
+		wr.writerow(tmplst)
+
+
+
 
 	mirfamval_expnum = []
 	mirnofamval_expnum = []
@@ -269,8 +275,11 @@ def simple_family_nofamily():
 	genfig(join_simple(mod_mirfamval_expnum, mod_mirnofamval_expnum), 'mirbinary_tisnum', 'Number of Tissues', 'miRNA Class', 2)
 
 
-	argslst_nums.append(join_simple(mod_mirfamval_expnum, mod_mirnofamval_expnum))
+	tmplst = join_simple(mod_mirfamval_expnum, mod_mirnofamval_expnum)
 
+	with open('../relevant_data/precursor_pd/mirbinary_tisnum', 'wb') as myfile:
+		wr = csv.writer(myfile, quoting=csv.QUOTE_ALL)
+		wr.writerow(tmplst)
 	fampair, nonfampair = genpairs(reverse_mirdict, mirna2disease.keys())
 
 	## disease jaccard 
