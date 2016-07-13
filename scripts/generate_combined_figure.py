@@ -3,6 +3,7 @@ import seaborn as sns
 import csv
 from data_import import *
 import sys
+from jaccard import jaccard_calculate
 
 def join_age_strat(lst1, lst2):
 	tmp = lst1 + lst2
