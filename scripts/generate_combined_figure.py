@@ -14,6 +14,10 @@ def join_age_strat(lst1, lst2):
 
 	return newlst
 
+def join_simple(lst1, lst2):
+	return lst1 + lst2
+
+
 
 def yaxis_switch(str_name):
 	if 'tisnum' in str_name:
