@@ -262,8 +262,7 @@ def simple_family_nofamily(mirna2disease, mirna2age,mirna2family, round_robyn_ta
 	mod_mirnofamval_tarham = add_end_cat(mirnofamval_tarham, 'Non-Family')
 
 
-	genfig(join_simple(mod_mirfamval_tarham, mod_mirnofamval_tarham), 'mirbinary_tarham', 'Hamming Targets', 'miRNA Class', 2)
-
+	genfig(join_simple(mod_mirfamval_tarham, mod_mirnofamval_tarham), 'mirbinary_tarham', 'Jaccard Targets', 'miRNA Class', 2)
 	argslst_jac.append(join_simple(mod_mirfamval_tarham, mod_mirnofamval_tarham))
 
 def stratage(mirna2disease, mirna2age,mirna2family, round_robyn_target, round_robyn_exp, mir_expdb, mir_targetdb):
