@@ -533,7 +533,12 @@ def stratage():
 
 	genfig(join_age_strat(mod_mirfamval_tarjac, mod_mirnofamval_tarjac), 'mirstrat_tarjac', 'Targets Jaccard', 'Age (MY)', 3)
 
-	argslst_jac.append(join_age_strat(mod_mirfamval_tarjac, mod_mirnofamval_tarjac))
+
+	tmplst =  join_age_strat(mod_mirfamval_tarjac, mod_mirnofamval_tarjac)
+
+	with open('../relevant_data/precursor_pd/mirstat_tarjac', 'wb') as myfile:
+		wr = csv.writer(myfile, quoting=csv.QUOTE_ALL)
+		wr.writerow(tmplst)
 
 	return argslst_nums, argslst_jac
 
