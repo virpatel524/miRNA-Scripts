@@ -477,7 +477,7 @@ def stratage():
 
 	tmplst = join_age_strat(mod_mirfamval_disjac, mod_mirnofamval_disjac)
 
-	with open('../relevant_data/precursor_pd/mirstrat_expnum', 'wb') as myfile:
+	with open('../relevant_data/precursor_pd/mirstrat_disjac', 'wb') as myfile:
 		wr = csv.writer(myfile, quoting=csv.QUOTE_ALL)
 		wr.writerow(tmplst)
 
