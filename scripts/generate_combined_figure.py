@@ -143,7 +143,7 @@ def genfig_v2():
 	mirbinary_disjac = parsetxt('../relevant_data/precursor_pd/mirbinary_disjac')
 	mirbinary_expjac = parsetxt('../relevant_data/precursor_pd/mirbinary_expjac')
 	mirbinary_tarjac = parsetxt('../relevant_data/precursor_pd/mirbinary_tarjac')
-	
+	mirbinary_disnum = parsetxt('../relevant_data/precursor_pd/mirbinar')
 
 
 
@@ -239,7 +239,7 @@ def simple_family_nofamily():
 
 	tmplst = join_simple(mod_mirfamval_disnum, mod_mirnofamval_disnum)
 
-	with open('../relevant_data/precursor_pd/mirstrat_disnum', 'wb') as myfile:
+	with open('../relevant_data/precursor_pd/mirbinary_disnum', 'wb') as myfile:
 		wr = csv.writer(myfile, quoting=csv.QUOTE_ALL)
 		wr.writerow(tmplst)
 
