@@ -148,8 +148,8 @@ def genfig_v2():
 	mirbinary_tarnum = parsetxt('../relevant_data/precursor_pd/mirbinary_tarnum')
 
 
-	mirstrat_disjac = parsetxt('../relevant_data/precursor_pd/mirbinary_disjac')
-	mirstrat_expjac = parsetxt('../relevant_data/precursor_pd/mirbinary_expjac')
+	mirstrat_disjac = parsetxt('../relevant_data/precursor_pd/mirstat_disjac')
+	mirstrat_expjac = parsetxt('../relevant_data/precursor_pd/mirstrat_expjac')
 	mirstrat_tarjac = parsetxt('../relevant_data/precursor_pd/mirbinary_tarjac')
 	mirstrat_disnum = parsetxt('../relevant_data/precursor_pd/mirbinary_disnum')
 	mirstrat_expnum = parsetxt('../relevant_data/precursor_pd/mirbinary_tisnum')
