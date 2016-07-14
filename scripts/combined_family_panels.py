@@ -1,6 +1,15 @@
 from general_methods import * 
 
 
+
+
+def genfig():
+	
+
+
+
+
+
 mirbinary_disjac = parsetxt('../relevant_data/precursor_pd/mirbinary_disjac')
 mirbinary_expjac = parsetxt('../relevant_data/precursor_pd/mirbinary_expjac')
 mirbinary_tarjac = parsetxt('../relevant_data/precursor_pd/mirbinary_tarjac')
@@ -16,4 +25,3 @@ mirstrat_expnum = parsetxt('../relevant_data/precursor_pd/mirstrat_expnum')
 mirstrat_tarnum = parsetxt('../relevant_data/precursor_pd/mirstrat_tarnum')
 
 
-print mirstrat_tarjac
