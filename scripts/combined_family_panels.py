@@ -4,13 +4,14 @@ from general_methods import *
 
 
 def genfig():
+	print hi
 
 
 
 
 
 
-mirbinary_disjac = evaluate(parsetxt('../relevant_data/precursor_pd/mirbinary_disjac'))
+mirbinary_disjac = eval(parsetxt('../relevant_data/precursor_pd/mirbinary_disjac'))
 mirbinary_expjac = parsetxt('../relevant_data/precursor_pd/mirbinary_expjac')
 mirbinary_tarjac = parsetxt('../relevant_data/precursor_pd/mirbinary_tarjac')
 mirbinary_disnum = parsetxt('../relevant_data/precursor_pd/mirbinary_disnum')
