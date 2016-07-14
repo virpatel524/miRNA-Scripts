@@ -2,6 +2,7 @@ from general_methods import *
 
 
 
+csv.field_size_limit(sys.maxsize)
 mirbinary_disjac = parsetxt('../relevant_data/precursor_pd/mirbinary_disjac')
 mirbinary_expjac = parsetxt('../relevant_data/precursor_pd/mirbinary_expjac')
 mirbinary_tarjac = parsetxt('../relevant_data/precursor_pd/mirbinary_tarjac')
