@@ -1,7 +1,6 @@
 from general_methods import * 
 
 
-
 mirbinary_disjac = parsetxt('../relevant_data/precursor_pd/mirbinary_disjac')
 mirbinary_expjac = parsetxt('../relevant_data/precursor_pd/mirbinary_expjac')
 mirbinary_tarjac = parsetxt('../relevant_data/precursor_pd/mirbinary_tarjac')
