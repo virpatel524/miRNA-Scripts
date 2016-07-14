@@ -249,7 +249,7 @@ def simple_family_nofamily():
 	tmplst = join_simple(mod_mirfamval_disnum, mod_mirnofamval_disnum)
 
 	with open('../relevant_data/precursor_pd/mirbinary_disnum', 'wb') as myfile:
-		wr = csv.writer(myfile, quoting=csv.QUOTE_ALL)
+		wr = csv.writer(myfile, quoting=csv.QUOTE_NONE)
 		wr.writerow(tmplst)
 
 
@@ -278,7 +278,7 @@ def simple_family_nofamily():
 	tmplst = join_simple(mod_mirfamval_tarnum, mod_mirnofamval_tarnum)
 
 	with open('../relevant_data/precursor_pd/mirbinary_tarnum', 'wb') as myfile:
-		wr = csv.writer(myfile, quoting=csv.QUOTE_ALL)
+		wr = csv.writer(myfile, quoting=csv.QUOTE_NONE)
 		wr.writerow(tmplst)
 
 
@@ -306,7 +306,7 @@ def simple_family_nofamily():
 	tmplst = join_simple(mod_mirfamval_expnum, mod_mirnofamval_expnum)
 
 	with open('../relevant_data/precursor_pd/mirbinary_tisnum', 'wb') as myfile:
-		wr = csv.writer(myfile, quoting=csv.QUOTE_ALL)
+		wr = csv.writer(myfile, quoting=csv.QUOTE_NONE)
 		wr.writerow(tmplst)
 	fampair, nonfampair = genpairs(reverse_mirdict, mirna2disease.keys())
 
@@ -334,7 +334,7 @@ def simple_family_nofamily():
 	tmplst = join_simple(mod_mirfamval_disjac, mod_mirnofamval_disjac)
 
 	with open('../relevant_data/precursor_pd/mirbinary_disjac', 'wb') as myfile:
-		wr = csv.writer(myfile, quoting=csv.QUOTE_ALL)
+		wr = csv.writer(myfile, quoting=csv.QUOTE_NONE)
 		wr.writerow(tmplst)
 	## expression jaccard
 
@@ -361,7 +361,7 @@ def simple_family_nofamily():
 	tmplst = join_simple(mod_mirfamval_expjac, mod_mirnofamval_expjac)
 
 	with open('../relevant_data/precursor_pd/mirbinary_expjac', 'wb') as myfile:
-		wr = csv.writer(myfile, quoting=csv.QUOTE_ALL)
+		wr = csv.writer(myfile, quoting=csv.QUOTE_NONE)
 		wr.writerow(tmplst)
 	fampair, nonfampair = genpairs(reverse_mirdict, round_robyn_target.index)
 
@@ -385,7 +385,7 @@ def simple_family_nofamily():
 	tmplst = join_simple(mod_mirfamval_tarjac, mod_mirnofamval_tarjac)
 
 	with open('../relevant_data/precursor_pd/mirbinary_tarjac', 'wb') as myfile:
-		wr = csv.writer(myfile, quoting=csv.QUOTE_ALL)
+		wr = csv.writer(myfile, quoting=csv.QUOTE_NONE)
 		wr.writerow(tmplst)
 
 
@@ -421,7 +421,7 @@ def stratage():
 	tmplst = join_age_strat(mod_mirfamval_disnum, mod_mirnofamval_disnum)
 
 	with open('../relevant_data/precursor_pd/mirstrat_disnum', 'wb') as myfile:
-		wr = csv.writer(myfile, quoting=csv.QUOTE_ALL)
+		wr = csv.writer(myfile, quoting=csv.QUOTE_NONE)
 		wr.writerow(tmplst)
 
 	mirfamval_targetnum = []
@@ -449,7 +449,7 @@ def stratage():
 	tmplst = join_age_strat(mod_mirfamval_disnum, mod_mirnofamval_disnum)
 
 	with open('../relevant_data/precursor_pd/mirstrat_tarnum', 'wb') as myfile:
-		wr = csv.writer(myfile, quoting=csv.QUOTE_ALL)
+		wr = csv.writer(myfile, quoting=csv.QUOTE_NONE)
 		wr.writerow(tmplst)
 
 
@@ -476,7 +476,7 @@ def stratage():
 	tmplst = join_age_strat(mod_mirfamval_expnum, mod_mirnofamval_expnum)
 
 	with open('../relevant_data/precursor_pd/mirstrat_expnum', 'wb') as myfile:
-		wr = csv.writer(myfile, quoting=csv.QUOTE_ALL)
+		wr = csv.writer(myfile, quoting=csv.QUOTE_NONE)
 		wr.writerow(tmplst)
 
 
@@ -506,7 +506,7 @@ def stratage():
 	tmplst = join_age_strat(mod_mirfamval_disjac, mod_mirnofamval_disjac)
 
 	with open('../relevant_data/precursor_pd/mirstrat_disjac', 'wb') as myfile:
-		wr = csv.writer(myfile, quoting=csv.QUOTE_ALL)
+		wr = csv.writer(myfile, quoting=csv.QUOTE_NONE)
 		wr.writerow(tmplst)
 
 	## expression jaccard
@@ -534,7 +534,7 @@ def stratage():
 	tmplst =  join_age_strat(mod_mirfamval_expjac, mod_mirnofamval_expjac)
 
 	with open('../relevant_data/precursor_pd/mirstrat_tisjac', 'wb') as myfile:
-		wr = csv.writer(myfile, quoting=csv.QUOTE_ALL)
+		wr = csv.writer(myfile, quoting=csv.QUOTE_NONE)
 		wr.writerow(tmplst)
 
 
@@ -565,7 +565,7 @@ def stratage():
 	tmplst =  join_age_strat(mod_mirfamval_tarjac, mod_mirnofamval_tarjac)
 
 	with open('../relevant_data/precursor_pd/mirstrat_tarjac', 'wb') as myfile:
-		wr = csv.writer(myfile, quoting=csv.QUOTE_ALL)
+		wr = csv.writer(myfile, quoting=csv.QUOTE_NONE)
 		wr.writerow(tmplst)
 
 	return argslst_nums, argslst_jac
