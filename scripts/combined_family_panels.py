@@ -26,7 +26,6 @@ def genfig1():
 	tmp_expnum = mirbinary_expnum + mirstrat_expnum
 	tmp_tarnum = mirbinary_tarnum + mirstrat_tarnum
 
-	print tmp_disjac
 
 
 
