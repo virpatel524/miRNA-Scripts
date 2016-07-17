@@ -28,5 +28,3 @@ mirstrat_tarnum = parsecsvexport('../relevant_data/precursor_pd/mirstrat_tarnum'
 
 
 
-print mirbinary_disjac
-
