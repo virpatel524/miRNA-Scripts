@@ -11,6 +11,10 @@ def float_conv(entry):
 	 return [[num(a) for a in beta] for beta in entry]
 
 
+def append_allage(lst):
+	newlst = []
+
+	
 
 
 
@@ -33,4 +37,3 @@ mirstrat_tarnum = float_conv(parsecsvexport('../relevant_data/precursor_pd/mirst
 
 
 
-print mirstrat_tarnum
