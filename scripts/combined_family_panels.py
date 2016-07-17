@@ -13,8 +13,8 @@ def float_conv(entry):
 
 def append_allage(lst):
 	newlst = []
-
-	
+	for alpha in lst:
+		newlst.append(lst.insert())
 
 
 
