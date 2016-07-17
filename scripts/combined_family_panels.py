@@ -33,4 +33,4 @@ mirstrat_tarnum = float_conv(parsecsvexport('../relevant_data/precursor_pd/mirst
 
 
 
-
+print mirstrat_tarnum
