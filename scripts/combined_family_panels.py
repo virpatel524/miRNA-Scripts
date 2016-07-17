@@ -1,4 +1,6 @@
 from general_methods import * 
+import seaborn as sns
+import pandas as pd
 
 
 def num(s):
@@ -25,6 +27,8 @@ def genfig1():
 	tmp_disnum = mirbinary_disnum + mirstrat_disnum
 	tmp_expnum = mirbinary_expnum + mirstrat_expnum
 	tmp_tarnum = mirbinary_tarnum + mirstrat_tarnum
+
+	
 
 
 
