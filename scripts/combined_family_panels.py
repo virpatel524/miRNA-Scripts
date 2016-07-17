@@ -28,6 +28,8 @@ def genfig1():
 	tmp_expnum = mirbinary_expnum + mirstrat_expnum
 	tmp_tarnum = mirbinary_tarnum + mirstrat_tarnum
 
+	tmp = pd.DataFrame(tmp_disjac, columsn=['Jaccard', 'Age (MY)', 'miRNA Class'])
+
 	
 
 
