@@ -19,7 +19,8 @@ def append_allage(lst):
 	return tmp
 
 def genfig1():
-	
+	tmp_disjac = mirbinary_disjac + mirstrat_disjac
+	tmp_expjac = mirbinary_expjac + mirtstrat_expjac
 
 
 
@@ -43,5 +44,5 @@ mirstrat_disnum = float_conv(parsecsvexport('../relevant_data/precursor_pd/mirst
 mirstrat_expnum = float_conv(parsecsvexport('../relevant_data/precursor_pd/mirstrat_expnum'))
 mirstrat_tarnum = float_conv(parsecsvexport('../relevant_data/precursor_pd/mirstrat_tarnum'))
 
-
+genfig1()
 
