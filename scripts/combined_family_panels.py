@@ -44,7 +44,7 @@ def genfig1():
 	for alpha in tmp_disjac:
 		print alpha[1]
 
-	tmp = pd.DataFrame(tmp_disjac, columns=['Jaccard', 'Age (MY)', 'miRNA Class'])
+	tmp = pd.DataFrame.sort(pd.DataFrame(tmp_disjac, columns=['Jaccard', 'Age (MY)', 'miRNA Class']),columns='Age (MY)')
 
 	sns.boxplot(x='Age (MY)', y='Jaccard', hue='miRNA Class', data=tmp)
 	sns.plt.show()
