@@ -31,8 +31,6 @@ def append_allage(lst):
 	for alpha in tmp:
 		alpha.insert(1, 'ALL AGES')
 		alpha.append(1)
-		print alpha
-
 	return tmp
 
 def append_haveage(lst):
@@ -76,3 +74,4 @@ mirstrat_expnum = append_haveage(float_conv(parsecsvexport('../relevant_data/pre
 mirstrat_tarnum = append_haveage(float_conv(parsecsvexport('../relevant_data/precursor_pd/mirstrat_tarnum')))
 
 
+genfig1()
