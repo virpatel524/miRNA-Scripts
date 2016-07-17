@@ -34,7 +34,7 @@ def append_allage(lst):
 	return tmp
 
 def genfig1():
-	tmp_disjac = mirbinary_disjac + mirstrat_disjac
+	tmp_disjac = sorted(mirbinary_disjac + mirstrat_disjac, cmp=allages_cmp)
 	tmp_expjac = mirbinary_expjac + mirstrat_expjac
 	tmp_tarjac = mirbinary_tarjac + mirstrat_tarjac
 	tmp_disnum = mirbinary_disnum + mirstrat_disnum
