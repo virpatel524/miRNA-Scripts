@@ -250,7 +250,7 @@ def simple_family_nofamily():
 
 	with open('../relevant_data/precursor_pd/mirbinary_disnum', 'wb') as myfile:
 		wr = csv.writer(myfile)
-		wr.writerow(tmplst)
+		wr.writerowss(tmplst)
 
 
 
@@ -279,7 +279,7 @@ def simple_family_nofamily():
 
 	with open('../relevant_data/precursor_pd/mirbinary_tarnum', 'wb') as myfile:
 		wr = csv.writer(myfile)
-		wr.writerow(tmplst)
+		wr.writerows(tmplst)
 
 
 
@@ -307,7 +307,7 @@ def simple_family_nofamily():
 
 	with open('../relevant_data/precursor_pd/mirbinary_tisnum', 'wb') as myfile:
 		wr = csv.writer(myfile)
-		wr.writerow(tmplst)
+		wr.writerows(tmplst)
 	fampair, nonfampair = genpairs(reverse_mirdict, mirna2disease.keys())
 
 	## disease jaccard 
@@ -335,7 +335,7 @@ def simple_family_nofamily():
 
 	with open('../relevant_data/precursor_pd/mirbinary_disjac', 'wb') as myfile:
 		wr = csv.writer(myfile)
-		wr.writerow(tmplst)
+		wr.writerows(tmplst)
 	## expression jaccard
 
 	fampair, nonfampair = genpairs(reverse_mirdict, mir_expdb.index)
@@ -362,7 +362,7 @@ def simple_family_nofamily():
 
 	with open('../relevant_data/precursor_pd/mirbinary_expjac', 'wb') as myfile:
 		wr = csv.writer(myfile)
-		wr.writerow(tmplst)
+		wr.writerows(tmplst)
 	fampair, nonfampair = genpairs(reverse_mirdict, round_robyn_target.index)
 
 
@@ -386,7 +386,7 @@ def simple_family_nofamily():
 
 	with open('../relevant_data/precursor_pd/mirbinary_tarjac', 'wb') as myfile:
 		wr = csv.writer(myfile)
-		wr.writerow(tmplst)
+		wr.writerows(tmplst)
 
 
 	return argslst_nums, argslst_jac
@@ -422,7 +422,7 @@ def stratage():
 
 	with open('../relevant_data/precursor_pd/mirstrat_disnum', 'wb') as myfile:
 		wr = csv.writer(myfile)
-		wr.writerow(tmplst)
+		wr.writerows(tmplst)
 
 	mirfamval_targetnum = []
 	mirnofamval_targetnum = []
@@ -450,7 +450,7 @@ def stratage():
 
 	with open('../relevant_data/precursor_pd/mirstrat_tarnum', 'wb') as myfile:
 		wr = csv.writer(myfile)
-		wr.writerow(tmplst)
+		wr.writerows(tmplst)
 
 
 	mirfamval_expnum = []
@@ -477,7 +477,7 @@ def stratage():
 
 	with open('../relevant_data/precursor_pd/mirstrat_expnum', 'wb') as myfile:
 		wr = csv.writer(myfile)
-		wr.writerow(tmplst)
+		wr.writerows(tmplst)
 
 
 
@@ -507,7 +507,7 @@ def stratage():
 
 	with open('../relevant_data/precursor_pd/mirstrat_disjac', 'wb') as myfile:
 		wr = csv.writer(myfile)
-		wr.writerow(tmplst)
+		wr.writerows(tmplst)
 
 	## expression jaccard
 
@@ -535,7 +535,7 @@ def stratage():
 
 	with open('../relevant_data/precursor_pd/mirstrat_tisjac', 'wb') as myfile:
 		wr = csv.writer(myfile)
-		wr.writerow(tmplst)
+		wr.writerows(tmplst)
 
 
 
@@ -566,7 +566,7 @@ def stratage():
 
 	with open('../relevant_data/precursor_pd/mirstrat_tarjac', 'wb') as myfile:
 		wr = csv.writer(myfile)
-		wr.writerow(tmplst)
+		wr.writerows(tmplst)
 
 	return argslst_nums, argslst_jac
 
