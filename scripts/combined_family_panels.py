@@ -30,6 +30,7 @@ def append_allage(lst):
 	tmp = lst[:]
 	for alpha in tmp:
 		alpha.insert(1, 'ALL AGES')
+		alpha.insert(-1, 1)
 
 	return tmp
 
