@@ -7,9 +7,8 @@ def num(s):
 	except:
 		return s
 
-def create_top():
-	mirbinary_disjac_new = []
-	for alpha in mirbinary_disjac:
+def float_conv(entry):
+	 return [[num(a) for a in beta] for beta in entry]
 
 
 
