@@ -250,7 +250,7 @@ def simple_family_nofamily():
 
 	with open('../relevant_data/precursor_pd/mirbinary_disnum', 'wb') as myfile:
 		wr = csv.writer(myfile)
-		wr.writerowss(tmplst)
+		wr.writerows(tmplst)
 
 
 
