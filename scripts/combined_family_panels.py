@@ -35,6 +35,13 @@ def append_allage(lst):
 
 	return tmp
 
+def append_haveage(lst):
+	tmp = lst[:]
+	for alpha in tmp:
+		alpha.append(0)
+
+	return tmp
+
 def genfig1():
 	tmp_disjac = sorted(mirbinary_disjac + mirstrat_disjac, cmp=allages_cmp)
 	tmp_expjac = sorted(mirbinary_expjac + mirstrat_expjac, cmp=allages_cmp)
