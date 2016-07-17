@@ -57,7 +57,8 @@ def genfig1():
 
 
 	sns.boxplot(x='Age (MY)', y='Jaccard', hue='miRNA Class', data=pd_expjac, showfliers=False, ax=ax1)
-	sns.boxplot(x='Age (MY)', y='Jaccard', hue='miRNA Class', data=pd_tarjac, showfliers=False, ax=ax1)
+	sns.boxplot(x='Age (MY)', y='Jaccard', hue='miRNA Class', data=pd_tarjac, showfliers=False, ax=ax2)
+	sns.boxplot(x='Age (MY)', y='Jaccard', hue='miRNA Class', data=pd_disjac, showfliers=False, ax=ax3)
 
 	sns.plt.show()
 	sns.plt.close()
