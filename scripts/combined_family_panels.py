@@ -2,6 +2,19 @@ from general_methods import *
 import seaborn as sns
 import pandas as pd
 
+def allages_cmp(el1, el2):
+	if type(el1) == str:
+		return -1
+	if type(el2) == str:
+		return 1
+	if el2 == el1:
+		return 0
+	if el1 > el2:
+		return 1
+	if el2 > el1:
+		return -1
+
+
 
 def num(s):
 	try:
@@ -33,8 +46,6 @@ def genfig1():
 	sns.boxplot(x='Age (MY)', y='Jaccard', hue='miRNA Class', data=tmp)
 	sns.plt.show()
 	sns.plt.close()
-
-
 
 
 
