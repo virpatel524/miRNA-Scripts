@@ -18,6 +18,9 @@ def append_allage(lst):
 
 	return tmp
 
+def genfig1():
+	
+
 
 
 
