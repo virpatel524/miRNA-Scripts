@@ -68,5 +68,4 @@ mirstrat_disnum = float_conv(parsecsvexport('../relevant_data/precursor_pd/mirst
 mirstrat_expnum = float_conv(parsecsvexport('../relevant_data/precursor_pd/mirstrat_expnum'))
 mirstrat_tarnum = float_conv(parsecsvexport('../relevant_data/precursor_pd/mirstrat_tarnum'))
 
-genfig1()
 
