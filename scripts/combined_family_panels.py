@@ -3,8 +3,7 @@ from general_methods import *
 
 
 
-def genfig():
-	print hi
+def 
 
 
 
