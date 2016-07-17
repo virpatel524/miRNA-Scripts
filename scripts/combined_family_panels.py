@@ -20,10 +20,13 @@ def append_allage(lst):
 
 def genfig1():
 	tmp_disjac = mirbinary_disjac + mirstrat_disjac
-	tmp_expjac = mirbinary_expjac + mirtstrat_expjac
+	tmp_expjac = mirbinary_expjac + mirstrat_expjac
+	tmp_tarjac = mirbinary_tarjac + mirstrat_tarjac
+	tmp_disnum = mirbinary_tisnum + mirstrat_tisnum
+	tmp_expnum = mirbinary_expnum + mirstrat_expnum
+	tmp_tarnum = mirbinary_tarnum + mirstrat_tarnum
 
-
-
+	print tmp_disjac
 
 
 
