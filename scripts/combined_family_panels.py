@@ -17,10 +17,10 @@ def float_conv(entry):
 
 
 
-mirbinary_disjac = (parsecsvexport('../relevant_data/precursor_pd/mirbinary_disjac'))
-mirbinary_expjac = parsecsvexport('../relevant_data/precursor_pd/mirbinary_expjac')
-mirbinary_tarjac = parsecsvexport('../relevant_data/precursor_pd/mirbinary_tarjac')
-mirbinary_disnum = parsecsvexport('../relevant_data/precursor_pd/mirbinary_disnum')
+mirbinary_disjac = float_conv(parsecsvexport('../relevant_data/precursor_pd/mirbinary_disjac'))
+mirbinary_expjac = float_conv(parsecsvexport('../relevant_data/precursor_pd/mirbinary_expjac'))
+mirbinary_tarjac = float_conv(parsecsvexport('../relevant_data/precursor_pd/mirbinary_tarjac'))
+mirbinary_disnum = float_conv(parsecsvexport('../relevant_data/precursor_pd/mirbinary_disnum'))
 mirbinary_expnum = parsecsvexport('../relevant_data/precursor_pd/mirbinary_tisnum')
 mirbinary_tarnum = parsecsvexport('../relevant_data/precursor_pd/mirbinary_tarnum')
 
