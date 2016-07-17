@@ -1,9 +1,17 @@
 from general_methods import * 
 
 
+def num(s):
+	try:
+		return float(s)
+	except:
+		return s
+
+def create_top():
+	mirbinary_disjac_new = []
+	for alpha in mirbinary_disjac:
 
 
-def 
 
 
 
