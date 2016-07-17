@@ -28,7 +28,7 @@ def genfig1():
 	tmp_expnum = mirbinary_expnum + mirstrat_expnum
 	tmp_tarnum = mirbinary_tarnum + mirstrat_tarnum
 
-	tmp = pd.DataFrame(tmp_disjac, columsn=['Jaccard', 'Age (MY)', 'miRNA Class'])
+	tmp = pd.DataFrame(tmp_disjac, columns=['Jaccard', 'Age (MY)', 'miRNA Class'])
 
 	sns.boxplot(x='Age (MY', y='Jaccard', hue='miRNA Class')
 	sns.plt.show()
