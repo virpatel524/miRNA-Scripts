@@ -49,7 +49,7 @@ def genfig1():
 	tmp_tarnum = sorted(mirbinary_tarnum + mirstrat_tarnum, cmp=allages_cmp)
 
 
-	tmp = pd.DataFrame.sort(pd.DataFrame(tmp_disjac, columns=['Jaccard', 'Age (MY)', 'miRNA Class', 'Type']),columns='Type')
+	tmp = pd.DataFrame.sort(pd.DataFrame(tmp_disjac, columns=['Jaccard', 'Age (MY)', 'miRNA Class', 'Type']),columns=['Type', 'Age (MY)'])
 
 	sns.boxplot(x='Age (MY)', y='Jaccard', hue='miRNA Class', data=tmp)
 	sns.plt.show()
