@@ -30,7 +30,7 @@ def genfig1():
 
 	tmp = pd.DataFrame(tmp_disjac, columns=['Jaccard', 'Age (MY)', 'miRNA Class'])
 
-	sns.boxplot(x='Age (MY', y='Jaccard', hue='miRNA Class')
+	sns.boxplot(x='Age (MY)', y='Jaccard', hue='miRNA Class')
 	sns.plt.show()
 	sns.plt.close()
 
