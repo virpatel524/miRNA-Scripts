@@ -12,12 +12,11 @@ def float_conv(entry):
 
 
 def append_allage(lst):
-	# newlst = []
-	# for alpha in lst:
-	# 	newlst.append(alpha.insert(1, 'ALL AGES'))
-	# return newlst
+	newlst = []
+	for alpha in lst:
+		newlst.append(alpha.insert(1, 'ALL AGES'))
+	return newlst
 
-	return lst
 
 
 
@@ -39,4 +38,4 @@ mirstrat_expnum = float_conv(parsecsvexport('../relevant_data/precursor_pd/mirst
 mirstrat_tarnum = float_conv(parsecsvexport('../relevant_data/precursor_pd/mirstrat_tarnum'))
 
 
-print mirbinary_disjac
+
