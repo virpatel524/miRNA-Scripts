@@ -31,6 +31,7 @@ def append_allage(lst):
 	for alpha in tmp:
 		alpha.insert(1, 'ALL AGES')
 		alpha.insert(-1, 1)
+		print alpha
 
 	return tmp
 
@@ -42,8 +43,6 @@ def genfig1():
 	tmp_expnum = sorted(mirbinary_expnum + mirstrat_expnum, cmp=allages_cmp)
 	tmp_tarnum = sorted(mirbinary_tarnum + mirstrat_tarnum, cmp=allages_cmp)
 
-	for alpha in tmp_disjac:
-		print alpha[1]
 
 	tmp = pd.DataFrame.sort(pd.DataFrame(tmp_disjac, columns=['Jaccard', 'Age (MY)', 'miRNA Class']),columns='Age (MY)')
 
