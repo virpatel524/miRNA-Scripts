@@ -21,7 +21,7 @@ mirbinary_disjac = float_conv(parsecsvexport('../relevant_data/precursor_pd/mirb
 mirbinary_expjac = float_conv(parsecsvexport('../relevant_data/precursor_pd/mirbinary_expjac'))
 mirbinary_tarjac = float_conv(parsecsvexport('../relevant_data/precursor_pd/mirbinary_tarjac'))
 mirbinary_disnum = float_conv(parsecsvexport('../relevant_data/precursor_pd/mirbinary_disnum'))
-mirbinary_expnum = parsecsvexport('../relevant_data/precursor_pd/mirbinary_tisnum')
+mirbinary_expnum = float_conv(parsecsvexport('../relevant_data/precursor_pd/mirbinary_tisnum'))
 mirbinary_tarnum = parsecsvexport('../relevant_data/precursor_pd/mirbinary_tarnum')
 
 mirstrat_disjac = parsecsvexport('../relevant_data/precursor_pd/mirstrat_disjac')
