@@ -56,10 +56,10 @@ def genfig1():
 	f, (ax1, ax2, ax3) = sns.plt.subplots(1, 3, sharey=True)
 
 
-	sns.boxplot(x='Age (MY)', y='Jaccard', hue='miRNA Class', data=pd_expjac, showfliers=False, ax=ax1,size=4, aspect=2)
-	sns.boxplot(x='Age (MY)', y='Jaccard', hue='miRNA Class', data=pd_tarjac, showfliers=False, ax=ax2,size=4, aspect=2)
-	sns.boxplot(x='Age (MY)', y='Jaccard', hue='miRNA Class', data=pd_disjac, showfliers=False, ax=ax3,size=4, aspect=2)
-
+	sns.boxplot(x='Age (MY)', y='Jaccard', hue='miRNA Class', data=pd_expjac, showfliers=False, ax=ax1)
+	sns.boxplot(x='Age (MY)', y='Jaccard', hue='miRNA Class', data=pd_tarjac, showfliers=False, ax=ax2)
+	sns.boxplot(x='Age (MY)', y='Jaccard', hue='miRNA Class', data=pd_disjac, showfliers=False, ax=ax3)
+	sns.plt.figure(figsize=(45,10))
 	sns.plt.show()
 	sns.plt.close()
 
