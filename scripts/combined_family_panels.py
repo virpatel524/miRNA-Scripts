@@ -53,8 +53,7 @@ def genfig1():
 	pd_expjac = pd.DataFrame.sort(pd.DataFrame(tmp_expjac, columns=['Jaccard', 'Age (MY)', 'miRNA Class', 'Type']),columns=['Type', 'Age (MY)'])
 	pd_tarjac = pd.DataFrame.sort(pd.DataFrame(tmp_tarjac, columns=['Jaccard', 'Age (MY)', 'miRNA Class', 'Type']),columns=['Type', 'Age (MY)'])
 	
-	f, (ax1, ax2, ax3) = sns.plt.subplots(1, 3, sharey=True)
-	sns.plt.figure(figsize=(45,10))
+	f, (ax1, ax2, ax3) = sns.plt.subplots(1, 3, sharey=True , figsize=(45, 10))
 
 
 
