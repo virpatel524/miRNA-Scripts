@@ -26,4 +26,7 @@ mirstrat_expnum = parsetxt('../relevant_data/precursor_pd/mirstrat_expnum')
 mirstrat_tarnum = parsetxt('../relevant_data/precursor_pd/mirstrat_tarnum')
 
 
+
+
 print mirbinary_disjac
+
