@@ -53,10 +53,10 @@ def genfig1():
 	pd_expjac = pd.DataFrame.sort(pd.DataFrame(tmp_expjac, columns=['Jaccard', 'Age (MY)', 'miRNA Class', 'Type']),columns=['Type', 'Age (MY)'])
 	pd_tarjac = pd.DataFrame.sort(pd.DataFrame(tmp_tarjac, columns=['Jaccard', 'Age (MY)', 'miRNA Class', 'Type']),columns=['Type', 'Age (MY)'])
 	
-	f, (ax1, ax2) = sns.plt.subplots(1, 2, sharey=True)
+	f, (ax1, ax2, ax3) = sns.plt.subplots(1, 3, sharey=True)
 
 
-	sns.boxplot(x='Age (MY)', y='Jaccard', hue='miRNA Class', data=tmp,  showfliers=False)
+	sns.boxplot(x='Age (MY)', y='Jaccard', hue='miRNA Class', data=pd_expjac, showfliers=False, ax=ax1)
 	sns.plt.show()
 	sns.plt.close()
 
