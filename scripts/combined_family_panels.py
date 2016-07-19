@@ -90,9 +90,9 @@ def genfig2():
 	pd_strat_expnum = pd.DataFrame.sort(pd.DataFrame(mirstrat_expnum, columns=['Jaccard Similarity Coefficient', 'Age (MY)', 'miRNA Class', 'Type']),columns=['Type', 'Age (MY)'])
 	pd_strat_tarnum = pd.DataFrame.sort(pd.DataFrame(mirstrat_tarnum, columns=['Jaccard Similarity Coefficient', 'Age (MY)', 'miRNA Class', 'Type']),columns=['Type', 'Age (MY)'])
 
-	sns.boxplot(x='miRNA Class', y='Jaccard Similarity Coefficient', data=pd_binary_expnum, showfliers=False, ax=ax1)
-	sns.boxplot(x='miRNA Class', y='Jaccard Similarity Coefficient',  data=pd_binary_tarnum, showfliers=False, ax=ax2)
-	sns.boxplot(x='miRNA Class', y='Jaccard Similarity Coefficient',  data=pd_binary_disnum, showfliers=False, ax=ax3)
+	sns.boxplot(x='miRNA Class', y='Number of Tissues', data=pd_binary_expnum, showfliers=False, ax=ax1)
+	sns.boxplot(x='miRNA Class', y='Number of Targets',  data=pd_binary_tarnum, showfliers=False, ax=ax2)
+	sns.boxplot(x='miRNA Class', y='Number of Diseases',  data=pd_binary_disnum, showfliers=False, ax=ax3)
 	sns.boxplot(x='Age (MY)', y='Jaccard Similarity Coefficient', hue='miRNA Class', data=pd_expjac, showfliers=False, ax=ax2)
 	sns.boxplot(x='Age (MY)', y='Jaccard Similarity Coefficient', hue='miRNA Class', data=pd_tarjac, showfliers=False, ax=ax1)
 	sns.boxplot(x='Age (MY)', y='Jaccard Similarity Coefficient', hue='miRNA Class', data=pd_disjac, showfliers=False, ax=ax3)
