@@ -70,7 +70,7 @@ def genfig1():
 	ax1.set_xlabel('')
 	ax2.set_xlabel('')
 
-	ax3.xaxis.labelpad = 20
+	ax3.xaxis.labelpad = 40
 
 	sns.plt.savefig('../figures/disjac_fig.pdf',bbox_inches='tight')
 	sns.plt.close()
