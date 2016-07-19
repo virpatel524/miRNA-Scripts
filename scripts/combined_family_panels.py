@@ -102,8 +102,7 @@ def genfig2():
 	ax6.legend_.remove()
 	f.subplots_adjust(hspace=0.3)
 
-	sns.plt.savefig('../figures/jaccard_fig.pdf',bbox_inches='tight')
-	sns.plt.savefig('../figures/num_allthreefig.pdf', bbox_inches='tight')
+	sns.plt.savefig('../figures/num_allthreefig.pdf')
 
 
 
