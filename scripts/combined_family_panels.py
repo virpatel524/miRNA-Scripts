@@ -100,6 +100,7 @@ def genfig2():
 	ax5.legend(loc='upper right', frameon=True).get_frame().set_edgecolor('b')
 	ax4.legend_.remove()
 	ax6.legend_.remove()
+	f.subplots_adjust(hspace=0.3)
 
 	sns.plt.show()
 
