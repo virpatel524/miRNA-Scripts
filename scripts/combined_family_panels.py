@@ -57,7 +57,7 @@ def genfig1():
 
 
 
-	sns.boxplot(x='Age (MY)', y='Jaccard Similarity Coefficient', hue='miRNA Class', data=pd_expjac, showfliers=False, ax=ax2)
+	tst = sns.boxplot(x='Age (MY)', y='Jaccard Similarity Coefficient', hue='miRNA Class', data=pd_expjac, showfliers=False, ax=ax2)
 	sns.boxplot(x='Age (MY)', y='Jaccard Similarity Coefficient', hue='miRNA Class', data=pd_tarjac, showfliers=False, ax=ax1)
 	sns.boxplot(x='Age (MY)', y='Jaccard Similarity Coefficient', hue='miRNA Class', data=pd_disjac, showfliers=False, ax=ax3)
 
@@ -72,7 +72,7 @@ def genfig1():
 
 	ax3.xaxis.labelpad = 40
 
-	ax1.legend(loc='lower right')
+	f.legend(tst,loc='lower right')
 	sns.plt.show()
 	sns.plt.savefig('../figures/disjac_fig.pdf',bbox_inches='tight')
 	sns.plt.close()
