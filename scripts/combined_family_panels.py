@@ -81,7 +81,10 @@ def genfig1():
 
 
 def genfig2():
-	
+	f, (ax1, ax2, ax3) = sns.plt.subplots(2, 3)
+
+
+
 
 
 mirbinary_disjac = append_allage(float_conv(parsecsvexport('../relevant_data/precursor_pd/mirbinary_disjac')))
@@ -103,4 +106,4 @@ mirstrat_tarnum = append_haveage(float_conv(parsecsvexport('../relevant_data/pre
 
 
 
-genfig1()
+genfig2()
