@@ -72,7 +72,7 @@ def genfig1():
 
 	ax3.xaxis.labelpad = 40
 
-	ax1.legend(loc='lower right', bbox_to_anchor=(1.1, 1.05))
+	ax1.legend(loc='lower right', bbox_to_anchor=(-.95, .9 ))
 
 
 	sns.plt.savefig('../figures/disjac_fig.pdf',bbox_inches='tight')
