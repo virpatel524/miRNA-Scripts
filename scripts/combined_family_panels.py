@@ -64,7 +64,8 @@ def genfig1():
 	ax1.set_ylabel('')
 	ax3.set_ylabel('')
 
-
+	ax1.set_xlabel('')
+	ax2.set_xlabel('')
 
 	sns.plt.savefig('../figures/disjac_fig.pdf',bbox_inches='tight')
 	sns.plt.close()
