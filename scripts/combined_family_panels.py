@@ -72,7 +72,7 @@ def genfig1():
 
 	ax1.legend(loc='upper right', frameon=True).get_frame().set_edgecolor('b')
 
-	f.subplots_adjust(hspace=0.1)
+	f.subplots_adjust(hspace=0.3)
 	sns.plt.setp([a.get_xticklabels() for a in f.axes[:-1]], visible=False)
 
 	sns.plt.savefig('../figures/disjac_fig.pdf',bbox_inches='tight')
