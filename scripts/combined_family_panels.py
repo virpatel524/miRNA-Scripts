@@ -101,7 +101,7 @@ def genfig2():
 	ax4.legend_.remove()
 	ax6.legend_.remove()
 	f.subplots_adjust(hspace=0.3)
-	sns.plt.savefig()
+	sns.plt.show()
 
 	sns.plt.savefig('../figures/num_allthreefig.pdf')
 
