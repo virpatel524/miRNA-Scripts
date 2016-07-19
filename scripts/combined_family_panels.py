@@ -63,6 +63,9 @@ def genfig1():
 
 	ax1.set_ylabel('')
 	ax3.set_ylabel('')
+	ax3.legend_.remove()
+	ax2.legend_.remove()
+
 
 	ax1.set_xlabel('')
 	ax2.set_xlabel('')
