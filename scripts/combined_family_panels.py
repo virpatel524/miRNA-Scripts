@@ -49,7 +49,7 @@ def genfig1():
 	# tmp_tarnum = sorted(mirbinary_tarnum + mirstrat_tarnum, cmp=allages_cmp)
 
 
-	pd_disjac = pd.DataFrame.sort(pd.DataFrame(tmp_disjac, columns=['Jaccard', 'Age (MY)', 'miRNA Class', 'Type']),columns=['Type', 'Age (MY)'])
+	pd_disjac = pd.DataFrame.sort(pd.DataFrame(tmp_disjac, columns=['Jaccard Similarity Coefficient', 'Age (MY)', 'miRNA Class', 'Type']),columns=['Type', 'Age (MY)'])
 	pd_expjac = pd.DataFrame.sort(pd.DataFrame(tmp_expjac, columns=['Jaccard', 'Age (MY)', 'miRNA Class', 'Type']),columns=['Type', 'Age (MY)'])
 	pd_tarjac = pd.DataFrame.sort(pd.DataFrame(tmp_tarjac, columns=['Jaccard', 'Age (MY)', 'miRNA Class', 'Type']),columns=['Type', 'Age (MY)'])
 	
