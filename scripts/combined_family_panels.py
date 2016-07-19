@@ -44,9 +44,7 @@ def genfig1():
 	tmp_disjac = sorted(mirbinary_disjac + mirstrat_disjac, cmp=allages_cmp)
 	tmp_expjac = sorted(mirbinary_expjac + mirstrat_expjac, cmp=allages_cmp)
 	tmp_tarjac = sorted(mirbinary_tarjac + mirstrat_tarjac, cmp=allages_cmp)
-	# tmp_disnum = sorted(mirbinary_disnum + mirstrat_disnum, cmp=allages_cmp)
-	# tmp_expnum = sorted(mirbinary_expnum + mirstrat_expnum, cmp=allages_cmp)
-	# tmp_tarnum = sorted(mirbinary_tarnum + mirstrat_tarnum, cmp=allages_cmp)
+
 
 
 	pd_disjac = pd.DataFrame.sort(pd.DataFrame(tmp_disjac, columns=['Jaccard Similarity Coefficient', 'Age (MY)', 'miRNA Class', 'Type']),columns=['Type', 'Age (MY)'])
