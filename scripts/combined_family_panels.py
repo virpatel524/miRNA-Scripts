@@ -87,7 +87,7 @@ def genfig2():
 	pd_binary_expnum = pd.DataFrame.sort(pd.DataFrame(mirbinary_expnum, columns=['Jaccard Similarity Coefficient', 'Age (MY)', 'miRNA Class', 'Type']),columns=['Type', 'Age (MY)'])
 	pd_binary_tarnum = pd.DataFrame.sort(pd.DataFrame(mirbinary_tarnum, columns=['Jaccard Similarity Coefficient', 'Age (MY)', 'miRNA Class', 'Type']),columns=['Type', 'Age (MY)'])
 	pd_strat_disnum = pd.DataFrame.sort(pd.DataFrame(mirstrat_disnum, columns=['Jaccard Similarity Coefficient', 'Age (MY)', 'miRNA Class', 'Type']),columns=['Type', 'Age (MY)'])
-	pd_strat_expnum = pd.DataFrame.sort(pd.DataFrame(tmp_expjac, columns=['Jaccard Similarity Coefficient', 'Age (MY)', 'miRNA Class', 'Type']),columns=['Type', 'Age (MY)'])
+	pd_strat_expnum = pd.DataFrame.sort(pd.DataFrame(mirstrat_expnum, columns=['Jaccard Similarity Coefficient', 'Age (MY)', 'miRNA Class', 'Type']),columns=['Type', 'Age (MY)'])
 	pd_strat_tarnum = pd.DataFrame.sort(pd.DataFrame(tmp_tarjac, columns=['Jaccard Similarity Coefficient', 'Age (MY)', 'miRNA Class', 'Type']),columns=['Type', 'Age (MY)'])
 
 
