@@ -70,7 +70,7 @@ def genfig1():
 	ax1.set_xlabel('')
 	ax2.set_xlabel('')
 
-	ax1.legend(loc='upper right', frameon=False)
+	ax1.legend(loc='upper right', frameon=True)
 
 	sns.plt.savefig('../figures/disjac_fig.pdf',bbox_inches='tight')
 	sns.plt.close()
