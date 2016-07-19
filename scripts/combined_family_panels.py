@@ -61,8 +61,8 @@ def genfig1():
 	sns.boxplot(x='Age (MY)', y='Jaccard', hue='miRNA Class', data=pd_tarjac, showfliers=False, ax=ax1)
 	sns.boxplot(x='Age (MY)', y='Jaccard', hue='miRNA Class', data=pd_disjac, showfliers=False, ax=ax3)
 
-	ax.set_ylabel('')
-	ax.set_ylabel('')
+	ax1.set_ylabel('')
+	ax2.set_ylabel('')
 
 
 
