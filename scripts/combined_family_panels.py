@@ -83,12 +83,12 @@ def genfig1():
 def genfig2():
 	f, ((ax1, ax2, ax3), (ax4, ax5, ax6)) = sns.plt.subplots(2, 3)
 
-	pd_binary_disnum = pd.DataFrame.sort(pd.DataFrame(mirbinary_disnum, columns=['Number of Diseases', 'Age (MY)', 'miRNA Class', 'Type']),columns=['Type', 'Age (MY)'],ascending=[0,1])
-	pd_binary_expnum = pd.DataFrame.sort(pd.DataFrame(mirbinary_expnum, columns=['Number of Tissues', 'Age (MY)', 'miRNA Class', 'Type']),columns=['Type', 'Age (MY)'],ascending=[0,1])
-	pd_binary_tarnum = pd.DataFrame.sort(pd.DataFrame(mirbinary_tarnum, columns=['Number of Targets', 'Age (MY)', 'miRNA Class', 'Type']),columns=['Type', 'Age (MY)'],ascending=[0,1])
-	pd_strat_disnum = pd.DataFrame.sort(pd.DataFrame(mirstrat_disnum, columns=['Number of Diseases', 'Age (MY)', 'miRNA Class', 'Type']),columns=['Type', 'Age (MY)'],ascending=[0,1])
-	pd_strat_expnum = pd.DataFrame.sort(pd.DataFrame(mirstrat_expnum, columns=['Number of Tissues', 'Age (MY)', 'miRNA Class', 'Type']),columns=['Type', 'Age (MY)'],ascending=[0,1])
-	pd_strat_tarnum = pd.DataFrame.sort(pd.DataFrame(mirstrat_tarnum, columns=['Number of Targets', 'Age (MY)', 'miRNA Class', 'Type']),columns=['Type', 'Age (MY)'],ascending=[0,1])
+	pd_binary_disnum = pd.DataFrame.sort(pd.DataFrame(mirbinary_disnum, columns=['Number of Diseases', 'Age (MY)', 'miRNA Class', 'Type']),columns=['Type', 'Age (MY)'],ascending=[1,1])
+	pd_binary_expnum = pd.DataFrame.sort(pd.DataFrame(mirbinary_expnum, columns=['Number of Tissues', 'Age (MY)', 'miRNA Class', 'Type']),columns=['Type', 'Age (MY)'],ascending=[1,1])
+	pd_binary_tarnum = pd.DataFrame.sort(pd.DataFrame(mirbinary_tarnum, columns=['Number of Targets', 'Age (MY)', 'miRNA Class', 'Type']),columns=['Type', 'Age (MY)'],ascending=[1,1])
+	pd_strat_disnum = pd.DataFrame.sort(pd.DataFrame(mirstrat_disnum, columns=['Number of Diseases', 'Age (MY)', 'miRNA Class', 'Type']),columns=['Type', 'Age (MY)'],ascending=[1,1])
+	pd_strat_expnum = pd.DataFrame.sort(pd.DataFrame(mirstrat_expnum, columns=['Number of Tissues', 'Age (MY)', 'miRNA Class', 'Type']),columns=['Type', 'Age (MY)'],ascending=[1,1])
+	pd_strat_tarnum = pd.DataFrame.sort(pd.DataFrame(mirstrat_tarnum, columns=['Number of Targets', 'Age (MY)', 'miRNA Class', 'Type']),columns=['Type', 'Age (MY)'],ascending=[1,1])
 
 	sns.boxplot(x='miRNA Class', y='Number of Tissues', data=pd_binary_expnum, showfliers=False, ax=ax1)
 	sns.boxplot(x='miRNA Class', y='Number of Targets',  data=pd_binary_tarnum, showfliers=False, ax=ax2)
