@@ -82,6 +82,7 @@ def genfig1():
 
 def genfig2():
 	f, ((ax1, ax2, ax3), (ax4, ax5, ax6)) = sns.plt.subplots(2, 3)
+	print ax2
 
 
 
