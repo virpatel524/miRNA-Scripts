@@ -53,7 +53,7 @@ def genfig1():
 	pd_expjac = pd.DataFrame.sort(pd.DataFrame(tmp_expjac, columns=['Jaccard', 'Age (MY)', 'miRNA Class', 'Type']),columns=['Type', 'Age (MY)'])
 	pd_tarjac = pd.DataFrame.sort(pd.DataFrame(tmp_tarjac, columns=['Jaccard', 'Age (MY)', 'miRNA Class', 'Type']),columns=['Type', 'Age (MY)'])
 	
-	f, (ax1, ax2, ax3) = sns.plt.subplots(1, 3, sharey=True , figsize=(45, 10))
+	f, (ax1, ax2, ax3) = sns.plt.subplots(1, 3, sharey=True , figsize=(15, 45))
 
 
 
@@ -80,6 +80,10 @@ mirstrat_tarjac = append_haveage(float_conv(parsecsvexport('../relevant_data/pre
 # mirstrat_disnum = append_haveage(float_conv(parsecsvexport('../relevant_data/precursor_pd/mirstrat_disnum')))
 # mirstrat_expnum = append_haveage(float_conv(parsecsvexport('../relevant_data/precursor_pd/mirstrat_expnum')))
 # mirstrat_tarnum = append_haveage(float_conv(parsecsvexport('../relevant_data/precursor_pd/mirstrat_tarnum')))
+
+
+
+
 
 
 genfig1()
