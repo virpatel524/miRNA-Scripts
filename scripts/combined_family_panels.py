@@ -50,8 +50,8 @@ def genfig1():
 
 
 	pd_disjac = pd.DataFrame.sort(pd.DataFrame(tmp_disjac, columns=['Jaccard Similarity Coefficient', 'Age (MY)', 'miRNA Class', 'Type']),columns=['Type', 'Age (MY)'])
-	pd_expjac = pd.DataFrame.sort(pd.DataFrame(tmp_expjac, columns=['Jaccard', 'Age (MY)', 'miRNA Class', 'Type']),columns=['Type', 'Age (MY)'])
-	pd_tarjac = pd.DataFrame.sort(pd.DataFrame(tmp_tarjac, columns=['Jaccard', 'Age (MY)', 'miRNA Class', 'Type']),columns=['Type', 'Age (MY)'])
+	pd_expjac = pd.DataFrame.sort(pd.DataFrame(tmp_expjac, columns=['Jaccard Similarity Coefficient', 'Age (MY)', 'miRNA Class', 'Type']),columns=['Type', 'Age (MY)'])
+	pd_tarjac = pd.DataFrame.sort(pd.DataFrame(tmp_tarjac, columns=['Jaccard Similarity Coefficient', 'Age (MY)', 'miRNA Class', 'Type']),columns=['Type', 'Age (MY)'])
 	
 	f, (ax1, ax2, ax3) = sns.plt.subplots(3, 1, sharex=True)
 
@@ -62,7 +62,7 @@ def genfig1():
 	sns.boxplot(x='Age (MY)', y='Jaccard', hue='miRNA Class', data=pd_disjac, showfliers=False, ax=ax3)
 
 	ax1.set_ylabel('')
-	ax2.set_ylabel('')
+	ax3.set_ylabel('')
 
 
 
