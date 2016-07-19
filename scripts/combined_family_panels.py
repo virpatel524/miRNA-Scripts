@@ -72,11 +72,9 @@ def genfig1():
 
 	ax3.xaxis.labelpad = 40
 
-	ax1.legend(loc='lower right', bbox_to_anchor=(.95, -.9 ))
+	ax1.legend(loc='lower right', bbox_to_anchor=(.95, -.1 ))
 
-	sns.plt.subplots_adjust(bottom=.9)
-
-	sns.plt.savefig('../figures/disjac_fig.pdf')
+	sns.plt.savefig('../figures/disjac_fig.pdf',bbox_inches='tight')
 	sns.plt.close()
 
 
