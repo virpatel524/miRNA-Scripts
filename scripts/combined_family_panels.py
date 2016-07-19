@@ -97,6 +97,10 @@ def genfig2():
 	sns.boxplot(x='Age (MY)', y='Number of Targets', hue='miRNA Class', data=pd_strat_tarnum, showfliers=False, ax=ax5)
 	sns.boxplot(x='Age (MY)', y='Number of Diseases', hue='miRNA Class', data=pd_strat_disnum, showfliers=False, ax=ax6)
 
+
+	ax5.legend_.remove()
+	ax6.legend_.remove()
+
 	sns.plt.show()
 
 
