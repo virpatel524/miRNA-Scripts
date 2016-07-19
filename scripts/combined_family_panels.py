@@ -83,10 +83,10 @@ def genfig1():
 def genfig2():
 	f, ((ax1, ax2, ax3), (ax4, ax5, ax6)) = sns.plt.subplots(2, 3)
 
-	pd_binary_disnum = pd.DataFrame.sort(pd.DataFrame(tmp_disjac, columns=['Jaccard Similarity Coefficient', 'Age (MY)', 'miRNA Class', 'Type']),columns=['Type', 'Age (MY)'])
-	pd_binary_expnum = pd.DataFrame.sort(pd.DataFrame(tmp_expjac, columns=['Jaccard Similarity Coefficient', 'Age (MY)', 'miRNA Class', 'Type']),columns=['Type', 'Age (MY)'])
-	pd_binary_tarnum = pd.DataFrame.sort(pd.DataFrame(tmp_tarjac, columns=['Jaccard Similarity Coefficient', 'Age (MY)', 'miRNA Class', 'Type']),columns=['Type', 'Age (MY)'])
-	pd_strat_disnum = pd.DataFrame.sort(pd.DataFrame(tmp_disjac, columns=['Jaccard Similarity Coefficient', 'Age (MY)', 'miRNA Class', 'Type']),columns=['Type', 'Age (MY)'])
+	pd_binary_disnum = pd.DataFrame.sort(pd.DataFrame(mirbinary_disnum, columns=['Jaccard Similarity Coefficient', 'Age (MY)', 'miRNA Class', 'Type']),columns=['Type', 'Age (MY)'])
+	pd_binary_expnum = pd.DataFrame.sort(pd.DataFrame(mirbinary_expnum, columns=['Jaccard Similarity Coefficient', 'Age (MY)', 'miRNA Class', 'Type']),columns=['Type', 'Age (MY)'])
+	pd_binary_tarnum = pd.DataFrame.sort(pd.DataFrame(mirbinary_tarnum, columns=['Jaccard Similarity Coefficient', 'Age (MY)', 'miRNA Class', 'Type']),columns=['Type', 'Age (MY)'])
+	pd_strat_disnum = pd.DataFrame.sort(pd.DataFrame(mirstrat_disnum, columns=['Jaccard Similarity Coefficient', 'Age (MY)', 'miRNA Class', 'Type']),columns=['Type', 'Age (MY)'])
 	pd_strat_expnum = pd.DataFrame.sort(pd.DataFrame(tmp_expjac, columns=['Jaccard Similarity Coefficient', 'Age (MY)', 'miRNA Class', 'Type']),columns=['Type', 'Age (MY)'])
 	pd_strat_tarnum = pd.DataFrame.sort(pd.DataFrame(tmp_tarjac, columns=['Jaccard Similarity Coefficient', 'Age (MY)', 'miRNA Class', 'Type']),columns=['Type', 'Age (MY)'])
 
