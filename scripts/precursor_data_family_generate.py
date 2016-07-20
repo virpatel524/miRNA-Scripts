@@ -204,11 +204,13 @@ def db_gen():
 
 
 
-	for alpha in mir_expdb.index:
-		if alpha in mirna2age:
-			if alpha in flatten(mirna2family.values()):
-				if mirna2age[alpha] == 0.0:
-					print sum(mir_expdb.loc[alpha].tolist())
+	for mirna in mirna2age:
+		if mirna in mir_expdb.index:
+			newlst.append([mirna2age[mirna], sum(mir_expdb.loc[mirna].tolist())])
+			if mirna in family_mirs:
+				famlst.append([mirna2age[mirna], sum(mir_expdb.loc[mirna].tolist())])
+			else:
+				nonfamlst.append([mirna2age[mirna], sum(mir_expdb.loc[mirna].tolist())])
 
 
 	return mirna2disease, mirna2age, mirna2family, round_robyn_target, round_robyn_exp, mir_expdb, mir_targetdb
