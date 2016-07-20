@@ -25,9 +25,15 @@ for mirna in mirna2age:
 		else:
 			nonfamlst.append([mirna2age[mirna], sum(mir_expdb.loc[mirna].tolist())])
 
-
+allpd = pd.DataFrame(newlst, columns=['Age (MY)', 'Number'])
 fampd = pd.DataFrame(famlst, columns=['Age (MY)', 'Number'])
 nonfampd = pd.DataFrame(nonfamlst, columns=['Age (MY)', 'Number'])
+
+
+
+sns.regplot(data=fampd, x='Age (MY)', y='Number')
+sns.plt.show()
+sns.plt.close()
 
 sns.regplot(data=fampd, x='Age (MY)', y='Number')
 sns.plt.show()
