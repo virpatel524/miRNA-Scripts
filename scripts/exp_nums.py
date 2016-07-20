@@ -31,7 +31,7 @@ nonfampd = pd.DataFrame(nonfamlst, columns=['Age (MY)', 'Number'])
 
 
 
-sns.regplot(data=fampd, x='Age (MY)', y='Number')
+sns.regplot(data=allpd, x='Age (MY)', y='Number')
 sns.plt.show()
 sns.plt.close()
 
