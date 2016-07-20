@@ -461,6 +461,8 @@ def stratage():
 	for mirna in mir_expdb.index:
 		if mirna not in mirna2age: continue
 		if mirna in fam_mir_lst:
+			if mirna2age[mirna] == 0.0:
+				print sum(mir_expdb.loc[mirna].tolist())
 			mirfamval_expnum.append([sum(mir_expdb.loc[mirna].tolist()), mirna2age[mirna]])
 		else:
 			mirnofamval_expnum.append([sum(mir_expdb.loc[mirna].tolist()), mirna2age[mirna]])
