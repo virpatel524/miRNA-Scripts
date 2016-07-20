@@ -10,3 +10,11 @@ mir_expdb = pd.read_csv('../relevant_data/exp_data_alldmir.txt', sep='\t',index_
 mirna2age = parse_age('../relevant_data/mirna2age_lst.txt')
 
 
+newlst = []
+
+
+for mirna in mirna2age:
+	if mirna in mir_expdb.index:
+		newlst.append([mirna2age, sum(mir_expdb.loc[mirna].tolist())])
+
+print newlst
