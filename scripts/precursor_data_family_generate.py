@@ -209,8 +209,6 @@ def db_gen():
 			if mirna in family_mirs:
 				if mirna2age[mirna] == 0.0:
 					print sum(mir_expdb.loc[mirna].tolist())
-			else:
-				nonfamlst.append([mirna2age[mirna], sum(mir_expdb.loc[mirna].tolist())])
 
 
 	return mirna2disease, mirna2age, mirna2family, round_robyn_target, round_robyn_exp, mir_expdb, mir_targetdb
