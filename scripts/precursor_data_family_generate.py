@@ -210,7 +210,7 @@ def db_gen():
 	for alpha in mir_expdb.index:
 		if alpha in mirna2age:
 			if mirna2age[alpha] == 0.0:
-				print mir_expdb.loc[alpha].tolist()
+				print sum(mir_expdb.loc[alpha].tolist())
 
 
 	return mirna2disease, mirna2age, mirna2family, round_robyn_target, round_robyn_exp, mir_expdb, mir_targetdb
