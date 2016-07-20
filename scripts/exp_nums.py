@@ -32,13 +32,19 @@ nonfampd = pd.DataFrame(nonfamlst, columns=['Age (MY)', 'Number'])
 
 
 sns.regplot(data=allpd, x='Age (MY)', y='Number')
+sns.plt.gca().set_xim([0,1000])
+sns.plt.gca().set_ylim([0,20])
 sns.plt.show()
 sns.plt.close()
 
 sns.regplot(data=fampd, x='Age (MY)', y='Number')
+sns.plt.gca().set_xim([0,1000])
+sns.plt.gca().set_ylim([0,20])
 sns.plt.show()
 sns.plt.close()
 
 sns.regplot(data=nonfampd, x='Age (MY)', y='Number')
+sns.plt.gca().set_xim([0,1000])
+sns.plt.gca().set_ylim([0,20])
 sns.plt.show()
 sns.plt.close()
