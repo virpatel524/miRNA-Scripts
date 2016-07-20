@@ -10,4 +10,3 @@ mir_expdb = pd.read_csv('../relevant_data/exp_data_alldmir.txt', sep='\t',index_
 mirna2age = parse_age('../relevant_data/mirna2age_lst.txt')
 
 
-print mirna2age
