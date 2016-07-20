@@ -12,6 +12,8 @@ mirna2age = parse_age('../relevant_data/mirna2age_lst.txt')
 
 newlst = []
 
+famlst = []
+nonfamlst = []
 
 for mirna in mirna2age:
 	if mirna in mir_expdb.index:
