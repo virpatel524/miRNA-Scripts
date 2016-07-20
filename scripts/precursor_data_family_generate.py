@@ -193,13 +193,7 @@ def db_gen():
 	mirna2age = parse_age('../relevant_data/mirna2age_lst.txt')
 	mirna2family = parse_families('../relevant_data/miFam.dat')
 
-	mirna2family_edited = {}
 
-	for alpha in mirna2family:
-		if len(mirna2family[alpha]) > 3:
-			mirna2family_edited[alpha] = mirna2family[alpha]
-
-	mirna2family = mirna2family_edited.copy()
 
 	round_robyn_target = pd.read_csv('/Users/virpatel/Desktop/pub_stuff/relevant_data/target_heatmap_jaccard_dataframe.txt', sep='\t',index_col=[0])
 	round_robyn_exp = pd.read_csv('/Users/virpatel/Desktop/pub_stuff/relevant_data/tis_exp_heatmap_jaccard_dataframe.txt', sep='\t',index_col=[0])
