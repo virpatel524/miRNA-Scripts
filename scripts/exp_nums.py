@@ -26,3 +26,5 @@ for mirna in mirna2age:
 			nonfamlst.append([mirna2age[mirna], sum(mir_expdb.loc[mirna].tolist())])
 
 
+print len(famlst)
+print len(nonfamlst)
