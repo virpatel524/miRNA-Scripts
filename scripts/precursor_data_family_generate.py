@@ -200,6 +200,9 @@ def db_gen():
 	mir_expdb = pd.read_csv('../relevant_data/exp_data_alldmir.txt', sep='\t',index_col=[0])
 	mir_targetdb = pd.read_csv('/Users/virpatel/Desktop/pub_stuff/relevant_data/mir_target_vectordb.txt', sep='\t',index_col=[0], encoding='utf-8')
 
+	family_mirs = flatten(mirna2family.values()) 
+
+
 
 	for alpha in mir_expdb.index:
 		if alpha in mirna2age:
