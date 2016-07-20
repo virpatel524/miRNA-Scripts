@@ -207,6 +207,11 @@ def db_gen():
 	mir_targetdb = pd.read_csv('/Users/virpatel/Desktop/pub_stuff/relevant_data/mir_target_vectordb.txt', sep='\t',index_col=[0], encoding='utf-8')
 
 
+	for alpha in mir_expdb.index:
+		if alpha in mirna2age:
+			if mirna2age[alpha] == 0.0
+
+
 	return mirna2disease, mirna2age, mirna2family, round_robyn_target, round_robyn_exp, mir_expdb, mir_targetdb
 
 
@@ -462,7 +467,6 @@ def stratage():
 		if mirna not in mirna2age: continue
 		if mirna in fam_mir_lst:
 			if mirna2age[mirna] == 0.0:
-				print sum(mir_expdb.loc[mirna].tolist())
 			mirfamval_expnum.append([sum(mir_expdb.loc[mirna].tolist()), mirna2age[mirna]])
 		else:
 			mirnofamval_expnum.append([sum(mir_expdb.loc[mirna].tolist()), mirna2age[mirna]])
