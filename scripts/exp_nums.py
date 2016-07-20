@@ -17,4 +17,4 @@ for mirna in mirna2age:
 	if mirna in mir_expdb.index:
 		newlst.append([mirna2age, sum(mir_expdb.loc[mirna].tolist())])
 
-print newlst
+print 'hi'
