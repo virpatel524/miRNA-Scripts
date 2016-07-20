@@ -38,3 +38,7 @@ sns.plt.close()
 sns.regplot(data=fampd, x='Age (MY)', y='Number')
 sns.plt.show()
 sns.plt.close()
+
+sns.regplot(data=nonfampd, x='Age (MY)', y='Number')
+sns.plt.show()
+sns.plt.close()
