@@ -7,3 +7,6 @@ def parsecsvexport(txt):
 	data = list(csv.reader(open(txt,'r'),delimiter=',',skipinitialspace=True))
 	return data
 
+def parsetxt(txt):
+	data = list(csv.reader(open(txt,'r'),delimiter='\t',skipinitialspace=True))
+	return data
