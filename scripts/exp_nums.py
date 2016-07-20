@@ -27,3 +27,4 @@ for mirna in mirna2age:
 
 
 fampd = pd.DataFrame(famlst, columns=['Age (MY)', 'Number'])
+nonfampd = pd.DataFrame(nonfamlst, columns=['Age (MY)', 'Number'])
