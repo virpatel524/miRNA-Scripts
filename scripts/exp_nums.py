@@ -21,6 +21,8 @@ for mirna in mirna2age:
 	if mirna in mir_expdb.index:
 		newlst.append([mirna2age[mirna], sum(mir_expdb.loc[mirna].tolist())])
 		if mirna in family_mirs:
+			if mirna2age[mirna] == 0.0:
+				print sum(mir_expdb.loc[mirna].tolist())
 			famlst.append([mirna2age[mirna], sum(mir_expdb.loc[mirna].tolist())])
 		else:
 			nonfamlst.append([mirna2age[mirna], sum(mir_expdb.loc[mirna].tolist())])
