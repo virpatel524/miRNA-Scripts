@@ -532,10 +532,17 @@ def stratage():
 	mod_mirfamval_expjac = add_end_cat(mirfamval_expjac, 'Family')
 	mod_mirnofamval_expjac = add_end_cat(mirnofamval_expjac, 'Non-Family')
 
+	print mod_mirfamval_expjac
+	print mod_mirnofamval_expjac
+
 
 	genfig(join_age_strat(mod_mirfamval_expjac, mod_mirnofamval_expjac), 'mirstrat_tisjac', 'Tissues Jaccard', 'Age (MY)', 3)
 
 	tmplst =  join_age_strat(mod_mirfamval_expjac, mod_mirnofamval_expjac)
+
+
+
+
 
 	with open('../relevant_data/precursor_pd/mirstrat_tisjac', 'wb') as myfile:
 		wr = csv.writer(myfile)
