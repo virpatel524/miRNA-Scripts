@@ -68,7 +68,7 @@ def genfig1():
 	ax1.set_xlabel('')
 	ax2.set_xlabel('')
 
-	ax1.legend(loc='bottom right', frameon=True).get_frame().set_edgecolor('b')
+	ax1.legend(loc='lower right', frameon=True).get_frame().set_edgecolor('b')
 
 	f.subplots_adjust(hspace=0.3)
 	sns.plt.setp([a.get_xticklabels() for a in f.axes[:-1]], visible=False)
