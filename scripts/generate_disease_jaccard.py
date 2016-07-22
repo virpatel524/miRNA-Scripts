@@ -5,4 +5,3 @@ from general_methods import *
 
 disease_data = parse_disease('../relevant_data/hmdd_database.txt')
 
-print disease_data
