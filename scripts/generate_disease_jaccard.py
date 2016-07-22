@@ -19,9 +19,14 @@ def generate_matrix(db, str_rel):
 		print str_rel, ind + 1,  len(db.index)
 		secdic = {}
 		for secitem in db.keys():
-			
+			if secitem in dic:
+				secdic[secitem] = dic[secitem][item]
+				continue
+			a = db[item]
+			b = db[secitem]
+			secdic[secitem] = jaccard_calculate(a,b)
 
-
+		dic[item] = secdic
 
 
 	for ind,item in enumerate(db.index):
