@@ -41,7 +41,7 @@ dispd = pd.DataFrame.sort(pd.DataFrame(newlst, columns=['Jaccard Similarity Coef
 print spearmanr(dispd['Age (MY)'].tolist(), dispd['Jaccard Similarity Coefficent'].tolist())
 
 
-
+sns.boxplot(x='Age (MY)', y='Jaccard Similarity Coefficent', data=dispd,showfliers=False)
 sns.swarmplot(x='Age (MY)', y='Jaccard Similarity Coefficent', data=dispd)
 sns.plt.gca().set_ylim([0, 0.4])
 sns.plt.show()
