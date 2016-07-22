@@ -57,6 +57,10 @@ def do_man():
 			if 'Non-Family' in beta:
 				nonfamlst.append(beta[0])
 
+		
+
+
+
 
 
 
@@ -68,8 +72,6 @@ mirbinary_tarjac = append_allage(float_conv(parsecsvexport('../relevant_data/pre
 mirbinary_disnum = append_allage(float_conv(parsecsvexport('../relevant_data/precursor_pd/mirbinary_disnum')))
 mirbinary_expnum = append_allage(float_conv(parsecsvexport('../relevant_data/precursor_pd/mirbinary_tisnum')))
 mirbinary_tarnum = append_allage(float_conv(parsecsvexport('../relevant_data/precursor_pd/mirbinary_tarnum')))
-
-
 
 all_data = [mirbinary_disjac, mirbinary_expjac, mirbinary_tarjac, mirbinary_disnum, mirbinary_expnum, mirbinary_tarnum]
 data_names = ['mirbinary_disjac', 'mirbinary_expjac', 'mirbinary_tarjac', 'mirbinary_disnum', 'mirbinary_expnum', 'mirbinary_tarnum']
