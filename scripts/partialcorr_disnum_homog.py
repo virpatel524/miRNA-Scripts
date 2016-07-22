@@ -42,7 +42,7 @@ print spearmanr(dispd['Age (MY)'].tolist(), dispd['Jaccard Similarity Coefficent
 
 
 
-sns.violinplot(x='Age (MY)', y='Jaccard Similarity Coefficent', data=dispd, cut=0)
+sns.swarmplot(x='Age (MY)', y='Jaccard Similarity Coefficent', data=dispd)
 sns.plt.gca().set_ylim([0, 0.4])
 sns.plt.show()
 sns.plt.close()
