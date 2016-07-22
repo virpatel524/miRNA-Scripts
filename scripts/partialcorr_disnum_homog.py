@@ -20,4 +20,13 @@ for mirna in disease_jaccard.index:
 	if mirna not in mirna2age: continue
 	namesbin.setdefault(mirna2age[mirna], []).append(mirna)
 
-print namesbin
+newlst = []
+
+for age in namesbin.keys():
+	lst_havedone = []
+	for mirna in namesbin[age]:
+		lst_havedone.append(mirna)
+		for secmirna in namesbin[age]:
+			newlst.append([disease_jaccard[mirna][secmirna], age, ])
+
+
