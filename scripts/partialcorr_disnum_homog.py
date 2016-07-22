@@ -13,4 +13,11 @@ mirna2age = parse_age('../relevant_data/mirna2age_lst.txt')
 
 disease_jaccard = pd.read_csv('../relevant_data/disease_jaccard_dataframe.txt', sep='\t',index_col=[0])
 
-print disease_jaccard
+namesbin = {}
+
+
+for mirna in disease_jaccard.index:
+	if mirna not in mirna2age: continue
+	namesbin.setdefault(mirna2age[mirna], []).append(mirna)
+
+print namesbin
