@@ -31,9 +31,7 @@ for age in namesbin.keys():
 
 dispd = pd.DataFrame.sort(pd.DataFrame(newlst, columns=['Jaccard Similarity Coefficent', 'Age (MY)', 'Number of Diseases']), columns='Age (MY)')
 
+print dispd['Age (MY)']
 
-
-sns.boxplot(x='Age (MY)', y='Jaccard Similarity Coefficent', data=dispd, showfliers=False)
-sns.plt.show()
-sns.plt.close()
+# sns.boxplot(x='Age (MY)', y='Jaccard Similarity Coefficent', data=dispd, showfliers=False)
 
