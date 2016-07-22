@@ -22,7 +22,7 @@ for mirna in disease_jaccard.index:
 	namesbin.setdefault(mirna2age[mirna], []).append(mirna)
 
 
-for alpha in namesbin:
+for alpha in sorted(namesbin.keys()):
 	print len(namesbin[alpha]), alpha
 
 newlst = []
