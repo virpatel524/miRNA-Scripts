@@ -53,7 +53,7 @@ def do_man():
 		nonfamlst = []
 		for beta in alpha:
 			if 'Family' in beta:
-				famlst.append(beta[0])
+=				famlst.append(beta[0])
 			if 'Non-Family' in beta:
 				nonfamlst.append(beta[0])
 
