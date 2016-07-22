@@ -41,6 +41,6 @@ print spearmanr(dispd['Age (MY)'].tolist(), dispd['Jaccard Similarity Coefficent
 
 
 
-sns.boxplot(x='Age (MY)', y='Jaccard Similarity Coefficent', data=dispd, showfliers=False)
+sns.violinplot(x='Age (MY)', y='Jaccard Similarity Coefficent', data=dispd, cut=0)
 sns.plt.show()
 sns.plt.close()
