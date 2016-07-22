@@ -17,6 +17,9 @@ def generate_matrix(db, str_rel):
 	dic = {}
 	for ind, item in enumerate(db.keys()):
 		print str_rel, ind + 1,  len(db.index)
+		secdic = {}
+		for secitem in db.keys():
+			
 
 
 
