@@ -60,16 +60,6 @@ def do_man():
 		print mannwhitneyu(famlst, nonfamlst), data_names[index]
 
 
-
-
-
-
-
-
-
-
-
-
 mirbinary_disjac = append_allage(float_conv(parsecsvexport('../relevant_data/precursor_pd/mirbinary_disjac')))
 mirbinary_expjac = append_allage(float_conv(parsecsvexport('../relevant_data/precursor_pd/mirbinary_expjac')))
 mirbinary_tarjac = append_allage(float_conv(parsecsvexport('../relevant_data/precursor_pd/mirbinary_tarjac')))
@@ -79,3 +69,7 @@ mirbinary_tarnum = append_allage(float_conv(parsecsvexport('../relevant_data/pre
 
 all_data = [mirbinary_disjac, mirbinary_expjac, mirbinary_tarjac, mirbinary_disnum, mirbinary_expnum, mirbinary_tarnum]
 data_names = ['mirbinary_disjac', 'mirbinary_expjac', 'mirbinary_tarjac', 'mirbinary_disnum', 'mirbinary_expnum', 'mirbinary_tarnum']
+
+
+
+do_man()
