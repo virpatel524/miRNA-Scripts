@@ -33,5 +33,7 @@ dispd = pd.DataFrame(newlst, columns=['Jaccard Similarity Coefficent', 'Age (MY)
 
 
 
-
+sns.boxplot(x='Age (MY)', y='Jaccard Similarity Coefficent', data=dispd, showfliers=False)
+sns.plt.show()
+sns.plt.close()
 
