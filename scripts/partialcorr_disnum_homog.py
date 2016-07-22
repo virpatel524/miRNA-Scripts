@@ -29,7 +29,7 @@ for age in namesbin.keys():
 		for secmirna in namesbin[age]:
 			newlst.append([disease_jaccard[mirna][secmirna], age, len(mirna2disease[mirna])])
 
-dispd = pd.DataFrame(newlst, columns=['Jaccard Similarity Coefficent', 'Age (MY)', 'Number of Diseases'])
+dispd = pd.DataFrame.sort(pd.DataFrame(newlst, columns=['Jaccard Similarity Coefficent', 'Age (MY)', 'Number of Diseases']), columns='Age (MY)')
 
 
 
