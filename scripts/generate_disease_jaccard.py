@@ -3,5 +3,6 @@ from data_import import *
 from general_methods import *
 
 
-parse_disease('../relevant_data/hmdd_database.txt')
+disease_data = parse_disease('../relevant_data/hmdd_database.txt')
 
+print disease_data
