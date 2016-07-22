@@ -46,6 +46,7 @@ def append_haveage(lst):
 	return tmp
 
 
+def do_man():
 
 
 
@@ -58,12 +59,6 @@ mirbinary_disnum = append_allage(float_conv(parsecsvexport('../relevant_data/pre
 mirbinary_expnum = append_allage(float_conv(parsecsvexport('../relevant_data/precursor_pd/mirbinary_tisnum')))
 mirbinary_tarnum = append_allage(float_conv(parsecsvexport('../relevant_data/precursor_pd/mirbinary_tarnum')))
 
-mirstrat_disjac = append_haveage(float_conv(parsecsvexport('../relevant_data/precursor_pd/mirstrat_disjac')))
-mirstrat_expjac = append_haveage(float_conv(parsecsvexport('../relevant_data/precursor_pd/mirstrat_tisjac')))
-mirstrat_tarjac = append_haveage(float_conv(parsecsvexport('../relevant_data/precursor_pd/mirstrat_tarjac')))
-mirstrat_disnum = append_haveage(float_conv(parsecsvexport('../relevant_data/precursor_pd/mirstrat_disnum')))
-mirstrat_expnum = append_haveage(float_conv(parsecsvexport('../relevant_data/precursor_pd/mirstrat_expnum')))
-mirstrat_tarnum = append_haveage(float_conv(parsecsvexport('../relevant_data/precursor_pd/mirstrat_tarnum')))
 
 
-print mirbinary_disjac
+all_data = [mirbinary_disjac, mirbinary_expjac, mirbinary_tarjac, mirbinary_disnum, mirbinary_expnum, mirbinary_tarnum]
