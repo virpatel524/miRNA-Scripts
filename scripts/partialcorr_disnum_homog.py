@@ -31,7 +31,9 @@ for age in namesbin.keys():
 
 dispd = pd.DataFrame.sort(pd.DataFrame(newlst, columns=['Jaccard Similarity Coefficent', 'Age (MY)', 'Number of Diseases']), columns='Age (MY)')
 
-print dispd['Age (MY)'].tolist()
+print spearmanr(dispd['Age (MY)'].tolist(), dispd['Jaccard Similarity Coefficent'].tolist())
+
+
 
 # sns.boxplot(x='Age (MY)', y='Jaccard Similarity Coefficent', data=dispd, showfliers=False)
 
