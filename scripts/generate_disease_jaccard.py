@@ -21,4 +21,7 @@ mirna2binary = {}
 
 
 for mirna in disease_data:
-	mirna2binary[mirna] = 
+	mirna2binary[mirna] = generate_class_vector(diseases_biglst, disease_data[mirna])
+
+
+print mirna2binary
