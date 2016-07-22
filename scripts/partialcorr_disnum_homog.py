@@ -8,3 +8,5 @@ from general_methods import *
 
 
 
+mirna2disease = parse_disease()
+mirna2age = parse_age()
