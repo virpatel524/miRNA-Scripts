@@ -5,6 +5,7 @@ from jaccard import *
 from partialcorr import *
 from data_import import * 
 from general_methods import * 
+from scipy.stats import spearmanr, mannwhitneyu
 
 
 
