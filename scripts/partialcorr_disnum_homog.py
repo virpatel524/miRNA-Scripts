@@ -27,6 +27,8 @@ for age in namesbin.keys():
 	for mirna in namesbin[age]:
 		lst_havedone.append(mirna)
 		for secmirna in namesbin[age]:
-			newlst.append([disease_jaccard[mirna][secmirna], age, ])
+			newlst.append([disease_jaccard[mirna][secmirna], age, sum(mirna2disease[mirna])])
+
+print newlst
 
 
