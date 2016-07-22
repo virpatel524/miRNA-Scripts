@@ -29,20 +29,6 @@ def generate_matrix(db, str_rel):
 		dic[item] = secdic
 
 
-	for ind,item in enumerate(db.index):
-		print str_rel, ind + 1,  len(db.index)
-		secdic = {}
-		for secitem in db.index:
-			if secitem in dic:
-				secdic[secitem] = dic[secitem][item]
-				continue
-			a = db.loc[item].tolist()
-			b = db.loc[secitem].tolist()
-			secdic[secitem] = jaccard.jaccard_calculate(a,b)
-
-		dic[item] = secdic
-
-
 	pd_pre = []
 
 	for key in sorted(dic.keys()):
