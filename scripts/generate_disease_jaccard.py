@@ -1,6 +1,7 @@
 import pandas as pd
 from data_import import *
 from general_methods import *
+from jaccard import *
 
 
 def generate_class_vector(biglst, element):
