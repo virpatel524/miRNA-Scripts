@@ -51,6 +51,12 @@ def do_man():
 	for alpha in all_data:
 		famlst = []
 		nonfamlst = []
+		for beta in alpha:
+			if 'Family' in beta:
+				famlst.append(beta[0])
+			if 'Non-Family' in beta:
+				nonfamlst.append(beta[0])
+
 
 
 
@@ -66,3 +72,4 @@ mirbinary_tarnum = append_allage(float_conv(parsecsvexport('../relevant_data/pre
 
 
 all_data = [mirbinary_disjac, mirbinary_expjac, mirbinary_tarjac, mirbinary_disnum, mirbinary_expnum, mirbinary_tarnum]
+data_names = ['mirbinary_disjac', 'mirbinary_expjac', 'mirbinary_tarjac', 'mirbinary_disnum', 'mirbinary_expnum', 'mirbinary_tarnum']
