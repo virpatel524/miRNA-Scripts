@@ -16,7 +16,7 @@ def generate_class_vector(biglst, element):
 def generate_matrix(db, str_rel):
 	dic = {}
 	for ind, item in enumerate(db.keys()):
-		print str_rel, ind + 1,  len(db.index)
+		print str_rel, ind + 1,  len(db.keys())
 		secdic = {}
 		for secitem in db.keys():
 			if secitem in dic:
