@@ -40,7 +40,6 @@ def generate_matrix(db, str_rel):
 	new_pd = pd.DataFrame(pd_pre,columns=sorted(dic.keys()),index=sorted(dic.keys()))
 	new_pd.to_csv('/Users/virpatel/Desktop/pub_stuff/relevant_data/%s_dataframe.txt' %(str_rel), sep='\t', encoding='utf-8')
 
-	return dic
 
 
 
