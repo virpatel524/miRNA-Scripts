@@ -8,5 +8,5 @@ from general_methods import *
 
 
 
-mirna2disease = parse_disease()
-mirna2age = parse_age()
+mirna2disease = parse_disease('../relevant_data/hmdd_database.txt')
+mirna2age = parse_age('../relevant_data/mirna2age_lst.txt')
