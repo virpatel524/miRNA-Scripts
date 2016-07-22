@@ -48,7 +48,7 @@ def append_haveage(lst):
 
 
 def do_man():
-	for alpha in all_data:
+	for index, alpha in enumerate(all_data):
 		famlst = []
 		nonfamlst = []
 		for beta in alpha:
@@ -57,7 +57,11 @@ def do_man():
 			if 'Non-Family' in beta:
 				nonfamlst.append(beta[0])
 
-		
+		print mannwhitneyu(famlst, nonfamlst), data_names[index]
+
+
+
+
 
 
 
