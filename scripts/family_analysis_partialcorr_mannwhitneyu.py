@@ -47,6 +47,9 @@ def append_haveage(lst):
 
 
 def do_man():
+	for alpha in all_data:
+		famlst = []
+		nonfamlst = []
 
 
 
