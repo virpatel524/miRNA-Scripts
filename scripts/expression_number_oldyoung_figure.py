@@ -21,7 +21,7 @@ for mirna in mirna2age:
 
 exppd = pd.DataFrame(newlst, columns=['Age (MY)', 'Number of Tissues'])
 
-sns.stripplot(x='Age (MY)', y='Number of Tissues', data=exppd, jitter=True)
+sns.violinplot(x='Age (MY)', y='Number of Tissues', data=exppd, inner="stick")
 sns.plt.gca().set_ylim([0, 20])
 sns.plt.show()
 sns.plt.close()
