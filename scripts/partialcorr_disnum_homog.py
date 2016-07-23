@@ -23,9 +23,6 @@ for mirna in disease_jaccard.index:
 	namesbin.setdefault(mirna2age[mirna], []).append(mirna)
 
 
-for alpha in sorted(namesbin.keys()):
-	print len(namesbin[alpha]), alpha
-
 newlst = []
 
 for age in namesbin.keys():
@@ -38,7 +35,7 @@ for age in namesbin.keys():
 
 dispd = pd.DataFrame.sort(pd.DataFrame(newlst, columns=['Jaccard Similarity Coefficent', 'Age (MY)', 'Number of Diseases']), columns='Age (MY)')
 
-print pd.DataFrame().as_matrix(dispd)
+print dispd.values()
 
 
 sns.boxplot(x='Age (MY)', y='Jaccard Similarity Coefficent', data=dispd,showfliers=False)
