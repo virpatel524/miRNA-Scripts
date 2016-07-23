@@ -21,7 +21,7 @@ for mirna in mirna2age:
 
 exppd = pd.DataFrame(newlst, columns=['Age (MY)', 'Number of Tissues'])
 
-sns.boxplot(x='Age (MY)', y='Number of Tisuses', data=dispd,showfliers=False)
-sns.stripplot(x='Age (MY)', y='Jaccard Similarity Coefficent', data=dispd, jitter=True, color='k', alpha=0.5)sns.plt.gca().set_ylim([0, 20])
+sns.boxplot(x='Age (MY)', y='Number of Tisuses', data=exppd, showfliers=False)
+sns.stripplot(x='Age (MY)', y='Number of Tisuses', data=dispd, showfliers=False, jitter=True, color='k', alpha=0.5)sns.plt.gca().set_ylim([0, 20])
 sns.plt.show()
 sns.plt.close()
