@@ -30,5 +30,4 @@ for age in namesbin.keys():
 			if secmirna in lst_havedone: continue
 			newlst.append([target_jaccard[mirna][secmirna], age, ])
 
-
-
+tarpd = pd.DataFrame.sort(pd.DataFrame(newlst, columns=['Jaccard Similarity Coefficent', 'Age (MY)'])
