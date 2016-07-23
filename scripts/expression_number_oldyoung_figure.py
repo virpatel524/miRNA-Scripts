@@ -11,4 +11,9 @@ mirna2numexp = {}
 for alpha in mir_expdb.index:
 	mirna2numexp[alpha] = sum(mir_expdb.loc[alpha].tolist())
 
-print mirna2age
+
+newlst = []
+
+for mirna in mirna2age:
+	if mirna in mirna2numexp:
+		newlst.append([mirna2age[mirna], mirna2numexp[mirna]])
