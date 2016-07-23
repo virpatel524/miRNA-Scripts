@@ -82,7 +82,9 @@ def generate_matrix(db, str_rel):
 
 disease_data = parse_disease('../relevant_data/hmdd_database.txt')
 disease_data_collapsed = collapse_cancer_lst(disease_data)
+
 diseases_biglst = sorted(list(set(flatten(disease_data.values()))))
+collapsed_biglst = sorted(list(set(flatten(disease_data_collapsed.values()))))
 
 mirna2binary = {}
 
