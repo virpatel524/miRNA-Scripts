@@ -38,7 +38,7 @@ for age in namesbin.keys():
 		if mirna not in mir_targetdb.index or mirna not in mir_expdb.index: continue
 		lst_havedone.append(mirna)
 		for secmirna in namesbin[age]:
-			if mirna not in mir_targetdb.index or mirna not in mir_expdb.index: continue
+			if secmirna not in mir_targetdb.index or secmirna not in mir_expdb.index: continue
 			if secmirna in lst_havedone: continue
 			tarnum = sum(mir_targetdb.loc[mirna].tolist())
 			expnum = sum(mir_expdb.loc[mirna].tolist())
