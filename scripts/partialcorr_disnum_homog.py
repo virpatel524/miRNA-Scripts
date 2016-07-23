@@ -13,7 +13,7 @@ mirna2disease = parse_disease('../relevant_data/hmdd_database.txt')
 mirna2age = parse_age('../relevant_data/mirna2age_lst.txt')
 
 mir_expdb = pd.read_csv('../relevant_data/exp_data_alldmir.txt', sep='\t',index_col=[0])
-pd.read_csv('../relevant_data/mir_target_vectordb.txt', sep='\t',index_col=[0])
+mir_targetdb = pd.read_csv('../relevant_data/mir_target_vectordb.txt', sep='\t',index_col=[0])
 
 
 
