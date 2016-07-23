@@ -25,9 +25,9 @@ newlst = []
 for age in namesbin.keys():
 	lst_havedone = []
 	for mirna in namesbin[age]:
-		if mirna not in mir_targetdb.index or mirna not in mir_expdb.index: continue
 		lst_havedone.append(mirna)
 		for secmirna in namesbin[age]:
-			if secmirna not in mir_targetdb.index or secmirna not in mir_expdb.index: continue
 			if secmirna in lst_havedone: continue
-			newlst.append([target_jaccard[mirna][secmirna], age, len(mirna2disease[mirna]), tarnum, expnum,tarjac_entry, expjac_entry])
+			newlst.append([target_jaccard[mirna][secmirna], age, ])
+
+
