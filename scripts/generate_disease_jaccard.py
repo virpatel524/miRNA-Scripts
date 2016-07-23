@@ -87,9 +87,12 @@ diseases_biglst = sorted(list(set(flatten(disease_data.values()))))
 collapsed_biglst = sorted(list(set(flatten(disease_data_collapsed.values()))))
 
 mirna2binary = {}
+mirna2binary_collapsed = {}
 
 
 for mirna in disease_data:
 	mirna2binary[mirna] = generate_class_vector(diseases_biglst, disease_data[mirna])
+	mirna2binary_collapsed[mirna] = generate_class_vector(diseases_biglst, disease_data[mirna])
+
 
 generate_matrix(mirna2binary, 'disease_jaccard')
