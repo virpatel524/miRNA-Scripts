@@ -96,3 +96,4 @@ for mirna in disease_data:
 
 
 generate_matrix(mirna2binary, 'disease_jaccard')
+generate_matrix(mirna2binary_collapsed, 'disease_collapsed_jaccard')
