@@ -90,7 +90,7 @@ for age in namesbin.keys():
 
 dispd = pd.DataFrame.sort(pd.DataFrame(newlst, columns=['Jaccard Similarity Coefficent', 'Age (MY)', 'Number of Diseases', 'Number of Targets', 'Number of Tissues', 'Target Jaccard', 'Expression Jaccard']), columns='Age (MY)')
 
-print spearmanr(dispd['Jaccard Similarity Coefficent', 'Age (MY)'])
+print spearmanr(dispd['Jaccard Similarity Coefficent'], dispd['Age (MY)'])
 
 sns.boxplot(x='Age (MY)', y='Jaccard Similarity Coefficent', data=dispd,showfliers=False)
 sns.stripplot(x='Age (MY)', y='Jaccard Similarity Coefficent', data=dispd, jitter=True, color='k', alpha=0.5)
