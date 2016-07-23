@@ -17,7 +17,6 @@ namesbin = {}
 
 for mirna in target_jaccard.index:
 	if mirna not in mirna2age: continue
-	if mirna2age[mirna] == 220.2 or mirna2age[mirna] == 324.5: continue
 	namesbin.setdefault(mirna2age[mirna], []).append(mirna)
 
 
@@ -31,8 +30,4 @@ for age in namesbin.keys():
 		for secmirna in namesbin[age]:
 			if secmirna not in mir_targetdb.index or secmirna not in mir_expdb.index: continue
 			if secmirna in lst_havedone: continue
-			tarnum = sum(mir_targetdb.loc[mirna].tolist())
-			expnum = sum(mir_expdb.loc[mirna].tolist())
-			tarjac_entry = target_jaccard[mirna][secmirna]
-			expjac_entry = exp_jaccard[mirna][secmirna]
 			newlst.append([target_jaccard[mirna][secmirna], age, len(mirna2disease[mirna]), tarnum, expnum,tarjac_entry, expjac_entry])
