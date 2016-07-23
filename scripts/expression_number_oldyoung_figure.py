@@ -17,3 +17,4 @@ newlst = []
 for mirna in mirna2age:
 	if mirna in mirna2numexp:
 		newlst.append([mirna2age[mirna], mirna2numexp[mirna]])
+print newlst
