@@ -15,6 +15,9 @@ mirna2age = parse_age('../relevant_data/mirna2age_lst.txt')
 mir_expdb = pd.read_csv('../relevant_data/exp_data_alldmir.txt', sep='\t',index_col=[0])
 mir_targetdb = pd.read_csv('../relevant_data/mir_target_vectordb.txt', sep='\t',index_col=[0])
 
+exp_jaccard = pd.read_csv('../relevant_data/tis_exp_heatmap_jaccard_dataframe.txt', sep='\t',index_col=[0])
+target_jaccard = pd.read_csv('../relevant_data/target_heatmap_jaccard_dataframe.txt', sep='\t', index_col=[0])
+
 
 disease_jaccard = pd.read_csv('../relevant_data/disease_jaccard_dataframe.txt', sep='\t',index_col=[0])
 
@@ -38,6 +41,7 @@ for age in namesbin.keys():
 			if mirna not in mir_targetdb.index or mirna not in mir_expdb.index: continue
 			tarnum = sum(mir_targetdb.loc[mirna].tolist())
 			expnum = sum(mir_expdb.loc[mirna].tolist())
+
 			newlst.append([disease_jaccard[mirna][secmirna], age, len(mirna2disease[mirna])])
 
 dispd = pd.DataFrame.sort(pd.DataFrame(newlst, columns=['Jaccard Similarity Coefficent', 'Age (MY)', 'Number of Diseases']), columns='Age (MY)')
