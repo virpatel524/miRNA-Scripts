@@ -21,3 +21,6 @@ for mirna in mirna2age:
 
 exppd = pd.DataFrame(newlst, columns=['Age (MY)', 'Number of Tissues'])
 
+sns.swarmplot(x='Age (MY)', y='Number of Tissues', data=exppd)
+sns.plt.show()
+sns.plt.close()
