@@ -25,8 +25,7 @@ disease_jaccard_collapsed = pd.read_csv('../relevant_data/disease_collapsed_jacc
 
 namesbin = {}
 
-
-for mirna in disease_jaccard.index:
+for mirna in disease_jaccard_collapsed.index:
 	if mirna not in mirna2age: continue
 	if mirna2age[mirna] == 220.2 or mirna2age[mirna] == 324.5: continue
 	namesbin.setdefault(mirna2age[mirna], []).append(mirna)
