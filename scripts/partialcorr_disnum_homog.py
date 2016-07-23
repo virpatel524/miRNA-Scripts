@@ -21,6 +21,7 @@ target_jaccard = pd.read_csv('../relevant_data/target_heatmap_jaccard_dataframe.
 
 
 disease_jaccard = pd.read_csv('../relevant_data/disease_jaccard_dataframe.txt', sep='\t',index_col=[0])
+disease_jaccard_collapsed = pd.read_csv('../relevant_data/disease_collapsed_jaccard_dataframe.txt', sep='\t',index_col=[0])
 
 namesbin = {}
 
