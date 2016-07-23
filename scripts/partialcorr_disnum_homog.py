@@ -49,7 +49,6 @@ for age in namesbin.keys():
 
 dispd = pd.DataFrame.sort(pd.DataFrame(newlst, columns=['Jaccard Similarity Coefficent', 'Age (MY)', 'Number of Diseases', 'Number of Targets', 'Number of Tissues', 'Target Jaccard', 'Expression Jaccard']), columns='Age (MY)')
 
-np.savetxt( '../relevant_data/partialcorr_alldata.txt', partial_corr(dispd.values))
 
 
 sns.boxplot(x='Age (MY)', y='Jaccard Similarity Coefficent', data=dispd,showfliers=False)
@@ -91,13 +90,10 @@ for age in namesbin.keys():
 
 dispd = pd.DataFrame.sort(pd.DataFrame(newlst, columns=['Jaccard Similarity Coefficent', 'Age (MY)', 'Number of Diseases', 'Number of Targets', 'Number of Tissues', 'Target Jaccard', 'Expression Jaccard']), columns='Age (MY)')
 
-np.savetxt( '../relevant_data/partialcorr_alldata.txt', partial_corr(dispd.values))
-
-
 sns.boxplot(x='Age (MY)', y='Jaccard Similarity Coefficent', data=dispd,showfliers=False)
 sns.stripplot(x='Age (MY)', y='Jaccard Similarity Coefficent', data=dispd, jitter=True, color='k', alpha=0.5)
 sns.plt.gca().set_ylim([0, 0.4])
-sns.plt.savefig('../figures/disease_homo.pdf',bbox_inches='tight')
+sns.plt.savefig('../figures/disease_homo_collapsed.pdf',bbox_inches='tight')
 sns.plt.close()
 
 
