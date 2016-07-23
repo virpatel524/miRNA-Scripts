@@ -92,7 +92,7 @@ mirna2binary_collapsed = {}
 
 for mirna in disease_data:
 	mirna2binary[mirna] = generate_class_vector(diseases_biglst, disease_data[mirna])
-	mirna2binary_collapsed[mirna] = generate_class_vector(collapsed_biglst, disease_data[mirna])
+	mirna2binary_collapsed[mirna] = generate_class_vector(collapsed_biglst, disease_data_collapsed[mirna])
 
 
 generate_matrix(mirna2binary, 'disease_jaccard')
