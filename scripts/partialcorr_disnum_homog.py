@@ -41,8 +41,9 @@ for age in namesbin.keys():
 			if secmirna in lst_havedone: continue
 			tarnum = sum(mir_targetdb.loc[mirna].tolist())
 			expnum = sum(mir_expdb.loc[mirna].tolist())
-
-			newlst.append([disease_jaccard[mirna][secmirna], age, len(mirna2disease[mirna])])
+			tarjac_entry = target_jaccard[mirna][secmirna]
+			expjac_entry = exp_jaccard[mirna][secmirna]
+			newlst.append([disease_jaccard[mirna][secmirna], age, len(mirna2disease[mirna]), tarnum, expnum,tarjac_entry, expjac_entry])
 
 dispd = pd.DataFrame.sort(pd.DataFrame(newlst, columns=['Jaccard Similarity Coefficent', 'Age (MY)', 'Number of Diseases']), columns='Age (MY)')
 
