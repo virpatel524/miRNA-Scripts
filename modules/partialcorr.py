@@ -31,7 +31,9 @@ def partial_corr(C):
             res_j = C[:, j] - C[:, idx].dot( beta_i)
             res_i = C[:, i] - C[:, idx].dot(beta_j)
             
-            corr = stats.spearmanr(res_i, res_j)[-1]
+            corr = stats.spearmanr(res_i, res_j)[0]
+            print corr, stats.spearmanr(res_i, res_j)[-1]
+
             P_corr[i, j] = corr
             P_corr[j, i] = corr
         
