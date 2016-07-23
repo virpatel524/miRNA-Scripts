@@ -25,7 +25,7 @@ disease_jaccard_collapsed = pd.read_csv('../relevant_data/disease_collapsed_jacc
 
 namesbin = {}
 
-for mirna in disease_jaccard_collapsed.index:
+for mirna in disease_jaccard.index:
 	if mirna not in mirna2age: continue
 	if mirna2age[mirna] == 220.2 or mirna2age[mirna] == 324.5: continue
 	namesbin.setdefault(mirna2age[mirna], []).append(mirna)
@@ -57,3 +57,51 @@ sns.stripplot(x='Age (MY)', y='Jaccard Similarity Coefficent', data=dispd, jitte
 sns.plt.gca().set_ylim([0, 0.4])
 sns.plt.savefig('../figures/disease_homo.pdf',bbox_inches='tight')
 sns.plt.close()
+
+
+
+
+
+
+
+
+namesbin = {}
+
+for mirna in disease_jaccard_collapsed.index:
+	if mirna not in mirna2age: continue
+	if mirna2age[mirna] == 220.2 or mirna2age[mirna] == 324.5: continue
+	namesbin.setdefault(mirna2age[mirna], []).append(mirna)
+
+
+newlst = []
+
+for age in namesbin.keys():
+	lst_havedone = []
+	for mirna in namesbin[age]:
+		if mirna not in mir_targetdb.index or mirna not in mir_expdb.index: continue
+		lst_havedone.append(mirna)
+		for secmirna in namesbin[age]:
+			if secmirna not in mir_targetdb.index or secmirna not in mir_expdb.index: continue
+			if secmirna in lst_havedone: continue
+			tarnum = sum(mir_targetdb.loc[mirna].tolist())
+			expnum = sum(mir_expdb.loc[mirna].tolist())
+			tarjac_entry = target_jaccard[mirna][secmirna]
+			expjac_entry = exp_jaccard[mirna][secmirna]
+			newlst.append([disease_jaccard_collapsed[mirna][secmirna], age, len(mirna2disease[mirna]), tarnum, expnum,tarjac_entry, expjac_entry])
+
+dispd = pd.DataFrame.sort(pd.DataFrame(newlst, columns=['Jaccard Similarity Coefficent', 'Age (MY)', 'Number of Diseases', 'Number of Targets', 'Number of Tissues', 'Target Jaccard', 'Expression Jaccard']), columns='Age (MY)')
+
+np.savetxt( '../relevant_data/partialcorr_alldata.txt', partial_corr(dispd.values))
+
+
+sns.boxplot(x='Age (MY)', y='Jaccard Similarity Coefficent', data=dispd,showfliers=False)
+sns.stripplot(x='Age (MY)', y='Jaccard Similarity Coefficent', data=dispd, jitter=True, color='k', alpha=0.5)
+sns.plt.gca().set_ylim([0, 0.4])
+sns.plt.savefig('../figures/disease_homo.pdf',bbox_inches='tight')
+sns.plt.close()
+
+
+
+
+
+
