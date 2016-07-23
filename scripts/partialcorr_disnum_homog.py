@@ -49,7 +49,7 @@ for age in namesbin.keys():
 
 dispd = pd.DataFrame.sort(pd.DataFrame(newlst, columns=['Jaccard Similarity Coefficent', 'Age (MY)', 'Number of Diseases', 'Number of Targets', 'Number of Tissues', 'Target Jaccard', 'Expression Jaccard']), columns='Age (MY)')
 
-np.savetxt(partial_corr(dispd.values), '../relevant_data/partialcorr_alldata.txt')
+np.savetxt( '../relevant_data/partialcorr_alldata.txt', partial_corr(dispd.values))
 
 
 sns.boxplot(x='Age (MY)', y='Jaccard Similarity Coefficent', data=dispd,showfliers=False)
