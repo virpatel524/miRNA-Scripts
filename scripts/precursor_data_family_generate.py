@@ -244,7 +244,7 @@ def simple_family_nofamily():
 
 	tmplst = join_simple(mod_mirfamval_disnum, mod_mirnofamval_disnum)
 
-	print zip(mirfamval_disnum)[0]
+	print mirfamval_disnum[0]
 
 	man, p = mannwhitneyu(zip(mirfamval_disnum)[0], zip(mirnofamval_disnum)[0])
 
