@@ -398,7 +398,7 @@ def simple_family_nofamily():
 		wr = csv.writer(myfile)
 		wr.writerows(tmplst)
 
-	man, p = mannwhitneyu(zip(mirfamval_tarjac)[0], zip(mirnofamval_expjac)[0])
+	man, p = mannwhitneyu(zip(mirfamval_tarjac)[0], zip(mirnofamval_tarjac)[0])
 	mannwhitfle.write('mirbinary_expjac\t%.3f\t%.3f\n' %(man,p))
 
 
