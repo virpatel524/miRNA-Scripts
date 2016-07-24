@@ -365,6 +365,8 @@ def simple_family_nofamily():
 
 	genfig(join_simple(mod_mirfamval_expjac, mod_mirnofamval_expjac), 'mirbinary_tisjac', 'Jaccard Tissues', 'miRNA Class', 2)
 
+	man, p = mannwhitneyu(zip(mirfamval_expjac)[0], zip(mirnofamval_expjac)[0])
+	mannwhitfle.write('mirbinary_expjac\t%.3f\t%.3f\n' %(man,p))
 
 	tmplst = join_simple(mod_mirfamval_expjac, mod_mirnofamval_expjac)
 
@@ -395,6 +397,9 @@ def simple_family_nofamily():
 	with open('../relevant_data/precursor_pd/mirbinary_tarjac', 'wb') as myfile:
 		wr = csv.writer(myfile)
 		wr.writerows(tmplst)
+
+	man, p = mannwhitneyu(zip(mirfamval_tarjac)[0], zip(mirnofamval_expjac)[0])
+	mannwhitfle.write('mirbinary_expjac\t%.3f\t%.3f\n' %(man,p))
 
 
 	return argslst_nums, argslst_jac
