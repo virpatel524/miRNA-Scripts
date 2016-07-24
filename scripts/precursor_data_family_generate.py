@@ -5,7 +5,7 @@ from data_import import *
 import sys
 from jaccard import jaccard_calculate
 from general_methods import parsetxt
-
+from scipy.stats import mannwhitneyu
 
 
 
@@ -244,6 +244,7 @@ def simple_family_nofamily():
 
 	tmplst = join_simple(mod_mirfamval_disnum, mod_mirnofamval_disnum)
 
+	man, p = mannwhit
 	with open('../relevant_data/precursor_pd/mirbinary_disnum', 'wb') as myfile:
 		wr = csv.writer(myfile)
 		wr.writerows(tmplst)
