@@ -335,6 +335,10 @@ def simple_family_nofamily():
 
 	genfig(join_simple(mod_mirfamval_disjac, mod_mirnofamval_disjac), 'mirbinary_disjac', 'Jaccard Diseases', 'miRNA Class', 2)
 
+
+	man, p = mannwhitneyu(zip(mirfamval_expnum)[0], zip(mirnofamval_expnum)[0])
+	mannwhitfle.write('mirbinary_disjac\t%.3f\t%.3f\n' %(man,p))
+
 	tmplst = join_simple(mod_mirfamval_disjac, mod_mirnofamval_disjac)
 
 	with open('../relevant_data/precursor_pd/mirbinary_disjac', 'wb') as myfile:
