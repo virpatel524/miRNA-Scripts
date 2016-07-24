@@ -245,6 +245,9 @@ def simple_family_nofamily():
 	tmplst = join_simple(mod_mirfamval_disnum, mod_mirnofamval_disnum)
 
 	man, p = mannwhitneyu(zip(mirfamval_disnum)[0], zip(mirnofamval_disnum)[0])
+
+	print zip(mirfamval_disnum)[0]
+
 	mannwhitfle.write('mirbinary_disnum\t%.3f\t%.3f\n' %(man,p))
 	with open('../relevant_data/precursor_pd/mirbinary_disnum', 'wb') as myfile:
 		wr = csv.writer(myfile)
