@@ -244,7 +244,6 @@ def simple_family_nofamily():
 
 	tmplst = join_simple(mod_mirfamval_disnum, mod_mirnofamval_disnum)
 
-	print mirfamval_disnum
 
 	man, p = mannwhitneyu(mirfamval_disnum, mirnofamval_disnum)
 
@@ -280,7 +279,7 @@ def simple_family_nofamily():
 	tmplst = join_simple(mod_mirfamval_tarnum, mod_mirnofamval_tarnum)
 
 
-	man, p = mannwhitneyu(zip(mirfamval_targetnum)[0], zip(mirnofamval_targetnum)[0])
+	man, p = mannwhitneyu(mirfamval_targetnum, mirnofamval_targetnum)
 	mannwhitfle.write('mirbinary_tarnum\t%.3f\t%.3f\n' %(man,p))
 
 	with open('../relevant_data/precursor_pd/mirbinary_tarnum', 'wb') as myfile:
@@ -308,7 +307,7 @@ def simple_family_nofamily():
 
 	genfig(join_simple(mod_mirfamval_expnum, mod_mirnofamval_expnum), 'mirbinary_tisnum', 'Number of Tissues', 'miRNA Class', 2)
 
-	man, p = mannwhitneyu(zip(mirfamval_expnum)[0], zip(mirnofamval_expnum)[0])
+	man, p = mannwhitneyu(mirfamval_expnum, mirnofamval_expnum)
 	mannwhitfle.write('mirbinary_expnum\t%.3f\t%.3f\n' %(man,p))
 
 	tmplst = join_simple(mod_mirfamval_expnum, mod_mirnofamval_expnum)
@@ -340,7 +339,7 @@ def simple_family_nofamily():
 	genfig(join_simple(mod_mirfamval_disjac, mod_mirnofamval_disjac), 'mirbinary_disjac', 'Jaccard Diseases', 'miRNA Class', 2)
 
 
-	man, p = mannwhitneyu(zip(mirfamval_disjac)[0], zip(mirnofamval_disjac)[0])
+	man, p = mannwhitneyu(mirfamval_disjac, mirnofamval_disjac)
 	mannwhitfle.write('mirbinary_disjac\t%.3f\t%.3f\n' %(man,p))
 
 	tmplst = join_simple(mod_mirfamval_disjac, mod_mirnofamval_disjac)
@@ -369,7 +368,7 @@ def simple_family_nofamily():
 
 	genfig(join_simple(mod_mirfamval_expjac, mod_mirnofamval_expjac), 'mirbinary_tisjac', 'Jaccard Tissues', 'miRNA Class', 2)
 
-	man, p = mannwhitneyu(zip(mirfamval_expjac)[0], zip(mirnofamval_expjac)[0])
+	man, p = mannwhitneyu(mirfamval_expjac, mirnofamval_expjac)
 	mannwhitfle.write('mirbinary_expjac\t%.3f\t%.3f\n' %(man,p))
 
 	tmplst = join_simple(mod_mirfamval_expjac, mod_mirnofamval_expjac)
@@ -402,7 +401,7 @@ def simple_family_nofamily():
 		wr = csv.writer(myfile)
 		wr.writerows(tmplst)
 
-	man, p = mannwhitneyu(zip(mirfamval_tarjac)[0], zip(mirnofamval_tarjac)[0])
+	man, p = mannwhitneyu(mirfamval_tarjac, mirnofamval_tarjac)
 	mannwhitfle.write('mirbinary_tarjac\t%.3f\t%.3f\n' %(man,p))
 
 
