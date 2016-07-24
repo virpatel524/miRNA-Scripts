@@ -304,6 +304,8 @@ def simple_family_nofamily():
 
 	genfig(join_simple(mod_mirfamval_expnum, mod_mirnofamval_expnum), 'mirbinary_tisnum', 'Number of Tissues', 'miRNA Class', 2)
 
+	man, p = mannwhitneyu(zip(mirfamval_expnum)[0], zip(mirnofamval_expnum)[0])
+	mannwhitfle.write('mirbinary_expnum\t%.3f\t%.3f\n' %(man,p))
 
 	tmplst = join_simple(mod_mirfamval_expnum, mod_mirnofamval_expnum)
 
