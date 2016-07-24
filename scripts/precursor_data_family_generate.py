@@ -582,5 +582,5 @@ mirna2disease, mirna2age, mirna2family, round_robyn_target, round_robyn_exp, mir
 # numsimp, jacsimp = simple_family_nofamily()
 numstrat, jacstrat = stratage()
 
-
+newfle = open('../relevant_data/mannwhitney_familydata.txt','w')
 
