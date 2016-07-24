@@ -244,7 +244,8 @@ def simple_family_nofamily():
 
 	tmplst = join_simple(mod_mirfamval_disnum, mod_mirnofamval_disnum)
 
-	man, p = mannwhit
+	man, p = mannwhitneyu(zip(mirfamval_disnum)[0], zip(mirnofamval_disnum)[0])
+	mannwhitfle.write('mirbinary_disnum\t%.3f\t%.3f\n' %(man,p))
 	with open('../relevant_data/precursor_pd/mirbinary_disnum', 'wb') as myfile:
 		wr = csv.writer(myfile)
 		wr.writerows(tmplst)
@@ -273,6 +274,10 @@ def simple_family_nofamily():
 	genfig(join_simple(mod_mirfamval_tarnum, mod_mirnofamval_tarnum), 'mirbinary_tarnum', 'Number of Targets', 'miRNA Class', 2)
 
 	tmplst = join_simple(mod_mirfamval_tarnum, mod_mirnofamval_tarnum)
+
+
+	man, p = mannwhitneyu(zip(mirfamval_targetnum)[0], zip(mirnofamval_targetnum)[0])
+	mannwhitfle.write('mirbinary_tarnum\t%.3f\t%.3f\n' %(man,p))
 
 	with open('../relevant_data/precursor_pd/mirbinary_tarnum', 'wb') as myfile:
 		wr = csv.writer(myfile)
