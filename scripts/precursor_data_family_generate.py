@@ -399,7 +399,7 @@ def simple_family_nofamily():
 		wr.writerows(tmplst)
 
 	man, p = mannwhitneyu(zip(mirfamval_tarjac)[0], zip(mirnofamval_tarjac)[0])
-	mannwhitfle.write('mirbinary_expjac\t%.3f\t%.3f\n' %(man,p))
+	mannwhitfle.write('mirbinary_tarjac\t%.3f\t%.3f\n' %(man,p))
 
 
 	return argslst_nums, argslst_jac
