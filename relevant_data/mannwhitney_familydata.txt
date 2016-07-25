@@ -1,6 +1,0 @@
-mirbinary_disnum	32277.500	0.002
-mirbinary_tarnum	105578.500	0.000
-mirbinary_expnum	83256.500	0.000
-mirbinary_disjac	111511066.000	0.000
-mirbinary_expjac	1415884344.000	0.000
-mirbinary_tarjac	1746392852.000	0.000
