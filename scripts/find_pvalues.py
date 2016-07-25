@@ -3,5 +3,6 @@ import csv
 from general_methods import *
 
 
-a = parsetxt('../relevant_data/pvalues_disease.txt')
-print a
+data = parsetxt('../relevant_data/pvalues_disease.txt')
+for alpha in data:
+	print alpha.split('#')[-1]
