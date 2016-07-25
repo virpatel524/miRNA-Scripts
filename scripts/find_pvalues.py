@@ -10,7 +10,7 @@ for alpha in data:
 count = 0
 
 for a in lst:
-	if a < 0.05:
+	if a < 0.01:
 		count += 1
 
 
