@@ -4,5 +4,7 @@ from general_methods import *
 
 
 data = parsetxt('../relevant_data/pvalues_disease.txt')
+total = 
+
 for alpha in data:
-	print float(alpha[0].split('#')[-1].split('=')[-1].split(')')[0]) * 2
+	float(alpha[0].split('#')[-1].split('=')[-1].split(')')[0]) 
