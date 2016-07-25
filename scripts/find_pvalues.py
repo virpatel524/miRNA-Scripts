@@ -1,4 +1,3 @@
-import seaborn as sns
 import csv
 from general_methods import *
 
@@ -8,5 +7,11 @@ lst = []
 
 for alpha in data:
 	lst.append(float(alpha[0].split('#')[-1].split('=')[-1].split(')')[0]))
+count = 0
 
-print lst[0]
+for a in lst:
+	if a > 0.05:
+		count += 1
+
+
+print count
