@@ -248,7 +248,7 @@ def simple_family_nofamily():
 	man, p = mannwhitneyu(mirfamval_disnum, mirnofamval_disnum)
 
 
-	mannwhitfle.write('mirbinary_disnum\t%f\t%f\n' %(man,p))
+	mannwhitfle.write('mirbinary_disnum\t%e\t%e\n' %(man,p))
 	with open('../relevant_data/precursor_pd/mirbinary_disnum', 'wb') as myfile:
 		wr = csv.writer(myfile)
 		wr.writerows(tmplst)
@@ -280,7 +280,7 @@ def simple_family_nofamily():
 
 
 	man, p = mannwhitneyu(mirfamval_targetnum, mirnofamval_targetnum)
-	mannwhitfle.write('mirbinary_tarnum\t%f\t%f\n' %(man,p))
+	mannwhitfle.write('mirbinary_tarnum\t%e\t%e\n' %(man,p))
 
 	with open('../relevant_data/precursor_pd/mirbinary_tarnum', 'wb') as myfile:
 		wr = csv.writer(myfile)
@@ -308,7 +308,7 @@ def simple_family_nofamily():
 	genfig(join_simple(mod_mirfamval_expnum, mod_mirnofamval_expnum), 'mirbinary_tisnum', 'Number of Tissues', 'miRNA Class', 2)
 
 	man, p = mannwhitneyu(mirfamval_expnum, mirnofamval_expnum)
-	mannwhitfle.write('mirbinary_expnum\t%f\t%f\n' %(man,p))
+	mannwhitfle.write('mirbinary_expnum\t%e\t%e\n' %(man,p))
 
 	tmplst = join_simple(mod_mirfamval_expnum, mod_mirnofamval_expnum)
 
@@ -340,7 +340,7 @@ def simple_family_nofamily():
 
 
 	man, p = mannwhitneyu(mirfamval_disjac, mirnofamval_disjac)
-	mannwhitfle.write('mirbinary_disjac\t%f\t%f\n' %(man,p))
+	mannwhitfle.write('mirbinary_disjac\t%e\t%e\n' %(man,p))
 
 	tmplst = join_simple(mod_mirfamval_disjac, mod_mirnofamval_disjac)
 
@@ -369,7 +369,7 @@ def simple_family_nofamily():
 	genfig(join_simple(mod_mirfamval_expjac, mod_mirnofamval_expjac), 'mirbinary_tisjac', 'Jaccard Tissues', 'miRNA Class', 2)
 
 	man, p = mannwhitneyu(mirfamval_expjac, mirnofamval_expjac)
-	mannwhitfle.write('mirbinary_expjac\t%f\t%f\n' %(man,p))
+	mannwhitfle.write('mirbinary_expjac\t%e\t%e\n' %(man,p))
 
 	tmplst = join_simple(mod_mirfamval_expjac, mod_mirnofamval_expjac)
 
@@ -402,7 +402,7 @@ def simple_family_nofamily():
 		wr.writerows(tmplst)
 
 	man, p = mannwhitneyu(mirfamval_tarjac, mirnofamval_tarjac)
-	mannwhitfle.write('mirbinary_tarjac\t%f\t%f\n' %(man,p))
+	mannwhitfle.write('mirbinary_tarjac\t%e\t%e\n' %(man,p))
 
 
 	return argslst_nums, argslst_jac
