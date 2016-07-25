@@ -1,6 +1,6 @@
 import seaborn as sns
 import csv
-import general_methods
+from general_methods import *
 
 
 a = parsetxt('../relevant_data/mannwhitney_familydata.txt')
