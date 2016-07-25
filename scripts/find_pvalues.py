@@ -4,7 +4,9 @@ from general_methods import *
 
 
 data = parsetxt('../relevant_data/pvalues_disease.txt')
-total = 
+lst = []
 
 for alpha in data:
-	float(alpha[0].split('#')[-1].split('=')[-1].split(')')[0]) 
+	lst.append(float(alpha[0].split('#')[-1].split('=')[-1].split(')')[0]))
+
+print len(lst)
