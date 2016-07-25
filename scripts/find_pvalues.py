@@ -9,4 +9,4 @@ lst = []
 for alpha in data:
 	lst.append(float(alpha[0].split('#')[-1].split('=')[-1].split(')')[0]))
 
-print len(lst)
+print lst[0]
