@@ -51,9 +51,8 @@ dispd = pd.DataFrame.sort(pd.DataFrame(newlst, columns=['Jaccard Similarity Coef
 
 print spearmanr(dispd['Jaccard Similarity Coefficent'], dispd['Age (MY)'])
 
-
+sns.violinplot(x='Age (MY)', y='Jaccard Similarity Coefficent', data=dispd,showfliers=False)
 sns.boxplot(x='Age (MY)', y='Jaccard Similarity Coefficent', data=dispd,showfliers=False)
-sns.stripplot(x='Age (MY)', y='Jaccard Similarity Coefficent', data=dispd, jitter=True, color='k', alpha=0.5)
 sns.plt.gca().set_ylim([0, 0.4])
 sns.plt.savefig('../figures/disease_homo.pdf',bbox_inches='tight')
 sns.plt.close()
