@@ -462,7 +462,7 @@ def stratage():
 	genfig(join_age_strat(mod_mirfamval_tarnum, mod_mirnofamval_tarnum), 'mirstrat_tarnum', 'Number of Targets', 'Age (MY)', 3)
 
 
-	tmplst = join_age_strat(mod_mirfamval_disnum, mod_mirnofamval_disnum)
+	tmplst = join_age_strat(mod_mirfamval_tarnum, mod_mirnofamval_tarnum)
 
 	with open('../relevant_data/precursor_pd/mirstrat_tarnum', 'wb') as myfile:
 		wr = csv.writer(myfile)
