@@ -35,5 +35,5 @@ mirna2disease = parse_disease('../relevant_data/hmdd_database.txt')
 
 a = collapse_cancer_lst(mirna2disease)
 
-print list(set(flatten(a.values())))
+print sorted(list(set(flatten(a.values()))))
 
