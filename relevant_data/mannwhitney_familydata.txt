@@ -1,6 +1,0 @@
-mirbinary_disnum	3.227750e+04	1.775209e-03
-mirbinary_tarnum	1.055785e+05	3.779311e-15
-mirbinary_expnum	8.325650e+04	2.137755e-28
-mirbinary_disjac	1.115111e+08	9.607194e-248
-mirbinary_expjac	1.415884e+09	0.000000e+00
-mirbinary_tarjac	1.746393e+09	0.000000e+00
