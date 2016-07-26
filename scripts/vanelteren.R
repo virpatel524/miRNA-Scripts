@@ -26,11 +26,11 @@ print(summary(alpha))
 library("sanon")
 disjac <- read.table("/Users/virpatel/Desktop/pub_stuff/relevant_data/kruskal_data/mirstrat_disjac", header=TRUE, sep=",")
 
-alpha <- sanon(num  ~ grp(class) + strt(age), data = disnum)
+alpha <- sanon(num  ~ grp(class) + strt(age), data = disjac)
 print(summary(alpha))
 
 
-expnum <- read.table("/Users/virpatel/Desktop/pub_stuff/relevant_data/kruskal_data/mirstrat_expnum", header=TRUE, sep=",")
+expjac <- read.table("/Users/virpatel/Desktop/pub_stuff/relevant_data/kruskal_data/mirstrat_expnum", header=TRUE, sep=",")
 
 alpha <- sanon(num  ~ grp(class) + strt(age), data = expnum)
 print(summary(alpha))
