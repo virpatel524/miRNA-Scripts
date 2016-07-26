@@ -597,7 +597,7 @@ mannwhitfle = open('../relevant_data/mannwhitney_familydata.txt','w')
 mirna2disease, mirna2age, mirna2family, round_robyn_target, round_robyn_exp, mir_expdb, mir_targetdb = db_gen()
 # show_jaccard_target()
 
-numsimp, jacsimp = simple_family_nofamily()
-# numstrat, jacstrat = stratage()
+# numsimp, jacsimp = simple_family_nofamily()
+numstrat, jacstrat = stratage()
 
 
