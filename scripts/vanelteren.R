@@ -38,5 +38,5 @@ print(summary(alpha))
 
 tarjac <- read.table("/Users/virpatel/Desktop/pub_stuff/relevant_data/kruskal_data/mirstrat_tarjac", header=TRUE, sep=",")
 
-alpha <- sanon(num  ~ grp(class) + strt(age), data = tarjac)
+alpha <- sanon(jac  ~ grp(class) + strt(age), data = tarjac)
 print(summary(alpha))
