@@ -30,7 +30,7 @@ alpha <- sanon(jac  ~ grp(class) + strt(age), data = disjac)
 print(summary(alpha))
 
 
-expjac <- read.table("/Users/virpatel/Desktop/pub_stuff/relevant_data/kruskal_data/mirstrat_expjac", header=TRUE, sep=",")
+expjac <- read.table("/Users/virpatel/Desktop/pub_stuff/relevant_data/kruskal_data/mirstrat_tisjac", header=TRUE, sep=",")
 
 alpha <- sanon(jac  ~ grp(class) + strt(age), data = expjac)
 print(summary(alpha))
