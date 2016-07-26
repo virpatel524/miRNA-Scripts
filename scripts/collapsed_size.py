@@ -32,3 +32,9 @@ def collapse_cancer_lst(mirna2disease):
 
 
 mirna2disease = parse_disease('../relevant_data/hmdd_database.txt')
+
+a = collapse_cancer_lst(mirna2disease)
+
+len(list(set(flatten(a.values()))))
+
+
