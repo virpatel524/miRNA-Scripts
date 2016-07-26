@@ -7,7 +7,14 @@ print(summary(alpha))
 
 
 expnum <- read.table("/Users/virpatel/Desktop/pub_stuff/relevant_data/kruskal_data/mirstrat_expnum", header=TRUE, sep=",")
-expnum["num"] <- scale(expnum["num"], center = FALSE, scale = max(disnum["num"]))
+expnum["num"] <- scale(expnum["num"], center = FALSE, scale = max(expnum["num"]))
 
-alpha <- sanon(num  ~ grp(class) + strt(age), data = disnum)
+alpha <- sanon(num  ~ grp(class) + strt(age), data = expnum)
+print(summary(alpha))
+
+
+tarnum <- read.table("/Users/virpatel/Desktop/pub_stuff/relevant_data/kruskal_data/mirstrat_tarnum", header=TRUE, sep=",")
+expnum["num"] <- scale(tarnum["num"], center = FALSE, scale = max(expnum["num"]))
+
+alpha <- sanon(num  ~ grp(class) + strt(age), data = expnum)
 print(summary(alpha))
