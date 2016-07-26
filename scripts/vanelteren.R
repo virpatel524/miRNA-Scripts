@@ -18,3 +18,25 @@ tarnum["num"] <- scale(tarnum["num"], center = FALSE, scale = max(tarnum["num"])
 
 alpha <- sanon(num  ~ grp(class) + strt(age), data = tarnum)
 print(summary(alpha))
+
+
+
+
+
+library("sanon")
+disjac <- read.table("/Users/virpatel/Desktop/pub_stuff/relevant_data/kruskal_data/mirstrat_disjac", header=TRUE, sep=",")
+
+alpha <- sanon(num  ~ grp(class) + strt(age), data = disnum)
+print(summary(alpha))
+
+
+expnum <- read.table("/Users/virpatel/Desktop/pub_stuff/relevant_data/kruskal_data/mirstrat_expnum", header=TRUE, sep=",")
+
+alpha <- sanon(num  ~ grp(class) + strt(age), data = expnum)
+print(summary(alpha))
+
+
+tarnum <- read.table("/Users/virpatel/Desktop/pub_stuff/relevant_data/kruskal_data/mirstrat_tarnum", header=TRUE, sep=",")
+
+alpha <- sanon(num  ~ grp(class) + strt(age), data = tarnum)
+print(summary(alpha))
