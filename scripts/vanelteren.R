@@ -4,3 +4,4 @@ disnum["num"] <- scale(disnum["num"], center = FALSE, scale = max(disnum["num"])
 print(disnum)
 
 alpha <- sanon(num  ~ grp(class) + strt(age), data = disnum)
+print(summary(alpha))
