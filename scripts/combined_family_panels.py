@@ -154,4 +154,4 @@ mirstrat_tarnum = append_haveage(float_conv(parsecsvexport('../relevant_data/pre
 
 
 
-genfig2()
+genfig3()
