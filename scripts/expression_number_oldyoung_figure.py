@@ -21,8 +21,8 @@ for mirna in mirna2age:
 
 exppd = pd.DataFrame(newlst, columns=['Age (MY)', 'Number of Tissues'])
 
-sns.violinplot(x='Age (MY)', y='Number of Tissues', data=exppd, cut = 0)
+# sns.violinplot(x='Age (MY)', y='Number of Tissues', data=exppd, cut = 0)
 sns.boxplot(x='Age (MY)', y='Number of Tissues', data=exppd, showfliers=False)
 sns.plt.gca().set_ylim([0, 20])
-sns.plt.savefig('../figures/expression_number_oldyoung.pdf',bbox_inches='tight')
+sns.plt.savefig('../figures/expression_number_oldyoung_boxplotonly.pdf',bbox_inches='tight')
 sns.plt.close()
