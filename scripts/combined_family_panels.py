@@ -110,9 +110,9 @@ def genfig2():
 def genfig3():
 	f, ((ax1, ax2, ax3), (ax4, ax5, ax6)) = sns.plt.subplots(2, 3)
 
-	pd_binary_disjac = pd.DataFrame.sort(pd.DataFrame(mirbinary_disnum, columns=['Number of Diseases', 'Age (MY)', 'miRNA Class', 'Type']),columns=['miRNA Class', 'Age (MY)'],ascending=[False, True])
-	pd_binary_expjac = pd.DataFrame.sort(pd.DataFrame(mirbinary_expnum, columns=['Number of Tissues', 'Age (MY)', 'miRNA Class', 'Type']),columns=['miRNA Class', 'Age (MY)'],ascending=[False, True])
-	pd_binary_tarjac = pd.DataFrame.sort(pd.DataFrame(mirbinary_tarnum, columns=['Number of Targets', 'Age (MY)', 'miRNA Class', 'Type']),columns=['miRNA Class', 'Age (MY)'],ascending=[False, True])
+	pd_binary_disjac = pd.DataFrame.sort(pd.DataFrame(mirbinary_disjac, columns=['Number of Diseases', 'Age (MY)', 'miRNA Class', 'Type']),columns=['miRNA Class', 'Age (MY)'],ascending=[False, True])
+	pd_binary_expjac = pd.DataFrame.sort(pd.DataFrame(mirbinary_expjac, columns=['Number of Tissues', 'Age (MY)', 'miRNA Class', 'Type']),columns=['miRNA Class', 'Age (MY)'],ascending=[False, True])
+	pd_binary_tarjac = pd.DataFrame.sort(pd.DataFrame(mirbinary_tarjac, columns=['Number of Targets', 'Age (MY)', 'miRNA Class', 'Type']),columns=['miRNA Class', 'Age (MY)'],ascending=[False, True])
 	pd_strat_disjac = pd.DataFrame.sort(pd.DataFrame(mirstrat_disnum, columns=['Number of Diseases', 'Age (MY)', 'miRNA Class', 'Type']),columns=['miRNA Class', 'Age (MY)'],ascending=[False, True])
 	pd_strat_expjac = pd.DataFrame.sort(pd.DataFrame(mirstrat_expnum, columns=['Number of Tissues', 'Age (MY)', 'miRNA Class', 'Type']),columns=['miRNA Class', 'Age (MY)'],ascending=[False, True])
 	pd_strat_tarjac = pd.DataFrame.sort(pd.DataFrame(mirstrat_tarnum, columns=['Number of Targets', 'Age (MY)', 'miRNA Class', 'Type']),columns=['miRNA Class', 'Age (MY)'],ascending=[False, True])
