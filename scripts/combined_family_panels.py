@@ -130,7 +130,7 @@ def genfig3():
 	f.subplots_adjust(hspace=0.3)
 	sns.plt.show()
 
-	sns.plt.savefig('../figures/num_allthreefig.pdf')
+	sns.plt.savefig('../figures/alljaccard.pdf')
 
 
 
