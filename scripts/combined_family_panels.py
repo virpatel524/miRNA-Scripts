@@ -122,7 +122,7 @@ def genfig3():
 	sns.boxplot(x='miRNA Class', y='Jaccard Similarity Coefficient',  data=pd_binary_disjac, showfliers=False, ax=ax3)
 	sns.boxplot(x='Age (MY)', y='Jaccard Similarity Coefficient', hue='miRNA Class', data=pd_strat_expjac, showfliers=False, ax=ax4)
 	sns.boxplot(x='Age (MY)', y='Jaccard Similarity Coefficient', hue='miRNA Class', data=pd_strat_tarjac, showfliers=False, ax=ax5)
-	sns.boxplot(x='Age (MY)', y='Jaccard Similarity Coefficient', hue='miRNA Class', data=pd_strat_disnum, showfliers=False, ax=ax6)
+	sns.boxplot(x='Age (MY)', y='Jaccard Similarity Coefficient', hue='miRNA Class', data=pd_strat_disjac, showfliers=False, ax=ax6)
 
 	ax5.legend(loc='upper left', frameon=True).get_frame().set_edgecolor('b')
 	ax4.legend_.remove()
